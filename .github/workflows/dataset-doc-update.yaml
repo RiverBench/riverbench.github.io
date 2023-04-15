@@ -1,0 +1,38 @@
+on:
+  repository_dispatch:
+    types: [dataset-doc-update]
+
+jobs:
+  update_dataset_docs:
+    name: "Update dataset documentation"
+    # Only one job at a time, to avoid confflicts.
+    concurrency: doc-update
+    runs-on: "ubuntu-latest"
+    permissions: write-all
+    env:
+      FROM_REPO: ${{ github.event.client_payload.repo }}
+      FROM_TAG: ${{ github.event.client_payload.tag }}
+    steps:
+      - name: "Checkout the repository"
+        uses: actions/checkout@v3
+
+      - name: "Download the new content"
+        run: |
+          DATASET_ID="${FROM_REPO#RiverBench/dataset-}"
+          VERSION_ID="${FROM_TAG#v}"
+          mkdir -p "docs/datasets/${DATASET_ID}"
+          cd "docs/datasets/${DATASET_ID}"
+          rm -rf "./${VERSION_ID}" || true
+          mkdir "./${VERSION_ID}"
+          cd "./${VERSION_ID}"
+          wget "https://github.com/${FROM_REPO}/releases/download/${FROM_TAG}/docs.tar.gz"
+          tar -xzvf docs.tar.gz
+          rm docs.tar.gz
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: ${{ format('Automatic update of {0} ({1})', github.event.client_payload.repo, github.event.client_payload.tag) }}
+          default_author: github_actions
+          add: docs/datasets/*
+          push: true
