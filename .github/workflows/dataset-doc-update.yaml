@@ -3,6 +3,7 @@ on:
     types: [dataset-doc-update]
 
 jobs:
+  # TODO: trigger compilation
   update_dataset_docs:
     name: "Update dataset documentation"
     # Only one job at a time, to avoid confflicts.
