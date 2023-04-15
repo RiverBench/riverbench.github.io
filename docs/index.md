@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# RiverBench
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+mkdocs test!
 
 ## Commands
 
@@ -15,3 +15,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## TODO
+
+Things!
+
+## License
+
+???
