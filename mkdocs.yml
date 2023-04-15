@@ -1,1 +1,10 @@
 site_name: RiverBench
+theme:
+  name: material
+  features:
+    # Behave like an SPA
+    - navigation.instant
+    # Update anchors in the address bar
+    - navigation.tracking
+    - toc.follow
+    - navigation.top
