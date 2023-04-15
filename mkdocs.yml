@@ -1,4 +1,13 @@
 site_name: RiverBench
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+repo_url: https://github.com/RiverBench/RiverBench
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   features:
@@ -6,5 +15,33 @@ theme:
     - navigation.instant
     # Update anchors in the address bar
     - navigation.tracking
-    - toc.follow
+    - navigation.footer
     - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.view
+
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode
+
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RiverBench
+      name: RiverBench on GitHub
