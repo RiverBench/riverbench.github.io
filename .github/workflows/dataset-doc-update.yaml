@@ -1,9 +1,9 @@
+name: "Update dataset documentation"
 on:
   repository_dispatch:
     types: [dataset-doc-update]
 
 jobs:
-  # TODO: trigger compilation
   update_dataset_docs:
     name: "Update dataset documentation"
     # Only one job at a time, to avoid confflicts.
@@ -37,3 +37,9 @@ jobs:
           default_author: github_actions
           add: docs/datasets/*
           push: true
+
+      - name: "Trigger doc compilation"
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.PAT_DOC_REPO_HOOKS }}
+          event-type: compile-docs

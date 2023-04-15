@@ -1,7 +1,10 @@
+name: Compile documentation
 on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types: [compile-docs]
 
 permissions:
   contents: write
