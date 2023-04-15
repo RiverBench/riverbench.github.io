@@ -2,11 +2,9 @@ site_name: RiverBench
 
 plugins:
   - search
-  - git-revision-date-localized:
-      enable_creation_date: true
 
 repo_url: https://github.com/RiverBench/RiverBench
-edit_uri: edit/main/docs/
+repo_name: RiverBench/RiverBench
 
 theme:
   name: material
@@ -20,7 +18,6 @@ theme:
     - toc.follow
     - search.suggest
     - search.highlight
-    - content.action.view
 
   palette: 
     # Palette toggle for light mode
