@@ -1,0 +1,43 @@
+name: "Update main documentation"
+on:
+  repository_dispatch:
+    types: [main-doc-update]
+
+jobs:
+  update_main_docs:
+    name: "Update main documentation"
+    # Only one job at a time, to avoid confflicts.
+    concurrency: doc-update
+    runs-on: "ubuntu-latest"
+    permissions: write-all
+    env:
+      FROM_TAG: ${{ github.event.client_payload.tag }}
+    steps:
+      - name: "Checkout the repository"
+        uses: actions/checkout@v3
+
+      - name: "Download the new content"
+        run: |
+          VERSION_ID="${FROM_TAG#v}"
+          mkdir -p "docs/profiles"
+          cd "docs/profiles"
+          rm -rf "./${VERSION_ID}" || true
+          mkdir "./${VERSION_ID}"
+          cd "./${VERSION_ID}"
+          wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/profiles_docs.tar.gz"
+          tar -xzvf profiles_docs.tar.gz
+          rm profiles_docs.tar.gz
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: ${{ format('Automatic docs update ({0})', github.event.client_payload.tag) }}
+          default_author: github_actions
+          add: docs/profiles/*
+          push: true
+
+      - name: "Trigger doc compilation"
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.PAT_DOC_REPO_HOOKS }}
+          event-type: compile-docs
