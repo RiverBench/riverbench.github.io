@@ -21,19 +21,20 @@ jobs:
           VERSION_ID="${FROM_TAG#v}"
           mkdir -p "docs/profiles"
           cd "docs/profiles"
-          rm -rf "./${VERSION_ID}" || true
-          mkdir "./${VERSION_ID}"
-          cd "./${VERSION_ID}"
           wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/profiles_docs.tar.gz"
           tar -xzvf profiles_docs.tar.gz
           rm profiles_docs.tar.gz
+          for name in $(ls -1 *.md); do
+            mkdir -p "${name%.md}"
+            mv "${name}" "${name%.md}/${VERSION_ID}.md"
+          done
 
       - name: "Download the new content for the main documentation"
         run: |
           VERSION_ID="${FROM_TAG#v}"
           cd "docs"
           if [ ${VERSION_ID}="dev" ] ; then
-            rm "*.*" || true
+            rm -rf "index.md" "./documentation" || true
             wget "https://github.com/RiverBench/RiverBench/releases/download/dev/docs.tar.gz"
             tar -xzvf docs.tar.gz
             rm docs.tar.gz
