@@ -37,7 +37,7 @@ jobs:
         run: |
           VERSION_ID="${FROM_TAG#v}"
           cd "docs"
-          if [ ${VERSION_ID}="dev" ] ; then
+          if [ "${VERSION_ID}" == "dev" ] ; then
             rm -rf "index.md" "./documentation" || true
             wget "https://github.com/RiverBench/RiverBench/releases/download/dev/docs.tar.gz"
             tar -xzvf docs.tar.gz
