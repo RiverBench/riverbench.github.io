@@ -19,15 +19,17 @@ jobs:
       - name: "Download the new content for profiles"
         run: |
           VERSION_ID="${FROM_TAG#v}"
-          mkdir -p "docs/profiles"
-          cd "docs/profiles"
+          mkdir -p "docs/profiles/temp"
+          cd "docs/profiles/temp"
           wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/profiles_docs.tar.gz"
           tar -xzvf profiles_docs.tar.gz
           rm profiles_docs.tar.gz
           for name in $(ls -1 *.md); do
-            mkdir -p "${name%.md}"
-            mv "${name}" "${name%.md}/${VERSION_ID}.md"
+            mkdir -p "../${name%.md}"
+            mv "${name}" "../${name%.md}/${VERSION_ID}.md"
           done
+          cd ../
+          rm -rf ./temp
 
       - name: "Download the new content for the main documentation"
         run: |
