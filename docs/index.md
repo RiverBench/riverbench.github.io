@@ -2,7 +2,7 @@
 
 Test.
 
-[Licensing](licensing)
+[Licensing](documentation/licensing)
 
 
 ## General information
