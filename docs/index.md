@@ -7,7 +7,6 @@ Test.
 
 ## General information
 
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: dev
 - **<abbr title="A homepage for some thing.">Homepage</abbr>**: [https://riverbench.github.io/](https://riverbench.github.io/)
 - **<abbr title="The knowledge organization system (KOS) used to classify catalog's datasets.">Theme taxonomy</abbr>**: <abbr title="Collection of topic concepts used to annotate RiverBench datasets.">RiverBench topic scheme</abbr> ([rbt:conceptScheme](https://riverbench.github.io/schema/theme#conceptScheme))
 

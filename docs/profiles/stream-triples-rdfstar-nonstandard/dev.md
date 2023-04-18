@@ -2,8 +2,6 @@
 
 Streaming triples (with RDF-star and non-standard extensions)
 
-- **InCatalog**: [https://riverbench.github.io/](https://riverbench.github.io/)
-
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Streaming triples (RDF-star, non-standard)
@@ -14,6 +12,7 @@ Streaming triples (with RDF-star and non-standard extensions)
     - [stream-triples-rdfstar (dev)](https://riverbench.github.io/profiles/stream-triples-rdfstar/dev)
     - [stream-triples-nonstandard (dev)](https://riverbench.github.io/profiles/stream-triples-nonstandard/dev)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: [example-triples (dev)](https://riverbench.github.io/datasets/example-triples/dev)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://riverbench.github.io/](https://riverbench.github.io/)
 
 ## Technical metadata
 
