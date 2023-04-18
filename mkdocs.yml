@@ -13,8 +13,8 @@ theme:
     - navigation.instant
     # Update anchors in the address bar
     - navigation.tracking
-    - navigation.footer
     - navigation.top
+    - navigation.indexes
     - toc.follow
     - search.suggest
     - search.highlight
