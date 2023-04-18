@@ -33,7 +33,7 @@ jobs:
           VERSION_ID="${FROM_TAG#v}"
           cd "docs"
           if [ ${VERSION_ID}="dev" ] ; then
-            rm "*.*"
+            rm "*.*" || true
             wget "https://github.com/RiverBench/RiverBench/releases/download/dev/docs.tar.gz"
             tar -xzvf docs.tar.gz
             rm docs.tar.gz
