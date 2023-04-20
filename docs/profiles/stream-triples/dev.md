@@ -8,19 +8,19 @@ Streaming triples (RDF 1.1 standard only)
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: stream-triples
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: dev
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
-    - [stream-triples-nonstandard (dev)](https://riverbench.github.io/profiles/stream-triples-nonstandard/dev)
-    - [stream-triples-rdfstar-nonstandard (dev)](https://riverbench.github.io/profiles/stream-triples-rdfstar-nonstandard/dev)
-    - [stream-triples-rdfstar (dev)](https://riverbench.github.io/profiles/stream-triples-rdfstar/dev)
-- **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: [example-triples (dev)](https://riverbench.github.io/datasets/example-triples/dev)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://riverbench.github.io/](https://riverbench.github.io/)
+    - [stream-triples-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-triples-rdfstar/dev)
+    - [stream-triples-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-triples-nonstandard/dev)
+    - [stream-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-triples-rdfstar-nonstandard/dev)
+- **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
 
 ## Technical metadata
 
 - **<abbr title="Has profile restriction. The restrictions are joined with the AND operator.">Has restriction</abbr>**: 
     - **Has restriction (1)**    
-        - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a stream of RDF triples.">Triple stream distribution</abbr> ([rb:tripleStreamDistribution](https://riverbench.github.io/schema/metadata#tripleStreamDistribution))
-    - **Has restriction (2)**    
-        - **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://riverbench.github.io/schema/metadata#triples))
-    - **Has restriction (3)**    
         - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: yes
+    - **Has restriction (2)**    
+        - **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://w3id.org/riverbench/schema/metadata#triples))
+    - **Has restriction (3)**    
+        - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a stream of RDF triples.">Triple stream distribution</abbr> ([rb:tripleStreamDistribution](https://w3id.org/riverbench/schema/metadata#tripleStreamDistribution))
 
