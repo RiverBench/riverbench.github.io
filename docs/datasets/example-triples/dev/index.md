@@ -7,7 +7,7 @@ This is an example dataset that is a triple stream. Each element in the stream i
 - **<abbr title="A name given to the resource.">Title</abbr>**: Example triples dataset
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: example-triples
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: dev
-- **<abbr title="A main category of the resource. A resource can have multiple themes.">Theme</abbr>**: <abbr title="Datasets with abstract information (unrelated to the real world).">Abstract data</abbr> ([rbt:abstract](https://riverbench.github.io/schema/theme#abstract))
+- **<abbr title="A main category of the resource. A resource can have multiple themes.">Theme</abbr>**: <abbr title="Datasets with abstract information (unrelated to the real world).">Abstract data</abbr> ([rbt:abstract](https://w3id.org/riverbench/schema/theme#abstract))
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**: 
     - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
     - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
@@ -15,14 +15,14 @@ This is an example dataset that is a triple stream. Each element in the stream i
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: CC0-1.0 ([http://spdx.org/licenses/CC0-1.0](http://spdx.org/licenses/CC0-1.0))
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-03-13
 - **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-04-18
-- **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [example-triples (dev)](https://riverbench.github.io/datasets/example-triples/dev)
+- **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
 
 ## Technical metadata
 
-- **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://riverbench.github.io/schema/metadata#triples))
+- **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://w3id.org/riverbench/schema/metadata#triples))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 132432
 - **Has stream element split**: 
-    - **Type**: Stream elements split by time ([rb:TimeStreamElementSplit](https://riverbench.github.io/schema/metadata#TimeStreamElementSplit))
+    - **Type**: Stream elements split by time ([rb:TimeStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit))
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: The stream is split into 1 second intervals. Each element is one observation.
 - **<abbr title="Indicates that the dataset uses an ontology. The object must be a resource, but it doesn't neccesarily have to be an OWL ontology.">Uses ontology</abbr>**: [https://name-example/p2](https://name-example/p2)
 - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: yes
@@ -39,8 +39,8 @@ This is an example dataset that is a triple stream. Each element in the stream i
 - **<abbr title="A name given to the resource.">Title</abbr>**: 100K elements flat distribution
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `flat_100K.nt.gz`
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
-    - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://riverbench.github.io/schema/metadata#flatDistribution))
-    - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://riverbench.github.io/schema/metadata#partialDistribution))
+    - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
+    - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100000
 - **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 9578677
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
@@ -54,268 +54,268 @@ This is an example dataset that is a triple stream. Each element in the stream i
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `3fe30c6153d278e82f7080c90a86df20`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://riverbench.github.io/datasets/example-triples/dev/files/flat_100K.nt.gz](https://riverbench.github.io/datasets/example-triples/dev/files/flat_100K.nt.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/example-triples/dev/files/flat_100K.nt.gz](https://w3id.org/riverbench/datasets/example-triples/dev/files/flat_100K.nt.gz)
 
 #### <abbr title="Has a dataset statistics object">Has statistics</abbr>
 
 ##### Blank node count statistics
 
-- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://riverbench.github.io/schema/metadata#BlankNodeCountStatistics))
+- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Datatype literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://riverbench.github.io/schema/metadata#DatatypeLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
+- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 550383
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.875703025279211
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
 
 ##### Graph count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://riverbench.github.io/schema/metadata#GraphCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### IRI count statistics
 
-- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://riverbench.github.io/schema/metadata#IriCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 750348
+- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 12
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.50348
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.87570302527921
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 750348
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 3
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.50348
 
 ##### Language string count statistics
 
-- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://riverbench.github.io/schema/metadata#LanguageLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://riverbench.github.io/schema/metadata#LiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
+- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 550383
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.875703025279211
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
 
 ##### Object count statistics
 
-- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://riverbench.github.io/schema/metadata#ObjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1100696
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.00696
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.751406050558422
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1100696
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.00696
 
 ##### Predicate count statistics
 
-- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://riverbench.github.io/schema/metadata#PredicateCountStatistics))
+- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 200000
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 200000
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 
 ##### Quoted triple count statistics
 
-- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://riverbench.github.io/schema/metadata#QuotedTripleCountStatistics))
+- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Simple literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://riverbench.github.io/schema/metadata#PlainLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Statement count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://riverbench.github.io/schema/metadata#StatementCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1100696
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.00696
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.751406050558422
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1100696
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.00696
 
 ##### Subject count statistics
 
-- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://riverbench.github.io/schema/metadata#SubjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.875703025279211
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
 
 ### 100K elements triple stream distribution
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: 100K elements triple stream distribution
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `stream_100K.tar.gz`
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
-    - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://riverbench.github.io/schema/metadata#partialDistribution))
-    - <abbr title="The dataset is distributed as a stream of RDF triples.">Triple stream distribution</abbr> ([rb:tripleStreamDistribution](https://riverbench.github.io/schema/metadata#tripleStreamDistribution))
+    - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
+    - <abbr title="The dataset is distributed as a stream of RDF triples.">Triple stream distribution</abbr> ([rb:tripleStreamDistribution](https://w3id.org/riverbench/schema/metadata#tripleStreamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 12560684
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 12560516
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `7a05fd504e537c1e7b4568d7b20252c8`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `3bb8f847fd87937eed14996d5f5cc82b`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `64e1aa0b43b8529d71cfc125e494825b4822a75f`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `081e96d7fb651069f228548eaf4b47f238d160fb`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://riverbench.github.io/datasets/example-triples/dev/files/stream_100K.tar.gz](https://riverbench.github.io/datasets/example-triples/dev/files/stream_100K.tar.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/example-triples/dev/files/stream_100K.tar.gz](https://w3id.org/riverbench/datasets/example-triples/dev/files/stream_100K.tar.gz)
 
 #### <abbr title="Has a dataset statistics object">Has statistics</abbr>
 
 ##### Blank node count statistics
 
-- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://riverbench.github.io/schema/metadata#BlankNodeCountStatistics))
+- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Datatype literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://riverbench.github.io/schema/metadata#DatatypeLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
+- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 550383
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.875703025279211
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
 
 ##### Graph count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://riverbench.github.io/schema/metadata#GraphCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### IRI count statistics
 
-- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://riverbench.github.io/schema/metadata#IriCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 750348
+- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 12
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.50348
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.87570302527921
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 750348
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 3
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.50348
 
 ##### Language string count statistics
 
-- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://riverbench.github.io/schema/metadata#LanguageLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://riverbench.github.io/schema/metadata#LiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
+- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 550383
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.875703025279211
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
 
 ##### Object count statistics
 
-- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://riverbench.github.io/schema/metadata#ObjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1100696
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.00696
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.751406050558422
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1100696
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.00696
 
 ##### Predicate count statistics
 
-- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://riverbench.github.io/schema/metadata#PredicateCountStatistics))
+- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 200000
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 200000
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 
 ##### Quoted triple count statistics
 
-- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://riverbench.github.io/schema/metadata#QuotedTripleCountStatistics))
+- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Simple literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://riverbench.github.io/schema/metadata#PlainLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Statement count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://riverbench.github.io/schema/metadata#StatementCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1100696
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.00696
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.751406050558422
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1100696
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.00696
 
 ##### Subject count statistics
 
-- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://riverbench.github.io/schema/metadata#SubjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.875703025279211
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 550348
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.50348
 
 ### 10K elements flat distribution
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: 10K elements flat distribution
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `flat_10K.nt.gz`
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
-    - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://riverbench.github.io/schema/metadata#flatDistribution))
-    - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://riverbench.github.io/schema/metadata#partialDistribution))
+    - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
+    - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10000
 - **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 961030
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
@@ -323,274 +323,274 @@ This is an example dataset that is a triple stream. Each element in the stream i
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `3484b1577c130c85b9b0f3cde426aa34`
-        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
-    - **Checksum (2)**    
-        - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `97087a2f6550a848e99d662f211ff88736a10e6f`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://riverbench.github.io/datasets/example-triples/dev/files/flat_10K.nt.gz](https://riverbench.github.io/datasets/example-triples/dev/files/flat_10K.nt.gz)
+    - **Checksum (2)**    
+        - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `3484b1577c130c85b9b0f3cde426aa34`
+        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/example-triples/dev/files/flat_10K.nt.gz](https://w3id.org/riverbench/datasets/example-triples/dev/files/flat_10K.nt.gz)
 
 #### <abbr title="Has a dataset statistics object">Has statistics</abbr>
 
 ##### Blank node count statistics
 
-- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://riverbench.github.io/schema/metadata#BlankNodeCountStatistics))
+- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Datatype literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://riverbench.github.io/schema/metadata#DatatypeLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
+- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 55277
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.884000721220438
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
 
 ##### Graph count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://riverbench.github.io/schema/metadata#GraphCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### IRI count statistics
 
-- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://riverbench.github.io/schema/metadata#IriCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 75272
+- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 12
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.5272
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.884000721220439
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 75272
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 3
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.5272
 
 ##### Language string count statistics
 
-- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://riverbench.github.io/schema/metadata#LanguageLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://riverbench.github.io/schema/metadata#LiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
+- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 55277
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.884000721220438
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
 
 ##### Object count statistics
 
-- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://riverbench.github.io/schema/metadata#ObjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 110544
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.0544
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.768001442440876
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 110544
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.0544
 
 ##### Predicate count statistics
 
-- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://riverbench.github.io/schema/metadata#PredicateCountStatistics))
+- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 20000
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 20000
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 
 ##### Quoted triple count statistics
 
-- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://riverbench.github.io/schema/metadata#QuotedTripleCountStatistics))
+- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Simple literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://riverbench.github.io/schema/metadata#PlainLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Statement count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://riverbench.github.io/schema/metadata#StatementCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 110544
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.0544
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.768001442440876
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 110544
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.0544
 
 ##### Subject count statistics
 
-- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://riverbench.github.io/schema/metadata#SubjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.884000721220438
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
 
 ### 10K elements triple stream distribution
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: 10K elements triple stream distribution
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `stream_10K.tar.gz`
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
-    - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://riverbench.github.io/schema/metadata#partialDistribution))
-    - <abbr title="The dataset is distributed as a stream of RDF triples.">Triple stream distribution</abbr> ([rb:tripleStreamDistribution](https://riverbench.github.io/schema/metadata#tripleStreamDistribution))
+    - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
+    - <abbr title="The dataset is distributed as a stream of RDF triples.">Triple stream distribution</abbr> ([rb:tripleStreamDistribution](https://w3id.org/riverbench/schema/metadata#tripleStreamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1259239
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1259315
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `0498f63c84dca78f80a57c097d3d64bf`
-        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `26c2770a78f92c91387bc7d00b375da382fa7ca2`
+        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `9e13452d8938606204cffcf7464a5c9a89a1c704`
-        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://riverbench.github.io/datasets/example-triples/dev/files/stream_10K.tar.gz](https://riverbench.github.io/datasets/example-triples/dev/files/stream_10K.tar.gz)
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `6c67f20016c1d6a516fff989cd3214c8`
+        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/example-triples/dev/files/stream_10K.tar.gz](https://w3id.org/riverbench/datasets/example-triples/dev/files/stream_10K.tar.gz)
 
 #### <abbr title="Has a dataset statistics object">Has statistics</abbr>
 
 ##### Blank node count statistics
 
-- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://riverbench.github.io/schema/metadata#BlankNodeCountStatistics))
+- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Datatype literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://riverbench.github.io/schema/metadata#DatatypeLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
+- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 55277
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.884000721220438
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
 
 ##### Graph count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://riverbench.github.io/schema/metadata#GraphCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### IRI count statistics
 
-- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://riverbench.github.io/schema/metadata#IriCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 75272
+- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 12
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.5272
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.884000721220439
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 75272
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 3
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.5272
 
 ##### Language string count statistics
 
-- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://riverbench.github.io/schema/metadata#LanguageLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://riverbench.github.io/schema/metadata#LiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
+- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 55277
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.884000721220438
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
 
 ##### Object count statistics
 
-- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://riverbench.github.io/schema/metadata#ObjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 110544
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.0544
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.768001442440876
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 110544
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.0544
 
 ##### Predicate count statistics
 
-- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://riverbench.github.io/schema/metadata#PredicateCountStatistics))
+- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 20000
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 20000
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 
 ##### Quoted triple count statistics
 
-- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://riverbench.github.io/schema/metadata#QuotedTripleCountStatistics))
+- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Simple literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://riverbench.github.io/schema/metadata#PlainLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Statement count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://riverbench.github.io/schema/metadata#StatementCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 110544
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.0544
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.768001442440876
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 110544
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 11.0544
 
 ##### Subject count statistics
 
-- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://riverbench.github.io/schema/metadata#SubjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.884000721220438
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 55272
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.5272
 
 ### Full flat distribution
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Full flat distribution
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: flat_full.nt.gz
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
-    - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://riverbench.github.io/schema/metadata#flatDistribution))
-    - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://riverbench.github.io/schema/metadata#fullDistribution))
+    - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
+    - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 132432
 - **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 12675847
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
@@ -598,264 +598,264 @@ This is an example dataset that is a triple stream. Each element in the stream i
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `2609cf12d67822ead11b3f615e72f22092935a00`
-        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-    - **Checksum (2)**    
-        - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `5b62463c88d1447956428e7930abc028`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://riverbench.github.io/datasets/example-triples/dev/files/flat_full.nt.gz](https://riverbench.github.io/datasets/example-triples/dev/files/flat_full.nt.gz)
+    - **Checksum (2)**    
+        - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `2609cf12d67822ead11b3f615e72f22092935a00`
+        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/example-triples/dev/files/flat_full.nt.gz](https://w3id.org/riverbench/datasets/example-triples/dev/files/flat_full.nt.gz)
 
 #### <abbr title="Has a dataset statistics object">Has statistics</abbr>
 
 ##### Blank node count statistics
 
-- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://riverbench.github.io/schema/metadata#BlankNodeCountStatistics))
+- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Datatype literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://riverbench.github.io/schema/metadata#DatatypeLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
+- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 728308
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.8756098277330424
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
 
 ##### Graph count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://riverbench.github.io/schema/metadata#GraphCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### IRI count statistics
 
-- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://riverbench.github.io/schema/metadata#IriCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 993032
+- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 12
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.498429382626555
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.8756098277330437
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 993032
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 3
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.498429382626555
 
 ##### Language string count statistics
 
-- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://riverbench.github.io/schema/metadata#LanguageLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://riverbench.github.io/schema/metadata#LiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
+- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 728308
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.8756098277330424
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
 
 ##### Object count statistics
 
-- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://riverbench.github.io/schema/metadata#ObjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1456336
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.99685876525311
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.751219655466085
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1456336
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.99685876525311
 
 ##### Predicate count statistics
 
-- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://riverbench.github.io/schema/metadata#PredicateCountStatistics))
+- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 264864
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 264864
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 
 ##### Quoted triple count statistics
 
-- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://riverbench.github.io/schema/metadata#QuotedTripleCountStatistics))
+- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Simple literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://riverbench.github.io/schema/metadata#PlainLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Statement count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://riverbench.github.io/schema/metadata#StatementCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1456336
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.99685876525311
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.751219655466085
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1456336
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.99685876525311
 
 ##### Subject count statistics
 
-- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://riverbench.github.io/schema/metadata#SubjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.8756098277330424
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
 
 ### Full triple stream distribution
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Full triple stream distribution
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: stream_full.tar.gz
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
-    - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://riverbench.github.io/schema/metadata#fullDistribution))
-    - <abbr title="The dataset is distributed as a stream of RDF triples.">Triple stream distribution</abbr> ([rb:tripleStreamDistribution](https://riverbench.github.io/schema/metadata#tripleStreamDistribution))
+    - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
+    - <abbr title="The dataset is distributed as a stream of RDF triples.">Triple stream distribution</abbr> ([rb:tripleStreamDistribution](https://w3id.org/riverbench/schema/metadata#tripleStreamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 132432
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 16624815
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 16624879
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `d883f02c2851574d5e973d57958a2ae5`
-        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `e5d5e8945da703b8f1a855211ee5fa912d536c65`
+        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `05ae8d389c23e731a637c41635a644d04ec4ace9`
-        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://riverbench.github.io/datasets/example-triples/dev/files/stream_full.tar.gz](https://riverbench.github.io/datasets/example-triples/dev/files/stream_full.tar.gz)
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `5ac53adeccb6cbacc2bb815a726bcd2f`
+        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/example-triples/dev/files/stream_full.tar.gz](https://w3id.org/riverbench/datasets/example-triples/dev/files/stream_full.tar.gz)
 
 #### <abbr title="Has a dataset statistics object">Has statistics</abbr>
 
 ##### Blank node count statistics
 
-- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://riverbench.github.io/schema/metadata#BlankNodeCountStatistics))
+- **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Datatype literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://riverbench.github.io/schema/metadata#DatatypeLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
+- **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 728308
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.8756098277330424
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
 
 ##### Graph count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://riverbench.github.io/schema/metadata#GraphCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### IRI count statistics
 
-- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://riverbench.github.io/schema/metadata#IriCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 993032
+- **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 12
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.498429382626555
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 12
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.8756098277330437
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 993032
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 3
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 7.498429382626555
 
 ##### Language string count statistics
 
-- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://riverbench.github.io/schema/metadata#LanguageLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://riverbench.github.io/schema/metadata#LiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
+- **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 728308
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.8756098277330424
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
 
 ##### Object count statistics
 
-- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://riverbench.github.io/schema/metadata#ObjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1456336
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.99685876525311
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.751219655466085
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1456336
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.99685876525311
 
 ##### Predicate count statistics
 
-- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://riverbench.github.io/schema/metadata#PredicateCountStatistics))
+- **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 264864
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 264864
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.0
 
 ##### Quoted triple count statistics
 
-- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://riverbench.github.io/schema/metadata#QuotedTripleCountStatistics))
+- **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Simple literal count statistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://riverbench.github.io/schema/metadata#PlainLiteralCountStatistics))
-- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
+- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset.">Unique count</abbr>**: 0
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
+- **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.0
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.0
 
 ##### Statement count statistics
 
-- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://riverbench.github.io/schema/metadata#StatementCountStatistics))
+- **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 20
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1456336
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.99685876525311
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 5.751219655466085
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1456336
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.99685876525311
 
 ##### Subject count statistics
 
-- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://riverbench.github.io/schema/metadata#SubjectCountStatistics))
+- **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 10
-- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
-- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
 - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 2.8756098277330424
+- **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 728168
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
+- **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 5.498429382626555
 
