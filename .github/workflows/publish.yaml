@@ -12,14 +12,13 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    container: ghcr.io/riverbench/ci-worker:main
     steps:
       - uses: actions/checkout@v3
 
       - name: Generate nav
-        run: |
-          ci-worker nav-gen . mkdocs_2.yml
-          mv mkdocs_2.yml mkdocs.yml
+        uses: docker://ghcr.io/riverbench/ci-worker:main
+        with:
+          args: ci-worker nav-gen . mkdocs_2.yml
 
       - uses: actions/setup-python@v4
         with:
@@ -34,4 +33,6 @@ jobs:
         run: pip install -r requirements.txt 
 
       - name: Deploy site
-        run: mkdocs gh-deploy --force
+        run: |
+          mv mkdocs_2.yml mkdocs.yml
+          mkdocs gh-deploy --force
