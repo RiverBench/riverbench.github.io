@@ -1,3 +1,5 @@
+![RiverBench logo](assets/riverbench_vector_logo.png){ align=right width="150" }
+
 # RiverBench
 
 Test.
@@ -43,3 +45,11 @@ Test.
     - [stream-triples-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-triples-rdfstar/dev)
     - [stream-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-triples-rdfstar-nonstandard/dev)
 
+
+
+----
+
+<figure markdown>
+  ![RiverBench logo as a painting](assets/riverbench_painting.png){ width="400" loading=lazy }
+  <figcaption style="width: 400px">Impression of RiverBench generated with DALL-E.</figcaption>
+</figure>
