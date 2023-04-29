@@ -3,6 +3,10 @@ site_name: RiverBench
 plugins:
   - search
 
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+
 repo_url: https://github.com/RiverBench/RiverBench
 repo_name: RiverBench/RiverBench
 
@@ -34,6 +38,8 @@ theme:
         icon: material/brightness-3
         name: Switch to light mode
 
+  logo: assets/riverbench_vector_icon_white.png
+  favicon: assets/riverbench_vector_icon.png
   icon:
     repo: fontawesome/brands/github
 
