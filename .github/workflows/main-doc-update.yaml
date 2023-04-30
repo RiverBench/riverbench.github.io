@@ -38,18 +38,14 @@ jobs:
           VERSION_ID="${FROM_TAG#v}"
           cd "docs"
           if [ "${VERSION_ID}" == "dev" ] ; then
-            rm -rf "index.md" "./documentation" || true
-            wget "https://github.com/RiverBench/RiverBench/releases/download/dev/docs.tar.gz"
-            tar -xzvf docs.tar.gz
-            rm docs.tar.gz
+            rm "index.md" || true
+            wget "https://github.com/RiverBench/RiverBench/releases/download/dev/index.md"
           else
             mkdir -p "v"
             rm -rf "./v/${VERSION_ID}" || true
             mkdir "./v/${VERSION_ID}"
             cd "./v/${VERSION_ID}"
-            wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/docs.tar.gz"
-            tar -xzvf docs.tar.gz
-            rm docs.tar.gz
+            wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/index.md"
           fi
 
       - name: Commit changes
