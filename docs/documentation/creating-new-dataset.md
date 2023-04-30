@@ -35,21 +35,23 @@ An administrator will be notified your request and will review the form and the 
 
 1. Create a source archive by following the [guide on preparing a source archive](dataset-source-format).
 2. Access the repository created for your dataset and click on "Releases" in the right sidebar.
-3. Click on the "Draft a new release" button to start the process of creating a new release for your dataset.
+3. Click on the "Create a new release" button to start the process of creating a new release for your dataset.
 4. Fill in the following fields for the new release:
-   - **Tag:** Input "source" as the tag for the release.
-   - **Release title:** Enter "Source" as the release name.
-   - **Pre-release:** Check the "Set as a pre-release" option.
-   - Leave the other options unchanged.
+    - Input "source" as the tag for the release.
+    - Enter "Source" as the release name.
+    - Check the "Set as a pre-release" option.
+    - Leave the other options unchanged.
 5. Upload the prepared source archive (triples.tar.gz, quads.tar.gz, or graphs.tar.gz) by dragging and dropping the file into the designated area.
-6. **Publish the release:** Once the source archive is attached, click on the "Publish release" button to finalize and publish the dataset source release.
+6. Once the source archive is attached, click on the "Publish release" button to finalize and publish the dataset source release.
 
 ## Step 4: Fill out the metadata
 
 1. Open the `metadata.ttl` file in your new dataset repository.
 2. Use the information from the issue template you filled out earlier to complete the required fields in the `metadata.ttl` file. Replace the placeholder text with the appropriate information from the template.
-3. Save your changes to the `metadata.ttl` file and commit to the main branch.
-4. Inform the administrator in your issue that you have completed the metadata for your dataset. The admin will then finalize adding the dataset to the suite and provide any necessary assistance.
+    - In the `dcterms:description` field and other free-text fields you can use Markdown formatting.
+3. Open the `LICENSE` file and replace the placeholder text with the license of the dataset. You can find commonly used templates [here](https://github.com/licenses/license-templates/tree/master/templates).
+4. Save your changes and commit to the main branch.
+5. Inform the administrator in your issue that you have completed the metadata for your dataset. The admin will then finalize adding the dataset to the suite and provide any necessary assistance.
 
 ----
 
