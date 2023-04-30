@@ -1,4 +1,4 @@
-# Dataset repository structure
+# Dataset source format
 
 TODO: overview
 
