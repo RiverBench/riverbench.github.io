@@ -16,7 +16,9 @@ Streaming triples or quads (with RDF-star)
     - [stream-triples (dev)](https://w3id.org/riverbench/profiles/stream-triples/dev)
     - [stream-triples-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-triples-rdfstar/dev)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: [stream-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev)
-- **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
+- **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
+    - [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
+    - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
 
 ## Technical metadata
