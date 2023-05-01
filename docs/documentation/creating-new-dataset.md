@@ -4,7 +4,7 @@ This guide explains step-by-step how to propose a new dataset for inclusion in R
 
 ## Step 1: Create a dataset proposal
 
-1. Open a new dataset proposal in the RiverBench repository: **[click HERE](https://github.com/RiverBench/RiverBench/issues/new/choose)** and select "New dataset proposal".
+1. Open a new dataset proposal in the RiverBench repository: **[click HERE](https://github.com/RiverBench/RiverBench/issues/new/choose)** and select "Dataset proposal".
 2. Fill in the form with the required information (see below).
 
 ### General information
