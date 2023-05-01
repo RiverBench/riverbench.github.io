@@ -14,7 +14,9 @@ Flat sequence of triples or quads (with non-standard extensions)
     - [flat-triples (dev)](https://w3id.org/riverbench/profiles/flat-triples/dev)
     - [flat-triples-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-triples-nonstandard/dev)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: [flat-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-mixed-rdfstar-nonstandard/dev)
-- **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
+- **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
+    - [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
+    - [lod-katrina (dev)](https://w3id.org/riverbench/datasets/lod-katrina/dev)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
 
 ## Technical metadata

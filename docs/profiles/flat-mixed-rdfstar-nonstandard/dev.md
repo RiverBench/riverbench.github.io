@@ -21,6 +21,7 @@ Flat sequence of triples or quads (with RDF-star and non-standard extensions). T
     - [flat-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-triples-rdfstar-nonstandard/dev)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
     - [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
+    - [lod-katrina (dev)](https://w3id.org/riverbench/datasets/lod-katrina/dev)
     - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
 

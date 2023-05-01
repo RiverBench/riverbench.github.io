@@ -14,6 +14,7 @@ Flat sequence of triples (with RDF-star)
     - [flat-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-triples-rdfstar-nonstandard/dev)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
     - [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
+    - [lod-katrina (dev)](https://w3id.org/riverbench/datasets/lod-katrina/dev)
     - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
 
@@ -23,7 +24,7 @@ Flat sequence of triples (with RDF-star)
     - **Has restriction (1)**    
         - **<abbr title="Whether the dataset is RDF-star compliant, i.e., does not use any non-standard features. Note that all standard RDF 1.1 datasets also qualify, as RDF-star is a superset of RDF 1.1.">Conforms to W3C RDF-star draft specification as of December 17, 2021</abbr>**: yes
     - **Has restriction (2)**    
-        - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
-    - **Has restriction (3)**    
         - **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://w3id.org/riverbench/schema/metadata#triples))
+    - **Has restriction (3)**    
+        - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
 

@@ -16,6 +16,7 @@ Test.
 
 - **<abbr title="A collection of data that is listed in the catalog.">Has dataset</abbr>**: 
     - [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
+    - [lod-katrina (dev)](https://w3id.org/riverbench/datasets/lod-katrina/dev)
     - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
 - **<abbr title="Indicates benchmark profiles that belong to this benchmark suite.">Has benchmark profile</abbr>**: 
     - [flat-mixed (dev)](https://w3id.org/riverbench/profiles/flat-mixed/dev)
