@@ -23,7 +23,7 @@ Flat sequence of quads (with non-standard extensions)
             - <abbr title="Graph streams are a special case of quad streams, where each element contains exactly one named RDF graph.">Graphs</abbr> ([rb:graphs](https://w3id.org/riverbench/schema/metadata#graphs))
             - <abbr title="Quad streams consist of elements, where each element is an RDF dataset.">Quads</abbr> ([rb:quads](https://w3id.org/riverbench/schema/metadata#quads))
     - **Has restriction (2)**    
-        - **<abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr>**: no
-    - **Has restriction (3)**    
         - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
+    - **Has restriction (3)**    
+        - **<abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr>**: no
 
