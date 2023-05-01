@@ -15,6 +15,7 @@ Flat sequence of quads (RDF 1.1 standard only)
     - [flat-quads-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-quads-nonstandard/dev)
     - [flat-quads-rdfstar (dev)](https://w3id.org/riverbench/profiles/flat-quads-rdfstar/dev)
     - [flat-quads-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-quads-rdfstar-nonstandard/dev)
+- **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: [nanopubs (dev)](https://w3id.org/riverbench/datasets/nanopubs/dev)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
 
 ## Technical metadata
