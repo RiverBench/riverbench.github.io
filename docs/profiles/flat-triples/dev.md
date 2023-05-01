@@ -16,6 +16,7 @@ Flat sequence of triples (RDF 1.1 standard only)
     - [flat-triples-rdfstar (dev)](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev)
     - [flat-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-triples-rdfstar-nonstandard/dev)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
+    - [citypulse-traffic (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev)
     - [example-triples (dev)](https://w3id.org/riverbench/datasets/example-triples/dev)
     - [linked-spending (dev)](https://w3id.org/riverbench/datasets/linked-spending/dev)
     - [lod-katrina (dev)](https://w3id.org/riverbench/datasets/lod-katrina/dev)
