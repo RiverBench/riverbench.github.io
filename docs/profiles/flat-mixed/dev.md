@@ -2,6 +2,12 @@
 
 Flat sequence of triples or quads (RDF 1.1 standard only)
 
+!!! info
+
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-mixed/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-mixed/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-mixed/dev.rdf)**
+
+
+
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of triples or quads (standard)

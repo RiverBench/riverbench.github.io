@@ -2,6 +2,12 @@
 
 Flat sequence of triples (with RDF-star and non-standard extensions)
 
+!!! info
+
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-triples-rdfstar-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-triples-rdfstar-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-triples-rdfstar-nonstandard/dev.rdf)**
+
+
+
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of triples (RDF-star, non-standard)

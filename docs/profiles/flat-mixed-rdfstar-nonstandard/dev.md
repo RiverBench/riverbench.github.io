@@ -2,6 +2,12 @@
 
 Flat sequence of triples or quads (with RDF-star and non-standard extensions). This profile includes all flat datasets in RiverBench.
 
+!!! info
+
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-mixed-rdfstar-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-mixed-rdfstar-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-mixed-rdfstar-nonstandard/dev.rdf)**
+
+
+
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of triples or quads (RDF-star, non-standard)

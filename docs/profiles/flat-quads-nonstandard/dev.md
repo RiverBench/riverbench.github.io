@@ -2,6 +2,12 @@
 
 Flat sequence of quads (with non-standard extensions)
 
+!!! info
+
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-quads-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-quads-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-quads-nonstandard/dev.rdf)**
+
+
+
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of quads (non-standard)
