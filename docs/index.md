@@ -1,10 +1,21 @@
-![RiverBench logo](assets/riverbench_vector_logo.png){ align=right width="150" }
+[![RiverBench logo](assets/riverbench_vector_logo.png){ align=right width="150" }](https://w3id.org/riverbench)
 
 # RiverBench
 
-Test.
+RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets representing many RDF streaming use cases. The datasets can be used for benchmarking and testing of streaming **and** non-streaming RDF engines, compression algorithms, triple stores, and other tools.
 
-[Licensing](documentation/licensing)
+- **[Documentation](documentation)** – how to use the datasets, how to contribute, and more.
+- **[Datasets](datasets)** – packaged and tested datasets, ready to use.
+- **[Profiles](profiles)** – benchmark profiles for different streaming tasks.
+- **[Suite releases](v)** – stable releases of the benchmark suite.
+- **[Schemas & ontologies](schema)** – schemas for dataset and profile metadata.
+- **[Citing RiverBench and its datasets](documentation/cite)**
+
+:memo: **Do you want to contribute YOUR dataset to RiverBench?** See the **[contribution guide](documentation/contribute)**.
+
+----
+
+Below is a snapshot of the latest development version of the suite.
 
 
 ## General information
@@ -56,6 +67,6 @@ Test.
 ----
 
 <figure markdown>
-  ![RiverBench logo as a painting](assets/riverbench_painting.png){ width="400" loading=lazy }
-  <figcaption style="width: 400px">Impression of RiverBench generated with DALL-E.</figcaption>
+  ![RiverBench logo as a painting](assets/riverbench_painting.png){ width="420" loading=lazy }
+  <figcaption style="width: 420px">Impression of RiverBench generated with DALL-E.</figcaption>
 </figure>
