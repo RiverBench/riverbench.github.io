@@ -38,3 +38,18 @@ Streaming triples (RDF 1.1 standard only)
     - **Has restriction (3)**    
         - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: yes
 
+
+## Download links
+
+Below you will find links to download the profile's datasets in different lengths.
+
+!!! warning
+    Some datasets are shorter than others and a given distribution may not be available for all datasets.
+    In that case, a link to the longest available distribution of the dataset is provided.
+
+Dataset | 10K | 100K | 1M | Full
+--- | --- | --- | --- | ---
+[citypulse-traffic](https://w3id.org/riverbench/datasets/citypulse-traffic/dev) | [10K (1.89 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_10K.tar.gz) | [100K (18.73 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_100K.tar.gz) | [1M (187.35 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_1M.tar.gz) | [Full (820.67 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_full.tar.gz)
+[linked-spending](https://w3id.org/riverbench/datasets/linked-spending/dev) | [10K (1.76 MB)](https://w3id.org/riverbench/datasets/linked-spending/dev/files/stream_10K.tar.gz) | [100K (15.26 MB)](https://w3id.org/riverbench/datasets/linked-spending/dev/files/stream_100K.tar.gz) | [1M (191.60 MB)](https://w3id.org/riverbench/datasets/linked-spending/dev/files/stream_1M.tar.gz) | [Full (475.12 MB)](https://w3id.org/riverbench/datasets/linked-spending/dev/files/stream_full.tar.gz)
+[lod-katrina](https://w3id.org/riverbench/datasets/lod-katrina/dev) | [10K (1.04 MB)](https://w3id.org/riverbench/datasets/lod-katrina/dev/files/stream_10K.tar.gz) | [100K (12.99 MB)](https://w3id.org/riverbench/datasets/lod-katrina/dev/files/stream_100K.tar.gz) | [1M (135.48 MB)](https://w3id.org/riverbench/datasets/lod-katrina/dev/files/stream_1M.tar.gz) | [Full (791.12 MB)](https://w3id.org/riverbench/datasets/lod-katrina/dev/files/stream_full.tar.gz)
+[politiquices](https://w3id.org/riverbench/datasets/politiquices/dev) | [10K (1.82 MB)](https://w3id.org/riverbench/datasets/politiquices/dev/files/stream_10K.tar.gz) | [Full (3.24 MB)](https://w3id.org/riverbench/datasets/politiquices/dev/files/stream_full.tar.gz) | [Full (3.24 MB)](https://w3id.org/riverbench/datasets/politiquices/dev/files/stream_full.tar.gz) | [Full (3.24 MB)](https://w3id.org/riverbench/datasets/politiquices/dev/files/stream_full.tar.gz)

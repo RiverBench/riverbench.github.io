@@ -32,9 +32,22 @@ Flat sequence of quads (RDF 1.1 standard only)
     - **Has restriction (1)**    
         - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - **Has restriction (2)**    
+        - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: yes
+    - **Has restriction (3)**    
         - **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**:     
             - <abbr title="Graph streams are a special case of quad streams, where each element contains exactly one named RDF graph.">Graphs</abbr> ([rb:graphs](https://w3id.org/riverbench/schema/metadata#graphs))
             - <abbr title="Quad streams consist of elements, where each element is an RDF dataset.">Quads</abbr> ([rb:quads](https://w3id.org/riverbench/schema/metadata#quads))
-    - **Has restriction (3)**    
-        - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: yes
 
+
+## Download links
+
+Below you will find links to download the profile's datasets in different lengths.
+
+!!! warning
+    Some datasets are shorter than others and a given distribution may not be available for all datasets.
+    In that case, a link to the longest available distribution of the dataset is provided.
+
+Dataset | 10K | 100K | 1M | Full
+--- | --- | --- | --- | ---
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev) | [10K (3.96 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_10K.nq.gz) | [100K (39.69 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_100K.nq.gz) | [1M (395.98 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_full.nq.gz)
+[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/dev) | [10K (3.47 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_10K.nq.gz) | [100K (35.73 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_100K.nq.gz) | [1M (384.61 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_1M.nq.gz) | [Full (1.68 GB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_full.nq.gz)

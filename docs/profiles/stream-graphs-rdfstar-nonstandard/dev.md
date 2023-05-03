@@ -31,3 +31,15 @@ Streaming graphs (with RDF-star and non-standard extensions)
     - **Has restriction (2)**    
         - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a stream of named RDF graphs.">Graph stream distribution</abbr> ([rb:graphStreamDistribution](https://w3id.org/riverbench/schema/metadata#graphStreamDistribution))
 
+
+## Download links
+
+Below you will find links to download the profile's datasets in different lengths.
+
+!!! warning
+    Some datasets are shorter than others and a given distribution may not be available for all datasets.
+    In that case, a link to the longest available distribution of the dataset is provided.
+
+Dataset | 10K | 100K | 1M | Full
+--- | --- | --- | --- | ---
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev) | [10K (2.06 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_10K.tar.gz) | [100K (20.35 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_100K.tar.gz) | [1M (205.29 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_1M.tar.gz) | [Full (902.25 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_full.tar.gz)

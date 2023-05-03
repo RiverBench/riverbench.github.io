@@ -32,9 +32,24 @@ Flat sequence of triples (RDF 1.1 standard only)
 
 - **<abbr title="Has profile restriction. The restrictions are joined with the AND operator.">Has restriction</abbr>**: 
     - **Has restriction (1)**    
-        - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
-    - **Has restriction (2)**    
         - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: yes
-    - **Has restriction (3)**    
+    - **Has restriction (2)**    
         - **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://w3id.org/riverbench/schema/metadata#triples))
+    - **Has restriction (3)**    
+        - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
 
+
+## Download links
+
+Below you will find links to download the profile's datasets in different lengths.
+
+!!! warning
+    Some datasets are shorter than others and a given distribution may not be available for all datasets.
+    In that case, a link to the longest available distribution of the dataset is provided.
+
+Dataset | 10K | 100K | 1M | Full
+--- | --- | --- | --- | ---
+[citypulse-traffic](https://w3id.org/riverbench/datasets/citypulse-traffic/dev) | [10K (3.76 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_10K.nt.gz) | [100K (37.59 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_100K.nt.gz) | [1M (375.83 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_1M.nt.gz) | [Full (1.61 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_full.nt.gz)
+[linked-spending](https://w3id.org/riverbench/datasets/linked-spending/dev) | [10K (2.39 MB)](https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_10K.nt.gz) | [100K (21.15 MB)](https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_100K.nt.gz) | [1M (271.32 MB)](https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_1M.nt.gz) | [Full (673.17 MB)](https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_full.nt.gz)
+[lod-katrina](https://w3id.org/riverbench/datasets/lod-katrina/dev) | [10K (1.11 MB)](https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_10K.nt.gz) | [100K (15.45 MB)](https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_100K.nt.gz) | [1M (163.50 MB)](https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_1M.nt.gz) | [Full (952.14 MB)](https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_full.nt.gz)
+[politiquices](https://w3id.org/riverbench/datasets/politiquices/dev) | [10K (2.01 MB)](https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_10K.nt.gz) | [Full (3.58 MB)](https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz) | [Full (3.58 MB)](https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz) | [Full (3.58 MB)](https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz)

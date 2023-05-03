@@ -40,3 +40,16 @@ Streaming quads (with non-standard extensions)
     - **Has restriction (3)**    
         - **<abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr>**: no
 
+
+## Download links
+
+Below you will find links to download the profile's datasets in different lengths.
+
+!!! warning
+    Some datasets are shorter than others and a given distribution may not be available for all datasets.
+    In that case, a link to the longest available distribution of the dataset is provided.
+
+Dataset | 10K | 100K | 1M | Full
+--- | --- | --- | --- | ---
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev) | [10K (2.06 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_10K.tar.gz) | [100K (20.35 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_100K.tar.gz) | [1M (205.29 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_1M.tar.gz) | [Full (902.25 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_full.tar.gz)
+[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/dev) | [10K (2.55 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_10K.tar.gz) | [100K (25.59 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_100K.tar.gz) | [1M (277.16 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_1M.tar.gz) | [Full (1.02 GB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_full.tar.gz)
