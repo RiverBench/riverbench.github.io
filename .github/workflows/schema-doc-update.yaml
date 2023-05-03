@@ -4,8 +4,8 @@ on:
     types: [schema-doc-update]
 
 jobs:
-  update_dataset_docs:
-    name: "Update dataset documentation"
+  update-schema-docs:
+    name: "Update schema documentation"
     # Only one job at a time, to avoid confflicts.
     concurrency: doc-update
     runs-on: "ubuntu-latest"
