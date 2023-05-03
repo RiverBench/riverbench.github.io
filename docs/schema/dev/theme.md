@@ -86,7 +86,7 @@ URI | `https://w3id.org/riverbench/schema/theme#domain`
 Preferred Labels |Domain (en)<br />
 Definitions |Datasets by domain.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Encyclopedic](#encyclopedic) (con)<br />[Political](#political) (con)<br />[Statistical](#statistical) (con)<br />[News](#news) (con)<br />[Meteorological](#meteorological) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Scientific](#scientific) (con)<br />[Abstract data](#abstract) (con)<br />[Government](#government) (con)<br />[Sensor data](#sensorData) (con)<br />
+Narrower Concepts |[Abstract data](#abstract) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Sensor data](#sensorData) (con)<br />[Political](#political) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Statistical](#statistical) (con)<br />[Meteorological](#meteorological) (con)<br />[News](#news) (con)<br />[Government](#government) (con)<br />[Scientific](#scientific) (con)<br />
 
 ### Encyclopedic <a name="encyclopedic"></a>
 Property | Value
@@ -133,7 +133,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/theme#rootConcept`
 Preferred Labels |Root concept (en)<br />
-Narrower Concepts |[Domain](#domain) (con)<br />[Data type](#dataType) (con)<br />
+Narrower Concepts |[Data type](#dataType) (con)<br />[Domain](#domain) (con)<br />
 
 ### Scientific <a name="scientific"></a>
 Property | Value
