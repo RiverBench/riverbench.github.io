@@ -11,8 +11,6 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 
 
 
-- **<abbr title="A language of the resource.">Language</abbr>**: en
-
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: ASSIST-IoT weather (graphs variant)
@@ -60,6 +58,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Whether the dataset uses the non-standard generalized datasets feature. A 'dataset' here is used in the same meaning as in the RDF 1.1 specification.">Uses generalized RDF datasets</abbr>**: no
 - **<abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr>**: no
 - **<abbr title="minimum time period resolvable in a dataset.">Temporal resolution</abbr>**: PT10S
+- **<abbr title="A language of the resource.">Language</abbr>**: en
 
 ## Distributions
 
