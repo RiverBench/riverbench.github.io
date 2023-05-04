@@ -4,6 +4,13 @@ Profiles in RiverBench group datasets that share common technical characteristic
 
 You can find the list of all profiles in the menu on the left.
 
-## Read more
+!!! tip
+
+    Profiles have machine-readable metadata in RDF. You can find RDF download links for each profile on its documentation page. You can also use the HTTP content negotation mechanism.
+
+    On the bottom of each profile's page you will also find a handy table with download links for all datasets in the profile.
+
+## See also
+* [Datasets](../datasets)
 * [Dataset release format](../documentation/dataset-release-format)
-* [Dataset metadata](../documentation/dataset-metadata)
+* [Dataset and profile metadata](../documentation/metadata)

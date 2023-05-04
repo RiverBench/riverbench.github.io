@@ -1,3 +1,13 @@
-Welcome to RiverBench documentation!
+# RiverBench documentation
 
-TODO: overview of the docs
+This documentation explains how to use and contribute to RiverBench.
+
+- **For users**
+    - [Dataset release format](dataset-release-format)
+    - [Dataset and profile metadata](metadata)
+    - [Licensing and citation](licensing)
+- **For contributors**
+    - [How to contribute?](contribute)
+    - [Creating a new dataset](creating-new-dataset)
+    - [Dataset source format](dataset-source-format)
+    - [Editing documentation](editing-docs)

@@ -4,7 +4,12 @@ A dataset in RiverBench is a well-described, validated, and neatly packaged coll
 
 You can find the list of all datasets in the menu on the left.
 
-## Read more
+!!! tip
+
+    Datasets have machine-readable metadata in RDF. You can find RDF download links for each dataset on its documentation page. You can also use the HTTP content negotation mechanism.
+
+## See also
+* [Profiles](../profiles) – collections of datasets with common characteristics
 * [Dataset release format](../documentation/dataset-release-format)
-* [Dataset metadata](../documentation/dataset-metadata)
+* [Dataset and profile metadata](../documentation/metadata)
 * [Creating a new dataset](../documentation/creating-new-dataset)

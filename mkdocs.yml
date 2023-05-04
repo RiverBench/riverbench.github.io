@@ -24,6 +24,7 @@ repo_name: RiverBench/RiverBench
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     # Behave like an SPA
     - navigation.instant
