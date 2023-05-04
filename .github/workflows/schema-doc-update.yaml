@@ -22,12 +22,16 @@ jobs:
         run: |
           VERSION_ID="${FROM_TAG#v}"
           cd "docs/schema"
-          rm -rf "./${VERSION_ID}" || true
-          mkdir "./${VERSION_ID}"
-          cd "./${VERSION_ID}"
+          mkdir "./temp"
+          cd "./temp"
           wget "https://github.com/RiverBench/schema/releases/download/${FROM_TAG}/docs.tar.gz"
           tar -xzvf docs.tar.gz
-          rm docs.tar.gz
+          for name in $(ls -1 *.md); do
+            mkdir -p "../${name%.md}"
+            mv "${name}" "../${name%.md}/${VERSION_ID}.md"
+          done
+          cd ../
+          rm -rf ./temp
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9

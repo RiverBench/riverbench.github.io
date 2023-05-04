@@ -2,9 +2,9 @@
 
 RiverBench uses a few schemas and ontologies to describe and organize its datasets and profiles.
 
-* **[Metadata ontology](dev/metadata)** – used for describing datasets and profiles.
-* **[Topic scheme](dev/theme)** – a SKOS taxonomy of topics used to categorize datasets.
-* **[Documentation ontology](dev/documentation)** – additional properties and assertions for generating documentation pages on this website.
+* **[Metadata ontology](metadata/dev)** – used for describing datasets and profiles.
+* **[Topic scheme](theme/dev)** – a SKOS taxonomy of topics used to categorize datasets.
+* **[Documentation ontology](documentation/dev)** – additional properties and assertions for generating documentation pages on this website.
 
 !!! info
 
