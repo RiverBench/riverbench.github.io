@@ -9,7 +9,7 @@ RiverBench is an open, community-driven RDF streaming benchmark suite. It includ
 - **[Profiles](profiles)** – benchmark profiles for different streaming tasks.
 - **[Suite releases](v)** – stable releases of the benchmark suite.
 - **[Schemas & ontologies](schema)** – schemas for dataset and profile metadata.
-- **[Licensing and citing RiverBench](documentation/licensing)**
+- **[Citing RiverBench and its datasets](documentation/cite)**
 - **[Code on GitHub](https://github.com/RiverBench)**
 
 **Do you want to contribute YOUR dataset to RiverBench?** See the **[contribution guide](documentation/contribute)**.
@@ -32,6 +32,8 @@ RiverBench is an open, community-driven RDF streaming benchmark suite. It includ
 ## Content
 
 - **<abbr title="A collection of data that is listed in the catalog.">Has dataset</abbr>**: 
+    - [assist-iot-weather (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather/dev)
+    - [assist-iot-weather-graphs (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev)
     - [citypulse-traffic (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev)
     - [citypulse-traffic-graphs (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev)
     - [digital-agenda-indicators (dev)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev)
