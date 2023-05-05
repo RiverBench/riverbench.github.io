@@ -7,6 +7,11 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)  and
 ## Metadata
 * **URI**
     * `https://w3id.org/riverbench/schema/theme#conceptScheme`
+* **Creators(s)**
+    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
+    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+* **License**
+    * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
 
 
@@ -86,7 +91,7 @@ URI | `https://w3id.org/riverbench/schema/theme#domain`
 Preferred Labels |Domain (en)<br />
 Definitions |Datasets by domain.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Government](#government) (con)<br />[Political](#political) (con)<br />[Scientific](#scientific) (con)<br />[Meteorological](#meteorological) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Abstract data](#abstract) (con)<br />[Statistical](#statistical) (con)<br />[Sensor data](#sensorData) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[News](#news) (con)<br />
+Narrower Concepts |[Scientific](#scientific) (con)<br />[Bibliographical](#bibliographical) (con)<br />[News](#news) (con)<br />[Government](#government) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Meteorological](#meteorological) (con)<br />[Statistical](#statistical) (con)<br />[Political](#political) (con)<br />[Abstract data](#abstract) (con)<br />[Sensor data](#sensorData) (con)<br />
 
 ### Encyclopedic <a name="encyclopedic"></a>
 Property | Value
@@ -133,7 +138,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/theme#rootConcept`
 Preferred Labels |Root concept (en)<br />
-Narrower Concepts |[Domain](#domain) (con)<br />[Data type](#dataType) (con)<br />
+Narrower Concepts |[Data type](#dataType) (con)<br />[Domain](#domain) (con)<br />
 
 ### Scientific <a name="scientific"></a>
 Property | Value
@@ -178,12 +183,16 @@ Broader Concepts |[Data type](#dataType) (con)<br />
 
 
 ## Namespaces
-* **default (:)**
-    * `https://w3id.org/riverbench/schema/theme#conceptScheme`
-* **rbt**
+* **default (rbt)**
     * `https://w3id.org/riverbench/schema/theme#`
+* **dcterms**
+    * `http://purl.org/dc/terms/`
+* **foaf**
+    * `http://xmlns.com/foaf/0.1/`
 * **skos**
     * `http://www.w3.org/2004/02/skos/core#`
+* **vann**
+    * `http://purl.org/vocab/vann/`
 
 
 ## Legend

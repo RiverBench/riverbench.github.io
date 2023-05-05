@@ -5,10 +5,20 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 ## Metadata
 * **URI**
     * `https://w3id.org/riverbench/schema/documentation`
+* **Creators(s)**
+    * Piotr Sowiński
+    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
+    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+* **Created**
+    * 2023-04-30T00:00:00
+* **Issued**
+    * 2023-05-05T00:00:00
 * **Version URI**
     * [https://w3id.org/riverbench/schema/documentation/dev](https://w3id.org/riverbench/schema/documentation/dev)
 * **Imports**
     * [https://w3id.org/riverbench/schema/metadata/dev](https://w3id.org/riverbench/schema/metadata/dev)
+* **License**
+    * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
 
 !!! info
@@ -40,7 +50,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Distributions](#groupDistributions)<br />[Content](#groupContent)<br />[Technical metadata](#groupTechnicalMetadata)<br />[General information](#groupGeneralInfo)<br />
+Has members |[Technical metadata](#groupTechnicalMetadata)<br />[General information](#groupGeneralInfo)<br />[Distributions](#groupDistributions)<br />[Content](#groupContent)<br />
 
 
 ## Object Properties
@@ -268,8 +278,10 @@ URI | `https://w3id.org/riverbench/schema/documentation#groupTechnicalMetadata`
 Class(es) | [Documentation group](#DocGroup)
 
 ## Namespaces
-* **default (:)**
-    * `https://w3id.org/riverbench/schema/documentation`
+* **default (rbdoc)**
+    * `https://w3id.org/riverbench/schema/documentation#`
+* **dc**
+    * `http://purl.org/dc/elements/1.1/`
 * **dcat**
     * `http://www.w3.org/ns/dcat#`
 * **dcterms**
@@ -286,6 +298,8 @@ Class(es) | [Documentation group](#DocGroup)
     * `http://www.w3.org/2000/01/rdf-schema#`
 * **spdx**
     * `http://spdx.org/rdf/terms#`
+* **vann**
+    * `http://purl.org/vocab/vann/`
 * **xsd**
     * `http://www.w3.org/2001/XMLSchema#`
 
