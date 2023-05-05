@@ -6,8 +6,17 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 * **URI**
     * `https://w3id.org/riverbench/schema/metadata`
 * **Creators(s)**
+    * Piotr Sowiński
     * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
     [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+* **Created**
+    * 2023-04-30
+* **Issued**
+    * 2023-05-05
+* **Version URI**
+    * [https://w3id.org/riverbench/schema/metadata/dev](https://w3id.org/riverbench/schema/metadata/dev)
+* **Imports**
+    * [http://www.w3.org/ns/dcat](http://www.w3.org/ns/dcat)
 * **License**
     * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
@@ -93,7 +102,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Distribution`
 Description | A distribution of a dataset in the RiverBench benchmark suite.
 Super-classes |[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution) (c)<br />
-In domain of |[Has file name](#hasFileName) (dp)<br />[Has statistics](#hasStatistics) (op)<br />
+In domain of |[Has statistics](#hasStatistics) (op)<br />[Has file name](#hasFileName) (dp)<br />
 
 ### RiverBench distribution type <a name="DistributionType"></a>
 Property | Value
@@ -101,7 +110,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Quad stream distribution](#quadStreamDistribution)<br />[Flat distribution](#flatDistribution)<br />[Partial distribution](#partialDistribution)<br />[Triple stream distribution](#tripleStreamDistribution)<br />[Full distribution](#fullDistribution)<br />[Graph stream distribution](#graphStreamDistribution)<br />
+Has members |[Partial distribution](#partialDistribution)<br />[Graph stream distribution](#graphStreamDistribution)<br />[Full distribution](#fullDistribution)<br />[Quad stream distribution](#quadStreamDistribution)<br />[Flat distribution](#flatDistribution)<br />[Triple stream distribution](#tripleStreamDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -152,7 +161,7 @@ URI | `https://w3id.org/riverbench/schema/metadata#Profile`
 Description | Benchmark profile grouping several datasets in RiverBench
 Super-classes |[Dataset series](#DatasetSeries) (c)<br />
 In domain of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has restriction](#hasRestriction) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
-In range of |[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />
+In range of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />
 
 ### Profile restriction <a name="ProfileRestriction"></a>
 Property | Value
@@ -194,6 +203,7 @@ Super-classes |[Statistics](#Statistics) (c)<br />
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#StatementCountStreamElementSplit`
+Description | The number of statements in an element was the criterion for splitting the stream elements.
 Super-classes |[Stream element split](#StreamElementSplit) (c)<br />
 
 ### Statistics <a name="Statistics"></a>
@@ -201,7 +211,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[Object count statistics](#ObjectCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />
+Sub-classes |[Object count statistics](#ObjectCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
 
@@ -210,7 +220,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementSplit`
 Description | Describes how was the stream split into individual elements.
-Sub-classes |[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />
+Sub-classes |[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />
 In range of |[Has stream element split](#hasStreamElementSplit) (op)<br />
 
 ### Stream element type <a name="StreamElementType"></a>
@@ -219,7 +229,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementType`
 Description | Indicates the type of the contents of stream elements
 In range of |[Has stream element type](#hasStreamElementType) (op)<br />
-Has members |[Triples](#triples)<br />[Graphs](#graphs)<br />[Quads](#quads)<br />
+Has members |[Graphs](#graphs)<br />[Triples](#triples)<br />[Quads](#quads)<br />
 
 ### Subject count statistics <a name="SubjectCountStatistics"></a>
 Property | Value
@@ -232,6 +242,7 @@ Super-classes |[Statistics](#Statistics) (c)<br />
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit`
+Description | The elements correspond to different instants or intervals of time.
 Super-classes |[Stream element split](#StreamElementSplit) (c)<br />
 In domain of |[Has temporal property](#hasTemporalProperty) (op)<br />
 
@@ -239,6 +250,7 @@ In domain of |[Has temporal property](#hasTemporalProperty) (op)<br />
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit`
+Description | The elements correspond to different topics/subjects in the dataset.
 Super-classes |[Stream element split](#StreamElementSplit) (c)<br />
 
 
@@ -297,6 +309,7 @@ Range(s) |[Statistics](#Statistics) (c)<br />
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#hasStreamElementSplit`
+Description | Indicates how the stream was split into elements.
 Super-properties |[owl:topObjectProperty](http://www.w3.org/2002/07/owl#topObjectProperty)<br />
 Domain(s) |[RiverBench dataset](#Dataset) (c)<br />
 Range(s) |[Stream element split](#StreamElementSplit) (c)<br />
@@ -439,6 +452,7 @@ Range(s) |[xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal) (c)<br />
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#statisticalProperty`
+Description | The base statistical property.
 Domain(s) |[Statistics](#Statistics) (c)<br />
 
 ### Sum <a name="sum"></a>
@@ -559,8 +573,12 @@ Description | Triple streams consist of elements, where each element is an RDF g
 ## Namespaces
 * **default (rb)**
     * `https://w3id.org/riverbench/schema/metadata`
+* **dc**
+    * `http://purl.org/dc/elements/1.1/`
 * **dcat**
     * `http://www.w3.org/ns/dcat#`
+* **dct**
+    * `http://purl.org/dc/terms/`
 * **foaf**
     * `http://xmlns.com/foaf/0.1/`
 * **owl**
