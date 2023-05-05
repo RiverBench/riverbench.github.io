@@ -4,7 +4,8 @@ This documentation explains how to use and contribute to RiverBench.
 
 - **For users**
     - [Dataset release format](dataset-release-format)
-    - [Dataset and profile metadata](metadata)
+    - [Metadata of datasets, profiles, and more](metadata)
+    - [Versioning and releases](versioning)
     - [Licensing and citation](licensing)
 - **For contributors**
     - [How to contribute?](contribute)

@@ -1,11 +1,32 @@
-# Dataset metadata
+# Metadata
 
-## Versioning
+RiverBench includes rich RDF metadata for each dataset, profile, schema, and the suite itself. This metadata is used to generate the website, and can also be used by other tools. The metadata is [permissively licensed](licensing).
 
-Datasets are versioned, following a simplified [Semantic Versioning scheme](https://semver.org/).
-* Only `MAJOR.MINOR.PATCH` version numbers are allowed. Pre-releases (e.g., `1.0.0-alpha`) and build metadata (e.g., `1.0.0+001`) are NOT allowed.
-* PATCH version increments are used for changes that should not have any significant impact on the benchmark. For example: spelling fixes in the metadata.
-* MINOR version increments change the content of the benchmark dataset, possibly introducing new distributions, but the existing distributions should remain backwards-compatible for most purposes. For example: the dataset is enlarged, introducing new size distributions (e.g., 10M), however the old size distributions (1M and smaller) are kept as-is.
-* MAJOR version increments are used for significant changes, such as removing a part of the dataset, adding a new property, etc.
+## Accessing metadata
 
-The versions are recorded manually by the dataset's maintainer in the `metadata.ttl` file, using the `dcat:version` property. When releasing the dataset, the main branch of the repository should be tagged with a corresponding name: `vX.Y.Z`, which will trigger the release pipeline.
+On each dataset, profile, and schema page in this website you will find a box with links to the RDF metadata. You can also use the [HTTP content negotation mechanism](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation) to request the machine-readable metadata instead of the HTML page. This functionality is supported only when using the permanent URLs (starting with `https://w3id.org/riverbench/`).
+
+Examples of URLs that will return the metadata with content negotiation:
+
+* [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
+* [https://w3id.org/riverbench/v/dev](https://w3id.org/riverbench/v/dev)
+* [https://w3id.org/riverbench/profiles/stream-triples](https://w3id.org/riverbench/profiles/stream-triples)
+* [https://w3id.org/riverbench/profiles/stream-triples/dev](https://w3id.org/riverbench/profiles/stream-triples/dev)
+* [https://w3id.org/riverbench/datasets/nanopubs](https://w3id.org/riverbench/datasets/nanopubs)
+* [https://w3id.org/riverbench/datasets/nanopubs/dev](https://w3id.org/riverbench/datasets/nanopubs/dev)
+* [https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata)
+* [https://w3id.org/riverbench/schema/metadata/dev](https://w3id.org/riverbench/schema/metadata/dev)
+
+To request a metadata file in a given format explicitly, you can also append `.nt`, `.ttl`, or `.rdf` to these URLs.
+
+*You can find the rules that make this work [here](https://github.com/perma-id/w3id.org/tree/master/riverbench).*
+
+## Editing metadata
+
+A large portion of the metadata is automatically generated. However, the rest is written manually in Turtle files in various repositories:
+
+- [RiverBench main repo / metadata.ttl](https://github.com/RiverBench/RiverBench/blob/main/metadata.ttl) – metadata about the suite itself
+- [RiverBench main repo / profiles](https://github.com/RiverBench/RiverBench/tree/main/profiles) – metadata about the profiles
+- {Dataset repo} / metatada.ttl – metadata about the dataset
+
+Feel free to submit pull requests to these files to fix errors or add new information. After the pull request is accepted, the changes will be reflected automatically in the website and the READMEs.

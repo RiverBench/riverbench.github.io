@@ -11,7 +11,7 @@ If you use RiverBench in your research, please cite the following paper: (*the p
 
 If you use the individual datasets, if possible you should at least cite the links to their documentation pages, which contain the attribution and licensing information. If not possible, you should at least include a link to the profile or release of RiverBench that contains the datasets you used.
 
-Remember to cite the specific stable version of RiverBench that you used. Citing the "dev" version is not recommended, as it can change at any time. See also: [Versioning](metadata#versioning).
+Remember to cite the specific stable version of RiverBench that you used. Citing the "dev" version is not recommended, as it can change at any time. See also: [Versioning and releases](versioning).
 
 ## RiverBench maintainer
 

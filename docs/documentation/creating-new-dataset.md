@@ -2,6 +2,10 @@
 
 This guide explains step-by-step how to propose a new dataset for inclusion in RiverBench. You only need to prepare the dataset and its metadata – the rest of the process will be carried out by a RiverBench admin and automated scripts.
 
+## Step 0: Check the requirements
+
+Before you start, have a look at the [requirements for new datasets](contribute#contributing-datasets). If your dataset does not meet these requirements, it will not be accepted.
+
 ## Step 1: Create a dataset proposal
 
 1. Open a new dataset proposal in the RiverBench repository: **[click HERE](https://github.com/RiverBench/RiverBench/issues/new/choose)** and select "Dataset proposal".
