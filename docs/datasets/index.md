@@ -8,6 +8,12 @@ You can find the list of all datasets in the menu on the left.
 
     Datasets have machine-readable metadata in RDF. You can find RDF download links for each dataset on its documentation page. You can also use the [HTTP content negotation mechanism](../documentation/metadata).
 
+## All datasets
+
+{%
+   include-markdown "table.md"
+%}
+
 ## See also
 * [Profiles](../profiles) – collections of datasets with common characteristics
 * [Dataset release format](../documentation/dataset-release-format)

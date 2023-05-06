@@ -41,6 +41,9 @@ jobs:
           if [ "${VERSION_ID}" == "dev" ] ; then
             rm "index.md" || true
             wget "https://github.com/RiverBench/RiverBench/releases/download/dev/index.md"
+            cd datasets
+            rm "table.md" || true
+            wget -O "table.md" "https://github.com/RiverBench/RiverBench/releases/download/dev/dataset_table.md"
           else
             mkdir -p "v"
             rm -rf "./v/${VERSION_ID}" || true
