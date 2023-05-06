@@ -26,6 +26,7 @@ jobs:
           wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/profiles_docs.tar.gz"
           tar -xzvf profiles_docs.tar.gz
           rm profiles_docs.tar.gz
+          mv table.md ../ || true
           for name in $(ls -1 *.md); do
             mkdir -p "../${name%.md}"
             mv "${name}" "../${name%.md}/${VERSION_ID}.md"

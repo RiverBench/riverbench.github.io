@@ -2,8 +2,9 @@ site_name: RiverBench
 
 plugins:
   - search
+  - include-markdown
 
-markdown_extensions: 
+markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
