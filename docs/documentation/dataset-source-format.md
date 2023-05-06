@@ -26,44 +26,50 @@ You can also add more files and directories (like `.gitignore`, etc.) to the rep
 
 **Example 1: flat file structure, graph stream, 431256 elements:**
 
-* `0000000000.trig`
-* `0000000001.trig`
-* `0000000002.trig`
-* ...
-* `0000431255.trig`
+```
+- 0000000000.trig
+- 0000000001.trig
+- 0000000002.trig
+- ...
+- 0000431255.trig
+```
 
 **Example 2: files in directories, triple stream, 201900 elements:**
 
-* `0000/`
-    * `0000000000.ttl`
-    * `0000000001.ttl`
-    * ...
-    * `0000000999.ttl`
-* ...
-* `0201/`
-    * `0000201000.ttl`
-    * `0000201001.ttl`
-    * ...
-    * `0000201899.ttl`
+```
+- 0000/
+    - 0000000000.ttl
+    - 0000000001.ttl
+    - ...
+    - 0000000999.ttl
+- ...
+- 0201/
+    - 0000201000.ttl
+    - 0000201001.ttl
+    - ...
+    - 0000201899.ttl
+```
 
 **Example 3: files in nested directories, triple stream, 201900 elements:**
 
-* `00/`
-    * `00/`
-        * `0000000000.ttl`
-        * ...
-        * `0000000099.ttl`
-    * `99/`
-        * `0000009900.ttl`
-        * ...
-        * `0000009999.ttl`
-* ...
-* `20/`
-    * ...
-    * `18/`
-        * `0000201800.ttl`
-        * ...
-        * `0000201899.ttl`
+```
+- 00/
+    - 00/
+        - 0000000000.ttl
+        - ...
+        - 0000000099.ttl
+    - 99/
+        - 0000009900.ttl
+        - ...
+        - 0000009999.ttl
+- ...
+- 20/
+    - ...
+    - 18/
+        - 0000201800.ttl
+        - ...
+        - 0000201899.ttl
+```
 
 ### Creating a source archive
 
@@ -113,3 +119,8 @@ In the triple stream format, every stream element is an unnamed (default) RDF gr
 The files must be in the RDF 1.1 Turtle format, or in the Turtle-star format, if the dataset uses RDF-star. The extensions of the files must be `.ttl`. The files must be encoded in UTF-8.
 
 **Example triples dataset:** [yago-annotated-facts](https://github.com/RiverBench/dataset-yago-annotated-facts)
+
+## See also
+
+- [Creating a new dataset](creating-new-dataset)
+- [Dataset release format](dataset-release-format)
