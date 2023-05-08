@@ -30,3 +30,12 @@ A large portion of the metadata is automatically generated. However, the rest is
 - {Dataset repo} / metatada.ttl – metadata about the dataset
 
 Feel free to submit pull requests to these files to fix errors or add new information. After the pull request is accepted, the changes will be reflected automatically in the website and the READMEs.
+
+The metadata uses mainly these ontologies:
+
+- [DCAT 3](https://www.w3.org/TR/vocab-dcat-3/)
+- [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
+- [FOAF](http://xmlns.com/foaf/0.1/)
+- [RiverBench metadata ontology](../../schema/metadata/dev)
+- [RiverBench documentation ontology](../../schema/documentation/dev)
+- [RiverBench topic classification scheme](../../schema/theme/dev)
