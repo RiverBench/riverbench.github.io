@@ -1,4 +1,5 @@
 site_name: RiverBench
+site_description: RiverBench is an open, community-driven RDF streaming benchmark suite.
 
 plugins:
   - search
