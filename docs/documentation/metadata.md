@@ -1,6 +1,6 @@
 # Metadata
 
-RiverBench includes rich RDF metadata for each dataset, profile, schema, and the suite itself. This metadata is used to generate the website, and can also be used by other tools. The metadata is [permissively licensed](licensing).
+RiverBench includes rich RDF metadata for each dataset, profile, schema, and the suite itself. This metadata is used to generate the website, and can also be used by other tools. The metadata is [permissively licensed](licensing.md).
 
 ## Accessing metadata
 
@@ -36,6 +36,6 @@ The metadata uses mainly these ontologies:
 - [DCAT 3](https://www.w3.org/TR/vocab-dcat-3/)
 - [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 - [FOAF](http://xmlns.com/foaf/0.1/)
-- [RiverBench metadata ontology](../../schema/metadata/dev)
-- [RiverBench documentation ontology](../../schema/documentation/dev)
-- [RiverBench topic classification scheme](../../schema/theme/dev)
+- [RiverBench metadata ontology](../schema/metadata/dev.md)
+- [RiverBench documentation ontology](../schema/documentation/dev.md)
+- [RiverBench topic classification scheme](../schema/theme/dev.md)

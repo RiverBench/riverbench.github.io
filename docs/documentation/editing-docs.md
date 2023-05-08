@@ -1,13 +1,13 @@
 # Editing documentation
 
-A large chunk of RiverBench's documentation is automatically generated from the metadata – see the [metadata documentation](metadata) for more details. However, lots of pages are static or include static content. This page explains how to edit them.
+A large chunk of RiverBench's documentation is automatically generated from the metadata – see the [metadata documentation](metadata.md) for more details. However, lots of pages are static or include static content. This page explains how to edit them.
 
 ## Editing static pages
 
 Static pages are written in Markdown and live in the [riverbench.github.io repository](https://github.com/RiverBench/riverbench.github.io). To edit them, simply open a pull request to that repository.
 
 !!! warning
-    Some pages in the riverbench.github.io repository are generated automatically. Do not edit them directly, as your changes will be either overwritten or will make something go seriously wrong. Instead, edit the metadata files, as described in the [metadata documentation](metadata).
+    Some pages in the riverbench.github.io repository are generated automatically. Do not edit them directly, as your changes will be either overwritten or will make something go seriously wrong. Instead, edit the metadata files, as described in the [metadata documentation](metadata.md).
 
 In the riverbench.github.io repo you can edit:
 

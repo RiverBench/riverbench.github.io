@@ -11,12 +11,12 @@ Do you have an interesting RDF dataset that would make a good addition to RiverB
 What datasets are we looking for?
 
 - **Freely licensed** – the dataset must be licensed under a free license, such as [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [CC BY](https://creativecommons.org/licenses/by/4.0/), or [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). The license must allow commercial use and derivative works.
-- **Somewhat streaming in nature** – streaming comes in many shapes and sizes. Have a look at the existing datasets – we have [streams of timestamped weather data](../datasets/assist-iot-weather), but also [a stream of fact annotations in Wikidata](../datasets/yago-annotated-facts). The important thing is that the dataset must be explicitly split into discrete elements.
+- **Somewhat streaming in nature** – streaming comes in many shapes and sizes. Have a look at the existing datasets – we have [streams of timestamped weather data](../datasets/assist-iot-weather/dev/index.md), but also [a stream of fact annotations in Wikidata](../datasets/yago-annotated-facts/dev/index.md). The important thing is that the dataset must be explicitly split into discrete elements.
 - **Interesting technically** – we are especially interested in expanding the coverage of the rarer types of streams, such as those using RDF-star, generalized triples, or quads. Other interesting types of datasets include those that use RDF in atypical ways, like with large GeoSPARQL literals or dense vector embeddings. Anything exotic is welcome!
 - **Interesting thematically and relevant** – does your dataset bring an interesting new use case? Perfect! Even better if the use case has seen real-world usage.
 - **Large** – the stream must be at least 10 thousand elements long, preferably more. The larger the better.
 
-If you think your dataset fits the bill, have a look at the [dedicated guide on creating new datasets](creating-new-dataset). If you still have questions, don't hesitate to contact RiverBench's maintainer by [opening an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose).
+If you think your dataset fits the bill, have a look at the [dedicated guide on creating new datasets](creating-new-dataset.md). If you still have questions, don't hesitate to contact RiverBench's maintainer by [opening an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose).
 
 ## Reporting issues
 
@@ -24,7 +24,7 @@ Found a bug in a dataset or the metadata? Or in something else entirely? Feel fr
 
 ## Improving the documentation
 
-You can easily edit the documentation on this website – see the [dedicated guide](editing-docs) for more details.
+You can easily edit the documentation on this website – see the [dedicated guide](editing-docs.md) for more details.
 
 ## Improving the code or metadata
 

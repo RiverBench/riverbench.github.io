@@ -4,7 +4,7 @@ This guide explains step-by-step how to propose a new dataset for inclusion in R
 
 ## Step 0: Check the requirements
 
-Before you start, have a look at the [requirements for new datasets](contribute#contributing-datasets). If your dataset does not meet these requirements, it will not be accepted.
+Before you start, have a look at the [requirements for new datasets](contribute.md#contributing-datasets). If your dataset does not meet these requirements, it will not be accepted.
 
 ## Step 1: Create a dataset proposal
 
@@ -37,7 +37,7 @@ An administrator will be notified your request and will review the form and the 
 
 ## Step 3: Upload the dataset sources
 
-1. Create a source archive by following the [guide on preparing a source archive](dataset-source-format).
+1. Create a source archive by following the [guide on preparing a source archive](dataset-source-format.md).
 2. Access the repository created for your dataset and click on "Releases" in the right sidebar.
 3. Click on the "Create a new release" button to start the process of creating a new release for your dataset.
 4. Fill in the following fields for the new release:

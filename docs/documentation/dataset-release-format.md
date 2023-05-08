@@ -1,6 +1,6 @@
 # Dataset release format
 
-This page explains the formats in which [RiverBench's datasets](../datasets) are distributed.
+This page explains the formats in which [RiverBench's datasets](../datasets/index.md) are distributed.
 
 Each dataset has two types of distributions: flat and streaming. Flat distributions are simply compressed files with a sequence of RDF statements. Streaming distributions are compressed archives with a sequence of files, with each file corresponding to one stream element.
 
@@ -78,5 +78,5 @@ The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}
 
 ## See also
 
-- [Metadata](metadata)
-- [Dataset source format](dataset-source-format)
+- [Metadata](metadata.md)
+- [Dataset source format](dataset-source-format.md)

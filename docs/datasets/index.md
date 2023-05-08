@@ -6,7 +6,7 @@ You can find the list of all datasets in the menu on the left.
 
 !!! tip
 
-    Datasets have machine-readable metadata in RDF. You can find RDF download links for each dataset on its documentation page. You can also use the [HTTP content negotation mechanism](../documentation/metadata).
+    Datasets have machine-readable metadata in RDF. You can find RDF download links for each dataset on its documentation page. You can also use the [HTTP content negotation mechanism](../documentation/metadata.md).
 
 ## All datasets
 
@@ -15,7 +15,7 @@ You can find the list of all datasets in the menu on the left.
 %}
 
 ## See also
-* [Profiles](../profiles) – collections of datasets with common characteristics
-* [Dataset release format](../documentation/dataset-release-format)
-* [Dataset and profile metadata](../documentation/metadata)
-* [Creating a new dataset](../documentation/creating-new-dataset)
+* [Profiles](../profiles/index.md) – collections of datasets with common characteristics
+* [Dataset release format](../documentation/dataset-release-format.md)
+* [Dataset and profile metadata](../documentation/metadata.md)
+* [Creating a new dataset](../documentation/creating-new-dataset.md)

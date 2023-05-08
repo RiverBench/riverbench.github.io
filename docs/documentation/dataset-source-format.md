@@ -1,6 +1,6 @@
 # Dataset source format
 
-This page describes the source format of datasets in RiverBench. This format is used only internally and is **different** to the [release format](dataset-release-format).
+This page describes the source format of datasets in RiverBench. This format is used only internally and is **different** to the [release format](dataset-release-format.md).
 
 ## Overall file structure
 
@@ -8,14 +8,14 @@ This file structure will be created for you when your repository is created by a
 
 * `.github/` – the directory with CI configuration needed to package and publish your dataset. You don't need to change anything there.
 * `LICENSE` – specifies the license for the dataset.
-* `metadata.ttl` – describes the dataset in a machine-readable manner. See the [metadata wiki page](metadata) for more details.
+* `metadata.ttl` – describes the dataset in a machine-readable manner. See the [metadata documentation](metadata.md) for more details.
 * `README.md` – auto-generated from metadata.ttl. You don't need to touch it.
 
 You can also add more files and directories (like `.gitignore`, etc.) to the repository.
 
 ## Source files
 
-* Source files must be uploaded as a GitHub release to your repository, following [this guide](creating-new-dataset/#step-3-upload-the-dataset-sources).
+* Source files must be uploaded as a GitHub release to your repository, following [this guide](creating-new-dataset.md#step-3-upload-the-dataset-sources).
 * There must be exactly one source file per dataset (either `triples.tar.gz`, `graphs.tar.gz`, or `quads.tar.gz`).
 * The source file must be a `.tar.gz` archive, with a structure, as outlined below.
 * The archive can contain only directories (nesting is allowed) and stream element files.
@@ -122,5 +122,5 @@ The files must be in the RDF 1.1 Turtle format, or in the Turtle-star format, if
 
 ## See also
 
-- [Creating a new dataset](creating-new-dataset)
-- [Dataset release format](dataset-release-format)
+- [Creating a new dataset](creating-new-dataset.md)
+- [Dataset release format](dataset-release-format.md)
