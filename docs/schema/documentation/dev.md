@@ -7,8 +7,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
     * `https://w3id.org/riverbench/schema/documentation`
 * **Creators(s)**
     * Piotr Sowiński
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -50,7 +49,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Technical metadata](#groupTechnicalMetadata)<br />[General information](#groupGeneralInfo)<br />[Distributions](#groupDistributions)<br />[Content](#groupContent)<br />
+Has members |[Technical metadata](#groupTechnicalMetadata)<br />[Content](#groupContent)<br />[Distributions](#groupDistributions)<br />[General information](#groupGeneralInfo)<br />
 
 
 ## Object Properties
@@ -78,6 +77,7 @@ Description | Indicates the benchmark suite to which a dataset or profile belong
 [license](#license),
 [modified](#modified),
 [rights](#rights),
+[source](#source),
 [title](#title),
 [checksum](#checksum),
 [type](#type),
@@ -138,6 +138,11 @@ URI | `http://purl.org/dc/terms/modified`
 Property | Value
 --- | ---
 URI | `http://purl.org/dc/terms/rights`
+
+### source <a name="source"></a>
+Property | Value
+--- | ---
+URI | `http://purl.org/dc/terms/source`
 
 ### title <a name="title"></a>
 Property | Value
