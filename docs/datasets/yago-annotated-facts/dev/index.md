@@ -1,6 +1,13 @@
 # yago-annotated-facts (development version)
 
-This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downloads/yago-4), based on Wikidata, [version from February 24, 2020](https://yago-knowledge.org/data/yago4/full/2020-02-24/). This dataset includes only the fact annotations in RDF-star, that is facts about facts. Each stream element corresponds to one item in Wikidata.
+This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downloads/yago-4) ([paper](https://suchanek.name/work/publications/eswc-2020-yago.pdf)), based on Wikidata, [version from February 24, 2020](https://yago-knowledge.org/data/yago4/full/2020-02-24/). This dataset includes only the fact annotations in RDF-star, that is facts about facts. Each stream element corresponds to one item in Wikidata.
+
+!!! info
+
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev.rdf)**
+    <br>Source repository: **[yago-annotated-facts](https://github.com/RiverBench/dataset-yago-annotated-facts)**
+
+
 
 ## General information
 
@@ -19,20 +26,23 @@ This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downl
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
         - **<abbr title="A homepage for some thing.">Homepage</abbr>**:     
-            - [https://github.com/Ostrzyciel](https://github.com/Ostrzyciel)
-            - [https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)
+            -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
+            - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-SA-3.0](https://spdx.org/licenses/CC-BY-SA-3.0)
+- **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: 
+    - [https://doi.org/10.1007%2F978-3-030-49461-2_34](https://doi.org/10.1007%2F978-3-030-49461-2_34)
+    - [https://yago-knowledge.org/downloads/yago-4](https://yago-knowledge.org/downloads/yago-4)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-04-30
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-05-02
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-05-08
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
-- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: <abbr title="Ontology for describing datasets and profiles in the RiverBench benchmark suite.">RiverBench metadata ontology</abbr> ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
+- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
 ## Technical metadata
 
 - **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://w3id.org/riverbench/schema/metadata#triples))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 617,768
-- **Has stream element split**: 
-    - **Type**: Stream elements split by topic ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
+- **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
+    - **Type**: <abbr title="The elements correspond to different topics/subjects in the dataset.">Stream elements split by topic</abbr> ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: Every stream element corresponds to one Wikidata item.
 - **<abbr title="Indicates that the dataset uses an ontology. The object must be a resource, but it doesn't neccesarily have to be an OWL ontology.">Uses ontology</abbr>**: [http://schema.org/](http://schema.org/)
 - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: no
@@ -58,12 +68,12 @@ This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downl
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `e9d25e049e99f5eee0f5171ef11e13eb48f548f5`
-        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-    - **Checksum (2)**    
-        - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `854da6fff00c30ba4e1ffafc43e316a1`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
+    - **Checksum (2)**    
+        - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `e9d25e049e99f5eee0f5171ef11e13eb48f548f5`
+        - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
 - **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_100K.nt.gz](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_100K.nt.gz)
 
 #### <abbr title="Has a dataset statistics object">Has statistics</abbr>
@@ -171,9 +181,9 @@ This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downl
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 49
 
-##### Simple literal count statistics
+##### PlainLiteralCountStatistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
+- **Type**: PlainLiteralCountStatistics ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
 - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
@@ -309,9 +319,9 @@ This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downl
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 8
 
-##### Simple literal count statistics
+##### PlainLiteralCountStatistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
+- **Type**: PlainLiteralCountStatistics ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
 - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
@@ -447,9 +457,9 @@ This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downl
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 66
 
-##### Simple literal count statistics
+##### PlainLiteralCountStatistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
+- **Type**: PlainLiteralCountStatistics ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
 - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
@@ -586,9 +596,9 @@ This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downl
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 49
 
-##### Simple literal count statistics
+##### PlainLiteralCountStatistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
+- **Type**: PlainLiteralCountStatistics ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
 - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
@@ -725,9 +735,9 @@ This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downl
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 8
 
-##### Simple literal count statistics
+##### PlainLiteralCountStatistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
+- **Type**: PlainLiteralCountStatistics ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
 - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
@@ -864,9 +874,9 @@ This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downl
 - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 1
 - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 66
 
-##### Simple literal count statistics
+##### PlainLiteralCountStatistics
 
-- **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
+- **Type**: PlainLiteralCountStatistics ([rb:PlainLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#PlainLiteralCountStatistics))
 - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
 - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
 - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
