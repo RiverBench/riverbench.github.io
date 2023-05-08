@@ -28,22 +28,23 @@ This is a large, typical dataset with statistical information, with a very regul
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
         - **<abbr title="A homepage for some thing.">Homepage</abbr>**:     
-            - [https://github.com/Ostrzyciel](https://github.com/Ostrzyciel)
-            - [https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)
+            -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
+            - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
+- **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: [http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators](http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators)
 - **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: According to the European Commission reuse notice, reuse is authorised, provided the source is acknowledged. The reuse policy of the European Commission is implemented by the Decision of 12 December 2011.
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-04
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-05-04
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-05-08
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [digital-agenda-indicators (dev)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev)
-- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: <abbr title="Ontology for describing datasets and profiles in the RiverBench benchmark suite.">RiverBench metadata ontology</abbr> ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
+- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
 ## Technical metadata
 
 - **<abbr title="Indicates the type of contents of each stream element">Has stream element type</abbr>**: <abbr title="Triple streams consist of elements, where each element is an RDF graph.">Triples</abbr> ([rb:triples](https://w3id.org/riverbench/schema/metadata#triples))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,440,415
-- **Has stream element split**: 
-    - **Type**: Stream elements split by topic ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
+- **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
+    - **Type**: <abbr title="The elements correspond to different topics/subjects in the dataset.">Stream elements split by topic</abbr> ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each stream element corresponds to one statistical observation. The elements are ordered alphabetically, so it is likely that similar observations (e.g., from the the same country) are next to each other in the stream.
 - **<abbr title="Indicates that the dataset uses an ontology. The object must be a resource, but it doesn't neccesarily have to be an OWL ontology.">Uses ontology</abbr>**: 
     - [http://purl.org/linked-data/cube#](http://purl.org/linked-data/cube#)
