@@ -37,3 +37,7 @@ The procedure for making a release is the same as for datasets. New tagged relea
 Schemas and ontologies are versioned in the same manner, but independently of the suite.
 
 The procudure for making a release is the same as for datasets.
+
+## Archive / backup
+
+All releases (of schemas, datasets, profiles, and the suite) are archived in **[Zenodo](https://doi.org/10.5281/zenodo.7909063)**. This is however only a *backup* and it does not include the packaged datasets, only their sources, due to the excessive size of all the datasets.
