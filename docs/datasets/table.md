@@ -4,6 +4,7 @@ Dataset | <abbr title="Stream element type">El. type</abbr> | <abbr title="Strea
 [assist-iot-weather-graphs](assist-iot-weather-graphs/dev) | graphs | 701,278 | :material-close: | :material-close: | :material-close:
 [citypulse-traffic](citypulse-traffic/dev) | triples | 4,382,599 | :material-close: | :material-close: | :material-close:
 [citypulse-traffic-graphs](citypulse-traffic-graphs/dev) | graphs | 4,382,599 | :material-close: | :material-close: | :material-close:
+[dbpedia-live](dbpedia-live/dev) | triples | 166,204 | :material-close: | :material-close: | :material-close:
 [digital-agenda-indicators](digital-agenda-indicators/dev) | triples | 1,440,415 | :material-close: | :material-close: | :material-close:
 [linked-spending](linked-spending/dev) | triples | 2,477,552 | :material-close: | :material-close: | :material-close:
 [lod-katrina](lod-katrina/dev) | triples | 5,893,763 | :material-close: | :material-close: | :material-close:

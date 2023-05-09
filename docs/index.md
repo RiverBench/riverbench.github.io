@@ -38,6 +38,7 @@ RiverBench is an open, community-driven RDF streaming benchmark suite. It includ
     - [assist-iot-weather-graphs (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev)
     - [citypulse-traffic (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev)
     - [citypulse-traffic-graphs (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev)
+    - [dbpedia-live (dev)](https://w3id.org/riverbench/datasets/dbpedia-live/dev)
     - [digital-agenda-indicators (dev)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev)
     - [linked-spending (dev)](https://w3id.org/riverbench/datasets/linked-spending/dev)
     - [lod-katrina (dev)](https://w3id.org/riverbench/datasets/lod-katrina/dev)
