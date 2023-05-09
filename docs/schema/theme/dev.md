@@ -8,7 +8,8 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)  and
 * **URI**
     * `https://w3id.org/riverbench/schema/theme#conceptScheme`
 * **Creators(s)**
-    * [Piotr Sowiński](https://github.com/Ostrzyciel)
+    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
+    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
 * **License**
     * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
@@ -43,6 +44,7 @@ Collection of topic concepts used to annotate RiverBench datasets.
 * [Encyclopedic](#encyclopedic) (con)
 * [Government](#government) (con)
 * [Meteorological](#meteorological) (con)
+* [Musical](#musical) (con)
 * [News](#news) (con)
 * [Political](#political) (con)
 * [Scientific](#scientific) (con)
@@ -81,7 +83,7 @@ URI | `https://w3id.org/riverbench/schema/theme#dataType`
 Preferred Labels |Data type (en)<br />
 Definitions |Datasets by types of data used.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Temporal](#temporal) (con)<br />[Spatial](#spatial) (con)<br />
+Narrower Concepts |[Spatial](#spatial) (con)<br />[Temporal](#temporal) (con)<br />
 
 ### Domain <a name="domain"></a>
 Property | Value
@@ -90,7 +92,7 @@ URI | `https://w3id.org/riverbench/schema/theme#domain`
 Preferred Labels |Domain (en)<br />
 Definitions |Datasets by domain.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Encyclopedic](#encyclopedic) (con)<br />[Political](#political) (con)<br />[Government](#government) (con)<br />[Abstract data](#abstract) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Sensor data](#sensorData) (con)<br />[Scientific](#scientific) (con)<br />[News](#news) (con)<br />[Meteorological](#meteorological) (con)<br />[Statistical](#statistical) (con)<br />
+Narrower Concepts |[Bibliographical](#bibliographical) (con)<br />[Meteorological](#meteorological) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Musical](#musical) (con)<br />[Scientific](#scientific) (con)<br />[Government](#government) (con)<br />[Statistical](#statistical) (con)<br />[Political](#political) (con)<br />[News](#news) (con)<br />[Sensor data](#sensorData) (con)<br />[Abstract data](#abstract) (con)<br />
 
 ### Encyclopedic <a name="encyclopedic"></a>
 Property | Value
@@ -116,6 +118,14 @@ Preferred Labels |Meteorological (en)<br />
 Definitions |Datasets with meteorological information.<br />
 Broader Concepts |[Domain](#domain) (con)<br />
 
+### Musical <a name="musical"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/theme#musical`
+Preferred Labels |Musical (en)<br />
+Definitions |Datasets with information about music.<br />
+Broader Concepts |[Domain](#domain) (con)<br />
+
 ### News <a name="news"></a>
 Property | Value
 --- | ---
@@ -137,7 +147,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/theme#rootConcept`
 Preferred Labels |Root concept (en)<br />
-Narrower Concepts |[Domain](#domain) (con)<br />[Data type](#dataType) (con)<br />
+Narrower Concepts |[Data type](#dataType) (con)<br />[Domain](#domain) (con)<br />
 
 ### Scientific <a name="scientific"></a>
 Property | Value
