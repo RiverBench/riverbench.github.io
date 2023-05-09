@@ -7,6 +7,7 @@ Dataset | <abbr title="Stream element type">El. type</abbr> | <abbr title="Strea
 [digital-agenda-indicators](digital-agenda-indicators/dev) | triples | 1,440,415 | :material-close: | :material-close: | :material-close:
 [linked-spending](linked-spending/dev) | triples | 2,477,552 | :material-close: | :material-close: | :material-close:
 [lod-katrina](lod-katrina/dev) | triples | 5,893,763 | :material-close: | :material-close: | :material-close:
+[muziekweb](muziekweb/dev) | triples | 2,450,357 | :material-close: | :material-close: | :material-close:
 [nanopubs](nanopubs/dev) | quads | 5,000,000 | :material-close: | :material-close: | :material-close:
 [politiquices](politiquices/dev) | triples | 17,773 | :material-close: | :material-close: | :material-close:
 [yago-annotated-facts](yago-annotated-facts/dev) | triples | 617,768 | :material-check: | :material-close: | :material-close:
