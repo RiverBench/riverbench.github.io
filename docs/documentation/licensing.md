@@ -7,22 +7,26 @@
 
 ## Attribution / citation
 
-If you use RiverBench in your research, please cite it as: *Sowiński, P. (2023). RiverBench: an open RDF streaming benchmark suite. https://w3id.org/riverbench*
+If you use RiverBench in your research, please cite the most recent paper about the suite:
+
+Sowinski, P., Ganzha, M., & Paprzycki, M. (2023). RiverBench: an Open RDF Streaming Benchmark Suite. *arXiv preprint arXiv:2305.06226*.
 
 Or use this BibTeX entry:
 
 ```bibtex
-@misc{riverbench,
-  author = {Sowiński, Piotr},
-  title = {RiverBench: an open RDF streaming benchmark suite},
-  howpublished = {\url{https://w3id.org/riverbench}},
-  year = {2023}
+@article{sowinski2023riverbench,
+  title={RiverBench: an Open RDF Streaming Benchmark Suite},
+  author={Sowinski, Piotr and Ganzha, Maria and Paprzycki, Marcin},
+  journal={arXiv preprint arXiv:2305.06226},
+  year={2023},
+  url={https://doi.org/10.48550/arXiv.2305.06226},
+  doi={10.48550/arXiv.2305.06226}
 }
 ```
 
 If you use the individual datasets, if possible you should at least cite the links to their documentation pages, which contain the attribution and licensing information. If not possible, you should at least include a link to the profile or release of RiverBench that contains the datasets you used.
 
-Remember to cite the specific stable version of RiverBench that you used. Citing the "dev" version is not recommended, as it can change at any time. See also: [Versioning and releases](versioning.md).
+Remember to specify the stable version of RiverBench that you used. Using the "dev" version is not recommended, as it can change at any time. See also: [Versioning and releases](versioning.md).
 
 ## RiverBench maintainer
 
