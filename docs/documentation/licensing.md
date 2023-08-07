@@ -7,7 +7,7 @@
 
 ## Attribution / citation
 
-If you use RiverBench in your research, please cite the most recent paper about the suite:
+If you use RiverBench in your research, please cite [the most recent paper about the suite](https://arxiv.org/abs/2305.06226):
 
 Sowinski, P., Ganzha, M., & Paprzycki, M. (2023). RiverBench: an Open RDF Streaming Benchmark Suite. *arXiv preprint arXiv:2305.06226*.
 
