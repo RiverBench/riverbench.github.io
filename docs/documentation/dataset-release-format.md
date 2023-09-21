@@ -2,12 +2,15 @@
 
 This page explains the formats in which [RiverBench's datasets](../datasets/index.md) are distributed.
 
-Each dataset has two types of distributions: flat and streaming. Flat distributions are simply compressed files with a sequence of RDF statements. Streaming distributions are compressed archives with a sequence of files, with each file corresponding to one stream element.
+Each dataset has three types of distributions: flat, streaming (plain), and streaming (Jelly format). Flat distributions are simply compressed files with a sequence of RDF statements. Plain streaming distributions are compressed archives with a sequence of files, with each file corresponding to one stream element. Jelly streaming distributions use the high-performance [Jelly serialization format](https://github.com/Jelly-RDF) that natively supports RDF streams.
 
 There always a few size variants of each distribution to choose from, starting from 10K stream elements, with 10x increases up to the full dataset. The full distribution is the longest available distribution of the dataset.
 
 !!! tip
     Choose the size-limited distributions, if your work does not require the full dataset. They are much easier to work with. You can also want to choose them to have all datasets of the same size.
+
+!!! tip
+    [Jelly distributions](#jelly-distributions) are the fastest to load and much easier to work with. They can be used instead of both flat and stream distributions.
 
 ## Flat distributions
 
@@ -75,6 +78,14 @@ The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}
         - ...
         - 0009999999.trig
 ```
+
+## Jelly distributions
+
+Jelly distributions simply use delimited `RdfStreamFrame`s to denote the individual elements in the stream. The streams are either of `TRIPLES` type (for triple streams) or `QUADS` for quad and graph streams. The resulting file is gzip-compressed.
+
+Parsing Jelly files should be [**about 5 times faster**](https://arxiv.org/pdf/2207.04439.pdf) than the other distribution types, depending on the dataset and your hardware. Dataset sizes should be more-or-less the same when compressed, but **when uncompressed Jelly will be 3–4 times smaller**.
+
+Reading Jelly files is currently supported in Apache Jena and RDF4J, using the [`jelly-jvm`](https://github.com/Jelly-RDF/jelly-jvm) library. Please refer to [Jelly's wiki](https://github.com/Jelly-RDF/jelly-jvm/wiki) for usage examples and documentation.
 
 ## See also
 
