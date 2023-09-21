@@ -7,8 +7,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
     * `https://w3id.org/riverbench/schema/metadata`
 * **Creators(s)**
     * Piotr Sowiński
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -62,6 +61,7 @@ Ontology for describing datasets and profiles in the RiverBench benchmark suite.
 * [Statement count statistics](#StatementCountStatistics)
 * [Stream elements split by statement count](#StatementCountStreamElementSplit)
 * [Statistics](#Statistics)
+* [Statistics set](#StatisticsSet)
 * [Stream element split](#StreamElementSplit)
 * [Stream element type](#StreamElementType)
 * [Subject count statistics](#SubjectCountStatistics)
@@ -87,7 +87,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Dataset`
 Description | A dataset in the RiverBench benchmark suite
 Super-classes |[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset) (c)<br />
-In domain of |[Uses ontology](#usesOntology) (op)<br />[Has stream element split](#hasStreamElementSplit) (op)<br />
+In domain of |[Has stream element split](#hasStreamElementSplit) (op)<br />[Uses ontology](#usesOntology) (op)<br />
 
 ### Datatype literal count statistics <a name="DatatypeLiteralCountStatistics"></a>
 Property | Value
@@ -102,7 +102,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Distribution`
 Description | A distribution of a dataset in the RiverBench benchmark suite.
 Super-classes |[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution) (c)<br />
-In domain of |[Has file name](#hasFileName) (dp)<br />[Has statistics](#hasStatistics) (op)<br />
+In domain of |[Has file name](#hasFileName) (dp)<br />[Has distribution type](#hasDistributionType) (op)<br />[Has statistics set](#hasStatisticsSet) (op)<br />
 
 ### RiverBench distribution type <a name="DistributionType"></a>
 Property | Value
@@ -110,7 +110,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Partial distribution](#partialDistribution)<br />[Flat distribution](#flatDistribution)<br />[Full distribution](#fullDistribution)<br />[Quad stream distribution](#quadStreamDistribution)<br />[Triple stream distribution](#tripleStreamDistribution)<br />[Graph stream distribution](#graphStreamDistribution)<br />
+Has members |[Quad stream distribution](#quadStreamDistribution)<br />[Full distribution](#fullDistribution)<br />[Graph stream distribution](#graphStreamDistribution)<br />[Partial distribution](#partialDistribution)<br />[Flat distribution](#flatDistribution)<br />[Triple stream distribution](#tripleStreamDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -160,8 +160,8 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Profile`
 Description | Benchmark profile grouping several datasets in RiverBench
 Super-classes |[Dataset series](#DatasetSeries) (c)<br />
-In domain of |[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has restriction](#hasRestriction) (op)<br />
-In range of |[Has benchmark profile](#hasProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
+In domain of |[Has restriction](#hasRestriction) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
+In range of |[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
 
 ### Profile restriction <a name="ProfileRestriction"></a>
 Property | Value
@@ -211,16 +211,24 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[Object count statistics](#ObjectCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />
+Sub-classes |[Statement count statistics](#StatementCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
+
+### Statistics set <a name="StatisticsSet"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#StatisticsSet`
+Description | Class for groupings (sets) of statistics about distributions
+In domain of |[Has statistics](#hasStatistics) (op)<br />
+In range of |[Has statistics set](#hasStatisticsSet) (op)<br />
 
 ### Stream element split <a name="StreamElementSplit"></a>
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementSplit`
 Description | Describes how was the stream split into individual elements.
-Sub-classes |[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />
+Sub-classes |[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />
 In range of |[Has stream element split](#hasStreamElementSplit) (op)<br />
 
 ### Stream element type <a name="StreamElementType"></a>
@@ -229,7 +237,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementType`
 Description | Indicates the type of the contents of stream elements
 In range of |[Has stream element type](#hasStreamElementType) (op)<br />
-Has members |[Graphs](#graphs)<br />[Triples](#triples)<br />[Quads](#quads)<br />
+Has members |[Quads](#quads)<br />[Triples](#triples)<br />[Graphs](#graphs)<br />
 
 ### Subject count statistics <a name="SubjectCountStatistics"></a>
 Property | Value
@@ -260,6 +268,7 @@ Super-classes |[Stream element split](#StreamElementSplit) (c)<br />
 [Has benchmark profile](#hasProfile),
 [Has restriction](#hasRestriction),
 [Has statistics](#hasStatistics),
+[Has statistics set](#hasStatisticsSet),
 [Has stream element split](#hasStreamElementSplit),
 [Has stream element type](#hasStreamElementType),
 [Has temporal property](#hasTemporalProperty),
@@ -278,6 +287,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#hasDistributionType`
 Description | Indicates the type of RiverBench dataset distribution
+Domain(s) |[RiverBench dataset distribution](#Distribution) (c)<br />
 Range(s) |[RiverBench distribution type](#DistributionType) (c)<br />
 
 ### Has benchmark profile <a name="hasProfile"></a>
@@ -302,8 +312,16 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#hasStatistics`
 Description | Has a dataset statistics object
-Domain(s) |[RiverBench dataset distribution](#Distribution) (c)<br />
+Domain(s) |[Statistics set](#StatisticsSet) (c)<br />
 Range(s) |[Statistics](#Statistics) (c)<br />
+
+### Has statistics set <a name="hasStatisticsSet"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#hasStatisticsSet`
+Description | Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.
+Domain(s) |[RiverBench dataset distribution](#Distribution) (c)<br />
+Range(s) |[Statistics set](#StatisticsSet) (c)<br />
 
 ### Has stream element split <a name="hasStreamElementSplit"></a>
 Property | Value
