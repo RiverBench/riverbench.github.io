@@ -7,7 +7,8 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
     * `https://w3id.org/riverbench/schema/metadata`
 * **Creators(s)**
     * Piotr Sowiński
-    * [Piotr Sowiński](https://github.com/Ostrzyciel)
+    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
+    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -102,7 +103,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Distribution`
 Description | A distribution of a dataset in the RiverBench benchmark suite.
 Super-classes |[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution) (c)<br />
-In domain of |[Has file name](#hasFileName) (dp)<br />[Has distribution type](#hasDistributionType) (op)<br />[Has statistics set](#hasStatisticsSet) (op)<br />
+In domain of |[Has distribution type](#hasDistributionType) (op)<br />[Has statistics set](#hasStatisticsSet) (op)<br />[Has file name](#hasFileName) (dp)<br />
 
 ### RiverBench distribution type <a name="DistributionType"></a>
 Property | Value
@@ -110,7 +111,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Quad stream distribution](#quadStreamDistribution)<br />[Full distribution](#fullDistribution)<br />[Graph stream distribution](#graphStreamDistribution)<br />[Partial distribution](#partialDistribution)<br />[Flat distribution](#flatDistribution)<br />[Triple stream distribution](#tripleStreamDistribution)<br />
+Has members |[Triple stream distribution](#tripleStreamDistribution)<br />[Flat distribution](#flatDistribution)<br />[Quad stream distribution](#quadStreamDistribution)<br />[Full distribution](#fullDistribution)<br />[Graph stream distribution](#graphStreamDistribution)<br />[Partial distribution](#partialDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -160,8 +161,8 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Profile`
 Description | Benchmark profile grouping several datasets in RiverBench
 Super-classes |[Dataset series](#DatasetSeries) (c)<br />
-In domain of |[Has restriction](#hasRestriction) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
-In range of |[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
+In domain of |[Has restriction](#hasRestriction) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
+In range of |[Has benchmark profile](#hasProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
 
 ### Profile restriction <a name="ProfileRestriction"></a>
 Property | Value
@@ -211,7 +212,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[Statement count statistics](#StatementCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />
+Sub-classes |[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
 
@@ -228,7 +229,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementSplit`
 Description | Describes how was the stream split into individual elements.
-Sub-classes |[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />
+Sub-classes |[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />
 In range of |[Has stream element split](#hasStreamElementSplit) (op)<br />
 
 ### Stream element type <a name="StreamElementType"></a>
@@ -237,7 +238,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementType`
 Description | Indicates the type of the contents of stream elements
 In range of |[Has stream element type](#hasStreamElementType) (op)<br />
-Has members |[Quads](#quads)<br />[Triples](#triples)<br />[Graphs](#graphs)<br />
+Has members |[Triples](#triples)<br />[Quads](#quads)<br />[Graphs](#graphs)<br />
 
 ### Subject count statistics <a name="SubjectCountStatistics"></a>
 Property | Value
