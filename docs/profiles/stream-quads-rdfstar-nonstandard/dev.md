@@ -11,8 +11,8 @@ Streaming quads (with RDF-star and non-standard extensions)
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Streaming quads (RDF-star, non-standard)
-- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: stream-quads-rdfstar-nonstandard
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: dev
+- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-quads-rdfstar-nonstandard`
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
     - [stream-graphs (dev)](https://w3id.org/riverbench/profiles/stream-graphs/dev)
     - [stream-graphs-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-graphs-nonstandard/dev)

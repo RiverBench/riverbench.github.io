@@ -11,8 +11,8 @@ Flat sequence of quads (with RDF-star and non-standard extensions)
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of quads (RDF-star, non-standard)
-- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: flat-quads-rdfstar-nonstandard
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: dev
+- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-quads-rdfstar-nonstandard`
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
     - [flat-quads (dev)](https://w3id.org/riverbench/profiles/flat-quads/dev)
     - [flat-quads-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-quads-nonstandard/dev)

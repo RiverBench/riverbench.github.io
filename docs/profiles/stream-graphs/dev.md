@@ -11,8 +11,8 @@ Streaming graphs (RDF 1.1 standard only)
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Streaming graphs (standard)
-- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: stream-graphs
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: dev
+- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-graphs`
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
     - [stream-graphs-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-graphs-nonstandard/dev)
     - [stream-graphs-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar/dev)

@@ -11,8 +11,8 @@ Flat sequence of triples or quads (with RDF-star)
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of triples or quads (RDF-star)
-- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: flat-mixed-rdfstar
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: dev
+- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-mixed-rdfstar`
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
     - [flat-mixed (dev)](https://w3id.org/riverbench/profiles/flat-mixed/dev)
     - [flat-quads (dev)](https://w3id.org/riverbench/profiles/flat-quads/dev)

@@ -11,8 +11,8 @@ Flat sequence of quads (RDF 1.1 standard only)
 ## General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of quads (standard)
-- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: flat-quads
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: dev
+- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-quads`
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
     - [flat-mixed (dev)](https://w3id.org/riverbench/profiles/flat-mixed/dev)
     - [flat-mixed-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev)
