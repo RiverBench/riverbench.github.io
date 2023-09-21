@@ -7,8 +7,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
     * `https://w3id.org/riverbench/schema/metadata`
 * **Creators(s)**
     * Piotr Sowiński
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -88,7 +87,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Dataset`
 Description | A dataset in the RiverBench benchmark suite
 Super-classes |[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset) (c)<br />
-In domain of |[Has stream element split](#hasStreamElementSplit) (op)<br />[Uses ontology](#usesOntology) (op)<br />
+In domain of |[Uses ontology](#usesOntology) (op)<br />[Has stream element split](#hasStreamElementSplit) (op)<br />
 
 ### Datatype literal count statistics <a name="DatatypeLiteralCountStatistics"></a>
 Property | Value
@@ -103,7 +102,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Distribution`
 Description | A distribution of a dataset in the RiverBench benchmark suite.
 Super-classes |[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution) (c)<br />
-In domain of |[Has distribution type](#hasDistributionType) (op)<br />[Has statistics set](#hasStatisticsSet) (op)<br />[Has file name](#hasFileName) (dp)<br />
+In domain of |[Has file name](#hasFileName) (dp)<br />[Has statistics set](#hasStatisticsSet) (op)<br />[Has distribution type](#hasDistributionType) (op)<br />
 
 ### RiverBench distribution type <a name="DistributionType"></a>
 Property | Value
@@ -111,7 +110,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Triple stream distribution](#tripleStreamDistribution)<br />[Flat distribution](#flatDistribution)<br />[Quad stream distribution](#quadStreamDistribution)<br />[Full distribution](#fullDistribution)<br />[Graph stream distribution](#graphStreamDistribution)<br />[Partial distribution](#partialDistribution)<br />
+Has members |[Flat distribution](#flatDistribution)<br />[Quad stream distribution](#quadStreamDistribution)<br />[Graph stream distribution](#graphStreamDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Triple stream distribution](#tripleStreamDistribution)<br />[Full distribution](#fullDistribution)<br />[Partial distribution](#partialDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -161,8 +160,8 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Profile`
 Description | Benchmark profile grouping several datasets in RiverBench
 Super-classes |[Dataset series](#DatasetSeries) (c)<br />
-In domain of |[Has restriction](#hasRestriction) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
-In range of |[Has benchmark profile](#hasProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
+In domain of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has restriction](#hasRestriction) (op)<br />
+In range of |[Has benchmark profile](#hasProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
 
 ### Profile restriction <a name="ProfileRestriction"></a>
 Property | Value
@@ -212,7 +211,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />
+Sub-classes |[Subject count statistics](#SubjectCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
 
@@ -520,6 +519,7 @@ Range(s) |[xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean) (c)<br />
 [Full distribution](#fullDistribution),
 [Graph stream distribution](#graphStreamDistribution),
 [Graphs](#graphs),
+[Jelly distribution](#jellyDistribution),
 [Partial distribution](#partialDistribution),
 [Quad stream distribution](#quadStreamDistribution),
 [Quads](#quads),
@@ -553,6 +553,13 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#graphs`
 Class(es) | [Stream element type](#StreamElementType)
 Description | Graph streams are a special case of quad streams, where each element contains exactly one named RDF graph.
+
+### Jelly distribution <a name="jellyDistribution"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#jellyDistribution`
+Class(es) | [RiverBench distribution type](#DistributionType)
+Description | A streaming distribution in the Jelly binary format.
 
 ### Partial distribution <a name="partialDistribution"></a>
 Property | Value
