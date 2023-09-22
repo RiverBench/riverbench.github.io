@@ -17,7 +17,13 @@ Examples of URLs that will return the metadata with content negotiation:
 * [https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata)
 * [https://w3id.org/riverbench/schema/metadata/dev](https://w3id.org/riverbench/schema/metadata/dev)
 
-To request a metadata file in a given format explicitly, you can also append `.nt`, `.ttl`, or `.rdf` to these URLs.
+To request a metadata file in a given format explicitly, you can also append `.nt`, `.ttl`, `.rdf`, or `.jelly` to these URLs.
+
+The following metadata formats are supported:
+- [N-Triples](https://www.w3.org/TR/n-triples/) (`.nt`, content type `application/n-triples`)
+- [Turtle](https://www.w3.org/TR/turtle/) (`.ttl`, content type `text/turtle`)
+- [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (`.rdf`, content type `application/rdf+xml`)
+- [Jelly](https://github.com/Jelly-RDF) (`.jelly`, content type `application/x-jelly-rdf`)
 
 *You can find the rules that make this work [here](https://github.com/perma-id/w3id.org/tree/master/riverbench).*
 
