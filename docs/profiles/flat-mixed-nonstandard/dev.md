@@ -4,7 +4,7 @@ Flat sequence of triples or quads (with non-standard extensions)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev.rdf)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev.jelly)**
 
 
 

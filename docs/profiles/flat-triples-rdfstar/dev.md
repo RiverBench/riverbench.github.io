@@ -4,7 +4,7 @@ Flat sequence of triples (with RDF-star)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev.rdf)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev.jelly)**
 
 
 

@@ -4,7 +4,7 @@ Streaming triples or quads (with RDF-star and non-standard extensions). This pro
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev.rdf)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev.jelly)**
 
 
 

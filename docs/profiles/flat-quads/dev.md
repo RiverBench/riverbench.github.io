@@ -4,7 +4,7 @@ Flat sequence of quads (RDF 1.1 standard only)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-quads/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-quads/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-quads/dev.rdf)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-quads/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-quads/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-quads/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/flat-quads/dev.jelly)**
 
 
 

@@ -4,7 +4,7 @@ Streaming triples (with non-standard extensions)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-triples-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-triples-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-triples-nonstandard/dev.rdf)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-triples-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-triples-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-triples-nonstandard/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/stream-triples-nonstandard/dev.jelly)**
 
 
 

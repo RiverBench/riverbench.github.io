@@ -4,7 +4,7 @@ Streaming triples (RDF 1.1 standard only)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-triples/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-triples/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-triples/dev.rdf)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-triples/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-triples/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-triples/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/stream-triples/dev.jelly)**
 
 
 

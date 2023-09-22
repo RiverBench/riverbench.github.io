@@ -22,7 +22,7 @@ RiverBench is an open, community-driven RDF streaming benchmark suite. It includ
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev.rdf)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev.jelly)**
 
 
 
