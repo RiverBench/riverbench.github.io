@@ -20,6 +20,7 @@ Examples of URLs that will return the metadata with content negotiation:
 To request a metadata file in a given format explicitly, you can also append `.nt`, `.ttl`, `.rdf`, or `.jelly` to these URLs.
 
 The following metadata formats are supported:
+
 - [N-Triples](https://www.w3.org/TR/n-triples/) (`.nt`, content type `application/n-triples`)
 - [Turtle](https://www.w3.org/TR/turtle/) (`.ttl`, content type `text/turtle`)
 - [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (`.rdf`, content type `application/rdf+xml`)
