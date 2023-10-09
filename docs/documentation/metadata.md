@@ -28,6 +28,16 @@ The following metadata formats are supported:
 
 *You can find the rules that make this work [here](https://github.com/perma-id/w3id.org/tree/master/riverbench).*
 
+## Metadata dumps
+
+Starting from RiverBench version 2.0.0, the entire metadata of RiverBench is published in easily accessible dumps. The dumps can be downladed from the [main page of RiverBench](https://w3id.org/riverbench/) and from the pages of the [suite releases](https://w3id.org/riverbench/v). The links to download the dump are in the "Info" box near the top of the page.
+
+The dumps can also be downloaded directly from:
+
+```https://w3id.org/riverbench/dumps/{version}.{extension}.gz```
+
+where `{version}` is the version tag of the suite release (e.g., `dev` or `2.0.0`), and `{extension}` is one of `nt`, `ttl`, `rdf`, or `jelly`.
+
 ## Editing metadata
 
 A large portion of the metadata is automatically generated. However, the rest is written manually in Turtle files in various repositories:
