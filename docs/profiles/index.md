@@ -10,9 +10,7 @@ Profiles in RiverBench group datasets that share common technical characteristic
 
 ## All profiles
 
-{%
-   include-markdown "table.md"
-%}
+--8<-- "docs/profiles/table.md"
 
 ## See also
 * [Datasets](../datasets/index.md)

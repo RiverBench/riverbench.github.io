@@ -10,9 +10,7 @@ You can find the list of all datasets in the menu on the left.
 
 ## All datasets
 
-{%
-   include-markdown "table.md"
-%}
+--8<-- "docs/datasets/table.md"
 
 ## See also
 * [Profiles](../profiles/index.md) – collections of datasets with common characteristics
