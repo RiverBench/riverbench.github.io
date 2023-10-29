@@ -1,26 +1,25 @@
-# stream-graphs-nonstandard (development version)
+# stream-subject-graphs-nonstandard (development version)
 
-Streaming unnamed graphs (with non-standard extensions)
+Streaming unnamed single-subject graphs (with non-standard extensions)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-graphs-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-graphs-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-graphs-nonstandard/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/stream-graphs-nonstandard/dev.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-subject-graphs-nonstandard/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-subject-graphs-nonstandard/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-subject-graphs-nonstandard/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/stream-subject-graphs-nonstandard/dev.jelly)**
 
 
 
 ## General information
 
-- **<abbr title="A name given to the resource.">Title</abbr>**: Streaming unnamed graphs (non-standard)
-- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-graphs-nonstandard`
+- **<abbr title="A name given to the resource.">Title</abbr>**: Streaming unnamed single-subject graphs (non-standard)
+- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-subject-graphs-nonstandard`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
-- **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
-    - [stream-graphs (dev)](https://w3id.org/riverbench/profiles/stream-graphs/dev)
-    - [stream-subject-graphs (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs/dev)
-    - [stream-subject-graphs-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs-nonstandard/dev)
+- **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: [stream-subject-graphs (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs/dev)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
+    - [stream-graphs-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-graphs-nonstandard/dev)
     - [stream-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar-nonstandard/dev)
     - [stream-mixed-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-mixed-nonstandard/dev)
     - [stream-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev)
+    - [stream-subject-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs-rdfstar-nonstandard/dev)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
 
 ## Technical metadata
@@ -29,9 +28,7 @@ Streaming unnamed graphs (with non-standard extensions)
     - **Has restriction (1)**    
         - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
     - **Has restriction (2)**    
-        - **OntologyhasStreamType**:     
-            - [https://w3id.org/stax/ontologygraphStream](https://w3id.org/stax/ontologygraphStream)
-            - [https://w3id.org/stax/ontologysubjectGraphStream](https://w3id.org/stax/ontologysubjectGraphStream)
+        - **OntologyhasStreamType**: [https://w3id.org/stax/ontologysubjectGraphStream](https://w3id.org/stax/ontologysubjectGraphStream)
     - **Has restriction (3)**    
         - **<abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr>**: no
 

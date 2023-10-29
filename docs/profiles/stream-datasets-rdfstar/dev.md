@@ -1,24 +1,26 @@
-# stream-graphs-rdfstar (development version)
+# stream-datasets-rdfstar (development version)
 
-Streaming unnamed graphs (with RDF-star)
+Streaming datasets (with RDF-star)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar/dev.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/stream-datasets-rdfstar/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/stream-datasets-rdfstar/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/stream-datasets-rdfstar/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/stream-datasets-rdfstar/dev.jelly)**
 
 
 
 ## General information
 
-- **<abbr title="A name given to the resource.">Title</abbr>**: Streaming unnamed graphs (RDF-star)
-- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-graphs-rdfstar`
+- **<abbr title="A name given to the resource.">Title</abbr>**: Streaming datasets (RDF-star)
+- **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-datasets-rdfstar`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
-    - [stream-graphs (dev)](https://w3id.org/riverbench/profiles/stream-graphs/dev)
-    - [stream-subject-graphs (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs/dev)
-    - [stream-subject-graphs-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs-rdfstar/dev)
+    - [stream-datasets (dev)](https://w3id.org/riverbench/profiles/stream-datasets/dev)
+    - [stream-named-graphs (dev)](https://w3id.org/riverbench/profiles/stream-named-graphs/dev)
+    - [stream-named-graphs-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-named-graphs-rdfstar/dev)
+    - [stream-ts-named-graphs (dev)](https://w3id.org/riverbench/profiles/stream-ts-named-graphs/dev)
+    - [stream-ts-named-graphs-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-ts-named-graphs-rdfstar/dev)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
-    - [stream-graphs-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-graphs-rdfstar-nonstandard/dev)
+    - [stream-datasets-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-datasets-rdfstar-nonstandard/dev)
     - [stream-mixed-rdfstar (dev)](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar/dev)
     - [stream-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/stream-mixed-rdfstar-nonstandard/dev)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
@@ -32,8 +34,9 @@ Streaming unnamed graphs (with RDF-star)
         - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
     - **Has restriction (3)**    
         - **OntologyhasStreamType**:     
-            - [https://w3id.org/stax/ontologygraphStream](https://w3id.org/stax/ontologygraphStream)
-            - [https://w3id.org/stax/ontologysubjectGraphStream](https://w3id.org/stax/ontologysubjectGraphStream)
+            - [https://w3id.org/stax/ontologydatasetStream](https://w3id.org/stax/ontologydatasetStream)
+            - [https://w3id.org/stax/ontologynamedGraphStream](https://w3id.org/stax/ontologynamedGraphStream)
+            - [https://w3id.org/stax/ontologytimestampedNamedGraphStream](https://w3id.org/stax/ontologytimestampedNamedGraphStream)
 
 
 ## Download links
