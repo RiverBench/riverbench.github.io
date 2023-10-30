@@ -1,6 +1,6 @@
 # stream-subject-graphs (development version)
 
-Streaming unnamed single-subject graphs (RDF 1.1 standard only)
+Streaming unnamed subject graphs (RDF 1.1 standard only)
 
 !!! info
 
@@ -10,7 +10,7 @@ Streaming unnamed single-subject graphs (RDF 1.1 standard only)
 
 ## General information
 
-- **<abbr title="A name given to the resource.">Title</abbr>**: Streaming unnamed single-subject graphs (standard)
+- **<abbr title="A name given to the resource.">Title</abbr>**: Streaming unnamed subject graphs (standard)
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-subject-graphs`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 

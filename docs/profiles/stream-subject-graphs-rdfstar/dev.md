@@ -1,6 +1,6 @@
 # stream-subject-graphs-rdfstar (development version)
 
-Streaming unnamed single-subject graphs (with RDF-star)
+Streaming unnamed subject graphs (with RDF-star)
 
 !!! info
 
@@ -10,7 +10,7 @@ Streaming unnamed single-subject graphs (with RDF-star)
 
 ## General information
 
-- **<abbr title="A name given to the resource.">Title</abbr>**: Streaming unnamed single-subject graphs (RDF-star)
+- **<abbr title="A name given to the resource.">Title</abbr>**: Streaming unnamed subject graphs (RDF-star)
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-subject-graphs-rdfstar`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: [stream-subject-graphs (dev)](https://w3id.org/riverbench/profiles/stream-subject-graphs/dev)
