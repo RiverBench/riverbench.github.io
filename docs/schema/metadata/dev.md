@@ -6,7 +6,8 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 * **URI**
     * `https://w3id.org/riverbench/schema/metadata`
 * **Creators(s)**
-    * [Piotr Sowiński](https://github.com/Ostrzyciel)
+    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
+    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -43,6 +44,7 @@ Ontology for describing datasets and profiles in the RiverBench benchmark suite.
 ## Classes
 * [Dataset series](#DatasetSeries)
 * [Blank node count statistics](#BlankNodeCountStatistics)
+* [Custom SHACL target](#CustomShaclTarget)
 * [RiverBench dataset](#Dataset)
 * [Datatype literal count statistics](#DatatypeLiteralCountStatistics)
 * [RiverBench dataset distribution](#Distribution)
@@ -80,6 +82,14 @@ URI | `https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics`
 Description | Statistics about the number of blank nodes in the dataset.
 Super-classes |[Statistics](#Statistics) (c)<br />
 
+### Custom SHACL target <a name="CustomShaclTarget"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#CustomShaclTarget`
+Description | A class for all custom SHACL-like node targets in RiverBench. See also rb:targetCustom.
+In range of |[Target custom](#targetCustom) (op)<br />
+Has members |[YAGO annotated facts target](#yagoTarget)<br />
+
 ### RiverBench dataset <a name="Dataset"></a>
 Property | Value
 --- | ---
@@ -87,7 +97,7 @@ URI | `https://w3id.org/riverbench/schema/metadata#Dataset`
 Description | A dataset in the RiverBench benchmark suite
 Super-classes |[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset) (c)<br />
 Restrictions |[https://w3id.org/stax/ontology#hasStreamTypeUsage](https://w3id.org/stax/ontology#hasStreamTypeUsage) **some** [https://w3id.org/stax/ontology#ConcreteRdfStreamType](https://w3id.org/stax/ontology#ConcreteRdfStreamType) (c)<br />
-In domain of |[Uses ontology](#usesOntology) (op)<br />[Has stream element split](#hasStreamElementSplit) (op)<br />
+In domain of |[Has stream element split](#hasStreamElementSplit) (op)<br />[Uses ontology](#usesOntology) (op)<br />
 
 ### Datatype literal count statistics <a name="DatatypeLiteralCountStatistics"></a>
 Property | Value
@@ -103,7 +113,7 @@ URI | `https://w3id.org/riverbench/schema/metadata#Distribution`
 Description | A distribution of a dataset in the RiverBench benchmark suite.
 Super-classes |[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution) (c)<br />
 Restrictions |[https://w3id.org/stax/ontology#hasStreamTypeUsage](https://w3id.org/stax/ontology#hasStreamTypeUsage) **some** [https://w3id.org/stax/ontology#ConcreteRdfStreamType](https://w3id.org/stax/ontology#ConcreteRdfStreamType) (c)<br />
-In domain of |[Has distribution type](#hasDistributionType) (op)<br />[Has statistics set](#hasStatisticsSet) (op)<br />[Has file name](#hasFileName) (dp)<br />
+In domain of |[Has statistics set](#hasStatisticsSet) (op)<br />[Has distribution type](#hasDistributionType) (op)<br />[Has file name](#hasFileName) (dp)<br />
 
 ### RiverBench distribution type <a name="DistributionType"></a>
 Property | Value
@@ -111,7 +121,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Partial distribution](#partialDistribution)<br />[Full distribution](#fullDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Flat distribution](#flatDistribution)<br />[Stream distribution](#streamDistribution)<br />
+Has members |[Flat distribution](#flatDistribution)<br />[Partial distribution](#partialDistribution)<br />[Stream distribution](#streamDistribution)<br />[Full distribution](#fullDistribution)<br />[Jelly distribution](#jellyDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -161,8 +171,8 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Profile`
 Description | Benchmark profile grouping several datasets in RiverBench
 Super-classes |[Dataset series](#DatasetSeries) (c)<br />
-In domain of |[Has restriction](#hasRestriction) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
-In range of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
+In domain of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has restriction](#hasRestriction) (op)<br />
+In range of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />
 
 ### Profile restriction <a name="ProfileRestriction"></a>
 Property | Value
@@ -212,7 +222,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[Subject count statistics](#SubjectCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />
+Sub-classes |[Graph count statistics](#GraphCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
 
@@ -229,7 +239,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementSplit`
 Description | Describes how was the stream split into individual elements.
-Sub-classes |[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />
+Sub-classes |[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />
 In range of |[Has stream element split](#hasStreamElementSplit) (op)<br />
 
 ### Subject count statistics <a name="SubjectCountStatistics"></a>
@@ -268,6 +278,7 @@ In domain of |[Has subject shape](#hasSubjectShape) (op)<br />
 [Has temporal property](#hasTemporalProperty),
 [Is subset of profile](#isSubsetOfProfile),
 [Is superset of profile](#isSupersetOfProfile),
+[Target custom](#targetCustom),
 [Uses ontology](#usesOntology),
 
 ### Includes dataset <a name="seriesMember"></a>
@@ -356,6 +367,14 @@ URI | `https://w3id.org/riverbench/schema/metadata#isSupersetOfProfile`
 Description | Indicates that this profile contains all datasets of the other profile
 Domain(s) |[Benchmark profile](#Profile) (c)<br />
 Range(s) |[Benchmark profile](#Profile) (c)<br />
+
+### Target custom <a name="targetCustom"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#targetCustom`
+Description | Custom SHACL-like node target used in RiverBench for datasets where SHACL does not provide adequate means for targeting them (e.g., for RDF-star).
+Domain(s) |[sh:NodeShape](http://www.w3.org/ns/shacl#NodeShape) (c)<br />
+Range(s) |[Custom SHACL target](#CustomShaclTarget) (c)<br />
 
 ### Uses ontology <a name="usesOntology"></a>
 Property | Value
@@ -516,6 +535,7 @@ Range(s) |[xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean) (c)<br />
 [Partial distribution](#partialDistribution),
 [Stream distribution](#streamDistribution),
 [Triples](#triples),
+[YAGO annotated facts target](#yagoTarget),
 
 ### Flat distribution <a name="flatDistribution"></a>
 Property | Value
@@ -557,6 +577,13 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#triples`
 Description | Triple streams consist of elements, where each element is an RDF graph.
+
+### YAGO annotated facts target <a name="yagoTarget"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#yagoTarget`
+Class(es) | [Custom SHACL target](#CustomShaclTarget)
+Description | Custom SHACL-like target for the yago-annotated-facts dataset in RiverBench. Targets the subject of any quoted triple in the graph. There is always exactly one such unique subject.
 
 ## Namespaces
 * **default (rb)**
