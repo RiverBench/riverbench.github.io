@@ -6,9 +6,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 * **URI**
     * `https://w3id.org/riverbench/schema/documentation`
 * **Creators(s)**
-    * Piotr Sowiński
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -50,7 +48,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Technical metadata](#groupTechnicalMetadata)<br />[General information](#groupGeneralInfo)<br />[Distributions](#groupDistributions)<br />[Content](#groupContent)<br />
+Has members |[General information](#groupGeneralInfo)<br />[Technical metadata](#groupTechnicalMetadata)<br />[Content](#groupContent)<br />[Distributions](#groupDistributions)<br />
 
 
 ## Object Properties

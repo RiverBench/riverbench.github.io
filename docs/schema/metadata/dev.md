@@ -111,7 +111,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Stream distribution](#streamDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Partial distribution](#partialDistribution)<br />[Full distribution](#fullDistribution)<br />[Flat distribution](#flatDistribution)<br />
+Has members |[Partial distribution](#partialDistribution)<br />[Full distribution](#fullDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Flat distribution](#flatDistribution)<br />[Stream distribution](#streamDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -161,8 +161,8 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Profile`
 Description | Benchmark profile grouping several datasets in RiverBench
 Super-classes |[Dataset series](#DatasetSeries) (c)<br />
-In domain of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has restriction](#hasRestriction) (op)<br />
-In range of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />
+In domain of |[Has restriction](#hasRestriction) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
+In range of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
 
 ### Profile restriction <a name="ProfileRestriction"></a>
 Property | Value
@@ -212,7 +212,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />
+Sub-classes |[Subject count statistics](#SubjectCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
 
@@ -229,7 +229,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementSplit`
 Description | Describes how was the stream split into individual elements.
-Sub-classes |[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />
+Sub-classes |[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />
 In range of |[Has stream element split](#hasStreamElementSplit) (op)<br />
 
 ### Subject count statistics <a name="SubjectCountStatistics"></a>
@@ -253,6 +253,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit`
 Description | The elements correspond to different topics/subjects in the dataset.
 Super-classes |[Stream element split](#StreamElementSplit) (c)<br />
+In domain of |[Has subject shape](#hasSubjectShape) (op)<br />
 
 
 ## Object Properties
@@ -263,6 +264,7 @@ Super-classes |[Stream element split](#StreamElementSplit) (c)<br />
 [Has statistics](#hasStatistics),
 [Has statistics set](#hasStatisticsSet),
 [Has stream element split](#hasStreamElementSplit),
+[Has subject shape](#hasSubjectShape),
 [Has temporal property](#hasTemporalProperty),
 [Is subset of profile](#isSubsetOfProfile),
 [Is superset of profile](#isSupersetOfProfile),
@@ -323,6 +325,14 @@ Description | Indicates how the stream was split into elements.
 Super-properties |[owl:topObjectProperty](http://www.w3.org/2002/07/owl#topObjectProperty)<br />
 Domain(s) |[RiverBench dataset](#Dataset) (c)<br />
 Range(s) |[Stream element split](#StreamElementSplit) (c)<br />
+
+### Has subject shape <a name="hasSubjectShape"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#hasSubjectShape`
+Description | Indicates the subject node in an RDF subject graph stream, using SHACL. The value of this property should be a SHACL sh:NodeShape with a specified target (e.g., sh:targetSubjectsOf). Only the target will be considered, restrictions on the shape will be ignored.  This property is required for RDF subject graph streams. Only sh:targetClass, sh:targetSubjectsOf, and sh:targetObjectsOf are allowed as the target specification.  This property can be specified multiple times. The different target specifications will then be treated as alternatives.
+Domain(s) |[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />
+Range(s) |[sh:NodeShape](http://www.w3.org/ns/shacl#NodeShape) (c)<br />
 
 ### Has temporal property <a name="hasTemporalProperty"></a>
 Property | Value
@@ -565,6 +575,8 @@ Description | Triple streams consist of elements, where each element is an RDF g
     * `http://www.w3.org/1999/02/22-rdf-syntax-ns#`
 * **rdfs**
     * `http://www.w3.org/2000/01/rdf-schema#`
+* **sh**
+    * `http://www.w3.org/ns/shacl#`
 * **vann**
     * `http://purl.org/vocab/vann/`
 * **xsd**
