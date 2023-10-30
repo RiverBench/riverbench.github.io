@@ -11,6 +11,10 @@ Before you start, have a look at the [requirements for new datasets](contribute.
 1. Open a new dataset proposal in the RiverBench repository: **[click HERE](https://github.com/RiverBench/RiverBench/issues/new/choose)** and select "Dataset proposal".
 2. Fill in the form with the required information (see below).
 
+!!! note
+
+    If you have trouble filling in any of the fields, you can leave them blank and ask the maintainer for help.
+
 ### General information
 
 - **Description of the dataset:** Provide a brief and informative description of the dataset, including its content, structure, and purpose.
@@ -23,7 +27,7 @@ Before you start, have a look at the [requirements for new datasets](contribute.
 
 ### Technical information
 
-- **Stream element type:** Indicate the type of stream element used in the dataset: triples, quads, or graphs.
+- **Stream type:** Specify the type of the RDF stream in the dataset, using the [RDF Stream Taxonomy (RDF-STaX)](https://w3id.org/stax).
 - **Stream element count:** Provide the total number of stream elements in the dataset (stream length). This corresponds to the number of files in the dataset's source archive (see below).
 - **How were the stream elements split:** Explain the method used to split the stream into elements, e.g., by time, by topic, other.
 - **Uses RDF-star:** Specify if the dataset uses RDF-star (yes or no).
@@ -45,7 +49,7 @@ An administrator will be notified your request and will review the form and the 
     - Enter "Source" as the release name.
     - Check the "Set as a pre-release" option.
     - Leave the other options unchanged.
-5. Upload the prepared source archive (triples.tar.gz, quads.tar.gz, or graphs.tar.gz) by dragging and dropping the file into the designated area.
+5. Upload the prepared source archive (`source.tar.gz`) by dragging and dropping the file into the designated area.
 6. Once the source archive is attached, click on the "Publish release" button to finalize and publish the dataset source release.
 
 ## Step 4: Fill out the metadata

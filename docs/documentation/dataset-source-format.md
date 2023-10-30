@@ -16,7 +16,7 @@ You can also add more files and directories (like `.gitignore`, etc.) to the rep
 ## Source files
 
 * Source files must be uploaded as a GitHub release to your repository, following [this guide](creating-new-dataset.md#step-3-upload-the-dataset-sources).
-* There must be exactly one source file per dataset (either `triples.tar.gz`, `graphs.tar.gz`, or `quads.tar.gz`).
+* There must be exactly one source file per dataset (either `source.tar.gz`).
 * The source file must be a `.tar.gz` archive, with a structure, as outlined below.
 * The archive can contain only directories (nesting is allowed) and stream element files.
 * The file extension of the stream elements depends on the stream type. See subsections below for more details.
@@ -76,49 +76,53 @@ You can also add more files and directories (like `.gitignore`, etc.) to the rep
 The stream element files must be stored in the source archive sequentially, so that the archive can be processed by the CI jobs in a streaming manner, speeding up packaging and validation.
 
 Let's say you have a directory named "dataset" with .ttl files (possibly in nested directories) that you want to add to the archive. On Linux you can run:
+
 ``` sh
-find dataset -type f | sort | tar -T - -czf triples.tar.gz
+find dataset -type f | sort | tar -T - -czf source.tar.gz
 ```
 
 You can then verify that the files were stored sequentially in the tar by running:
+
 ``` sh
-tar -tzvf triples.tar.gz
+tar -tzvf source.tar.gz
 ```
 
 You should see a list of files in the archive, in lexicographic order.
 
-### Graph stream format
+### RDF named graph stream format
 
-In the graph stream format, every stream element is an RDF dataset, and every RDF dataset corresponds to exactly one file. In the dataset there must be exactly one named RDF graph pair `<n, G>`, where `G` is an RDF graph, and `n` is the graph name. Apart from graph `G`, the RDF dataset may contain any number of triples in the default graph. If the stream is a timestamped stream, then the default graph must include exactly one timestamp triple `<n, p, t>`, where `p` is the designated timestamp property, as specified in metadata.
-
-!!! note
-    The above format specification is meant to be compatible with the draft [RSP Data model](https://streamreasoning.org/RSP-QL/Abstract%20Syntax%20and%20Semantics%20Document/), when the stream is timestamped.*
+This format corresponds to the **RDF named graph stream** and **timestamped RDF named graph stream** stream types from [RDF-STaX](https://w3id.org/stax/dev/taxonomy/).
 
 The files must be in the RDF 1.1 TriG format, or in the TriG-star format, if the dataset uses RDF-star. The extensions of the files must be `.trig`. The files must be encoded in UTF-8.
 
-**Example graphs dataset:** [citypulse-traffic-graphs](https://github.com/RiverBench/dataset-citypulse-traffic-graphs)
+### RDF dataset stream format
 
-### Quad stream format
+This format corresponds to the **RDF dataset stream**, **RDF named graph stream**, and **timestamped RDF named graph stream** stream types from [RDF-STaX](https://w3id.org/stax/dev/taxonomy/).
 
-In the quad stream format, every stream element is an RDF dataset, and every RDF dataset corresponds to exactly one file. In the dataset there can be zero or more named RDF graphs, and the default graph (which may be empty).
-
-!!! note
-    The above format specification is meant to cover all valid [RDF 1.1 datasets](https://www.w3.org/TR/rdf11-concepts/#section-dataset). Because of this, a completely empty file is also a valid stream element.*
-
-The files must be in the RDF 1.1 TriG format, or in the TriG-star format, if the dataset uses RDF-star. The extensions of the files must be `.trig`. The files must be encoded in UTF-8.
-
-**Example quads dataset:** [nanopubs](https://github.com/RiverBench/dataset-nanopubs)
-
-### Triple stream format
-
-In the triple stream format, every stream element is an unnamed (default) RDF graph, and every RDF graph corresponds to exactly one file.
+In the dataset stream format, every stream element is an RDF dataset, and every RDF dataset corresponds to exactly one file. The files must be in the RDF 1.1 TriG format, or in the TriG-star format, if the dataset uses RDF-star. The extensions of the files must be `.trig`. The files must be encoded in UTF-8.
 
 !!! note
-    The above format specification is meant to cover all valid [RDF 1.1 graphs](https://www.w3.org/TR/rdf11-concepts/#dfn-rdf-graph). Because of this, a completely empty file is also a valid stream element.*
 
-The files must be in the RDF 1.1 Turtle format, or in the Turtle-star format, if the dataset uses RDF-star. The extensions of the files must be `.ttl`. The files must be encoded in UTF-8.
+    The above format specification is meant to cover all valid [RDF 1.1 datasets](https://www.w3.org/TR/rdf11-concepts/#dfn-rdf-dataset). Because of this, a completely empty file is also a valid stream element.
 
-**Example triples dataset:** [yago-annotated-facts](https://github.com/RiverBench/dataset-yago-annotated-facts)
+**Example timestamped RDF named graph stream:** [citypulse-traffic-graphs](https://github.com/RiverBench/dataset-citypulse-traffic-graphs)
+
+**Example RDF dataset stream:** [nanopubs](https://github.com/RiverBench/dataset-nanopubs)
+
+### RDF graph stream format
+
+This format corresponds to the **RDF graph stream** and **RDF subject graph stream** stream types from [RDF-STaX](https://w3id.org/stax/dev/taxonomy/).
+
+In the graph stream format, every stream element is an unnamed (default) RDF graph, and every RDF graph corresponds to exactly one file. The files must be in the RDF 1.1 Turtle format, or in the Turtle-star format, if the dataset uses RDF-star. The extensions of the files must be `.ttl`. The files must be encoded in UTF-8.
+
+!!! note
+
+    The above format specification is meant to cover all valid [RDF 1.1 graphs](https://www.w3.org/TR/rdf11-concepts/#dfn-rdf-graph). Because of this, a completely empty file is also a valid stream element.
+
+
+**Example RDF subject graph stream:** [yago-annotated-facts](https://github.com/RiverBench/dataset-yago-annotated-facts)
+
+**Example RDF graph stream:** [citypulse-traffic](https://github.com/RiverBench/dataset-citypulse-traffic)
 
 ## See also
 
