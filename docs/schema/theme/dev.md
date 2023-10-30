@@ -8,8 +8,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)  and
 * **URI**
     * `https://w3id.org/riverbench/schema/theme#conceptScheme`
 * **Creators(s)**
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **License**
     * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
@@ -83,7 +82,7 @@ URI | `https://w3id.org/riverbench/schema/theme#dataType`
 Preferred Labels |Data type (en)<br />
 Definitions |Datasets by types of data used.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Spatial](#spatial) (con)<br />[Temporal](#temporal) (con)<br />
+Narrower Concepts |[Temporal](#temporal) (con)<br />[Spatial](#spatial) (con)<br />
 
 ### Domain <a name="domain"></a>
 Property | Value
@@ -92,7 +91,7 @@ URI | `https://w3id.org/riverbench/schema/theme#domain`
 Preferred Labels |Domain (en)<br />
 Definitions |Datasets by domain.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Abstract data](#abstract) (con)<br />[Sensor data](#sensorData) (con)<br />[News](#news) (con)<br />[Political](#political) (con)<br />[Government](#government) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Scientific](#scientific) (con)<br />[Musical](#musical) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Meteorological](#meteorological) (con)<br />[Statistical](#statistical) (con)<br />
+Narrower Concepts |[Meteorological](#meteorological) (con)<br />[Sensor data](#sensorData) (con)<br />[Statistical](#statistical) (con)<br />[Scientific](#scientific) (con)<br />[Political](#political) (con)<br />[Musical](#musical) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[News](#news) (con)<br />[Abstract data](#abstract) (con)<br />[Government](#government) (con)<br />[Bibliographical](#bibliographical) (con)<br />
 
 ### Encyclopedic <a name="encyclopedic"></a>
 Property | Value
@@ -147,7 +146,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/theme#rootConcept`
 Preferred Labels |Root concept (en)<br />
-Narrower Concepts |[Data type](#dataType) (con)<br />[Domain](#domain) (con)<br />
+Narrower Concepts |[Domain](#domain) (con)<br />[Data type](#dataType) (con)<br />
 
 ### Scientific <a name="scientific"></a>
 Property | Value
