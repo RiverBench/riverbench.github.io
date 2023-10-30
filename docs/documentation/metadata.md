@@ -53,6 +53,7 @@ The metadata uses mainly these ontologies:
 - [DCAT 3](https://www.w3.org/TR/vocab-dcat-3/)
 - [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 - [FOAF](http://xmlns.com/foaf/0.1/)
+- [RDF Stream Taxonomy (RDF-STaX)](https://w3id.org/stax/dev/ontology)
 - [RiverBench metadata ontology](../schema/metadata/dev.md)
 - [RiverBench documentation ontology](../schema/documentation/dev.md)
 - [RiverBench topic classification scheme](../schema/theme/dev.md)
