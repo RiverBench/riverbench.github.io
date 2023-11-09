@@ -34,7 +34,7 @@ Each element is serialized in either the [Turtle](https://www.w3.org/TR/turtle/)
 
 The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}` is the number of stream elements in the file. For example, `stream_10K.tar.gz` is a streaming distribution file with 10,000 stream elements. The full distribution is denoted by `stream_full.tar.gz`.
 
-### Example – RDF graph stream, `stream_10K.tar.gz`
+### Example – [RDF graph stream](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream), `stream_10K.tar.gz`
 
 ```
 - 000/
@@ -50,7 +50,7 @@ The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}
     - 0000009999.ttl
 ```
 
-### Example – RDF dataset stream, `stream_10M.tar.gz`
+### Example – [RDF dataset stream](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream), `stream_10M.tar.gz`
 
 ```
 - 000/
@@ -87,7 +87,7 @@ The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}
 
 ## Jelly distributions
 
-Jelly distributions simply use delimited `RdfStreamFrame`s to denote the individual elements in the stream. The streams are either of `TRIPLES` type (for [RDF graph streams](https://w3id.org/stax/dev/taxonomy/)) or `QUADS` for [RDF dataset streams](https://w3id.org/stax/dev/taxonomy/). The resulting file is gzip-compressed.
+Jelly distributions simply use delimited `RdfStreamFrame`s to denote the individual elements in the stream. The streams are either of `TRIPLES` type (for [RDF graph streams](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream)) or `QUADS` for [RDF dataset streams](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream). The resulting file is gzip-compressed.
 
 Parsing Jelly files should be [**about 5 times faster**](https://arxiv.org/pdf/2207.04439.pdf) than the other distribution types, depending on the dataset and your hardware. Dataset sizes should be more-or-less the same when compressed, but **when uncompressed Jelly will be 3–4 times smaller**.
 

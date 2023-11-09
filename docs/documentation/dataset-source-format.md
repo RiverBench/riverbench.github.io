@@ -24,7 +24,7 @@ You can also add more files and directories (like `.gitignore`, etc.) to the rep
 * **Important!** All files must be stored in the tar **sequentially in lexicographic order**. This is different to what the tar command usually does on Linux (order of files is random). See the [creating a source archive](#creating-source-archive) section below for more details.
 * There are no special rules for grouping files into directories – but examples of what would work are presented below. It is recommended to have at most ~1000 files per directory to avoid issues with filesystems and file browsers.
 
-**Example 1: flat file structure, graph stream, 431256 elements:**
+**Example 1: flat file structure, [RDF dataset stream](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream), 431256 elements:**
 
 ```
 - 0000000000.trig
@@ -34,7 +34,7 @@ You can also add more files and directories (like `.gitignore`, etc.) to the rep
 - 0000431255.trig
 ```
 
-**Example 2: files in directories, triple stream, 201900 elements:**
+**Example 2: files in directories, [RDF graph stream](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream), 201900 elements:**
 
 ```
 - 0000/
@@ -50,7 +50,7 @@ You can also add more files and directories (like `.gitignore`, etc.) to the rep
     - 0000201899.ttl
 ```
 
-**Example 3: files in nested directories, triple stream, 201900 elements:**
+**Example 3: files in nested directories, [RDF graph stream](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream), 201900 elements:**
 
 ```
 - 00/
@@ -89,15 +89,9 @@ tar -tzvf source.tar.gz
 
 You should see a list of files in the archive, in lexicographic order.
 
-### RDF named graph stream format
-
-This format corresponds to the **RDF named graph stream** and **timestamped RDF named graph stream** stream types from [RDF-STaX](https://w3id.org/stax/dev/taxonomy/).
-
-The files must be in the RDF 1.1 TriG format, or in the TriG-star format, if the dataset uses RDF-star. The extensions of the files must be `.trig`. The files must be encoded in UTF-8.
-
 ### RDF dataset stream format
 
-This format corresponds to the **RDF dataset stream**, **RDF named graph stream**, and **timestamped RDF named graph stream** stream types from [RDF-STaX](https://w3id.org/stax/dev/taxonomy/).
+This format corresponds to the **[RDF dataset stream](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream)**, **[RDF named graph stream](https://w3id.org/stax/dev/taxonomy#rdf-named-graph-stream)**, and **[timestamped RDF named graph stream](https://w3id.org/stax/dev/taxonomy#timestamped-rdf-named-graph-stream)** stream types from [RDF-STaX](https://w3id.org/stax/dev/taxonomy/).
 
 In the dataset stream format, every stream element is an RDF dataset, and every RDF dataset corresponds to exactly one file. The files must be in the RDF 1.1 TriG format, or in the TriG-star format, if the dataset uses RDF-star. The extensions of the files must be `.trig`. The files must be encoded in UTF-8.
 
@@ -111,7 +105,7 @@ In the dataset stream format, every stream element is an RDF dataset, and every 
 
 ### RDF graph stream format
 
-This format corresponds to the **RDF graph stream** and **RDF subject graph stream** stream types from [RDF-STaX](https://w3id.org/stax/dev/taxonomy/).
+This format corresponds to the **[RDF graph stream](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream)** and **[RDF subject graph stream](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream)** stream types from [RDF-STaX](https://w3id.org/stax/dev/taxonomy/).
 
 In the graph stream format, every stream element is an unnamed (default) RDF graph, and every RDF graph corresponds to exactly one file. The files must be in the RDF 1.1 Turtle format, or in the Turtle-star format, if the dataset uses RDF-star. The extensions of the files must be `.ttl`. The files must be encoded in UTF-8.
 
