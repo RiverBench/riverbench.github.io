@@ -1,5 +1,5 @@
 Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)  and [RiverBench CI worker](https://github.com/RiverBench/ci-worker)
-# RiverBench topic scheme
+# RiverBench topic scheme (DEPRECATED)
 
 ### A taxonomy
 
@@ -8,8 +8,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)  and
 * **URI**
     * `https://w3id.org/riverbench/schema/theme#conceptScheme`
 * **Creators(s)**
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **License**
     * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
@@ -21,7 +20,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)  and
 
 
 ### Description
-Collection of topic concepts used to annotate RiverBench datasets.
+The RiverBench topic scheme used to be a collection of topic concepts used to annotate RiverBench datasets. It was deprecated in favor of using EuroVoc. Do not use this topic scheme – it will not be updated or maintained in the future.
 
 
 
@@ -83,7 +82,7 @@ URI | `https://w3id.org/riverbench/schema/theme#dataType`
 Preferred Labels |Data type (en)<br />
 Definitions |Datasets by types of data used.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Spatial](#spatial) (con)<br />[Temporal](#temporal) (con)<br />
+Narrower Concepts |[Temporal](#temporal) (con)<br />[Spatial](#spatial) (con)<br />
 
 ### Domain <a name="domain"></a>
 Property | Value
@@ -92,7 +91,7 @@ URI | `https://w3id.org/riverbench/schema/theme#domain`
 Preferred Labels |Domain (en)<br />
 Definitions |Datasets by domain.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Abstract data](#abstract) (con)<br />[Bibliographical](#bibliographical) (con)<br />[News](#news) (con)<br />[Government](#government) (con)<br />[Scientific](#scientific) (con)<br />[Meteorological](#meteorological) (con)<br />[Political](#political) (con)<br />[Sensor data](#sensorData) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Musical](#musical) (con)<br />[Statistical](#statistical) (con)<br />
+Narrower Concepts |[Sensor data](#sensorData) (con)<br />[Musical](#musical) (con)<br />[Government](#government) (con)<br />[Statistical](#statistical) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Meteorological](#meteorological) (con)<br />[News](#news) (con)<br />[Scientific](#scientific) (con)<br />[Political](#political) (con)<br />[Abstract data](#abstract) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />
 
 ### Encyclopedic <a name="encyclopedic"></a>
 Property | Value
@@ -147,7 +146,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/theme#rootConcept`
 Preferred Labels |Root concept (en)<br />
-Narrower Concepts |[Data type](#dataType) (con)<br />[Domain](#domain) (con)<br />
+Narrower Concepts |[Domain](#domain) (con)<br />[Data type](#dataType) (con)<br />
 
 ### Scientific <a name="scientific"></a>
 Property | Value
