@@ -57,6 +57,7 @@ An administrator will be notified your request and will review the form and the 
 1. Open the `metadata.ttl` file in your new dataset repository.
 2. Use the information from the issue template you filled out earlier to complete the required fields in the `metadata.ttl` file. Replace the placeholder text with the appropriate information from the template.
     - In the `dcterms:description` field and other free-text fields you can use Markdown formatting.
+    - For `dcat:theme` use concepts from the [EuroVoc thesaurus](https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://eurovoc.europa.eu/100141). Use only elements of type "Concept" (without a number in their name), not "Concept scheme" or "Domain concept".
 3. Open the `LICENSE` file and replace the placeholder text with the license of the dataset. You can find commonly used templates [here](https://github.com/licenses/license-templates/tree/master/templates).
 4. Save your changes and commit to the main branch.
 5. Inform the administrator in your issue that you have completed the metadata for your dataset. The admin will then finalize adding the dataset to the suite and provide any necessary assistance.
