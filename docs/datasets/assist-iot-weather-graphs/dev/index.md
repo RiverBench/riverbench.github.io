@@ -48,14 +48,14 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 
 ## General information
 
-- **<abbr title="A name given to the resource.">Title</abbr>**: ASSIST-IoT weather (graphs variant)
+- **<abbr title="A name given to the resource.">Title</abbr>**: ASSIST-IoT weather (graphs variant) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `assist-iot-weather-graphs`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="A main category of the resource. A resource can have multiple themes.">Theme</abbr>**: 
-    - <abbr title="Datasets with meteorological information.">Meteorological</abbr> ([rbt:meteorological](https://w3id.org/riverbench/schema/theme#meteorological))
-    - <abbr title="Datasets with data from sensors, sensor networks, IoT devices, etc.">Sensor data</abbr> ([rbt:sensorData](https://w3id.org/riverbench/schema/theme#sensorData))
-    - <abbr title="Datasets with spatial information.">Spatial</abbr> ([rbt:spatial](https://w3id.org/riverbench/schema/theme#spatial))
-    - <abbr title="Datasets with temporal information.">Temporal</abbr> ([rbt:temporal](https://w3id.org/riverbench/schema/theme#temporal))
+    - Data collection ([eurovoc:6030](http://eurovoc.europa.eu/6030))
+    - Internet of Things ([eurovoc:c_b12a760a](http://eurovoc.europa.eu/c_b12a760a))
+    - Meteorology ([eurovoc:1892](http://eurovoc.europa.eu/1892))
+    - Spatial data ([eurovoc:c_7a168de0](http://eurovoc.europa.eu/c_7a168de0))
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**: 
     - **Piotr Sowiński (1)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
@@ -69,7 +69,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957258.
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-04
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-11-22
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-11-29
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [assist-iot-weather-graphs (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -78,17 +78,17 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads.
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
     - **RDF stream type usage (2)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property.
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 701,278
 - **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
     - **Type**: <abbr title="The elements correspond to different instants or intervals of time.">Stream elements split by time</abbr> ([rb:TimeStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit))
     - **<abbr title="The IRI of the property that is used in the stream to denote time at which the event occured.">Has temporal property</abbr>**: [http://www.w3.org/ns/prov#atTime](http://www.w3.org/ns/prov#atTime)
-    - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each stream element corresponds to one set of measurements from the weather station. Data was collected every 10 seconds.
+    - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each stream element corresponds to one set of measurements from the weather station. Data was collected every 10 seconds. _(<abbr title="English">en</abbr>)_
 - **<abbr title="Indicates that the dataset uses an ontology. The object must be a resource, but it doesn't neccesarily have to be an OWL ontology.">Uses ontology</abbr>**: 
     - [http://www.ontology-of-units-of-measure.org/resource/om-2](http://www.ontology-of-units-of-measure.org/resource/om-2)
     - [http://www.opengis.net/ont/geosparql](http://www.opengis.net/ont/geosparql)
@@ -112,7 +112,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `stream_full.tar.gz`
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property.
+    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
     - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
@@ -142,11 +142,11 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads.
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
     - **RDF stream type usage (2)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property.
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
@@ -174,7 +174,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `flat_full.nq.gz`
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads.
+    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
     - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
@@ -202,7 +202,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `stream_100K.tar.gz`
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property.
+    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
     - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
@@ -232,12 +232,12 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property.
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
     - **RDF stream type usage (2)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads.
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
@@ -264,7 +264,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `flat_100K.nq.gz`
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads.
+    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
     - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
@@ -292,7 +292,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `stream_10K.tar.gz`
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property.
+    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
     - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
@@ -322,12 +322,12 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property.
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
     - **RDF stream type usage (2)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads.
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to a set of measurements from the weather station. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph node; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
@@ -354,7 +354,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 - **<abbr title="Canonical file name of this distribution">Has file name</abbr>**: `flat_10K.nq.gz`
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads.
+    - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
     - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is an RDF stream whose elements are quad statements.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
@@ -380,282 +380,57 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
 ### <a name="statistics-full"></a> Statistics for full distributions
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for full distributions
-- **<abbr title="Has a dataset statistics object">Has statistics</abbr>**: 
-    - **IRI count statistics (1)**    
-        - **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 46,985,626
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 701,333
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 67.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 67
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 67
-    - **Blank node count statistics (2)**    
-        - **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Literal count statistics (3)**    
-        - **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 8,516,050
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 704,202
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 12.14
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.69
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 10
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 13
-    - **Simple literal count statistics (4)**    
-        - **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:SimpleLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#SimpleLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1,402,556
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 2
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-    - **Datatype literal count statistics (5)**    
-        - **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 7,113,494
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 704,200
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.14
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.69
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 8
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 11
-    - **Language string count statistics (6)**    
-        - **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Quoted triple count statistics (7)**    
-        - **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Subject count statistics (8)**    
-        - **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 21,739,618
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 31.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 31
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 31
-    - **Predicate count statistics (9)**    
-        - **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 9,116,614
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 13.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 13
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 13
-    - **Object count statistics (10)**    
-        - **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 39,372,282
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 56.14
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.69
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 54
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 57
-    - **Graph count statistics (11)**    
-        - **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1,402,556
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-    - **Statement count statistics (12)**    
-        - **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 81,348,248
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 116.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 116
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 116
+
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| --- | --: | --: | --: | --: | --: | --: |
+| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 46,985,626 | 701,333 | 67.00 | 0.00 | 67 | 67 |
+| **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 1,402,556 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 81,348,248 | _N/A_ | 116.00 | 0.00 | 116 | 116 |
+| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 8,516,050 | 704,202 | 12.14 | 0.69 | 10 | 13 |
+| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 1,402,556 | 2 | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 7,113,494 | 704,200 | 10.14 | 0.69 | 8 | 11 |
+| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 21,739,618 | _N/A_ | 31.00 | 0.00 | 31 | 31 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 9,116,614 | _N/A_ | 13.00 | 0.00 | 13 | 13 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 39,372,282 | _N/A_ | 56.14 | 0.69 | 54 | 57 |
 
 ### <a name="statistics-100k"></a> Statistics for 100K distributions
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 100K distributions
-- **<abbr title="Has a dataset statistics object">Has statistics</abbr>**: 
-    - **IRI count statistics (1)**    
-        - **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 6,700,000
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 100,071
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 67.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 67
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 67
-    - **Blank node count statistics (2)**    
-        - **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Literal count statistics (3)**    
-        - **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1,205,786
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 102,024
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 12.06
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.61
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 10
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 13
-    - **Simple literal count statistics (4)**    
-        - **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:SimpleLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#SimpleLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 200,000
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 2
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-    - **Datatype literal count statistics (5)**    
-        - **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1,005,786
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 102,022
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.06
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.61
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 8
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 11
-    - **Language string count statistics (6)**    
-        - **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Quoted triple count statistics (7)**    
-        - **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Subject count statistics (8)**    
-        - **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 3,100,000
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 31.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 31
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 31
-    - **Predicate count statistics (9)**    
-        - **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1,300,000
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 13.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 13
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 13
-    - **Object count statistics (10)**    
-        - **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 5,605,786
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 56.06
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.61
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 54
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 57
-    - **Graph count statistics (11)**    
-        - **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 200,000
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-    - **Statement count statistics (12)**    
-        - **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 11,600,000
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 116.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 116
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 116
+
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| --- | --: | --: | --: | --: | --: | --: |
+| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 6,700,000 | 100,071 | 67.00 | 0.00 | 67 | 67 |
+| **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 200,000 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 11,600,000 | _N/A_ | 116.00 | 0.00 | 116 | 116 |
+| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 1,205,786 | 102,024 | 12.06 | 0.61 | 10 | 13 |
+| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 200,000 | 2 | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 1,005,786 | 102,022 | 10.06 | 0.61 | 8 | 11 |
+| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 3,100,000 | _N/A_ | 31.00 | 0.00 | 31 | 31 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,300,000 | _N/A_ | 13.00 | 0.00 | 13 | 13 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 5,605,786 | _N/A_ | 56.06 | 0.61 | 54 | 57 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 10K distributions
-- **<abbr title="Has a dataset statistics object">Has statistics</abbr>**: 
-    - **IRI count statistics (1)**    
-        - **Type**: <abbr title="Statistics about the number of IRIs in the dataset.">IRI count statistics</abbr> ([rb:IriCountStatistics](https://w3id.org/riverbench/schema/metadata#IriCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 670,000
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 10,066
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 67.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 67
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 67
-    - **Blank node count statistics (2)**    
-        - **Type**: <abbr title="Statistics about the number of blank nodes in the dataset.">Blank node count statistics</abbr> ([rb:BlankNodeCountStatistics](https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Literal count statistics (3)**    
-        - **Type**: <abbr title="Statistics about the number of literals in the dataset.">Literal count statistics</abbr> ([rb:LiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 120,737
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 10,801
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 12.07
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.60
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 10
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 13
-    - **Simple literal count statistics (4)**    
-        - **Type**: <abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literal count statistics</abbr> ([rb:SimpleLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#SimpleLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 20,000
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 2
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-    - **Datatype literal count statistics (5)**    
-        - **Type**: <abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literal count statistics</abbr> ([rb:DatatypeLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#DatatypeLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 100,737
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 10,799
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 10.07
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.60
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 8
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 11
-    - **Language string count statistics (6)**    
-        - **Type**: <abbr title="Statistics about the number of language literals in the dataset.">Language string count statistics</abbr> ([rb:LanguageLiteralCountStatistics](https://w3id.org/riverbench/schema/metadata#LanguageLiteralCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique count (estimated)</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Quoted triple count statistics (7)**    
-        - **Type**: <abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triple count statistics</abbr> ([rb:QuotedTripleCountStatistics](https://w3id.org/riverbench/schema/metadata#QuotedTripleCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 0
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 0.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 0
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 0
-    - **Subject count statistics (8)**    
-        - **Type**: <abbr title="Statistics about the number of subjects in the dataset.">Subject count statistics</abbr> ([rb:SubjectCountStatistics](https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 310,000
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 31.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 31
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 31
-    - **Predicate count statistics (9)**    
-        - **Type**: <abbr title="Statistics about the number of predicates in the dataset.">Predicate count statistics</abbr> ([rb:PredicateCountStatistics](https://w3id.org/riverbench/schema/metadata#PredicateCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 130,000
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 13.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 13
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 13
-    - **Object count statistics (10)**    
-        - **Type**: <abbr title="Statistics about the number of objects in the dataset.">Object count statistics</abbr> ([rb:ObjectCountStatistics](https://w3id.org/riverbench/schema/metadata#ObjectCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 560,737
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 56.07
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.60
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 54
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 57
-    - **Graph count statistics (11)**    
-        - **Type**: <abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graph count statistics</abbr> ([rb:GraphCountStatistics](https://w3id.org/riverbench/schema/metadata#GraphCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 20,000
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 2.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 2
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 2
-    - **Statement count statistics (12)**    
-        - **Type**: <abbr title="Statistics about the number of RDF statements in the dataset.">Statement count statistics</abbr> ([rb:StatementCountStatistics](https://w3id.org/riverbench/schema/metadata#StatementCountStatistics))
-        - **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>**: 1,160,000
-        - **<abbr title="Arithmetic mean of a distribution">Mean</abbr>**: 116.00
-        - **<abbr title="Standard deviation of a distribution">Standard deviation</abbr>**: 0.00
-        - **<abbr title="Minimum value of a distribution">Minimum</abbr>**: 116
-        - **<abbr title="Maximum value of a distribution">Maximum</abbr>**: 116
+
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| --- | --: | --: | --: | --: | --: | --: |
+| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 670,000 | 10,066 | 67.00 | 0.00 | 67 | 67 |
+| **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 20,000 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 1,160,000 | _N/A_ | 116.00 | 0.00 | 116 | 116 |
+| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 120,737 | 10,801 | 12.07 | 0.60 | 10 | 13 |
+| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 20,000 | 2 | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 100,737 | 10,799 | 10.07 | 0.60 | 8 | 11 |
+| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 310,000 | _N/A_ | 31.00 | 0.00 | 31 | 31 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 130,000 | _N/A_ | 13.00 | 0.00 | 13 | 13 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 560,737 | _N/A_ | 56.07 | 0.60 | 54 | 57 |
 
