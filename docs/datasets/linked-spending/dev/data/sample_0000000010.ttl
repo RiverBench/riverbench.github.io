@@ -1,0 +1,22 @@
+<http://linkedspending.aksw.org/resource/observation-2011saiki_budget-/93b403bcc1b4323e65a08e0a941116ddb35d971e>
+        a       <http://purl.org/linked-data/cube#Observation> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "2011saiki_budget, observation /93b403bcc1b4323e65a08e0a941116ddb35d971e" ;
+        <http://dbpedia.org/ontology/currency>
+                <http://dbpedia.org/resource/Japanese_yen> ;
+        <http://dublincore.org/documents/2012/06/14/dcmi-terms/source>
+                []  ;
+        <http://linkedspending.aksw.org/ontology/amount>
+                "23800.0" ;
+        <http://linkedspending.aksw.org/ontology/category>
+                <http://openspending.org/2011saiki_budget/category/2> ;
+        <http://linkedspending.aksw.org/ontology/subcategory>
+                <http://openspending.org/2011saiki_budget/subcategory/2-2> ;
+        <http://linkedspending.aksw.org/ontology/uniquekey>
+                "2730" ;
+        <http://purl.org/linked-data/cube#dataSet>
+                <http://linkedspending.aksw.org/resource/2011saiki_budget> ;
+        <http://purl.org/linked-data/sdmx/2009/attribute#refArea>
+                <http://linkedgeodata.org/triplify/node424313451> ;
+        <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod>
+                "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
