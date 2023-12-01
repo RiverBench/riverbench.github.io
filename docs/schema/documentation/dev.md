@@ -49,12 +49,18 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Content](#groupContent)<br />[Technical metadata](#groupTechnicalMetadata)<br />[Distributions](#groupDistributions)<br />[General information](#groupGeneralInfo)<br />
+Has members |[Technical metadata](#groupTechnicalMetadata)<br />[Distributions](#groupDistributions)<br />[Content](#groupContent)<br />[General information](#groupGeneralInfo)<br />
 
 
 ## Object Properties
+[vocabulary](#vocabulary),
 [dataset](#dataset),
 [In suite](#inCatalog),
+
+### vocabulary <a name="vocabulary"></a>
+Property | Value
+--- | ---
+URI | `http://rdfs.org/ns/void#vocabulary`
 
 ### dataset <a name="dataset"></a>
 Property | Value
@@ -305,6 +311,8 @@ Class(es) | [Documentation group](#DocGroup)
     * `http://spdx.org/rdf/terms#`
 * **vann**
     * `http://purl.org/vocab/vann/`
+* **void**
+    * `http://rdfs.org/ns/void#`
 * **xsd**
     * `http://www.w3.org/2001/XMLSchema#`
 
