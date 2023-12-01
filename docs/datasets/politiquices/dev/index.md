@@ -70,7 +70,7 @@ Support and opposition relations extracted from news articles archived in Arquiv
     - [http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819](http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819)
     - [https://www.politiquices.pt/about](https://www.politiquices.pt/about)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-11-29
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2023-12-01
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -89,7 +89,7 @@ Support and opposition relations extracted from news articles archived in Arquiv
 - **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
     - **Type**: <abbr title="The elements correspond to different topics/subjects in the dataset.">Stream elements split by topic</abbr> ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each stream element corresponds to one news article. _(<abbr title="English">en</abbr>)_
-- **<abbr title="Indicates that the dataset uses an ontology. The object must be a resource, but it doesn't neccesarily have to be an OWL ontology.">Uses ontology</abbr>**: 
+- **Uses vocabulary**: 
     - Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
     - [http://purl.org/dc/elements/1.1/](http://purl.org/dc/elements/1.1/)
     - [http://www.politiquices.pt/](http://www.politiquices.pt/)
