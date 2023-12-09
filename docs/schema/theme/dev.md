@@ -8,8 +8,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)  and
 * **URI**
     * `https://w3id.org/riverbench/schema/theme#conceptScheme`
 * **Creators(s)**
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **License**
     * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
@@ -92,7 +91,7 @@ URI | `https://w3id.org/riverbench/schema/theme#domain`
 Preferred Labels |Domain (en)<br />
 Definitions |Datasets by domain.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Government](#government) (con)<br />[Abstract data](#abstract) (con)<br />[News](#news) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Political](#political) (con)<br />[Scientific](#scientific) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Meteorological](#meteorological) (con)<br />[Musical](#musical) (con)<br />[Statistical](#statistical) (con)<br />[Sensor data](#sensorData) (con)<br />
+Narrower Concepts |[Political](#political) (con)<br />[Statistical](#statistical) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Sensor data](#sensorData) (con)<br />[News](#news) (con)<br />[Government](#government) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Scientific](#scientific) (con)<br />[Meteorological](#meteorological) (con)<br />[Musical](#musical) (con)<br />[Abstract data](#abstract) (con)<br />
 
 ### Encyclopedic <a name="encyclopedic"></a>
 Property | Value

@@ -112,7 +112,7 @@ URI | `https://w3id.org/riverbench/schema/metadata#Distribution`
 Description | A distribution of a dataset in the RiverBench benchmark suite.
 Super-classes |[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution) (c)<br />
 Restrictions |[https://w3id.org/stax/ontology#hasStreamTypeUsage](https://w3id.org/stax/ontology#hasStreamTypeUsage) **some** [https://w3id.org/stax/ontology#ConcreteRdfStreamType](https://w3id.org/stax/ontology#ConcreteRdfStreamType) (c)<br />
-In domain of |[Has statistics set](#hasStatisticsSet) (op)<br />[Has distribution type](#hasDistributionType) (op)<br />[Has file name](#hasFileName) (dp)<br />
+In domain of |[Has distribution type](#hasDistributionType) (op)<br />[Has file name](#hasFileName) (dp)<br />[Has statistics set](#hasStatisticsSet) (op)<br />
 
 ### RiverBench distribution type <a name="DistributionType"></a>
 Property | Value
@@ -120,7 +120,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Stream distribution](#streamDistribution)<br />[Flat distribution](#flatDistribution)<br />[Full distribution](#fullDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Partial distribution](#partialDistribution)<br />
+Has members |[Full distribution](#fullDistribution)<br />[Flat distribution](#flatDistribution)<br />[Partial distribution](#partialDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Stream distribution](#streamDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -170,8 +170,8 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Profile`
 Description | Benchmark profile grouping several datasets in RiverBench
 Super-classes |[Dataset series](#DatasetSeries) (c)<br />
-In domain of |[Has restriction](#hasRestriction) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
-In range of |[Has benchmark profile](#hasProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
+In domain of |[Has restriction](#hasRestriction) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
+In range of |[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />
 
 ### Profile restriction <a name="ProfileRestriction"></a>
 Property | Value
@@ -221,7 +221,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />
+Sub-classes |[Statement count statistics](#StatementCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
 
