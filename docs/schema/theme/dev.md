@@ -82,7 +82,7 @@ URI | `https://w3id.org/riverbench/schema/theme#dataType`
 Preferred Labels |Data type (en)<br />
 Definitions |Datasets by types of data used.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Temporal](#temporal) (con)<br />[Spatial](#spatial) (con)<br />
+Narrower Concepts |[Spatial](#spatial) (con)<br />[Temporal](#temporal) (con)<br />
 
 ### Domain <a name="domain"></a>
 Property | Value
@@ -91,7 +91,7 @@ URI | `https://w3id.org/riverbench/schema/theme#domain`
 Preferred Labels |Domain (en)<br />
 Definitions |Datasets by domain.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Political](#political) (con)<br />[Statistical](#statistical) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Sensor data](#sensorData) (con)<br />[News](#news) (con)<br />[Government](#government) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Scientific](#scientific) (con)<br />[Meteorological](#meteorological) (con)<br />[Musical](#musical) (con)<br />[Abstract data](#abstract) (con)<br />
+Narrower Concepts |[Statistical](#statistical) (con)<br />[News](#news) (con)<br />[Government](#government) (con)<br />[Scientific](#scientific) (con)<br />[Musical](#musical) (con)<br />[Meteorological](#meteorological) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Abstract data](#abstract) (con)<br />[Sensor data](#sensorData) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Political](#political) (con)<br />
 
 ### Encyclopedic <a name="encyclopedic"></a>
 Property | Value
