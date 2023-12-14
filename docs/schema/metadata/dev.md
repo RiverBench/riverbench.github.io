@@ -6,8 +6,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 * **URI**
     * `https://w3id.org/riverbench/schema/metadata`
 * **Creators(s)**
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -16,7 +15,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
     * [https://w3id.org/riverbench/schema/metadata/dev](https://w3id.org/riverbench/schema/metadata/dev)
 * **Imports**
     * [http://www.w3.org/ns/dcat](http://www.w3.org/ns/dcat)
-    * [https://w3id.org/stax/0.3.1/ontology](https://w3id.org/stax/0.3.1/ontology)
+    * [https://w3id.org/stax/1.0.1/ontology](https://w3id.org/stax/1.0.1/ontology)
 * **License**
     * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
@@ -33,6 +32,7 @@ Ontology for describing datasets and profiles in the RiverBench benchmark suite.
 ## Table of Contents
 1. [Classes](#classes)
 1. [Object Properties](#object-properties)
+1. [Functional Properties](#functionalproperties)
 1. [Datatype Properties](#datatype-properties)
 1. [Named Individuals](#named-individuals)
 1. [Namespaces](#namespaces)
@@ -44,6 +44,8 @@ Ontology for describing datasets and profiles in the RiverBench benchmark suite.
 ## Classes
 * [Dataset series](#DatasetSeries)
 * [Blank node count statistics](#BlankNodeCountStatistics)
+* [Benchmark category](#Category)
+* [Member of a benchmark category](#CategoryMember)
 * [Custom SHACL target](#CustomShaclTarget)
 * [RiverBench dataset](#Dataset)
 * [Datatype literal count statistics](#DatatypeLiteralCountStatistics)
@@ -56,7 +58,6 @@ Ontology for describing datasets and profiles in the RiverBench benchmark suite.
 * [Object count statistics](#ObjectCountStatistics)
 * [Predicate count statistics](#PredicateCountStatistics)
 * [Benchmark profile](#Profile)
-* [Profile restriction](#ProfileRestriction)
 * [Quoted triple count statistics](#QuotedTripleCountStatistics)
 * [RiverBench suite](#RiverBench)
 * [Simple literal count statistics](#SimpleLiteralCountStatistics)
@@ -66,6 +67,7 @@ Ontology for describing datasets and profiles in the RiverBench benchmark suite.
 * [Statistics set](#StatisticsSet)
 * [Stream element split](#StreamElementSplit)
 * [Subject count statistics](#SubjectCountStatistics)
+* [Benchmark task](#Task)
 * [Stream elements split by time](#TimeStreamElementSplit)
 * [Stream elements split by topic](#TopicStreamElementSplit)
 
@@ -73,6 +75,7 @@ Ontology for describing datasets and profiles in the RiverBench benchmark suite.
 Property | Value
 --- | ---
 URI | `http://www.w3.org/ns/dcat#DatasetSeries`
+Super-classes |[dcat:Dataset](http://www.w3.org/ns/dcat#Dataset) (c)<br />
 Sub-classes |[Benchmark profile](#Profile) (c)<br />
 
 ### Blank node count statistics <a name="BlankNodeCountStatistics"></a>
@@ -81,6 +84,25 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#BlankNodeCountStatistics`
 Description | Statistics about the number of blank nodes in the dataset.
 Super-classes |[Statistics](#Statistics) (c)<br />
+
+### Benchmark category <a name="Category"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#Category`
+Description | Class for benchmark categories in RiverBench. A category groups tasks and profiles that are compatible with each other. Each task and profile in a category has a name prefixed with the name of the category (e.g., all tasks in the "stream" category start with "stream-").
+Super-classes |[dcat:Resource](http://www.w3.org/ns/dcat#Resource) (c)<br />
+In domain of |[Has benchmark task](#hasTask) (op)<br />[Has category member](#hasCategoryMember) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />
+In range of |[Has benchmark category](#hasCategory) (op)<br />[In benchmark category](#inCategory) (fp)<br />
+
+### Member of a benchmark category <a name="CategoryMember"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#CategoryMember`
+Description | Superclass for both profiles and tasks
+Super-classes |[dcat:Resource](http://www.w3.org/ns/dcat#Resource) (c)<br />
+Sub-classes |[Benchmark task](#Task) (c)<br />[Benchmark profile](#Profile) (c)<br />
+In domain of |[In benchmark category](#inCategory) (fp)<br />
+In range of |[Has category member](#hasCategoryMember) (op)<br />
 
 ### Custom SHACL target <a name="CustomShaclTarget"></a>
 Property | Value
@@ -113,7 +135,7 @@ URI | `https://w3id.org/riverbench/schema/metadata#Distribution`
 Description | A distribution of a dataset in the RiverBench benchmark suite.
 Super-classes |[dcat:Distribution](http://www.w3.org/ns/dcat#Distribution) (c)<br />
 Restrictions |[https://w3id.org/stax/ontology#hasStreamTypeUsage](https://w3id.org/stax/ontology#hasStreamTypeUsage) **some** [https://w3id.org/stax/ontology#ConcreteRdfStreamType](https://w3id.org/stax/ontology#ConcreteRdfStreamType) (c)<br />
-In domain of |[Has distribution type](#hasDistributionType) (op)<br />[Has file name](#hasFileName) (dp)<br />[Has statistics set](#hasStatisticsSet) (op)<br />
+In domain of |[Has distribution type](#hasDistributionType) (op)<br />[Has statistics set](#hasStatisticsSet) (op)<br />[Has file name](#hasFileName) (dp)<br />
 
 ### RiverBench distribution type <a name="DistributionType"></a>
 Property | Value
@@ -121,7 +143,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Full distribution](#fullDistribution)<br />[Partial distribution](#partialDistribution)<br />[Flat distribution](#flatDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Stream distribution](#streamDistribution)<br />
+Has members |[Partial distribution](#partialDistribution)<br />[Full distribution](#fullDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Flat distribution](#flatDistribution)<br />[Stream distribution](#streamDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -169,17 +191,10 @@ Super-classes |[Statistics](#Statistics) (c)<br />
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Profile`
-Description | Benchmark profile grouping several datasets in RiverBench
-Super-classes |[Dataset series](#DatasetSeries) (c)<br />
-In domain of |[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has restriction](#hasRestriction) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
+Description | Benchmark profile grouping several datasets in RiverBench. Each profile belongs to one benchmark category (rb:Category).
+Super-classes |[Dataset series](#DatasetSeries) (c)<br />[Member of a benchmark category](#CategoryMember) (c)<br />
+In domain of |[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has dataset shape](#hasDatasetShape) (op)<br />[Has distribution shape](#hasDistributionShape) (op)<br />
 In range of |[Has benchmark profile](#hasProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />
-
-### Profile restriction <a name="ProfileRestriction"></a>
-Property | Value
---- | ---
-URI | `https://w3id.org/riverbench/schema/metadata#ProfileRestriction`
-Description | Resource with properties that specify conditions for datasets to be included in the profile. The conditions are joined with the OR operator.
-In range of |[Has restriction](#hasRestriction) (op)<br />
 
 ### Quoted triple count statistics <a name="QuotedTripleCountStatistics"></a>
 Property | Value
@@ -194,7 +209,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#RiverBench`
 Description | RiverBench – RDF streaming benchmark suite
 Super-classes |[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog) (c)<br />
-In domain of |[Has benchmark profile](#hasProfile) (op)<br />
+In domain of |[Has benchmark category](#hasCategory) (op)<br />
 
 ### Simple literal count statistics <a name="SimpleLiteralCountStatistics"></a>
 Property | Value
@@ -222,7 +237,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[IRI count statistics](#IriCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />
+Sub-classes |[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
 
@@ -239,7 +254,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementSplit`
 Description | Describes how was the stream split into individual elements.
-Sub-classes |[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />
+Sub-classes |[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />
 In range of |[Has stream element split](#hasStreamElementSplit) (op)<br />
 
 ### Subject count statistics <a name="SubjectCountStatistics"></a>
@@ -248,6 +263,14 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#SubjectCountStatistics`
 Description | Statistics about the number of subjects in the dataset.
 Super-classes |[Statistics](#Statistics) (c)<br />
+
+### Benchmark task <a name="Task"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#Task`
+Description | Class for specific benchmark tasks (e.g., end-to-end streaming latency). Each task belongs to one benchmark category (rb:Category).
+Super-classes |[Member of a benchmark category](#CategoryMember) (c)<br />
+In range of |[Has benchmark task](#hasTask) (op)<br />
 
 ### Stream elements split by time <a name="TimeStreamElementSplit"></a>
 Property | Value
@@ -267,24 +290,89 @@ In domain of |[Has subject shape](#hasSubjectShape) (op)<br />
 
 
 ## Object Properties
+[isPartOf](#isPartOf),
+[inCatalog](#inCatalog),
+[resource](#resource),
 [Includes dataset](#seriesMember),
+[Has benchmark category](#hasCategory),
+[Has category member](#hasCategoryMember),
+[Has dataset shape](#hasDatasetShape),
+[Has distribution shape](#hasDistributionShape),
 [Has distribution type](#hasDistributionType),
 [Has benchmark profile](#hasProfile),
-[Has restriction](#hasRestriction),
+[Has shape](#hasShape),
 [Has statistics](#hasStatistics),
 [Has statistics set](#hasStatisticsSet),
 [Has stream element split](#hasStreamElementSplit),
 [Has subject shape](#hasSubjectShape),
+[Has benchmark task](#hasTask),
 [Has temporal property](#hasTemporalProperty),
 [Is subset of profile](#isSubsetOfProfile),
 [Is superset of profile](#isSupersetOfProfile),
 [Target custom](#targetCustom),
+
+### isPartOf <a name="isPartOf"></a>
+Property | Value
+--- | ---
+URI | `http://purl.org/dc/terms/isPartOf`
+Super-properties |[dct:relation](http://purl.org/dc/terms/relation)<br />
+
+### inCatalog <a name="inCatalog"></a>
+Property | Value
+--- | ---
+URI | `http://www.w3.org/ns/dcat#inCatalog`
+Super-properties |[isPartOf](#isPartOf) (op)<br />
+Domain(s) |[dcat:Resource](http://www.w3.org/ns/dcat#Resource) (c)<br />
+Range(s) |[dcat:Catalog](http://www.w3.org/ns/dcat#Catalog) (c)<br />
+
+### resource <a name="resource"></a>
+Property | Value
+--- | ---
+URI | `http://www.w3.org/ns/dcat#resource`
+Super-properties |[dct:hasPart](http://purl.org/dc/terms/hasPart)<br />
 
 ### Includes dataset <a name="seriesMember"></a>
 Property | Value
 --- | ---
 URI | `http://www.w3.org/ns/dcat#seriesMember`
 Description | Indicates which datasets are included in the profile
+Super-properties |[dct:relation](http://purl.org/dc/terms/relation)<br />
+
+### Has benchmark category <a name="hasCategory"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#hasCategory`
+Description | Indicates that a benchmark category belongs to this benchmark suite.
+Super-properties |[resource](#resource) (op)<br />
+Domain(s) |[RiverBench suite](#RiverBench) (c)<br />
+Range(s) |[Benchmark category](#Category) (c)<br />
+
+### Has category member <a name="hasCategoryMember"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#hasCategoryMember`
+Description | For benchmark categories, indicates their members (profiles or tasks).
+Super-properties |[dct:hasPart](http://purl.org/dc/terms/hasPart)<br />
+Domain(s) |[Benchmark category](#Category) (c)<br />
+Range(s) |[Member of a benchmark category](#CategoryMember) (c)<br />
+
+### Has dataset shape <a name="hasDatasetShape"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#hasDatasetShape`
+Description | Specifies the SHACL shape of distributions that are allowed in a given benchmark profile.
+Super-properties |[Has shape](#hasShape) (op)<br />
+Domain(s) |[Benchmark profile](#Profile) (c)<br />
+Range(s) |[sh:NodeShape](http://www.w3.org/ns/shacl#NodeShape) (c)<br />
+
+### Has distribution shape <a name="hasDistributionShape"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#hasDistributionShape`
+Description | Specifies the SHACL shape of distributions that are allowed in a given benchmark profile.
+Super-properties |[Has shape](#hasShape) (op)<br />
+Domain(s) |[Benchmark profile](#Profile) (c)<br />
+Range(s) |[sh:NodeShape](http://www.w3.org/ns/shacl#NodeShape) (c)<br />
 
 ### Has distribution type <a name="hasDistributionType"></a>
 Property | Value
@@ -298,18 +386,17 @@ Range(s) |[RiverBench distribution type](#DistributionType) (c)<br />
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#hasProfile`
-Description | Indicates benchmark profiles that belong to this benchmark suite.
-Super-properties |[dcat:resource](http://www.w3.org/ns/dcat#resource)<br />
-Domain(s) |[RiverBench suite](#RiverBench) (c)<br />
+Description | For benchmark categories this property indicates profiles that belong to the category.
+Super-properties |[Has category member](#hasCategoryMember) (op)<br />
+Domain(s) |[Benchmark category](#Category) (c)<br />
 Range(s) |[Benchmark profile](#Profile) (c)<br />
 
-### Has restriction <a name="hasRestriction"></a>
+### Has shape <a name="hasShape"></a>
 Property | Value
 --- | ---
-URI | `https://w3id.org/riverbench/schema/metadata#hasRestriction`
-Description | Has profile restriction. The restrictions are joined with the AND operator.
-Domain(s) |[Benchmark profile](#Profile) (c)<br />
-Range(s) |[Profile restriction](#ProfileRestriction) (c)<br />
+URI | `https://w3id.org/riverbench/schema/metadata#hasShape`
+Description | Property for specifying the desired SHACL shape of something (e.g., a dataset or a distribution).
+Range(s) |[sh:NodeShape](http://www.w3.org/ns/shacl#NodeShape) (c)<br />
 
 ### Has statistics <a name="hasStatistics"></a>
 Property | Value
@@ -341,8 +428,18 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#hasSubjectShape`
 Description | Indicates the subject node in an RDF subject graph stream, using SHACL. The value of this property should be a SHACL sh:NodeShape with a specified target (e.g., sh:targetSubjectsOf). Only the target will be considered, restrictions on the shape will be ignored.  This property is required for RDF subject graph streams. Only sh:targetClass, sh:targetSubjectsOf, and sh:targetObjectsOf are allowed as the target specification.  This property can be specified multiple times. The different target specifications will then be treated as alternatives.
+Super-properties |[Has shape](#hasShape) (op)<br />
 Domain(s) |[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />
 Range(s) |[sh:NodeShape](http://www.w3.org/ns/shacl#NodeShape) (c)<br />
+
+### Has benchmark task <a name="hasTask"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#hasTask`
+Description | For benchmark categories this property indicates tasks that belong to the category.
+Super-properties |[Has category member](#hasCategoryMember) (op)<br />
+Domain(s) |[Benchmark category](#Category) (c)<br />
+Range(s) |[Benchmark task](#Task) (c)<br />
 
 ### Has temporal property <a name="hasTemporalProperty"></a>
 Property | Value
@@ -356,6 +453,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#isSubsetOfProfile`
 Description | Indicates that this profile's datasets are all in the other profile
+Super-properties |[dct:relation](http://purl.org/dc/terms/relation)<br />
 Domain(s) |[Benchmark profile](#Profile) (c)<br />
 Range(s) |[Benchmark profile](#Profile) (c)<br />
 
@@ -364,6 +462,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#isSupersetOfProfile`
 Description | Indicates that this profile contains all datasets of the other profile
+Super-properties |[dct:relation](http://purl.org/dc/terms/relation)<br />
 Domain(s) |[Benchmark profile](#Profile) (c)<br />
 Range(s) |[Benchmark profile](#Profile) (c)<br />
 
@@ -374,6 +473,19 @@ URI | `https://w3id.org/riverbench/schema/metadata#targetCustom`
 Description | Custom SHACL-like node target used in RiverBench for datasets where SHACL does not provide adequate means for targeting them (e.g., for RDF-star).
 Domain(s) |[sh:NodeShape](http://www.w3.org/ns/shacl#NodeShape) (c)<br />
 Range(s) |[Custom SHACL target](#CustomShaclTarget) (c)<br />
+
+
+## Functional Properties
+[In benchmark category](#inCategory),
+
+### In benchmark category <a name="inCategory"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#inCategory`
+Description | Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).
+Super-properties |[isPartOf](#isPartOf) (op)<br />
+Domain(s) |[Member of a benchmark category](#CategoryMember) (c)<br />
+Range(s) |[Benchmark category](#Category) (c)<br />
 
 
 ## Datatype Properties
@@ -526,7 +638,6 @@ Range(s) |[xsd:boolean](http://www.w3.org/2001/XMLSchema#boolean) (c)<br />
 [Jelly distribution](#jellyDistribution),
 [Partial distribution](#partialDistribution),
 [Stream distribution](#streamDistribution),
-[Triples](#triples),
 [YAGO annotated facts target](#yagoTarget),
 
 ### Flat distribution <a name="flatDistribution"></a>
@@ -563,12 +674,6 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#streamDistribution`
 Class(es) | [RiverBench distribution type](#DistributionType)
 Description | The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).
-
-### Triples <a name="triples"></a>
-Property | Value
---- | ---
-URI | `https://w3id.org/riverbench/schema/metadata#triples`
-Description | Triple streams consist of elements, where each element is an RDF graph.
 
 ### YAGO annotated facts target <a name="yagoTarget"></a>
 Property | Value
