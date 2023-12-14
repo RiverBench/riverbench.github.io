@@ -8,7 +8,8 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)  and
 * **URI**
     * `https://w3id.org/riverbench/schema/theme#conceptScheme`
 * **Creators(s)**
-    * [Piotr Sowiński](https://github.com/Ostrzyciel)
+    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
+    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
 * **License**
     * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
@@ -82,7 +83,7 @@ URI | `https://w3id.org/riverbench/schema/theme#dataType`
 Preferred Labels |Data type (en)<br />
 Definitions |Datasets by types of data used.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Spatial](#spatial) (con)<br />[Temporal](#temporal) (con)<br />
+Narrower Concepts |[Temporal](#temporal) (con)<br />[Spatial](#spatial) (con)<br />
 
 ### Domain <a name="domain"></a>
 Property | Value
@@ -91,7 +92,7 @@ URI | `https://w3id.org/riverbench/schema/theme#domain`
 Preferred Labels |Domain (en)<br />
 Definitions |Datasets by domain.<br />
 Broader Concepts |[Root concept](#rootConcept) (con)<br />
-Narrower Concepts |[Statistical](#statistical) (con)<br />[News](#news) (con)<br />[Government](#government) (con)<br />[Scientific](#scientific) (con)<br />[Musical](#musical) (con)<br />[Meteorological](#meteorological) (con)<br />[Encyclopedic](#encyclopedic) (con)<br />[Abstract data](#abstract) (con)<br />[Sensor data](#sensorData) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Political](#political) (con)<br />
+Narrower Concepts |[Encyclopedic](#encyclopedic) (con)<br />[Bibliographical](#bibliographical) (con)<br />[Statistical](#statistical) (con)<br />[Government](#government) (con)<br />[Abstract data](#abstract) (con)<br />[News](#news) (con)<br />[Sensor data](#sensorData) (con)<br />[Musical](#musical) (con)<br />[Scientific](#scientific) (con)<br />[Meteorological](#meteorological) (con)<br />[Political](#political) (con)<br />
 
 ### Encyclopedic <a name="encyclopedic"></a>
 Property | Value
