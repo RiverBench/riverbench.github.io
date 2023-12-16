@@ -18,6 +18,12 @@ What datasets are we looking for?
 
 If you think your dataset fits the bill, have a look at the [dedicated guide on creating new datasets](creating-new-dataset.md). If you still have questions, don't hesitate to contact RiverBench's maintainer by [opening an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose).
 
+## Contributing benchmark tasks
+
+Do you want to share your benchmarking procedure with the world? Publishing it in RiverBench will give your task a permanent URI and make it easy to reference in papers and other publications. Others will also have the chance to contribute their results and notes about conducting the benchmark.
+
+Have a look at the [dedicated guide on creating new benchmark tasks](creating-new-task.md).
+
 ## Reporting issues
 
 Found a bug in a dataset or the metadata? Or in something else entirely? Feel free to [open an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose). Please try to be as specific as possible on your issue, so that it can be resolved quickly.
