@@ -38,11 +38,11 @@ Flat sequence of triples or quads (with RDF-star and non-standard extensions). T
     - [nanopubs (dev)](https://w3id.org/riverbench/datasets/nanopubs/dev)
     - [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
     - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
 
 ## Technical metadata
 
-- **<abbr title="Has profile restriction. The restrictions are joined with the AND operator.">Has restriction</abbr>**: 
+- **HasRestriction**: 
     - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
 
 

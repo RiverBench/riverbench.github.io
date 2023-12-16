@@ -50,11 +50,11 @@ Streaming graphs or datasets (with RDF-star and non-standard extensions). This p
     - [nanopubs (dev)](https://w3id.org/riverbench/datasets/nanopubs/dev)
     - [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
     - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
 
 ## Technical metadata
 
-- **<abbr title="Has profile restriction. The restrictions are joined with the AND operator.">Has restriction</abbr>**: 
+- **HasRestriction**: 
     - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**:     
         - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
         - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
