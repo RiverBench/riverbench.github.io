@@ -1,0 +1,16 @@
+@prefix ns1: <http://www.politiquices.pt/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[ ns1:ent1      <http://www.wikidata.org/entity/Q737410> ;
+  ns1:ent1_str  "Manuel Alegre" ;
+  ns1:ent2      <http://www.wikidata.org/entity/Q1688029> ;
+  ns1:ent2_str  "Jerónimo de Sousa" ;
+  ns1:score     "1.0"^^xsd:float ;
+  ns1:type      "ent1_opposes_ent2" ;
+  ns1:url       <https://publico.pt/1238588>
+] .
+
+<https://publico.pt/1238588>
+        ns2:date   "2005-11-12"^^xsd:date ;
+        ns2:title  "Manuel Alegre critica campanha agressiva de Jerónimo de Sousa"@pt .

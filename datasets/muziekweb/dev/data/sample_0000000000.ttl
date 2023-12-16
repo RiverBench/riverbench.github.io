@@ -1,0 +1,7 @@
+<https://data.muziekweb.nl/Link/00001178b1ca0a9390b0ea37d5e5b4dfaad63657>
+        a                        <https://data.muziekweb.nl/vocab/ExternalLink> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Listen to \"Lukas Passion 1748\" on \"Spotify\""@nl ;
+        <http://schema.org/url>  "https://open.spotify.com/album/13O0k9nDMic8IsZXjlB2Bl"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        <https://data.muziekweb.nl/vocab/provider>
+                "Spotify" .

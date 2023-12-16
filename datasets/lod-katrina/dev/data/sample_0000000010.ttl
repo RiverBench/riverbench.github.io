@@ -1,0 +1,21 @@
+<http://knoesis.wright.edu/ssw/Observation_PrecipitationAccumulated_AAMA1_2005_7_31_23_00_00>
+        a       <http://knoesis.wright.edu/ssw/ont/weather.owl#RainfallObservation> ;
+        <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#observedProperty>
+                <http://knoesis.wright.edu/ssw/ont/weather.owl#_PrecipitationAccumulated> ;
+        <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#procedure>
+                <http://knoesis.wright.edu/ssw/System_AAMA1> ;
+        <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#result>
+                <http://knoesis.wright.edu/ssw/MeasureData_PrecipitationAccumulated_AAMA1_2005_7_31_23_00_00> ;
+        <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#samplingTime>
+                <http://knoesis.wright.edu/ssw/Instant_2005_7_31_23_00_00> .
+
+<http://knoesis.wright.edu/ssw/MeasureData_PrecipitationAccumulated_AAMA1_2005_7_31_23_00_00>
+        a       <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#MeasureData> ;
+        <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#floatValue>
+                "48.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#uom>
+                <http://knoesis.wright.edu/ssw/ont/weather.owl#centimeters> .
+
+<http://knoesis.wright.edu/ssw/System_AAMA1>
+        <http://knoesis.wright.edu/ssw/ont/sensor-observation.owl#generatedObservation>
+                <http://knoesis.wright.edu/ssw/Observation_PrecipitationAccumulated_AAMA1_2005_7_31_23_00_00> .

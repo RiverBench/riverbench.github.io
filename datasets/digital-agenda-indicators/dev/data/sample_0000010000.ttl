@@ -1,0 +1,19 @@
+@prefix ns1:  <http://purl.org/linked-data/cube#> .
+@prefix ns10: <http://eurostat.linked-statistics.org/dic/geo#> .
+@prefix ns11: <http://semantic.digital-agenda-data.eu/codelist/unit-measure/> .
+@prefix ns4:  <http://semantic.digital-agenda-data.eu/dataset/> .
+@prefix ns5:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix ns6:  <http://semantic.digital-agenda-data.eu/def/property/> .
+@prefix ns7:  <http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
+@prefix ns9:  <http://semantic.digital-agenda-data.eu/codelist/indicator/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://semantic.digital-agenda-data.eu/data/digital-agenda-scoreboard-key-indicators/bb_penet/total_fbb/subs_per_100_pop/CZ/2021-06>
+        rdf:type          ns1:Observation ;
+        ns1:dataSet       ns4:digital-agenda-scoreboard-key-indicators ;
+        ns5:obsValue      36.854580318763886737 ;
+        ns6:breakdown     ns7:total_fbb ;
+        ns6:indicator     ns9:bb_penet ;
+        ns6:ref-area      ns10:CZ ;
+        ns6:time-period   <http://reference.data.gov.uk/id/gregorian-month/2021-06> ;
+        ns6:unit-measure  ns11:subs_per_100_pop .

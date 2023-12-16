@@ -1,0 +1,3 @@
+<< <http://yago-knowledge.org/resource/_Q56236170> <http://schema.org/dissolutionDate> "2009"^^<http://www.w3.org/2001/XMLSchema#gYear> >>
+        <http://schema.org/endDate>    "2009-12"^^<http://www.w3.org/2001/XMLSchema#gYearMonth> ;
+        <http://schema.org/startDate>  "2009-06"^^<http://www.w3.org/2001/XMLSchema#gYearMonth> .

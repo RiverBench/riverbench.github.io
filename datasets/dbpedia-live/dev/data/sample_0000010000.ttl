@@ -1,0 +1,1153 @@
+<http://dbpedia.org/resource/Ilya_Troyanov>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Light_in_the_Window:_The_Art_of_Vermeer>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_22_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Mura_effect>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/The_Hath>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Temple_Prime>
+        a       <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Agent> ;
+        <http://dbpedia.org/ontology/viafId>
+                "16235180"@en ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Joao_de_Trasto>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Okegawa_Station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Chords_guitar>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Ching_(song)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Cruise_Bay>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Waverly_Root>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Musa,Pakistan>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Date_(command)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Alternativa_por_una_Rep%C3%BAblica_de_Iguales>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Omen_4>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Dance_into_the_fire>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/We_Kill_the_World_/_Boonoonoonoos>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Yuuko_Ishibashi>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_of_Landscape_Parks_in_Poland>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Workout_(album)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Whistling_Hawk>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Old_Macedonian>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Dean_Komel>
+        a       <http://dbpedia.org/ontology/Agent> , <http://www.w3.org/2002/07/owl#Thing> ;
+        <http://dbpedia.org/ontology/viafId>
+                "119619741"@en ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Reliabilityfirst>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Cristian_Bezzi>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Hamilton_Paul_Traub>
+        a       <http://dbpedia.org/ontology/Agent> , <http://www.w3.org/2002/07/owl#Thing> ;
+        <http://dbpedia.org/ontology/viafId>
+                "33314668"@en ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Gibson_House_(disambiguation)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Lady_Frances_Devereux>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Hunter_holmes_mcguire>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/contributor/BattyBot>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "BattyBot"@en ;
+        <http://dbpedia.org/meta/contributorID>
+                15996738 .
+
+<http://dbpedia.org/resource/Heti_V%C3%A1lasz>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Ancaster_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Polar_(Peruvian_beer)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/KFJB>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Aileen_McGlynn>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Andover_train_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_56_(1931)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Restful_web_service>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Little_Wittenham_Bridge>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/TIME_(command)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/I'm_Born_Again_/_Bahama_Mama>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Karabulak,_Republic_of_Ingushetia>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/property/ruName>
+                "Карабулак"@en .
+
+<http://dbpedia.org/resource/Utah_State_Route_12_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_48_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Isabella_Augusta_Persse,_Lady_Gregory>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Tess_Silverman_McLeod>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Rubs>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/%C5%9Aik%E1%B9%A3%C4%81>
+        <http://dbpedia.org/ontology/wikiPageEditLink>
+                <http://en.wikipedia.org/w/index.php?title=Śikṣā&action=edit> ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/ontology/wikiPageHistoryLink>
+                <http://en.wikipedia.org/w/index.php?title=Śikṣā&action=history> ;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2007-01-19T10:44:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Śikṣā&oldid=101763954> .
+
+<http://dbpedia.org/resource/Cannons>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Jack_Morgan>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/WAMW_(FM)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_of_volcanoes_in_Canary_Islands>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/William_Duer_(1747-1799)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Sustainability_Reporting>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Hooray!_Hooray!_It's_a_Holi-Holiday_(single)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Nakayama_Station_(Kanagawa)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Shehri>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/US-89A_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Mammal_meat>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Diguetia>
+        a       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Arachnid> , <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Animal> ;
+        <http://dbpedia.org/ontology/class>
+                <http://dbpedia.org/resource/Arachnida> ;
+        <http://dbpedia.org/ontology/family>
+                <http://dbpedia.org/resource/Diguetidae> ;
+        <http://dbpedia.org/ontology/kingdom>
+                <http://dbpedia.org/resource/Animal> ;
+        <http://dbpedia.org/ontology/order>
+                <http://dbpedia.org/resource/Araneomorphae> , <http://dbpedia.org/resource/Araneae> ;
+        <http://dbpedia.org/ontology/phylum>
+                <http://dbpedia.org/resource/Arthropoda> ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Diguetia"@en .
+
+<http://dbpedia.org/resource/SR-269_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/James_Bridie_(Osborne_Henry_Mavor)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Drum-wound>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_of_Presidents_of_Republika_Srpska>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/K%C3%BClmale_maale>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Shlomo_Hillel>
+        a       <http://dbpedia.org/ontology/Agent> , <http://www.w3.org/2002/07/owl#Thing> ;
+        <http://dbpedia.org/ontology/viafId>
+                "24678077"@en ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Road_Racing_World_Championship_Grand_Prix>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Atmosphere_of_Europa>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Luis_Pe%C3%B1alver_y_Cardenas>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Learning_Python>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/A_Vision_of_Doom>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/.38_Special_(album)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Kalyanji_&_Anandji>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Virginia_community_corps>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_of_DrumMania_games>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Greasy_(lubrication)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_heliports_canada>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Now_and_Then_Records>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Cornelius_Lott_Shear>
+        a       <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Agent> ;
+        <http://dbpedia.org/ontology/viafId>
+                "18731181"@en ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_of_RHPs_in_AZ>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_of_U.S._railfan_jargon>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Kite_skates>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://en.wikipedia.org/wiki/Twelve_Mile_Creek_(Ontario)>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/BattyBot> .
+
+<http://dbpedia.org/resource/Lloyd's_Marine_Intelligence_Unit>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Tris-2-carboxyethylphosphine_hydrochloride>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Gorewada_Lake>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Edward_John_Moreton_Drax_Plunkett,_Lord_Dunsany>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Hakuhou>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Expectative>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Fukui_Kenichi>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Anerley_train_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_11_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Holland_Thompson>
+        a       <http://schema.org/Person> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Agent> , <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Writer> , <http://xmlns.com/foaf/0.1/Person> ;
+        <http://dbpedia.org/ontology/nationality>
+                <http://dbpedia.org/resource/United_States> ;
+        <http://dbpedia.org/ontology/viafId>
+                "27370896"@en ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/MTA_(New_York)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/A_Call_For_Help_(Third_Watch)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Morgan_Greenfell>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Angel_Road_train_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Annan_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/US-191>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Deluxe_(album)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Mary's_Boy_Child_/_Oh_My_Lord_(single)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Fistulization>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Islamic_Labor_Front>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Round_Lodge,_Sandiway>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Intestinum_crassum>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_of_volcanoes_in_North_Korea>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/SR-273_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Hospital_Rock>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Plankenhorn_Covered_Bridge>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Ubuntu_Hacks>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Al_Gama'a_al-Islamiyya>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/%C5%A0porti_park_Lendava>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Product_Marketing>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/SR-274_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_25_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Marketing_Communications>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_18_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Luis_Ignatius_Pe%C3%B1alver_y_Cardenas>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Clitellate>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Winter_Songs_Tour_Tracks>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Vestas_V90-2MW>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Knife_amnesty>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/SR-278_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/I_See_a_Boat_on_the_River_/_My_Friend_Jack>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Clemence_Dane_(Winifred_Ashton)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Immitance>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Klingon_alphabet>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Keith_Harwood>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Tobu_9000_series>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Sulitjelma>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Jackie_Brown_(Scottish_boxer)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Rakotomavo_Andriambelomasina_Andriamaheritsialainolotany>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/History_of_rail>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Brady_Education_Foundation>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Gambra>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Kiteskate>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Points_of_Interest>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Hatimtai>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Industrial_Bank_Company>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Ancaster_train_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Sport1_HD>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Mddl_Fngz>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Maggie_Davies>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_10_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Twelve_Mile_Creek_(Ontario)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2014-01-09T18:02:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                589951899 ;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Twelve_Mile_Creek_(Ontario)&oldid=589951899> .
+
+<http://dbpedia.org/resource/Utah_State_Route_46_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/A_Level_Geography>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Idriss_II>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/La_Aljafer%C3%ADa_Palace>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Across_Entertainment>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/MCAS_Eagle_Mountain_Lake>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Illegal_imigration>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Susi_Earnshaw_Theatre_School>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Phillips_Arena>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Type_soundness>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Fokker_F.8>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/John_van_Druten>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Agio_Oros>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/SR-280_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Spreading_and_choking>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Day's_Covered_Bridge>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Hosanna_(disambiguation)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_68_(1931)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Andover_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Floccillation>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Ben_Smith_(British_politician)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/The_Survivors_(Raven_novel)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Graham_dale>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/US-89A>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_31_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Angmering_train_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_24_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Film1_HD>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Aldbourne_Chase>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/SR-152_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Mestni_Stadion_(Lendava)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Nimbly>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/SR-133_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Ordu_Kabul_FC>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/N%C3%A9o-Destour>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/I'm_Born_Again_/_Bahama_Mama_(single)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Uptown_studios_austin>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Wettin_Castle>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_36_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Stadion_Kodeljevo>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_29_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Meghpar>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/McClure_radioactive_site>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Edward_Lewis_Sturtevant>
+        a       <http://dbpedia.org/ontology/Agent> , <http://www.w3.org/2002/07/owl#Thing> ;
+        <http://dbpedia.org/ontology/viafId>
+                "60579978"@en ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Anderston_train_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/BIFA_Award>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Certan_marzelle>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Pharnell>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Competitive_Advantage>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/J.P._Morgan_and_Co.>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/National_Register_of_Historic_Places_listings_in_Clark_County,_Ohio>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Codex_Cyprius>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://en.wikipedia.org/wiki/Ellen_Hunter>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/BattyBot> .
+
+<http://dbpedia.org/resource/Aust%C4%97ja_(given_name)>
+        <http://dbpedia.org/ontology/wikiPageEditLink>
+                <http://en.wikipedia.org/w/index.php?title=Austėja_(given_name)&action=edit> ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/ontology/wikiPageHistoryLink>
+                <http://en.wikipedia.org/w/index.php?title=Austėja_(given_name)&action=history> ;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-08-20T12:17:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Austėja_(given_name)&oldid=569385474> .
+
+<http://dbpedia.org/resource/Angel_Road_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_65_(1931)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Andrei_Bodiu>
+        a       <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Agent> ;
+        <http://dbpedia.org/ontology/viafId>
+                "55950088"@en ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/GD_Power_Development>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Behold_the_Arctopus>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_21_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Pilsen_Callao>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/U.S._Army_military_police>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_14_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/J.S._Morgan_&_Co.>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Tubificidus>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/West_Publishing_Co.>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Paulos_Rahho>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/MCAS_Eagle_Mt._Lake>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Policy_pattern>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Fujiwara_Tokihira>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/One_A120>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Rubbed>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Alternative_energy_vehicle>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Sydney_Harbour_New_Years_Eve_Fireworks>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Wang_and_Landau_algorithm>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Anerley_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Current_events/Canada/Related_portals>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Ellen_Hunter>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-23T03:03:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                587319117 ;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Ellen_Hunter&oldid=587319117> .
+
+<http://dbpedia.org/resource/Anniesland_train_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Total_internal_reflection_fluorescence>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Byer,_OH>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Annan_train_station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Armino_negro>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Parliament_of_Tunisia>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_42_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Alberta_Senatorial_Selection_Act>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Tionette_Stoddard>
+        a       <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Athlete> , <http://dbpedia.org/ontology/Agent> , <http://www.w3.org/2002/07/owl#Thing> , <http://xmlns.com/foaf/0.1/Person> ;
+        <http://dbpedia.org/ontology/country>
+                <http://dbpedia.org/resource/New_Zealand> ;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Peter_Jacobs>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Megpar>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_35_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/SR-270_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_28_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/First-sale>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Afirmaci%C3%B3n_para_una_Rep%C3%BAblica_Igualitaria>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/PV_Crystalox_Solar>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/SR-271_(UT)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Jennifer_Holiday>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Mouth_(human)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/El_Lute_/_Gotta_Go_Home_(single)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Bashir_Ahmad_Saadat>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Northern_english>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Kiteskates>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Kita-Ageo_Station>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Omen_IV>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/NRK_Stortinget>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Bear_Country_(film)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_71_(1931)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Greasily>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Michael_Charach>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Tobermory,_Argyll_and_Bute>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/West_Pub._Co.>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Barzan_Ibrahim_al-Hasan_al-Tikriti>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_57_(1931)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Dr_Humayon_Dar>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/De_Trasto>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Utah_State_Route_20_(1927)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/St._Walfriduskerk>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/List_of_Houston_Rockets_head_coaches>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/%C5%A0tajerska_kisla_juha>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Tubificidi>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Montana_state_official_nickname>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Senatorial_Selection_Act>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Hollywood_Subway>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://dbpedia.org/resource/Megpur>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2014-01-11T07:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
