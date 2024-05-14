@@ -376,3 +376,345 @@ extra:
           - "0.1.0": "schema/theme/0.1.0.md"
           - "0.0.7": "schema/theme/0.0.7.md"
           - "0.0.6": "schema/theme/0.0.6.md"
+
+"nav": 
+  - "Home": "index.md"
+  - "Documentation": 
+      - "documentation/index.md"
+      - "Editing documentation": "documentation/editing-docs.md"
+      - "How to contribute?": "documentation/contribute.md"
+      - "Creating a new dataset": "documentation/creating-new-dataset.md"
+      - "Dataset source format": "documentation/dataset-source-format.md"
+      - "Metadata": "documentation/metadata.md"
+      - "Licensing and citation": "documentation/licensing.md"
+      - "Dataset release format": "documentation/dataset-release-format.md"
+      - "Versioning and releases": "documentation/versioning.md"
+  - "Datasets": 
+      - "datasets/index.md"
+      - "assist-iot-weather": 
+          - "Development version": 
+              - "datasets/assist-iot-weather/dev/index.md"
+          - "1.0.0": 
+              - "datasets/assist-iot-weather/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/assist-iot-weather/0.1.0/index.md"
+          - "0.0.1": 
+              - "datasets/assist-iot-weather/0.0.1/index.md"
+      - "assist-iot-weather-graphs": 
+          - "Development version": 
+              - "datasets/assist-iot-weather-graphs/dev/index.md"
+          - "1.0.0": 
+              - "datasets/assist-iot-weather-graphs/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/assist-iot-weather-graphs/0.1.0/index.md"
+      - "citypulse-traffic": 
+          - "Development version": 
+              - "datasets/citypulse-traffic/dev/index.md"
+          - "1.0.0": 
+              - "datasets/citypulse-traffic/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/citypulse-traffic/0.1.0/index.md"
+      - "citypulse-traffic-graphs": 
+          - "Development version": 
+              - "datasets/citypulse-traffic-graphs/dev/index.md"
+          - "1.0.0": 
+              - "datasets/citypulse-traffic-graphs/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/citypulse-traffic-graphs/0.1.0/index.md"
+      - "dbpedia-live": 
+          - "Development version": 
+              - "datasets/dbpedia-live/dev/index.md"
+          - "1.0.0": 
+              - "datasets/dbpedia-live/1.0.0/index.md"
+      - "digital-agenda-indicators": 
+          - "Development version": 
+              - "datasets/digital-agenda-indicators/dev/index.md"
+          - "1.0.0": 
+              - "datasets/digital-agenda-indicators/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/digital-agenda-indicators/0.1.0/index.md"
+      - "linked-spending": 
+          - "Development version": 
+              - "datasets/linked-spending/dev/index.md"
+          - "1.0.0": 
+              - "datasets/linked-spending/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/linked-spending/0.1.0/index.md"
+      - "lod-katrina": 
+          - "Development version": 
+              - "datasets/lod-katrina/dev/index.md"
+          - "1.0.0": 
+              - "datasets/lod-katrina/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/lod-katrina/0.1.0/index.md"
+      - "muziekweb": 
+          - "Development version": 
+              - "datasets/muziekweb/dev/index.md"
+          - "1.0.0": 
+              - "datasets/muziekweb/1.0.0/index.md"
+      - "nanopubs": 
+          - "Development version": 
+              - "datasets/nanopubs/dev/index.md"
+          - "1.0.0": 
+              - "datasets/nanopubs/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/nanopubs/0.1.0/index.md"
+      - "politiquices": 
+          - "Development version": 
+              - "datasets/politiquices/dev/index.md"
+          - "1.0.0": 
+              - "datasets/politiquices/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/politiquices/0.1.0/index.md"
+      - "yago-annotated-facts": 
+          - "Development version": 
+              - "datasets/yago-annotated-facts/dev/index.md"
+          - "1.0.0": 
+              - "datasets/yago-annotated-facts/1.0.0/index.md"
+          - "0.1.0": 
+              - "datasets/yago-annotated-facts/0.1.0/index.md"
+          - "0.0.1": 
+              - "datasets/yago-annotated-facts/0.0.1/index.md"
+  - "Profiles": 
+      - "profiles/index.md"
+      - "flat-mixed": 
+          - "Development version": "profiles/flat-mixed/dev.md"
+          - "1.0.1": "profiles/flat-mixed/1.0.1.md"
+          - "1.0.0": "profiles/flat-mixed/1.0.0.md"
+          - "0.1.1": "profiles/flat-mixed/0.1.1.md"
+          - "0.1.0": "profiles/flat-mixed/0.1.0.md"
+      - "flat-mixed-nonstandard": 
+          - "Development version": "profiles/flat-mixed-nonstandard/dev.md"
+          - "1.0.1": "profiles/flat-mixed-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/flat-mixed-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/flat-mixed-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/flat-mixed-nonstandard/0.1.0.md"
+      - "flat-mixed-rdfstar": 
+          - "Development version": "profiles/flat-mixed-rdfstar/dev.md"
+          - "1.0.1": "profiles/flat-mixed-rdfstar/1.0.1.md"
+          - "1.0.0": "profiles/flat-mixed-rdfstar/1.0.0.md"
+          - "0.1.1": "profiles/flat-mixed-rdfstar/0.1.1.md"
+          - "0.1.0": "profiles/flat-mixed-rdfstar/0.1.0.md"
+      - "flat-mixed-rdfstar-nonstandard": 
+          - "Development version": "profiles/flat-mixed-rdfstar-nonstandard/dev.md"
+          - "1.0.1": "profiles/flat-mixed-rdfstar-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/flat-mixed-rdfstar-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/flat-mixed-rdfstar-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/flat-mixed-rdfstar-nonstandard/0.1.0.md"
+      - "flat-quads": 
+          - "Development version": "profiles/flat-quads/dev.md"
+          - "1.0.1": "profiles/flat-quads/1.0.1.md"
+          - "1.0.0": "profiles/flat-quads/1.0.0.md"
+          - "0.1.1": "profiles/flat-quads/0.1.1.md"
+          - "0.1.0": "profiles/flat-quads/0.1.0.md"
+      - "flat-quads-nonstandard": 
+          - "Development version": "profiles/flat-quads-nonstandard/dev.md"
+          - "1.0.1": "profiles/flat-quads-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/flat-quads-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/flat-quads-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/flat-quads-nonstandard/0.1.0.md"
+      - "flat-quads-rdfstar": 
+          - "Development version": "profiles/flat-quads-rdfstar/dev.md"
+          - "1.0.1": "profiles/flat-quads-rdfstar/1.0.1.md"
+          - "1.0.0": "profiles/flat-quads-rdfstar/1.0.0.md"
+          - "0.1.1": "profiles/flat-quads-rdfstar/0.1.1.md"
+          - "0.1.0": "profiles/flat-quads-rdfstar/0.1.0.md"
+      - "flat-quads-rdfstar-nonstandard": 
+          - "Development version": "profiles/flat-quads-rdfstar-nonstandard/dev.md"
+          - "1.0.1": "profiles/flat-quads-rdfstar-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/flat-quads-rdfstar-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/flat-quads-rdfstar-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/flat-quads-rdfstar-nonstandard/0.1.0.md"
+      - "flat-triples": 
+          - "Development version": "profiles/flat-triples/dev.md"
+          - "1.0.1": "profiles/flat-triples/1.0.1.md"
+          - "1.0.0": "profiles/flat-triples/1.0.0.md"
+          - "0.1.1": "profiles/flat-triples/0.1.1.md"
+          - "0.1.0": "profiles/flat-triples/0.1.0.md"
+      - "flat-triples-nonstandard": 
+          - "Development version": "profiles/flat-triples-nonstandard/dev.md"
+          - "1.0.1": "profiles/flat-triples-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/flat-triples-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/flat-triples-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/flat-triples-nonstandard/0.1.0.md"
+      - "flat-triples-rdfstar": 
+          - "Development version": "profiles/flat-triples-rdfstar/dev.md"
+          - "1.0.1": "profiles/flat-triples-rdfstar/1.0.1.md"
+          - "1.0.0": "profiles/flat-triples-rdfstar/1.0.0.md"
+          - "0.1.1": "profiles/flat-triples-rdfstar/0.1.1.md"
+          - "0.1.0": "profiles/flat-triples-rdfstar/0.1.0.md"
+      - "flat-triples-rdfstar-nonstandard": 
+          - "Development version": "profiles/flat-triples-rdfstar-nonstandard/dev.md"
+          - "1.0.1": "profiles/flat-triples-rdfstar-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/flat-triples-rdfstar-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/flat-triples-rdfstar-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/flat-triples-rdfstar-nonstandard/0.1.0.md"
+      - "stream-graphs": 
+          - "Development version": "profiles/stream-graphs/dev.md"
+          - "1.0.1": "profiles/stream-graphs/1.0.1.md"
+          - "1.0.0": "profiles/stream-graphs/1.0.0.md"
+          - "0.1.1": "profiles/stream-graphs/0.1.1.md"
+          - "0.1.0": "profiles/stream-graphs/0.1.0.md"
+      - "stream-graphs-nonstandard": 
+          - "Development version": "profiles/stream-graphs-nonstandard/dev.md"
+          - "1.0.1": "profiles/stream-graphs-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/stream-graphs-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/stream-graphs-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/stream-graphs-nonstandard/0.1.0.md"
+      - "stream-graphs-rdfstar": 
+          - "Development version": "profiles/stream-graphs-rdfstar/dev.md"
+          - "1.0.1": "profiles/stream-graphs-rdfstar/1.0.1.md"
+          - "1.0.0": "profiles/stream-graphs-rdfstar/1.0.0.md"
+          - "0.1.1": "profiles/stream-graphs-rdfstar/0.1.1.md"
+          - "0.1.0": "profiles/stream-graphs-rdfstar/0.1.0.md"
+      - "stream-graphs-rdfstar-nonstandard": 
+          - "Development version": "profiles/stream-graphs-rdfstar-nonstandard/dev.md"
+          - "1.0.1": "profiles/stream-graphs-rdfstar-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/stream-graphs-rdfstar-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/stream-graphs-rdfstar-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/stream-graphs-rdfstar-nonstandard/0.1.0.md"
+      - "stream-mixed": 
+          - "Development version": "profiles/stream-mixed/dev.md"
+          - "1.0.1": "profiles/stream-mixed/1.0.1.md"
+          - "1.0.0": "profiles/stream-mixed/1.0.0.md"
+          - "0.1.1": "profiles/stream-mixed/0.1.1.md"
+          - "0.1.0": "profiles/stream-mixed/0.1.0.md"
+      - "stream-mixed-nonstandard": 
+          - "Development version": "profiles/stream-mixed-nonstandard/dev.md"
+          - "1.0.1": "profiles/stream-mixed-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/stream-mixed-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/stream-mixed-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/stream-mixed-nonstandard/0.1.0.md"
+      - "stream-mixed-rdfstar": 
+          - "Development version": "profiles/stream-mixed-rdfstar/dev.md"
+          - "1.0.1": "profiles/stream-mixed-rdfstar/1.0.1.md"
+          - "1.0.0": "profiles/stream-mixed-rdfstar/1.0.0.md"
+          - "0.1.1": "profiles/stream-mixed-rdfstar/0.1.1.md"
+          - "0.1.0": "profiles/stream-mixed-rdfstar/0.1.0.md"
+      - "stream-mixed-rdfstar-nonstandard": 
+          - "Development version": "profiles/stream-mixed-rdfstar-nonstandard/dev.md"
+          - "1.0.1": "profiles/stream-mixed-rdfstar-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/stream-mixed-rdfstar-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/stream-mixed-rdfstar-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/stream-mixed-rdfstar-nonstandard/0.1.0.md"
+      - "stream-quads": 
+          - "Development version": "profiles/stream-quads/dev.md"
+          - "1.0.1": "profiles/stream-quads/1.0.1.md"
+          - "1.0.0": "profiles/stream-quads/1.0.0.md"
+          - "0.1.1": "profiles/stream-quads/0.1.1.md"
+          - "0.1.0": "profiles/stream-quads/0.1.0.md"
+      - "stream-quads-nonstandard": 
+          - "Development version": "profiles/stream-quads-nonstandard/dev.md"
+          - "1.0.1": "profiles/stream-quads-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/stream-quads-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/stream-quads-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/stream-quads-nonstandard/0.1.0.md"
+      - "stream-quads-rdfstar": 
+          - "Development version": "profiles/stream-quads-rdfstar/dev.md"
+          - "1.0.1": "profiles/stream-quads-rdfstar/1.0.1.md"
+          - "1.0.0": "profiles/stream-quads-rdfstar/1.0.0.md"
+          - "0.1.1": "profiles/stream-quads-rdfstar/0.1.1.md"
+          - "0.1.0": "profiles/stream-quads-rdfstar/0.1.0.md"
+      - "stream-quads-rdfstar-nonstandard": 
+          - "Development version": "profiles/stream-quads-rdfstar-nonstandard/dev.md"
+          - "1.0.1": "profiles/stream-quads-rdfstar-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/stream-quads-rdfstar-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/stream-quads-rdfstar-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/stream-quads-rdfstar-nonstandard/0.1.0.md"
+      - "stream-triples": 
+          - "Development version": "profiles/stream-triples/dev.md"
+          - "1.0.1": "profiles/stream-triples/1.0.1.md"
+          - "1.0.0": "profiles/stream-triples/1.0.0.md"
+          - "0.1.1": "profiles/stream-triples/0.1.1.md"
+          - "0.1.0": "profiles/stream-triples/0.1.0.md"
+      - "stream-triples-nonstandard": 
+          - "Development version": "profiles/stream-triples-nonstandard/dev.md"
+          - "1.0.1": "profiles/stream-triples-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/stream-triples-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/stream-triples-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/stream-triples-nonstandard/0.1.0.md"
+      - "stream-triples-rdfstar": 
+          - "Development version": "profiles/stream-triples-rdfstar/dev.md"
+          - "1.0.1": "profiles/stream-triples-rdfstar/1.0.1.md"
+          - "1.0.0": "profiles/stream-triples-rdfstar/1.0.0.md"
+          - "0.1.1": "profiles/stream-triples-rdfstar/0.1.1.md"
+          - "0.1.0": "profiles/stream-triples-rdfstar/0.1.0.md"
+      - "stream-triples-rdfstar-nonstandard": 
+          - "Development version": "profiles/stream-triples-rdfstar-nonstandard/dev.md"
+          - "1.0.1": "profiles/stream-triples-rdfstar-nonstandard/1.0.1.md"
+          - "1.0.0": "profiles/stream-triples-rdfstar-nonstandard/1.0.0.md"
+          - "0.1.1": "profiles/stream-triples-rdfstar-nonstandard/0.1.1.md"
+          - "0.1.0": "profiles/stream-triples-rdfstar-nonstandard/0.1.0.md"
+  - "Suite releases": 
+      - "v/index.md"
+      - "1.0.1": 
+          - "v/1.0.1/index.md"
+          - "Documentation": 
+              - "v/1.0.1/documentation/index.md"
+              - "Editing documentation": "v/1.0.1/documentation/editing-docs.md"
+              - "How to contribute?": "v/1.0.1/documentation/contribute.md"
+              - "Creating a new dataset": "v/1.0.1/documentation/creating-new-dataset.md"
+              - "Dataset source format": "v/1.0.1/documentation/dataset-source-format.md"
+              - "Metadata": "v/1.0.1/documentation/metadata.md"
+              - "Licensing and citation": "v/1.0.1/documentation/licensing.md"
+              - "Dataset release format": "v/1.0.1/documentation/dataset-release-format.md"
+              - "Versioning and releases": "v/1.0.1/documentation/versioning.md"
+      - "1.0.0": 
+          - "v/1.0.0/index.md"
+          - "Documentation": 
+              - "v/1.0.0/documentation/index.md"
+              - "Editing documentation": "v/1.0.0/documentation/editing-docs.md"
+              - "How to contribute?": "v/1.0.0/documentation/contribute.md"
+              - "Creating a new dataset": "v/1.0.0/documentation/creating-new-dataset.md"
+              - "Dataset source format": "v/1.0.0/documentation/dataset-source-format.md"
+              - "Metadata": "v/1.0.0/documentation/metadata.md"
+              - "Licensing and citation": "v/1.0.0/documentation/licensing.md"
+              - "Dataset release format": "v/1.0.0/documentation/dataset-release-format.md"
+              - "Versioning and releases": "v/1.0.0/documentation/versioning.md"
+      - "0.1.1": 
+          - "v/0.1.1/index.md"
+          - "Documentation": 
+              - "v/0.1.1/documentation/index.md"
+              - "Editing documentation": "v/0.1.1/documentation/editing-docs.md"
+              - "How to contribute?": "v/0.1.1/documentation/contribute.md"
+              - "Creating a new dataset": "v/0.1.1/documentation/creating-new-dataset.md"
+              - "Dataset source format": "v/0.1.1/documentation/dataset-source-format.md"
+              - "Metadata": "v/0.1.1/documentation/metadata.md"
+              - "Licensing and citation": "v/0.1.1/documentation/licensing.md"
+              - "Dataset release format": "v/0.1.1/documentation/dataset-release-format.md"
+              - "Versioning and releases": "v/0.1.1/documentation/versioning.md"
+      - "0.1.0": 
+          - "v/0.1.0/index.md"
+          - "Documentation": 
+              - "v/0.1.0/documentation/index.md"
+              - "Editing documentation": "v/0.1.0/documentation/editing-docs.md"
+              - "How to contribute?": "v/0.1.0/documentation/contribute.md"
+              - "Creating a new dataset": "v/0.1.0/documentation/creating-new-dataset.md"
+              - "Dataset source format": "v/0.1.0/documentation/dataset-source-format.md"
+              - "Metadata": "v/0.1.0/documentation/metadata.md"
+              - "Licensing and citation": "v/0.1.0/documentation/licensing.md"
+              - "Dataset release format": "v/0.1.0/documentation/dataset-release-format.md"
+              - "Versioning and releases": "v/0.1.0/documentation/versioning.md"
+  - "Schemas & ontologies": 
+      - "schema/index.md"
+      - "Documentation ontology": 
+          - "Development version": "schema/documentation/dev.md"
+          - "1.0.0": "schema/documentation/1.0.0.md"
+          - "0.2.0": "schema/documentation/0.2.0.md"
+          - "0.1.0": "schema/documentation/0.1.0.md"
+          - "0.0.7": "schema/documentation/0.0.7.md"
+          - "0.0.6": "schema/documentation/0.0.6.md"
+      - "Metadata ontology": 
+          - "Development version": "schema/metadata/dev.md"
+          - "1.0.0": "schema/metadata/1.0.0.md"
+          - "0.2.0": "schema/metadata/0.2.0.md"
+          - "0.1.0": "schema/metadata/0.1.0.md"
+          - "0.0.7": "schema/metadata/0.0.7.md"
+          - "0.0.6": "schema/metadata/0.0.6.md"
+      - "Topic scheme": 
+          - "Development version": "schema/theme/dev.md"
+          - "1.0.0": "schema/theme/1.0.0.md"
+          - "0.2.0": "schema/theme/0.2.0.md"
+          - "0.1.0": "schema/theme/0.1.0.md"
+          - "0.0.7": "schema/theme/0.0.7.md"
+          - "0.0.6": "schema/theme/0.0.6.md"
