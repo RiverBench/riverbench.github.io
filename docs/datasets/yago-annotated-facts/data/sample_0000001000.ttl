@@ -1,7 +1,0 @@
-<< <http://yago-knowledge.org/resource/Margherita_Cagol> <http://schema.org/nationality> <http://yago-knowledge.org/resource/Italy> >>
-        <http://schema.org/endDate>    "1975-06-05"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        <http://schema.org/startDate>  "1946-06-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-
-<< <http://yago-knowledge.org/resource/Margherita_Cagol> <http://schema.org/nationality> <http://yago-knowledge.org/resource/Kingdom_of_Italy> >>
-        <http://schema.org/endDate>    "1946-06-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        <http://schema.org/startDate>  "1945-04-08"^^<http://www.w3.org/2001/XMLSchema#date> .

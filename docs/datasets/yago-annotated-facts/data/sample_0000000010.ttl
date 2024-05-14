@@ -1,5 +1,0 @@
-<< <http://yago-knowledge.org/resource/Open_Science_Radio_Q18744554> <http://schema.org/creator> <http://yago-knowledge.org/resource/Konrad_Förstner_Q18744528> >>
-        <http://schema.org/startDate>  "2014-01-19"^^<http://www.w3.org/2001/XMLSchema#date> .
-
-<< <http://yago-knowledge.org/resource/Open_Science_Radio_Q18744554> <http://schema.org/creator> <http://yago-knowledge.org/resource/Matthias_Fromm_Q18748012> >>
-        <http://schema.org/startDate>  "2013-01-02"^^<http://www.w3.org/2001/XMLSchema#date> .
