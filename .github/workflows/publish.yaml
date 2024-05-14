@@ -35,6 +35,10 @@ jobs:
       - name: Deploy site
         run: |
           mv mkdocs_2.yml mkdocs.yml
+          TAG='${{ inputs.tag }}'
+          git fetch origin gh-pages --depth=1
+          git config user.name ci-bot
+          git config user.email ci-bot@example.com
           if [[ $TAG == v* ]] ; then
             mike deploy --push --update-aliases "${TAG#v}" stable
           else
