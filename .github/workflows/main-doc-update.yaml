@@ -13,52 +13,27 @@ jobs:
     env:
       FROM_TAG: ${{ github.event.client_payload.tag }}
     steps:
-      - name: "Checkout the repository"
+      - name: "Checkout the repository (main)"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: actions/checkout@v4
         with:
           ref: main
 
-      - name: "Download the new content for profiles"
-        run: |
-          VERSION_ID="${FROM_TAG#v}"
-          mkdir -p "docs/profiles/temp"
-          cd "docs/profiles/temp"
-          wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/profiles_docs.tar.gz"
-          tar -xzvf profiles_docs.tar.gz
-          rm profiles_docs.tar.gz
-          mv table.md ../ || true
-          for name in $(ls -1 *.md); do
-            mkdir -p "../${name%.md}"
-            mv "${name}" "../${name%.md}/${VERSION_ID}.md"
-          done
-          cd ../
-          rm -rf ./temp
+      - name: "Checkout the repository (stable)"
+        if: ${{ github.event.client_payload.tag != 'dev' }}
+        uses: actions/checkout@v4
+        with:
+          ref: stable
 
       - name: "Download the new content for the main documentation"
         run: |
           VERSION_ID="${FROM_TAG#v}"
           cd "docs"
-          if [ "${VERSION_ID}" == "dev" ] ; then
-            rm "index.md" || true
-            wget "https://github.com/RiverBench/RiverBench/releases/download/dev/index.md"
-            cd datasets
-            rm "table.md" || true
-            wget -O "table.md" "https://github.com/RiverBench/RiverBench/releases/download/dev/dataset_table.md"
-          else
-            mkdir -p "v"
-            rm -rf "./v/${VERSION_ID}" || true
-            mkdir "./v/${VERSION_ID}"
-            cd "./v/${VERSION_ID}"
-            mkdir -p "documentation"
-            wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/index.md"
-            cd ../../../
-          fi
-
-      - name: Copy docs for a tagged release
-        if: startsWith(github.event.client_payload.tag, 'v')
-        uses: docker://ghcr.io/riverbench/ci-worker:main
-        with:
-          args: sh -c "ci-worker tag-docs docs/documentation \"docs/v/${FROM_TAG#v}/documentation\""
+          rm "index.md" || true
+          wget "https://github.com/RiverBench/RiverBench/releases/download/dev/index.md"
+          cd datasets
+          rm "table.md" || true
+          wget -O "table.md" "https://github.com/RiverBench/RiverBench/releases/download/dev/dataset_table.md"
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
@@ -74,3 +49,4 @@ jobs:
         with:
           token: ${{ secrets.PAT_DOC_REPO_HOOKS }}
           event-type: compile-docs
+          client-payload: '{ "tag": "${{ github.event.client_payload.tag }}" }'

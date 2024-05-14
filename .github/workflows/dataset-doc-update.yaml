@@ -6,7 +6,7 @@ on:
 jobs:
   update_dataset_docs:
     name: "Update dataset documentation"
-    # Only one job at a time, to avoid confflicts.
+    # Only one job at a time, to avoid conflicts.
     concurrency: doc-update
     runs-on: "ubuntu-latest"
     permissions: write-all
@@ -51,3 +51,4 @@ jobs:
         with:
           token: ${{ secrets.PAT_DOC_REPO_HOOKS }}
           event-type: compile-docs
+          client-payload: '{ "tag": "dev" }'

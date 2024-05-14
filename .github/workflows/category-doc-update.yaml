@@ -14,25 +14,44 @@ jobs:
       FROM_REPO: ${{ github.event.client_payload.repo }}
       FROM_TAG: ${{ github.event.client_payload.tag }}
     steps:
-      - name: "Checkout the repository"
+      - name: "Checkout the repository (main)"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: actions/checkout@v4
         with:
           ref: main
 
+      - name: "Checkout the repository (stable)"
+        if: ${{ github.event.client_payload.tag != 'dev' }}
+        uses: actions/checkout@v4
+        with:
+          ref: stable
+
       - name: "Download the new content"
-        # TODO
         run: |
           CATEGORY_ID="${FROM_REPO#RiverBench/category-}"
           VERSION_ID="${FROM_TAG#v}"
+          
+          # Category
+          rm -rf "docs/categories/${CATEGORY_ID}" || true
           mkdir -p "docs/categories/${CATEGORY_ID}"
           cd "docs/categories/${CATEGORY_ID}"
-          rm -rf "./${VERSION_ID}" || true
-          mkdir "./${VERSION_ID}"
-          cd "./${VERSION_ID}"
           wget "https://github.com/${FROM_REPO}/releases/download/${FROM_TAG}/docs.tar.gz"
           tar -xzvf docs.tar.gz
           mv ./category/* . || true
-          rm -r ./category || true
+          rm -r ./category
+
+          # Profiles
+          mkdir -p "../../profiles" || true
+          rm -f "../../profiles/${CATEGORY_ID}-*.md" || true
+          mv ./profiles/*.md "../../profiles" || true
+          rm -r ./profiles
+
+          # Tasks
+          mkdir -p "../../tasks" || true
+          rm -rf "../../tasks/${CATEGORY_ID}-*" || true
+          mv ./tasks/* "../../tasks" || true
+          rm -r ./tasks
+
           rm docs.tar.gz
 
       - name: Commit changes
@@ -49,3 +68,4 @@ jobs:
         with:
           token: ${{ secrets.PAT_DOC_REPO_HOOKS }}
           event-type: compile-docs
+          client-payload: '{ "tag": "dev" }'
