@@ -16,11 +16,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://w3id.org/riverbench/latest/categories/flat/subpage/</loc>
-         <lastmod>2024-05-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://w3id.org/riverbench/latest/categories/flat/task_table/</loc>
          <lastmod>2024-05-14</lastmod>
          <changefreq>daily</changefreq>
