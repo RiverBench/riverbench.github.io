@@ -1,6 +1,29 @@
 # Flat RDF streaming (simple sequences of triples/quads)
 
 Benchmark category of generic tasks involving flat RDF streams (elements are either RDF triples or RDF quads). Each dataset in this category can be also treated as a single RDF graph/RDF dataset.
+## Benchmark tasks
+
+Below you will find a list of tasks that are part of this benchmark category.
+
+!!! tip
+
+    Benchmark tasks and profiles in RiverBench have machine-readable metadata in RDF.
+    You can find RDF download links for each profile on its documentation page.
+    You can also use the [HTTP content negotiation mechanism](../../documentation/metadata.md).
+
+--8<-- "docs/categories/flat/task_table.md"
+
+## Benchmark profiles
+
+Profiles in RiverBench group datasets that share common technical characteristics.
+For example, whether the datasets consist of triples or quads, if they use RDF-star, etc.
+The profiles are intended to be used in benchmarks to compare the performance of different systems on a well-defined collection of datasets.
+
+See the **[quick start guide](../../documentation/using.md)** for more information on how to use the profiles, tasks, and datasets.
+
+--8<-- "docs/categories/flat/profile_table.md"
+
+
 
 ## Metadata
 
@@ -8,7 +31,7 @@ Benchmark category of generic tasks involving flat RDF streams (elements are eit
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/categories/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/categories/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/categories/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/categories/dev.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/categories/flat.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/categories/flat.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/categories/flat.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/categories/flat.jelly)**
 
 
 
@@ -23,21 +46,21 @@ Benchmark category of generic tasks involving flat RDF streams (elements are eit
 ### Content
 
 - **<abbr title="For benchmark categories this property indicates tasks that belong to the category.">Has benchmark task</abbr>**: 
-    - [flat-compression (dev)](https://w3id.org/riverbench/tasks/flat-compression/dev)
-    - [flat-deserialization-throughput (dev)](https://w3id.org/riverbench/tasks/flat-deserialization-throughput/dev)
-    - [flat-rdf-store-loading (dev)](https://w3id.org/riverbench/tasks/flat-rdf-store-loading/dev)
-    - [flat-serialization-throughput (dev)](https://w3id.org/riverbench/tasks/flat-serialization-throughput/dev)
+    - [flat-compression (dev)](https://w3id.org/riverbench/v/dev/tasks/flat-compression)
+    - [flat-deserialization-throughput (dev)](https://w3id.org/riverbench/v/dev/tasks/flat-deserialization-throughput)
+    - [flat-rdf-store-loading (dev)](https://w3id.org/riverbench/v/dev/tasks/flat-rdf-store-loading)
+    - [flat-serialization-throughput (dev)](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput)
 - **<abbr title="For benchmark categories this property indicates profiles that belong to the category.">Has benchmark profile</abbr>**: 
-    - [flat-mixed (dev)](https://w3id.org/riverbench/profiles/flat-mixed/dev)
-    - [flat-mixed-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev)
-    - [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/profiles/flat-mixed-rdfstar/dev)
-    - [flat-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-mixed-rdfstar-nonstandard/dev)
-    - [flat-quads (dev)](https://w3id.org/riverbench/profiles/flat-quads/dev)
-    - [flat-quads-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-quads-nonstandard/dev)
-    - [flat-quads-rdfstar (dev)](https://w3id.org/riverbench/profiles/flat-quads-rdfstar/dev)
-    - [flat-quads-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-quads-rdfstar-nonstandard/dev)
-    - [flat-triples (dev)](https://w3id.org/riverbench/profiles/flat-triples/dev)
-    - [flat-triples-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-triples-nonstandard/dev)
-    - [flat-triples-rdfstar (dev)](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev)
-    - [flat-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-triples-rdfstar-nonstandard/dev)
+    - [flat-mixed (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed)
+    - [flat-mixed-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-nonstandard)
+    - [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar)
+    - [flat-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar-nonstandard)
+    - [flat-quads (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads)
+    - [flat-quads-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads-nonstandard)
+    - [flat-quads-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads-rdfstar)
+    - [flat-quads-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads-rdfstar-nonstandard)
+    - [flat-triples (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples)
+    - [flat-triples-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-nonstandard)
+    - [flat-triples-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-rdfstar)
+    - [flat-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-rdfstar-nonstandard)
 

@@ -4,7 +4,7 @@ Flat sequence of triples (RDF 1.1 standard only)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/profiles/flat-triples/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/profiles/flat-triples/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/profiles/flat-triples/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/profiles/flat-triples/dev.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/flat-triples.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/flat-triples.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/flat-triples.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/flat-triples.jelly)**
 
 
 
@@ -13,15 +13,15 @@ Flat sequence of triples (RDF 1.1 standard only)
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of triples (standard) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-triples`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (dev)](https://w3id.org/riverbench/categories/flat/dev)
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (dev)](https://w3id.org/riverbench/v/dev/categories/flat)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
-    - [flat-mixed (dev)](https://w3id.org/riverbench/profiles/flat-mixed/dev)
-    - [flat-mixed-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev)
-    - [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/profiles/flat-mixed-rdfstar/dev)
-    - [flat-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-mixed-rdfstar-nonstandard/dev)
-    - [flat-triples-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-triples-nonstandard/dev)
-    - [flat-triples-rdfstar (dev)](https://w3id.org/riverbench/profiles/flat-triples-rdfstar/dev)
-    - [flat-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-triples-rdfstar-nonstandard/dev)
+    - [flat-mixed (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed)
+    - [flat-mixed-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-nonstandard)
+    - [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar)
+    - [flat-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar-nonstandard)
+    - [flat-triples-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-nonstandard)
+    - [flat-triples-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-rdfstar)
+    - [flat-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-rdfstar-nonstandard)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
     - [assist-iot-weather (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather/dev)
     - [citypulse-traffic (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev)
@@ -60,6 +60,7 @@ Flat sequence of triples (RDF 1.1 standard only)
 Below you will find links to download the profile's datasets in different lengths.
 
 !!! warning
+
     Some datasets are shorter than others and a given distribution may not be available for all datasets.
     In that case, a link to the longest available distribution of the dataset is provided.
 
