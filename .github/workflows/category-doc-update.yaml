@@ -59,7 +59,7 @@ jobs:
         with:
           message: ${{ format('Automatic update of {0} ({1})', github.event.client_payload.repo, github.event.client_payload.tag) }}
           default_author: github_actions
-          add: docs/categories/*
+          add: 'docs/categories docs/profiles docs/tasks'
           pull: '--rebase --autostash'
           push: true
 
