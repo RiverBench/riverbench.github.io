@@ -26,6 +26,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/categories/stream/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/categories/stream/profile_table/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/categories/stream/task_table/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/datasets/</loc>
          <lastmod>2024-05-14</lastmod>
          <changefreq>daily</changefreq>
@@ -211,6 +226,126 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-datasets-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-datasets-rdfstar-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-datasets-rdfstar/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-datasets/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-graphs-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-graphs-rdfstar-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-graphs-rdfstar/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-graphs/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-mixed-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-mixed-rdfstar-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-mixed-rdfstar/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-mixed/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-named-graphs-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-named-graphs-rdfstar-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-named-graphs-rdfstar/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-named-graphs/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-subject-graphs-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-subject-graphs-rdfstar-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-subject-graphs-rdfstar/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-subject-graphs/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-ts-named-graphs-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-ts-named-graphs-rdfstar-nonstandard/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-ts-named-graphs-rdfstar/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/profiles/stream-ts-named-graphs/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/schema/</loc>
          <lastmod>2024-05-14</lastmod>
          <changefreq>daily</changefreq>
@@ -322,6 +457,31 @@
     </url>
     <url>
          <loc>https://w3id.org/riverbench/latest/tasks/flat-serialization-throughput/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-compression/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-deserialization-throughput/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-latency-end-to-end/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-serialization-throughput/</loc>
+         <lastmod>2024-05-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-throughput-end-to-end/</loc>
          <lastmod>2024-05-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
