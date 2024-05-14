@@ -71,7 +71,7 @@ An administrator will be notified your request and will review the form and the 
 - Add the dataset maintainer as a collaborator to the repository.
 - Reply in the issue to the maintainer with the link to the repository and a link to step 3 of this guide.
 - After the maintainer completes steps 3 and 4, check if the CI passes correctly up to the dataset and documentation update steps (these should fail). If not, try to fix the issue.
-- Go to the [organization secret settings](https://github.com/organizations/RiverBench/settings/secrets/actions). For secrets `PAT_DOC_REPO_HOOKS` and `PAT_MAIN_REPO_HOOKS` add repository access for the new dataset repository.
+- Go to the [organization secret settings](https://github.com/organizations/RiverBench/settings/secrets/actions). For secrets `PAT_DOC_REPO_HOOKS`, `PAT_MAIN_REPO_HOOKS`, and `PAT_DATASET_CAT_REPO_HOOKS` add repository access for the new dataset repository.
 - In [Zenodo settings](https://zenodo.org/account/settings/github/) enable the new repository.
 - Create a new branch for the proposal issue.
 - In the new branch, run `git submodule add ../dataset-[ID] datasets/[ID]`.
