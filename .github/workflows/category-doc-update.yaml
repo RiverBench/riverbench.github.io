@@ -30,6 +30,8 @@ jobs:
           cd "./${VERSION_ID}"
           wget "https://github.com/${FROM_REPO}/releases/download/${FROM_TAG}/docs.tar.gz"
           tar -xzvf docs.tar.gz
+          mv ./category/* . || true
+          rm -r ./category || true
           rm docs.tar.gz
 
       - name: Commit changes
