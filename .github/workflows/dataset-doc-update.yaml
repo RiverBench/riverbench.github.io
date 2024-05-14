@@ -14,20 +14,24 @@ jobs:
       FROM_REPO: ${{ github.event.client_payload.repo }}
       FROM_TAG: ${{ github.event.client_payload.tag }}
     steps:
-      - name: "Checkout the repository"
+      - name: "Checkout the repository (main)"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: actions/checkout@v4
         with:
           ref: main
 
+      - name: "Checkout the repository (stable)"
+        if: ${{ github.event.client_payload.tag != 'dev' }}
+        uses: actions/checkout@v4
+        with:
+          ref: stable
+
       - name: "Download the new content"
         run: |
           DATASET_ID="${FROM_REPO#RiverBench/dataset-}"
-          VERSION_ID="${FROM_TAG#v}"
+          rm -rf "docs/datasets/${DATASET_ID}" || true
           mkdir -p "docs/datasets/${DATASET_ID}"
           cd "docs/datasets/${DATASET_ID}"
-          rm -rf "./${VERSION_ID}" || true
-          mkdir "./${VERSION_ID}"
-          cd "./${VERSION_ID}"
           wget "https://github.com/${FROM_REPO}/releases/download/${FROM_TAG}/docs.tar.gz"
           tar -xzvf docs.tar.gz
           rm docs.tar.gz
@@ -42,6 +46,7 @@ jobs:
           push: true
 
       - name: "Trigger doc compilation"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT_DOC_REPO_HOOKS }}
