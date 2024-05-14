@@ -1,16 +1,17 @@
-name: "Update schema documentation"
+name: "Update category documentation"
 on:
   repository_dispatch:
-    types: [schema-doc-update]
+    types: [category-doc-update]
 
 jobs:
-  update-schema-docs:
-    name: "Update schema documentation"
+  update_category_docs:
+    name: "Update category documentation"
     # Only one job at a time, to avoid confflicts.
     concurrency: doc-update
     runs-on: "ubuntu-latest"
     permissions: write-all
     env:
+      FROM_REPO: ${{ github.event.client_payload.repo }}
       FROM_TAG: ${{ github.event.client_payload.tag }}
     steps:
       - name: "Checkout the repository"
@@ -20,25 +21,23 @@ jobs:
 
       - name: "Download the new content"
         run: |
+          CATEGORY_ID="${FROM_REPO#RiverBench/category-}"
           VERSION_ID="${FROM_TAG#v}"
-          cd "docs/schema"
-          mkdir "./temp"
-          cd "./temp"
-          wget "https://github.com/RiverBench/schema/releases/download/${FROM_TAG}/docs.tar.gz"
+          mkdir -p "docs/categories/${CATEGORY_ID}"
+          cd "docs/categories/${CATEGORY_ID}"
+          rm -rf "./${VERSION_ID}" || true
+          mkdir "./${VERSION_ID}"
+          cd "./${VERSION_ID}"
+          wget "https://github.com/${FROM_REPO}/releases/download/${FROM_TAG}/docs.tar.gz"
           tar -xzvf docs.tar.gz
-          for name in $(ls -1 *.md); do
-            mkdir -p "../${name%.md}"
-            mv "${name}" "../${name%.md}/${VERSION_ID}.md"
-          done
-          cd ../
-          rm -rf ./temp
+          rm docs.tar.gz
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: ${{ format('Automatic update of schema docs ({1})', github.event.client_payload.repo, github.event.client_payload.tag) }}
+          message: ${{ format('Automatic update of {0} ({1})', github.event.client_payload.repo, github.event.client_payload.tag) }}
           default_author: github_actions
-          add: docs/schema/*
+          add: docs/categories/*
           pull: '--rebase --autostash'
           push: true
 

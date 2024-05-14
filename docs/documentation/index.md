@@ -12,3 +12,4 @@ This documentation explains how to use and contribute to RiverBench.
     - [Creating a new dataset](creating-new-dataset.md)
     - [Dataset source format](dataset-source-format.md)
     - [Editing documentation](editing-docs.md)
+    - [Working with benchmark categories](categories.md)

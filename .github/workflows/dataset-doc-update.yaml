@@ -15,7 +15,7 @@ jobs:
       FROM_TAG: ${{ github.event.client_payload.tag }}
     steps:
       - name: "Checkout the repository"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: main
 
@@ -42,7 +42,7 @@ jobs:
           push: true
 
       - name: "Trigger doc compilation"
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT_DOC_REPO_HOOKS }}
           event-type: compile-docs
