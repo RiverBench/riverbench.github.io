@@ -1,0 +1,14 @@
+# Working with benchmark categories
+
+TODO
+
+## Creating a benchmark category
+
+- [Create a new issue](https://github.com/RiverBench/RiverBench/issues/new/choose) (unless already present) in the issue tracker. In the issue specify what datasets and tasks will the category entail.
+- [Create a new repository](https://github.com/new?template_name=category-template&template_owner=RiverBench) for the category named `category-[IDENTIFIER]`, using the [category-template](https://github.com/RiverBench/category-template) repo as the template.
+- Fill out the `metadata.ttl` file for the category, apply any other changes and push them.
+- In the main repository:
+    - Create a new branch for the proposal issue.
+    - In the new branch run `git submodule add ../category-[ID] categories/[ID]`
+    - Commit, push, and merge the branch to main.
+- Re-run the CI in the category repo to check if it passes correctly.
