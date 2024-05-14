@@ -1,0 +1,16 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://www.politiquices.pt/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://arquivo.pt/wayback/20151003185118/http://economico.sapo.pt/noticias/isabel-dos-santos-vai-oporse-ao-plano-de-ulrich-para-angola_230444.html>
+        ns1:date   "2015-10-03"^^xsd:date ;
+        ns1:title  "Isabel dos Santos vai opor-se ao plano de Ulrich para Angola"@pt .
+
+[ ns2:ent1      <http://www.wikidata.org/entity/Q456034> ;
+  ns2:ent1_str  "Isabel dos Santos" ;
+  ns2:ent2      <http://www.wikidata.org/entity/Q1318666> ;
+  ns2:ent2_str  "Ulrich" ;
+  ns2:score     "1.0"^^xsd:float ;
+  ns2:type      "ent1_opposes_ent2" ;
+  ns2:url       <https://arquivo.pt/wayback/20151003185118/http://economico.sapo.pt/noticias/isabel-dos-santos-vai-oporse-ao-plano-de-ulrich-para-angola_230444.html>
+] .

@@ -1,0 +1,16 @@
+@prefix ns1: <http://www.politiquices.pt/> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[ ns1:ent1      <http://www.wikidata.org/entity/Q2571494> ;
+  ns1:ent1_str  "Carlos César" ;
+  ns1:ent2      <http://www.wikidata.org/entity/Q57398> ;
+  ns1:ent2_str  "Cavaco" ;
+  ns1:score     "0.9920841455459595"^^xsd:float ;
+  ns1:type      "ent1_opposes_ent2" ;
+  ns1:url       <https://arquivo.pt/wayback/20151119204457/http://observador.pt/2015/11/18/carlos-cesar-responsabiliza-cavaco-por-incontinencia-verbal-entre-os-partidos/>
+] .
+
+<https://arquivo.pt/wayback/20151119204457/http://observador.pt/2015/11/18/carlos-cesar-responsabiliza-cavaco-por-incontinencia-verbal-entre-os-partidos/>
+        ns2:date   "2015-11-19"^^xsd:date ;
+        ns2:title  "Carlos César responsabiliza Cavaco por \"incontinência verbal\" entre os partidos"@pt .
