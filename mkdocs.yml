@@ -5,6 +5,9 @@ site_url: https://w3id.org/riverbench/
 plugins:
   - search
   - include-markdown
+  - mike:
+      deploy_prefix: v
+      canonical_version: latest
 
 markdown_extensions:
   - attr_list
@@ -63,6 +66,11 @@ theme:
     repo: fontawesome/brands/github
 
 extra:
+  version:
+    provider: mike
+    default: 
+      - latest
+      - stable
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/RiverBench
