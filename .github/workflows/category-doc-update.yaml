@@ -20,6 +20,7 @@ jobs:
           ref: main
 
       - name: "Download the new content"
+        # TODO
         run: |
           CATEGORY_ID="${FROM_REPO#RiverBench/category-}"
           VERSION_ID="${FROM_TAG#v}"

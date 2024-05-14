@@ -35,4 +35,8 @@ jobs:
       - name: Deploy site
         run: |
           mv mkdocs_2.yml mkdocs.yml
-          mkdocs gh-deploy --force
+          if [[ $TAG == v* ]] ; then
+            mike deploy --push --update-aliases "${TAG#v}" stable
+          else
+            mike deploy --push --update-aliases dev latest
+          fi
