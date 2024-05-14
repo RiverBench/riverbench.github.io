@@ -1,4 +1,4 @@
-# Flat RDF streaming (simple sequences of triples/quads)
+# Flat RDF (sequences of triples/quads)
 
 Benchmark category of generic tasks involving flat RDF streams (elements are either RDF triples or RDF quads). Each dataset in this category can be also treated as a single RDF graph/RDF dataset.
 ## Benchmark tasks
@@ -37,7 +37,7 @@ See the **[quick start guide](../../documentation/using.md)** for more informati
 
 ### General information
 
-- **<abbr title="A name given to the resource.">Title</abbr>**: Flat RDF streaming (simple sequences of triples/quads) _(<abbr title="English">en</abbr>)_
+- **<abbr title="A name given to the resource.">Title</abbr>**: Flat RDF (sequences of triples/quads) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
