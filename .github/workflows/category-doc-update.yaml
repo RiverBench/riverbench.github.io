@@ -49,7 +49,7 @@ jobs:
           # Tasks
           mkdir -p "../../tasks" || true
           rm -rf "../../tasks/${CATEGORY_ID}-*" || true
-          mv ./tasks/* "../../tasks" || true
+          cp -r ./tasks/* ../../tasks || true
           rm -r ./tasks
 
           rm docs.tar.gz
