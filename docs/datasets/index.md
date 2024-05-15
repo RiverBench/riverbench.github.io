@@ -13,7 +13,7 @@ You can find the list of all datasets in the menu on the left.
 --8<-- "docs/datasets/table.md"
 
 ## See also
-* [Profiles](../profiles/index.md) – collections of datasets with common characteristics
+* [Benchmark categories](../categories/index.md) – groupings of datasets and benchmark tasks.
 * [Dataset release format](../documentation/dataset-release-format.md)
 * [Dataset and profile metadata](../documentation/metadata.md)
 * [Creating a new dataset](../documentation/creating-new-dataset.md)

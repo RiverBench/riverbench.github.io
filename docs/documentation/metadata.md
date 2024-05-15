@@ -55,5 +55,5 @@ The metadata uses mainly these ontologies:
 - [FOAF](http://xmlns.com/foaf/0.1/)
 - [RDF Stream Taxonomy (RDF-STaX)](https://w3id.org/stax/dev/ontology)
 - [EuroVoc](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc) (for dataset themes)
-- [RiverBench metadata ontology](../schema/metadata/dev.md)
-- [RiverBench documentation ontology](../schema/documentation/dev.md)
+- [RiverBench metadata ontology](../schema/metadata.md)
+- [RiverBench documentation ontology](../schema/documentation.md)

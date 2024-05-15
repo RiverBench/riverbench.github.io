@@ -21,7 +21,7 @@ You can also add more files and directories (like `.gitignore`, etc.) to the rep
 * The archive can contain only directories (nesting is allowed) and stream element files.
 * The file extension of the stream elements depends on the stream type. See subsections below for more details.
 * The files must be named starting from `0000000000.Y`, and sequentially up to `X.Y`, where `X + 1` is the number of stream elements in the dataset, and Y is the file extension. All numbers must be zero-padded to exactly ten digits.
-* **Important!** All files must be stored in the tar **sequentially in lexicographic order**. This is different to what the tar command usually does on Linux (order of files is random). See the [creating a source archive](#creating-source-archive) section below for more details.
+* **Important!** All files must be stored in the tar **sequentially in lexicographic order**. This is different to what the tar command usually does on Linux (order of files is random). See the [creating a source archive](#creating-a-source-archive) section below for more details.
 * There are no special rules for grouping files into directories – but examples of what would work are presented below. It is recommended to have at most ~1000 files per directory to avoid issues with filesystems and file browsers.
 
 **Example 1: flat file structure, [RDF dataset stream](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream), 431256 elements:**
