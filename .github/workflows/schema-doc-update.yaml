@@ -44,6 +44,32 @@ jobs:
           pull: '--rebase --autostash'
           push: true
 
+      # *** the part about adding redirects ***
+      - name: "Checkout the repository (gh-pages)"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: "Update schema PURL redirects"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
+        uses: docker://ghcr.io/riverbench/ci-worker:main
+        with:
+          args: bash -c "for SCHEMA in $(ls -1 . | grep -v index.md) ; do ci-worker generate-redirect ./gh-pages schema \"${SCHEMA%.md}\" dev ; done"
+
+      - name: Commit changes to the gh-pages branch
+        if: ${{ github.event.client_payload.tag == 'dev' }}
+        uses: EndBug/add-and-commit@v9
+        with:
+          cwd: ./gh-pages
+          message: 'Update redirects for schemas (dev)'
+          default_author: github_actions
+          add: '.'
+          pull: '--rebase --autostash'
+          push: true
+      # *** end of the part about adding redirects ***        
+
       - name: "Trigger doc compilation"
         if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: peter-evans/repository-dispatch@v3
