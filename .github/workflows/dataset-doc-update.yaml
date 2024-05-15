@@ -45,6 +45,27 @@ jobs:
           pull: '--rebase --autostash'
           push: true
 
+      - name: "Checkout the repository (gh-pages)"
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: "Update dataset PURL redirects"
+        uses: docker://ghcr.io/riverbench/ci-worker:main
+        with:
+          args: ci-worker generate-redirect ./gh-pages datasets "${FROM_REPO#RiverBench/dataset-}" ${FROM_TAG#v}
+
+      - name: Commit changes to the gh-pages branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          cwd: ./gh-pages
+          message: ${{ format('Update redirect for {0} ({1})', github.event.client_payload.repo, github.event.client_payload.tag) }}
+          default_author: github_actions
+          add: '.'
+          pull: '--rebase --autostash'
+          push: true
+
       - name: "Trigger doc compilation"
         if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: peter-evans/repository-dispatch@v3
