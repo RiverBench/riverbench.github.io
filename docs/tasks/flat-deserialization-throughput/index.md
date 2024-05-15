@@ -44,7 +44,7 @@ There are no results with RiverBench available for this task yet.
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/tasks/flat-deserialization-throughput/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/tasks/flat-deserialization-throughput/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/tasks/flat-deserialization-throughput/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/tasks/flat-deserialization-throughput/dev.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/tasks/flat-deserialization-throughput.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/tasks/flat-deserialization-throughput.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/tasks/flat-deserialization-throughput.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/tasks/flat-deserialization-throughput.jelly)**
 
 
 
@@ -60,7 +60,7 @@ There are no results with RiverBench available for this task yet.
     - **<abbr title="A homepage for some thing.">Homepage</abbr>**:     
         -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
         - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (dev)](https://w3id.org/riverbench/categories/flat/dev)
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (dev)](https://w3id.org/riverbench/v/dev/categories/flat)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
