@@ -32,7 +32,7 @@ jobs:
           rm -f ./* || true
           mv .index.md index.md
           wget "https://github.com/RiverBench/schema/releases/download/${FROM_TAG}/docs.tar.gz"
-          tar -xzvf docs.tar.gz ./documentation.md ./metadata.md
+          tar -xzvf docs.tar.gz
           rm docs.tar.gz
 
       - name: Commit changes
