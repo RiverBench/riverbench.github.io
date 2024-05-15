@@ -1,3 +1,0 @@
-<< <http://yago-knowledge.org/resource/Mihrengiz_Kadın> <http://schema.org/nationality> <http://yago-knowledge.org/resource/Ottoman_Empire> >>
-        <http://schema.org/endDate>    "1923"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
-        <http://schema.org/startDate>  "1869"^^<http://www.w3.org/2001/XMLSchema#gYear> .

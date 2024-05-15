@@ -1,9 +1,0 @@
-<http://knoesis.wright.edu/ssw/Instant_2005_7_31_10_00_00>
-        a       <http://www.w3.org/2006/time#Instant> ;
-        <http://www.w3.org/2006/time#inXSDDateTime>
-                "2005-07-31T10:00:00-05:00^^http://www.w3.org/2001/XMLSchema#dateTime" .
-
-<http://knoesis.wright.edu/ssw/Instant_2005_7_31_3_00_00>
-        a       <http://www.w3.org/2006/time#Instant> ;
-        <http://www.w3.org/2006/time#inXSDDateTime>
-                "2005-07-31T03:00:00-05:00^^http://www.w3.org/2001/XMLSchema#dateTime" .

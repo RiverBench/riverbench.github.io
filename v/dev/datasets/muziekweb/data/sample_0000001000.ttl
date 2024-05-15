@@ -1,7 +1,0 @@
-<https://data.muziekweb.nl/Link/003980fc34a52eba8ea58b5b83d7d54552d9bc31>
-        a                        <https://data.muziekweb.nl/vocab/ExternalLink> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Listen to \"Iberia\" on \"Spotify\""@nl ;
-        <http://schema.org/url>  "https://open.spotify.com/album/4d6QpbCGzljwYE6BtrOoD5"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-        <https://data.muziekweb.nl/vocab/provider>
-                "Spotify" .
