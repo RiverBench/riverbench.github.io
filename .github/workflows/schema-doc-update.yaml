@@ -20,18 +20,10 @@ jobs:
 
       - name: "Download the new content"
         run: |
-          VERSION_ID="${FROM_TAG#v}"
           cd "docs/schema"
-          mkdir "./temp"
-          cd "./temp"
           wget "https://github.com/RiverBench/schema/releases/download/${FROM_TAG}/docs.tar.gz"
-          tar -xzvf docs.tar.gz
-          for name in $(ls -1 *.md); do
-            mkdir -p "../${name%.md}"
-            mv "${name}" "../${name%.md}/${VERSION_ID}.md"
-          done
-          cd ../
-          rm -rf ./temp
+          rm -f ./documentation.md ./metadata.md || true
+          tar -xzvf docs.tar.gz ./documentation.md ./metadata.md
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
