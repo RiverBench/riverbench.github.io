@@ -53,7 +53,8 @@ The metadata uses mainly these ontologies:
 - [DCAT 3](https://www.w3.org/TR/vocab-dcat-3/)
 - [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 - [FOAF](http://xmlns.com/foaf/0.1/)
-- [RDF Stream Taxonomy (RDF-STaX)](https://w3id.org/stax/dev/ontology)
-- [EuroVoc](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc) (for dataset themes)
+- [RDF Stream Taxonomy (RDF-STaX)](https://w3id.org/stax/dev/ontology) – for RDF stream type annotations
+- [EuroVoc](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc) – for dataset themes
+- [VoID](https://www.w3.org/TR/void/)
 - [RiverBench metadata ontology](../schema/metadata.md)
 - [RiverBench documentation ontology](../schema/documentation.md)

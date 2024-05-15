@@ -8,7 +8,7 @@ Before you start, have a look at the [requirements for new datasets](contribute.
 
 ## Step 1: Create a dataset proposal
 
-1. Open a new dataset proposal in the RiverBench repository: **[click HERE](https://github.com/RiverBench/RiverBench/issues/new/choose)** and select "Dataset proposal".
+1. Open a new dataset proposal in the RiverBench repository: **[click HERE](https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+dataset&projects=&template=dataset-proposal.md&title=Dataset+proposal%3A+%5BIDENTIFIER+HERE%5D)**.
 2. Fill in the form with the required information (see below).
 
 !!! note
@@ -77,3 +77,8 @@ An administrator will be notified your request and will review the form and the 
 - In the new branch, run `git submodule add ../dataset-[ID] datasets/[ID]`.
 - Commit and merge the branch to main.
 - Re-run the CI in the dataset repo to check if the dataset and documentation update steps pass correctly.
+
+## See also
+
+- [Creating a new benchmark task](creating-new-task.md)
+- [Editing the documentation](editing-docs.md)
