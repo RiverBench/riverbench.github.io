@@ -312,6 +312,8 @@
         
       
         
+      
+        
           
         
       
@@ -381,6 +383,27 @@
   
   <span class="md-ellipsis">
     Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../creating-new-task/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a new benchmark task
   </span>
   
 
@@ -580,6 +603,15 @@
   <a href="#instructions-for-admins" class="md-nav__link">
     <span class="md-ellipsis">
       Instructions for admins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
     </span>
   </a>
   
@@ -2972,6 +3004,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2996,7 +3037,7 @@
 <p>Before you start, have a look at the <a href="../contribute/#contributing-datasets">requirements for new datasets</a>. If your dataset does not meet these requirements, it will not be accepted.</p>
 <h2 id="step-1-create-a-dataset-proposal">Step 1: Create a dataset proposal</h2>
 <ol>
-<li>Open a new dataset proposal in the RiverBench repository: <strong><a href="https://github.com/RiverBench/RiverBench/issues/new/choose">click HERE</a></strong> and select "Dataset proposal".</li>
+<li>Open a new dataset proposal in the RiverBench repository: <strong><a href="https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&amp;labels=new+dataset&amp;projects=&amp;template=dataset-proposal.md&amp;title=Dataset+proposal%3A+%5BIDENTIFIER+HERE%5D">click HERE</a></strong>.</li>
 <li>Fill in the form with the required information (see below).</li>
 </ol>
 <div class="admonition note">
@@ -3066,6 +3107,11 @@
 <li>In the new branch, run <code>git submodule add ../dataset-[ID] datasets/[ID]</code>.</li>
 <li>Commit and merge the branch to main.</li>
 <li>Re-run the CI in the dataset repo to check if the dataset and documentation update steps pass correctly.</li>
+</ul>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../creating-new-task/">Creating a new benchmark task</a></li>
+<li><a href="../editing-docs/">Editing the documentation</a></li>
 </ul>
 
 

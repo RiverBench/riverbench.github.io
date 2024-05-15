@@ -131,6 +131,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/documentation/creating-new-task/</loc>
+         <lastmod>2024-05-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/documentation/dataset-release-format/</loc>
          <lastmod>2024-05-15</lastmod>
          <changefreq>daily</changefreq>

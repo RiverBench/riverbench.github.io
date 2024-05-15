@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://w3id.org/riverbench/latest/profiles/flat-triples/">
+        <link rel="canonical" href="https://w3id.org/riverbench/latest/documentation/creating-new-task/">
       
       
-        <link rel="prev" href="../flat-quads-rdfstar-nonstandard/">
+        <link rel="prev" href="../metadata/">
       
       
-        <link rel="next" href="../flat-triples-nonstandard/">
+        <link rel="next" href="../">
       
       
       <link rel="icon" href="../../assets/riverbench_vector_icon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>flat-triples - RiverBench</title>
+        <title>Creating a new benchmark task - RiverBench</title>
       
     
     
@@ -62,7 +62,7 @@
         
     
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="RiverBench – flat-triples" />
+    <meta property="og:title" content="RiverBench – Creating a new benchmark task" />
     <meta property="og:description" content="RiverBench is an open, community-driven RDF streaming benchmark suite." />
     <meta property="og:image" content="https://riverbench.github.io/assets/riverbench_social.png" />
     <meta property="og:image:type" content="image/png" />
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#flat-triples-development-version" class="md-skip">
+        <a href="#creating-a-new-benchmark-task" class="md-skip">
           Skip to content
         </a>
       
@@ -141,7 +141,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              flat-triples
+              Creating a new benchmark task
             
           </span>
         </div>
@@ -302,6 +302,8 @@
       
   
   
+    
+  
   
   
     
@@ -336,16 +338,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../documentation/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -362,7 +364,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Documentation
@@ -376,7 +378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/metadata/" class="md-nav__link">
+      <a href="../metadata/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -394,10 +396,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../documentation/creating-new-task/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Creating a new benchmark task
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -406,6 +428,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-0-what-is-a-benchmark-task" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 0: What is a benchmark task?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-create-a-task-proposal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Create a task proposal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-wait-for-approval" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Wait for approval
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-create-a-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Create a pull request
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-wait-for-merge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Wait for merge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -420,7 +516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/categories/" class="md-nav__link">
+      <a href="../categories/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -441,7 +537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/using/" class="md-nav__link">
+      <a href="../using/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -462,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/versioning/" class="md-nav__link">
+      <a href="../versioning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -483,7 +579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/creating-new-dataset/" class="md-nav__link">
+      <a href="../creating-new-dataset/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -504,7 +600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/licensing/" class="md-nav__link">
+      <a href="../licensing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -525,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/contribute/" class="md-nav__link">
+      <a href="../contribute/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -546,7 +642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/dataset-source-format/" class="md-nav__link">
+      <a href="../dataset-source-format/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -567,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/dataset-release-format/" class="md-nav__link">
+      <a href="../dataset-release-format/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -588,7 +684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../documentation/editing-docs/" class="md-nav__link">
+      <a href="../editing-docs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -613,8 +709,6 @@
       
   
   
-    
-  
   
   
     
@@ -631,11 +725,11 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           
@@ -657,7 +751,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Benchmarks
@@ -669,8 +763,6 @@
               
                 
   
-  
-    
   
   
   
@@ -688,11 +780,11 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
         
           
           
@@ -714,7 +806,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             Flat RDF (sequences of triples/quads)
@@ -996,10 +1088,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -1030,11 +1120,11 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_3" >
         
           
           <label class="md-nav__link" for="__nav_3_2_3" id="__nav_3_2_3_label" tabindex="0">
@@ -1048,7 +1138,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2_3">
             <span class="md-nav__icon md-icon"></span>
             Benchmark profiles
@@ -1062,7 +1152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-mixed/" class="md-nav__link">
+      <a href="../../profiles/flat-mixed/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1083,7 +1173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-mixed-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/flat-mixed-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1104,7 +1194,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-mixed-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/flat-mixed-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1125,7 +1215,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-mixed-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/flat-mixed-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1146,7 +1236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-quads/" class="md-nav__link">
+      <a href="../../profiles/flat-quads/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1167,7 +1257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-quads-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/flat-quads-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1188,7 +1278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-quads-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/flat-quads-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1209,7 +1299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-quads-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/flat-quads-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1227,30 +1317,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    flat-triples
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../profiles/flat-triples/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1259,53 +1329,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#general-information" class="md-nav__link">
-    <span class="md-ellipsis">
-      General information
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#technical-metadata" class="md-nav__link">
-    <span class="md-ellipsis">
-      Technical metadata
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#download-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      Download links
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1318,7 +1341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-triples-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/flat-triples-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1339,7 +1362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-triples-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/flat-triples-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1360,7 +1383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flat-triples-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/flat-triples-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1862,7 +1885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-datasets/" class="md-nav__link">
+      <a href="../../profiles/stream-datasets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1883,7 +1906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-datasets-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-datasets-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1904,7 +1927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-datasets-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/stream-datasets-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1925,7 +1948,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-datasets-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-datasets-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1946,7 +1969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-graphs/" class="md-nav__link">
+      <a href="../../profiles/stream-graphs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1967,7 +1990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-graphs-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-graphs-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1988,7 +2011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-graphs-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/stream-graphs-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2009,7 +2032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-graphs-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-graphs-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2030,7 +2053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-mixed/" class="md-nav__link">
+      <a href="../../profiles/stream-mixed/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2051,7 +2074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-mixed-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-mixed-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2072,7 +2095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-mixed-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/stream-mixed-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2093,7 +2116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-mixed-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-mixed-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2114,7 +2137,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-named-graphs/" class="md-nav__link">
+      <a href="../../profiles/stream-named-graphs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2135,7 +2158,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-named-graphs-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-named-graphs-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2156,7 +2179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-named-graphs-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/stream-named-graphs-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2177,7 +2200,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-named-graphs-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-named-graphs-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2198,7 +2221,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-subject-graphs/" class="md-nav__link">
+      <a href="../../profiles/stream-subject-graphs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2219,7 +2242,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-subject-graphs-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-subject-graphs-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2240,7 +2263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-subject-graphs-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/stream-subject-graphs-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2261,7 +2284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-subject-graphs-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-subject-graphs-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2282,7 +2305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-ts-named-graphs/" class="md-nav__link">
+      <a href="../../profiles/stream-ts-named-graphs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2303,7 +2326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-ts-named-graphs-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-ts-named-graphs-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2324,7 +2347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-ts-named-graphs-rdfstar/" class="md-nav__link">
+      <a href="../../profiles/stream-ts-named-graphs-rdfstar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2345,7 +2368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stream-ts-named-graphs-rdfstar-nonstandard/" class="md-nav__link">
+      <a href="../../profiles/stream-ts-named-graphs-rdfstar-nonstandard/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2871,27 +2894,54 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#general-information" class="md-nav__link">
+  <a href="#step-0-what-is-a-benchmark-task" class="md-nav__link">
     <span class="md-ellipsis">
-      General information
+      Step 0: What is a benchmark task?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#technical-metadata" class="md-nav__link">
+  <a href="#step-1-create-a-task-proposal" class="md-nav__link">
     <span class="md-ellipsis">
-      Technical metadata
+      Step 1: Create a task proposal
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-links" class="md-nav__link">
+  <a href="#step-2-wait-for-approval" class="md-nav__link">
     <span class="md-ellipsis">
-      Download links
+      Step 2: Wait for approval
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-create-a-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Create a pull request
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-wait-for-merge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Wait for merge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
     </span>
   </a>
   
@@ -2915,154 +2965,51 @@
   
 
 
-<h1 id="flat-triples-development-version">flat-triples (development version)</h1>
-<p>Flat sequence of triples (RDF 1.1 standard only)</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Download this metadata in RDF: <strong><a href="https://w3id.org/riverbench/v/dev/profiles/flat-triples.ttl">Turtle</a></strong>, <strong><a href="https://w3id.org/riverbench/v/dev/profiles/flat-triples.nt">N-Triples</a></strong>, <strong><a href="https://w3id.org/riverbench/v/dev/profiles/flat-triples.rdf">RDF/XML</a></strong>, <strong><a href="https://w3id.org/riverbench/v/dev/profiles/flat-triples.jelly">Jelly</a></strong></p>
+<h1 id="creating-a-new-benchmark-task">Creating a new benchmark task</h1>
+<p>This guide explains how to propose a new benchmark task to be included in RiverBench.</p>
+<h2 id="step-0-what-is-a-benchmark-task">Step 0: What is a benchmark task?</h2>
+<p>A benchmark task is a description of a concrete benchmarking procedure, for example: measuring deserialization throughput. Each task can be associated with several metrics, for example average throughput, 95th percentile throughput, and memory usage.</p>
+<p>Each task belongs to one <a href="../categories/">benchmark category</a>. A benchmark category is a group of tasks that share the same requirements for datasets. For example, the <code>stream</code> category contains tasks that require a <a href="https://w3id.org/stax/dev/taxonomy/#grouped-rdf-stream">grouped RDF stream</a> as input. Have a look at the <a href="https://w3id.org/riverbench/category">list of benchmark categories</a> to see the existing categories.</p>
+<h2 id="step-1-create-a-task-proposal">Step 1: Create a task proposal</h2>
+<ol>
+<li>Open a new task proposal in the RiverBench repository: <strong><a href="https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&amp;labels=new+task&amp;projects=&amp;template=task-proposal.md&amp;title=Task+proposal%3A+%5BIDENTIFIER+HERE%5D">click HERE</a></strong>.</li>
+<li>Fill in the form with the required information (see below).<ul>
+<li><strong>Short description of the task:</strong> Provide a brief and informative description of the task (what is being measured, how, and why). You can later expand on this description when the task is created.</li>
+<li><strong>Task usefulness (why is the task important):</strong> Explain the significance of the task. For example, the task may measure a performance aspect that is not covered by other tasks, or it may be useful for comparing different systems.</li>
+<li><strong>Past benchmarking efforts and task descriptions (if any):</strong> Provide links to any past benchmarking efforts or task descriptions that are related to the proposed task (for example, a paper describing the task).</li>
+<li><strong>Proposed identifier:</strong> Suggest a unique identifier for the task using only lowercase latin letters, digits, and dashes (-).</li>
+<li><strong>Does the task need a new benchmark category?</strong> Answer "yes" if there is no suitable benchmark category for the task. If you answer yes, please explain what kind of category is needed.</li>
+<li><strong><a href="https://w3id.org/riverbench/category">Existing benchmark category</a>, if applicable:</strong> If the task requires a new category, leave this field blank. Otherwise, provide the identifier of the existing category that the task should be added to.</li>
+<li><strong>Proponent(s):</strong> List the names of the task's proponents.</li>
+<li><strong>License statement:</strong> Answer "YES" to agree to the description and metadata of this task being published under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> license <strong>(required)</strong>.</li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you have trouble filling in any of the fields, you can leave them blank and ask the maintainer for help.</p>
 </div>
-<h2 id="general-information">General information</h2>
+<h2 id="step-2-wait-for-approval">Step 2: Wait for approval</h2>
+<p>An administrator will be notified your request and will review the form and the task description. The administrator may ask for additional information or clarifications.</p>
+<h2 id="step-3-create-a-pull-request">Step 3: Create a pull request</h2>
+<p>Once the task proposal is approved, you will be able to create a pull request to add the task to the category repository. The pull request should:</p>
 <ul>
-<li><strong><abbr title="A name given to the resource.">Title</abbr></strong>: Flat sequence of triples (standard) <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr></strong>: <code>flat-triples</code></li>
-<li><strong><abbr title="Version tag of an artifact">Has version</abbr></strong>: <code>dev</code></li>
-<li><strong><abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr></strong>: <a href="https://w3id.org/riverbench/v/dev/categories/flat">flat (dev)</a></li>
-<li><strong><abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr></strong>: <ul>
-<li><a href="https://w3id.org/riverbench/v/dev/profiles/flat-mixed">flat-mixed (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/v/dev/profiles/flat-mixed-nonstandard">flat-mixed-nonstandard (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar">flat-mixed-rdfstar (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar-nonstandard">flat-mixed-rdfstar-nonstandard (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/v/dev/profiles/flat-triples-nonstandard">flat-triples-nonstandard (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/v/dev/profiles/flat-triples-rdfstar">flat-triples-rdfstar (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/v/dev/profiles/flat-triples-rdfstar-nonstandard">flat-triples-rdfstar-nonstandard (dev)</a></li>
+<li>Create a new subfolder under the <code>tasks</code> folder of the category repository. The name of the folder must match the task's identifier.</li>
+<li>Create a <code>metadata.ttl</code> file using <a href="https://github.com/RiverBench/category-template/blob/main/tasks/metadata.ttl">this template</a> to the task's folder.</li>
+<li>Fill out the metadata in the <code>metadata.ttl</code> file using the information from the task proposal.</li>
+<li>The description of the task in <code>dcterms:description</code> should be only enough to understand what the task is about. The details about metrics, specific procedures, etc., should be included in the task's documentation (see below).</li>
+<li>Example of a completed <code>metadata.ttl</code> file: <a href="https://github.com/RiverBench/category-stream/blob/main/tasks/stream-latency-end-to-end/metadata.ttl">stream-latency-end-to-end</a>.</li>
+<li>Create a <code>index.md</code> file that will contain the task's elaborated description. Example: <a href="https://github.com/RiverBench/category-stream/blob/main/tasks/stream-latency-end-to-end/index.md">stream-latency-end-to-end</a>.</li>
+<li>(optional) Create any number of additional documentation pages for the task, for example, a page with the task's results. You can also include images in the task's folder.</li>
 </ul>
-</li>
-<li><strong><abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr></strong>: <ul>
-<li><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev">assist-iot-weather (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev">citypulse-traffic (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev">dbpedia-live (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev">digital-agenda-indicators (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/datasets/linked-spending/dev">linked-spending (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev">lod-katrina (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/datasets/muziekweb/dev">muziekweb (dev)</a></li>
-<li><a href="https://w3id.org/riverbench/datasets/politiquices/dev">politiquices (dev)</a></li>
-</ul>
-</li>
-<li><strong><abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr></strong>: <a href="https://w3id.org/riverbench/">RiverBench (dev)</a></li>
-</ul>
-<h2 id="technical-metadata">Technical metadata</h2>
+<h2 id="step-4-wait-for-merge">Step 4: Wait for merge</h2>
+<p>The admin will review your pull request (if they don't – remind them in the your task proposal with a comment). Once the pull request is approved, the task will be added to the category repository and will be available on the RiverBench website. <img alt="🎉" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f389.svg" title=":tada:" /></p>
+<h2 id="see-also">See also</h2>
 <ul>
-<li><strong><abbr title="Specifies the SHACL shape of distributions that are allowed in a given benchmark profile.">Has dataset shape</abbr></strong>: <ul>
-<li><strong><abbr title="Links a shape to its property shapes.">Property</abbr></strong>:     <ul>
-<li><strong>Property (1)</strong>    <ul>
-<li><strong><abbr title="Specifies a value that must be among the value nodes.">Has value</abbr></strong>: <abbr title="A flat RDF triple stream is an RDF stream whose elements are triple statements.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
-<li><strong><abbr title="Specifies the property path of a property shape.">Path</abbr></strong>:     <ul>
-<li><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr> (<a href="https://w3id.org/stax/ontology#hasStreamType">stax:hasStreamType</a>)</li>
-<li><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#hasStreamTypeUsage">stax:hasStreamTypeUsage</a>)</li>
-<li><strong>Path (3)</strong>    <ul>
-<li><strong><abbr title="The (single) value of this property represents a path that is matched zero or more times.">Zero or more path</abbr></strong>: <a href="http://www.w3.org/2004/02/skos/core#broader">http://www.w3.org/2004/02/skos/core#broader</a></li>
+<li><a href="../creating-new-dataset/">Creating a new dataset</a></li>
+<li><a href="../categories/">Benchmark categories</a></li>
+<li><a href="../editing-docs/">Editing the documentation</a></li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>Property (2)</strong>    <ul>
-<li><strong><abbr title="Specifies a value that must be among the value nodes.">Has value</abbr></strong>: yes</li>
-<li><strong><abbr title="Specifies the property path of a property shape.">Path</abbr></strong>: <abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#conformsToRdf11">rb:conformsToRdf11</a>)</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong><abbr title="Links a shape to a class, indicating that all instances of the class must conform to the shape.">Target class</abbr></strong>: <abbr title="A dataset in the RiverBench benchmark suite">RiverBench dataset</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#Dataset">rb:Dataset</a>)</li>
-</ul>
-</li>
-<li><strong><abbr title="Specifies the SHACL shape of distributions that are allowed in a given benchmark profile.">Has distribution shape</abbr></strong>: <ul>
-<li><strong><abbr title="Links a shape to its property shapes.">Property</abbr></strong>:     <ul>
-<li><strong><abbr title="Specifies a value that must be among the value nodes.">Has value</abbr></strong>: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#flatDistribution">rb:flatDistribution</a>)</li>
-<li><strong><abbr title="Specifies the property path of a property shape.">Path</abbr></strong>: <abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#hasDistributionType">rb:hasDistributionType</a>)</li>
-</ul>
-</li>
-<li><strong><abbr title="Links a shape to a class, indicating that all instances of the class must conform to the shape.">Target class</abbr></strong>: <abbr title="A distribution of a dataset in the RiverBench benchmark suite.">RiverBench dataset distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#Distribution">rb:Distribution</a>)</li>
-</ul>
-</li>
-</ul>
-<h2 id="download-links">Download links</h2>
-<p>Below you will find links to download the profile's datasets in different lengths.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Some datasets are shorter than others and a given distribution may not be available for all datasets.
-In that case, a link to the longest available distribution of the dataset is provided.</p>
-</div>
-<table>
-<thead>
-<tr>
-<th>Dataset</th>
-<th>10K</th>
-<th>100K</th>
-<th>1M</th>
-<th>Full</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev">assist-iot-weather</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_10K.nt.gz">10K (4.72 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_100K.nt.gz">100K (47.14 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_full.nt.gz">Full (330.68 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_full.nt.gz">Full (330.68 MB)</a></td>
-</tr>
-<tr>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev">citypulse-traffic</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_10K.nt.gz">10K (3.76 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_100K.nt.gz">100K (37.58 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_1M.nt.gz">1M (375.83 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_full.nt.gz">Full (1.61 GB)</a></td>
-</tr>
-<tr>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev">dbpedia-live</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_10K.nt.gz">10K (73.69 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_100K.nt.gz">100K (230.12 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_full.nt.gz">Full (282.16 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_full.nt.gz">Full (282.16 MB)</a></td>
-</tr>
-<tr>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev">digital-agenda-indicators</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_10K.nt.gz">10K (425.32 KB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_100K.nt.gz">100K (4.49 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_1M.nt.gz">1M (40.89 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_full.nt.gz">Full (58.25 MB)</a></td>
-</tr>
-<tr>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev">linked-spending</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_10K.nt.gz">10K (2.00 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_100K.nt.gz">100K (17.39 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_1M.nt.gz">1M (234.35 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_full.nt.gz">Full (578.85 MB)</a></td>
-</tr>
-<tr>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev">lod-katrina</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_10K.nt.gz">10K (978.40 KB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_100K.nt.gz">100K (13.88 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_1M.nt.gz">1M (148.15 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_full.nt.gz">Full (861.85 MB)</a></td>
-</tr>
-<tr>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev">muziekweb</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_10K.nt.gz">10K (860.15 KB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_100K.nt.gz">100K (8.40 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_1M.nt.gz">1M (91.62 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_full.nt.gz">Full (299.99 MB)</a></td>
-</tr>
-<tr>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev">politiquices</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_10K.nt.gz">10K (1.65 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz">Full (2.93 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz">Full (2.93 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz">Full (2.93 MB)</a></td>
-</tr>
-</tbody>
-</table>
 
 
 
