@@ -64,6 +64,7 @@ jobs:
           push: true
 
       - name: "Trigger doc compilation"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT_DOC_REPO_HOOKS }}
