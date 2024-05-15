@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         # TODO: stable releases – use stable branch
+        # TODO: in stable releases create documentation redirects for datasets and schemas
 
       - uses: actions/checkout@v4
 

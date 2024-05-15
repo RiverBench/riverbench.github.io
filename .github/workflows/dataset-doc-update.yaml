@@ -45,6 +45,7 @@ jobs:
           pull: '--rebase --autostash'
           push: true
 
+      # *** the part about adding redirects ***
       - name: "Checkout the repository (gh-pages)"
         if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: actions/checkout@v4
@@ -68,6 +69,7 @@ jobs:
           add: '.'
           pull: '--rebase --autostash'
           push: true
+      # *** end of the part about adding redirects ***          
 
       - name: "Trigger doc compilation"
         if: ${{ github.event.client_payload.tag == 'dev' }}
