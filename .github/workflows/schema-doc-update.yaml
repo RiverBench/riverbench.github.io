@@ -29,8 +29,11 @@ jobs:
         run: |
           cd "docs/schema"
           wget "https://github.com/RiverBench/schema/releases/download/${FROM_TAG}/docs.tar.gz"
-          rm -f ./documentation.md ./metadata.md || true
+          mv index.md .index.md
+          rm -f ./* || true
+          mv .index.md index.md
           tar -xzvf docs.tar.gz ./documentation.md ./metadata.md
+          rm docs.tar.gz
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
