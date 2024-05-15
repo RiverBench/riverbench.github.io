@@ -53,7 +53,7 @@ There are no results with RiverBench available for this task yet.
 ### General information
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Grouped RDF stream serialization throughput _(<abbr title="English">en</abbr>)_
-- **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the througput of serializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets). _(<abbr title="English">en</abbr>)_
+- **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the throughput of serializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets). _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-serialization-throughput`
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**: 
