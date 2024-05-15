@@ -13,6 +13,8 @@
         <link rel="canonical" href="https://w3id.org/riverbench/latest/schema/metadata/">
       
       
+        <link rel="prev" href="../documentation/">
+      
       
       
       <link rel="icon" href="../../assets/riverbench_vector_icon.png">
@@ -20,7 +22,7 @@
     
     
       
-        <title>Metadata - RiverBench</title>
+        <title>Metadata ontology - RiverBench</title>
       
     
     
@@ -58,7 +60,7 @@
         
     
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="RiverBench – Metadata" />
+    <meta property="og:title" content="RiverBench – Metadata ontology" />
     <meta property="og:description" content="RiverBench is an open, community-driven RDF streaming benchmark suite." />
     <meta property="og:image" content="https://riverbench.github.io/assets/riverbench_social.png" />
     <meta property="og:image:type" content="image/png" />
@@ -137,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Metadata
+              Metadata ontology
             
           </span>
         </div>
@@ -2630,6 +2632,8 @@
       
   
   
+    
+  
   
   
     
@@ -2639,14 +2643,18 @@
           
         
       
+        
+      
+        
+      
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           
@@ -2661,15 +2669,867 @@
 
             </a>
             
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Schemas & ontologies
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documentation ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Metadata ontology
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Metadata ontology
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Description
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dataset-series" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dataset series
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blank-node-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Blank node count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benchmark category
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#member-of-a-benchmark-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      Member of a benchmark category
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-shacl-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom SHACL target
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riverbench-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      RiverBench dataset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datatype-literal-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Datatype literal count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riverbench-dataset-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      RiverBench dataset distribution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riverbench-distribution-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      RiverBench distribution type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graph-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Graph count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iri-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      IRI count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#language-string-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Language string count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#literal-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Literal count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#object-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#predicate-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Predicate count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benchmark profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quoted-triple-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quoted triple count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riverbench-suite" class="md-nav__link">
+    <span class="md-ellipsis">
+      RiverBench suite
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#simple-literal-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Simple literal count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statement-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statement count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stream-elements-split-by-statement-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream elements split by statement count
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistics-set" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statistics set
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stream-element-split" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream element split
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subject-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subject count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-task" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benchmark task
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stream-elements-split-by-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream elements split by time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stream-elements-split-by-topic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream elements split by topic
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object Properties
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Object Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ispartof" class="md-nav__link">
+    <span class="md-ellipsis">
+      isPartOf
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incatalog" class="md-nav__link">
+    <span class="md-ellipsis">
+      inCatalog
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      resource
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#includes-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Includes dataset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-benchmark-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has benchmark category
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-category-member" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has category member
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-dataset-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has dataset shape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-distribution-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has distribution shape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-distribution-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has distribution type
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-benchmark-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has benchmark profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has shape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-statistics-set" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has statistics set
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-stream-element-split" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has stream element split
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-subject-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has subject shape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-benchmark-task" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has benchmark task
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-temporal-property" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has temporal property
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-subset-of-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is subset of profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-superset-of-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is superset of profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#target-custom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Target custom
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functional-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functional Properties
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Functional Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-benchmark-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      In benchmark category
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datatype-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Datatype Properties
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Datatype Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#conformance-property" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conformance property
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conforms-to-w3c-rdf-11-specification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conforms to W3C RDF 1.1 specification
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conforms-to-w3c-rdf-star-draft-specification-as-of-december-17-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conforms to W3C RDF-star draft specification as of December 17, 2021
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-file-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has file name
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-stream-element-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has stream element count
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#has-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Has version
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maximum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maximum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mean
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minimum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Minimum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standard-deviation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standard deviation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#statistical-property" class="md-nav__link">
+    <span class="md-ellipsis">
+      Statistical property
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unique-count-estimated" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unique count (estimated)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uses-generalized-rdf-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uses generalized RDF datasets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uses-generalized-triples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uses generalized triples
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uses-rdf-star" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uses RDF-star
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#named-individuals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Named Individuals
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Named Individuals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flat-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flat distribution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#full-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Full distribution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jelly-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jelly distribution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#partial-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Partial distribution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stream-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stream distribution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yago-annotated-facts-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      YAGO annotated facts target
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#namespaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Namespaces
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legend" class="md-nav__link">
+    <span class="md-ellipsis">
+      Legend
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
               
             
           </ul>
