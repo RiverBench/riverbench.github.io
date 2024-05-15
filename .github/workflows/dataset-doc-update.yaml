@@ -46,17 +46,20 @@ jobs:
           push: true
 
       - name: "Checkout the repository (gh-pages)"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
 
       - name: "Update dataset PURL redirects"
+        if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: docker://ghcr.io/riverbench/ci-worker:main
         with:
-          args: ci-worker generate-redirect ./gh-pages datasets "${FROM_REPO#RiverBench/dataset-}" ${FROM_TAG#v}
+          args: ci-worker generate-redirect /github/workspace/gh-pages datasets "${FROM_REPO#RiverBench/dataset-}" dev
 
       - name: Commit changes to the gh-pages branch
+        if: ${{ github.event.client_payload.tag == 'dev' }}
         uses: EndBug/add-and-commit@v9
         with:
           cwd: ./gh-pages
