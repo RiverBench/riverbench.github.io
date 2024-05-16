@@ -21,13 +21,14 @@ jobs:
           path: main
 
       - name: "Checkout the repository (stable)"
-        if: ${{ github.event.client_payload.tag != 'dev' }}
+        if: ${{ github.event.client_payload.tag && github.event.client_payload.tag != 'dev' }}
         uses: actions/checkout@v4
         with:
           ref: stable
+          path: stable
 
       - name: "Copy stable datasets, categories, tasks, profiles, main page, schemas"
-        if: ${{ github.event.client_payload.tag != 'dev' }}
+        if: ${{ github.event.client_payload.tag && github.event.client_payload.tag != 'dev' }}
         run: |
           rm -r main/docs/datasets/* main/docs/categories/* main/docs/tasks/* \
             main/docs/profiles/* main/docs/schema/* main/docs/index.md main/docs/table.md || true
@@ -37,20 +38,20 @@ jobs:
 
       # *** the part about adding redirects ***
       - name: "Checkout the repository (gh-pages)"
-        if: ${{ github.event.client_payload.tag != 'dev' }}
+        if: ${{ github.event.client_payload.tag && github.event.client_payload.tag != 'dev' }}
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
 
       - name: "Add PURL redirects to the new stable release"
-        if: ${{ github.event.client_payload.tag != 'dev' }}
+        if: ${{ github.event.client_payload.tag && github.event.client_payload.tag != 'dev' }}
         uses: docker://ghcr.io/riverbench/ci-worker:main
         with:
           args: bash -c "for SCHEMA in $(ls -1 main/docs/schema/*.md | grep -v index.md | grep -Po '[^/]*$') ; do ci-worker generate-redirect ./gh-pages schema \"${SCHEMA%.md}\" \"${RELEASE_TAG#v}\" ; done ; for DATASET in $(ls -1 main/docs/datasets | grep -v '[.]' | grep -Po '[^/]*$') ; do ci-worker generate-redirect ./gh-pages datasets \"${DATASET}\" \"${RELEASE_TAG#v}\" ; done"
 
       - name: Commit changes to the gh-pages branch
-        if: ${{ github.event.client_payload.tag != 'dev' }}
+        if: ${{ github.event.client_payload.tag && github.event.client_payload.tag != 'dev' }}
         uses: EndBug/add-and-commit@v9
         with:
           cwd: ./gh-pages
