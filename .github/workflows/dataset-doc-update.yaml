@@ -69,7 +69,7 @@ jobs:
           add: '.'
           pull: '--rebase --autostash'
           push: true
-      # *** end of the part about adding redirects ***          
+      # *** end of the part about adding redirects ***
 
       - name: "Trigger doc compilation"
         if: ${{ github.event.client_payload.tag == 'dev' }}

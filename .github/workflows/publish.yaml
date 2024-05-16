@@ -15,15 +15,56 @@ jobs:
       RELEASE_TAG: ${{ github.event.client_payload.tag }}
     runs-on: ubuntu-latest
     steps:
-        # TODO: stable releases – use stable branch
-        # TODO: in stable releases create documentation redirects for datasets and schemas
-
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      - name: "Checkout the repository (stable)"
+        if: ${{ github.event.client_payload.tag != 'dev' }}
+        uses: actions/checkout@v4
+        with:
+          ref: stable
+
+      - name: "Copy stable datasets, categories, tasks, profiles, main page, schemas"
+        if: ${{ github.event.client_payload.tag != 'dev' }}
+        run: |
+          rm -r main/docs/datasets/* main/docs/categories/* main/docs/tasks/* \
+            main/docs/profiles/* main/docs/schema/* main/docs/index.md main/docs/table.md || true
+          cp -r stable/docs/datasets stable/docs/categories stable/docs/tasks \
+            stable/docs/profiles stable/docs/schema stable/docs/index.md stable/docs/table.md \
+            main/docs || true
+
+      # *** the part about adding redirects ***
+      - name: "Checkout the repository (gh-pages)"
+        if: ${{ github.event.client_payload.tag != 'dev' }}
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: "Add PURL redirects to the new stable release"
+        if: ${{ github.event.client_payload.tag != 'dev' }}
+        uses: docker://ghcr.io/riverbench/ci-worker:main
+        with:
+          args: bash -c "for SCHEMA in $(ls -1 main/docs/schema/*.md | grep -v index.md | grep -Po '[^/]*$') ; do ci-worker generate-redirect ./gh-pages schema \"${SCHEMA%.md}\" \"${RELEASE_TAG#v}\" ; done ; for DATASET in $(ls -1 main/docs/datasets | grep -v '[.]' | grep -Po '[^/]*$') ; do ci-worker generate-redirect ./gh-pages datasets \"${DATASET}\" \"${RELEASE_TAG#v}\" ; done"
+
+      - name: Commit changes to the gh-pages branch
+        if: ${{ github.event.client_payload.tag != 'dev' }}
+        uses: EndBug/add-and-commit@v9
+        with:
+          cwd: ./gh-pages
+          message: ${{ format('Update redirects stable release ({0})', github.event.client_payload.tag) }}
+          default_author: github_actions
+          add: '.'
+          pull: '--rebase --autostash'
+          push: true
+      # *** end of the part about adding redirects ***
 
       - name: Generate nav
         uses: docker://ghcr.io/riverbench/ci-worker:main
         with:
-          args: ci-worker nav-gen . mkdocs_2.yml
+          args: ci-worker nav-gen ./main ./main/mkdocs_2.yml
 
       - uses: actions/setup-python@v5
         with:
@@ -35,6 +76,7 @@ jobs:
 
       - name: Deploy site
         run: |
+          cd main
           mv mkdocs_2.yml mkdocs.yml
           git fetch origin gh-pages --depth=1
           git config user.name ci-bot
