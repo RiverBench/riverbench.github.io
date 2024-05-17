@@ -2919,11 +2919,10 @@
 <ul>
 <li><a href="https://w3id.org/riverbench/">https://w3id.org/riverbench/</a></li>
 <li><a href="https://w3id.org/riverbench/v/dev">https://w3id.org/riverbench/v/dev</a></li>
-<li><a href="https://w3id.org/riverbench/profiles/stream-triples">https://w3id.org/riverbench/profiles/stream-triples</a></li>
-<li><a href="https://w3id.org/riverbench/profiles/stream-triples/dev">https://w3id.org/riverbench/profiles/stream-triples/dev</a></li>
-<li><a href="https://w3id.org/riverbench/datasets/nanopubs">https://w3id.org/riverbench/datasets/nanopubs</a></li>
+<li><a href="https://w3id.org/riverbench/v/dev/categories/flat">https://w3id.org/riverbench/v/dev/categories/flat</a></li>
+<li><a href="https://w3id.org/riverbench/v/dev/profiles/stream-datasets">https://w3id.org/riverbench/v/dev/profiles/stream-datasets</a></li>
+<li><a href="https://w3id.org/riverbench/v/dev/tasks/flat-compression">https://w3id.org/riverbench/v/dev/tasks/flat-compression</a></li>
 <li><a href="https://w3id.org/riverbench/datasets/nanopubs/dev">https://w3id.org/riverbench/datasets/nanopubs/dev</a></li>
-<li><a href="https://w3id.org/riverbench/schema/metadata">https://w3id.org/riverbench/schema/metadata</a></li>
 <li><a href="https://w3id.org/riverbench/schema/metadata/dev">https://w3id.org/riverbench/schema/metadata/dev</a></li>
 </ul>
 <p>To request a metadata file in a given format explicitly, you can also append <code>.nt</code>, <code>.ttl</code>, <code>.rdf</code>, or <code>.jelly</code> to these URLs.</p>
@@ -2944,8 +2943,10 @@
 <p>A large portion of the metadata is automatically generated. However, the rest is written manually in Turtle files in various repositories:</p>
 <ul>
 <li><a href="https://github.com/RiverBench/RiverBench/blob/main/metadata.ttl">RiverBench main repo / metadata.ttl</a> – metadata about the suite itself</li>
-<li><a href="https://github.com/RiverBench/RiverBench/tree/main/profiles">RiverBench main repo / profiles</a> – metadata about the profiles</li>
-<li>{Dataset repo} / metatada.ttl – metadata about the dataset</li>
+<li><a href="https://github.com/orgs/RiverBench/repositories?type=all&amp;q=dataset-+template%3Afalse+-lang%3AScala+archived%3Afalse+">{Dataset repo}</a> / metatada.ttl – metadata about the dataset</li>
+<li><a href="https://github.com/orgs/RiverBench/repositories?type=all&amp;q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+">{Category repo}</a> / metatada.ttl – metadata about the benchmark category</li>
+<li><a href="https://github.com/orgs/RiverBench/repositories?type=all&amp;q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+">{Category repo}</a> / profiles / {profile name}.ttl – metadata about the profile</li>
+<li><a href="https://github.com/orgs/RiverBench/repositories?type=all&amp;q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+">{Category repo}</a> / tasks / {task name} / metadata.ttl – metadata about the benchmark task</li>
 </ul>
 <p>Feel free to submit pull requests to these files to fix errors or add new information. After the pull request is accepted, the changes will be reflected automatically in the website and the READMEs.</p>
 <p>The metadata uses mainly these ontologies:</p>

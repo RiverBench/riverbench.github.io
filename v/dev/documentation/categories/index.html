@@ -497,6 +497,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2857,6 +2866,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2876,9 +2894,10 @@
 
 
 <h1 id="working-with-benchmark-categories">Working with benchmark categories</h1>
-<p>TODO</p>
+<p>Benchmark categories are collections of benchmark tasks and profiles. Within a category, each task may be used with any of the profiles defined for that category. The profiles are collections of datasets, grouped by shared technical characteristics (e.g., stream type, whether RDF-star is used or not).</p>
 <h2 id="creating-a-benchmark-category">Creating a benchmark category</h2>
 <ul>
+<li>Pick a name for the category – it <strong>must</strong> be a single word, lowercase, without hyphens or underscores.</li>
 <li><a href="https://github.com/RiverBench/RiverBench/issues/new/choose">Create a new issue</a> (unless already present) in the issue tracker. In the issue specify what datasets and tasks will the category entail.</li>
 <li><a href="https://github.com/new?template_name=category-template&amp;template_owner=RiverBench">Create a new repository</a> for the category named <code>category-[IDENTIFIER]</code>, using the <a href="https://github.com/RiverBench/category-template">category-template</a> repo as the template.</li>
 <li>Fill out the <code>metadata.ttl</code> file for the category, apply any other changes and push them.</li>
@@ -2895,6 +2914,11 @@
 </ul>
 </li>
 <li>Re-run the CI in the category repo to check if it passes correctly.</li>
+</ul>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../creating-new-task/">Creating a new benchmark task</a></li>
+<li><a href="../editing-docs/">Editing the documentation</a></li>
 </ul>
 
 
