@@ -2793,6 +2793,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2810,7 +2836,23 @@
 
 
 <h1 id="benchmark-categories">Benchmark categories</h1>
-<p>TODO</p>
+<p>In RiverBench, benchmark tasks and profiles are grouped into <strong>benchmark categories</strong>, listed below. A benchmark task is simply a description (a recipe) for conducting benchmarks. Profiles are collections of datasets, grouped by shared technical characteristics (e.g., stream type, whether RDF-star is used or not). Within each category, each task may be used with any of the profiles.</p>
+<h2 id="categories">Categories</h2>
+<ul>
+<li><strong><a href="flat/">Flat RDF (sequences of triples/quads)</a></strong> – benchmarks for flat RDF collections (RDF graphs, RDF datasets) that can also be viewed as sequences of triples or quads.<ul>
+<li>Example task: compressing an RDF graph.</li>
+</ul>
+</li>
+<li><strong><a href="stream/">Grouped RDF streaming</a></strong> – benchmarks for streams of RDF graphs or datasets.<ul>
+<li>Example task: measuring the throughput of streaming RDF datasets over the network.</li>
+</ul>
+</li>
+</ul>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../documentation/categories/">Creating a new bechmark category</a></li>
+<li><a href="../documentation/creating-new-task/">Creating a new benchmark task</a></li>
+</ul>
 
 
 
