@@ -1,9 +1,10 @@
 # Working with benchmark categories
 
-TODO
+Benchmark categories are collections of benchmark tasks and profiles. Within a category, each task may be used with any of the profiles defined for that category. The profiles are collections of datasets, grouped by shared technical characteristics (e.g., stream type, whether RDF-star is used or not).
 
 ## Creating a benchmark category
 
+- Pick a name for the category – it **must** be a single word, lowercase, without hyphens or underscores.
 - [Create a new issue](https://github.com/RiverBench/RiverBench/issues/new/choose) (unless already present) in the issue tracker. In the issue specify what datasets and tasks will the category entail.
 - [Create a new repository](https://github.com/new?template_name=category-template&template_owner=RiverBench) for the category named `category-[IDENTIFIER]`, using the [category-template](https://github.com/RiverBench/category-template) repo as the template.
 - Fill out the `metadata.ttl` file for the category, apply any other changes and push them.
@@ -16,3 +17,8 @@ TODO
     - In the new branch run `git submodule add ../category-[ID] categories/[ID]`
     - Commit, push, and merge the branch to main.
 - Re-run the CI in the category repo to check if it passes correctly.
+
+## See also
+
+- [Creating a new benchmark task](creating-new-task.md)
+- [Editing the documentation](editing-docs.md)

@@ -91,7 +91,7 @@ Jelly distributions simply use delimited `RdfStreamFrame`s to denote the individ
 
 Parsing Jelly files should be [**about 5 times faster**](https://arxiv.org/pdf/2207.04439.pdf) than the other distribution types, depending on the dataset and your hardware. Dataset sizes should be more-or-less the same when compressed, but **when uncompressed Jelly will be 3–4 times smaller**.
 
-Reading Jelly files is currently supported in Apache Jena and RDF4J, using the [`jelly-jvm`](https://github.com/Jelly-RDF/jelly-jvm) library. Please refer to [Jelly's wiki](https://github.com/Jelly-RDF/jelly-jvm/wiki) for usage examples and documentation.
+Reading Jelly files is currently supported in Apache Jena and RDF4J, using the [`jelly-jvm`](https://github.com/Jelly-RDF/jelly-jvm) library. Please refer to [Jelly's website](https://jelly-rdf.github.io/latest/jvm/) for usage examples and documentation.
 
 ## See also
 

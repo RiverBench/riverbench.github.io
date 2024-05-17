@@ -10,11 +10,10 @@ Examples of URLs that will return the metadata with content negotiation:
 
 * [https://w3id.org/riverbench/](https://w3id.org/riverbench/)
 * [https://w3id.org/riverbench/v/dev](https://w3id.org/riverbench/v/dev)
-* [https://w3id.org/riverbench/profiles/stream-triples](https://w3id.org/riverbench/profiles/stream-triples)
-* [https://w3id.org/riverbench/profiles/stream-triples/dev](https://w3id.org/riverbench/profiles/stream-triples/dev)
-* [https://w3id.org/riverbench/datasets/nanopubs](https://w3id.org/riverbench/datasets/nanopubs)
+* [https://w3id.org/riverbench/v/dev/categories/flat](https://w3id.org/riverbench/v/dev/categories/flat)
+* [https://w3id.org/riverbench/v/dev/profiles/stream-datasets](https://w3id.org/riverbench/v/dev/profiles/stream-datasets)
+* [https://w3id.org/riverbench/v/dev/tasks/flat-compression](https://w3id.org/riverbench/v/dev/tasks/flat-compression)
 * [https://w3id.org/riverbench/datasets/nanopubs/dev](https://w3id.org/riverbench/datasets/nanopubs/dev)
-* [https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata)
 * [https://w3id.org/riverbench/schema/metadata/dev](https://w3id.org/riverbench/schema/metadata/dev)
 
 To request a metadata file in a given format explicitly, you can also append `.nt`, `.ttl`, `.rdf`, or `.jelly` to these URLs.
@@ -43,8 +42,10 @@ where `{version}` is the version tag of the suite release (e.g., `dev` or `2.0.0
 A large portion of the metadata is automatically generated. However, the rest is written manually in Turtle files in various repositories:
 
 - [RiverBench main repo / metadata.ttl](https://github.com/RiverBench/RiverBench/blob/main/metadata.ttl) – metadata about the suite itself
-- [RiverBench main repo / profiles](https://github.com/RiverBench/RiverBench/tree/main/profiles) – metadata about the profiles
-- {Dataset repo} / metatada.ttl – metadata about the dataset
+- [{Dataset repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=dataset-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / metatada.ttl – metadata about the dataset
+- [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / metatada.ttl – metadata about the benchmark category
+- [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / profiles / {profile name}.ttl – metadata about the profile
+- [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / tasks / {task name} / metadata.ttl – metadata about the benchmark task
 
 Feel free to submit pull requests to these files to fix errors or add new information. After the pull request is accepted, the changes will be reflected automatically in the website and the READMEs.
 
