@@ -49,6 +49,8 @@ A large portion of the metadata is automatically generated. However, the rest is
 
 Feel free to submit pull requests to these files to fix errors or add new information. After the pull request is accepted, the changes will be reflected automatically in the website and the READMEs.
 
+### Used ontologies
+
 The metadata uses mainly these ontologies:
 
 - [DCAT 3](https://www.w3.org/TR/vocab-dcat-3/)
