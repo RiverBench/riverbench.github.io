@@ -5,9 +5,9 @@ In RiverBench, benchmark tasks and profiles are grouped into **benchmark categor
 ## Categories
 
 - **[Flat RDF (sequences of triples/quads)](flat/index.md)** – benchmarks for flat RDF collections (RDF graphs, RDF datasets) that can also be viewed as sequences of triples or quads.
-    - Example task: compressing an RDF graph.
+    - *Example task: compressing an RDF graph.*
 - **[Grouped RDF streaming](stream/index.md)** – benchmarks for streams of RDF graphs or datasets.
-    - Example task: measuring the throughput of streaming RDF datasets over the network.
+    - *Example task: measuring the throughput of streaming RDF datasets over the network.*
 
 ## See also
 
