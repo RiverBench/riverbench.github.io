@@ -2,15 +2,15 @@
 @prefix ns2: <http://purl.org/dc/elements/1.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://arquivo.pt/wayback/20141127055917/http://www.publico.pt/mundo/noticia/o-ebola-e-a-mais-grave-urgencia-sanitaria-dos-ultimos-anos-dizem-obama-e-merkel-1673060>
-        ns2:date   "2014-11-27"^^xsd:date ;
-        ns2:title  "O ébola é \"a mais grave urgência sanitária dos últimos anos\", dizem Obama e Merkel"@pt .
-
-[ ns1:ent1      <http://www.wikidata.org/entity/Q76> ;
-  ns1:ent1_str  "Obama" ;
-  ns1:ent2      <http://www.wikidata.org/entity/Q567> ;
-  ns1:ent2_str  "Merkel" ;
-  ns1:score     "0.9981821775436401"^^xsd:float ;
-  ns1:type      "ent1_other_ent2" ;
+[ ns1:ent1      <http://www.wikidata.org/entity/Q76>;
+  ns1:ent1_str  "Obama";
+  ns1:ent2      <http://www.wikidata.org/entity/Q567>;
+  ns1:ent2_str  "Merkel";
+  ns1:score     "0.9981821775436401"^^xsd:float;
+  ns1:type      "ent1_other_ent2";
   ns1:url       <https://arquivo.pt/wayback/20141127055917/http://www.publico.pt/mundo/noticia/o-ebola-e-a-mais-grave-urgencia-sanitaria-dos-ultimos-anos-dizem-obama-e-merkel-1673060>
 ] .
+
+<https://arquivo.pt/wayback/20141127055917/http://www.publico.pt/mundo/noticia/o-ebola-e-a-mais-grave-urgencia-sanitaria-dos-ultimos-anos-dizem-obama-e-merkel-1673060>
+        ns2:date   "2014-11-27"^^xsd:date;
+        ns2:title  "O ébola é \"a mais grave urgência sanitária dos últimos anos\", dizem Obama e Merkel"@pt .
