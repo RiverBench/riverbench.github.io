@@ -34,15 +34,15 @@ Streaming named graphs (with non-standard extensions)
 - **<abbr title="Specifies the SHACL shape of distributions that are allowed in a given benchmark profile.">Has dataset shape</abbr>**: 
     - **<abbr title="Links a shape to its property shapes.">Property</abbr>**:     
         - **Property (1)**    
+            - **<abbr title="Specifies a value that must be among the value nodes.">Has value</abbr>**: no
+            - **<abbr title="Specifies the property path of a property shape.">Path</abbr>**: <abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr> ([rb:usesRdfStar](https://w3id.org/riverbench/schema/metadata#usesRdfStar))
+        - **Property (2)**    
             - **<abbr title="Specifies a value that must be among the value nodes.">Has value</abbr>**: <abbr title="An RDF named graph stream is an RDF dataset stream in which every element has exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph name. Apart from graph G, the dataset may contain any number of triples in the default graph.">RDF named graph stream</abbr> ([stax:namedGraphStream](https://w3id.org/stax/ontology#namedGraphStream))
             - **<abbr title="Specifies the property path of a property shape.">Path</abbr>**:     
                 - <abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr> ([stax:hasStreamType](https://w3id.org/stax/ontology#hasStreamType))
                 - <abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr> ([stax:hasStreamTypeUsage](https://w3id.org/stax/ontology#hasStreamTypeUsage))
                 - **Path (3)**    
                     - **<abbr title="The (single) value of this property represents a path that is matched zero or more times.">Zero or more path</abbr>**: [http://www.w3.org/2004/02/skos/core#broader](http://www.w3.org/2004/02/skos/core#broader)
-        - **Property (2)**    
-            - **<abbr title="Specifies a value that must be among the value nodes.">Has value</abbr>**: no
-            - **<abbr title="Specifies the property path of a property shape.">Path</abbr>**: <abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr> ([rb:usesRdfStar](https://w3id.org/riverbench/schema/metadata#usesRdfStar))
     - **<abbr title="Links a shape to a class, indicating that all instances of the class must conform to the shape.">Target class</abbr>**: <abbr title="A dataset in the RiverBench benchmark suite">RiverBench dataset</abbr> ([rb:Dataset](https://w3id.org/riverbench/schema/metadata#Dataset))
 - **<abbr title="Specifies the SHACL shape of distributions that are allowed in a given benchmark profile.">Has distribution shape</abbr>**: 
     - **<abbr title="Specifies a list of shapes so that the value nodes must conform to at least one of the shapes.">Or</abbr>**:     
