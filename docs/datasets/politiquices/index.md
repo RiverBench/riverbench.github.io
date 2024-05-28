@@ -12,35 +12,35 @@ Support and opposition relations extracted from news articles archived in Arquiv
     === "Element 0"
 
         ```turtle title="0000000000.ttl"
-        --8<-- "docs/datasets/politiquices/dev/data/sample_0000000000.ttl"
+        --8<-- "docs/datasets/politiquices/data/sample_0000000000.ttl"
         ```
 
 
     === "Element 10"
 
         ```turtle title="0000000010.ttl"
-        --8<-- "docs/datasets/politiquices/dev/data/sample_0000000010.ttl"
+        --8<-- "docs/datasets/politiquices/data/sample_0000000010.ttl"
         ```
 
 
     === "Element 100"
 
         ```turtle title="0000000100.ttl"
-        --8<-- "docs/datasets/politiquices/dev/data/sample_0000000100.ttl"
+        --8<-- "docs/datasets/politiquices/data/sample_0000000100.ttl"
         ```
 
 
     === "Element 1000"
 
         ```turtle title="0000001000.ttl"
-        --8<-- "docs/datasets/politiquices/dev/data/sample_0000001000.ttl"
+        --8<-- "docs/datasets/politiquices/data/sample_0000001000.ttl"
         ```
 
 
     === "Element 10000"
 
         ```turtle title="0000010000.ttl"
-        --8<-- "docs/datasets/politiquices/dev/data/sample_0000010000.ttl"
+        --8<-- "docs/datasets/politiquices/data/sample_0000010000.ttl"
         ```
 
 
