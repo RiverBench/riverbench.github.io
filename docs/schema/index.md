@@ -5,9 +5,16 @@ RiverBench uses a few schemas and ontologies to describe and organize its datase
 * **[Metadata ontology](metadata.md)** – used for describing datasets and profiles.
 * **[Documentation ontology](documentation.md)** – additional properties and assertions for generating documentation pages on this website.
 * **SHACL**
-    * Shapes for validating metadata files in dataset repositories: [Turtle](https://w3id.org/riverbench/schema/dataset-shacl.ttl), [N-Triples](https://w3id.org/riverbench/schema/dataset-shacl.nt), [RDF/XML](https://w3id.org/riverbench/schema/dataset-shacl.rdf)
+    * Shapes for validating metadata files in dataset repositories: [Turtle](https://w3id.org/riverbench/schema/dataset-shacl.ttl), [N-Triples](https://w3id.org/riverbench/schema/dataset-shacl.nt), [RDF/XML](https://w3id.org/riverbench/schema/dataset-shacl.rdf), [Jelly](https://w3id.org/riverbench/schema/dataset-shacl.jelly)
+    * Shapes for validating category metadata files in category repositories: [Turtle](https://w3id.org/riverbench/schema/category-shacl.ttl), [N-Triples](https://w3id.org/riverbench/schema/category-shacl.nt), [RDF/XML](https://w3id.org/riverbench/schema/category-shacl.rdf), [Jelly](https://w3id.org/riverbench/schema/category-shacl.jelly)
+    * Shapes for validating profile metadata files in category repositories: [Turtle](https://w3id.org/riverbench/schema/profile-shacl.ttl), [N-Triples](https://w3id.org/riverbench/schema/profile-shacl.nt), [RDF/XML](https://w3id.org/riverbench/schema/profile-shacl.rdf), [Jelly](https://w3id.org/riverbench/schema/profile-shacl.jelly)
+    * Shapes for validating collections of profiles (all profiles within a category) in category repositories: [Turtle](https://w3id.org/riverbench/schema/profile-collection-shacl.ttl), [N-Triples](https://w3id.org/riverbench/schema/profile-collection-shacl.nt), [RDF/XML](https://w3id.org/riverbench/schema/profile-collection-shacl.rdf), [Jelly](https://w3id.org/riverbench/schema/profile-collection-shacl.jelly)
+    * Shapes for validating task metadata files in category repositories: [Turtle](https://w3id.org/riverbench/schema/task-shacl.ttl), [N-Triples](https://w3id.org/riverbench/schema/task-shacl.nt), [RDF/XML](https://w3id.org/riverbench/schema/task-shacl.rdf), [Jelly](https://w3id.org/riverbench/schema/task-shacl.jelly)
 
-<!-- TODO: remove these manual links, put SHACL docs in subpages -->
+<!-- 
+    TODO: remove these manual links, put SHACL docs in subpages 
+    https://github.com/RiverBench/RiverBench/issues/78
+-->
 
 !!! info
 
