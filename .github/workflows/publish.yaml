@@ -44,8 +44,9 @@ jobs:
 
           # Copy the stable content
           cp -r stable/docs/datasets stable/docs/categories stable/docs/tasks \
-            stable/docs/profiles stable/docs/schema stable/docs/index.md stable/docs/datasets/table.md \
+            stable/docs/profiles stable/docs/schema stable/docs/index.md \
             main/docs || true
+          cp stable/docs/datasets/table.md main/docs/datasets/table.md || true
 
       # *** the part about adding redirects ***
       - name: "Checkout the repository (gh-pages)"
