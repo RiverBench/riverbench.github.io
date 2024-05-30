@@ -28,9 +28,9 @@ jobs:
       - name: "Download the new content"
         run: |
           cd "docs/schema"
-          mv index.md .index.md
+          mv index.md .index.md || true
           rm -f ./* || true
-          mv .index.md index.md
+          mv .index.md index.md || true
           wget "https://github.com/RiverBench/schema/releases/download/${FROM_TAG}/docs.tar.gz"
           tar -xzvf docs.tar.gz
           rm docs.tar.gz

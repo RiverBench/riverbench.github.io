@@ -30,6 +30,8 @@ jobs:
       - name: "Copy stable datasets, categories, tasks, profiles, main page, schemas"
         if: ${{ github.event.client_payload.tag && github.event.client_payload.tag != 'dev' }}
         run: |
+          # Hack: the index.md file for schema docs is only present in the main branch
+          cp main/docs/schema/index.md stable/docs/schema/index.md
           rm -r main/docs/datasets/* main/docs/categories/* main/docs/tasks/* \
             main/docs/profiles/* main/docs/schema/* main/docs/index.md main/docs/table.md || true
           cp -r stable/docs/datasets stable/docs/categories stable/docs/tasks \
