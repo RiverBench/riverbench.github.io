@@ -29,8 +29,7 @@ There are no results with RiverBench available for this task yet.
 ## Examples and references
 
 - In the paper about the ERI format, a similar benchmark can be found in Section 4.3. The corresponding task in the paper is named "Compression time" and measures the time taken to serialize the entire sequence of triples.
-    - Fernández, J. D., Llaves, A., & Corcho, O. (2014). Efficient RDF interchange (ERI) format for RDF data streams. In The Semantic Web–ISWC 2014: 13th International Semantic Web Conference, Riva del Garda, Italy, October 19-23, 2014. Proceedings, Part II 13 (pp. 244-259). Springer International Publishing.
-    - https://doi.org/10.1007/978-3-319-11915-1_16
+    - Fernández, J. D., Llaves, A., & Corcho, O. (2014). Efficient RDF interchange (ERI) format for RDF data streams. In The Semantic Web–ISWC 2014: 13th International Semantic Web Conference, Riva del Garda, Italy, October 19-23, 2014. Proceedings, Part II 13 (pp. 244-259). Springer International Publishing. [https://doi.org/10.1007/978-3-319-11915-1_16](https://doi.org/10.1007/978-3-319-11915-1_16)
 
 ## See also
 
