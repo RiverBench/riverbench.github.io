@@ -8,168 +8,168 @@
 @prefix ssn:       <http://www.w3.org/ns/ssn/> .
 @prefix xsd:       <http://www.w3.org/2001/XMLSchema#> .
 
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_speed_avg/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_speed_avg> ;
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/wind_speed_avg/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "8"^^xsd:float;
+        om:hasUnit            om:mile-StatutePerHour;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_speed_avg/2023-01-02T18%3A24%3A36.995968> .
+
+<https://assist-iot.eu/pilot2_rdf/feature/site_outside>
+        a           sosa:FeatureOfInterest;
+        rdfs:label  "Outside conditions on the worksite" .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/pressure/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/pressure>;
         sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
 
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/humidity/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "76"^^xsd:float ;
-        om:hasUnit            om:percent ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/humidity/2023-01-02T18%3A24%3A36.995968> .
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/wind_speed/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "9"^^xsd:float;
+        om:hasUnit            om:mile-StatutePerHour;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_speed/2023-01-02T18%3A24%3A36.995968> .
 
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/rain>
-        a                 sosa:ObservableProperty , aiot_p2:RainRate ;
-        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
-
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_speed/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_speed> ;
-        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
-
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/sun/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "0"^^xsd:float ;
-        om:hasUnit            om:wattPerSquareMetre ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/sun/2023-01-02T18%3A24%3A36.995968> .
-
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/temp>
-        a                 sosa:ObservableProperty , om:FahrenheitTemperature ;
-        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
-
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_speed>
-        a                 sosa:ObservableProperty , aiot_p2:WindSpeed ;
-        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
-
-<https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>
-        a                      sosa:Sensor ;
-        rdfs:label             "Davis Vantage Pro 2 weather station installed on the pilot site" ;
-        geosparql:hasGeometry  <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1/location> .
-
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_dir>
-        a                 sosa:ObservableProperty , aiot_p2:WindDirection ;
-        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
-
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/sun/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/sun> ;
-        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
-
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/temp/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/temp> ;
-        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
-
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/humidity/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/humidity> ;
-        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
-
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/rain/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/rain> ;
-        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
-
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/temp/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "52.2"^^xsd:float ;
-        om:hasUnit            om:degreeFahrenheit ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/temp/2023-01-02T18%3A24%3A36.995968> .
-
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/pressure>
-        a                 sosa:ObservableProperty , aiot_p2:AtmosphericPressure ;
-        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
-
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/uv/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/uv> ;
-        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
-
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/rain/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "0.0"^^xsd:float ;
-        om:hasUnit            aiot_p2:inchPerHour ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/rain/2023-01-02T18%3A24%3A36.995968> .
-
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/pressure/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "30.646"^^xsd:float ;
-        om:hasUnit            aiot_p2:inchHg ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/pressure/2023-01-02T18%3A24%3A36.995968> .
-
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/uv>
-        a                 sosa:ObservableProperty , aiot_p2:UvIndex ;
-        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
-
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_dir/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_dir> ;
-        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
-
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/wind_dir/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "282"^^xsd:float ;
-        om:hasUnit            om:degree ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_dir/2023-01-02T18%3A24%3A36.995968> .
-
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/uv/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "0"^^xsd:float ;
-        om:hasUnit            om:one ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/uv/2023-01-02T18%3A24%3A36.995968> .
-
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/sun>
-        a                 sosa:ObservableProperty , aiot_p2:SolarIrradiance ;
-        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
-
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/humidity>
-        a                 sosa:ObservableProperty , om:RelativeHumidity ;
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_speed_avg>
+        a                 sosa:ObservableProperty , aiot_p2:AverageWindSpeed;
         ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
 
 <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1/location>
-        a                geosparql:Geometry ;
+        a                geosparql:Geometry;
         geosparql:asWKT  "Point(20.9403853 52.2455635)"^^geosparql:wktLiteral .
 
-<https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_speed_avg>
-        a                 sosa:ObservableProperty , aiot_p2:AverageWindSpeed ;
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/humidity>
+        a                 sosa:ObservableProperty , om:RelativeHumidity;
         ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
 
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/wind_speed/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "9"^^xsd:float ;
-        om:hasUnit            om:mile-StatutePerHour ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_speed/2023-01-02T18%3A24%3A36.995968> .
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/sun>
+        a                 sosa:ObservableProperty , aiot_p2:SolarIrradiance;
+        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
 
-<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/pressure/2023-01-02T18%3A24%3A36.995968>
-        a                          sosa:Observation ;
-        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> ;
-        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1> ;
-        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/pressure> ;
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/uv/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "0"^^xsd:float;
+        om:hasUnit            om:one;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/uv/2023-01-02T18%3A24%3A36.995968> .
+
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/wind_dir/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "282"^^xsd:float;
+        om:hasUnit            om:degree;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_dir/2023-01-02T18%3A24%3A36.995968> .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_dir/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_dir>;
         sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
 
-<https://assist-iot.eu/pilot2_rdf/feature/site_outside>
-        a           sosa:FeatureOfInterest ;
-        rdfs:label  "Outside conditions on the worksite" .
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/uv>
+        a                 sosa:ObservableProperty , aiot_p2:UvIndex;
+        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
 
-<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/wind_speed_avg/2023-01-02T18%3A24%3A36.995968>
-        a                     aiot:MeasureResult ;
-        om:hasNumericalValue  "8"^^xsd:float ;
-        om:hasUnit            om:mile-StatutePerHour ;
-        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_speed_avg/2023-01-02T18%3A24%3A36.995968> .
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/pressure/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "30.646"^^xsd:float;
+        om:hasUnit            aiot_p2:inchHg;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/pressure/2023-01-02T18%3A24%3A36.995968> .
+
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/rain/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "0.0"^^xsd:float;
+        om:hasUnit            aiot_p2:inchPerHour;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/rain/2023-01-02T18%3A24%3A36.995968> .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/uv/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/uv>;
+        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
+
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/pressure>
+        a                 sosa:ObservableProperty , aiot_p2:AtmosphericPressure;
+        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
+
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/temp/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "52.2"^^xsd:float;
+        om:hasUnit            om:degreeFahrenheit;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/temp/2023-01-02T18%3A24%3A36.995968> .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/rain/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/rain>;
+        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/humidity/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/humidity>;
+        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/temp/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/temp>;
+        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/sun/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/sun>;
+        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
+
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_dir>
+        a                 sosa:ObservableProperty , aiot_p2:WindDirection;
+        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
+
+<https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>
+        a                      sosa:Sensor;
+        rdfs:label             "Davis Vantage Pro 2 weather station installed on the pilot site";
+        geosparql:hasGeometry  <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1/location> .
+
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_speed>
+        a                 sosa:ObservableProperty , aiot_p2:WindSpeed;
+        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
+
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/temp>
+        a                 sosa:ObservableProperty , om:FahrenheitTemperature;
+        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
+
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/sun/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "0"^^xsd:float;
+        om:hasUnit            om:wattPerSquareMetre;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/sun/2023-01-02T18%3A24%3A36.995968> .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_speed/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_speed>;
+        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
+
+<https://assist-iot.eu/pilot2_rdf/prop/site_outside/rain>
+        a                 sosa:ObservableProperty , aiot_p2:RainRate;
+        ssn:isPropertyOf  <https://assist-iot.eu/pilot2_rdf/feature/site_outside> .
+
+<https://assist-iot.eu/pilot2_rdf/result/ws/ibs_1/humidity/2023-01-02T18%3A24%3A36.995968>
+        a                     aiot:MeasureResult;
+        om:hasNumericalValue  "76"^^xsd:float;
+        om:hasUnit            om:percent;
+        sosa:isResultOf       <https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/humidity/2023-01-02T18%3A24%3A36.995968> .
+
+<https://assist-iot.eu/pilot2_rdf/obs/ws/ibs_1/wind_speed_avg/2023-01-02T18%3A24%3A36.995968>
+        a                          sosa:Observation;
+        sosa:hasFeatureOfInterest  <https://assist-iot.eu/pilot2_rdf/feature/site_outside>;
+        sosa:madeBySensor          <https://assist-iot.eu/pilot2_rdf/sensor/ws/ibs_1>;
+        sosa:observedProperty      <https://assist-iot.eu/pilot2_rdf/prop/site_outside/wind_speed_avg>;
+        sosa:resultTime            "2023-01-02T18:24:36.995968"^^xsd:dateTime .
