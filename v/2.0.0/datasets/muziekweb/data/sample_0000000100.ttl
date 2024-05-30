@@ -1,0 +1,11 @@
+<https://data.muziekweb.nl/Link/0004dde0f50630fe85984f480665eb6ad5c87cab>
+        a                              <https://data.muziekweb.nl/vocab/OrderInformation>;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "order ‘Shi qing, hua yi’ from UNIVERSAL - DIGITAL"@nl;
+        <http://schema.org/offeredBy>  "UNIVERSAL - DIGITAL";
+        <https://data.muziekweb.nl/vocab/ean>
+                "602517321144";
+        <https://data.muziekweb.nl/vocab/label>
+                <https://data.muziekweb.nl/Link/L00000021678>;
+        <https://data.muziekweb.nl/vocab/labelNumber>
+                "602517321144" .

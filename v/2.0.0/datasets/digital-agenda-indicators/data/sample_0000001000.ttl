@@ -1,0 +1,19 @@
+@prefix ns1:  <http://purl.org/linked-data/cube#> .
+@prefix ns10: <http://eurostat.linked-statistics.org/dic/geo#> .
+@prefix ns11: <http://semantic.digital-agenda-data.eu/codelist/unit-measure/> .
+@prefix ns4:  <http://semantic.digital-agenda-data.eu/dataset/> .
+@prefix ns5:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix ns6:  <http://semantic.digital-agenda-data.eu/def/property/> .
+@prefix ns7:  <http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
+@prefix ns8:  <http://eurostat.linked-statistics.org/dic/flags#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://semantic.digital-agenda-data.eu/data/digital-agenda-scoreboard-key-indicators/2014/cy/bb_fttpcov//2014>
+        rdf:type          ns1:Observation;
+        ns1:dataSet       ns4:digital-agenda-scoreboard-key-indicators;
+        ns5:obsValue      "TOTAL_POPHH";
+        ns6:breakdown     ns7:cy;
+        ns6:flag          ns8:pc_hh_all;
+        ns6:ref-area      ns10:;
+        ns6:time-period   <http://reference.data.gov.uk/id/gregorian-year/2014>;
+        ns6:unit-measure  ns11:bb_fttpcov .
