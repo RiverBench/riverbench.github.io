@@ -6,8 +6,6 @@ on:
 jobs:
   update-schema-docs:
     name: "Update schema documentation"
-    # Only one job at a time, to avoid conflicts.
-    concurrency: doc-update
     runs-on: "ubuntu-latest"
     permissions: write-all
     env:

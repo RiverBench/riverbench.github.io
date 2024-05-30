@@ -14,6 +14,9 @@ jobs:
     env:
       RELEASE_TAG: ${{ github.event.client_payload.tag }}
     runs-on: ubuntu-latest
+    # One job at a time, cancel any pending jobs (but not those in progress).
+    concurrency:
+      group: compile-docs-${{ github.ref }}
     steps:
       - uses: actions/checkout@v4
         with:

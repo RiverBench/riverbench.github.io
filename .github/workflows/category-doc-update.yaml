@@ -6,8 +6,6 @@ on:
 jobs:
   update_category_docs:
     name: "Update category documentation"
-    # Only one job at a time, to avoid confflicts.
-    concurrency: doc-update
     runs-on: "ubuntu-latest"
     permissions: write-all
     env:

@@ -6,8 +6,6 @@ on:
 jobs:
   update_main_docs:
     name: "Update main documentation"
-    # Only one job at a time, to avoid confflicts.
-    concurrency: doc-update
     runs-on: "ubuntu-latest"
     permissions: write-all
     env:
