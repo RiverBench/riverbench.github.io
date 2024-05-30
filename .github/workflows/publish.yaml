@@ -33,12 +33,18 @@ jobs:
       - name: "Copy stable datasets, categories, tasks, profiles, main page, schemas"
         if: ${{ github.event.client_payload.tag && github.event.client_payload.tag != 'dev' }}
         run: |
-          # Hack: the index.md file for schema docs is only present in the main branch
+          # Preserve the manually edited files from the main branch
           cp main/docs/schema/index.md stable/docs/schema/index.md
+          cp main/docs/datasets/index.md stable/docs/datasets/index.md
+          cp main/docs/categories/index.md stable/docs/categories/index.md
+
+          # Remove the auto-generated dev content
           rm -r main/docs/datasets/* main/docs/categories/* main/docs/tasks/* \
-            main/docs/profiles/* main/docs/schema/* main/docs/index.md main/docs/table.md || true
+            main/docs/profiles/* main/docs/schema/* main/docs/index.md || true
+
+          # Copy the stable content
           cp -r stable/docs/datasets stable/docs/categories stable/docs/tasks \
-            stable/docs/profiles stable/docs/schema stable/docs/index.md stable/docs/table.md \
+            stable/docs/profiles stable/docs/schema stable/docs/index.md stable/docs/datasets/table.md \
             main/docs || true
 
       # *** the part about adding redirects ***
