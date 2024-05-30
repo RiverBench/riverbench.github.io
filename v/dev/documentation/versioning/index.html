@@ -3017,14 +3017,14 @@
 <p>Schemas and ontologies are versioned in the same manner, but independently of the suite.</p>
 <p>The procudure for making a release is the same as for datasets.</p>
 <h2 id="suite-versioning">Suite versioning</h2>
-<p>The RiverBench suite is versioned in sync with benchmark categories, benchmark tasks, and profiles. The versioning schema is the same as for datasets, with MINOR version increments corresponding to possibly new distributions or new datasets, and MAJOR version increments corresponding to significant backwards-incompatible changes.</p>
+<p>The RiverBench suite is versioned in sync with benchmark categories, benchmark tasks, and profiles. The versioning schema is the same as for datasets, with MINOR version increments corresponding to possibly new distributions, new datasets, or tasks. MAJOR version increments correspond to significant backwards-incompatible changes (including large changes in the metadata structure).</p>
 <p>New tagged releases of the suite will automatically use the latest tagged release of each dataset and each schema. The <code>dev</code> version of the suite always includes the latest development version of each dataset and schema.</p>
 <h3 id="making-a-suite-release">Making a suite release</h3>
 <p>It is very important to follow this specific procedure, otherwise a mixed release may be created, which would be "bad".</p>
 <ul>
-<li>Go to each category repository (e.g., <a href="https://github.com/RiverBench/category-flat">category-flat</a>) and carry out the same procedure as for making a release of a dataset.</li>
+<li>Go to each category repository (e.g., <a href="https://github.com/RiverBench/category-flat">category-flat</a>) and carry out the same procedure as for making a release of a dataset. Use the exact same version tag that you want to use for the suite.</li>
 <li>Wait for the CI jobs in each category repository to finish.</li>
-<li>Go to the <a href="https://github.com/RiverBench/RiverBench">RiverBench main repository</a> and carry out the same procedure as for making a release of a dataset.</li>
+<li>Go to the <a href="https://github.com/RiverBench/RiverBench">RiverBench main repository</a> and carry out the same procedure as for making a release of a dataset, using the same version tag as for the categories.</li>
 </ul>
 <h2 id="archive-backup">Archive / backup</h2>
 <p>All releases (of schemas, datasets, profiles, and the suite) are archived in <strong><a href="https://doi.org/10.5281/zenodo.7909063">Zenodo</a></strong>. This is however only a <em>backup</em> and it does not include the packaged datasets, only their sources, due to the excessive size of all the datasets.</p>
