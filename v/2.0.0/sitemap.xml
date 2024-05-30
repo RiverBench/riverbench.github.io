@@ -6,11 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://w3id.org/riverbench/latest/table/</loc>
-         <lastmod>2024-05-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://w3id.org/riverbench/latest/categories/</loc>
          <lastmod>2024-05-30</lastmod>
          <changefreq>daily</changefreq>
