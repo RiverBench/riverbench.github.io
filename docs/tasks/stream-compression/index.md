@@ -27,8 +27,7 @@ There are no results with RiverBench available for this task yet.
 ## Examples and references
 
 - In the paper about the Jelly streaming protocol, such a benchmark is performed in Section IV.C. The authors have measured the output size of several methods. The presented "Compression ratio" metric there refers to the ratio between the compressed data size and the reference data size, with N-Triples used as the reference.
-    - Sowiński, P., Wasielewska-Michniewska, K., Ganzha, M., & Paprzycki, M. (2022, October). Efficient RDF streaming for the edge-cloud continuum. In 2022 IEEE 8th World Forum on Internet of Things (WF-IoT) (pp. 1-8). IEEE.
-    - https://doi.org/10.1109/WF-IoT54382.2022.10152225
+    - Sowiński, P., Wasielewska-Michniewska, K., Ganzha, M., & Paprzycki, M. (2022, October). Efficient RDF streaming for the edge-cloud continuum. In 2022 IEEE 8th World Forum on Internet of Things (WF-IoT) (pp. 1-8). IEEE. [https://doi.org/10.1109/WF-IoT54382.2022.10152225](https://doi.org/10.1109/WF-IoT54382.2022.10152225)
 
 ## See also
 

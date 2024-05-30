@@ -48,8 +48,7 @@ There are no results with RiverBench available for this task yet.
 ## Examples and references
 
 - In the paper about the Jelly streaming protocol, such a benchmark is performed in Section IV.E. The authors have measured the end-to-end latency of several methods (over Kafka and gRPC) in terms of the number of triples transmitted per second. In the experiment, both the producer and the consumer were running on the same physical machine (in the same Java Virtual Machine) and various network conditions were simulated using the NetEm Linux kernel module. The latency measurement was done using the machine's monotonic clock.
-    - Sowiński, P., Wasielewska-Michniewska, K., Ganzha, M., & Paprzycki, M. (2022, October). Efficient RDF streaming for the edge-cloud continuum. In 2022 IEEE 8th World Forum on Internet of Things (WF-IoT) (pp. 1-8). IEEE.
-    - https://doi.org/10.1109/WF-IoT54382.2022.10152225
+    - Sowiński, P., Wasielewska-Michniewska, K., Ganzha, M., & Paprzycki, M. (2022, October). Efficient RDF streaming for the edge-cloud continuum. In 2022 IEEE 8th World Forum on Internet of Things (WF-IoT) (pp. 1-8). IEEE. [https://doi.org/10.1109/WF-IoT54382.2022.10152225](https://doi.org/10.1109/WF-IoT54382.2022.10152225)
 
 ## See also
 
