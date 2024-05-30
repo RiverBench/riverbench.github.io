@@ -1,1341 +1,1341 @@
-<http://dbpedia.org/contributor/Mo2010>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Mo2010"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                19418854 .
-
-<http://dbpedia.org/resource/Category:Khujand>
+<http://dbpedia.org/resource/Category:Khowar_poets>
         <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589070 ;
+                588589056;
         <http://dbpedia.org/property/wikiPageUsesTemplate>
                 <http://dbpedia.org/resource/Template:Commons_category> .
 
-<http://dbpedia.org/contributor/Rpyle731>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Rpyle731"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                46515 .
-
-<http://dbpedia.org/resource/Category:Khorramshahr_County>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589035 ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Commons_category> .
-
-<http://dbpedia.org/contributor/Spike7524>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Spike7524"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                20466873 .
-
-<http://dbpedia.org/contributor/C.Fred>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "C.Fred"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                461300 .
-
-<http://en.wikipedia.org/wiki/Poland_at_the_2014_Winter_Olympics>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Sportsfan_1234> .
-
-<http://en.wikipedia.org/wiki/Eduard_von_der_Heydt>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Hoops_gza> .
-
-<http://en.wikipedia.org/wiki/Mandarin_Chinese>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/JustAMuggle> .
-
-<http://dbpedia.org/contributor/Lekoren>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Lekoren"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                18024075 .
-
-<http://dbpedia.org/resource/Brian_Duperreault>
+<http://dbpedia.org/resource/Animal_welfare_science>
         <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:32:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589030 ;
+                588589064;
         <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Brian_Duperreault&oldid=588589030> .
+                <http://en.wikipedia.org/w/index.php?title=Animal_welfare_science&oldid=588589064> .
 
-<http://dbpedia.org/contributor/BattyBot>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "BattyBot"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                15996738 .
-
-<http://en.wikipedia.org/wiki/Tom_Cone>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Bearcat> .
-
-<http://dbpedia.org/resource/Porcelain_Tower_of_Nanjing>
+<http://dbpedia.org/resource/Kathy_Sheehan>
+        a       <http://dbpedia.org/ontology/Politician> , <http://dbpedia.org/ontology/Mayor>;
+        <http://dbpedia.org/ontology/activeYearsStartDate>
+                "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://dbpedia.org/ontology/birthDate>
+                "1964-12-05"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://dbpedia.org/ontology/birthPlace>
+                <http://dbpedia.org/resource/Chicago,_Illinois>;
+        <http://dbpedia.org/ontology/nationality>
+                <http://dbpedia.org/resource/United_States>;
+        <http://dbpedia.org/ontology/orderInOffice>
+                "75th Mayor of Albany, New York"@en;
         <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:31:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588966 ;
+                588588989;
         <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Porcelain_Tower_of_Nanjing&oldid=588588966> .
-
-<http://dbpedia.org/resource/List_of_Slash_band_members>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589020 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=List_of_Slash_band_members&oldid=588589020> ;
-        <http://dbpedia.org/property/caption>
-                "Myles Kennedy with Slash in 2011."@en ;
-        <http://dbpedia.org/property/pastMembers>
-                "Bobby Schneck"@en , "Tony Montana"@en .
-
-<http://en.wikipedia.org/wiki/Euromaidan>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Lvivske> .
-
-<http://dbpedia.org/resource/Leo_Klein_Gebbink>
-        a       <http://dbpedia.org/ontology/Person> , <http://www.w3.org/2002/07/owl#Thing> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Athlete> , <http://dbpedia.org/ontology/Agent> ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589002 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Leo_Klein_Gebbink&oldid=588589002> .
-
-<http://dbpedia.org/resource/Theatre_Royal,_Hyde>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589014 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Theatre_Royal,_Hyde&oldid=588589014> ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Commons_category> .
-
-<http://dbpedia.org/resource/El_Rio_del_Tiempo>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589015 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=El_Rio_del_Tiempo&oldid=588589015> ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Epcot> .
-
-<http://en.wikipedia.org/wiki/Baher_Azmy>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Rpyle731> .
-
-<http://dbpedia.org/resource/Wojciech_Gerson>
-        <http://dbpedia.org/ontology/influenced>
-                <http://dbpedia.org/resource/J%C3%B3zef_Che%C5%82mo%C5%84ski> , <http://dbpedia.org/resource/Leon_Wycz%C3%B3%C5%82kowski> ;
-        <http://dbpedia.org/ontology/viafId>
-                "20569491"@en ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589031 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Wojciech_Gerson&oldid=588589031> ;
-        <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:People_from_Congress_Poland> .
-
-<http://dbpedia.org/resource/List_of_Breaking_Bad_characters>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589049 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=List_of_Breaking_Bad_characters&oldid=588589049> .
-
-<http://en.wikipedia.org/wiki/Prized>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Lanceslow> .
-
-<http://dbpedia.org/contributor/Mercury%27s_Stepson>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Mercury's Stepson"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                20328578 .
-
-<http://dbpedia.org/resource/Category:Khlysts>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588963 ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Commons_category> .
-
-<http://dbpedia.org/contributor/Til_Eulenspiegel>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Til Eulenspiegel"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                4237321 .
-
-<http://dbpedia.org/property/animation>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "animation"@en .
-
-<http://en.wikipedia.org/wiki/2013_in_the_United_Kingdom>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Jim_Michael> .
-
-<http://dbpedia.org/resource/The_Curiosity_Company>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588968 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=The_Curiosity_Company&oldid=588588968> .
-
-<http://en.wikipedia.org/wiki/Norway_at_the_2014_Winter_Olympics>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Sportsfan_1234> .
-
-<http://en.wikipedia.org/wiki/Théâtre_Optique>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/BattyBot> .
-
-<http://en.wikipedia.org/wiki/Wojciech_Gerson>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Lekoren> .
-
-<http://dbpedia.org/contributor/Sportsfan_1234>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sportsfan 1234"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                20369716 .
-
-<http://dbpedia.org/resource/El_Coraz%C3%B3n_Decide>
-        <http://dbpedia.org/ontology/releaseDate>
-                "2013-10-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588958 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=El_Corazón_Decide&oldid=588588958> ;
-        <http://dbpedia.org/property/misc>
-                "--09-16"^^<http://www.w3.org/2001/XMLSchema#gMonthDay> ;
-        <http://dbpedia.org/property/released>
-                "2013-10-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-
-<http://dbpedia.org/resource/List_of_atheist_authors>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589012 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=List_of_atheist_authors&oldid=588589012> .
-
-<http://dbpedia.org/resource/Isotopes_of_lithium>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589062 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Isotopes_of_lithium&oldid=588589062> .
-
-<http://dbpedia.org/contributor/Isinbill>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Isinbill"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                12083125 .
-
-<http://dbpedia.org/resource/Bob_De_Carolis>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589011 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Bob_De_Carolis&oldid=588589011> .
-
-<http://dbpedia.org/resource/Theatre_World_Award>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589029 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Theatre_World_Award&oldid=588589029> .
-
-<http://en.wikipedia.org/wiki/Theatre_of_the_Oppressed>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/BattyBot> .
-
-<http://dbpedia.org/resource/KOMO-FM>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588993 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=KOMO-FM&oldid=588588993> .
-
-<http://dbpedia.org/resource/Template:Did_you_know/Preparation_area_4>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589040 .
-
-<http://dbpedia.org/contributor/Bearcat>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Bearcat"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                24902 .
-
-<http://en.wikipedia.org/wiki/TheDetroiter.com>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/BattyBot> .
-
-<http://dbpedia.org/resource/James_McDowell>
-        <http://dbpedia.org/ontology/viafId>
-                "33574603"@en ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588982 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=James_McDowell&oldid=588588982> .
-
-<http://dbpedia.org/resource/Minuscule_11>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588988 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Minuscule_11&oldid=588588988> .
-
-<http://dbpedia.org/resource/Tom_Cone>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589009 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Tom_Cone&oldid=588589009> ;
-        <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:Canadian_librettists> .
-
-<http://en.wikipedia.org/wiki/Netherlands_at_the_2014_Winter_Olympics>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Sportsfan_1234> .
-
-<http://dbpedia.org/resource/Steak_pie>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588961 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Steak_pie&oldid=588588961> .
-
-<http://dbpedia.org/resource/Alex_&_Sierra>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589017 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Alex_&_Sierra&oldid=588589017> .
-
-<http://en.wikipedia.org/wiki/Theatre_World_Award>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/BattyBot> .
-
-<http://dbpedia.org/resource/Section.80>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588978 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Section.80&oldid=588588978> .
-
-<http://en.wikipedia.org/wiki/Central_Africa>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Til_Eulenspiegel> .
-
-<http://dbpedia.org/resource/Theatre_of_the_Oppressed>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588975 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Theatre_of_the_Oppressed&oldid=588588975> .
-
-<http://en.wikipedia.org/wiki/TheGTALizard>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/C.Fred> .
-
-<http://dbpedia.org/resource/Charles_Webster_Leadbeater>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588962 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Charles_Webster_Leadbeater&oldid=588588962> .
-
-<http://dbpedia.org/contributor/DrChrissy>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "DrChrissy"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                14101812 .
-
-<http://dbpedia.org/resource/Ariana_Grande>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589063 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Ariana_Grande&oldid=588589063> .
-
-<http://en.wikipedia.org/wiki/ID–WITHOUTCOLORS>
-        a       <http://xmlns.com/foaf/0.1/Document> ;
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Spike7524> ;
-        <http://purl.org/dc/elements/1.1/language>
-                "en"@en ;
-        <http://xmlns.com/foaf/0.1/primaryTopic>
-                <http://dbpedia.org/resource/ID%E2%80%93WITHOUTCOLORS> .
-
-<http://dbpedia.org/contributor/Wavelength>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Wavelength"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                271168 .
-
-<http://dbpedia.org/resource/Prized>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589038 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Prized&oldid=588589038> ;
-        <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:Thoroughbred_family_8> .
-
-<http://dbpedia.org/contributor/Gilliam>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Gilliam"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                506179 .
-
-<http://dbpedia.org/resource/ID%E2%80%93WITHOUTCOLORS>
-        a       <http://dbpedia.org/ontology/Wikidata:Q11424> , <http://dbpedia.org/ontology/Work> , <http://schema.org/Movie> , <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Film> , <http://schema.org/CreativeWork> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "ID–WITHOUTCOLORS"@en ;
-        <http://dbpedia.org/ontology/Work/runtime>
-                "29.0"^^<http://dbpedia.org/datatype/minute> ;
-        <http://dbpedia.org/ontology/cinematography>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/ontology/director>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/ontology/editing>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/ontology/musicComposer>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/ontology/runtime>
-                "1740.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://dbpedia.org/ontology/wikiPageEditLink>
-                <http://en.wikipedia.org/w/index.php?title=ID–WITHOUTCOLORS&action=edit> ;
-        <http://dbpedia.org/ontology/wikiPageExternalLink>
-                <http://www.idwithoutcolors.com/> , <http://www.kop-berlins.de/> , <http://www.mrbb.de/> ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageHistoryLink>
-                <http://en.wikipedia.org/w/index.php?title=ID–WITHOUTCOLORS&action=history> ;
-        <http://dbpedia.org/ontology/wikiPageID>
-                41514534 ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588983 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=ID–WITHOUTCOLORS&oldid=588588983> ;
-        <http://dbpedia.org/ontology/writer>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/property/animation>
-                "Flavio Boretti"@en ;
-        <http://dbpedia.org/property/assistantDirector>
-                <http://dbpedia.org/resource/Filippo_D'Antoni> ;
-        <http://dbpedia.org/property/audioEditing>
-                "Alessandro Mongardini"@en ;
-        <http://dbpedia.org/property/budget>
-                21 ;
-        <http://dbpedia.org/property/cinematography>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/property/country>
-                "Germany"@en ;
-        <http://dbpedia.org/property/director>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/property/distributor>
-                "Migrationsrat Berlin-Brandenburg"@en ;
-        <http://dbpedia.org/property/editing>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/property/id>
-                2945586 ;
-        <http://dbpedia.org/property/language>
-                "German-English"@en ;
-        <http://dbpedia.org/property/music>
-                "Riccardo Valsecchi - Kamikaze Queens -  Les Robots Musiques - Alchemy reloaded"@en ;
-        <http://dbpedia.org/property/musicSupervisor>
-                "Nico Lippolis"@en ;
-        <http://dbpedia.org/property/name>
-                "ID–WITHOUTCOLORS"@en ;
-        <http://dbpedia.org/property/producer>
-                "Migrationsrat Berlin-Brandenburg"@en ;
-        <http://dbpedia.org/property/runtime>
-                "1740.0"^^<http://dbpedia.org/datatype/second> ;
-        <http://dbpedia.org/property/screenplay>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://dbpedia.org/property/title>
-                "ID–WITHOUTCOLORS"@en ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Documentary-film-stub> , <http://dbpedia.org/resource/Template:Migrationsrat_Berlin-Brandenburg> , <http://dbpedia.org/resource/Template:Underlinked> , <http://dbpedia.org/resource/Template:Reflist> , <http://dbpedia.org/resource/Template:Infobox_film> , <http://dbpedia.org/resource/Template:Official_website> , <http://dbpedia.org/resource/Template:KOP-Berlin> , <http://dbpedia.org/resource/Template:IMDb_title> ;
-        <http://dbpedia.org/property/writer>
-                <http://dbpedia.org/resource/Riccardo_Valsecchi> ;
-        <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:German_films> , <http://dbpedia.org/resource/Category:2013_films> , <http://dbpedia.org/resource/Category:German_documentary_films> , <http://dbpedia.org/resource/Category:Documentary_films_about_racism> , <http://dbpedia.org/resource/Category:German-language_films> ;
-        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
-                <http://en.wikipedia.org/wiki/ID–WITHOUTCOLORS> ;
-        <http://xmlns.com/foaf/0.1/name>
-                "ID–WITHOUTCOLORS"@en .
-
-<http://dbpedia.org/resource/Ryan_Ferns>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589010 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Ryan_Ferns&oldid=588589010> .
-
-<http://dbpedia.org/contributor/Hoops_gza>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Hoops gza"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                11079571 .
-
-<http://dbpedia.org/resource/TheDetroiter.com>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589054 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=TheDetroiter.com&oldid=588589054> .
-
-<http://dbpedia.org/contributor/Lvivske>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Lvivske"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                3312191 .
-
-<http://dbpedia.org/contributor/KylieTastic>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "KylieTastic"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                2790592 .
-
-<http://dbpedia.org/resource/RAF_Brunton>
-        <http://dbpedia.org/ontology/wikiPageExternalLink>
-                <http://www.nelsam.org.uk/NEAR/Airfields/Histories/Brunton.htm> ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589065 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=RAF_Brunton&oldid=588589065> ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Unreferenced> , <http://dbpedia.org/resource/Template:Uncategorised> .
-
-<http://en.wikipedia.org/wiki/Noise_regulation>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Wavelength> .
-
-<http://dbpedia.org/resource/TheGTALizard>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588956 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=TheGTALizard&oldid=588588956> ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Db-web> .
-
-<http://dbpedia.org/resource/List_of_The_Voice_of_Ireland_contestants>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589018 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=List_of_The_Voice_of_Ireland_contestants&oldid=588589018> .
-
-<http://dbpedia.org/resource/Category:Khmelnytsky_Uprising>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588986 ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Commons_category> .
-
-<http://en.wikipedia.org/wiki/The_Curiosity_Company>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Monterrosa> .
-
-<http://en.wikipedia.org/wiki/Welcome_centers_in_the_United_States>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Gilliam> .
-
-<http://dbpedia.org/resource/Cow_Tower,_Norwich>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589044 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Cow_Tower,_Norwich&oldid=588589044> .
-
-<http://dbpedia.org/contributor/Boleyn>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Boleyn"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                6127189 .
-
-<http://dbpedia.org/resource/2013_in_the_United_Kingdom>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588994 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=2013_in_the_United_Kingdom&oldid=588588994> .
-
-<http://dbpedia.org/contributor/Mlaffs>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Mlaffs"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                5875630 .
-
-<http://en.wikipedia.org/wiki/JoAnn_Brandon>
-        a       <http://xmlns.com/foaf/0.1/Document> ;
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Boleyn> ;
-        <http://purl.org/dc/elements/1.1/language>
-                "en"@en ;
-        <http://xmlns.com/foaf/0.1/primaryTopic>
-                <http://dbpedia.org/resource/JoAnn_Brandon> .
-
-<http://en.wikipedia.org/wiki/RAF_Brunton>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Schuy_B.> .
-
-<http://en.wikipedia.org/wiki/Parthenogenesis>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Citation_bot> .
-
-<http://dbpedia.org/resource/Noise_regulation>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588965 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Noise_regulation&oldid=588588965> ;
-        <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:Environmental_law> .
-
-<http://en.wikipedia.org/wiki/Brian_Duperreault>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Mercury%27s_Stepson> .
-
-<http://dbpedia.org/resource/Poland_at_the_2014_Winter_Olympics>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589006 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Poland_at_the_2014_Winter_Olympics&oldid=588589006> .
-
-<http://dbpedia.org/resource/Brian_Sampson_(footballer)>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589045 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Brian_Sampson_(footballer)&oldid=588589045> .
-
-<http://dbpedia.org/resource/WROK_(AM)>
-        a       <http://www.w3.org/2002/07/owl#Thing> , <http://schema.org/RadioStation> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Broadcaster> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/RadioStation> ;
-        <http://dbpedia.org/ontology/alias>
-                "News Talk 1440 WROK"@en ;
-        <http://dbpedia.org/ontology/broadcastArea>
-                <http://dbpedia.org/resource/Illinois> ;
-        <http://dbpedia.org/ontology/broadcastNetwork>
-                <http://dbpedia.org/resource/Wall_Street_Journal_Radio> , <http://dbpedia.org/resource/CBS_News> ;
-        <http://dbpedia.org/ontology/broadcastStationClass>
-                "B"@en ;
-        <http://dbpedia.org/ontology/callsignMeaning>
-                "ROcKford"@en ;
-        <http://dbpedia.org/ontology/city>
-                <http://dbpedia.org/resource/Rockford,_Illinois> ;
-        <http://dbpedia.org/ontology/licensee>
-                "Townsquare Media Rockford License, LLC"@en ;
-        <http://dbpedia.org/ontology/owner>
-                <http://dbpedia.org/resource/Townsquare_Media> ;
-        <http://dbpedia.org/ontology/programmeFormat>
-                <http://dbpedia.org/resource/Talk_radio> , <http://dbpedia.org/resource/All-news_radio> ;
-        <http://dbpedia.org/ontology/sisterStation>
-                <http://dbpedia.org/resource/WKGL> , <http://dbpedia.org/resource/WZOK> , <http://dbpedia.org/resource/WXXQ> ;
-        <http://dbpedia.org/ontology/slogan>
-                "\"The Talk Everyone's Talking About\""@en ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589032 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=WROK_(AM)&oldid=588589032> ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Infobox_radio_station> ;
-        <http://xmlns.com/foaf/0.1/homepage>
-                <http://www.1440wrok.com> ;
-        <http://xmlns.com/foaf/0.1/name>
-                "WROK"@en .
-
-<http://dbpedia.org/resource/Template:Toronto_Argonauts_coach_navbox>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589039 .
-
-<http://en.wikipedia.org/wiki/Animal_welfare_science>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/DrChrissy> .
-
-<http://dbpedia.org/contributor/JustAMuggle>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "JustAMuggle"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                17618788 .
-
-<http://dbpedia.org/resource/List_of_motorsport_championships>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589048 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=List_of_motorsport_championships&oldid=588589048> .
-
-<http://en.wikipedia.org/wiki/El_Rio_del_Tiempo>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Jdaloner> .
-
-<http://dbpedia.org/resource/Category:Canadian_librettists>
-        a       <http://www.w3.org/2004/02/skos/core#Concept> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Canadian librettists"@en ;
-        <http://dbpedia.org/ontology/wikiPageID>
-                41514540 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589043 ;
-        <http://www.w3.org/2004/02/skos/core#broader>
-                <http://dbpedia.org/resource/Category:Librettists_by_nationality> ;
-        <http://www.w3.org/2004/02/skos/core#prefLabel>
-                "Canadian librettists"@en .
-
-<http://dbpedia.org/resource/Suparna_Anand>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589022 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Suparna_Anand&oldid=588589022> .
-
-<http://en.wikipedia.org/wiki/Steak_pie>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Prof1775> .
-
-<http://dbpedia.org/resource/Glam_metal>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588971 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Glam_metal&oldid=588588971> ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Cn> .
-
-<http://dbpedia.org/property/audioEditing>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "audio editing"@en .
-
-<http://dbpedia.org/resource/Central_Africa>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588995 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Central_Africa&oldid=588588995> .
-
-<http://dbpedia.org/resource/Template:Marshalseaend>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589007 .
-
-<http://dbpedia.org/contributor/Jim_Michael>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Jim Michael"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                11743147 .
-
-<http://en.wikipedia.org/wiki/MV_Suffolk_Ferry>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Mjroots> .
-
-<http://dbpedia.org/resource/JoAnn_Brandon>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "JoAnn Brandon"@en ;
-        <http://dbpedia.org/ontology/wikiPageEditLink>
-                <http://en.wikipedia.org/w/index.php?title=JoAnn_Brandon&action=edit> ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageHistoryLink>
-                <http://en.wikipedia.org/w/index.php?title=JoAnn_Brandon&action=history> ;
-        <http://dbpedia.org/ontology/wikiPageID>
-                41514538 ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRedirects>
-                <http://dbpedia.org/resource/Brandon_Teena> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589001 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=JoAnn_Brandon&oldid=588589001> ;
-        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
-                <http://en.wikipedia.org/wiki/JoAnn_Brandon> .
-
-<http://dbpedia.org/resource/Norway_at_the_2014_Winter_Olympics>
-        <http://dbpedia.org/ontology/numberOfCompetitors>
-                "50"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://dbpedia.org/ontology/numberOfSports>
-                "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> ;
-        <http://dbpedia.org/ontology/wikiPageExternalLink>
-                <http://www.idrett.no/nyheter/Sider/Nye-uttak-til-OL-og-Paralympics.aspx> ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588981 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Norway_at_the_2014_Winter_Olympics&oldid=588588981> ;
-        <http://dbpedia.org/property/competitors>
-                50 ;
-        <http://dbpedia.org/property/sports>
-                5 ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_7_sheet_D> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_ice_hockey_game_B4> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_12_sheet_D> , <http://dbpedia.org/resource/Template:Col-end> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_ice_hockey_group_B_standings> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_11_sheet_A> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_ice_hockey_game_B5> , <http://dbpedia.org/resource/Template:Col-begin> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_standings> , <http://dbpedia.org/resource/Template:Col-2> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_2_sheet_A> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_ice_hockey_game_B2> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_6_sheet_C> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_8_sheet_C> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_10_sheet_B> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_3_sheet_D> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_4_sheet_B> .
-
-<http://dbpedia.org/resource/Template:NFL_playoffs>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588991 .
-
-<http://dbpedia.org/resource/Welcome_centers_in_the_United_States>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588957 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Welcome_centers_in_the_United_States&oldid=588588957> .
-
-<http://dbpedia.org/contributor/Wikiuser100>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Wikiuser100"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                6257645 .
-
-<http://dbpedia.org/contributor/Sabrebd>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sabrebd"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                8647562 .
-
-<http://dbpedia.org/resource/Mandarin_Chinese>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589023 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Mandarin_Chinese&oldid=588589023> .
-
-<http://dbpedia.org/contributor/Citation_bot>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Citation bot"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                7903804 .
-
-<http://dbpedia.org/contributor/Lanceslow>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Lanceslow"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                16999346 .
-
-<http://en.wikipedia.org/wiki/Theatre_Royal,_Hyde>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/BattyBot> .
-
-<http://dbpedia.org/contributor/Monterrosa>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Monterrosa"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                18726772 .
-
-<http://dbpedia.org/resource/MV_Suffolk_Ferry>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589037 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=MV_Suffolk_Ferry&oldid=588589037> ;
-        <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:Ships_of_British_Rail> .
-
-<http://en.wikipedia.org/wiki/Foreigner_(Cat_Stevens_album)>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Bazjack> .
-
-<http://dbpedia.org/resource/Rory_McIlroy>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589053 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Rory_McIlroy&oldid=588589053> ;
+                <http://en.wikipedia.org/w/index.php?title=Kathy_Sheehan&oldid=588588989>;
+        <http://dbpedia.org/property/birthDate>
+                "1964-12-05"^^<http://www.w3.org/2001/XMLSchema#date>;
         <http://dbpedia.org/property/birthPlace>
-                <http://dbpedia.org/resource/Dublin> , <http://dbpedia.org/resource/Ireland> .
-
-<http://dbpedia.org/resource/Economy_of_Bulgaria>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588984 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Economy_of_Bulgaria&oldid=588588984> ;
-        <http://dbpedia.org/property/industries>
-                "Electricity, gas and water; food, beverages and tobacco; machinery and equipment, base metals, chemical products, refined petroleum, nuclear fuel"@en .
-
-<http://dbpedia.org/contributor/Prof1775>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Prof1775"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                3970317 .
-
-<http://dbpedia.org/contributor/Bazjack>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Bazjack"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                7311228 .
-
-<http://dbpedia.org/resource/Category:WAFU_Nations_Cup_players>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588969 ;
-        <http://www.w3.org/2004/02/skos/core#broader>
-                <http://dbpedia.org/resource/Category:West_Africa_Football_Union> .
-
-<http://en.wikipedia.org/wiki/Climbing>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Wikiuser100> .
-
-<http://dbpedia.org/resource/Foreigner_(Cat_Stevens_album)>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589057 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Foreigner_(Cat_Stevens_album)&oldid=588589057> .
-
-<http://dbpedia.org/contributor/HialeahFL>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "HialeahFL"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                20103223 .
-
-<http://dbpedia.org/contributor/Mojo_Hand>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Mojo Hand"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                1453997 .
-
-<http://en.wikipedia.org/wiki/List_of_Universal_Pictures_films>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/HialeahFL> .
-
-<http://en.wikipedia.org/wiki/Kathy_Sheehan>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Mo2010> .
-
-<http://dbpedia.org/resource/Kingdom_of_Asturias>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588972 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Kingdom_of_Asturias&oldid=588588972> .
-
-<http://dbpedia.org/resource/Euromaidan>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588979 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Euromaidan&oldid=588588979> ;
-        <http://dbpedia.org/property/image>
-                "Пошкоджений Ленін у Києві .jpg"@en ;
-        <http://dbpedia.org/property/side>
-                "Supporters of the European integration of Ukraine\n*Maidan People's Union\n*Student and civilian protestors\n*Liberals\n*Nationalists\n*Afghan War veterans\n*Two national churches: Orthodox (Kyivan) and Greek Catholic\nParliamentary opposition parties:\n*Batkivshchyna\n*UDAR\n*Svoboda\nOther parties:\n*UNA-UNSO\n*Congress of Ukrainian Nationalists\n*Democratic Alliance\nCivic organizations:\n* Vidsich\n* Road Control"@en .
-
-<http://dbpedia.org/resource/Auditory_hallucination>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589025 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Auditory_hallucination&oldid=588589025> .
-
-<http://dbpedia.org/resource/Category:Khordha_district>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589021 ;
+                <http://dbpedia.org/resource/Chicago,_Illinois>;
+        <http://dbpedia.org/property/nationality>
+                <http://dbpedia.org/resource/United_States>;
+        <http://dbpedia.org/property/office>
+                75;
+        <http://dbpedia.org/property/predecessor>
+                <http://dbpedia.org/resource/Gerald_Jennings>;
+        <http://dbpedia.org/property/termStart>
+                "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date>;
         <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Commons_category> .
-
-<http://dbpedia.org/resource/Hippolais>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588970 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Hippolais&oldid=588588970> .
-
-<http://dbpedia.org/resource/Eduard_von_der_Heydt>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589027 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Eduard_von_der_Heydt&oldid=588589027> ;
+                <http://dbpedia.org/resource/Template:Infobox_Mayor> , <http://dbpedia.org/resource/Template:New_York_cities_and_mayors_of_100,000_population> , <http://dbpedia.org/resource/Template:Albany,_New_York> , <http://dbpedia.org/resource/Template:Mayors_of_US_State_Capitals>;
         <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:German_bankers> , <http://dbpedia.org/resource/Category:Swiss_bankers> , <http://dbpedia.org/resource/Category:People_from_Elberfeld> .
+                <http://dbpedia.org/resource/Category:Women_mayors> , <http://dbpedia.org/resource/Category:1961_births> , <http://dbpedia.org/resource/Category:Women_in_New_York_politics> , <http://dbpedia.org/resource/Category:Women_mayors_of_places_in_the_United_States> , <http://dbpedia.org/resource/Category:Mayors_of_Albany,_New_York> .
 
-<http://dbpedia.org/resource/Asmir_Begovi%C4%87>
-        <http://dbpedia.org/ontology/wikiPageEditLink>
-                <http://en.wikipedia.org/w/index.php?title=Asmir_Begović&action=edit> ;
+<http://dbpedia.org/resource/Climbing>
         <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageHistoryLink>
-                <http://en.wikipedia.org/w/index.php?title=Asmir_Begović&action=history> ;
+                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:31:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589024 ;
+                588589003;
         <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Asmir_Begović&oldid=588589024> .
+                <http://en.wikipedia.org/w/index.php?title=Climbing&oldid=588589003> .
 
-<http://en.wikipedia.org/wiki/WROK_(AM)>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Mlaffs> .
-
-<http://dbpedia.org/contributor/Jdaloner>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Jdaloner"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                4460044 .
-
-<http://en.wikipedia.org/wiki/List_of_Slash_band_members>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/KylieTastic> .
-
-<http://en.wikipedia.org/wiki/Seychellois_Creole_people>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Isinbill> .
-
-<http://dbpedia.org/resource/Baher_Azmy>
+<http://dbpedia.org/resource/Th%C3%A9%C3%A2tre_Optique>
         <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:31:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588973 ;
+                588588999;
         <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Baher_Azmy&oldid=588588973> ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:US-legal-academic-bio-stub> .
-
-<http://dbpedia.org/resource/Seychellois_Creole_people>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588977 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Seychellois_Creole_people&oldid=588588977> ;
-        <http://dbpedia.org/property/name>
-                "Ethnic groups in Seychelles"@en ;
-        <http://dbpedia.org/property/state>
-                "autocollapse"@en ;
-        <http://dbpedia.org/property/title>
-                "Ethnic groups in Seychelles"@en ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Collapsible_option> , <http://dbpedia.org/resource/Template:Navbox> .
-
-<http://dbpedia.org/contributor/Afasmit>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Afasmit"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                560336 .
-
-<http://dbpedia.org/resource/Parthenogenesis>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588954 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Parthenogenesis&oldid=588588954> .
-
-<http://dbpedia.org/resource/Casa_Blanca,_Arizona>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589000 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Casa_Blanca,_Arizona&oldid=588589000> .
-
-<http://dbpedia.org/contributor/Schuy_B.>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Schuy B."@en ;
-        <http://dbpedia.org/meta/contributorID>
-                14403757 .
-
-<http://en.wikipedia.org/wiki/Glam_metal>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Sabrebd> .
-
-<http://dbpedia.org/resource/Netherlands_at_the_2014_Winter_Olympics>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:30:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588952 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Netherlands_at_the_2014_Winter_Olympics&oldid=588588952> .
-
-<http://dbpedia.org/property/musicSupervisor>
-        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "music supervisor"@en .
-
-<http://dbpedia.org/resource/List_of_Universal_Pictures_films>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589034 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=List_of_Universal_Pictures_films&oldid=588589034> .
-
-<http://dbpedia.org/resource/Category:Khobar>
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589008 ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Commons_category> .
-
-<http://en.wikipedia.org/wiki/Bob_De_Carolis>
-        <http://dbpedia.org/meta/contributor>
-                <http://dbpedia.org/contributor/Afasmit> .
-
-<http://dbpedia.org/contributor/Mjroots>
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Mjroots"@en ;
-        <http://dbpedia.org/meta/contributorID>
-                408438 .
-
-<http://dbpedia.org/resource/MV_Norfolk_Ferry>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588998 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=MV_Norfolk_Ferry&oldid=588588998> ;
-        <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:Ferries_of_the_United_Kingdom> , <http://dbpedia.org/resource/Category:Ships_of_British_Rail> .
+                <http://en.wikipedia.org/w/index.php?title=Théâtre_Optique&oldid=588588999> .
 
 <http://en.wikipedia.org/wiki/James_McDowell>
         <http://dbpedia.org/meta/contributor>
                 <http://dbpedia.org/contributor/Mojo_Hand> .
 
-<http://dbpedia.org/resource/Th%C3%A9%C3%A2tre_Optique>
+<http://dbpedia.org/resource/MV_Norfolk_Ferry>
         <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                "2013-12-31T23:31:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588999 ;
+                588588998;
         <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Théâtre_Optique&oldid=588588999> .
-
-<http://dbpedia.org/resource/Climbing>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589003 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Climbing&oldid=588589003> .
-
-<http://dbpedia.org/resource/Kathy_Sheehan>
-        a       <http://dbpedia.org/ontology/Mayor> , <http://dbpedia.org/ontology/Politician> ;
-        <http://dbpedia.org/ontology/activeYearsStartDate>
-                "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        <http://dbpedia.org/ontology/birthDate>
-                "1964-12-05"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        <http://dbpedia.org/ontology/birthPlace>
-                <http://dbpedia.org/resource/Chicago,_Illinois> ;
-        <http://dbpedia.org/ontology/nationality>
-                <http://dbpedia.org/resource/United_States> ;
-        <http://dbpedia.org/ontology/orderInOffice>
-                "75th Mayor of Albany, New York"@en ;
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:31:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588588989 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Kathy_Sheehan&oldid=588588989> ;
-        <http://dbpedia.org/property/birthDate>
-                "1964-12-05"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        <http://dbpedia.org/property/birthPlace>
-                <http://dbpedia.org/resource/Chicago,_Illinois> ;
-        <http://dbpedia.org/property/nationality>
-                <http://dbpedia.org/resource/United_States> ;
-        <http://dbpedia.org/property/office>
-                75 ;
-        <http://dbpedia.org/property/predecessor>
-                <http://dbpedia.org/resource/Gerald_Jennings> ;
-        <http://dbpedia.org/property/termStart>
-                "2014-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
-        <http://dbpedia.org/property/wikiPageUsesTemplate>
-                <http://dbpedia.org/resource/Template:Mayors_of_US_State_Capitals> , <http://dbpedia.org/resource/Template:Albany,_New_York> , <http://dbpedia.org/resource/Template:New_York_cities_and_mayors_of_100,000_population> , <http://dbpedia.org/resource/Template:Infobox_Mayor> ;
+                <http://en.wikipedia.org/w/index.php?title=MV_Norfolk_Ferry&oldid=588588998>;
         <http://purl.org/dc/terms/subject>
-                <http://dbpedia.org/resource/Category:Mayors_of_Albany,_New_York> , <http://dbpedia.org/resource/Category:Women_mayors_of_places_in_the_United_States> , <http://dbpedia.org/resource/Category:Women_in_New_York_politics> , <http://dbpedia.org/resource/Category:1961_births> , <http://dbpedia.org/resource/Category:Women_mayors> .
+                <http://dbpedia.org/resource/Category:Ferries_of_the_United_Kingdom> , <http://dbpedia.org/resource/Category:Ships_of_British_Rail> .
 
-<http://dbpedia.org/resource/Animal_welfare_science>
-        <http://dbpedia.org/ontology/wikiPageExtracted>
-                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageModified>
-                "2013-12-31T23:32:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589064 ;
-        <http://dbpedia.org/ontology/wikiPageRevisionLink>
-                <http://en.wikipedia.org/w/index.php?title=Animal_welfare_science&oldid=588589064> .
+<http://dbpedia.org/contributor/Mjroots>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mjroots"@en;
+        <http://dbpedia.org/meta/contributorID>
+                408438 .
 
-<http://dbpedia.org/resource/Category:Khowar_poets>
+<http://en.wikipedia.org/wiki/Bob_De_Carolis>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Afasmit> .
+
+<http://dbpedia.org/resource/Category:Khobar>
         <http://dbpedia.org/ontology/wikiPageRevisionID>
-                588589056 ;
+                588589008;
         <http://dbpedia.org/property/wikiPageUsesTemplate>
                 <http://dbpedia.org/resource/Template:Commons_category> .
+
+<http://dbpedia.org/resource/List_of_Universal_Pictures_films>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589034;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=List_of_Universal_Pictures_films&oldid=588589034> .
+
+<http://dbpedia.org/property/musicSupervisor>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "music supervisor"@en .
+
+<http://dbpedia.org/resource/Netherlands_at_the_2014_Winter_Olympics>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:30:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588952;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Netherlands_at_the_2014_Winter_Olympics&oldid=588588952> .
+
+<http://en.wikipedia.org/wiki/Glam_metal>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Sabrebd> .
+
+<http://dbpedia.org/contributor/Schuy_B.>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Schuy B."@en;
+        <http://dbpedia.org/meta/contributorID>
+                14403757 .
+
+<http://dbpedia.org/resource/Casa_Blanca,_Arizona>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589000;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Casa_Blanca,_Arizona&oldid=588589000> .
+
+<http://dbpedia.org/resource/Parthenogenesis>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588954;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Parthenogenesis&oldid=588588954> .
+
+<http://dbpedia.org/contributor/Afasmit>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Afasmit"@en;
+        <http://dbpedia.org/meta/contributorID>
+                560336 .
+
+<http://dbpedia.org/resource/Seychellois_Creole_people>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588977;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Seychellois_Creole_people&oldid=588588977>;
+        <http://dbpedia.org/property/name>
+                "Ethnic groups in Seychelles"@en;
+        <http://dbpedia.org/property/state>
+                "autocollapse"@en;
+        <http://dbpedia.org/property/title>
+                "Ethnic groups in Seychelles"@en;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Collapsible_option> , <http://dbpedia.org/resource/Template:Navbox> .
+
+<http://dbpedia.org/resource/Baher_Azmy>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588973;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Baher_Azmy&oldid=588588973>;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:US-legal-academic-bio-stub> .
+
+<http://en.wikipedia.org/wiki/Seychellois_Creole_people>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Isinbill> .
+
+<http://en.wikipedia.org/wiki/List_of_Slash_band_members>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/KylieTastic> .
+
+<http://dbpedia.org/contributor/Jdaloner>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jdaloner"@en;
+        <http://dbpedia.org/meta/contributorID>
+                4460044 .
+
+<http://en.wikipedia.org/wiki/WROK_(AM)>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Mlaffs> .
+
+<http://dbpedia.org/resource/Asmir_Begovi%C4%87>
+        <http://dbpedia.org/ontology/wikiPageEditLink>
+                <http://en.wikipedia.org/w/index.php?title=Asmir_Begović&action=edit>;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageHistoryLink>
+                <http://en.wikipedia.org/w/index.php?title=Asmir_Begović&action=history>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589024;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Asmir_Begović&oldid=588589024> .
+
+<http://dbpedia.org/resource/Eduard_von_der_Heydt>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589027;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Eduard_von_der_Heydt&oldid=588589027>;
+        <http://purl.org/dc/terms/subject>
+                <http://dbpedia.org/resource/Category:German_bankers> , <http://dbpedia.org/resource/Category:Swiss_bankers> , <http://dbpedia.org/resource/Category:People_from_Elberfeld> .
+
+<http://dbpedia.org/resource/Hippolais>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588970;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Hippolais&oldid=588588970> .
+
+<http://dbpedia.org/resource/Category:Khordha_district>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589021;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Commons_category> .
+
+<http://dbpedia.org/resource/Auditory_hallucination>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589025;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Auditory_hallucination&oldid=588589025> .
+
+<http://dbpedia.org/resource/Euromaidan>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588979;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Euromaidan&oldid=588588979>;
+        <http://dbpedia.org/property/image>
+                "Пошкоджений Ленін у Києві .jpg"@en;
+        <http://dbpedia.org/property/side>
+                "Supporters of the European integration of Ukraine\n*Maidan People's Union\n*Student and civilian protestors\n*Liberals\n*Nationalists\n*Afghan War veterans\n*Two national churches: Orthodox (Kyivan) and Greek Catholic\nParliamentary opposition parties:\n*Batkivshchyna\n*UDAR\n*Svoboda\nOther parties:\n*UNA-UNSO\n*Congress of Ukrainian Nationalists\n*Democratic Alliance\nCivic organizations:\n* Vidsich\n* Road Control"@en .
+
+<http://dbpedia.org/resource/Kingdom_of_Asturias>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588972;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Kingdom_of_Asturias&oldid=588588972> .
+
+<http://en.wikipedia.org/wiki/Kathy_Sheehan>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Mo2010> .
+
+<http://en.wikipedia.org/wiki/List_of_Universal_Pictures_films>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/HialeahFL> .
+
+<http://dbpedia.org/contributor/Mojo_Hand>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mojo Hand"@en;
+        <http://dbpedia.org/meta/contributorID>
+                1453997 .
+
+<http://dbpedia.org/contributor/HialeahFL>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HialeahFL"@en;
+        <http://dbpedia.org/meta/contributorID>
+                20103223 .
+
+<http://dbpedia.org/resource/Foreigner_(Cat_Stevens_album)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:32:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589057;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Foreigner_(Cat_Stevens_album)&oldid=588589057> .
+
+<http://en.wikipedia.org/wiki/Climbing>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Wikiuser100> .
+
+<http://dbpedia.org/resource/Category:WAFU_Nations_Cup_players>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588969;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://dbpedia.org/resource/Category:West_Africa_Football_Union> .
+
+<http://dbpedia.org/contributor/Bazjack>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bazjack"@en;
+        <http://dbpedia.org/meta/contributorID>
+                7311228 .
+
+<http://dbpedia.org/contributor/Prof1775>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Prof1775"@en;
+        <http://dbpedia.org/meta/contributorID>
+                3970317 .
+
+<http://dbpedia.org/resource/Economy_of_Bulgaria>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588984;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Economy_of_Bulgaria&oldid=588588984>;
+        <http://dbpedia.org/property/industries>
+                "Electricity, gas and water; food, beverages and tobacco; machinery and equipment, base metals, chemical products, refined petroleum, nuclear fuel"@en .
+
+<http://dbpedia.org/resource/Rory_McIlroy>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:32:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589053;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Rory_McIlroy&oldid=588589053>;
+        <http://dbpedia.org/property/birthPlace>
+                <http://dbpedia.org/resource/Dublin> , <http://dbpedia.org/resource/Ireland> .
+
+<http://en.wikipedia.org/wiki/Foreigner_(Cat_Stevens_album)>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Bazjack> .
+
+<http://dbpedia.org/resource/MV_Suffolk_Ferry>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589037;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=MV_Suffolk_Ferry&oldid=588589037>;
+        <http://purl.org/dc/terms/subject>
+                <http://dbpedia.org/resource/Category:Ships_of_British_Rail> .
+
+<http://dbpedia.org/contributor/Monterrosa>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Monterrosa"@en;
+        <http://dbpedia.org/meta/contributorID>
+                18726772 .
+
+<http://en.wikipedia.org/wiki/Theatre_Royal,_Hyde>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/BattyBot> .
+
+<http://dbpedia.org/contributor/Lanceslow>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lanceslow"@en;
+        <http://dbpedia.org/meta/contributorID>
+                16999346 .
+
+<http://dbpedia.org/contributor/Citation_bot>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Citation bot"@en;
+        <http://dbpedia.org/meta/contributorID>
+                7903804 .
+
+<http://dbpedia.org/resource/Mandarin_Chinese>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589023;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Mandarin_Chinese&oldid=588589023> .
+
+<http://dbpedia.org/contributor/Sabrebd>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sabrebd"@en;
+        <http://dbpedia.org/meta/contributorID>
+                8647562 .
+
+<http://dbpedia.org/contributor/Wikiuser100>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wikiuser100"@en;
+        <http://dbpedia.org/meta/contributorID>
+                6257645 .
+
+<http://dbpedia.org/resource/Welcome_centers_in_the_United_States>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588957;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Welcome_centers_in_the_United_States&oldid=588588957> .
+
+<http://dbpedia.org/resource/Template:NFL_playoffs>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588991 .
+
+<http://dbpedia.org/resource/Norway_at_the_2014_Winter_Olympics>
+        <http://dbpedia.org/ontology/numberOfCompetitors>
+                "50"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>;
+        <http://dbpedia.org/ontology/numberOfSports>
+                "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>;
+        <http://dbpedia.org/ontology/wikiPageExternalLink>
+                <http://www.idrett.no/nyheter/Sider/Nye-uttak-til-OL-og-Paralympics.aspx>;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588981;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Norway_at_the_2014_Winter_Olympics&oldid=588588981>;
+        <http://dbpedia.org/property/competitors>
+                50;
+        <http://dbpedia.org/property/sports>
+                5;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_4_sheet_B> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_3_sheet_D> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_10_sheet_B> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_8_sheet_C> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_6_sheet_C> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_ice_hockey_game_B2> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_2_sheet_A> , <http://dbpedia.org/resource/Template:Col-2> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_standings> , <http://dbpedia.org/resource/Template:Col-begin> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_ice_hockey_game_B5> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_11_sheet_A> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_ice_hockey_group_B_standings> , <http://dbpedia.org/resource/Template:Col-end> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_12_sheet_D> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_ice_hockey_game_B4> , <http://dbpedia.org/resource/Template:2014_Winter_Olympics_men's_curling_draw_7_sheet_D> .
+
+<http://dbpedia.org/resource/JoAnn_Brandon>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "JoAnn Brandon"@en;
+        <http://dbpedia.org/ontology/wikiPageEditLink>
+                <http://en.wikipedia.org/w/index.php?title=JoAnn_Brandon&action=edit>;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageHistoryLink>
+                <http://en.wikipedia.org/w/index.php?title=JoAnn_Brandon&action=history>;
+        <http://dbpedia.org/ontology/wikiPageID>
+                41514538;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRedirects>
+                <http://dbpedia.org/resource/Brandon_Teena>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589001;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=JoAnn_Brandon&oldid=588589001>;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                <http://en.wikipedia.org/wiki/JoAnn_Brandon> .
+
+<http://en.wikipedia.org/wiki/MV_Suffolk_Ferry>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Mjroots> .
+
+<http://dbpedia.org/contributor/Jim_Michael>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jim Michael"@en;
+        <http://dbpedia.org/meta/contributorID>
+                11743147 .
+
+<http://dbpedia.org/resource/Template:Marshalseaend>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589007 .
+
+<http://dbpedia.org/resource/Central_Africa>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588995;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Central_Africa&oldid=588588995> .
+
+<http://dbpedia.org/property/audioEditing>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "audio editing"@en .
+
+<http://dbpedia.org/resource/Glam_metal>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588971;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Glam_metal&oldid=588588971>;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Cn> .
+
+<http://en.wikipedia.org/wiki/Steak_pie>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Prof1775> .
+
+<http://dbpedia.org/resource/Suparna_Anand>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589022;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Suparna_Anand&oldid=588589022> .
+
+<http://dbpedia.org/resource/Category:Canadian_librettists>
+        a       <http://www.w3.org/2004/02/skos/core#Concept>;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Canadian librettists"@en;
+        <http://dbpedia.org/ontology/wikiPageID>
+                41514540;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589043;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://dbpedia.org/resource/Category:Librettists_by_nationality>;
+        <http://www.w3.org/2004/02/skos/core#prefLabel>
+                "Canadian librettists"@en .
+
+<http://en.wikipedia.org/wiki/El_Rio_del_Tiempo>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Jdaloner> .
+
+<http://dbpedia.org/resource/List_of_motorsport_championships>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589048;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=List_of_motorsport_championships&oldid=588589048> .
+
+<http://dbpedia.org/contributor/JustAMuggle>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "JustAMuggle"@en;
+        <http://dbpedia.org/meta/contributorID>
+                17618788 .
+
+<http://en.wikipedia.org/wiki/Animal_welfare_science>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/DrChrissy> .
+
+<http://dbpedia.org/resource/Template:Toronto_Argonauts_coach_navbox>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589039 .
+
+<http://dbpedia.org/resource/WROK_(AM)>
+        a       <http://dbpedia.org/ontology/RadioStation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Broadcaster> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/RadioStation> , <http://www.w3.org/2002/07/owl#Thing>;
+        <http://dbpedia.org/ontology/alias>
+                "News Talk 1440 WROK"@en;
+        <http://dbpedia.org/ontology/broadcastArea>
+                <http://dbpedia.org/resource/Illinois>;
+        <http://dbpedia.org/ontology/broadcastNetwork>
+                <http://dbpedia.org/resource/CBS_News> , <http://dbpedia.org/resource/Wall_Street_Journal_Radio>;
+        <http://dbpedia.org/ontology/broadcastStationClass>
+                "B"@en;
+        <http://dbpedia.org/ontology/callsignMeaning>
+                "ROcKford"@en;
+        <http://dbpedia.org/ontology/city>
+                <http://dbpedia.org/resource/Rockford,_Illinois>;
+        <http://dbpedia.org/ontology/licensee>
+                "Townsquare Media Rockford License, LLC"@en;
+        <http://dbpedia.org/ontology/owner>
+                <http://dbpedia.org/resource/Townsquare_Media>;
+        <http://dbpedia.org/ontology/programmeFormat>
+                <http://dbpedia.org/resource/All-news_radio> , <http://dbpedia.org/resource/Talk_radio>;
+        <http://dbpedia.org/ontology/sisterStation>
+                <http://dbpedia.org/resource/WXXQ> , <http://dbpedia.org/resource/WZOK> , <http://dbpedia.org/resource/WKGL>;
+        <http://dbpedia.org/ontology/slogan>
+                "\"The Talk Everyone's Talking About\""@en;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589032;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=WROK_(AM)&oldid=588589032>;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Infobox_radio_station>;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <http://www.1440wrok.com>;
+        <http://xmlns.com/foaf/0.1/name>
+                "WROK"@en .
+
+<http://dbpedia.org/resource/Brian_Sampson_(footballer)>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589045;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Brian_Sampson_(footballer)&oldid=588589045> .
+
+<http://dbpedia.org/resource/Poland_at_the_2014_Winter_Olympics>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589006;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Poland_at_the_2014_Winter_Olympics&oldid=588589006> .
+
+<http://en.wikipedia.org/wiki/Brian_Duperreault>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Mercury%27s_Stepson> .
+
+<http://dbpedia.org/resource/Noise_regulation>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588965;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Noise_regulation&oldid=588588965>;
+        <http://purl.org/dc/terms/subject>
+                <http://dbpedia.org/resource/Category:Environmental_law> .
+
+<http://en.wikipedia.org/wiki/Parthenogenesis>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Citation_bot> .
+
+<http://en.wikipedia.org/wiki/RAF_Brunton>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Schuy_B.> .
+
+<http://en.wikipedia.org/wiki/JoAnn_Brandon>
+        a       <http://xmlns.com/foaf/0.1/Document>;
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Boleyn>;
+        <http://purl.org/dc/elements/1.1/language>
+                "en"@en;
+        <http://xmlns.com/foaf/0.1/primaryTopic>
+                <http://dbpedia.org/resource/JoAnn_Brandon> .
+
+<http://dbpedia.org/contributor/Mlaffs>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mlaffs"@en;
+        <http://dbpedia.org/meta/contributorID>
+                5875630 .
+
+<http://dbpedia.org/resource/2013_in_the_United_Kingdom>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588994;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=2013_in_the_United_Kingdom&oldid=588588994> .
+
+<http://dbpedia.org/contributor/Boleyn>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Boleyn"@en;
+        <http://dbpedia.org/meta/contributorID>
+                6127189 .
+
+<http://dbpedia.org/resource/Cow_Tower,_Norwich>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589044;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Cow_Tower,_Norwich&oldid=588589044> .
+
+<http://en.wikipedia.org/wiki/Welcome_centers_in_the_United_States>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Gilliam> .
+
+<http://en.wikipedia.org/wiki/The_Curiosity_Company>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Monterrosa> .
+
+<http://dbpedia.org/resource/Category:Khmelnytsky_Uprising>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588986;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Commons_category> .
+
+<http://dbpedia.org/resource/List_of_The_Voice_of_Ireland_contestants>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589018;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=List_of_The_Voice_of_Ireland_contestants&oldid=588589018> .
+
+<http://dbpedia.org/resource/TheGTALizard>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588956;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=TheGTALizard&oldid=588588956>;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Db-web> .
+
+<http://en.wikipedia.org/wiki/Noise_regulation>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Wavelength> .
+
+<http://dbpedia.org/resource/RAF_Brunton>
+        <http://dbpedia.org/ontology/wikiPageExternalLink>
+                <http://www.nelsam.org.uk/NEAR/Airfields/Histories/Brunton.htm>;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:32:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589065;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=RAF_Brunton&oldid=588589065>;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Unreferenced> , <http://dbpedia.org/resource/Template:Uncategorised> .
+
+<http://dbpedia.org/contributor/KylieTastic>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "KylieTastic"@en;
+        <http://dbpedia.org/meta/contributorID>
+                2790592 .
+
+<http://dbpedia.org/contributor/Lvivske>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lvivske"@en;
+        <http://dbpedia.org/meta/contributorID>
+                3312191 .
+
+<http://dbpedia.org/resource/TheDetroiter.com>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:32:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589054;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=TheDetroiter.com&oldid=588589054> .
+
+<http://dbpedia.org/contributor/Hoops_gza>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hoops gza"@en;
+        <http://dbpedia.org/meta/contributorID>
+                11079571 .
+
+<http://dbpedia.org/resource/Ryan_Ferns>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589010;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Ryan_Ferns&oldid=588589010> .
+
+<http://dbpedia.org/resource/ID%E2%80%93WITHOUTCOLORS>
+        a       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Film> , <http://www.w3.org/2002/07/owl#Thing> , <http://schema.org/Movie> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Wikidata:Q11424>;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ID–WITHOUTCOLORS"@en;
+        <http://dbpedia.org/ontology/Work/runtime>
+                "29.0"^^<http://dbpedia.org/datatype/minute>;
+        <http://dbpedia.org/ontology/cinematography>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/ontology/director>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/ontology/editing>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/ontology/musicComposer>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/ontology/runtime>
+                "1740.0"^^<http://www.w3.org/2001/XMLSchema#double>;
+        <http://dbpedia.org/ontology/wikiPageEditLink>
+                <http://en.wikipedia.org/w/index.php?title=ID–WITHOUTCOLORS&action=edit>;
+        <http://dbpedia.org/ontology/wikiPageExternalLink>
+                <http://www.mrbb.de/> , <http://www.kop-berlins.de/> , <http://www.idwithoutcolors.com/>;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageHistoryLink>
+                <http://en.wikipedia.org/w/index.php?title=ID–WITHOUTCOLORS&action=history>;
+        <http://dbpedia.org/ontology/wikiPageID>
+                41514534;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588983;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=ID–WITHOUTCOLORS&oldid=588588983>;
+        <http://dbpedia.org/ontology/writer>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/property/animation>
+                "Flavio Boretti"@en;
+        <http://dbpedia.org/property/assistantDirector>
+                <http://dbpedia.org/resource/Filippo_D'Antoni>;
+        <http://dbpedia.org/property/audioEditing>
+                "Alessandro Mongardini"@en;
+        <http://dbpedia.org/property/budget>
+                21;
+        <http://dbpedia.org/property/cinematography>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/property/country>
+                "Germany"@en;
+        <http://dbpedia.org/property/director>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/property/distributor>
+                "Migrationsrat Berlin-Brandenburg"@en;
+        <http://dbpedia.org/property/editing>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/property/id>
+                2945586;
+        <http://dbpedia.org/property/language>
+                "German-English"@en;
+        <http://dbpedia.org/property/music>
+                "Riccardo Valsecchi - Kamikaze Queens -  Les Robots Musiques - Alchemy reloaded"@en;
+        <http://dbpedia.org/property/musicSupervisor>
+                "Nico Lippolis"@en;
+        <http://dbpedia.org/property/name>
+                "ID–WITHOUTCOLORS"@en;
+        <http://dbpedia.org/property/producer>
+                "Migrationsrat Berlin-Brandenburg"@en;
+        <http://dbpedia.org/property/runtime>
+                "1740.0"^^<http://dbpedia.org/datatype/second>;
+        <http://dbpedia.org/property/screenplay>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://dbpedia.org/property/title>
+                "ID–WITHOUTCOLORS"@en;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:IMDb_title> , <http://dbpedia.org/resource/Template:KOP-Berlin> , <http://dbpedia.org/resource/Template:Official_website> , <http://dbpedia.org/resource/Template:Infobox_film> , <http://dbpedia.org/resource/Template:Reflist> , <http://dbpedia.org/resource/Template:Underlinked> , <http://dbpedia.org/resource/Template:Migrationsrat_Berlin-Brandenburg> , <http://dbpedia.org/resource/Template:Documentary-film-stub>;
+        <http://dbpedia.org/property/writer>
+                <http://dbpedia.org/resource/Riccardo_Valsecchi>;
+        <http://purl.org/dc/terms/subject>
+                <http://dbpedia.org/resource/Category:German-language_films> , <http://dbpedia.org/resource/Category:Documentary_films_about_racism> , <http://dbpedia.org/resource/Category:German_documentary_films> , <http://dbpedia.org/resource/Category:2013_films> , <http://dbpedia.org/resource/Category:German_films>;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                <http://en.wikipedia.org/wiki/ID–WITHOUTCOLORS>;
+        <http://xmlns.com/foaf/0.1/name>
+                "ID–WITHOUTCOLORS"@en .
+
+<http://dbpedia.org/contributor/Gilliam>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gilliam"@en;
+        <http://dbpedia.org/meta/contributorID>
+                506179 .
+
+<http://dbpedia.org/resource/Prized>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589038;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Prized&oldid=588589038>;
+        <http://purl.org/dc/terms/subject>
+                <http://dbpedia.org/resource/Category:Thoroughbred_family_8> .
+
+<http://dbpedia.org/contributor/Wavelength>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wavelength"@en;
+        <http://dbpedia.org/meta/contributorID>
+                271168 .
+
+<http://en.wikipedia.org/wiki/ID–WITHOUTCOLORS>
+        a       <http://xmlns.com/foaf/0.1/Document>;
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Spike7524>;
+        <http://purl.org/dc/elements/1.1/language>
+                "en"@en;
+        <http://xmlns.com/foaf/0.1/primaryTopic>
+                <http://dbpedia.org/resource/ID%E2%80%93WITHOUTCOLORS> .
+
+<http://dbpedia.org/resource/Ariana_Grande>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:32:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589063;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Ariana_Grande&oldid=588589063> .
+
+<http://dbpedia.org/contributor/DrChrissy>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "DrChrissy"@en;
+        <http://dbpedia.org/meta/contributorID>
+                14101812 .
+
+<http://dbpedia.org/resource/Charles_Webster_Leadbeater>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588962;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Charles_Webster_Leadbeater&oldid=588588962> .
+
+<http://en.wikipedia.org/wiki/TheGTALizard>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/C.Fred> .
+
+<http://dbpedia.org/resource/Theatre_of_the_Oppressed>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588975;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Theatre_of_the_Oppressed&oldid=588588975> .
+
+<http://en.wikipedia.org/wiki/Central_Africa>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Til_Eulenspiegel> .
+
+<http://dbpedia.org/resource/Section.80>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588978;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Section.80&oldid=588588978> .
+
+<http://en.wikipedia.org/wiki/Theatre_World_Award>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/BattyBot> .
+
+<http://dbpedia.org/resource/Alex_&_Sierra>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589017;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Alex_&_Sierra&oldid=588589017> .
+
+<http://dbpedia.org/resource/Steak_pie>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588961;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Steak_pie&oldid=588588961> .
+
+<http://en.wikipedia.org/wiki/Netherlands_at_the_2014_Winter_Olympics>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Sportsfan_1234> .
+
+<http://dbpedia.org/resource/Tom_Cone>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589009;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Tom_Cone&oldid=588589009>;
+        <http://purl.org/dc/terms/subject>
+                <http://dbpedia.org/resource/Category:Canadian_librettists> .
+
+<http://dbpedia.org/resource/Minuscule_11>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588988;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Minuscule_11&oldid=588588988> .
+
+<http://dbpedia.org/resource/James_McDowell>
+        <http://dbpedia.org/ontology/viafId>
+                "33574603"@en;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588982;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=James_McDowell&oldid=588588982> .
+
+<http://en.wikipedia.org/wiki/TheDetroiter.com>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/BattyBot> .
+
+<http://dbpedia.org/contributor/Bearcat>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bearcat"@en;
+        <http://dbpedia.org/meta/contributorID>
+                24902 .
+
+<http://dbpedia.org/resource/Template:Did_you_know/Preparation_area_4>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589040 .
+
+<http://dbpedia.org/resource/KOMO-FM>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588993;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=KOMO-FM&oldid=588588993> .
+
+<http://en.wikipedia.org/wiki/Theatre_of_the_Oppressed>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/BattyBot> .
+
+<http://dbpedia.org/resource/Theatre_World_Award>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589029;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Theatre_World_Award&oldid=588589029> .
+
+<http://dbpedia.org/resource/Bob_De_Carolis>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589011;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Bob_De_Carolis&oldid=588589011> .
+
+<http://dbpedia.org/contributor/Isinbill>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Isinbill"@en;
+        <http://dbpedia.org/meta/contributorID>
+                12083125 .
+
+<http://dbpedia.org/resource/Isotopes_of_lithium>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:32:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589062;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Isotopes_of_lithium&oldid=588589062> .
+
+<http://dbpedia.org/resource/List_of_atheist_authors>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589012;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=List_of_atheist_authors&oldid=588589012> .
+
+<http://dbpedia.org/resource/El_Coraz%C3%B3n_Decide>
+        <http://dbpedia.org/ontology/releaseDate>
+                "2013-10-15"^^<http://www.w3.org/2001/XMLSchema#date>;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588958;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=El_Corazón_Decide&oldid=588588958>;
+        <http://dbpedia.org/property/misc>
+                "--09-16"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>;
+        <http://dbpedia.org/property/released>
+                "2013-10-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+<http://dbpedia.org/contributor/Sportsfan_1234>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sportsfan 1234"@en;
+        <http://dbpedia.org/meta/contributorID>
+                20369716 .
+
+<http://en.wikipedia.org/wiki/Wojciech_Gerson>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Lekoren> .
+
+<http://en.wikipedia.org/wiki/Théâtre_Optique>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/BattyBot> .
+
+<http://en.wikipedia.org/wiki/Norway_at_the_2014_Winter_Olympics>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Sportsfan_1234> .
+
+<http://dbpedia.org/resource/The_Curiosity_Company>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588968;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=The_Curiosity_Company&oldid=588588968> .
+
+<http://en.wikipedia.org/wiki/2013_in_the_United_Kingdom>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Jim_Michael> .
+
+<http://dbpedia.org/property/animation>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "animation"@en .
+
+<http://dbpedia.org/contributor/Til_Eulenspiegel>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Til Eulenspiegel"@en;
+        <http://dbpedia.org/meta/contributorID>
+                4237321 .
+
+<http://dbpedia.org/resource/Category:Khlysts>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588963;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Commons_category> .
+
+<http://dbpedia.org/contributor/Mercury%27s_Stepson>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mercury's Stepson"@en;
+        <http://dbpedia.org/meta/contributorID>
+                20328578 .
+
+<http://en.wikipedia.org/wiki/Prized>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Lanceslow> .
+
+<http://dbpedia.org/resource/List_of_Breaking_Bad_characters>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589049;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=List_of_Breaking_Bad_characters&oldid=588589049> .
+
+<http://dbpedia.org/resource/Wojciech_Gerson>
+        <http://dbpedia.org/ontology/influenced>
+                <http://dbpedia.org/resource/J%C3%B3zef_Che%C5%82mo%C5%84ski> , <http://dbpedia.org/resource/Leon_Wycz%C3%B3%C5%82kowski>;
+        <http://dbpedia.org/ontology/viafId>
+                "20569491"@en;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589031;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Wojciech_Gerson&oldid=588589031>;
+        <http://purl.org/dc/terms/subject>
+                <http://dbpedia.org/resource/Category:People_from_Congress_Poland> .
+
+<http://en.wikipedia.org/wiki/Baher_Azmy>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Rpyle731> .
+
+<http://dbpedia.org/resource/El_Rio_del_Tiempo>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589015;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=El_Rio_del_Tiempo&oldid=588589015>;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Epcot> .
+
+<http://dbpedia.org/resource/Theatre_Royal,_Hyde>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589014;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Theatre_Royal,_Hyde&oldid=588589014>;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Commons_category> .
+
+<http://dbpedia.org/resource/Leo_Klein_Gebbink>
+        a       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Athlete> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://www.w3.org/2002/07/owl#Thing> , <http://dbpedia.org/ontology/Person>;
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589002;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Leo_Klein_Gebbink&oldid=588589002> .
+
+<http://en.wikipedia.org/wiki/Euromaidan>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Lvivske> .
+
+<http://dbpedia.org/resource/List_of_Slash_band_members>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589020;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=List_of_Slash_band_members&oldid=588589020>;
+        <http://dbpedia.org/property/caption>
+                "Myles Kennedy with Slash in 2011."@en;
+        <http://dbpedia.org/property/pastMembers>
+                "Bobby Schneck"@en , "Tony Montana"@en .
+
+<http://dbpedia.org/resource/Porcelain_Tower_of_Nanjing>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588588966;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Porcelain_Tower_of_Nanjing&oldid=588588966> .
+
+<http://en.wikipedia.org/wiki/Tom_Cone>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Bearcat> .
+
+<http://dbpedia.org/contributor/BattyBot>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "BattyBot"@en;
+        <http://dbpedia.org/meta/contributorID>
+                15996738 .
+
+<http://dbpedia.org/resource/Brian_Duperreault>
+        <http://dbpedia.org/ontology/wikiPageExtracted>
+                "2013-12-31T23:32:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageModified>
+                "2013-12-31T23:31:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589030;
+        <http://dbpedia.org/ontology/wikiPageRevisionLink>
+                <http://en.wikipedia.org/w/index.php?title=Brian_Duperreault&oldid=588589030> .
+
+<http://dbpedia.org/contributor/Lekoren>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lekoren"@en;
+        <http://dbpedia.org/meta/contributorID>
+                18024075 .
+
+<http://en.wikipedia.org/wiki/Mandarin_Chinese>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/JustAMuggle> .
+
+<http://en.wikipedia.org/wiki/Eduard_von_der_Heydt>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Hoops_gza> .
+
+<http://en.wikipedia.org/wiki/Poland_at_the_2014_Winter_Olympics>
+        <http://dbpedia.org/meta/contributor>
+                <http://dbpedia.org/contributor/Sportsfan_1234> .
+
+<http://dbpedia.org/contributor/C.Fred>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "C.Fred"@en;
+        <http://dbpedia.org/meta/contributorID>
+                461300 .
+
+<http://dbpedia.org/contributor/Spike7524>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Spike7524"@en;
+        <http://dbpedia.org/meta/contributorID>
+                20466873 .
+
+<http://dbpedia.org/resource/Category:Khorramshahr_County>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589035;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Commons_category> .
+
+<http://dbpedia.org/contributor/Rpyle731>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rpyle731"@en;
+        <http://dbpedia.org/meta/contributorID>
+                46515 .
+
+<http://dbpedia.org/resource/Category:Khujand>
+        <http://dbpedia.org/ontology/wikiPageRevisionID>
+                588589070;
+        <http://dbpedia.org/property/wikiPageUsesTemplate>
+                <http://dbpedia.org/resource/Template:Commons_category> .
+
+<http://dbpedia.org/contributor/Mo2010>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mo2010"@en;
+        <http://dbpedia.org/meta/contributorID>
+                19418854 .
