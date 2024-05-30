@@ -1,6 +1,6 @@
 [![RiverBench logo](https://w3id.org/riverbench/assets/riverbench_vector_logo.png){ align=right width="150" }](https://w3id.org/riverbench)
 
-# RiverBench
+# RiverBench (2.0.0)
 
 RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets representing many RDF streaming use cases. The datasets can be used for benchmarking and testing of streaming **and** non-streaming RDF engines, compression algorithms, triple stores, and other tools.
 
@@ -20,36 +20,37 @@ RiverBench is an open, community-driven RDF streaming benchmark suite. It includ
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.0.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.0.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.0.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.0.jelly)**
 
-    A complete dump of all metadata in RiverBench is also available: **[Turtle](https://w3id.org/riverbench/dumps/dev.ttl.gz)**, **[N-Triples](https://w3id.org/riverbench/dumps/dev.nt.gz)**, **[RDF/XML](https://w3id.org/riverbench/dumps/dev.rdf.gz)**, **[Jelly](https://w3id.org/riverbench/dumps/dev.jelly.gz)**
+    A complete dump of all metadata in RiverBench is also available: **[Turtle](https://w3id.org/riverbench/dumps/2.0.0.ttl.gz)**, **[N-Triples](https://w3id.org/riverbench/dumps/2.0.0.nt.gz)**, **[RDF/XML](https://w3id.org/riverbench/dumps/2.0.0.rdf.gz)**, **[Jelly](https://w3id.org/riverbench/dumps/2.0.0.jelly.gz)**
 
 
 
 ## General information
 
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.0
 - **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: The metadata, documentation, and ontologies of RiverBench are licensed under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) license. The source code of RiverBench is licensed under the [Apache License, Version 2.0](https://spdx.org/licenses/Apache-2.0). The included datasets are licensed under their respective free licenses, listed in their documentation pages. _(<abbr title="English">en</abbr>)_
-- **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
+- **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [RiverBench (2.0.0)](https://w3id.org/riverbench/v/2.0.0)
 - **<abbr title="The knowledge organization system (KOS) used to classify catalog's datasets.">Theme taxonomy</abbr>**: EuroVoc ([eurovoc:100141](http://eurovoc.europa.eu/100141))
 
 ## Content
 
 - **<abbr title="Indicates that a benchmark category belongs to this benchmark suite.">Has benchmark category</abbr>**: 
-    - [flat (dev)](https://w3id.org/riverbench/v/dev/categories/flat)
-    - [stream (dev)](https://w3id.org/riverbench/v/dev/categories/stream)
+    - [flat (2.0.0)](https://w3id.org/riverbench/v/2.0.0/categories/flat)
+    - [stream (2.0.0)](https://w3id.org/riverbench/v/2.0.0/categories/stream)
 - **<abbr title="A collection of data that is listed in the catalog.">Has dataset</abbr>**: 
-    - [assist-iot-weather (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather/dev)
-    - [assist-iot-weather-graphs (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev)
-    - [citypulse-traffic (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev)
-    - [citypulse-traffic-graphs (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev)
-    - [dbpedia-live (dev)](https://w3id.org/riverbench/datasets/dbpedia-live/dev)
-    - [digital-agenda-indicators (dev)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev)
-    - [linked-spending (dev)](https://w3id.org/riverbench/datasets/linked-spending/dev)
-    - [lod-katrina (dev)](https://w3id.org/riverbench/datasets/lod-katrina/dev)
-    - [muziekweb (dev)](https://w3id.org/riverbench/datasets/muziekweb/dev)
-    - [nanopubs (dev)](https://w3id.org/riverbench/datasets/nanopubs/dev)
-    - [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
-    - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
+    - [assist-iot-weather (1.0.1)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.1)
+    - [assist-iot-weather-graphs (1.0.1)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1)
+    - [citypulse-traffic (1.0.1)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.1)
+    - [citypulse-traffic-graphs (1.0.1)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1)
+    - [dbpedia-live (1.0.1)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.1)
+    - [digital-agenda-indicators (1.0.1)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1)
+    - [linked-spending (1.0.1)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1)
+    - [lod-katrina (1.0.1)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.1)
+    - [muziekweb (1.0.1)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1)
+    - [nanopubs (1.0.1)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1)
+    - [politiquices (1.0.1)](https://w3id.org/riverbench/datasets/politiquices/1.0.1)
+    - [yago-annotated-facts (1.0.1)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1)
 
 
 
