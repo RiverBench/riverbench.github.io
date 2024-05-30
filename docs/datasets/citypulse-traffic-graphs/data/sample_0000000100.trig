@@ -9,48 +9,48 @@
 ns1:0000000100  ns3:at  "2014-10-01T10:10:00"^^xsd:dateTime .
 
 ns1:0000000100 {
-    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_medianTime_rqom8tovbcr08uv11lpa8a5qnc>
-            a                         ns2:Point ;
-            ns2:hasUnitOfMeasurement  <http://purl.oclc.org/NET/muo/citypulse/unit/time#seconds> ;
-            ns2:time                  [ a       ns3:Instant ;
+    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_avgSpeed_pp0ahehv94ddtsmitnr5kbetq>
+            a                         ns2:Point;
+            ns2:hasUnitOfMeasurement  <http://purl.oclc.org/NET/muo/citypulse/unit/velocity#km-per-hour>;
+            ns2:time                  [ a       ns3:Instant;
                                         ns3:at  "2014-10-01T10:10:00"^^xsd:dateTime
-                                      ] ;
-            ns2:value                 "57" ;
+                                      ];
+            ns2:value                 "57";
             ns4:featureOfInterest     <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#context_83hrq4d83iliu7jrls8qssiqps> .
     
-    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#context_83hrq4d83iliu7jrls8qssiqps>
-            a                 ns2:FeatureOfInterest ;
-            ns5:hasFirstNode  [ a                ns5:Node ;
-                                ns5:hasNodeName  "REPORT ID: 158324"
-                              ] .
-    
-    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_avgTime_rq8aokceop70vmrdhbaj872ju6>
-            a                         ns2:Point ;
-            ns2:hasUnitOfMeasurement  <http://purl.oclc.org/NET/muo/citypulse/unit/time#seconds> ;
-            ns2:time                  [ a       ns3:Instant ;
+    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_vehCount_82don6s3ebsidgpb30ldquh82e>
+            a                         ns2:Point;
+            ns2:hasUnitOfMeasurement  <http://purl.oclc.org/NET/muo/citypulse/unit/traffic#vehicle-count>;
+            ns2:time                  [ a       ns3:Instant;
                                         ns3:at  "2014-10-01T10:10:00"^^xsd:dateTime
-                                      ] ;
-            ns2:value                 "64" ;
+                                      ];
+            ns2:value                 "15";
             ns4:featureOfInterest     <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#context_83hrq4d83iliu7jrls8qssiqps> .
     
     <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324>
             ns6:used  <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_vehCount_82don6s3ebsidgpb30ldquh82e> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_medianTime_rqom8tovbcr08uv11lpa8a5qnc> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_avgTime_rq8aokceop70vmrdhbaj872ju6> , <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_avgSpeed_pp0ahehv94ddtsmitnr5kbetq> .
     
-    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_vehCount_82don6s3ebsidgpb30ldquh82e>
-            a                         ns2:Point ;
-            ns2:hasUnitOfMeasurement  <http://purl.oclc.org/NET/muo/citypulse/unit/traffic#vehicle-count> ;
-            ns2:time                  [ a       ns3:Instant ;
+    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_avgTime_rq8aokceop70vmrdhbaj872ju6>
+            a                         ns2:Point;
+            ns2:hasUnitOfMeasurement  <http://purl.oclc.org/NET/muo/citypulse/unit/time#seconds>;
+            ns2:time                  [ a       ns3:Instant;
                                         ns3:at  "2014-10-01T10:10:00"^^xsd:dateTime
-                                      ] ;
-            ns2:value                 "15" ;
+                                      ];
+            ns2:value                 "64";
             ns4:featureOfInterest     <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#context_83hrq4d83iliu7jrls8qssiqps> .
     
-    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_avgSpeed_pp0ahehv94ddtsmitnr5kbetq>
-            a                         ns2:Point ;
-            ns2:hasUnitOfMeasurement  <http://purl.oclc.org/NET/muo/citypulse/unit/velocity#km-per-hour> ;
-            ns2:time                  [ a       ns3:Instant ;
+    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#context_83hrq4d83iliu7jrls8qssiqps>
+            a                 ns2:FeatureOfInterest;
+            ns5:hasFirstNode  [ a                ns5:Node;
+                                ns5:hasNodeName  "REPORT ID: 158324"
+                              ] .
+    
+    <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#observations_medianTime_rqom8tovbcr08uv11lpa8a5qnc>
+            a                         ns2:Point;
+            ns2:hasUnitOfMeasurement  <http://purl.oclc.org/NET/muo/citypulse/unit/time#seconds>;
+            ns2:time                  [ a       ns3:Instant;
                                         ns3:at  "2014-10-01T10:10:00"^^xsd:dateTime
-                                      ] ;
-            ns2:value                 "57" ;
+                                      ];
+            ns2:value                 "57";
             ns4:featureOfInterest     <http://iot.ee.surrey.ac.uk/citypulse/datasets/traffic/traffic_oct_nov/trafficData158324#context_83hrq4d83iliu7jrls8qssiqps> .
 }
