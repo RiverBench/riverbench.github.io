@@ -1,0 +1,6 @@
+Task name | Identifier | Description
+--- | --- | ---
+[Flat RDF compression](https://w3id.org/riverbench/v/2.0.0/tasks/flat-compression) | [`flat-compression`](https://w3id.org/riverbench/v/2.0.0/tasks/flat-compression) | A benchmark task measuring the compression efficiency of flat RDF serializations. 
+[Flat RDF deserialization throughput](https://w3id.org/riverbench/v/2.0.0/tasks/flat-deserialization-throughput) | [`flat-deserialization-throughput`](https://w3id.org/riverbench/v/2.0.0/tasks/flat-deserialization-throughput) | A benchmark task measuring the throughput (in statements per second) of deserializing a byte stream into a flat sequence of RDF triples or RDF quads. 
+[Loading data into an RDF store](https://w3id.org/riverbench/v/2.0.0/tasks/flat-rdf-store-loading) | [`flat-rdf-store-loading`](https://w3id.org/riverbench/v/2.0.0/tasks/flat-rdf-store-loading) | A benchmark task measuring the time taken and resources used by RDF stores when loading flat RDF data (triples or quads). 
+[Flat RDF serialization throughput](https://w3id.org/riverbench/v/2.0.0/tasks/flat-serialization-throughput) | [`flat-serialization-throughput`](https://w3id.org/riverbench/v/2.0.0/tasks/flat-serialization-throughput) | A benchmark task measuring the throughput (in statements per second) of serializing a flat sequence of RDF triples or RDF quads. 
