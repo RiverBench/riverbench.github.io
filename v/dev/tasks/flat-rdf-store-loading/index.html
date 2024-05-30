@@ -2913,19 +2913,19 @@
 <h3 id="data">Data</h3>
 <p>Flat distributions of any dataset in the <a href="../../categories/flat/"><code>flat</code> category</a> of RiverBench may be used for this task.</p>
 <h3 id="workload">Workload</h3>
-<p>In this task, an RDF store is set up (for example, <a href="https://jena.apache.org/documentation/tdb2/index.html">Apache Jena TDB2</a> or Virtuoso) and then loaded with a flat dump of RDF statements (triples or quads).</p>
+<p>In this task, an RDF store is set up (for example, <a href="https://jena.apache.org/documentation/tdb2/index.html">Apache Jena TDB2</a> or Virtuoso) and then instructed to load a flat file containing RDF statements (triples or quads).</p>
 <ul>
 <li>When comparing multiple RDF stores, identical input data (serialized in the same format) should be used for all stores.</li>
 <li>The benchmark includes the time taken to deserialize the input data and insert the resulting RDF statements into the store, considering the entire process and the impact of the underlying I/O.</li>
 <li>Input data may be either batched or streamed, depending on the capabilities of the RDF store being tested and the specific research questions being addressed.<ul>
-<li>When using batched input, the input dataset is split into chunks, and each chunk is processed by the system separately. The metrics are typically calculated per chunk.</li>
-<li>When using streamed input, the input dataset is processed as a continuous stream of statements. The metrics are typically calculated in regular time intervals or after processing a certain number of statements.</li>
+<li>When using batched input, the input dataset is split into chunks consisting of N statements, and each chunk is processed by the system separately. The metrics (see below) are typically calculated per chunk.</li>
+<li>When using streamed input, the input dataset is processed as a continuous stream of individual statements (in RDF-STaX terminology: <a href="https://w3id.org/stax/dev/taxonomy#flat-rdf-stream">flat RDF stream</a>). The metrics are typically calculated in regular time intervals or after processing a certain number of statements.</li>
 </ul>
 </li>
 </ul>
 <h3 id="metrics">Metrics</h3>
 <ul>
-<li>Time taken to deserialize the input data and insert the resulting RDF statements into the store. From this measurement, the insertion throughput (in statements per second) can be calculated.</li>
+<li>Time taken to deserialize the input data and insert the resulting RDF statements into the RDF store. From this measurement, the insertion throughput (in statements per second) can be calculated.</li>
 <li>Memory usage during and after the loading process.</li>
 <li>Storage space used by the RDF store during and after the loading process.</li>
 <li>Total CPU time used during the loading process.</li>
@@ -2935,8 +2935,7 @@
 <h2 id="examples-and-references">Examples and references</h2>
 <ul>
 <li>Such a benchmark was performed in a paper comparing several RDF stores on IoT devices (Section 8). There, the authors measured the time taken to load the data and the memory usage.<ul>
-<li>Le-Tuan, A., Hayes, C., Hauswirth, M., &amp; Le-Phuoc, D. (2020). Pushing the Scalability of RDF Engines on IoT Edge Devices. Sensors, 20(10), 2788.</li>
-<li>https://doi.org/10.3390/s20102788</li>
+<li>Le-Tuan, A., Hayes, C., Hauswirth, M., &amp; Le-Phuoc, D. (2020). Pushing the Scalability of RDF Engines on IoT Edge Devices. Sensors, 20(10), 2788. <a href="https://doi.org/10.3390/s20102788">https://doi.org/10.3390/s20102788</a></li>
 </ul>
 </li>
 </ul>
