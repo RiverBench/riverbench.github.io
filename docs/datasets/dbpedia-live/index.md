@@ -58,23 +58,23 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - **Wikipedia contributors (1)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Wikipedia contributors
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.wikipedia.org/](https://www.wikipedia.org/)
-    - **Piotr Sowiński (2)**    
+    - **DBpedia Association (2)**    
+        - **<abbr title="A name for some thing.">Name</abbr>**: DBpedia Association
+        - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.dbpedia.org/contact/](https://www.dbpedia.org/contact/)
+    - **Piotr Sowiński (3)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**:     
             -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
             - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset
-    - **DBpedia Association (3)**    
-        - **<abbr title="A name for some thing.">Name</abbr>**: DBpedia Association
-        - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.dbpedia.org/contact/](https://www.dbpedia.org/contact/)
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-SA-3.0](https://spdx.org/licenses/CC-BY-SA-3.0)
 - **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: 
     - [https://doi.org/10.1108/00330331211221828](https://doi.org/10.1108/00330331211221828)
     - [https://www.dbpedia.org/resources/live/](https://www.dbpedia.org/resources/live/)
 - **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: The dataset contains attributions of the original source of the data (links to Wikipedia). _(<abbr title="English">en</abbr>)_
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-09
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-05-30
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-04
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [dbpedia-live (dev)](https://w3id.org/riverbench/datasets/dbpedia-live/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
