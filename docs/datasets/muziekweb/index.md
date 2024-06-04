@@ -71,7 +71,7 @@ The dataset consists of the main graph of [Muziekweb](https://data.muziekweb.nl/
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/ODC-By-1.0](https://spdx.org/licenses/ODC-By-1.0)
 - **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: [https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb](https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-09
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-05-30
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-04
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [muziekweb (dev)](https://w3id.org/riverbench/datasets/muziekweb/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
