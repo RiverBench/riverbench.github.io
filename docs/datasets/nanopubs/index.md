@@ -72,7 +72,7 @@ Nanopublications are small units of publishable information, used for scientific
 - **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: [https://doi.org/10.5281/zenodo.1213293](https://doi.org/10.5281/zenodo.1213293)
 - **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: This dataset only includes freely-licensed publications (CC BY, CC BY-SA, or ODbL licenses). Each nanopublication includes information about its original authors and is self-citing. The dataset is marked as under CC BY-SA, as this is the most restrictive license in the dataset. _(<abbr title="English">en</abbr>)_
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-04-30
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-05-30
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-04
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [nanopubs (dev)](https://w3id.org/riverbench/datasets/nanopubs/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
