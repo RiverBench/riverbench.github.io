@@ -71,7 +71,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
     - [http://dx.doi.org/10.1007/978-3-319-25010-6_25](http://dx.doi.org/10.1007/978-3-319-25010-6_25)
     - [http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic](http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-04
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-05
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [citypulse-traffic-graphs (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -235,12 +235,12 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
@@ -478,16 +478,16 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 100,799,777 | 26,296,686 | 23.00 | 0.00 | 23 | 23 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 21,912,995 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 8,765,198 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 8,765,198 | 4,382,701 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 162,156,163 | _N/A_ | 37.00 | 0.00 | 37 | 37 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 21,407,125 | 13,222 | 4.88 | 0.46 | 3 | 5 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 17,024,526 | 2,530 | 3.88 | 0.46 | 2 | 4 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 4,382,599 | 10,692 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 52,591,188 | _N/A_ | 12.00 | 0.00 | 12 | 12 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 39,443,391 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 95,911,308 | _N/A_ | 21.88 | 0.46 | 20 | 22 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 52,591,188 | 48,208,801 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 39,443,391 | 9 | 9.00 | 0.00 | 9 | 9 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 95,911,308 | 43,839,004 | 21.88 | 0.46 | 20 | 22 |
 
 ### <a name="statistics-1m"></a> Statistics for 1M distributions
 
@@ -497,16 +497,16 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 23,000,000 | 6,000,120 | 23.00 | 0.00 | 23 | 23 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 5,000,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 2,000,000 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 2,000,000 | 1,000,029 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 37,000,000 | _N/A_ | 37.00 | 0.00 | 37 | 37 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 4,794,267 | 11,711 | 4.79 | 0.60 | 3 | 5 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 3,794,267 | 1,047 | 3.79 | 0.60 | 2 | 4 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 1,000,000 | 10,664 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 12,000,000 | _N/A_ | 12.00 | 0.00 | 12 | 12 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 9,000,000 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 21,794,267 | _N/A_ | 21.79 | 0.60 | 20 | 22 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 12,000,000 | 10,999,630 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 9,000,000 | 9 | 9.00 | 0.00 | 9 | 9 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 21,794,267 | 10,011,160 | 21.79 | 0.60 | 20 | 22 |
 
 ### <a name="statistics-100k"></a> Statistics for 100K distributions
 
@@ -516,16 +516,16 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 2,300,000 | 600,028 | 23.00 | 0.00 | 23 | 23 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 500,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 200,000 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 200,000 | 100,002 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 3,700,000 | _N/A_ | 37.00 | 0.00 | 37 | 37 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 499,366 | 11,112 | 4.99 | 0.08 | 3 | 5 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 399,366 | 450 | 3.99 | 0.08 | 2 | 4 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 100,000 | 10,662 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 1,200,000 | _N/A_ | 12.00 | 0.00 | 12 | 12 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 900,000 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 2,199,366 | _N/A_ | 21.99 | 0.08 | 20 | 22 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 1,200,000 | 1,100,050 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 900,000 | 9 | 9.00 | 0.00 | 9 | 9 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 2,199,366 | 1,011,154 | 21.99 | 0.08 | 20 | 22 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
@@ -535,14 +535,14 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 230,000 | 60,021 | 23.00 | 0.00 | 23 | 23 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 50,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 20,000 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 20,000 | 10,001 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 370,000 | _N/A_ | 37.00 | 0.00 | 37 | 37 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 49,981 | 9,536 | 5.00 | 0.05 | 3 | 5 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 39,981 | 229 | 4.00 | 0.05 | 2 | 4 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 10,000 | 9,307 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 120,000 | _N/A_ | 12.00 | 0.00 | 12 | 12 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 90,000 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 219,981 | _N/A_ | 22.00 | 0.05 | 20 | 22 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 120,000 | 110,000 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 90,000 | 9 | 9.00 | 0.00 | 9 | 9 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 219,981 | 109,540 | 22.00 | 0.05 | 20 | 22 |
 
