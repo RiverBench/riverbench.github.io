@@ -74,7 +74,7 @@ This is a subset of the LinkedSpending dataset (LS package 2013-9), which contai
     - [http://linkedspending.aksw.org/](http://linkedspending.aksw.org/)
     - [https://doi.org/10.3233/SW-150172](https://doi.org/10.3233/SW-150172)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-04
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-05
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [linked-spending (dev)](https://w3id.org/riverbench/datasets/linked-spending/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -483,16 +483,16 @@ This is a subset of the LinkedSpending dataset (LS package 2013-9), which contai
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 83,873,394 | 3,239,719 | 33.85 | 12.84 | 3 | 84 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 2,583,713 | _N/A_ | 1.04 | 0.21 | 0 | 2 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 2,477,552 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 2,477,552 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 55,097,866 | _N/A_ | 22.24 | 9.61 | 2 | 86 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 18,740,789 | 4,846,042 | 7.56 | 3.87 | 0 | 43 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 15,143,397 | 4,838,859 | 6.11 | 3.69 | 0 | 43 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 3,597,392 | 7,200 | 1.45 | 0.55 | 0 | 4 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 2,477,552 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 51,106,554 | _N/A_ | 20.63 | 7.50 | 2 | 49 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 51,613,790 | _N/A_ | 20.83 | 7.97 | 1 | 86 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 2,477,552 | 2,475,838 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 51,106,554 | 708 | 20.63 | 7.50 | 2 | 49 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 51,613,790 | 8,086,013 | 20.83 | 7.97 | 1 | 86 |
 
 ### <a name="statistics-1m"></a> Statistics for 1M distributions
 
@@ -502,16 +502,16 @@ This is a subset of the LinkedSpending dataset (LS package 2013-9), which contai
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 35,194,519 | 1,331,576 | 35.19 | 13.13 | 3 | 60 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 1,020,633 | _N/A_ | 1.02 | 0.15 | 0 | 2 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 1,000,000 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 1,000,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 23,371,403 | _N/A_ | 23.37 | 10.26 | 2 | 52 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 7,242,453 | 2,000,374 | 7.24 | 3.04 | 0 | 26 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 5,666,659 | 1,994,553 | 5.67 | 2.79 | 0 | 26 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 1,575,794 | 5,841 | 1.58 | 0.62 | 0 | 4 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 1,000,000 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 19,928,203 | _N/A_ | 19.93 | 5.05 | 2 | 32 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 22,529,402 | _N/A_ | 22.53 | 9.84 | 1 | 52 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 1,000,000 | 999,268 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 19,928,203 | 383 | 19.93 | 5.05 | 2 | 32 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 22,529,402 | 3,332,121 | 22.53 | 9.84 | 1 | 52 |
 
 ### <a name="statistics-100k"></a> Statistics for 100K distributions
 
@@ -521,16 +521,16 @@ This is a subset of the LinkedSpending dataset (LS package 2013-9), which contai
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 2,497,664 | 210,494 | 24.98 | 2.52 | 3 | 30 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 99,849 | _N/A_ | 1.00 | 0.04 | 0 | 1 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 100,000 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 100,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 1,716,898 | _N/A_ | 17.17 | 2.44 | 2 | 34 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 809,395 | 186,976 | 8.09 | 2.49 | 0 | 17 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 709,140 | 184,438 | 7.09 | 2.49 | 0 | 17 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 100,255 | 2,538 | 1.00 | 0.07 | 0 | 2 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 100,000 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,716,279 | _N/A_ | 17.16 | 2.45 | 2 | 23 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 1,590,629 | _N/A_ | 15.91 | 2.41 | 1 | 34 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 100,000 | 99,925 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,716,279 | 56 | 17.16 | 2.45 | 2 | 23 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 1,590,629 | 397,445 | 15.91 | 2.41 | 1 | 34 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
@@ -540,14 +540,14 @@ This is a subset of the LinkedSpending dataset (LS package 2013-9), which contai
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 226,552 | 10,809 | 22.66 | 6.07 | 3 | 30 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 9,907 | _N/A_ | 0.99 | 0.10 | 0 | 1 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 10,000 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 10,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 158,342 | _N/A_ | 15.83 | 5.82 | 2 | 23 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 86,396 | 32,505 | 8.64 | 5.27 | 0 | 16 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 76,087 | 31,529 | 7.61 | 5.28 | 0 | 15 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 10,309 | 976 | 1.03 | 0.22 | 0 | 2 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 10,000 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 157,827 | _N/A_ | 15.78 | 5.84 | 2 | 23 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 155,028 | _N/A_ | 15.50 | 5.43 | 1 | 23 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 10,000 | 9,958 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 157,827 | 48 | 15.78 | 5.84 | 2 | 23 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 155,028 | 43,286 | 15.50 | 5.43 | 1 | 23 |
 
