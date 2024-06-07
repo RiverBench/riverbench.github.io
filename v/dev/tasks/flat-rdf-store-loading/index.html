@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../assets/riverbench_vector_icon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.25">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
     
     
       
@@ -206,7 +206,7 @@
       
     </form>
     <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
             Initializing search
@@ -2857,9 +2857,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#examples-and-references" class="md-nav__link">
+  <a href="#this-task-in-benchmarks-outside-of-riverbench" class="md-nav__link">
     <span class="md-ellipsis">
-      Examples and references
+      This task in benchmarks outside of RiverBench
     </span>
   </a>
   
@@ -2917,25 +2917,39 @@
 <ul>
 <li>When comparing multiple RDF stores, identical input data (serialized in the same format) should be used for all stores.</li>
 <li>The benchmark includes the time taken to deserialize the input data and insert the resulting RDF statements into the store, considering the entire process and the impact of the underlying I/O.</li>
-<li>Input data may be either batched or streamed, depending on the capabilities of the RDF store being tested and the specific research questions being addressed.<ul>
+<li>Input data may be either batched or streamed statement by statement, depending on the capabilities of the RDF store being tested and the specific research questions being addressed.<ul>
 <li>When using batched input, the input dataset is split into chunks consisting of N statements, and each chunk is processed by the system separately. The metrics (see below) are typically calculated per chunk.</li>
 <li>When using streamed input, the input dataset is processed as a continuous stream of individual statements (in RDF-STaX terminology: <a href="https://w3id.org/stax/dev/taxonomy#flat-rdf-stream">flat RDF stream</a>). The metrics are typically calculated in regular time intervals or after processing a certain number of statements.</li>
 </ul>
 </li>
 </ul>
 <h3 id="metrics">Metrics</h3>
+<p>Benchmarks may choose to measure only some of the following metrics:</p>
 <ul>
-<li>Time taken to deserialize the input data and insert the resulting RDF statements into the RDF store. From this measurement, the insertion throughput (in statements per second) can be calculated.</li>
-<li>Memory usage during and after the loading process.</li>
-<li>Storage space used by the RDF store during and after the loading process.</li>
-<li>Total CPU time used during the loading process.</li>
+<li><strong>Load time</strong> – time taken to deserialize the input data and insert the resulting RDF statements into the RDF store, including any indexing and I/O operations. From this measurement, the loading throughput can be calculated (see below).</li>
+<li><strong>Loading throughput</strong> – the rate at which the RDF store can load data, measured in RDF statements (triples or quads) per second. This can be either calculated per chunk (in the case of batched input) or as an average over the entire loading process.</li>
+<li><strong>Memory usage</strong> – main system memory usage in bytes, during and after the loading process.</li>
+<li><strong>Storage size</strong> – size of the RDF store on disk, in bytes. May be measured during and after the loading process.</li>
+<li><strong>Total CPU time</strong> – the total CPU time (across all processors) allocated to the RDF store. Measured during the loading process.</li>
 </ul>
 <h2 id="results">Results</h2>
 <p>There are no results with RiverBench available for this task yet.</p>
-<h2 id="examples-and-references">Examples and references</h2>
+<h2 id="this-task-in-benchmarks-outside-of-riverbench">This task in benchmarks outside of RiverBench</h2>
 <ul>
-<li>Such a benchmark was performed in a paper comparing several RDF stores on IoT devices (Section 8). There, the authors measured the time taken to load the data and the memory usage.<ul>
+<li>The Berlin SPARQL Benchmark (BSBM) includes a data loading phase where the data is loaded into the RDF store. The time taken to load the data (<em>LT</em> metric) is one of the metrics used to evaluate the performance of the RDF store. The dataset used in BSBM is synthetic.<ul>
+<li>Bizer, C., &amp; Schultz, A. (2009). The Berlin SPARQK Benchmark. International Journal on Semantic Web and Information Systems (IJSWIS), 5(2), 1-24. <a href="https://doi.org/10.4018/jswis.2009040101">https://doi.org/10.4018/jswis.2009040101</a></li>
+</ul>
+</li>
+<li>Similarly, the Lehigh University Benchmark (LUBM) includes a data loading phase where the data is loaded into the RDF store. The time taken to load the data (<em>load time</em> metric) is one of the metrics used to evaluate the performance of the RDF store. The dataset used in LUBM is synthetic.<ul>
+<li>Guo, Y., Pan, Z., &amp; Heflin, J. (2005). LUBM: A benchmark for OWL knowledge base systems. Journal of Web Semantics, 3(2-3), 158-182. <a href="https://doi.org/10.1016/j.websem.2005.06.005">https://doi.org/10.1016/j.websem.2005.06.005</a></li>
+</ul>
+</li>
+<li>A load time benchmark was performed in a paper comparing several RDF stores on a few different IoT devices (Section 8). There, the authors measured the time taken to load the data and the memory usage. A single real dataset was used.<ul>
 <li>Le-Tuan, A., Hayes, C., Hauswirth, M., &amp; Le-Phuoc, D. (2020). Pushing the Scalability of RDF Engines on IoT Edge Devices. Sensors, 20(10), 2788. <a href="https://doi.org/10.3390/s20102788">https://doi.org/10.3390/s20102788</a></li>
+</ul>
+</li>
+<li>The RDF-3X paper also included a load time benchmark, with 3 different datasets (non-synthetic). They report the total load time in minutes and the size on disk of the resulting store.<ul>
+<li>Neumann, T., &amp; Weikum, G. (2010). The RDF-3X engine for scalable management of RDF data. The VLDB Journal, 19, 91-113. <a href="https://doi.org/10.1007/s00778-009-0165-y">https://doi.org/10.1007/s00778-009-0165-y</a></li>
 </ul>
 </li>
 </ul>
@@ -3038,7 +3052,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": ["latest", "stable"], "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.081f42fc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
   </body>
