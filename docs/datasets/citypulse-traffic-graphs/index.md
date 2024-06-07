@@ -1,10 +1,10 @@
-# citypulse-traffic-graphs (1.0.1)
+# citypulse-traffic-graphs (1.0.2)
 
 This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datasets/citypulse-traffic) dataset that was transformed into a stream of graphs, compliant with the [RSP Data Model](https://streamreasoning.org/RSP-QL/Abstract%20Syntax%20and%20Semantics%20Document/). The dataset is a processed subset of real traffic data published by the [CityPulse EU FP7 project](http://iot.ee.surrey.ac.uk:8080/index.html). The used dataset is '[Road Traffic Data](http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic)', dataset-4. The dataset was processed to fix prefixes without a trailing '#' or '/'. It consists of subsequent chronologically ordered substreams of observations from each sensor. See also [the paper](https://www.researchgate.net/publication/300337751_CityBench_A_Configurable_Benchmark_to_Evaluate_RSP_Engines_Using_Smart_City_Datasets) for more details.
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2.jelly)**
     <br>Source repository: **[citypulse-traffic-graphs](https://github.com/RiverBench/dataset-citypulse-traffic-graphs)**
 
 ??? example "Stream preview (click to expand)"
@@ -48,7 +48,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: CityPulse traffic (graphs variation) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `citypulse-traffic-graphs`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 1.0.1
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 1.0.2
 - **<abbr title="A main category of the resource. A resource can have multiple themes.">Theme</abbr>**: 
     - Data collection ([eurovoc:6030](http://eurovoc.europa.eu/6030))
     - Internet of Things ([eurovoc:c_b12a760a](http://eurovoc.europa.eu/c_b12a760a))
@@ -71,8 +71,8 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
     - [http://dx.doi.org/10.1007/978-3-319-25010-6_25](http://dx.doi.org/10.1007/978-3-319-25010-6_25)
     - [http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic](http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-05-30
-- **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [citypulse-traffic-graphs (1.0.1)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1)
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-07
+- **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [citypulse-traffic-graphs (1.0.2)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
 ## Technical metadata
@@ -134,7 +134,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `5b6feb0d4be82ab90503833f432e2c11abb25bbd`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/stream_full.tar.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/stream_full.tar.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_full.tar.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_full.tar.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-full](#statistics-full)
 
 ### <a name="jelly-full"></a> Full Jelly distribution
@@ -167,7 +167,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `7b5c92093c0d6cd92fb2cb780904c48011f81bf2`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/jelly_full.jelly.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/jelly_full.jelly.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_full.jelly.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_full.jelly.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-full](#statistics-full)
 
 ### <a name="flat-full"></a> Full flat distribution
@@ -195,7 +195,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `dd7279bd35b15cdc5e39d61555f45115290279f5`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_full.nq.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_full.nq.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_full.nq.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_full.nq.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-full](#statistics-full)
 
 ### <a name="stream-1m"></a> 1M elements stream distribution
@@ -224,7 +224,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `9fd5940665d3134239ec4bde086c686f1e291d14`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/stream_1M.tar.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/stream_1M.tar.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_1M.tar.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_1M.tar.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-1m](#statistics-1m)
 
 ### <a name="jelly-1m"></a> 1M elements Jelly distribution
@@ -235,12 +235,12 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair <n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple <n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> ([stax:timestampedNamedGraphStream](https://w3id.org/stax/ontology#timestampedNamedGraphStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
@@ -257,7 +257,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `de442e218ee7c2ee51e9830a5bb14ee2c83a756a`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/jelly_1M.jelly.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/jelly_1M.jelly.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_1M.jelly.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_1M.jelly.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-1m](#statistics-1m)
 
 ### <a name="flat-1m"></a> 1M elements flat distribution
@@ -285,7 +285,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `8a4ee663d0ccb7195ae6145467d67b3b3b0fc62f`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_1M.nq.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_1M.nq.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_1M.nq.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_1M.nq.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-1m](#statistics-1m)
 
 ### <a name="stream-100k"></a> 100K elements stream distribution
@@ -314,7 +314,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `51043b72c45e3649d63f37e3fbe33b5d9088d045`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/stream_100K.tar.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/stream_100K.tar.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_100K.tar.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_100K.tar.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-100k](#statistics-100k)
 
 ### <a name="jelly-100k"></a> 100K elements Jelly distribution
@@ -347,7 +347,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `25b3d58975ed8c427bb448b1a1f9d87339ec0c13`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/jelly_100K.jelly.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/jelly_100K.jelly.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_100K.jelly.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_100K.jelly.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-100k](#statistics-100k)
 
 ### <a name="flat-100k"></a> 100K elements flat distribution
@@ -375,7 +375,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `5267c54e0c3033271aec4d5c942b2ce324504277`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_100K.nq.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_100K.nq.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_100K.nq.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_100K.nq.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-100k](#statistics-100k)
 
 ### <a name="stream-10k"></a> 10K elements stream distribution
@@ -404,7 +404,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `6773b01f0c356a34f0851bbdcc8de43fba858a19`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/stream_10K.tar.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/stream_10K.tar.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_10K.tar.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_10K.tar.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-10k](#statistics-10k)
 
 ### <a name="jelly-10k"></a> 10K elements Jelly distribution
@@ -437,7 +437,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `c7daa195c3be04851ca72182430d48f3c09a07c9`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/jelly_10K.jelly.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/jelly_10K.jelly.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_10K.jelly.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_10K.jelly.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-10k](#statistics-10k)
 
 ### <a name="flat-10k"></a> 10K elements flat distribution
@@ -465,7 +465,7 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
         - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `15a47dae1d5e44ef39a6568cf7a9200e005e537b`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_10K.nq.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_10K.nq.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_10K.nq.gz](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_10K.nq.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-10k](#statistics-10k)
 
 ## <abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>
@@ -478,16 +478,16 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 100,799,777 | 26,296,686 | 23.00 | 0.00 | 23 | 23 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 21,912,995 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 8,765,198 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 8,765,198 | 4,382,701 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 162,156,163 | _N/A_ | 37.00 | 0.00 | 37 | 37 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 21,407,125 | 13,222 | 4.88 | 0.46 | 3 | 5 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 17,024,526 | 2,530 | 3.88 | 0.46 | 2 | 4 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 4,382,599 | 10,692 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 52,591,188 | _N/A_ | 12.00 | 0.00 | 12 | 12 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 39,443,391 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 95,911,308 | _N/A_ | 21.88 | 0.46 | 20 | 22 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 52,591,188 | 48,208,801 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 39,443,391 | 9 | 9.00 | 0.00 | 9 | 9 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 95,911,308 | 43,839,004 | 21.88 | 0.46 | 20 | 22 |
 
 ### <a name="statistics-1m"></a> Statistics for 1M distributions
 
@@ -497,16 +497,16 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 23,000,000 | 6,000,120 | 23.00 | 0.00 | 23 | 23 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 5,000,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 2,000,000 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 2,000,000 | 1,000,029 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 37,000,000 | _N/A_ | 37.00 | 0.00 | 37 | 37 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 4,794,267 | 11,711 | 4.79 | 0.60 | 3 | 5 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 3,794,267 | 1,047 | 3.79 | 0.60 | 2 | 4 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 1,000,000 | 10,664 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 12,000,000 | _N/A_ | 12.00 | 0.00 | 12 | 12 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 9,000,000 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 21,794,267 | _N/A_ | 21.79 | 0.60 | 20 | 22 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 12,000,000 | 10,999,630 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 9,000,000 | 9 | 9.00 | 0.00 | 9 | 9 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 21,794,267 | 10,011,160 | 21.79 | 0.60 | 20 | 22 |
 
 ### <a name="statistics-100k"></a> Statistics for 100K distributions
 
@@ -516,16 +516,16 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 2,300,000 | 600,028 | 23.00 | 0.00 | 23 | 23 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 500,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 200,000 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 200,000 | 100,002 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 3,700,000 | _N/A_ | 37.00 | 0.00 | 37 | 37 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 499,366 | 11,112 | 4.99 | 0.08 | 3 | 5 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 399,366 | 450 | 3.99 | 0.08 | 2 | 4 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 100,000 | 10,662 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 1,200,000 | _N/A_ | 12.00 | 0.00 | 12 | 12 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 900,000 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 2,199,366 | _N/A_ | 21.99 | 0.08 | 20 | 22 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 1,200,000 | 1,100,050 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 900,000 | 9 | 9.00 | 0.00 | 9 | 9 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 2,199,366 | 1,011,154 | 21.99 | 0.08 | 20 | 22 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
@@ -535,14 +535,14 @@ This is a variation of the [citypulse-traffic](https://w3id.org/riverbench/datas
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 230,000 | 60,021 | 23.00 | 0.00 | 23 | 23 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 50,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 20,000 | _N/A_ | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 20,000 | 10,001 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 370,000 | _N/A_ | 37.00 | 0.00 | 37 | 37 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 49,981 | 9,536 | 5.00 | 0.05 | 3 | 5 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 39,981 | 229 | 4.00 | 0.05 | 2 | 4 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 10,000 | 9,307 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 120,000 | _N/A_ | 12.00 | 0.00 | 12 | 12 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 90,000 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 219,981 | _N/A_ | 22.00 | 0.05 | 20 | 22 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 120,000 | 110,000 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 90,000 | 9 | 9.00 | 0.00 | 9 | 9 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 219,981 | 109,540 | 22.00 | 0.05 | 20 | 22 |
 
