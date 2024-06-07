@@ -1,10 +1,10 @@
-# stream-subject-graphs-rdfstar-nonstandard (2.0.0)
+# stream-subject-graphs-rdfstar-nonstandard (2.0.1)
 
 Streaming unnamed subject graphs (with RDF-star and non-standard extensions)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.0/profiles/stream-subject-graphs-rdfstar-nonstandard.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.0/profiles/stream-subject-graphs-rdfstar-nonstandard.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.0/profiles/stream-subject-graphs-rdfstar-nonstandard.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.0/profiles/stream-subject-graphs-rdfstar-nonstandard.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.1/profiles/stream-subject-graphs-rdfstar-nonstandard.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.1/profiles/stream-subject-graphs-rdfstar-nonstandard.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.1/profiles/stream-subject-graphs-rdfstar-nonstandard.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.1/profiles/stream-subject-graphs-rdfstar-nonstandard.jelly)**
 
 
 
@@ -12,21 +12,21 @@ Streaming unnamed subject graphs (with RDF-star and non-standard extensions)
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Streaming unnamed subject graphs (RDF-star, non-standard) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-subject-graphs-rdfstar-nonstandard`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.0
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [stream (2.0.0)](https://w3id.org/riverbench/v/2.0.0/categories/stream)
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.1
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [stream (2.0.1)](https://w3id.org/riverbench/v/2.0.1/categories/stream)
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
-    - [stream-subject-graphs (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/stream-subject-graphs)
-    - [stream-subject-graphs-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/stream-subject-graphs-nonstandard)
-    - [stream-subject-graphs-rdfstar (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/stream-subject-graphs-rdfstar)
+    - [stream-subject-graphs (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-subject-graphs)
+    - [stream-subject-graphs-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-subject-graphs-nonstandard)
+    - [stream-subject-graphs-rdfstar (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-subject-graphs-rdfstar)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
-    - [stream-graphs-rdfstar-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/stream-graphs-rdfstar-nonstandard)
-    - [stream-mixed-rdfstar-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/stream-mixed-rdfstar-nonstandard)
+    - [stream-graphs-rdfstar-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-graphs-rdfstar-nonstandard)
+    - [stream-mixed-rdfstar-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-mixed-rdfstar-nonstandard)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
-    - [digital-agenda-indicators (1.0.1)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1)
-    - [linked-spending (1.0.1)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1)
-    - [muziekweb (1.0.1)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1)
-    - [yago-annotated-facts (1.0.1)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.0)](https://w3id.org/riverbench/v/2.0.0)
+    - [digital-agenda-indicators (1.0.2)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2)
+    - [linked-spending (1.0.2)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2)
+    - [muziekweb (1.0.2)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2)
+    - [yago-annotated-facts (1.0.2)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.1)](https://w3id.org/riverbench/v/2.0.1)
 
 ## Technical metadata
 
@@ -69,16 +69,16 @@ Below you will find links to download the profile's datasets in different length
 
 Dataset | 10K | 100K | 1M | Full
 --- | --- | --- | --- | ---
-[digital-agenda-indicators](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1) | [10K (316.88 KB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/stream_10K.tar.gz) | [100K (3.60 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/stream_100K.tar.gz) | [1M (32.43 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/stream_1M.tar.gz) | [Full (46.22 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/stream_full.tar.gz)
-[linked-spending](https://w3id.org/riverbench/datasets/linked-spending/1.0.1) | [10K (1.26 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/stream_10K.tar.gz) | [100K (10.04 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/stream_100K.tar.gz) | [1M (139.86 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/stream_1M.tar.gz) | [Full (345.98 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/stream_full.tar.gz)
-[muziekweb](https://w3id.org/riverbench/datasets/muziekweb/1.0.1) | [10K (860.96 KB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/stream_10K.tar.gz) | [100K (8.40 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/stream_100K.tar.gz) | [1M (87.29 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/stream_1M.tar.gz) | [Full (251.85 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/stream_full.tar.gz)
-[yago-annotated-facts](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1) | [10K (376.46 KB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1/files/stream_10K.tar.gz) | [100K (3.57 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1/files/stream_100K.tar.gz) | [Full (36.17 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1/files/stream_full.tar.gz) | [Full (36.17 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1/files/stream_full.tar.gz)
+[digital-agenda-indicators](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2) | [10K (316.88 KB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/stream_10K.tar.gz) | [100K (3.60 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/stream_100K.tar.gz) | [1M (32.43 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/stream_1M.tar.gz) | [Full (46.22 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/stream_full.tar.gz)
+[linked-spending](https://w3id.org/riverbench/datasets/linked-spending/1.0.2) | [10K (1.26 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/stream_10K.tar.gz) | [100K (10.04 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/stream_100K.tar.gz) | [1M (139.86 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/stream_1M.tar.gz) | [Full (345.98 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/stream_full.tar.gz)
+[muziekweb](https://w3id.org/riverbench/datasets/muziekweb/1.0.2) | [10K (860.96 KB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/stream_10K.tar.gz) | [100K (8.40 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/stream_100K.tar.gz) | [1M (87.29 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/stream_1M.tar.gz) | [Full (251.85 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/stream_full.tar.gz)
+[yago-annotated-facts](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2) | [10K (376.46 KB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2/files/stream_10K.tar.gz) | [100K (3.57 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2/files/stream_100K.tar.gz) | [Full (36.17 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2/files/stream_full.tar.gz) | [Full (36.17 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2/files/stream_full.tar.gz)
 
 ### Jelly streaming distributions
 
 Dataset | 10K | 100K | 1M | Full
 --- | --- | --- | --- | ---
-[digital-agenda-indicators](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1) | [10K (188.14 KB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/jelly_10K.jelly.gz) | [100K (1.70 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/jelly_100K.jelly.gz) | [1M (16.44 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/jelly_1M.jelly.gz) | [Full (23.45 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/jelly_full.jelly.gz)
-[linked-spending](https://w3id.org/riverbench/datasets/linked-spending/1.0.1) | [10K (1.44 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/jelly_10K.jelly.gz) | [100K (13.43 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/jelly_100K.jelly.gz) | [1M (161.86 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/jelly_1M.jelly.gz) | [Full (398.51 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/jelly_full.jelly.gz)
-[muziekweb](https://w3id.org/riverbench/datasets/muziekweb/1.0.1) | [10K (765.19 KB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/jelly_10K.jelly.gz) | [100K (7.78 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/jelly_100K.jelly.gz) | [1M (85.49 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/jelly_1M.jelly.gz) | [Full (297.63 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/jelly_full.jelly.gz)
-[yago-annotated-facts](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1) | [10K (260.84 KB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1/files/jelly_10K.jelly.gz) | [100K (2.72 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1/files/jelly_100K.jelly.gz) | [Full (28.89 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1/files/jelly_full.jelly.gz) | [Full (28.89 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.1/files/jelly_full.jelly.gz)
+[digital-agenda-indicators](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2) | [10K (188.14 KB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/jelly_10K.jelly.gz) | [100K (1.70 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/jelly_100K.jelly.gz) | [1M (16.44 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/jelly_1M.jelly.gz) | [Full (23.45 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/jelly_full.jelly.gz)
+[linked-spending](https://w3id.org/riverbench/datasets/linked-spending/1.0.2) | [10K (1.44 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/jelly_10K.jelly.gz) | [100K (13.43 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/jelly_100K.jelly.gz) | [1M (161.86 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/jelly_1M.jelly.gz) | [Full (398.51 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/jelly_full.jelly.gz)
+[muziekweb](https://w3id.org/riverbench/datasets/muziekweb/1.0.2) | [10K (765.19 KB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/jelly_10K.jelly.gz) | [100K (7.78 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/jelly_100K.jelly.gz) | [1M (85.49 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/jelly_1M.jelly.gz) | [Full (297.63 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/jelly_full.jelly.gz)
+[yago-annotated-facts](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2) | [10K (260.84 KB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2/files/jelly_10K.jelly.gz) | [100K (2.72 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2/files/jelly_100K.jelly.gz) | [Full (28.89 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2/files/jelly_full.jelly.gz) | [Full (28.89 MB)](https://w3id.org/riverbench/datasets/yago-annotated-facts/1.0.2/files/jelly_full.jelly.gz)
