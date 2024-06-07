@@ -1,10 +1,10 @@
-# flat-quads (2.0.0)
+# flat-quads (2.0.1)
 
 Flat sequence of quads (RDF 1.1 standard only)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads.jelly)**
 
 
 
@@ -12,21 +12,21 @@ Flat sequence of quads (RDF 1.1 standard only)
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of quads (standard) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-quads`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.0
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (2.0.0)](https://w3id.org/riverbench/v/2.0.0/categories/flat)
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.1
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (2.0.1)](https://w3id.org/riverbench/v/2.0.1/categories/flat)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
-    - [flat-mixed (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed)
-    - [flat-mixed-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed-nonstandard)
-    - [flat-mixed-rdfstar (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed-rdfstar)
-    - [flat-mixed-rdfstar-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed-rdfstar-nonstandard)
-    - [flat-quads-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads-nonstandard)
-    - [flat-quads-rdfstar (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads-rdfstar)
-    - [flat-quads-rdfstar-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads-rdfstar-nonstandard)
+    - [flat-mixed (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed)
+    - [flat-mixed-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed-nonstandard)
+    - [flat-mixed-rdfstar (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed-rdfstar)
+    - [flat-mixed-rdfstar-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed-rdfstar-nonstandard)
+    - [flat-quads-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads-nonstandard)
+    - [flat-quads-rdfstar (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads-rdfstar)
+    - [flat-quads-rdfstar-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads-rdfstar-nonstandard)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
-    - [assist-iot-weather-graphs (1.0.1)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1)
-    - [citypulse-traffic-graphs (1.0.1)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1)
-    - [nanopubs (1.0.1)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.0)](https://w3id.org/riverbench/v/2.0.0)
+    - [assist-iot-weather-graphs (1.0.2)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2)
+    - [citypulse-traffic-graphs (1.0.2)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2)
+    - [nanopubs (1.0.2)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.1)](https://w3id.org/riverbench/v/2.0.1)
 
 ## Technical metadata
 
@@ -61,6 +61,6 @@ Below you will find links to download the profile's datasets in different length
 
 Dataset | 10K | 100K | 1M | Full
 --- | --- | --- | --- | ---
-[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1) | [10K (5.04 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1/files/flat_10K.nq.gz) | [100K (50.34 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1/files/flat_100K.nq.gz) | [Full (353.01 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1/files/flat_full.nq.gz) | [Full (353.01 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1/files/flat_full.nq.gz)
-[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1) | [10K (3.96 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_10K.nq.gz) | [100K (39.64 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_100K.nq.gz) | [1M (395.85 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_full.nq.gz)
-[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/1.0.1) | [10K (3.46 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1/files/flat_10K.nq.gz) | [100K (35.75 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1/files/flat_100K.nq.gz) | [1M (384.63 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1/files/flat_full.nq.gz)
+[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2) | [10K (5.04 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/flat_10K.nq.gz) | [100K (50.34 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/flat_100K.nq.gz) | [Full (353.01 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/flat_full.nq.gz) | [Full (353.01 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/flat_full.nq.gz)
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2) | [10K (3.96 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_10K.nq.gz) | [100K (39.64 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_100K.nq.gz) | [1M (395.85 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_full.nq.gz)
+[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/1.0.2) | [10K (3.46 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2/files/flat_10K.nq.gz) | [100K (35.75 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2/files/flat_100K.nq.gz) | [1M (384.63 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2/files/flat_full.nq.gz)

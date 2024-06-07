@@ -43,7 +43,7 @@ There are no results with RiverBench available for this task yet.
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.0/tasks/flat-deserialization-throughput.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.0/tasks/flat-deserialization-throughput.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.0/tasks/flat-deserialization-throughput.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.0/tasks/flat-deserialization-throughput.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.1/tasks/flat-deserialization-throughput.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.1/tasks/flat-deserialization-throughput.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.1/tasks/flat-deserialization-throughput.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.1/tasks/flat-deserialization-throughput.jelly)**
 
 
 
@@ -52,14 +52,14 @@ There are no results with RiverBench available for this task yet.
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat RDF deserialization throughput _(<abbr title="English">en</abbr>)_
 - **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the throughput (in statements per second) of deserializing a byte stream into a flat sequence of RDF triples or RDF quads. _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-deserialization-throughput`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.0
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.1
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**: 
     - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
     - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
     - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**:     
         -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
         - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (2.0.0)](https://w3id.org/riverbench/v/2.0.0/categories/flat)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.0)](https://w3id.org/riverbench/v/2.0.0)
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (2.0.1)](https://w3id.org/riverbench/v/2.0.1/categories/flat)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.1)](https://w3id.org/riverbench/v/2.0.1)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 

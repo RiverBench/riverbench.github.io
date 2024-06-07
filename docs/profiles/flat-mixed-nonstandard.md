@@ -1,10 +1,10 @@
-# flat-mixed-nonstandard (2.0.0)
+# flat-mixed-nonstandard (2.0.1)
 
 Flat sequence of triples or quads (with non-standard extensions)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed-nonstandard.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed-nonstandard.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed-nonstandard.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed-nonstandard.jelly)**
+    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed-nonstandard.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed-nonstandard.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed-nonstandard.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed-nonstandard.jelly)**
 
 
 
@@ -12,28 +12,28 @@ Flat sequence of triples or quads (with non-standard extensions)
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat sequence of triples or quads (non-standard) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-mixed-nonstandard`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.0
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (2.0.0)](https://w3id.org/riverbench/v/2.0.0/categories/flat)
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.1
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (2.0.1)](https://w3id.org/riverbench/v/2.0.1/categories/flat)
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
-    - [flat-mixed (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed)
-    - [flat-quads (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads)
-    - [flat-quads-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-quads-nonstandard)
-    - [flat-triples (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-triples)
-    - [flat-triples-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-triples-nonstandard)
-- **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: [flat-mixed-rdfstar-nonstandard (2.0.0)](https://w3id.org/riverbench/v/2.0.0/profiles/flat-mixed-rdfstar-nonstandard)
+    - [flat-mixed (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed)
+    - [flat-quads (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads)
+    - [flat-quads-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-quads-nonstandard)
+    - [flat-triples (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-triples)
+    - [flat-triples-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-triples-nonstandard)
+- **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: [flat-mixed-rdfstar-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/flat-mixed-rdfstar-nonstandard)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
-    - [assist-iot-weather (1.0.1)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.1)
-    - [assist-iot-weather-graphs (1.0.1)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1)
-    - [citypulse-traffic (1.0.1)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.1)
-    - [citypulse-traffic-graphs (1.0.1)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1)
-    - [dbpedia-live (1.0.1)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.1)
-    - [digital-agenda-indicators (1.0.1)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1)
-    - [linked-spending (1.0.1)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1)
-    - [lod-katrina (1.0.1)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.1)
-    - [muziekweb (1.0.1)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1)
-    - [nanopubs (1.0.1)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1)
-    - [politiquices (1.0.1)](https://w3id.org/riverbench/datasets/politiquices/1.0.1)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.0)](https://w3id.org/riverbench/v/2.0.0)
+    - [assist-iot-weather (1.0.2)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.2)
+    - [assist-iot-weather-graphs (1.0.2)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2)
+    - [citypulse-traffic (1.0.2)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.2)
+    - [citypulse-traffic-graphs (1.0.2)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2)
+    - [dbpedia-live (1.0.2)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.2)
+    - [digital-agenda-indicators (1.0.2)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2)
+    - [linked-spending (1.0.2)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2)
+    - [lod-katrina (1.0.2)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.2)
+    - [muziekweb (1.0.2)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2)
+    - [nanopubs (1.0.2)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2)
+    - [politiquices (1.0.2)](https://w3id.org/riverbench/datasets/politiquices/1.0.2)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.1)](https://w3id.org/riverbench/v/2.0.1)
 
 ## Technical metadata
 
@@ -68,14 +68,14 @@ Below you will find links to download the profile's datasets in different length
 
 Dataset | 10K | 100K | 1M | Full
 --- | --- | --- | --- | ---
-[assist-iot-weather](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.1) | [10K (4.71 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.1/files/flat_10K.nt.gz) | [100K (47.07 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.1/files/flat_100K.nt.gz) | [Full (330.19 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.1/files/flat_full.nt.gz) | [Full (330.19 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.1/files/flat_full.nt.gz)
-[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1) | [10K (5.04 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1/files/flat_10K.nq.gz) | [100K (50.34 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1/files/flat_100K.nq.gz) | [Full (353.01 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1/files/flat_full.nq.gz) | [Full (353.01 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.1/files/flat_full.nq.gz)
-[citypulse-traffic](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.1) | [10K (3.76 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.1/files/flat_10K.nt.gz) | [100K (37.66 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.1/files/flat_100K.nt.gz) | [1M (375.82 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.1/files/flat_1M.nt.gz) | [Full (1.61 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.1/files/flat_full.nt.gz)
-[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1) | [10K (3.96 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_10K.nq.gz) | [100K (39.64 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_100K.nq.gz) | [1M (395.85 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.1/files/flat_full.nq.gz)
-[dbpedia-live](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.1) | [10K (73.69 MB)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.1/files/flat_10K.nt.gz) | [100K (230.12 MB)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.1/files/flat_100K.nt.gz) | [Full (282.16 MB)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.1/files/flat_full.nt.gz) | [Full (282.16 MB)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.1/files/flat_full.nt.gz)
-[digital-agenda-indicators](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1) | [10K (425.32 KB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/flat_10K.nt.gz) | [100K (4.49 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/flat_100K.nt.gz) | [1M (40.89 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/flat_1M.nt.gz) | [Full (58.25 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.1/files/flat_full.nt.gz)
-[linked-spending](https://w3id.org/riverbench/datasets/linked-spending/1.0.1) | [10K (2.00 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/flat_10K.nt.gz) | [100K (17.39 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/flat_100K.nt.gz) | [1M (233.88 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/flat_1M.nt.gz) | [Full (576.48 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.1/files/flat_full.nt.gz)
-[lod-katrina](https://w3id.org/riverbench/datasets/lod-katrina/1.0.1) | [10K (979.31 KB)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.1/files/flat_10K.nt.gz) | [100K (13.86 MB)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.1/files/flat_100K.nt.gz) | [1M (147.94 MB)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.1/files/flat_1M.nt.gz) | [Full (860.60 MB)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.1/files/flat_full.nt.gz)
-[muziekweb](https://w3id.org/riverbench/datasets/muziekweb/1.0.1) | [10K (860.14 KB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/flat_10K.nt.gz) | [100K (8.40 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/flat_100K.nt.gz) | [1M (91.60 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/flat_1M.nt.gz) | [Full (299.91 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.1/files/flat_full.nt.gz)
-[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/1.0.1) | [10K (3.46 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1/files/flat_10K.nq.gz) | [100K (35.75 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1/files/flat_100K.nq.gz) | [1M (384.63 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.1/files/flat_full.nq.gz)
-[politiquices](https://w3id.org/riverbench/datasets/politiquices/1.0.1) | [10K (1.65 MB)](https://w3id.org/riverbench/datasets/politiquices/1.0.1/files/flat_10K.nt.gz) | [Full (2.93 MB)](https://w3id.org/riverbench/datasets/politiquices/1.0.1/files/flat_full.nt.gz) | [Full (2.93 MB)](https://w3id.org/riverbench/datasets/politiquices/1.0.1/files/flat_full.nt.gz) | [Full (2.93 MB)](https://w3id.org/riverbench/datasets/politiquices/1.0.1/files/flat_full.nt.gz)
+[assist-iot-weather](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.2) | [10K (4.71 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.2/files/flat_10K.nt.gz) | [100K (47.07 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.2/files/flat_100K.nt.gz) | [Full (330.19 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.2/files/flat_full.nt.gz) | [Full (330.19 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather/1.0.2/files/flat_full.nt.gz)
+[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2) | [10K (5.04 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/flat_10K.nq.gz) | [100K (50.34 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/flat_100K.nq.gz) | [Full (353.01 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/flat_full.nq.gz) | [Full (353.01 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/flat_full.nq.gz)
+[citypulse-traffic](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.2) | [10K (3.76 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.2/files/flat_10K.nt.gz) | [100K (37.66 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.2/files/flat_100K.nt.gz) | [1M (375.82 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.2/files/flat_1M.nt.gz) | [Full (1.61 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic/1.0.2/files/flat_full.nt.gz)
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2) | [10K (3.96 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_10K.nq.gz) | [100K (39.64 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_100K.nq.gz) | [1M (395.85 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/flat_full.nq.gz)
+[dbpedia-live](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.2) | [10K (73.69 MB)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.2/files/flat_10K.nt.gz) | [100K (230.12 MB)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.2/files/flat_100K.nt.gz) | [Full (282.16 MB)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.2/files/flat_full.nt.gz) | [Full (282.16 MB)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.2/files/flat_full.nt.gz)
+[digital-agenda-indicators](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2) | [10K (425.32 KB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/flat_10K.nt.gz) | [100K (4.49 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/flat_100K.nt.gz) | [1M (40.89 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/flat_1M.nt.gz) | [Full (58.25 MB)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/1.0.2/files/flat_full.nt.gz)
+[linked-spending](https://w3id.org/riverbench/datasets/linked-spending/1.0.2) | [10K (2.00 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/flat_10K.nt.gz) | [100K (17.39 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/flat_100K.nt.gz) | [1M (233.88 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/flat_1M.nt.gz) | [Full (576.48 MB)](https://w3id.org/riverbench/datasets/linked-spending/1.0.2/files/flat_full.nt.gz)
+[lod-katrina](https://w3id.org/riverbench/datasets/lod-katrina/1.0.2) | [10K (979.31 KB)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.2/files/flat_10K.nt.gz) | [100K (13.86 MB)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.2/files/flat_100K.nt.gz) | [1M (147.94 MB)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.2/files/flat_1M.nt.gz) | [Full (860.60 MB)](https://w3id.org/riverbench/datasets/lod-katrina/1.0.2/files/flat_full.nt.gz)
+[muziekweb](https://w3id.org/riverbench/datasets/muziekweb/1.0.2) | [10K (860.14 KB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/flat_10K.nt.gz) | [100K (8.40 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/flat_100K.nt.gz) | [1M (91.60 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/flat_1M.nt.gz) | [Full (299.91 MB)](https://w3id.org/riverbench/datasets/muziekweb/1.0.2/files/flat_full.nt.gz)
+[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/1.0.2) | [10K (3.46 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2/files/flat_10K.nq.gz) | [100K (35.75 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2/files/flat_100K.nq.gz) | [1M (384.63 MB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2/files/flat_1M.nq.gz) | [Full (1.69 GB)](https://w3id.org/riverbench/datasets/nanopubs/1.0.2/files/flat_full.nq.gz)
+[politiquices](https://w3id.org/riverbench/datasets/politiquices/1.0.2) | [10K (1.65 MB)](https://w3id.org/riverbench/datasets/politiquices/1.0.2/files/flat_10K.nt.gz) | [Full (2.93 MB)](https://w3id.org/riverbench/datasets/politiquices/1.0.2/files/flat_full.nt.gz) | [Full (2.93 MB)](https://w3id.org/riverbench/datasets/politiquices/1.0.2/files/flat_full.nt.gz) | [Full (2.93 MB)](https://w3id.org/riverbench/datasets/politiquices/1.0.2/files/flat_full.nt.gz)
