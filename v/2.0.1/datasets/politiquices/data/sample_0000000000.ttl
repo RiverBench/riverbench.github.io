@@ -1,0 +1,16 @@
+@prefix ns1: <http://purl.org/dc/elements/1.1/> .
+@prefix ns2: <http://www.politiquices.pt/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.linguateca.pt/CHAVE?PUBLICO-19940819-122>
+        ns1:date   "1994-08-19"^^xsd:date;
+        ns1:title  "Mota Amaral com Cavaco"@pt .
+
+[ ns2:ent1      <http://www.wikidata.org/entity/Q745134>;
+  ns2:ent1_str  "Mota Amaral";
+  ns2:ent2      <http://www.wikidata.org/entity/Q57398>;
+  ns2:ent2_str  "Cavaco";
+  ns2:score     "0.6829476952552795"^^xsd:float;
+  ns2:type      "ent1_other_ent2";
+  ns2:url       <https://www.linguateca.pt/CHAVE?PUBLICO-19940819-122>
+] .
