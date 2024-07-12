@@ -3074,17 +3074,18 @@
 <li>Fill in the following fields for the new release:<ul>
 <li>Input "source" as the tag for the release.</li>
 <li>Enter "Source" as the release name.</li>
-<li>Check the "Set as a pre-release" option.</li>
-<li>Leave the other options unchanged.</li>
+<li>Check the "Set as a pre-release" option (it's below the large text field).</li>
+<li>Leave other options unchanged.</li>
 </ul>
 </li>
 <li>Upload the prepared source archive (<code>source.tar.gz</code>) by dragging and dropping the file into the designated area.</li>
-<li>Once the source archive is attached, click on the "Publish release" button to finalize and publish the dataset source release.</li>
+<li>Once the source archive is attached, click on the "Publish release" button to finalize the upload.</li>
 </ol>
 <h2 id="step-4-fill-out-the-metadata">Step 4: Fill out the metadata</h2>
 <ol>
 <li>Open the <code>metadata.ttl</code> file in your new dataset repository.</li>
 <li>Use the information from the issue template you filled out earlier to complete the required fields in the <code>metadata.ttl</code> file. Replace the placeholder text with the appropriate information from the template.<ul>
+<li>You can have a look at the metadata of <a href="../../datasets/">other datasets</a> for reference.</li>
 <li>In the <code>dcterms:description</code> field and other free-text fields you can use Markdown formatting.</li>
 <li>For <code>dcat:theme</code> use concepts from the <a href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://eurovoc.europa.eu/100141">EuroVoc thesaurus</a>. Use only elements of type "Concept" (without a number in their name), not "Concept scheme" or "Domain concept".</li>
 </ul>
@@ -3097,16 +3098,20 @@
 <h2 id="instructions-for-admins">Instructions for admins</h2>
 <ul>
 <li>Review the issue template – make sure all required information is provided.</li>
-<li>Create a new repository for the dataset with name <code>dataset-[IDENTIFIER]</code>.</li>
-<li>Add the dataset maintainer as a collaborator to the repository.</li>
+<li><a href="https://github.com/organizations/RiverBench/repositories/new">Create a new repository</a> for the dataset with name <code>dataset-[IDENTIFIER]</code>. In the repository settings:</li>
+<li>Use the <code>RiverBench/dataset-template</code> repository as the template.</li>
+<li>Mark the repo as public.</li>
+<li>Add the dataset maintainer as a collaborator to the repository in repo settings.</li>
 <li>Reply in the issue to the maintainer with the link to the repository and a link to step 3 of this guide.</li>
 <li>After the maintainer completes steps 3 and 4, check if the CI passes correctly up to the dataset and documentation update steps (these should fail). If not, try to fix the issue.</li>
 <li>Go to the <a href="https://github.com/organizations/RiverBench/settings/secrets/actions">organization secret settings</a>. For secrets <code>PAT_DOC_REPO_HOOKS</code>, <code>PAT_MAIN_REPO_HOOKS</code>, and <code>PAT_DATASET_CAT_REPO_HOOKS</code> add repository access for the new dataset repository.</li>
 <li>In <a href="https://zenodo.org/account/settings/github/">Zenodo settings</a> enable the new repository.</li>
-<li>Create a new branch for the proposal issue.</li>
+<li>Create a new branch in the main repo (RiverBench/RiverBench) for the proposal issue.</li>
 <li>In the new branch, run <code>git submodule add ../dataset-[ID] datasets/[ID]</code>.</li>
-<li>Commit and merge the branch to main.</li>
-<li>Re-run the CI in the dataset repo to check if the dataset and documentation update steps pass correctly.</li>
+<li>Commit and push changes to GitHub.</li>
+<li>Create a pull request for the branch and merge it to main.</li>
+<li>Re-run the CI in the dataset repo and check if the dataset and documentation update steps pass correctly.</li>
+<li>After all CI finishes check if the <a href="../../datasets/">dataset list</a> and profiles were updated correctly. Check the dataset's documentation page for any obvious issues.</li>
 </ul>
 <h2 id="see-also">See also</h2>
 <ul>
