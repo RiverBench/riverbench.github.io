@@ -101,6 +101,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/datasets/openaire-lod/</loc>
+         <lastmod>2024-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/datasets/politiquices/</loc>
          <lastmod>2024-07-12</lastmod>
          <changefreq>daily</changefreq>

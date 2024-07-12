@@ -1,0 +1,20 @@
+<http://lod.openaire.eu/data/result/crossref____::a3c372b7108d0c714c08e4a8378f5f90>
+        a       <http://lod.openaire.eu/vocab/ResultEntity>;
+        <http://lod.openaire.eu/vocab/author>
+                "Prates Ramalho, João P." , "Gomes, José R. B." , "Illas, Francesc";
+        <http://lod.openaire.eu/vocab/bestaccessright>
+                "UNKNOWN";
+        <http://lod.openaire.eu/vocab/collectedfrom>
+                "Crossref";
+        <http://lod.openaire.eu/vocab/dateofcollection>
+                "2017-01-31T15:48:12.213Z";
+        <http://lod.openaire.eu/vocab/outcome>
+                <http://lod.openaire.eu/data/project/sgov________::6f7b8585c55b9c26b545708f3452e217> , <http://lod.openaire.eu/data/project/corda__h2020::805040189e1fd94da068ccacec7d8c99>;
+        <http://lod.openaire.eu/vocab/pid>
+                "10.1039/c6cp06971a";
+        <http://lod.openaire.eu/vocab/resourcetype>
+                "UNKNOWN";
+        <http://lod.openaire.eu/vocab/resulttype>
+                "publication";
+        <http://lod.openaire.eu/vocab/title>
+                "Adsorption of CO on the rutile TiO 2 (110) surface: a dispersion-corrected density functional theory study" .
