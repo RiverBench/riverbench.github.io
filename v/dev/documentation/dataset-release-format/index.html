@@ -13,14 +13,14 @@
         <link rel="canonical" href="https://w3id.org/riverbench/latest/documentation/dataset-release-format/">
       
       
-        <link rel="prev" href="../contribute/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../editing-docs/">
+        <link rel="next" href="../licensing/">
       
       
       <link rel="icon" href="../../assets/riverbench_vector_icon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.26">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.28">
     
     
       
@@ -312,11 +312,11 @@
         
       
         
-      
-        
-      
-        
           
+        
+      
+        
+      
         
       
         
@@ -378,11 +378,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../contribute/" class="md-nav__link">
+      <a href="../using/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    How to contribute?
+    Using RiverBench – quick start guide
   </span>
   
 
@@ -390,6 +390,8 @@
     </li>
   
 
+              
+            
               
             
               
@@ -520,55 +522,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../editing-docs/" class="md-nav__link">
+      <a href="../licensing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Editing documentation
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../categories/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Working with benchmark categories
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../using/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Using RiverBench – quick start guide
+    Licensing and citation
   </span>
   
 
@@ -606,11 +564,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../metadata/" class="md-nav__link">
+      <a href="../contribute/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Metadata
+    How to contribute?
   </span>
   
 
@@ -627,32 +585,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../licensing/" class="md-nav__link">
+      <a href="../editing-docs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Licensing and citation
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../creating-new-dataset/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Creating a new dataset
+    Editing documentation
   </span>
   
 
@@ -690,11 +627,74 @@
   
   
     <li class="md-nav__item">
+      <a href="../categories/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with benchmark categories
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../versioning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Versioning and releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../creating-new-dataset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a new dataset
   </span>
   
 
@@ -2998,8 +2998,8 @@
 <p>Flat distributions are serialized in the <a href="https://www.w3.org/TR/n-triples/">N-Triples</a> or <a href="https://www.w3.org/TR/n-quads/">N-Quads</a> format, depending on stream type. In case RDF-star is used in the dataset, the used formats are <a href="https://www.w3.org/2021/12/rdf-star.html#n-triples-star">N-Triples-star</a> or <a href="https://www.w3.org/2021/12/rdf-star.html#n-quads-star">N-Quads-star</a>. The files are compressed with <a href="https://en.wikipedia.org/wiki/Gzip">gzip</a>. This format is streamable, as you can decompress gzip-compressed files on-the-fly and read the statements line-by-line.</p>
 <p>The flat distribution files are named <code>flat_{size}.nt.gz</code> or <code>flat_{size}.nq.gz</code>, where <code>{size}</code> is the number of stream elements in the file. For example, <code>flat_10K.nt.gz</code> is a flat distribution file of a triple stream with 10,000 stream elements. The full distribution is denoted by <code>flat_full.nt.gz</code> or <code>flat_full.nq.gz</code>.</p>
 <h2 id="stream-distributions">Stream distributions</h2>
-<p>In streaming distributions each stream element is represented by a separate file. The files are compressed in a <code>.tar.gz</code> archive. The files are sequentially named starting from <code>0000000000.Y</code>, and sequentially up to <code>X.Y</code>, where <code>X + 1</code> is the number of stream elements in the dataset, and Y is the file extension. All numbers are zero-padded to exactly ten digits. The files are in nested directories with at most 1000 files per directory, to avoid issues with some file systems and file browsers. The number of levels of directories depends on the size of the distribution, with 10K–1M distributions having one level of directories and larger distributions having two.</p>
-<p>The file names are sequentially numbered, and the files are stored in nested directories with at most 1000 files per directory, to avoid issues with some file systems and file browsers. The files are laid out in the archive sequentially, that is, physically the bytes files <code>X</code> and <code>X+1</code> are next to each other. This allows the package to be processed one element at a time without decompressing the entire archive. To do that, you will need a streaming decompressor / untar utility like the one in Pekko Streams (<a href="https://pekko.apache.org/docs/pekko-connectors/current/file.html#tar-archive">tarReader</a>, <a href="https://pekko.staged.apache.org/docs/pekko/current/stream/operators/Compression/gunzip.html">gunzip</a>) or <a href="https://commons.apache.org/proper/commons-compress/">Apache Commons Compress</a>.</p>
+<p>In streaming distributions each stream element is represented by a separate file. The files are compressed in a <code>.tar.gz</code> archive. The files are sequentially named starting from <code>0000000000.Y</code> up to <code>X.Y</code>, where <code>X + 1</code> is the number of stream elements in the dataset, and Y is the file extension. All numbers are zero-padded to exactly ten digits. The files are in nested directories with at most 1000 files per directory, to avoid issues with some file systems and file browsers. The number of levels of directories depends on the size of the distribution, with 10K–1M distributions having one level of directories and larger distributions having two.</p>
+<p>The files are laid out in the archive sequentially, that is, physically the bytes of files <code>X</code> and <code>X+1</code> are next to each other. This allows the package to be processed one element at a time without decompressing the entire archive. To do that, you will need a streaming decompressor / untar utility like the one in Pekko Streams (<a href="https://pekko.apache.org/docs/pekko-connectors/current/file.html#tar-archive">tarReader</a> and <a href="https://pekko.staged.apache.org/docs/pekko/current/stream/operators/Compression/gunzip.html">gunzip</a>), or <a href="https://commons.apache.org/proper/commons-compress/">Apache Commons Compress</a>.</p>
 <p>Each element is serialized in either the <a href="https://www.w3.org/TR/turtle/">Turtle</a> or the <a href="https://www.w3.org/TR/trig/">TriG</a> format, depending on the stream type. In case RDF-star is used in the dataset, the used formats are <a href="https://www.w3.org/2021/12/rdf-star.html#turtle-star">Turtle-star</a> or <a href="https://www.w3.org/2021/12/rdf-star.html#trig-star">TriG-star</a>.</p>
 <p>The streaming distribution files are named <code>stream_{size}.tar.gz</code>, where <code>{size}</code> is the number of stream elements in the file. For example, <code>stream_10K.tar.gz</code> is a streaming distribution file with 10,000 stream elements. The full distribution is denoted by <code>stream_full.tar.gz</code>.</p>
 <h3 id="example-rdf-graph-stream-stream_10ktargz">Example – <a href="https://w3id.org/stax/dev/taxonomy#rdf-graph-stream">RDF graph stream</a>, <code>stream_10K.tar.gz</code></h3>
@@ -3049,8 +3049,8 @@
 </span></code></pre></div>
 <h2 id="jelly-distributions">Jelly distributions</h2>
 <p>Jelly distributions simply use delimited <code>RdfStreamFrame</code>s to denote the individual elements in the stream. The streams are either of <code>TRIPLES</code> type (for <a href="https://w3id.org/stax/dev/taxonomy#rdf-graph-stream">RDF graph streams</a>) or <code>QUADS</code> for <a href="https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream">RDF dataset streams</a>. The resulting file is gzip-compressed.</p>
-<p>Parsing Jelly files should be <a href="https://arxiv.org/pdf/2207.04439.pdf"><strong>about 5 times faster</strong></a> than the other distribution types, depending on the dataset and your hardware. Dataset sizes should be more-or-less the same when compressed, but <strong>when uncompressed Jelly will be 3–4 times smaller</strong>.</p>
-<p>Reading Jelly files is currently supported in Apache Jena and RDF4J, using the <a href="https://github.com/Jelly-RDF/jelly-jvm"><code>jelly-jvm</code></a> library. Please refer to <a href="https://jelly-rdf.github.io/latest/jvm/">Jelly's website</a> for usage examples and documentation.</p>
+<p>Parsing Jelly files should be <a href="https://arxiv.org/pdf/2207.04439.pdf"><strong>about 5 times faster</strong></a> than the other distribution types, depending on the dataset and your hardware. Dataset sizes should be more-or-less the same when compressed, but <strong>when uncompressed, Jelly will be 3–4 times smaller</strong>.</p>
+<p>Reading Jelly files is currently supported in Apache Jena and RDF4J, using the <a href="https://github.com/Jelly-RDF/jelly-jvm"><code>jelly-jvm</code></a> library. Please refer to <a href="https://jelly-rdf.github.io/jelly-jvm/">Jelly's website</a> for usage examples and documentation.</p>
 <h2 id="see-also">See also</h2>
 <ul>
 <li><a href="../metadata/">Metadata</a></li>
@@ -3130,7 +3130,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": ["latest", "stable"], "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   </body>
