@@ -16,7 +16,7 @@ What datasets are we looking for?
 - **Interesting thematically and relevant** – does your dataset bring an interesting new use case? Perfect! Even better if the use case has seen real-world usage.
 - **Large** – the stream must be at least 10 thousand elements long, preferably more. The larger the better.
 
-If you think your dataset fits the bill, have a look at the [dedicated guide on creating new datasets](creating-new-dataset.md). If you still have questions, don't hesitate to contact RiverBench's maintainer by [opening an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose).
+If you think your dataset fits the bill, have a look at the **[dedicated guide on creating new datasets](creating-new-dataset.md)**. If you still have questions, don't hesitate to contact RiverBench's maintainer by [opening an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose).
 
 ## Contributing benchmark tasks
 
