@@ -6,8 +6,6 @@ on:
 jobs:
   update_category_docs:
     name: "Update category documentation"
-    # Only one job at a time, to avoid confflicts.
-    concurrency: doc-update
     runs-on: "ubuntu-latest"
     permissions: write-all
     env:
@@ -42,13 +40,13 @@ jobs:
 
           # Profiles
           mkdir -p "../../profiles" || true
-          rm -f "../../profiles/${CATEGORY_ID}-*.md" || true
+          rm -f ../../profiles/${CATEGORY_ID}-*.md || true
           mv ./profiles/*.md "../../profiles" || true
           rm -r ./profiles
 
           # Tasks
           mkdir -p "../../tasks" || true
-          rm -rf "../../tasks/${CATEGORY_ID}-*" || true
+          rm -rf ../../tasks/${CATEGORY_ID}-* || true
           cp -r ./tasks/* ../../tasks || true
           rm -r ./tasks
 

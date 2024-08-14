@@ -1,0 +1,32 @@
+<http://lod.openaire.eu/data/result/doiboost____::96adf775f366c2857399ff0710f0d9c8>
+        a       <http://lod.openaire.eu/vocab/ResultEntity>;
+        <http://lod.openaire.eu/vocab/affiliation>
+                <http://lod.openaire.eu/data/organization/grid________::14fc4b9a5bf19a1d373537a2a3c16e44>;
+        <http://lod.openaire.eu/vocab/author>
+                "Padma Adriana" , "Zaki Baridwan" , "Rosidi Rosidi";
+        <http://lod.openaire.eu/vocab/bestaccessright>
+                "OPEN";
+        <http://lod.openaire.eu/vocab/collectedfrom>
+                "Microsoft Academic Graph";
+        <http://lod.openaire.eu/vocab/dateofacceptance>
+                "2014-02-20";
+        <http://lod.openaire.eu/vocab/dateofcollection>
+                "2017-05-11T18:50:59Z";
+        <http://lod.openaire.eu/vocab/description>
+                "<jats:p>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Abstract&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;The purpose of this study is to examine the determinant of tax practitioners ethical decision making behaviour. The factors that were examined in this study were individual factors; PRESOR, &lt;/em&gt;Machiavellian&lt;em&gt;, and situational factors; risk preference, importance of tax to practice, exposure to current tax practice, closeness of client relationship. &lt;/em&gt;&lt;em&gt; &lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;This study used survey method in gathering the data. Population of this study were tax practitioners joined in IKPI (Ikatan Konsultan Pajak Indonesia) in Jawa Timur, Indonesia. A total of 38 &lt;/em&gt;&lt;em&gt;samples&lt;/em&gt;&lt;em&gt; were processed using Logistic Regression. The model of this study explained &lt;/em&gt;&lt;em&gt;45&lt;/em&gt;&lt;em&gt;% determinants of tax practitioners ethical decision making. &lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;The results of this study showed that PRESOR and &lt;/em&gt;Machiavellian&lt;em&gt; as individual factors affects tax practitioners ethical decision making. Situational factors in this study, which were risk preference, importance of tax to practice, exposure to current tax practice, closeness of client relationship was proven not to have a significant effect to ethical decision making. &lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt; &lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Keywords:  Ethical Decision Making, Individual Factors, PRESOR, &lt;/em&gt;Machiavellian&lt;em&gt;, Situational Factors.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt; &lt;p&gt; &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Abstrak&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Studi ini bertujuan untuk menguji determinan pengambilan keputusan etis konsultan pajak. Faktor-faktor yang diteliti pada studi ini adalah faktor individu, yaitu PRESOR dan Machiavellian, dan faktor situasional, yaitu preferensi risiko&lt;em&gt;, &lt;/em&gt;dominasi profesional&lt;em&gt;, &lt;/em&gt;kekinian informasi&lt;em&gt;, &lt;/em&gt;dan&lt;em&gt; &lt;/em&gt;hubungan profesional&lt;em&gt;. &lt;/em&gt;&lt;em&gt; &lt;/em&gt;&lt;/p&gt; &lt;p&gt;Studi ini menggunakan metode survei dalam pengambilan data. Populasi yang digunakan adalah konsultan pajak yang terdaftar di Ikatan Konsultan Pajak Indonesia (IKPI) Jawa Timur. Sebanyak 38 sampel yang dapat diolah dengan menggunakan regresi logistik dan hasilnya adalah model studi dapat menjelaskan 45% determinan pengambilan keputusan etis konsultan pajak.&lt;/p&gt; &lt;p&gt;Hasil studi ini menunjukkan bahwa faktor individu yaitu PRESOR dan Machiavellian memberikan pengaruh signifikan terhadap pengambilan keputusan etis konsultan pajak, sedangkan faktor situasional yaitu preferensi risiko&lt;em&gt;, &lt;/em&gt;dominasi profesional&lt;em&gt;, &lt;/em&gt;kekinian informasi&lt;em&gt;, &lt;/em&gt;dan&lt;em&gt; &lt;/em&gt;hubungan profesional tidak berpengaruh secara signifikan terhadap pengambilan keputusan etis.&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt;Kata kunci: Pengambilan Keputusan Etis, Faktor Individu, PRESOR, Machiavellian, Faktor Situasional.&lt;/p&gt;</jats:p>";
+        <http://lod.openaire.eu/vocab/originalid>
+                "10.18860/em.v4i2.2456";
+        <http://lod.openaire.eu/vocab/pid>
+                "10.18860/em.v4i2.2456";
+        <http://lod.openaire.eu/vocab/publisher>
+                "Maulana Malik Ibrahim State Islamic University";
+        <http://lod.openaire.eu/vocab/resourcetype>
+                "0001";
+        <http://lod.openaire.eu/vocab/resulttype>
+                "publication";
+        <http://lod.openaire.eu/vocab/similarity>
+                <http://lod.openaire.eu/data/result/doiboost____::c2c2ee8a8be966c01a566cb71364c5c2>;
+        <http://lod.openaire.eu/vocab/subject>
+                "Ethical decision" , "Social psychology" , "education" , "education.field_of_study" , "Psychology" , "Population" , "Client relationship";
+        <http://lod.openaire.eu/vocab/title>
+                "FAKTOR INDIVIDU DAN FAKTOR SITUASIONAL : DETERMINAN PEMBUATAN KEPUTUSAN ETIS KONSULTAN PAJAK" .

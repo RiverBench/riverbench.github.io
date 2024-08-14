@@ -52,15 +52,9 @@ See the **[quick start guide](../../documentation/using.md)** for more informati
     - [flat-serialization-throughput (dev)](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput)
 - **<abbr title="For benchmark categories this property indicates profiles that belong to the category.">Has benchmark profile</abbr>**: 
     - [flat-mixed (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed)
-    - [flat-mixed-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-nonstandard)
     - [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar)
-    - [flat-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar-nonstandard)
     - [flat-quads (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads)
-    - [flat-quads-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads-nonstandard)
     - [flat-quads-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads-rdfstar)
-    - [flat-quads-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads-rdfstar-nonstandard)
     - [flat-triples (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples)
-    - [flat-triples-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-nonstandard)
     - [flat-triples-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-rdfstar)
-    - [flat-triples-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples-rdfstar-nonstandard)
 

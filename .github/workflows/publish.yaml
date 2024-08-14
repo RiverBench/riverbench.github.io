@@ -14,6 +14,9 @@ jobs:
     env:
       RELEASE_TAG: ${{ github.event.client_payload.tag }}
     runs-on: ubuntu-latest
+    # One job at a time, cancel any pending jobs (but not those in progress).
+    concurrency:
+      group: compile-docs-${{ github.ref }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,11 +33,20 @@ jobs:
       - name: "Copy stable datasets, categories, tasks, profiles, main page, schemas"
         if: ${{ github.event.client_payload.tag && github.event.client_payload.tag != 'dev' }}
         run: |
+          # Preserve the manually edited files from the main branch
+          cp main/docs/schema/index.md stable/docs/schema/index.md
+          cp main/docs/datasets/index.md stable/docs/datasets/index.md
+          cp main/docs/categories/index.md stable/docs/categories/index.md
+
+          # Remove the auto-generated dev content
           rm -r main/docs/datasets/* main/docs/categories/* main/docs/tasks/* \
-            main/docs/profiles/* main/docs/schema/* main/docs/index.md main/docs/table.md || true
+            main/docs/profiles/* main/docs/schema/* main/docs/index.md || true
+
+          # Copy the stable content
           cp -r stable/docs/datasets stable/docs/categories stable/docs/tasks \
-            stable/docs/profiles stable/docs/schema stable/docs/index.md stable/docs/table.md \
+            stable/docs/profiles stable/docs/schema stable/docs/index.md \
             main/docs || true
+          cp stable/docs/datasets/table.md main/docs/datasets/table.md || true
 
       # *** the part about adding redirects ***
       - name: "Checkout the repository (gh-pages)"

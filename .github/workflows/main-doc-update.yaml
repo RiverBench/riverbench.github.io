@@ -6,8 +6,6 @@ on:
 jobs:
   update_main_docs:
     name: "Update main documentation"
-    # Only one job at a time, to avoid confflicts.
-    concurrency: doc-update
     runs-on: "ubuntu-latest"
     permissions: write-all
     env:
@@ -27,13 +25,12 @@ jobs:
 
       - name: "Download the new content for the main documentation"
         run: |
-          VERSION_ID="${FROM_TAG#v}"
           cd "docs"
           rm "index.md" || true
-          wget "https://github.com/RiverBench/RiverBench/releases/download/dev/index.md"
+          wget "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/index.md"
           cd datasets
           rm "table.md" || true
-          wget -O "table.md" "https://github.com/RiverBench/RiverBench/releases/download/dev/dataset_table.md"
+          wget -O "table.md" "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/dataset_table.md"
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9

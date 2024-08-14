@@ -34,7 +34,7 @@ The procudure for making a release is the same as for datasets.
 
 ## Suite versioning
 
-The RiverBench suite is versioned in sync with benchmark categories, benchmark tasks, and profiles. The versioning schema is the same as for datasets, with MINOR version increments corresponding to possibly new distributions or new datasets, and MAJOR version increments corresponding to significant backwards-incompatible changes.
+The RiverBench suite is versioned in sync with benchmark categories, benchmark tasks, and profiles. The versioning schema is the same as for datasets, with MINOR version increments corresponding to possibly new distributions, new datasets, or tasks. MAJOR version increments correspond to significant backwards-incompatible changes (including large changes in the metadata structure).
 
 New tagged releases of the suite will automatically use the latest tagged release of each dataset and each schema. The `dev` version of the suite always includes the latest development version of each dataset and schema.
 
@@ -42,9 +42,9 @@ New tagged releases of the suite will automatically use the latest tagged releas
 
 It is very important to follow this specific procedure, otherwise a mixed release may be created, which would be "bad".
 
-- Go to each category repository (e.g., [category-flat](https://github.com/RiverBench/category-flat)) and carry out the same procedure as for making a release of a dataset.
+- Go to each category repository (e.g., [category-flat](https://github.com/RiverBench/category-flat)) and carry out the same procedure as for making a release of a dataset. Use the exact same version tag that you want to use for the suite.
 - Wait for the CI jobs in each category repository to finish.
-- Go to the [RiverBench main repository](https://github.com/RiverBench/RiverBench) and carry out the same procedure as for making a release of a dataset.
+- Go to the [RiverBench main repository](https://github.com/RiverBench/RiverBench) and carry out the same procedure as for making a release of a dataset, using the same version tag as for the categories.
 
 ## Archive / backup
 

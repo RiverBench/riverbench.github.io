@@ -1,3 +1,12 @@
 # Using RiverBench – quick start guide
 
-TODO
+<!-- 
+    TODO 
+    https://github.com/RiverBench/RiverBench/issues/73
+-->
+
+The quick start guide is under construction, sorry! In the meantime, you can refer to these documentation pages:
+
+- [Dataset release format](dataset-release-format.md)
+- [Metadata of datasets, profiles, and more](metadata.md)
+- [Licensing and citation](licensing.md)

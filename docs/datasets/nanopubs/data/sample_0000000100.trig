@@ -19,60 +19,60 @@
 @prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
 
 dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_publicationInfo {
-    dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc
-            dct:created       "2014-10-02T12:31:58+02:00"^^xsd:dateTime ;
-            dct:rights        <http://opendatacommons.org/licenses/odbl/1.0/> ;
-            dct:rightsHolder  dgn-void:IBIGroup ;
-            dct:subject       sio:SIO_000983 ;
-            prv:usedData      dgn-void:disgenetrdf ;
-            pav:authoredBy    orcid:0000-0002-9383-528X , orcid:0000-0002-7534-7661 , orcid:0000-0003-0169-8159 , orcid:0000-0003-1244-7654 , orcid:0000-0001-5999-6269 ;
-            pav:createdBy     orcid:0000-0003-0169-8159 ;
-            pav:version       "v2.1.0.0" .
-    
     dgn-void:disgenetrdf
             pav:version  "v2.1.0" .
+    
+    dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc
+            dct:created       "2014-10-02T12:31:58+02:00"^^xsd:dateTime;
+            dct:rights        <http://opendatacommons.org/licenses/odbl/1.0/>;
+            dct:rightsHolder  dgn-void:IBIGroup;
+            dct:subject       sio:SIO_000983;
+            prv:usedData      dgn-void:disgenetrdf;
+            pav:authoredBy    orcid:0000-0001-5999-6269 , orcid:0000-0003-1244-7654 , orcid:0000-0003-0169-8159 , orcid:0000-0002-7534-7661 , orcid:0000-0002-9383-528X;
+            pav:createdBy     orcid:0000-0003-0169-8159;
+            pav:version       "v2.1.0.0" .
 }
 
 dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_head {
-    dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc
-            a                      np:Nanopublication ;
-            np:hasAssertion        dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_assertion ;
-            np:hasProvenance       dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_provenance ;
-            np:hasPublicationInfo  dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_publicationInfo .
-    
-    dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_assertion
-            a       np:Assertion .
+    dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_provenance
+            a       np:Provenance .
     
     dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_publicationInfo
             a       np:PublicationInfo .
     
-    dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_provenance
-            a       np:Provenance .
+    dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_assertion
+            a       np:Assertion .
+    
+    dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc
+            a                      np:Nanopublication;
+            np:hasAssertion        dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_assertion;
+            np:hasProvenance       dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_provenance;
+            np:hasPublicationInfo  dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_publicationInfo .
 }
 
 dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_provenance {
-    dgn-void:uniprot-20130724
-            pav:importedOn  "2013-07-24"^^xsd:date .
+    dgn-void:source_evidence_curated
+            a             eco:ECO_0000205;
+            rdfs:comment  "Gene-disease associations manually curated."@en;
+            rdfs:label    "DisGeNET evidence - CURATED"@en .
     
     dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_assertion
-            dct:description      "[Early-onset Alzheimer disease caused by a new mutation (V717L) in the amyloid precursor protein gene.]. Sentence from MEDLINE/PubMed, a database of the U.S. National Library of Medicine."@en ;
-            wi:evidence          dgn-void:source_evidence_curated ;
-            sio:SIO_000772       miriam-pubmed:10867787 ;
-            prov:wasDerivedFrom  dgn-void:uniprot-20130724 ;
+            dct:description      "[Early-onset Alzheimer disease caused by a new mutation (V717L) in the amyloid precursor protein gene.]. Sentence from MEDLINE/PubMed, a database of the U.S. National Library of Medicine."@en;
+            wi:evidence          dgn-void:source_evidence_curated;
+            sio:SIO_000772       miriam-pubmed:10867787;
+            prov:wasDerivedFrom  dgn-void:uniprot-20130724;
             prov:wasGeneratedBy  eco:ECO_0000218 .
     
-    dgn-void:source_evidence_curated
-            a             eco:ECO_0000205 ;
-            rdfs:comment  "Gene-disease associations manually curated."@en ;
-            rdfs:label    "DisGeNET evidence - CURATED"@en .
+    dgn-void:uniprot-20130724
+            pav:importedOn  "2013-07-24"^^xsd:date .
 }
 
 dgn-np:NP439.RAnAGZRxms51dVhgtkvmSpL_kdz-Vwq5hO4eek71OLjpc130_assertion {
-    dgn-gda:DGN22056681e342b7a4144ba6539a52f0e6
-            a               sio:SIO_001122 ;
-            sio:SIO_000628  lld:C0002395 , miriam-gene:351 .
+    miriam-gene:351  a  ncit:C16612 .
     
     lld:C0002395  a  ncit:C7057 .
     
-    miriam-gene:351  a  ncit:C16612 .
+    dgn-gda:DGN22056681e342b7a4144ba6539a52f0e6
+            a               sio:SIO_001122;
+            sio:SIO_000628  lld:C0002395 , miriam-gene:351 .
 }

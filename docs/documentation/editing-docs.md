@@ -24,6 +24,8 @@ And that's it. The rest of the pages are generated automatically.
 
 In the [`doc` directory of the main repo](https://github.com/RiverBench/RiverBench/tree/main/doc) you will find the files that are used to build the index page of the website and the main README of the repository. These files are written in Markdown and can be edited directly.
 
-## Others?
+<!--
+    ## Others?
 
-TODO: this should be simplified... See: https://github.com/RiverBench/RiverBench/issues/80
+    TODO: this should be simplified... See: https://github.com/RiverBench/RiverBench/issues/80
+-->
