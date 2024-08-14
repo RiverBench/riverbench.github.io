@@ -40,13 +40,13 @@ jobs:
 
           # Profiles
           mkdir -p "../../profiles" || true
-          rm -f "../../profiles/${CATEGORY_ID}-*.md" || true
+          rm -f ../../profiles/${CATEGORY_ID}-*.md || true
           mv ./profiles/*.md "../../profiles" || true
           rm -r ./profiles
 
           # Tasks
           mkdir -p "../../tasks" || true
-          rm -rf "../../tasks/${CATEGORY_ID}-*" || true
+          rm -rf ../../tasks/${CATEGORY_ID}-* || true
           cp -r ./tasks/* ../../tasks || true
           rm -r ./tasks
 
