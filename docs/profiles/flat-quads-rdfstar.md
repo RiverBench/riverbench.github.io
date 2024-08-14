@@ -15,10 +15,7 @@ Flat sequence of quads (with RDF-star)
 - **<abbr title="Version tag of an artifact">Has version</abbr>**: `dev`
 - **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (dev)](https://w3id.org/riverbench/v/dev/categories/flat)
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: [flat-quads (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads)
-- **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
-    - [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar)
-    - [flat-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar-nonstandard)
-    - [flat-quads-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads-rdfstar-nonstandard)
+- **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
     - [assist-iot-weather-graphs (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev)
     - [citypulse-traffic-graphs (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev)

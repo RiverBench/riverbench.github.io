@@ -17,10 +17,7 @@ Flat sequence of triples or quads (RDF 1.1 standard only)
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
     - [flat-quads (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-quads)
     - [flat-triples (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-triples)
-- **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
-    - [flat-mixed-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-nonstandard)
-    - [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar)
-    - [flat-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar-nonstandard)
+- **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: [flat-mixed-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/flat-mixed-rdfstar)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
     - [assist-iot-weather (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather/dev)
     - [assist-iot-weather-graphs (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev)
