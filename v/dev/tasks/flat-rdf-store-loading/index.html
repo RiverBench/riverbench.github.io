@@ -2524,7 +2524,7 @@
 <h3 id="data">Data</h3>
 <p>Flat distributions of any dataset in the <a href="../../categories/flat/"><code>flat</code> category</a> of RiverBench may be used for this task.</p>
 <h3 id="workload">Workload</h3>
-<p>In this task, an RDF store is set up (for example, <a href="https://jena.apache.org/documentation/tdb2/index.html">Apache Jena TDB2</a> or Virtuoso) and then instructed to load a flat file containing RDF statements (triples or quads).</p>
+<p>In this task, an RDF store is set up (for example, <a href="https://jena.apache.org/documentation/tdb2/index.html">Apache Jena TDB2</a>, <a href="https://github.com/openlink/virtuoso-opensource/">OpenLink Virtuoso Open Source v7.x</a>, or <a href="https://rdf4j.org/documentation/programming/repository/">RDF4J's NativeStore</a>) and then loaded with a flat dump of RDF statements (triples or quads).</p>
 <ul>
 <li>When comparing multiple RDF stores, identical input data (serialized in the same format) should be used for all stores.</li>
 <li>The benchmark includes the time taken to deserialize the input data and insert the resulting RDF statements into the store, considering the entire process and the impact of the underlying I/O.</li>
