@@ -26,7 +26,6 @@ Streaming graphs or datasets (with RDF-star)
     - [stream-subject-graphs-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar)
     - [stream-ts-named-graphs (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs)
     - [stream-ts-named-graphs-rdfstar (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar)
-- **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: [stream-mixed-rdfstar-nonstandard (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-mixed-rdfstar-nonstandard)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
     - [assist-iot-weather (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather/dev)
     - [assist-iot-weather-graphs (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev)
