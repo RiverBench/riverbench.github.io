@@ -10,7 +10,7 @@ Flat distributions of any dataset in the [`flat` category](../../categories/flat
 
 ### Workload
 
-In this task, an RDF store is set up (for example, [Apache Jena TDB2](https://jena.apache.org/documentation/tdb2/index.html), [OpenLink Virtuoso Open Source v7.x](https://github.com/openlink/virtuoso-opensource/), or [OpenLink Virtuoso Enterprise Edition v8.x](https://shop.openlinksw.com/license_generator/virtuoso-download/)) and then loaded with a flat dump of RDF statements (triples or quads).
+In this task, an RDF store is set up (for example, [Apache Jena TDB2](https://jena.apache.org/documentation/tdb2/index.html), [OpenLink Virtuoso Open Source v7.x](https://github.com/openlink/virtuoso-opensource/), or [RDF4J's NativeStore](https://rdf4j.org/documentation/programming/repository/)) and then loaded with a flat dump of RDF statements (triples or quads).
 
 - When comparing multiple RDF stores, identical input data (serialized in the same format) should be used for all stores.
 - The benchmark includes the time taken to deserialize the input data and insert the resulting RDF statements into the store, considering the entire process and the impact of the underlying I/O.
