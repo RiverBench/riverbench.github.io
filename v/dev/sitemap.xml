@@ -176,32 +176,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/flat-mixed-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/flat-mixed-rdfstar-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://w3id.org/riverbench/latest/profiles/flat-mixed-rdfstar/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://w3id.org/riverbench/latest/profiles/flat-mixed/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/flat-quads-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/flat-quads-rdfstar-nonstandard/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -216,32 +196,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/flat-triples-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/flat-triples-rdfstar-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://w3id.org/riverbench/latest/profiles/flat-triples-rdfstar/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://w3id.org/riverbench/latest/profiles/flat-triples/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-datasets-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-datasets-rdfstar-nonstandard/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -256,32 +216,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-graphs-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-graphs-rdfstar-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://w3id.org/riverbench/latest/profiles/stream-graphs-rdfstar/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://w3id.org/riverbench/latest/profiles/stream-graphs/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-mixed-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-mixed-rdfstar-nonstandard/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -296,16 +236,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-named-graphs-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-named-graphs-rdfstar-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://w3id.org/riverbench/latest/profiles/stream-named-graphs-rdfstar/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
@@ -316,32 +246,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-subject-graphs-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-subject-graphs-rdfstar-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://w3id.org/riverbench/latest/profiles/stream-subject-graphs-rdfstar/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://w3id.org/riverbench/latest/profiles/stream-subject-graphs/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-ts-named-graphs-nonstandard/</loc>
-         <lastmod>2024-08-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://w3id.org/riverbench/latest/profiles/stream-ts-named-graphs-rdfstar-nonstandard/</loc>
          <lastmod>2024-08-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
