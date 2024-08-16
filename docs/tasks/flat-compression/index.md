@@ -23,7 +23,7 @@ In this task, the time taken to serialize and deserialize the data is not consid
 
 ## Results
 
-There are no results with RiverBench available for this task yet.
+**See the results for this task reported by the community: [RESULTS](results.md).**
 
 ## Examples and references
 
