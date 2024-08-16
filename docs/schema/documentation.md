@@ -6,7 +6,8 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 * **URI**
     * `https://w3id.org/riverbench/schema/documentation`
 * **Creators(s)**
-    * [Piotr Sowiński](https://github.com/Ostrzyciel)
+    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
+    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -48,13 +49,31 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Distributions](#groupDistributions)<br />[Content](#groupContent)<br />[General information](#groupGeneralInfo)<br />[Technical metadata](#groupTechnicalMetadata)<br />
+Has members |[Content](#groupContent)<br />[General information](#groupGeneralInfo)<br />[Technical metadata](#groupTechnicalMetadata)<br />[Distributions](#groupDistributions)<br />
 
 
 ## Object Properties
+[hasMeasuringSystem](#hasMeasuringSystem),
+[hasProducedDataset](#hasProducedDataset),
+[citesAsDataSource](#citesAsDataSource),
 [vocabulary](#vocabulary),
 [dataset](#dataset),
 [In suite](#inCatalog),
+
+### hasMeasuringSystem <a name="hasMeasuringSystem"></a>
+Property | Value
+--- | ---
+URI | `http://ontology.ethereal.cz/irao/hasMeasuringSystem`
+
+### hasProducedDataset <a name="hasProducedDataset"></a>
+Property | Value
+--- | ---
+URI | `http://ontology.ethereal.cz/irao/hasProducedDataset`
+
+### citesAsDataSource <a name="citesAsDataSource"></a>
+Property | Value
+--- | ---
+URI | `http://purl.org/spar/cito/citesAsDataSource`
 
 ### vocabulary <a name="vocabulary"></a>
 Property | Value
@@ -291,6 +310,8 @@ Class(es) | [Documentation group](#DocGroup)
 ## Namespaces
 * **default (rbdoc)**
     * `https://w3id.org/riverbench/schema/documentation#`
+* **cito**
+    * `http://purl.org/spar/cito/`
 * **dc**
     * `http://purl.org/dc/elements/1.1/`
 * **dcat**
@@ -299,6 +320,8 @@ Class(es) | [Documentation group](#DocGroup)
     * `http://purl.org/dc/terms/`
 * **foaf**
     * `http://xmlns.com/foaf/0.1/`
+* **irao**
+    * `http://ontology.ethereal.cz/irao/`
 * **owl**
     * `http://www.w3.org/2002/07/owl#`
 * **rb**
