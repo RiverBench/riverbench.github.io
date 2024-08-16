@@ -1,5 +1,7 @@
 # Benchmark results for task flat-rdf-store-loading
 
+[<- Back to task definition](index.md)
+
 ### RiverBench results for task flat-rdf-store-loading with profile flat-triples
 
 !!! info

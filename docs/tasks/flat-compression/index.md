@@ -25,7 +25,7 @@ In this task, the time taken to serialize and deserialize the data is not consid
 
 **See the results for this task reported by the community: [RESULTS](results.md).**
 
-## Examples and references
+## This task in benchmarks outside of RiverBench
 
 - In a paper about an RDF compression method using MapReduce, a compression benchmark was performed in Section 5.1. The authors have measured the output size of their method (in gigabytes) in comparison to the input data size.
     - Urbani, J., Maassen, J., Drost, N., Seinstra, F., & Bal, H. (2013). Scalable RDF data compression with MapReduce. Concurrency and Computation: Practice and Experience, 25(1), 24-39. [https://doi.org/10.1002/cpe.2840](https://doi.org/10.1002/cpe.2840)
