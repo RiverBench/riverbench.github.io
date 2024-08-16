@@ -2,14 +2,20 @@
 
 ### RiverBench results for task flat-rdf-store-loading with profile flat-triples
 
-This benchmark result was reported in a Nanopublication: [https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs](https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs).
+!!! info
+
+    This benchmark result was reported in a Nanopublication: [https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs](https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs).
+
+    The documentation here was generated automatically.
+
+
 
 
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**:  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 - **<abbr title="Date of creation of the resource.">Date Created</abbr>**: `2024-08-15T18:00:09.625Z`
 - **<abbr title="A description of the subject resource.">Comment</abbr>**: Comparison of RDF loading time across several resource-contrained hardware platforms (Raspberry Pi 3B, 4B, and 5).
-- **CitesAsDataSource**: Sowinski, P., Le-Tuan, A., Szmeja, P., &amp; Ganzha, M. (2024). <i>Not All RDF is Created Equal: Investigating RDF Load Times on Resource-Constrained Devices</i> (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2406.16412
+- **<abbr title="The citing entity cites the cited entity as source of data.">Cites as data source</abbr>**: Sowinski, P., Le-Tuan, A., Szmeja, P., &amp; Ganzha, M. (2024). <i>Not All RDF is Created Equal: Investigating RDF Load Times on Resource-Constrained Devices</i> (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2406.16412
 - **<abbr title="This property specifies a system that measures a benchmark">Has measuring system</abbr>**: Sowiński, P. (2024). <i>Benchmark code for RDF load time evaluation (RiverBench &amp; RDF4Led)</i> (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.12089254
 - **<abbr title="This property specifies the protocol that a benchmark follows">Has followed protocol</abbr>**: 
     - **Type**:     

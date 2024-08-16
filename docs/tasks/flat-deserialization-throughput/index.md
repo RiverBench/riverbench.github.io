@@ -24,7 +24,7 @@ The primary metric is the throughput of the deserialization process, measured in
 
 ## Results
 
-There are no results with RiverBench available for this task yet.
+**See the results for this task reported by the community: [RESULTS](results.md).**
 
 ## Examples and references
 
