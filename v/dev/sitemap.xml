@@ -326,7 +326,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-compression/results/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/tasks/stream-deserialization-throughput/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-deserialization-throughput/results/</loc>
          <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -336,12 +346,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-latency-end-to-end/results/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/tasks/stream-serialization-throughput/</loc>
          <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-serialization-throughput/results/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/tasks/stream-throughput-end-to-end/</loc>
+         <lastmod>2024-08-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/tasks/stream-throughput-end-to-end/results/</loc>
          <lastmod>2024-08-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
