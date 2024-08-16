@@ -34,9 +34,9 @@ To isolate the performance of the streaming process itself, the following steps 
 
 ## Results
 
-There are no results with RiverBench available for this task yet.
+**See the results for this task reported by the community: [RESULTS](results.md).**
 
-## Examples and references
+## This task in benchmarks outside of RiverBench
 
 - In the paper about the Jelly streaming protocol, such a benchmark is performed in Section IV.D. The authors have measured the end-to-end throughput of several methods (over Kafka and gRPC) in terms of the number of triples transmitted per second. In the experiment, both the producer and the consumer were running on the same physical machine and various network conditions were simulated using the NetEm Linux kernel module.
     - Sowiński, P., Wasielewska-Michniewska, K., Ganzha, M., & Paprzycki, M. (2022, October). Efficient RDF streaming for the edge-cloud continuum. In 2022 IEEE 8th World Forum on Internet of Things (WF-IoT) (pp. 1-8). IEEE. [https://doi.org/10.1109/WF-IoT54382.2022.10152225](https://doi.org/10.1109/WF-IoT54382.2022.10152225)

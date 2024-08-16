@@ -24,9 +24,9 @@ The task consists of deserializing RDF data stored in a byte stream to memory in
 
 ## Results
 
-There are no results with RiverBench available for this task yet.
+**See the results for this task reported by the community: [RESULTS](results.md).**
 
-## Examples and references
+## This task in benchmarks outside of RiverBench
 
 - In the paper about the Jelly streaming protocol, such a benchmark is performed in Section IV.B. The corresponding task in the paper is named "Raw deserialization throughput" and the performance in measured in terms of the number of triples deserialized per second.
     - Sowiński, P., Wasielewska-Michniewska, K., Ganzha, M., & Paprzycki, M. (2022, October). Efficient RDF streaming for the edge-cloud continuum. In 2022 IEEE 8th World Forum on Internet of Things (WF-IoT) (pp. 1-8). IEEE. [https://doi.org/10.1109/WF-IoT54382.2022.10152225](https://doi.org/10.1109/WF-IoT54382.2022.10152225)
