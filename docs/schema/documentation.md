@@ -49,7 +49,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Content](#groupContent)<br />[General information](#groupGeneralInfo)<br />[Technical metadata](#groupTechnicalMetadata)<br />[Distributions](#groupDistributions)<br />
+Has members |[Technical metadata](#groupTechnicalMetadata)<br />[General information](#groupGeneralInfo)<br />[Content](#groupContent)<br />[Distributions](#groupDistributions)<br />
 
 
 ## Object Properties
@@ -95,6 +95,7 @@ Description | Indicates the benchmark suite to which a dataset or profile belong
 
 ## Annotation Properties
 [conformsTo](#conformsTo),
+[contributor](#contributor),
 [creator](#creator),
 [description](#description),
 [identifier](#identifier),
@@ -128,6 +129,11 @@ Description | Indicates the benchmark suite to which a dataset or profile belong
 Property | Value
 --- | ---
 URI | `http://purl.org/dc/terms/conformsTo`
+
+### contributor <a name="contributor"></a>
+Property | Value
+--- | ---
+URI | `http://purl.org/dc/terms/contributor`
 
 ### creator <a name="creator"></a>
 Property | Value
