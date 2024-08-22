@@ -2911,9 +2911,9 @@
 </span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a>        - 0009999999.trig
 </span></code></pre></div>
 <h2 id="jelly-distributions">Jelly distributions</h2>
-<p>Jelly distributions simply use delimited <code>RdfStreamFrame</code>s to denote the individual elements in the stream. The streams are either of <code>TRIPLES</code> type (for <a href="https://w3id.org/stax/dev/taxonomy#rdf-graph-stream">RDF graph streams</a>) or <code>QUADS</code> for <a href="https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream">RDF dataset streams</a>. The resulting file is gzip-compressed.</p>
+<p><a href="https://w3id.org/jelly">Jelly</a> is a high-performance binary serialization format for RDF. RiverBench's Jelly distributions simply use delimited <code>RdfStreamFrame</code>s to denote the individual elements in the stream. The streams are either of <code>TRIPLES</code> physical type (for <a href="https://w3id.org/stax/dev/taxonomy#rdf-graph-stream">RDF graph streams</a>) or <code>QUADS</code> for <a href="https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream">RDF dataset streams</a>. The resulting file is gzip-compressed.</p>
 <p>Parsing Jelly files should be <a href="https://arxiv.org/pdf/2207.04439.pdf"><strong>about 5 times faster</strong></a> than the other distribution types, depending on the dataset and your hardware. Dataset sizes should be more-or-less the same when compressed, but <strong>when uncompressed, Jelly will be 3–4 times smaller</strong>.</p>
-<p>Reading Jelly files is currently supported in Apache Jena and RDF4J, using the <a href="https://github.com/Jelly-RDF/jelly-jvm"><code>jelly-jvm</code></a> library. Please refer to <a href="https://jelly-rdf.github.io/jelly-jvm/">Jelly's website</a> for usage examples and documentation.</p>
+<p>Reading Jelly files is currently supported in Apache Jena and RDF4J, using the <a href="https://w3id.org/jelly/jelly-jvm"><code>jelly-jvm</code></a> library. Please refer to <a href="https://w3id.org/jelly">Jelly's website</a> for usage examples and documentation.</p>
 <h2 id="see-also">See also</h2>
 <ul>
 <li><a href="../metadata/">Metadata</a></li>
