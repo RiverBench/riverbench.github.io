@@ -2564,6 +2564,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#download-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download links
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#full-stream-distribution" class="md-nav__link">
     <span class="md-ellipsis">
       Full stream distribution
@@ -2871,6 +2880,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#download-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download links
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#full-stream-distribution" class="md-nav__link">
     <span class="md-ellipsis">
       Full stream distribution
@@ -2987,6 +3005,7 @@
 <p class="admonition-title">Info</p>
 <p>Download this metadata in RDF: <strong><a href="https://w3id.org/riverbench/datasets/politiquices/dev.ttl">Turtle</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/politiquices/dev.nt">N-Triples</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/politiquices/dev.rdf">RDF/XML</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/politiquices/dev.jelly">Jelly</a></strong>
 <br>Source repository: <strong><a href="https://github.com/RiverBench/dataset-politiquices">politiquices</a></strong></p>
+<p><strong><a href="#distributions"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.97 13.22a.75.75 0 0 1 1.06 0L11 18.19V3.75a.75.75 0 0 1 1.5 0v14.44l4.97-4.97a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06Z"/></svg></span> Go to download links</a></strong></p>
 </div>
 <details class="example">
 <summary>Stream preview (click to expand)</summary>
@@ -3128,7 +3147,7 @@
 </ul>
 </li>
 <li><strong><abbr title="Date of formal issuance of the resource.">Date Issued</abbr></strong>: 2023-05-01</li>
-<li><strong><abbr title="Date on which the resource was changed.">Date Modified</abbr></strong>: 2024-08-20</li>
+<li><strong><abbr title="Date on which the resource was changed.">Date Modified</abbr></strong>: 2024-08-26</li>
 <li><strong><abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/politiquices/dev">politiquices (dev)</a></li>
 <li><strong><abbr title="An established standard to which the described resource conforms.">Conforms To</abbr></strong>: Metadata (<a href="https://w3id.org/riverbench/schema/metadata">https://w3id.org/riverbench/schema/metadata</a>)</li>
 </ul>
@@ -3137,14 +3156,14 @@
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to news articles. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> (<a href="https://w3id.org/stax/ontology#graphStream">stax:graphStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to news articles. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> (<a href="https://w3id.org/stax/ontology#graphStream">stax:graphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -3170,6 +3189,40 @@
 <li><strong><abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr></strong>: no</li>
 </ul>
 <h2 id="distributions">Distributions</h2>
+<h3 id="download-links">Download links</h3>
+<p>The dataset is published in a few size variants, each containing a specific number of stream elements.
+For each size, there are three distribution types available: flat (just an N-Triples/N-Quads file),
+streaming (a .tar.gz archive with Turtle/TriG files, one file per stream element),
+and <a href="https://w3id.org/jelly">Jelly</a> (a native binary format for streaming RDF).
+See the <a href="../../documentation/dataset-release-format/">documentation</a> for more details.</p>
+<table>
+<thead>
+<tr>
+<th>Distribution size</th>
+<th style="text-align: right;">Statements</th>
+<th style="text-align: right;">Flat</th>
+<th style="text-align: right;">Streaming</th>
+<th style="text-align: right;">Jelly</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="10,000 stream elements">10K</abbr></td>
+<td style="text-align: right;">90,000</td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_10K.nt.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></svg></span> 1.6 MB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/stream_10K.tar.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></svg></span> 1.4 MB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/jelly_10K.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></svg></span> 1.4 MB</a></td>
+</tr>
+<tr>
+<td><abbr title="17,773 stream elements">Full</abbr></td>
+<td style="text-align: right;">159,957</td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></svg></span> 2.9 MB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/stream_full.tar.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></svg></span> 2.5 MB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/jelly_full.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75Z"/><path d="M5.22 9.97a.749.749 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.749.749 0 0 1-1.06 0l-6.25-6.25a.749.749 0 0 1 0-1.06Z"/></svg></span> 2.5 MB</a></td>
+</tr>
+</tbody>
+</table>
+<p>The full metadata of all distributions can be found below.</p>
 <h3 id="full-stream-distribution"><a name="stream-full"></a> Full stream distribution</h3>
 <ul>
 <li><strong><abbr title="A name given to the resource.">Title</abbr></strong>: Full stream distribution</li>
@@ -3187,7 +3240,7 @@
 </ul>
 </li>
 <li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 17,773</li>
-<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 2.46 MB</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 2.5 MB</li>
 <li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: text/turtle</li>
 <li><strong><abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr></strong>: application/tar</li>
 <li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
@@ -3235,7 +3288,7 @@
 </ul>
 </li>
 <li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 17,773</li>
-<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 2.47 MB</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 2.5 MB</li>
 <li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/x-jelly-rdf</li>
 <li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
@@ -3273,7 +3326,7 @@
 </ul>
 </li>
 <li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 17,773</li>
-<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 2.93 MB</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 2.9 MB</li>
 <li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/n-triples</li>
 <li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
@@ -3311,7 +3364,7 @@
 </ul>
 </li>
 <li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 10,000</li>
-<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 1.38 MB</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 1.4 MB</li>
 <li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: text/turtle</li>
 <li><strong><abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr></strong>: application/tar</li>
 <li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
@@ -3359,7 +3412,7 @@
 </ul>
 </li>
 <li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 10,000</li>
-<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 1.38 MB</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 1.4 MB</li>
 <li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/x-jelly-rdf</li>
 <li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
@@ -3397,7 +3450,7 @@
 </ul>
 </li>
 <li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 10,000</li>
-<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 1.65 MB</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 1.6 MB</li>
 <li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/n-triples</li>
 <li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
