@@ -31,6 +31,9 @@ jobs:
           cd datasets
           rm "table.md" || true
           wget -O "table.md" "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/dataset_table.md"
+          cd ../results
+          rm "table.md" || true
+          wget -O "table.md" "https://github.com/RiverBench/RiverBench/releases/download/${FROM_TAG}/benchmark_results_table.md"
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
