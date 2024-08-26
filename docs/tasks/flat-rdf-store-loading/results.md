@@ -4,6 +4,8 @@
 
 ### RiverBench results for task flat-rdf-store-loading with profile flat-triples
 
+<span id="RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs"></span>
+
 !!! info
 
     This benchmark result was reported in a Nanopublication: [https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs](https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs).
