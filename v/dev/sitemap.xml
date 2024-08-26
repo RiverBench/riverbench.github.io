@@ -266,6 +266,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/results/</loc>
+         <lastmod>2024-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://w3id.org/riverbench/latest/results/table/</loc>
+         <lastmod>2024-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/schema/</loc>
          <lastmod>2024-08-26</lastmod>
          <changefreq>daily</changefreq>
