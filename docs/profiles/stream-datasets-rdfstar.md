@@ -57,29 +57,30 @@ Streaming datasets (with RDF-star)
 
 ## Download links
 
-Below you will find links to download the profile's datasets in different lengths.
+Below you will find links to download this profile's datasets in different lengths. The length of the dataset
+is measured in stream elements (individual graphs or datasets) and is indicated in the table.
+To see the size in statements (triples or quads), hover your mouse over the download link.
 
 !!! warning
 
-    Some datasets are shorter than others and a given distribution may not be available for all datasets.
-    In that case, a link to the longest available distribution of the dataset is provided.
+    Some datasets are shorter than others and a given fixed-size distribution may not be available for all datasets.
 
 !!! note
 
-    For stream profiles, there are two available types of distributions: plain streaming, and streaming in the Jelly format. See the [documentation](../documentation/dataset-release-format.md) for details.
+    There are two available types of distributions for this profile: plain streaming packages, and the universal distribution in the Jelly format. See the [documentation](../documentation/dataset-release-format.md) for details.
 
-### Plain streaming distributions
-
-Dataset | 10K | 100K | 1M | Full
---- | --- | --- | --- | ---
-[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev) | [10K (1.34 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_10K.tar.gz) | [100K (13.36 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_100K.tar.gz) | [Full (93.76 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_full.tar.gz) | [Full (93.76 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_full.tar.gz)
-[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev) | [10K (2.04 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_10K.tar.gz) | [100K (20.61 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_100K.tar.gz) | [1M (204.36 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_1M.tar.gz) | [Full (898.99 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_full.tar.gz)
-[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/dev) | [10K (2.55 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_10K.tar.gz) | [100K (25.57 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_100K.tar.gz) | [1M (277.04 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_1M.tar.gz) | [Full (1.02 GB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_full.tar.gz)
-
-### Jelly streaming distributions
+### Plain streaming distributions (TriG)
 
 Dataset | 10K | 100K | 1M | Full
 --- | --- | --- | --- | ---
-[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev) | [10K (703.29 KB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_10K.jelly.gz) | [100K (6.79 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_100K.jelly.gz) | [Full (47.71 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_full.jelly.gz) | [Full (47.71 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_full.jelly.gz)
-[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev) | [10K (3.27 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_10K.jelly.gz) | [100K (32.91 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_100K.jelly.gz) | [1M (330.27 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_1M.jelly.gz) | [Full (1.42 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_full.jelly.gz)
-[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/dev) | [10K (2.88 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_10K.jelly.gz) | [100K (29.63 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_100K.jelly.gz) | [1M (332.66 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_1M.jelly.gz) | [Full (1.50 GB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_full.jelly.gz)
+[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev) | <abbr title="10,000 stream elements; 1,160,000 statements">[10K (1.3 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_10K.tar.gz)</abbr> | <abbr title="100,000 stream elements; 11,600,000 statements">[100K (13.4 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_100K.tar.gz)</abbr> | – | <abbr title="701,278 stream elements; 81,348,248 statements">[Full (93.8 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_full.tar.gz)</abbr>
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev) | <abbr title="10,000 stream elements; 370,000 statements">[10K (2.0 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_10K.tar.gz)</abbr> | <abbr title="100,000 stream elements; 3,700,000 statements">[100K (20.6 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_100K.tar.gz)</abbr> | <abbr title="1,000,000 stream elements; 37,000,000 statements">[1M (204.4 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_1M.tar.gz)</abbr> | <abbr title="4,382,599 stream elements; 162,156,163 statements">[Full (899.0 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/stream_full.tar.gz)</abbr>
+[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/dev) | <abbr title="10,000 stream elements; 340,000 statements">[10K (2.6 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_10K.tar.gz)</abbr> | <abbr title="100,000 stream elements; 3,307,350 statements">[100K (25.6 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_100K.tar.gz)</abbr> | <abbr title="1,000,000 stream elements; 33,423,542 statements">[1M (277.0 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_1M.tar.gz)</abbr> | <abbr title="5,000,000 stream elements; 171,885,662 statements">[Full (1.0 GB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_full.tar.gz)</abbr>
+
+### Jelly distributions
+
+Dataset | 10K | 100K | 1M | Full
+--- | --- | --- | --- | ---
+[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev) | <abbr title="10,000 stream elements; 1,160,000 statements">[10K (703.3 KB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_10K.jelly.gz)</abbr> | <abbr title="100,000 stream elements; 11,600,000 statements">[100K (6.8 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_100K.jelly.gz)</abbr> | – | <abbr title="701,278 stream elements; 81,348,248 statements">[Full (47.7 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_full.jelly.gz)</abbr>
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev) | <abbr title="10,000 stream elements; 370,000 statements">[10K (3.3 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_10K.jelly.gz)</abbr> | <abbr title="100,000 stream elements; 3,700,000 statements">[100K (32.9 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_100K.jelly.gz)</abbr> | <abbr title="1,000,000 stream elements; 37,000,000 statements">[1M (330.3 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_1M.jelly.gz)</abbr> | <abbr title="4,382,599 stream elements; 162,156,163 statements">[Full (1.4 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_full.jelly.gz)</abbr>
+[nanopubs](https://w3id.org/riverbench/datasets/nanopubs/dev) | <abbr title="10,000 stream elements; 340,000 statements">[10K (2.9 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_10K.jelly.gz)</abbr> | <abbr title="100,000 stream elements; 3,307,350 statements">[100K (29.6 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_100K.jelly.gz)</abbr> | <abbr title="1,000,000 stream elements; 33,423,542 statements">[1M (332.7 MB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_1M.jelly.gz)</abbr> | <abbr title="5,000,000 stream elements; 171,885,662 statements">[Full (1.5 GB)](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_full.jelly.gz)</abbr>
