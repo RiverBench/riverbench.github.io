@@ -1253,6 +1253,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Download links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plain-flat-distributions-n-triplesn-quads" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plain flat distributions (N-Triples/N-Quads)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jelly-distributions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jelly distributions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -2778,6 +2802,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Download links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plain-flat-distributions-n-triplesn-quads" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plain flat distributions (N-Triples/N-Quads)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jelly-distributions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jelly distributions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -2864,9 +2912,23 @@
 </ul>
 </li>
 <li><strong><abbr title="Specifies the SHACL shape of distributions that are allowed in a given benchmark profile.">Has distribution shape</abbr></strong>: <ul>
+<li><strong><abbr title="Specifies a list of shapes so that the value nodes must conform to at least one of the shapes.">Or</abbr></strong>:     <ul>
+<li><strong>Or (1)</strong>    <ul>
+<li><strong><abbr title="Links a shape to its property shapes.">Property</abbr></strong>:     <ul>
+<li><strong><abbr title="Specifies a value that must be among the value nodes.">Has value</abbr></strong>: <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#jellyDistribution">rb:jellyDistribution</a>)</li>
+<li><strong><abbr title="Specifies the property path of a property shape.">Path</abbr></strong>: <abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#hasDistributionType">rb:hasDistributionType</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Or (2)</strong>    <ul>
 <li><strong><abbr title="Links a shape to its property shapes.">Property</abbr></strong>:     <ul>
 <li><strong><abbr title="Specifies a value that must be among the value nodes.">Has value</abbr></strong>: <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#flatDistribution">rb:flatDistribution</a>)</li>
 <li><strong><abbr title="Specifies the property path of a property shape.">Path</abbr></strong>: <abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#hasDistributionType">rb:hasDistributionType</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><strong><abbr title="Links a shape to a class, indicating that all instances of the class must conform to the shape.">Target class</abbr></strong>: <abbr title="A distribution of a dataset in the RiverBench benchmark suite.">RiverBench dataset distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#Distribution">rb:Distribution</a>)</li>
@@ -2874,12 +2936,18 @@
 </li>
 </ul>
 <h2 id="download-links">Download links</h2>
-<p>Below you will find links to download the profile's datasets in different lengths.</p>
+<p>Below you will find links to download this profile's datasets in different lengths. The length of the dataset
+is measured in stream elements (individual graphs or datasets) and is indicated in the table.
+To see the size in statements (triples or quads), hover your mouse over the download link.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Some datasets are shorter than others and a given distribution may not be available for all datasets.
-In that case, a link to the longest available distribution of the dataset is provided.</p>
+<p>Some datasets are shorter than others and a given fixed-size distribution may not be available for all datasets.</p>
 </div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There are two available types of distributions for this profile: plain flat files, and the universal distribution in the Jelly format. See the <a href="../../documentation/dataset-release-format/">documentation</a> for details.</p>
+</div>
+<h3 id="plain-flat-distributions-n-triplesn-quads">Plain flat distributions (N-Triples/N-Quads)</h3>
 <table>
 <thead>
 <tr>
@@ -2893,94 +2961,199 @@ In that case, a link to the longest available distribution of the dataset is pro
 <tbody>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev">assist-iot-weather</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_10K.nt.gz">10K (4.71 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_100K.nt.gz">100K (47.07 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_full.nt.gz">Full (330.19 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_full.nt.gz">Full (330.19 MB)</a></td>
+<td><abbr title="10,000 stream elements; 1,150,000 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_10K.nt.gz">10K (4.7 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 11,500,000 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_100K.nt.gz">100K (47.1 MB)</a></abbr></td>
+<td>–</td>
+<td><abbr title="701,278 stream elements; 80,646,970 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_full.nt.gz">Full (330.2 MB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev">assist-iot-weather-graphs</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_10K.nq.gz">10K (5.04 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_100K.nq.gz">100K (50.34 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_full.nq.gz">Full (353.01 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_full.nq.gz">Full (353.01 MB)</a></td>
+<td><abbr title="10,000 stream elements; 1,160,000 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_10K.nq.gz">10K (5.0 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 11,600,000 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_100K.nq.gz">100K (50.3 MB)</a></abbr></td>
+<td>–</td>
+<td><abbr title="701,278 stream elements; 81,348,248 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_full.nq.gz">Full (353.0 MB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev">citypulse-traffic</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_10K.nt.gz">10K (3.76 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_100K.nt.gz">100K (37.66 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_1M.nt.gz">1M (375.82 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_full.nt.gz">Full (1.61 GB)</a></td>
+<td><abbr title="10,000 stream elements; 360,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_10K.nt.gz">10K (3.8 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 3,600,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_100K.nt.gz">100K (37.7 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 36,000,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_1M.nt.gz">1M (375.8 MB)</a></abbr></td>
+<td><abbr title="4,382,599 stream elements; 157,773,564 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_full.nt.gz">Full (1.6 GB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev">citypulse-traffic-graphs</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_10K.nq.gz">10K (3.96 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_100K.nq.gz">100K (39.64 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_1M.nq.gz">1M (395.85 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_full.nq.gz">Full (1.69 GB)</a></td>
+<td><abbr title="10,000 stream elements; 370,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_10K.nq.gz">10K (4.0 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 3,700,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_100K.nq.gz">100K (39.6 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 37,000,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_1M.nq.gz">1M (395.9 MB)</a></abbr></td>
+<td><abbr title="4,382,599 stream elements; 162,156,163 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/flat_full.nq.gz">Full (1.7 GB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev">dbpedia-live</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_10K.nt.gz">10K (73.69 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_100K.nt.gz">100K (230.12 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_full.nt.gz">Full (282.16 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_full.nt.gz">Full (282.16 MB)</a></td>
+<td><abbr title="10,000 stream elements; 5,575,053 statements"><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_10K.nt.gz">10K (73.7 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 17,814,033 statements"><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_100K.nt.gz">100K (230.1 MB)</a></abbr></td>
+<td>–</td>
+<td><abbr title="166,204 stream elements; 21,831,109 statements"><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_full.nt.gz">Full (282.2 MB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev">digital-agenda-indicators</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_10K.nt.gz">10K (425.32 KB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_100K.nt.gz">100K (4.49 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_1M.nt.gz">1M (40.89 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_full.nt.gz">Full (58.25 MB)</a></td>
+<td><abbr title="10,000 stream elements; 82,424 statements"><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_10K.nt.gz">10K (425.3 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 811,625 statements"><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_100K.nt.gz">100K (4.5 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 8,108,967 statements"><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_1M.nt.gz">1M (40.9 MB)</a></abbr></td>
+<td><abbr title="1,440,415 stream elements; 11,669,016 statements"><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_full.nt.gz">Full (58.2 MB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev">linked-spending</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_10K.nt.gz">10K (2.00 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_100K.nt.gz">100K (17.39 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_1M.nt.gz">1M (233.88 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_full.nt.gz">Full (576.48 MB)</a></td>
+<td><abbr title="10,000 stream elements; 158,342 statements"><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_10K.nt.gz">10K (2.0 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 1,716,898 statements"><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_100K.nt.gz">100K (17.4 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 23,371,403 statements"><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_1M.nt.gz">1M (233.9 MB)</a></abbr></td>
+<td><abbr title="2,477,552 stream elements; 55,097,866 statements"><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_full.nt.gz">Full (576.5 MB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev">lod-katrina</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_10K.nt.gz">10K (979.31 KB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_100K.nt.gz">100K (13.86 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_1M.nt.gz">1M (147.94 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_full.nt.gz">Full (860.60 MB)</a></td>
+<td><abbr title="10,000 stream elements; 198,649 statements"><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_10K.nt.gz">10K (979.3 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 2,862,713 statements"><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_100K.nt.gz">100K (13.9 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 30,855,326 statements"><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_1M.nt.gz">1M (147.9 MB)</a></abbr></td>
+<td><abbr title="5,893,763 stream elements; 179,128,407 statements"><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_full.nt.gz">Full (860.6 MB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev">muziekweb</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_10K.nt.gz">10K (860.14 KB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_100K.nt.gz">100K (8.40 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_1M.nt.gz">1M (91.60 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_full.nt.gz">Full (299.91 MB)</a></td>
+<td><abbr title="10,000 stream elements; 51,721 statements"><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_10K.nt.gz">10K (860.1 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 517,454 statements"><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_100K.nt.gz">100K (8.4 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 6,916,692 statements"><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_1M.nt.gz">1M (91.6 MB)</a></abbr></td>
+<td><abbr title="2,450,357 stream elements; 36,195,263 statements"><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_full.nt.gz">Full (299.9 MB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/nanopubs/dev">nanopubs</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_10K.nq.gz">10K (3.46 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_100K.nq.gz">100K (35.75 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_1M.nq.gz">1M (384.63 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_full.nq.gz">Full (1.69 GB)</a></td>
+<td><abbr title="10,000 stream elements; 340,000 statements"><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_10K.nq.gz">10K (3.5 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 3,307,350 statements"><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_100K.nq.gz">100K (35.7 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 33,423,542 statements"><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_1M.nq.gz">1M (384.6 MB)</a></abbr></td>
+<td><abbr title="5,000,000 stream elements; 171,885,662 statements"><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_full.nq.gz">Full (1.7 GB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev">openaire-lod</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_10K.nt.gz">10K (3.43 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_100K.nt.gz">100K (48.82 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_1M.nt.gz">1M (1.16 GB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_full.nt.gz">Full (1.74 GB)</a></td>
+<td><abbr title="10,000 stream elements; 193,178 statements"><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_10K.nt.gz">10K (3.4 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 2,267,185 statements"><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_100K.nt.gz">100K (48.8 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 42,913,544 statements"><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_1M.nt.gz">1M (1.2 GB)</a></abbr></td>
+<td><abbr title="2,000,000 stream elements; 71,810,467 statements"><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_full.nt.gz">Full (1.7 GB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/politiquices/dev">politiquices</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_10K.nt.gz">10K (1.65 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz">Full (2.93 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz">Full (2.93 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz">Full (2.93 MB)</a></td>
+<td><abbr title="10,000 stream elements; 90,000 statements"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_10K.nt.gz">10K (1.6 MB)</a></abbr></td>
+<td>–</td>
+<td>–</td>
+<td><abbr title="17,773 stream elements; 159,957 statements"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz">Full (2.9 MB)</a></abbr></td>
 </tr>
 <tr>
 <td><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev">yago-annotated-facts</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_10K.nt.gz">10K (256.72 KB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_100K.nt.gz">100K (2.38 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_full.nt.gz">Full (28.74 MB)</a></td>
-<td><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_full.nt.gz">Full (28.74 MB)</a></td>
+<td><abbr title="10,000 stream elements; 22,977 statements"><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_10K.nt.gz">10K (256.7 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 226,648 statements"><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_100K.nt.gz">100K (2.4 MB)</a></abbr></td>
+<td>–</td>
+<td><abbr title="617,768 stream elements; 2,484,547 statements"><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_full.nt.gz">Full (28.7 MB)</a></abbr></td>
+</tr>
+</tbody>
+</table>
+<h3 id="jelly-distributions">Jelly distributions</h3>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>10K</th>
+<th>100K</th>
+<th>1M</th>
+<th>Full</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev">assist-iot-weather</a></td>
+<td><abbr title="10,000 stream elements; 1,150,000 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_10K.jelly.gz">10K (1.4 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 11,500,000 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_100K.jelly.gz">100K (14.4 MB)</a></abbr></td>
+<td>–</td>
+<td><abbr title="701,278 stream elements; 80,646,970 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_full.jelly.gz">Full (101.2 MB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev">assist-iot-weather-graphs</a></td>
+<td><abbr title="10,000 stream elements; 1,160,000 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_10K.jelly.gz">10K (703.3 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 11,600,000 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_100K.jelly.gz">100K (6.8 MB)</a></abbr></td>
+<td>–</td>
+<td><abbr title="701,278 stream elements; 81,348,248 statements"><a href="https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_full.jelly.gz">Full (47.7 MB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev">citypulse-traffic</a></td>
+<td><abbr title="10,000 stream elements; 360,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.jelly.gz">10K (3.1 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 3,600,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz">100K (31.2 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 36,000,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.jelly.gz">1M (312.5 MB)</a></abbr></td>
+<td><abbr title="4,382,599 stream elements; 157,773,564 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.jelly.gz">Full (1.3 GB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev">citypulse-traffic-graphs</a></td>
+<td><abbr title="10,000 stream elements; 370,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_10K.jelly.gz">10K (3.3 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 3,700,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_100K.jelly.gz">100K (32.9 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 37,000,000 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_1M.jelly.gz">1M (330.3 MB)</a></abbr></td>
+<td><abbr title="4,382,599 stream elements; 162,156,163 statements"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/dev/files/jelly_full.jelly.gz">Full (1.4 GB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev">dbpedia-live</a></td>
+<td><abbr title="10,000 stream elements; 5,575,053 statements"><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_10K.jelly.gz">10K (91.2 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 17,814,033 statements"><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_100K.jelly.gz">100K (288.6 MB)</a></abbr></td>
+<td>–</td>
+<td><abbr title="166,204 stream elements; 21,831,109 statements"><a href="https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_full.jelly.gz">Full (351.2 MB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev">digital-agenda-indicators</a></td>
+<td><abbr title="10,000 stream elements; 82,424 statements"><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_10K.jelly.gz">10K (188.1 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 811,625 statements"><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_100K.jelly.gz">100K (1.7 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 8,108,967 statements"><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_1M.jelly.gz">1M (16.4 MB)</a></abbr></td>
+<td><abbr title="1,440,415 stream elements; 11,669,016 statements"><a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_full.jelly.gz">Full (23.5 MB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/linked-spending/dev">linked-spending</a></td>
+<td><abbr title="10,000 stream elements; 158,342 statements"><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/jelly_10K.jelly.gz">10K (1.4 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 1,716,898 statements"><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/jelly_100K.jelly.gz">100K (13.4 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 23,371,403 statements"><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/jelly_1M.jelly.gz">1M (161.9 MB)</a></abbr></td>
+<td><abbr title="2,477,552 stream elements; 55,097,866 statements"><a href="https://w3id.org/riverbench/datasets/linked-spending/dev/files/jelly_full.jelly.gz">Full (398.5 MB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev">lod-katrina</a></td>
+<td><abbr title="10,000 stream elements; 198,649 statements"><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_10K.jelly.gz">10K (735.1 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 2,862,713 statements"><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_100K.jelly.gz">100K (11.0 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 30,855,326 statements"><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_1M.jelly.gz">1M (120.4 MB)</a></abbr></td>
+<td><abbr title="5,893,763 stream elements; 179,128,407 statements"><a href="https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_full.jelly.gz">Full (700.8 MB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/muziekweb/dev">muziekweb</a></td>
+<td><abbr title="10,000 stream elements; 51,721 statements"><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_10K.jelly.gz">10K (765.2 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 517,454 statements"><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_100K.jelly.gz">100K (7.8 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 6,916,692 statements"><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_1M.jelly.gz">1M (85.5 MB)</a></abbr></td>
+<td><abbr title="2,450,357 stream elements; 36,195,263 statements"><a href="https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_full.jelly.gz">Full (297.6 MB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/nanopubs/dev">nanopubs</a></td>
+<td><abbr title="10,000 stream elements; 340,000 statements"><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_10K.jelly.gz">10K (2.9 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 3,307,350 statements"><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_100K.jelly.gz">100K (29.6 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 33,423,542 statements"><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_1M.jelly.gz">1M (332.7 MB)</a></abbr></td>
+<td><abbr title="5,000,000 stream elements; 171,885,662 statements"><a href="https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_full.jelly.gz">Full (1.5 GB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev">openaire-lod</a></td>
+<td><abbr title="10,000 stream elements; 193,178 statements"><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_10K.jelly.gz">10K (3.1 MB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 2,267,185 statements"><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_100K.jelly.gz">100K (45.0 MB)</a></abbr></td>
+<td><abbr title="1,000,000 stream elements; 42,913,544 statements"><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_1M.jelly.gz">1M (1.2 GB)</a></abbr></td>
+<td><abbr title="2,000,000 stream elements; 71,810,467 statements"><a href="https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_full.jelly.gz">Full (1.7 GB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/politiquices/dev">politiquices</a></td>
+<td><abbr title="10,000 stream elements; 90,000 statements"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/jelly_10K.jelly.gz">10K (1.4 MB)</a></abbr></td>
+<td>–</td>
+<td>–</td>
+<td><abbr title="17,773 stream elements; 159,957 statements"><a href="https://w3id.org/riverbench/datasets/politiquices/dev/files/jelly_full.jelly.gz">Full (2.5 MB)</a></abbr></td>
+</tr>
+<tr>
+<td><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev">yago-annotated-facts</a></td>
+<td><abbr title="10,000 stream elements; 22,977 statements"><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_10K.jelly.gz">10K (260.8 KB)</a></abbr></td>
+<td><abbr title="100,000 stream elements; 226,648 statements"><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_100K.jelly.gz">100K (2.7 MB)</a></abbr></td>
+<td>–</td>
+<td><abbr title="617,768 stream elements; 2,484,547 statements"><a href="https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_full.jelly.gz">Full (28.9 MB)</a></abbr></td>
 </tr>
 </tbody>
 </table>
