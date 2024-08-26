@@ -11,5 +11,6 @@ In RiverBench, benchmark tasks and profiles are grouped into **benchmark categor
 
 ## See also
 
+- [Benchmark results](../results/index.md)
 - [Creating a new bechmark category](../documentation/categories.md)
 - [Creating a new benchmark task](../documentation/creating-new-task.md)
