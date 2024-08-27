@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Metadata
 
 RiverBench includes rich RDF metadata for each dataset, profile, schema, and the suite itself. This metadata is used to generate the website, and can also be used by other tools. The metadata is [permissively licensed](licensing.md).

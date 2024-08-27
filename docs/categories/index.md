@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Benchmark categories
 
 In RiverBench, benchmark tasks and profiles are grouped into **benchmark categories**, listed below. A benchmark task is simply a description (a recipe) for conducting benchmarks. Profiles are collections of datasets, grouped by shared technical characteristics (e.g., stream type, whether RDF-star is used or not). Within each category, each task may be used with any of the profiles.

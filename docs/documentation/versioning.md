@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Versioning and releases
 
 !!! tip "TL;DR"

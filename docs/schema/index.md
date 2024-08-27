@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Schemas & ontologies
 
 RiverBench uses a few schemas and ontologies to describe and organize its datasets and profiles.

@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # RiverBench documentation
 
 This documentation explains how to use and contribute to RiverBench.

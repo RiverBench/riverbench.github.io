@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Editing documentation
 
 A large chunk of RiverBench's documentation is automatically generated from the metadata – see the [metadata documentation](metadata.md) for more details. However, lots of pages are static or include static content. This page explains how to edit them.

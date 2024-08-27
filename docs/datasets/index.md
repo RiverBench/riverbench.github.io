@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Datasets
 
 A dataset in RiverBench is a well-described, validated, and neatly packaged collection of data that can be easily reused. Each dataset has several distributions of different lengths, with both streaming and flat variants. See the documentation pages linked below for more details.

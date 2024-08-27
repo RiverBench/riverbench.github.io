@@ -5,6 +5,7 @@ site_url: https://w3id.org/riverbench/
 plugins:
   - search
   - include-markdown
+  - macros
   - mike:
       deploy_prefix: v
       canonical_version: latest

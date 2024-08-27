@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Benchmark results
 
 This page aggregates the benchmark results reported by the community using nanopublications. Click on the _:octicons-arrow-right-24: Details_ link in the tables to read more about each benchmark.

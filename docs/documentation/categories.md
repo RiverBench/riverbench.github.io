@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Working with benchmark categories
 
 Benchmark categories are collections of benchmark tasks and profiles. Within a category, each task may be used with any of the profiles defined for that category. The profiles are collections of datasets, grouped by shared technical characteristics (e.g., stream type, whether RDF-star is used or not).

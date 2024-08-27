@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # How to contribute?
 
 **Hi there!** :wave: :blush:

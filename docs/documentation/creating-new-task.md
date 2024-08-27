@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Creating a new benchmark task
 
 This guide explains how to propose a new benchmark task to be included in RiverBench.

@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Creating a new dataset
 
 This guide explains step-by-step how to propose a new dataset for inclusion in RiverBench. You only need to prepare the dataset and its metadata – the rest of the process will be carried out by a RiverBench admin and automated scripts.

@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Using RiverBench – quick start guide
 
 <!-- 

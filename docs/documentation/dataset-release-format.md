@@ -1,3 +1,5 @@
+{{ top_buttons() }}
+
 # Dataset release format
 
 This page explains the formats in which [RiverBench's datasets](../datasets/index.md) are distributed.
