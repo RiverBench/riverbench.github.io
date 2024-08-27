@@ -24,7 +24,7 @@ def define_env(env):
             else:
                 edit_url = f'https://github.com/RiverBench/riverbench.github.io/edit/main/docs/{env.page.file.src_path}'
             buttons.append(
-                f'[:material-file-edit: Edit this page]({edit_url} "Edit this page\'s source in Markdown on GitHub.")'
+                f'**[:material-file-edit: Edit this page]({edit_url} "Edit this page\'s source in Markdown on GitHub.")**'
             )
             file_split = env.page.file.src_path.split('/')
             if file_split[0] == 'documentation':
