@@ -49,6 +49,10 @@ A large portion of the metadata is automatically generated. However, the rest is
 - [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / profiles / {profile name}.ttl – metadata about the profile
 - [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / tasks / {task name} / metadata.ttl – metadata about the benchmark task
 
+All of these files can be conveniently accessed and edited using the _:material-database-edit: Edit this page_ or _Edit metadata_ button at the top of the page:
+
+![Edit this page – RDF/Turtle](../assets/editing_turtle.png)
+
 Feel free to submit pull requests to these files to fix errors or add new information. After the pull request is accepted, the changes will be reflected automatically in the website and the READMEs.
 
 ### Used ontologies
