@@ -1,10 +1,14 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/profiles/stream-graphs "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/category-stream/edit/main/profiles/stream-graphs.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../documentation/editing-docs.md "Need help with editing?")</div></div>
+
 # Profile: stream-graphs (development version)
 
 Streaming unnamed graphs (RDF 1.1 standard only)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/stream-graphs.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/stream-graphs.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/stream-graphs.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/stream-graphs.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/stream-graphs.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/stream-graphs.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/stream-graphs.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/stream-graphs.jelly)**
+    <br>:material-github: Source repository: **[category-stream](https://github.com/RiverBench/category-stream)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/profiles/stream-graphs`](https://w3id.org/riverbench/v/dev/profiles/stream-graphs)
 
 
 

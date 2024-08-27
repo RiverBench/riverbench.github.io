@@ -1,10 +1,14 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/category-stream/edit/main/profiles/stream-subject-graphs-rdfstar.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../documentation/editing-docs.md "Need help with editing?")</div></div>
+
 # Profile: stream-subject-graphs-rdfstar (development version)
 
 Streaming unnamed subject graphs (with RDF-star)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar.jelly)**
+    <br>:material-github: Source repository: **[category-stream](https://github.com/RiverBench/category-stream)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar`](https://w3id.org/riverbench/v/dev/profiles/stream-subject-graphs-rdfstar)
 
 
 

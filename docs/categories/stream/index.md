@@ -1,3 +1,5 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/categories/stream "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/category-stream/edit/main/metadata.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
+
 # Grouped RDF streaming
 
 Benchmark category of generic tasks involving grouped RDF streams (elements are either RDF graphs or RDF datasets). This includes streaming throughput and latency benchmarks.
@@ -31,7 +33,9 @@ See the **[quick start guide](../../documentation/using.md)** for more informati
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/categories/stream.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/categories/stream.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/categories/stream.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/categories/stream.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/categories/stream.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/categories/stream.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/categories/stream.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/categories/stream.jelly)**
+    <br>:material-github: Source repository: **[category-stream](https://github.com/RiverBench/category-stream)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/categories/stream`](https://w3id.org/riverbench/v/dev/categories/stream)
 
 
 

@@ -1,10 +1,14 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/category-stream/edit/main/profiles/stream-ts-named-graphs-rdfstar.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../documentation/editing-docs.md "Need help with editing?")</div></div>
+
 # Profile: stream-ts-named-graphs-rdfstar (development version)
 
 Streaming timestamped named graphs (with RDF-star)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar.jelly)**
+    <br>:material-github: Source repository: **[category-stream](https://github.com/RiverBench/category-stream)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar`](https://w3id.org/riverbench/v/dev/profiles/stream-ts-named-graphs-rdfstar)
 
 
 
