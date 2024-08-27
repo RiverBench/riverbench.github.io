@@ -35,13 +35,18 @@ The following metadata formats are supported:
 
 ## Metadata dumps
 
-Starting from RiverBench version 2.0.0, the entire metadata of RiverBench is published in easily accessible dumps. The dumps can be downladed from the [main page of RiverBench](https://w3id.org/riverbench/) and from the pages of the [suite releases](https://w3id.org/riverbench/v). The links to download the dump are in the "Info" box near the top of the page.
+Starting from RiverBench version 2.0.0, the entire metadata of RiverBench is published in easily accessible dumps. The dump for a given RiverBench release can be downladed from the **[main page of RiverBench](https://w3id.org/riverbench/)**. The links to download the dump are in the "Info" box near the top of the page.
 
-The dumps can also be downloaded directly from:
+The dumps can also be downloaded directly using the following URLs, where `{version}` is the version tag of the suite release (e.g., `dev` or `2.0.0`):
 
-```https://w3id.org/riverbench/dumps/{version}.{extension}.gz```
-
-where `{version}` is the version tag of the suite release (e.g., `dev` or `2.0.0`), and `{extension}` is one of `nt`, `ttl`, `rdf`, or `jelly`.
+- ```https://w3id.org/riverbench/dumps/{version}.{extension}.gz```
+    - Metadata dump without [benchmark results](../results/index.md) (a single RDF graph).
+    - Available since RiverBench 2.0.0.
+    - Supported extensions: `nt`, `ttl`, `rdf`, `jelly`.
+- ```https://w3id.org/riverbench/dumps-with-results/{version}.{extension}.gz```
+    - Metadata dump with community-reported [benchmark results](../results/index.md). The default graph contains the RiverBench metadata. The benchmark results are in named graphs, using the [nanopublication structure](https://nanopub.net/).
+    - Available since RiverBench 2.1.0.
+    - Supported extensions: `nq`, `trig`, `jelly`.
 
 ## Editing metadata
 
