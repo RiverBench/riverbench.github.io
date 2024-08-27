@@ -1,0 +1,9 @@
+.rb-top-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.9rem;
+}
+
+.rb-top-buttons p {
+    margin: 0 !important;
+}
