@@ -2862,10 +2862,22 @@
 </ul>
 <p><em>If you are curious, you can find the rules that make this work <a href="https://github.com/perma-id/w3id.org/tree/master/riverbench">here</a>.</em></p>
 <h2 id="metadata-dumps">Metadata dumps</h2>
-<p>Starting from RiverBench version 2.0.0, the entire metadata of RiverBench is published in easily accessible dumps. The dumps can be downladed from the <a href="https://w3id.org/riverbench/">main page of RiverBench</a> and from the pages of the <a href="https://w3id.org/riverbench/v">suite releases</a>. The links to download the dump are in the "Info" box near the top of the page.</p>
-<p>The dumps can also be downloaded directly from:</p>
-<p><code>https://w3id.org/riverbench/dumps/{version}.{extension}.gz</code></p>
-<p>where <code>{version}</code> is the version tag of the suite release (e.g., <code>dev</code> or <code>2.0.0</code>), and <code>{extension}</code> is one of <code>nt</code>, <code>ttl</code>, <code>rdf</code>, or <code>jelly</code>.</p>
+<p>Starting from RiverBench version 2.0.0, the entire metadata of RiverBench is published in easily accessible dumps. The dump for a given RiverBench release can be downladed from the <strong><a href="https://w3id.org/riverbench/">main page of RiverBench</a></strong>. The links to download the dump are in the "Info" box near the top of the page.</p>
+<p>The dumps can also be downloaded directly using the following URLs, where <code>{version}</code> is the version tag of the suite release (e.g., <code>dev</code> or <code>2.0.0</code>):</p>
+<ul>
+<li><code>https://w3id.org/riverbench/dumps/{version}.{extension}.gz</code><ul>
+<li>Metadata dump without <a href="../../results/">benchmark results</a> (a single RDF graph).</li>
+<li>Available since RiverBench 2.0.0.</li>
+<li>Supported extensions: <code>nt</code>, <code>ttl</code>, <code>rdf</code>, <code>jelly</code>.</li>
+</ul>
+</li>
+<li><code>https://w3id.org/riverbench/dumps-with-results/{version}.{extension}.gz</code><ul>
+<li>Metadata dump with community-reported <a href="../../results/">benchmark results</a>. The default graph contains the RiverBench metadata. The benchmark results are in named graphs, using the <a href="https://nanopub.net/">nanopublication structure</a>.</li>
+<li>Available since RiverBench 2.1.0.</li>
+<li>Supported extensions: <code>nq</code>, <code>trig</code>, <code>jelly</code>.</li>
+</ul>
+</li>
+</ul>
 <h2 id="editing-metadata">Editing metadata</h2>
 <p>A large portion of the metadata is automatically generated. However, the rest is written manually in Turtle files in various repositories:</p>
 <ul>
