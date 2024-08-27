@@ -1,4 +1,4 @@
-# flat-triples (development version)
+# Profile: flat-triples (development version)
 
 Flat sequence of triples (RDF 1.1 standard only)
 

@@ -1,4 +1,4 @@
-# flat-mixed-rdfstar (development version)
+# Profile: flat-mixed-rdfstar (development version)
 
 Flat sequence of triples or quads (with RDF-star)
 

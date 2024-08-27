@@ -1,4 +1,4 @@
-# flat-quads-rdfstar (development version)
+# Profile: flat-quads-rdfstar (development version)
 
 Flat sequence of quads (with RDF-star)
 

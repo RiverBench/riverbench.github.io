@@ -1,4 +1,4 @@
-# flat-quads (development version)
+# Profile: flat-quads (development version)
 
 Flat sequence of quads (RDF 1.1 standard only)
 

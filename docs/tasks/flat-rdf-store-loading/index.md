@@ -1,4 +1,6 @@
-# Loading data into an RDF store
+# Task: Loading data into an RDF store (development version)
+
+Task identifier: `flat-rdf-store-loading`
 
 A benchmark task measuring the time taken and resources used by RDF stores when loading flat RDF data (triples or quads).
 

@@ -1,4 +1,6 @@
-# Flat RDF serialization throughput
+# Task: Flat RDF serialization throughput (development version)
+
+Task identifier: `flat-serialization-throughput`
 
 A benchmark task measuring the throughput (in statements per second) of serializing a flat sequence of RDF triples or RDF quads.
 

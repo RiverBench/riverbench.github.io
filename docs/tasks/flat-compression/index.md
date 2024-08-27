@@ -1,4 +1,6 @@
-# Flat RDF compression
+# Task: Flat RDF compression (development version)
+
+Task identifier: `flat-compression`
 
 A benchmark task measuring the compression efficiency of flat RDF serializations.
 

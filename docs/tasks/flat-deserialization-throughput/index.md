@@ -1,4 +1,6 @@
-# Flat RDF deserialization throughput
+# Task: Flat RDF deserialization throughput (development version)
+
+Task identifier: `flat-deserialization-throughput`
 
 A benchmark task measuring the throughput (in statements per second) of deserializing a byte stream into a flat sequence of RDF triples or RDF quads.
 

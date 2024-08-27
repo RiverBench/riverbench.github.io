@@ -1,4 +1,4 @@
-# flat-triples-rdfstar (development version)
+# Profile: flat-triples-rdfstar (development version)
 
 Flat sequence of triples (with RDF-star)
 

@@ -1,4 +1,4 @@
-# flat-mixed (development version)
+# Profile: flat-mixed (development version)
 
 Flat sequence of triples or quads (RDF 1.1 standard only)
 
