@@ -512,18 +512,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#editing-static-pages" class="md-nav__link">
+  <a href="#technical-details" class="md-nav__link">
     <span class="md-ellipsis">
-      Editing static pages
+      Technical details
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editing-the-homepage-and-main-readme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing the homepage and main README
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#editing-the-homepage-and-main-readme" class="md-nav__link">
+  <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
-      Editing the homepage and main README
+      See also
     </span>
   </a>
   
@@ -2743,18 +2758,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#editing-static-pages" class="md-nav__link">
+  <a href="#technical-details" class="md-nav__link">
     <span class="md-ellipsis">
-      Editing static pages
+      Technical details
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editing-the-homepage-and-main-readme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing the homepage and main README
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#editing-the-homepage-and-main-readme" class="md-nav__link">
+  <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
-      Editing the homepage and main README
+      See also
     </span>
   </a>
   
@@ -2789,13 +2819,19 @@
 </div>
 </div>
 <h1 id="editing-documentation">Editing documentation</h1>
-<p>A large chunk of RiverBench's documentation is automatically generated from the metadata – see the <a href="../metadata/">metadata documentation</a> for more details. However, lots of pages are static or include static content. This page explains how to edit them.</p>
-<h2 id="editing-static-pages">Editing static pages</h2>
-<p>Static pages are written in Markdown and live in the <a href="https://github.com/RiverBench/riverbench.github.io">riverbench.github.io repository</a>. To edit them, simply open a pull request to that repository.</p>
+<p>You are welcome to edit any page in RiverBench – be it a <a href="../../datasets/">dataset description</a>, a <a href="../tasks/index.md">benchmark task definition</a>, or a <a href="../">documentation page</a>. To do this, simply use the <em><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-1.9l10-10V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.1 9.5c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-2 1.8L12 20.9V23h2.1l6.1-6.1-2.1-2.1Z"/></svg></span> Edit this page</em> button at the top of the page:</p>
+<p><img alt="Edit this page – Markdown" src="../../assets/editing_markdown.png" /></p>
+<p>It will take you to GitHub, where you will be prompted to <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo">fork</a> the repository and create a pull request with your changes.</p>
+<p>The documentation pages are written in Markdown. However, some pages like datasets, tasks, and profiles are generated automatically from RDF metadata written in the Turtle language. In that case, you will find a button like this at the top of the page:</p>
+<p><img alt="Edit this page – RDF/Turtle" src="../../assets/editing_turtle.png" /></p>
+<p>Simply edit the values in the metadata file and the documentation will be updated automatically. You can read more about the structure of the metadata in the <a href="../metadata/">metadata documentation</a>.</p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Some pages in the riverbench.github.io repository are generated automatically. Do not edit them directly, as your changes will be either overwritten or will make something go seriously wrong. Instead, edit the metadata files, as described in the <a href="../metadata/">metadata documentation</a>.</p>
+<p class="admonition-title">Gotcha!</p>
+<p>You cannot edit pages of a stable release of RiverBench (e.g., 2.0.1) – that would make no sense, as the release is immutable. Instead, you can edit the development version of the documentation, which will be included in the next release.</p>
+<p>To be able to edit pages, switch to the <code>dev</code> version of the documentation using the version selector in the top navigation bar or by clicking <strong><a href="https://w3id.org/riverbench/">here</a></strong>.</p>
 </div>
+<h2 id="technical-details">Technical details</h2>
+<p>The RiverBench website is rendered from Markdown files using MkDocs and lives in the <a href="https://github.com/RiverBench/riverbench.github.io">riverbench.github.io repository</a>. Most files there are automatically generated and updated by CI scripts. However, some files are static and can be edited directly.</p>
 <p>In the riverbench.github.io repo you can edit:</p>
 <ul>
 <li><code>docs/assets</code> – static assets and images</li>
@@ -2804,14 +2840,13 @@
 <li><code>docs/categories/index.md</code> – the overview page for categories</li>
 <li><code>docs/schema/index.md</code> – the overview page for schemas</li>
 </ul>
-<p>And that's it. The rest of the pages are generated automatically.</p>
-<h2 id="editing-the-homepage-and-main-readme">Editing the homepage and main README</h2>
+<h3 id="editing-the-homepage-and-main-readme">Editing the homepage and main README</h3>
 <p>In the <a href="https://github.com/RiverBench/RiverBench/tree/main/doc"><code>doc</code> directory of the main repo</a> you will find the files that are used to build the index page of the website and the main README of the repository. These files are written in Markdown and can be edited directly.</p>
-<!--
-    ## Others?
-
-    TODO: this should be simplified... See: https://github.com/RiverBench/RiverBench/issues/80
--->
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="../metadata/">Metadata in RiverBench</a></li>
+<li><a href="../contribute/">How to contribute?</a></li>
+</ul>
 
 
 
