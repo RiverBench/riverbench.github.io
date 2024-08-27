@@ -6,7 +6,11 @@ RiverBench includes rich RDF metadata for each dataset, profile, schema, and the
 
 ## Accessing metadata
 
-On each dataset, profile, and schema page in this website you will find a box with links to the RDF metadata. You can also use the [HTTP content negotation mechanism](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation) to request the machine-readable metadata instead of the HTML page. This functionality is supported only when using the permanent URLs (starting with `https://w3id.org/riverbench/`).
+On each page of a RiverBench resource (e.g., dataset, task, profile) you will find a box with links to the RDF metadata. You can also use the [HTTP content negotation mechanism](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation) on permanent URLs (starting with `https://w3id.org/riverbench/`) to request the machine-readable metadata instead of the HTML page.
+
+You can find the permanent URL in the _Info_ box with metadata download links, or by copying the _:material-link-variant: Permanent URL_ link in the top right corner of the page:
+
+![Permanent URL](../assets/purls.png)
 
 Examples of URLs that will return the metadata with content negotiation:
 
@@ -27,7 +31,7 @@ The following metadata formats are supported:
 - [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (`.rdf`, content type `application/rdf+xml`)
 - [Jelly](https://github.com/Jelly-RDF) (`.jelly`, content type `application/x-jelly-rdf`)
 
-*You can find the rules that make this work [here](https://github.com/perma-id/w3id.org/tree/master/riverbench).*
+*If you are curious, you can find the rules that make this work [here](https://github.com/perma-id/w3id.org/tree/master/riverbench).*
 
 ## Metadata dumps
 
@@ -44,8 +48,8 @@ where `{version}` is the version tag of the suite release (e.g., `dev` or `2.0.0
 A large portion of the metadata is automatically generated. However, the rest is written manually in Turtle files in various repositories:
 
 - [RiverBench main repo / metadata.ttl](https://github.com/RiverBench/RiverBench/blob/main/metadata.ttl) – metadata about the suite itself
-- [{Dataset repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=dataset-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / metatada.ttl – metadata about the dataset
-- [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / metatada.ttl – metadata about the benchmark category
+- [{Dataset repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=dataset-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / metadata.ttl – metadata about the dataset
+- [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / metadata.ttl – metadata about the benchmark category
 - [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / profiles / {profile name}.ttl – metadata about the profile
 - [{Category repo}](https://github.com/orgs/RiverBench/repositories?type=all&q=category-+template%3Afalse+-lang%3AScala+archived%3Afalse+) / tasks / {task name} / metadata.ttl – metadata about the benchmark task
 
