@@ -1,4 +1,4 @@
-Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13.2 and [RiverBench CI worker](https://github.com/RiverBench/ci-worker)
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/schema/documentation/dev "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit ontology](https://github.com/RiverBench/schema/edit/main/src/documentation.ttl "Edit this page's ontology in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../documentation/editing-docs.md "Need help with editing?")</div></div>Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13.2 and [RiverBench CI worker](https://github.com/RiverBench/ci-worker).
 # RiverBench documentation ontology
 
 
@@ -22,7 +22,9 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 
 !!! info
 
-    Download this ontology in RDF: **[Turtle](https://w3id.org/riverbench/schema/documentation/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/schema/documentation/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/schema/documentation/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/schema/documentation/dev.jelly)**
+    :fontawesome-solid-diagram-project: Download this ontology in RDF: **[Turtle](https://w3id.org/riverbench/schema/documentation/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/schema/documentation/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/schema/documentation/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/schema/documentation/dev.jelly)**
+    <br>:material-github: Source repository: **[schema](https://github.com/RiverBench/schema)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/schema/documentation/dev`](https://w3id.org/riverbench/schema/documentation/dev)
 
 
 ### Description
@@ -49,7 +51,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Content](#groupContent)<br />[Distributions](#groupDistributions)<br />[General information](#groupGeneralInfo)<br />[Technical metadata](#groupTechnicalMetadata)<br />
+Has members |[Technical metadata](#groupTechnicalMetadata)<br />[General information](#groupGeneralInfo)<br />[Distributions](#groupDistributions)<br />[Content](#groupContent)<br />
 
 
 ## Object Properties
