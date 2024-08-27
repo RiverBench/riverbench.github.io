@@ -1,4 +1,4 @@
-# stream-ts-named-graphs (development version)
+# Profile: stream-ts-named-graphs (development version)
 
 Streaming timestamped named graphs (RDF 1.1 standard only)
 

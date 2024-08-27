@@ -1,4 +1,4 @@
-# stream-subject-graphs (development version)
+# Profile: stream-subject-graphs (development version)
 
 Streaming unnamed subject graphs (RDF 1.1 standard only)
 

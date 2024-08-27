@@ -1,4 +1,4 @@
-# stream-graphs-rdfstar (development version)
+# Profile: stream-graphs-rdfstar (development version)
 
 Streaming unnamed graphs (with RDF-star)
 

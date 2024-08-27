@@ -1,4 +1,4 @@
-# stream-ts-named-graphs-rdfstar (development version)
+# Profile: stream-ts-named-graphs-rdfstar (development version)
 
 Streaming timestamped named graphs (with RDF-star)
 

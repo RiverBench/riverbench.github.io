@@ -1,4 +1,6 @@
-# Grouped streaming deserialization throughput
+# Task: Grouped streaming deserialization throughput (development version)
+
+Task identifier: `stream-deserialization-throughput`
 
 A benchmark task measuring the througput of deserializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets) from a byte stream to memory.
 

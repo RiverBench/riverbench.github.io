@@ -1,4 +1,6 @@
-# End-to-end streaming latency
+# Task: End-to-end streaming latency (development version)
+
+Task identifier: `stream-latency-end-to-end`
 
 A benchmark task measuring the latency of streaming elements in a grouped RDF stream over the network, including serialization, network communication, and deserialization.
 

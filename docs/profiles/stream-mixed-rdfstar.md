@@ -1,4 +1,4 @@
-# stream-mixed-rdfstar (development version)
+# Profile: stream-mixed-rdfstar (development version)
 
 Streaming graphs or datasets (with RDF-star)
 

@@ -1,4 +1,6 @@
-# Grouped RDF stream compression
+# Task: Grouped RDF stream compression (development version)
+
+Task identifier: `stream-compression`
 
 A benchmark task measuring the compression efficiency of serializations for grouped RDF streams.
 

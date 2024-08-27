@@ -1,4 +1,4 @@
-# stream-mixed (development version)
+# Profile: stream-mixed (development version)
 
 Streaming graphs or datasets (RDF 1.1 standard only)
 

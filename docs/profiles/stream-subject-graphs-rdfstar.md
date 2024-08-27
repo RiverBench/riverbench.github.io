@@ -1,4 +1,4 @@
-# stream-subject-graphs-rdfstar (development version)
+# Profile: stream-subject-graphs-rdfstar (development version)
 
 Streaming unnamed subject graphs (with RDF-star)
 

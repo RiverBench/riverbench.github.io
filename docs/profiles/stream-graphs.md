@@ -1,4 +1,4 @@
-# stream-graphs (development version)
+# Profile: stream-graphs (development version)
 
 Streaming unnamed graphs (RDF 1.1 standard only)
 

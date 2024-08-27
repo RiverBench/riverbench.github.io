@@ -1,4 +1,4 @@
-# stream-datasets-rdfstar (development version)
+# Profile: stream-datasets-rdfstar (development version)
 
 Streaming datasets (with RDF-star)
 

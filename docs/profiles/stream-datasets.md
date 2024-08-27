@@ -1,4 +1,4 @@
-# stream-datasets (development version)
+# Profile: stream-datasets (development version)
 
 Streaming datasets (RDF 1.1 standard only)
 

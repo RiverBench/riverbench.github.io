@@ -1,4 +1,6 @@
-# End-to-end streaming throughput
+# Task: End-to-end streaming throughput (development version)
+
+Task identifier: `stream-throughput-end-to-end`
 
 A benchmark task measuring the throughput of streaming elements in a grouped RDF stream over the network, including serialization, network communication, and deserialization.
 

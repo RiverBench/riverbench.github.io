@@ -1,4 +1,6 @@
-# Grouped RDF stream serialization throughput
+# Task: Grouped RDF stream serialization throughput (development version)
+
+Task identifier: `stream-serialization-throughput`
 
 A benchmark task measuring the througput of serializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets).
 
