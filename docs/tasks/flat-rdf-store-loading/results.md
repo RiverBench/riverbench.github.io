@@ -1,3 +1,5 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/tasks/flat-rdf-store-loading/results "Link to the permanent URL of this resource.")</div><div markdown><abbr title="This page is entirely automatically generated and cannot be edited.">:material-lock-reset: Auto-generated</abbr></div></div>
+
 # Benchmark results for task flat-rdf-store-loading
 
 [:octicons-arrow-left-24: Back to task definition](index.md)
@@ -8,7 +10,7 @@
 
 !!! info
 
-    This benchmark result was reported in a Nanopublication: [https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs](https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs).
+    :fontawesome-solid-diagram-project: This benchmark result was reported in a Nanopublication: [https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs](https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs).
 
     The documentation here was generated automatically.
 

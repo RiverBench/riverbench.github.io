@@ -1,10 +1,14 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/profiles/flat-mixed "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/category-flat/edit/main/profiles/flat-mixed.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../documentation/editing-docs.md "Need help with editing?")</div></div>
+
 # Profile: flat-mixed (development version)
 
 Flat sequence of triples or quads (RDF 1.1 standard only)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/flat-mixed.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/flat-mixed.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/flat-mixed.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/flat-mixed.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/flat-mixed.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/flat-mixed.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/flat-mixed.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/flat-mixed.jelly)**
+    <br>:material-github: Source repository: **[category-flat](https://github.com/RiverBench/category-flat)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/profiles/flat-mixed`](https://w3id.org/riverbench/v/dev/profiles/flat-mixed)
 
 
 

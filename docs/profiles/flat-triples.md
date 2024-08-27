@@ -1,10 +1,14 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/profiles/flat-triples "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/category-flat/edit/main/profiles/flat-triples.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../documentation/editing-docs.md "Need help with editing?")</div></div>
+
 # Profile: flat-triples (development version)
 
 Flat sequence of triples (RDF 1.1 standard only)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/flat-triples.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/flat-triples.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/flat-triples.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/flat-triples.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/profiles/flat-triples.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/profiles/flat-triples.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/profiles/flat-triples.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/profiles/flat-triples.jelly)**
+    <br>:material-github: Source repository: **[category-flat](https://github.com/RiverBench/category-flat)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/profiles/flat-triples`](https://w3id.org/riverbench/v/dev/profiles/flat-triples)
 
 
 

@@ -1,3 +1,5 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/tasks/flat-compression/results "Link to the permanent URL of this resource.")</div><div markdown><abbr title="This page is entirely automatically generated and cannot be edited.">:material-lock-reset: Auto-generated</abbr></div></div>
+
 # Benchmark results for task flat-compression
 
 [:octicons-arrow-left-24: Back to task definition](index.md)

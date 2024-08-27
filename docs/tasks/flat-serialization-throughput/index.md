@@ -1,3 +1,5 @@
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput "Link to the permanent URL of this resource.")</div><div markdown>**[:material-file-edit: Edit this page](https://github.com/RiverBench/category-flat/edit/main/tasks/flat-serialization-throughput/index.md "Edit this page's source in Markdown on GitHub.")**</div><div markdown>**[:material-database-edit: Edit metadata](https://github.com/RiverBench/category-flat/edit/main/tasks/flat-serialization-throughput/metadata.ttl "Edit this page's metadata in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
+
 # Task: Flat RDF serialization throughput (development version)
 
 Task identifier: `flat-serialization-throughput`
@@ -45,7 +47,9 @@ The primary metric is the throughput of the serialization process, measured in R
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput.jelly)**
+    <br>:material-github: Source repository: **[category-flat](https://github.com/RiverBench/category-flat)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput`](https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput)
 
 
 
