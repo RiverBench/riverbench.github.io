@@ -2916,21 +2916,21 @@
 </div>
 </div>
 <h1 id="dataset-release-format">Dataset release format</h1>
-<p>This page explains the formats in which <a href="../../datasets/">RiverBench's datasets</a> are distributed.</p>
+<p><a href="../../datasets/">RiverBench's datasets</a> can all be treated as RDF streams or just flat RDF files. RiverBench uses the <a href="https://w3id.org/stax/dev/taxonomy">RDF Stream Taxonomy</a> (RDF-STaX) to organize the datasets – we recommend you have at least a brief look at it to understand the dataset structure.</p>
 <p>Each dataset has three types of distributions: </p>
 <ul>
-<li><strong>Flat</strong> – flat distributions are simply compressed files with a sequence of RDF statements. </li>
-<li><strong>Stream</strong> – plain streaming distributions are compressed archives with a sequence of files, with each file corresponding to one stream element.</li>
+<li><strong>Flat</strong> – flat distributions are simply compressed files with a sequence of RDF statements (this is a flat RDF stream, according to <a href="https://w3id.org/stax/dev/taxonomy">RDF-STaX</a>).</li>
+<li><strong>Stream</strong> – grouped streaming distributions are compressed archives with a sequence of files. Each file corresponds to one stream element – an RDF graph or an RDF dataset (this is a grouped RDF stream, according to <a href="https://w3id.org/stax/dev/taxonomy">RDF-STaX</a>).</li>
 <li><strong>Jelly</strong> – Jelly streaming distributions use the high-performance <a href="https://github.com/Jelly-RDF">Jelly serialization format</a> that natively supports RDF streams. The Jelly files can be used for both the grouped and flat streaming formulations.</li>
 </ul>
 <p>There always a few size variants of each distribution to choose from, starting from 10K stream elements, with 10x increases up to the full dataset. The full distribution is the longest available distribution of the dataset.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Choose the size-limited distributions, if your work does not require the full dataset. They are much easier to work with. You can also want to choose them to have all datasets of the same size.</p>
+<p>Choose the size-limited distributions, if your work does not require the full dataset – they may be easier to work with. You can also want to choose them to have all datasets of the same size.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p><a href="#jelly-distributions">Jelly distributions</a> are the fastest to load and much easier to work with. They can be used instead of both flat and stream distributions.</p>
+<p><a href="#jelly-distributions">Jelly distributions</a> are the much faster to load and can support all benchmark tasks. They can be used instead of both flat and stream distributions.</p>
 </div>
 <h2 id="flat-distributions">Flat distributions</h2>
 <p>Flat distributions are serialized in the <a href="https://www.w3.org/TR/n-triples/">N-Triples</a> or <a href="https://www.w3.org/TR/n-quads/">N-Quads</a> format, depending on stream type. In case RDF-star is used in the dataset, the used formats are <a href="https://www.w3.org/2021/12/rdf-star.html#n-triples-star">N-Triples-star</a> or <a href="https://www.w3.org/2021/12/rdf-star.html#n-quads-star">N-Quads-star</a>. The files are compressed with <a href="https://en.wikipedia.org/wiki/Gzip">gzip</a>. This format is streamable, as you can decompress gzip-compressed files on-the-fly and read the statements line-by-line.</p>

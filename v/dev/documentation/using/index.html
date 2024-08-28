@@ -582,6 +582,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Using RiverBench – quick start guide
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -591,6 +602,94 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#to-perform-a-benchmark" class="md-nav__link">
+    <span class="md-ellipsis">
+      To perform a benchmark...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reporting-your-benchmark-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reporting your benchmark – best practices
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reporting your benchmark – best practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reporting-riverbench-usage-in-your-paperreport" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reporting RiverBench usage in your paper/report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sharing-your-benchmark-run-on-the-riverbench-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing your benchmark run on the RiverBench website
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Model example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i-cant-find-the-taskdataset-i-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      I can't find the task/dataset I need...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2731,6 +2830,83 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#to-perform-a-benchmark" class="md-nav__link">
+    <span class="md-ellipsis">
+      To perform a benchmark...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reporting-your-benchmark-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reporting your benchmark – best practices
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reporting your benchmark – best practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reporting-riverbench-usage-in-your-paperreport" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reporting RiverBench usage in your paper/report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sharing-your-benchmark-run-on-the-riverbench-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing your benchmark run on the RiverBench website
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Model example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i-cant-find-the-taskdataset-i-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      I can't find the task/dataset I need...
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2758,17 +2934,82 @@
 </div>
 </div>
 <h1 id="using-riverbench-quick-start-guide">Using RiverBench – quick start guide</h1>
-<!-- 
-    TODO 
-    https://github.com/RiverBench/RiverBench/issues/73
--->
-
-<p>The quick start guide is under construction, sorry! In the meantime, you can refer to these documentation pages:</p>
+<p>RiverBench collects three types of resources:</p>
 <ul>
-<li><a href="../dataset-release-format/">Dataset release format</a></li>
-<li><a href="../metadata/">Metadata of datasets, profiles, and more</a></li>
+<li><strong>Benchmark tasks</strong> – descriptions of benchmark procedures and metrics.</li>
+<li><strong><a href="../../datasets/">Datasets</a></strong> – diverse, real-life datasets that can be used for a variety of tasks.</li>
+<li><strong>Profiles</strong> – collections of datasets that share common technical characteristics. For example: datasets that contain only RDF triples.</li>
+</ul>
+<h2 id="to-perform-a-benchmark">To perform a benchmark...</h2>
+<ol>
+<li><strong>Make sure you are using a stable release of RiverBench</strong> – do <em>not</em> use the "dev" version of RiverBench for benchmarking, as it can change at any moment. You can find the version you are viewing in the top navigation bar. By using a stable release, you ensure that your results are reproducible.<ul>
+<li>Go to the <a href="https://w3id.org/riverbench/v/stable/">latest stable release of RiverBench</a>.</li>
+<li>You can also find the list of all available releases <a href="../../releases/">here</a>.</li>
+</ul>
+</li>
+<li><strong>Find a benchmark task</strong> – see the <a href="../../categories/">list of benchmark categories</a> and browse the available tasks. The task's description will explain how to set up the benchmark and measure the results. You will also find there the list of previously reported results for this task.<ul>
+<li>If someone has already reported the results for this task, they may have published their benchmark code, which may be useful. Check the task's "Results" subpage for more information.</li>
+</ul>
+</li>
+<li><strong>Choose a profile</strong> – within the same category as the task you've picked, you can choose any profile that fits your needs. For example, if you've selected the <a href="../../tasks/flat-rdf-store-loading/"><code>flat-rdf-store-loading</code></a> task, you can use any profile with a name starting with <code>flat-</code>, such as <a href="../../profiles/flat-triples/"><code>flat-triples</code></a>.<ul>
+<li>The profiles vary in the type of data they contain (e.g., triples vs quads) and their usage of RDF features (e.g., if they use RDF-star or not).</li>
+</ul>
+</li>
+<li><strong>Download the datasets</strong> – each profile page has a convenient list of download links for all datasets in that profile.<ul>
+<li>You can also view each <a href="../../datasets/">dataset's documentation</a> to learn more about its origin, use cases, size, and other technical characteristics. You can also preview the dataset's contents.</li>
+<li>The dataset's documentation page also includes useful statistics (e.g., number of subjects/predicates/objects, unique IRIs, etc.) that may be useful for analyzing and discussing your results.</li>
+<li>Read more about the <a href="../dataset-release-format/">available dataset formats</a>.</li>
+</ul>
+</li>
+<li><strong>Run the benchmark</strong>.</li>
+<li><strong>Report your results</strong> – see the dedicated guide below.</li>
+</ol>
+<h2 id="reporting-your-benchmark-best-practices">Reporting your benchmark – best practices</h2>
+<p>Reproducibility is key in benchmarking. Here we've collected a few best practices for reporting your benchmark results, so that others can easily understand and reproduce your work.</p>
+<p>Most importantly, <strong>always refer to a stable release of RiverBench</strong> – if you link to the "dev" version of RiverBench, others will have no way of knowing which version of the task or dataset you really used.</p>
+<h3 id="reporting-riverbench-usage-in-your-paperreport">Reporting RiverBench usage in your paper/report</h3>
+<p>You should at least state the following information: the benchmark task identifier (with version) and the profile identifier (with version).</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>For example, you can write: </p>
+<blockquote>
+<p>We used the <code>flat-rdf-store-loading</code> task from RiverBench, version 2.1.0, with the <code>flat-triples</code> profile, version 2.1.0.</p>
+</blockquote>
+<p>Feel free to modify the wording to your liking... the only important part are the identifiers and versions.</p>
+</div>
+<p>If you can use links in your text, we recommend you link to the task and profile pages on the RiverBench website. You should only use permanent URLs, which are guaranteed to never change. The permanent URL links can be found in the top-right corner of every page – <a href="../metadata/#accessing-metadata">read more about them</a>.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>The permanent URL for the <code>flat-rdf-store-loading</code> task, version 2.1.0 is: <code>https://w3id.org/riverbench/v/2.1.0/tasks/flat-rdf-store-loading</code>
+<br>For the <code>flat-triples</code> profile, version 2.1.0, it is: <code>https://w3id.org/riverbench/v/2.1.0/profiles/flat-triples</code></p>
+<p>You can link to them in LaTeX like this:</p>
+<div class="language-latex rb-wrap-code highlight"><span class="filename">LaTeX</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>We used the <span class="k">\href</span><span class="nb">{</span>https://w3id.org/riverbench/v/2.1.0/tasks/flat-rdf-store-loading<span class="nb">}{</span>flat-rdf-store-loading<span class="nb">}</span> task from RiverBench, version 2.1.0, with the <span class="k">\href</span><span class="nb">{</span>https://w3id.org/riverbench/v/2.1.0/profiles/flat-triples<span class="nb">}{</span>flat-triples<span class="nb">}</span> profile, version 2.1.0.
+</span></code></pre></div>
+<p>Which will look like this:</p>
+<blockquote>
+<p>We used the <a href="https://w3id.org/riverbench/v/2.1.0/tasks/flat-rdf-store-loading">flat-rdf-store-loading</a> task from RiverBench, version 2.1.0, with the <a href="https://w3id.org/riverbench/v/2.1.0/profiles/flat-triples">flat-triples</a> profile, version 2.1.0.</p>
+</blockquote>
+</div>
+<p>You can also optionally link to the individual datasets that you used.</p>
+<p>If you use RiverBench in your research, <strong>we kindly ask you to <a href="../licensing/#attribution-citation">cite it using the canonical citation</a></strong>.</p>
+<h3 id="sharing-your-benchmark-run-on-the-riverbench-website">Sharing your benchmark run on the RiverBench website</h3>
+<p>We highly encourage you to share your benchmark results with the community in a structured manner. This way, your benchmark run <a href="../../results/">will be listed on the RiverBench website</a> (along with appropriate citation), and others will be able to easily find your paper/report, benchmark code, and results.</p>
+<div style="text-align: center">
+<p><a class="md-button" href="../reporting-results/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m5.8 21 1.6-7L2 9.2l7.2-.6L12 2l2.8 6.6 7.2.6-3.2 2.8H18c-3.1 0-5.6 2.3-6 5.3L5.8 21M17 14v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg></span> Report your benchmark results</a></p>
+</div>
+<h3 id="model-example">Model example</h3>
+<p>You can use this paper as a model example of how to report your benchmark results: <a href="https://doi.org/10.48550/arXiv.2406.16412">https://doi.org/10.48550/arXiv.2406.16412</a>. Of course, you don't have to go into as much detail as this paper did – just stating the profile and task really is enough.</p>
+<p>This paper also reported its results in a structured manner, using the mechanism described <strong><a href="../reporting-results/">here</a></strong>. You can find the original nanopublication with the results <a href="https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs">here</a>, and the results being rendered on the RiverBench website <a href="../../tasks/flat-rdf-store-loading/results/">here</a>.</p>
+<h2 id="i-cant-find-the-taskdataset-i-need">I can't find the task/dataset I need...</h2>
+<p>You are welcome to contribute new tasks or datasets to RiverBench! You can find more information on how to do that in the <strong><a href="../contribute/">contributing guide</a></strong>.</p>
+<p>You can also <a href="../editing-docs/">propose changes</a> to any of the existing tasks, documentation pages, and metadata files.</p>
+<h2 id="see-also">See also</h2>
+<ul>
 <li><a href="../reporting-results/">Reporting benchmark results</a></li>
 <li><a href="../licensing/">Licensing and citation</a></li>
+<li><a href="../dataset-release-format/">Dataset release format</a></li>
+<li><a href="../metadata/">Metadata of datasets, profiles, and more</a></li>
+<li><a href="../contribute/">Contributing to RiverBench</a></li>
 </ul>
 
 
