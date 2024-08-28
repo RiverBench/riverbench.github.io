@@ -15,6 +15,8 @@ Below you will find a list of tasks that are part of this benchmark category.
 
 --8<-- "docs/categories/flat/task_table.md"
 
+<div style="text-align: center" markdown>[:material-invoice-text-plus: Propose a new benchmark task](../../documentation/creating-new-task.md){ .md-button }</div>
+
 ## Benchmark profiles
 
 Profiles in RiverBench group datasets that share common technical characteristics.
