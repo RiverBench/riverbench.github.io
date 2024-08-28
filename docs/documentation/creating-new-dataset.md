@@ -10,32 +10,13 @@ Before you start, have a look at the [requirements for new datasets](contribute.
 
 ## Step 1: Create a dataset proposal
 
-1. Open a new dataset proposal in the RiverBench repository: **[:material-database-plus: New dataset proposal](https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+dataset&projects=&template=dataset-proposal.md&title=Dataset+proposal%3A+%5BIDENTIFIER+HERE%5D){ .md-button .md-button--primary .rb-small-button }**
-2. Fill in the form with the required information (see below).
+Open a new dataset proposal in the RiverBench repository: <a href="https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+dataset&projects=&template=dataset-proposal.yml&title=Dataset+proposal%3A+%5BIDENTIFIER+HERE%5D" target="_blank" class="md-button md-button--primary rb-small-button" markdown>**:material-database-plus: New dataset proposal**</a>
+
+Fill in the fields with the required information, using the instructions embedded in the form.
 
 !!! note
 
     If you have trouble filling in any of the fields, you can leave them blank and ask the maintainer for help.
-
-### General information
-
-- **Description of the dataset:** Provide a brief and informative description of the dataset, including its content, structure, and purpose.
-- **Value brought by the dataset:** Explain the significance of the dataset and why it should be included in RiverBench. For example, the dataset might cover a new domain, or it may introduce technical features not found in other datasets.
-- **Proposed identifier:** Suggest a unique identifier for the dataset using only lowercase latin letters, digits, and dashes (-).
-- **Link to the source of the dataset:** Provide a link to the dataset's source or repository.
-- **License of the dataset:** Specify the dataset's license by providing an SPDX license link from [this list](https://spdx.org/licenses/). Ensure that the chosen license allows for free use and does not prohibit commercial usage or modification. Examples of accepted licenses include [CC Zero](https://spdx.org/licenses/CC0-1.0.html), [CC BY](https://spdx.org/licenses/CC-BY-4.0.html), [CC BY-SA](https://spdx.org/licenses/CC-BY-SA-4.0.html), and [ODbL](https://spdx.org/licenses/ODbL-1.0.html).
-- **Additional licensing notes (if any):** Mention any licensing irregularities or special clauses related to the dataset, such as a different license for a part of the dataset or restrictions on its use.
-- **Creator(s):** List the names of the dataset's original creators.
-
-### Technical information
-
-- **Stream type:** Specify the type of the RDF stream in the dataset, using the [RDF Stream Taxonomy (RDF-STaX)](https://w3id.org/stax).
-- **Stream element count:** Provide the total number of stream elements in the dataset (stream length). This corresponds to the number of files in the dataset's source archive (see below).
-- **How were the stream elements split:** Explain the method used to split the stream into elements, e.g., by time, by topic, other.
-- **Uses RDF-star:** Specify if the dataset uses RDF-star (yes or no).
-- **Uses generalized triples:** Indicate if the dataset employs generalized triples (yes or no).
-- **Uses generalized datasets:** State if the dataset utilizes generalized RDF datasets (yes or no).
-- **Other technical notes (if any):** Include any additional technical information or notes relevant to the dataset.
 
 ## Step 2: Wait for approval
 

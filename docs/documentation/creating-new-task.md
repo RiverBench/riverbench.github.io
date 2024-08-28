@@ -12,16 +12,9 @@ Each task belongs to one [benchmark category](categories.md). A benchmark catego
 
 ## Step 1: Create a task proposal
 
-1. Open a new task proposal in the RiverBench repository: **[:material-invoice-text-plus: New task proposal](https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+task&projects=&template=task-proposal.md&title=Task+proposal%3A+%5BIDENTIFIER+HERE%5D){ .md-button .md-button--primary .rb-small-button }**
-2. Fill in the form with the required information (see below).
-    - **Short description of the task:** Provide a brief and informative description of the task (what is being measured, how, and why). You can later expand on this description when the task is created.
-    - **Task usefulness (why is the task important):** Explain the significance of the task. For example, the task may measure a performance aspect that is not covered by other tasks, or it may be useful for comparing different systems.
-    - **Past benchmarking efforts and task descriptions (if any):** Provide links to any past benchmarking efforts or task descriptions that are related to the proposed task (for example, a paper describing the task).
-    - **Proposed identifier:** Suggest a unique identifier for the task using only lowercase latin letters, digits, and dashes (-).
-    - **Does the task need a new benchmark category?** Answer "yes" if there is no suitable benchmark category for the task. If you answer yes, please explain what kind of category is needed.
-    - **[Existing benchmark category](https://w3id.org/riverbench/category), if applicable:** If the task requires a new category, leave this field blank. Otherwise, provide the identifier of the existing category that the task should be added to.
-    - **Proponent(s):** List the names of the task's proponents.
-    - **License statement:** Answer "YES" to agree to the description and metadata of this task being published under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) license **(required)**.
+Open a new task proposal in the RiverBench repository: <a href="https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+task&projects=&template=task-proposal.yml&title=Task+proposal%3A+%5BIDENTIFIER+HERE%5D" target="_blank" class="md-button md-button--primary rb-small-button" markdown>**:material-invoice-text-plus: New task proposal**</a>
+
+Fill in the fields with the required information, using the instructions embedded in the form.
 
 !!! note
 
