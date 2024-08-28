@@ -2,7 +2,7 @@
 
 # Editing documentation
 
-You are welcome to edit any page in RiverBench – be it a [dataset description](../datasets/index.md), a [benchmark task definition](../tasks/index.md), or a [documentation page](index.md). To do this, simply use the _:material-file-edit: Edit this page_ button at the top of the page:
+You are welcome to edit any page in RiverBench – be it a dataset description, a benchmark task definition, or a documentation page. To do this, simply use the _:material-file-edit: Edit this page_ button at the top of the page:
 
 ![Edit this page – Markdown](../assets/editing_markdown.png)
 

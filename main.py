@@ -9,6 +9,18 @@ def define_env(env):
         print('Warning: RELEASE_TAG environment variable not set. Defaulting to "dev".')
         tag = 'dev'
 
+
+    @env.macro
+    def nanopub_template_url():
+        # URL to the latest version of the nanopublication template
+        return 'https://w3id.org/np/RARL9HnpZmlPQECZiDGWI3pABNi42TIhXvftX8KN9ytV4'
+    
+
+    @env.macro
+    def report_results_url():
+        return 'https://nanodash.petapico.org/publish?template=' + nanopub_template_url()
+
+
     @env.macro
     def top_buttons(edit_override = None):
         split = [s for s in env.page.url.split('/') if s]

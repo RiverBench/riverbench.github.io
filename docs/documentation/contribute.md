@@ -6,6 +6,10 @@
 
 RiverBench is an open, community-driven project, so you are more than welcome to contribute. This page explains how to do it.
 
+## Reporting benchmark results
+
+If you have run a benchmark using RiverBench's datasets or tasks, **we highly encourage you to [share your results](reporting-results.md)**. After filling out a simple form, your benchmark run will be [listed on the RiverBench website](../results/index.md) (along with proper citation, of course) in a machine- and human-readable format. See our dedicated brief guide on **[reporting benchmark results](reporting-results.md)** for more details.
+
 ## Contributing datasets
 
 Do you have an interesting RDF dataset that would make a good addition to RiverBench? Great!

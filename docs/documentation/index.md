@@ -12,8 +12,9 @@ This documentation explains how to use and contribute to RiverBench.
     - [Licensing and citation](licensing.md)
 - **For contributors**
     - **[How to contribute?](contribute.md)**
-    - [Creating a new dataset](creating-new-dataset.md)
+    - [Reporting benchmark results](reporting-results.md)
     - [Creating a new benchmark task](creating-new-task.md)
+    - [Creating a new dataset](creating-new-dataset.md)
     - [Dataset source format](dataset-source-format.md)
     - [Editing documentation](editing-docs.md)
     - [Working with benchmark categories](categories.md)

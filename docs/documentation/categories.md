@@ -24,3 +24,4 @@ Benchmark categories are collections of benchmark tasks and profiles. Within a c
 
 - [Creating a new benchmark task](creating-new-task.md)
 - [Editing the documentation](editing-docs.md)
+- [Reporting benchmark results](reporting-results.md)

@@ -11,4 +11,5 @@ The quick start guide is under construction, sorry! In the meantime, you can ref
 
 - [Dataset release format](dataset-release-format.md)
 - [Metadata of datasets, profiles, and more](metadata.md)
+- [Reporting benchmark results](reporting-results.md)
 - [Licensing and citation](licensing.md)

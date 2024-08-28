@@ -4,7 +4,7 @@
 
 This page aggregates the benchmark results reported by the community using nanopublications. Click on the _:octicons-arrow-right-24: Details_ link in the tables to read more about each benchmark.
 
-TODO: link to documentation
+<div style="text-align: center" markdown>[:material-help: How to report benchmark results?](../documentation/reporting-results.md){ .md-button }</div>
 
 !!! tip
 
@@ -14,5 +14,6 @@ TODO: link to documentation
 
 ## See also
 
+* **[Reporting benchmark results](../documentation/reporting-results.md)**
 * [Benchmark categories](../categories/index.md)
 * [Datasets](../datasets/index.md)
