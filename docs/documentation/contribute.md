@@ -10,6 +10,8 @@ RiverBench is an open, community-driven project, so you are more than welcome to
 
 If you have run a benchmark using RiverBench's datasets or tasks, **we highly encourage you to [share your results](reporting-results.md)**. After filling out a simple form, your benchmark run will be [listed on the RiverBench website](../results/index.md) (along with proper citation, of course) in a machine- and human-readable format. See our dedicated brief guide on **[reporting benchmark results](reporting-results.md)** for more details.
 
+<div style="text-align: center" markdown>[:material-star-plus: Report your benchmark results](reporting-results.md){ .md-button }</div>
+
 ## Contributing datasets
 
 Do you have an interesting RDF dataset that would make a good addition to RiverBench? Great!
@@ -24,11 +26,13 @@ What datasets are we looking for?
 
 If you think your dataset fits the bill, have a look at the **[dedicated guide on creating new datasets](creating-new-dataset.md)**. If you still have questions, don't hesitate to contact RiverBench's maintainer by [opening an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose).
 
+<div style="text-align: center" markdown>[:material-database-plus: Propose a new dataset](creating-new-dataset.md){ .md-button }</div>
+
 ## Contributing benchmark tasks
 
 Do you want to share your benchmarking procedure with the world? Publishing it in RiverBench will give your task a permanent URI and make it easy to reference in papers and other publications. Others will also have the chance to contribute their results and notes about conducting the benchmark.
 
-Have a look at the [dedicated guide on creating new benchmark tasks](creating-new-task.md).
+<div style="text-align: center" markdown>[:material-invoice-text-plus: Propose a new benchmark task](creating-new-task.md){ .md-button }</div>
 
 ## Reporting issues
 
@@ -53,4 +57,8 @@ You are welcome to submit any pull requests to these repositories. If you are un
 
 ## Deeper changes
 
-Do you see a glaring issue with the way RiverBench is organized? Or maybe you have a great idea for a new feature? Please contact the maintainer directly: [Piotr Sowiński (Ostrzyciel)](https://github.com/Ostrzyciel) by following the contact info on his profile page. **We are open to scientific collaboration.**
+Do you see a glaring issue with the way RiverBench is organized? Or maybe you have a great idea for a new feature? Please contact the maintainer directly: [Piotr Sowiński (Ostrzyciel)](https://github.com/Ostrzyciel) by following the contact info on his profile page. **We are open to any collaboration.**
+
+## See also
+
+- [Using RiverBench – quick start guide](using.md)

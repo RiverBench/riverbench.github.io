@@ -4,7 +4,7 @@
 
 If you have used RiverBench's datasets or tasks to run a benchmark, we **highly encourage you to share your results**. Already familiar with the process? Jump straight in:
 
-<div style="text-align: center" markdown><a href="{{ report_results_url() }}" target="_blank" class="md-button md-button--primary"  markdown>:material-star-plus: Report your benchmark results</a></div>
+<div style="text-align: center" markdown><a href="{{ report_results_url() }}" target="_blank" class="md-button md-button--primary"  markdown>:material-star-plus: New benchmark results report</a></div>
 
 ## Why report results?
 

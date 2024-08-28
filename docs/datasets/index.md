@@ -14,6 +14,8 @@ You can find the list of all datasets in the menu on the left.
 
 --8<-- "docs/datasets/table.md"
 
+<div style="text-align: center" markdown>[:material-database-plus: Propose a new dataset](../documentation/creating-new-dataset.md){ .md-button }</div>
+
 ## See also
 
 * [Benchmark categories](../categories/index.md) – groupings of datasets and benchmark tasks.

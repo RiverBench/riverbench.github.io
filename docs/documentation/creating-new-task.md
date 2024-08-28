@@ -12,7 +12,7 @@ Each task belongs to one [benchmark category](categories.md). A benchmark catego
 
 ## Step 1: Create a task proposal
 
-1. Open a new task proposal in the RiverBench repository: **[click HERE](https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+task&projects=&template=task-proposal.md&title=Task+proposal%3A+%5BIDENTIFIER+HERE%5D)**.
+1. Open a new task proposal in the RiverBench repository: **[:material-invoice-text-plus: New task proposal](https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+task&projects=&template=task-proposal.md&title=Task+proposal%3A+%5BIDENTIFIER+HERE%5D){ .md-button .md-button--primary .rb-small-button }**
 2. Fill in the form with the required information (see below).
     - **Short description of the task:** Provide a brief and informative description of the task (what is being measured, how, and why). You can later expand on this description when the task is created.
     - **Task usefulness (why is the task important):** Explain the significance of the task. For example, the task may measure a performance aspect that is not covered by other tasks, or it may be useful for comparing different systems.

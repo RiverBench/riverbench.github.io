@@ -10,7 +10,7 @@ Before you start, have a look at the [requirements for new datasets](contribute.
 
 ## Step 1: Create a dataset proposal
 
-1. Open a new dataset proposal in the RiverBench repository: **[click HERE](https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+dataset&projects=&template=dataset-proposal.md&title=Dataset+proposal%3A+%5BIDENTIFIER+HERE%5D)**.
+1. Open a new dataset proposal in the RiverBench repository: **[:material-database-plus: New dataset proposal](https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+dataset&projects=&template=dataset-proposal.md&title=Dataset+proposal%3A+%5BIDENTIFIER+HERE%5D){ .md-button .md-button--primary .rb-small-button }**
 2. Fill in the form with the required information (see below).
 
 !!! note
