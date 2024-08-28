@@ -1,11 +1,16 @@
-# nanopubs (development version)
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/datasets/nanopubs/dev "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/dataset-nanopubs/edit/main/metadata.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
+
+# Dataset: nanopubs (development version)
 
 Nanopublications are small units of publishable information, used for scientific results and more. This dataset is based on a subset of [a dump of all available nanopublications](https://zenodo.org/record/1213293) as of April 5, 2018. Only the first 5M of freely-licensed nanopubs were included. Each nanopub consists of several RDF graphs and thus is an RDF dataset. The included data is primarily from the biomedical domain. More information: [paper](https://arxiv.org/abs/1809.06532), [website](https://nanopub.net/).
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/nanopubs/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/nanopubs/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/nanopubs/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/nanopubs/dev.jelly)**
-    <br>Source repository: **[nanopubs](https://github.com/RiverBench/dataset-nanopubs)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/nanopubs/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/nanopubs/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/nanopubs/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/nanopubs/dev.jelly)**
+    <br>:material-github: Source repository: **[dataset-nanopubs](https://github.com/RiverBench/dataset-nanopubs)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/datasets/nanopubs/dev`](https://w3id.org/riverbench/datasets/nanopubs/dev)
+
+    **[:octicons-arrow-down-24: Go to download links](#distributions)**
 
 ??? example "Stream preview (click to expand)"
 
@@ -60,8 +65,8 @@ Nanopublications are small units of publishable information, used for scientific
         - **<abbr title="A name for some thing.">Name</abbr>**: Authors of the included nanopublications (cited within the dataset)
     - **Tobias Kuhn (2)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Tobias Kuhn
-        - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://orcid.org/0000-0002-1267-0234](https://orcid.org/0000-0002-1267-0234)
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: Author of the [nanopublications dump](https://zenodo.org/record/1213293) _(<abbr title="English">en</abbr>)_
+        - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://orcid.org/0000-0002-1267-0234](https://orcid.org/0000-0002-1267-0234)
     - **Piotr Sowiński (3)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
@@ -69,10 +74,10 @@ Nanopublications are small units of publishable information, used for scientific
             -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
             - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-SA-3.0](https://spdx.org/licenses/CC-BY-SA-3.0)
-- **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: [https://doi.org/10.5281/zenodo.1213293](https://doi.org/10.5281/zenodo.1213293)
 - **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: This dataset only includes freely-licensed publications (CC BY, CC BY-SA, or ODbL licenses). Each nanopublication includes information about its original authors and is self-citing. The dataset is marked as under CC BY-SA, as this is the most restrictive license in the dataset. _(<abbr title="English">en</abbr>)_
+- **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: [https://doi.org/10.5281/zenodo.1213293](https://doi.org/10.5281/zenodo.1213293)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-04-30
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-05
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-28
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [nanopubs (dev)](https://w3id.org/riverbench/datasets/nanopubs/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -81,12 +86,12 @@ Nanopublications are small units of publishable information, used for scientific
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets. Each RDF dataset corresponds to one nanopublication. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF dataset stream is a grouped RDF stream whose elements are RDF datasets.">RDF dataset stream</abbr> ([stax:datasetStream](https://w3id.org/stax/ontology#datasetStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets. Each RDF dataset corresponds to one nanopublication. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF dataset stream is a grouped RDF stream whose elements are RDF datasets.">RDF dataset stream</abbr> ([stax:datasetStream](https://w3id.org/stax/ontology#datasetStream))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 5,000,000
 - **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
     - **Type**: <abbr title="The elements correspond to different topics/subjects in the dataset.">Stream elements split by topic</abbr> ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
@@ -103,6 +108,25 @@ Nanopublications are small units of publishable information, used for scientific
 
 ## Distributions
 
+
+### Download links
+
+The dataset is published in a few size variants, each containing a specific number of stream elements.
+For each size, there are three distribution types available: flat (just an N-Triples/N-Quads file),
+streaming (a .tar.gz archive with Turtle/TriG files, one file per stream element),
+and [Jelly](https://w3id.org/jelly) (a native binary format for streaming RDF).
+See the [documentation](../../documentation/dataset-release-format.md) for more details.
+
+Distribution size | Statements | Flat | Streaming | Jelly
+--- | --: | --: | --: | --:
+<abbr title="10,000 stream elements">10K</abbr> | 340,000 | [:octicons-download-24: 3.5 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_10K.nq.gz) | [:octicons-download-24: 2.6 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_10K.tar.gz) | [:octicons-download-24: 2.9 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_10K.jelly.gz)
+<abbr title="100,000 stream elements">100K</abbr> | 3,307,350 | [:octicons-download-24: 35.7 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_100K.nq.gz) | [:octicons-download-24: 25.6 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_100K.tar.gz) | [:octicons-download-24: 29.6 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_100K.jelly.gz)
+<abbr title="1,000,000 stream elements">1M</abbr> | 33,423,542 | [:octicons-download-24: 384.6 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_1M.nq.gz) | [:octicons-download-24: 277.0 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_1M.tar.gz) | [:octicons-download-24: 332.7 MB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_1M.jelly.gz)
+<abbr title="5,000,000 stream elements">Full</abbr> | 171,885,662 | [:octicons-download-24: 1.7 GB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_full.nq.gz) | [:octicons-download-24: 1.0 GB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_full.tar.gz) | [:octicons-download-24: 1.5 GB](https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_full.jelly.gz)
+
+
+The full metadata of all distributions can be found below.
+
 ### <a name="stream-full"></a> Full stream distribution
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Full stream distribution
@@ -116,7 +140,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 5,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.02 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.0 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/trig
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -140,17 +164,17 @@ Nanopublications are small units of publishable information, used for scientific
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets. Each RDF dataset corresponds to one nanopublication. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF dataset stream is a grouped RDF stream whose elements are RDF datasets.">RDF dataset stream</abbr> ([stax:datasetStream](https://w3id.org/stax/ontology#datasetStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 5,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.50 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.5 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -178,7 +202,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 5,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.69 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.7 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-quads
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -206,7 +230,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 277.04 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 277.0 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/trig
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -230,17 +254,17 @@ Nanopublications are small units of publishable information, used for scientific
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of RDF datasets. Each RDF dataset corresponds to one nanopublication. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF dataset stream is a grouped RDF stream whose elements are RDF datasets.">RDF dataset stream</abbr> ([stax:datasetStream](https://w3id.org/stax/ontology#datasetStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of quads. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> ([stax:flatQuadStream](https://w3id.org/stax/ontology#flatQuadStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 332.66 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 332.7 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -268,7 +292,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 384.63 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 384.6 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-quads
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -296,7 +320,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 25.57 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 25.6 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/trig
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -330,7 +354,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 29.63 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 29.6 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -358,7 +382,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 35.75 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 35.7 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-quads
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -386,7 +410,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 2.55 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 2.6 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/trig
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -420,7 +444,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 2.88 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 2.9 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -448,7 +472,7 @@ Nanopublications are small units of publishable information, used for scientific
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.46 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.5 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-quads
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -469,7 +493,7 @@ Nanopublications are small units of publishable information, used for scientific
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for full distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 236,997,015 | 47,162,247 | 47.40 | 5.68 | 25 | 142 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
@@ -488,7 +512,7 @@ Nanopublications are small units of publishable information, used for scientific
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 1M distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 48,861,863 | 7,017,131 | 48.86 | 3.03 | 40 | 100 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
@@ -507,7 +531,7 @@ Nanopublications are small units of publishable information, used for scientific
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 100K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 4,907,266 | 671,463 | 49.07 | 1.94 | 44 | 50 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
@@ -526,7 +550,7 @@ Nanopublications are small units of publishable information, used for scientific
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 10K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 500,000 | 73,219 | 50.00 | 0.00 | 50 | 50 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
