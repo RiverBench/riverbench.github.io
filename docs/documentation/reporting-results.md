@@ -32,7 +32,7 @@ The benchmarks are reported as small RDF files ([nanopublications](https://nanop
 
 Example of a filled-out nanopublication: **[link](https://nanodash.petapico.org/explore?id=https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs)**.
 
-**That's it!** Your results will appear on the RiverBench website after the next update (at most 7 days). If you don't see your results or just don't like waiting, feel free to [nudge the maintainer](https://github.com/Ostrzyciel).
+**That's it!** Your results will appear on the RiverBench website after the next update (at most 3–4 days). If you don't see your results or just don't like waiting, feel free to [nudge the maintainer](https://github.com/Ostrzyciel).
 
 ### I have questions...
 
