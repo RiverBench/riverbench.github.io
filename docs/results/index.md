@@ -15,5 +15,6 @@ This page aggregates the benchmark results reported by the community using nanop
 ## See also
 
 * **[Reporting benchmark results](../documentation/reporting-results.md)**
+* [How to use RiverBench](../documentation/using.md)
 * [Benchmark categories](../categories/index.md)
 * [Datasets](../datasets/index.md)

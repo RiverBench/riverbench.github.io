@@ -11,3 +11,7 @@
 .rb-small-button {
     padding: 0.1rem 0.7rem !important;
 }
+
+.rb-wrap-code code {
+    white-space: pre-wrap !important;
+}

@@ -2,23 +2,23 @@
 
 # Dataset release format
 
-This page explains the formats in which [RiverBench's datasets](../datasets/index.md) are distributed.
+[RiverBench's datasets](../datasets/index.md) can all be treated as RDF streams or just flat RDF files. RiverBench uses the [RDF Stream Taxonomy](https://w3id.org/stax/dev/taxonomy) (RDF-STaX) to organize the datasets – we recommend you have at least a brief look at it to understand the dataset structure.
 
 Each dataset has three types of distributions: 
 
-- **Flat** – flat distributions are simply compressed files with a sequence of RDF statements. 
-- **Stream** – plain streaming distributions are compressed archives with a sequence of files, with each file corresponding to one stream element.
+- **Flat** – flat distributions are simply compressed files with a sequence of RDF statements (this is a flat RDF stream, according to [RDF-STaX](https://w3id.org/stax/dev/taxonomy)).
+- **Stream** – grouped streaming distributions are compressed archives with a sequence of files. Each file corresponds to one stream element – an RDF graph or an RDF dataset (this is a grouped RDF stream, according to [RDF-STaX](https://w3id.org/stax/dev/taxonomy)).
 - **Jelly** – Jelly streaming distributions use the high-performance [Jelly serialization format](https://github.com/Jelly-RDF) that natively supports RDF streams. The Jelly files can be used for both the grouped and flat streaming formulations.
 
 There always a few size variants of each distribution to choose from, starting from 10K stream elements, with 10x increases up to the full dataset. The full distribution is the longest available distribution of the dataset.
 
 !!! tip
 
-    Choose the size-limited distributions, if your work does not require the full dataset. They are much easier to work with. You can also want to choose them to have all datasets of the same size.
+    Choose the size-limited distributions, if your work does not require the full dataset – they may be easier to work with. You can also want to choose them to have all datasets of the same size.
 
 !!! tip
 
-    [Jelly distributions](#jelly-distributions) are the fastest to load and much easier to work with. They can be used instead of both flat and stream distributions.
+    [Jelly distributions](#jelly-distributions) are the much faster to load and can support all benchmark tasks. They can be used instead of both flat and stream distributions.
 
 ## Flat distributions
 
