@@ -1,4 +1,6 @@
-Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13.2 and [RiverBench CI worker](https://github.com/RiverBench/ci-worker)
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/schema/documentation/2.1.0 "Link to the permanent URL of this resource.")</div><div markdown><abbr title="This page corresponds to a stable release of RiverBench, so it cannot be edited. If you want to edit this page, go to the development version by selecting 'dev' from the version selector in the top navigation bar.">:material-lock-check: Stable: 2.1.0</abbr></div></div>
+
+Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13.2 and [RiverBench CI worker](https://github.com/RiverBench/ci-worker).
 # RiverBench documentation ontology
 
 
@@ -13,16 +15,18 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 * **Issued**
     * 2023-05-05T00:00:00
 * **Version URI**
-    * [https://w3id.org/riverbench/schema/documentation/2.0.0](https://w3id.org/riverbench/schema/documentation/2.0.0)
+    * [https://w3id.org/riverbench/schema/documentation/2.1.0](https://w3id.org/riverbench/schema/documentation/2.1.0)
 * **Imports**
-    * [https://w3id.org/riverbench/schema/metadata/2.0.0](https://w3id.org/riverbench/schema/metadata/2.0.0)
+    * [https://w3id.org/riverbench/schema/metadata/2.1.0](https://w3id.org/riverbench/schema/metadata/2.1.0)
 * **License**
     * [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 
 
 !!! info
 
-    Download this ontology in RDF: **[Turtle](https://w3id.org/riverbench/schema/documentation/2.0.0.ttl)**, **[N-Triples](https://w3id.org/riverbench/schema/documentation/2.0.0.nt)**, **[RDF/XML](https://w3id.org/riverbench/schema/documentation/2.0.0.rdf)**, **[Jelly](https://w3id.org/riverbench/schema/documentation/2.0.0.jelly)**
+    :fontawesome-solid-diagram-project: Download this ontology in RDF: **[Turtle](https://w3id.org/riverbench/schema/documentation/2.1.0.ttl)**, **[N-Triples](https://w3id.org/riverbench/schema/documentation/2.1.0.nt)**, **[RDF/XML](https://w3id.org/riverbench/schema/documentation/2.1.0.rdf)**, **[Jelly](https://w3id.org/riverbench/schema/documentation/2.1.0.jelly)**
+    <br>:material-github: Source repository: **[schema](https://github.com/RiverBench/schema)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/schema/documentation/2.1.0`](https://w3id.org/riverbench/schema/documentation/2.1.0)
 
 
 ### Description
@@ -49,13 +53,31 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Content](#groupContent)<br />[Technical metadata](#groupTechnicalMetadata)<br />[General information](#groupGeneralInfo)<br />[Distributions](#groupDistributions)<br />
+Has members |[Content](#groupContent)<br />[General information](#groupGeneralInfo)<br />[Distributions](#groupDistributions)<br />[Technical metadata](#groupTechnicalMetadata)<br />
 
 
 ## Object Properties
+[hasMeasuringSystem](#hasMeasuringSystem),
+[hasProducedDataset](#hasProducedDataset),
+[citesAsDataSource](#citesAsDataSource),
 [vocabulary](#vocabulary),
 [dataset](#dataset),
 [In suite](#inCatalog),
+
+### hasMeasuringSystem <a name="hasMeasuringSystem"></a>
+Property | Value
+--- | ---
+URI | `http://ontology.ethereal.cz/irao/hasMeasuringSystem`
+
+### hasProducedDataset <a name="hasProducedDataset"></a>
+Property | Value
+--- | ---
+URI | `http://ontology.ethereal.cz/irao/hasProducedDataset`
+
+### citesAsDataSource <a name="citesAsDataSource"></a>
+Property | Value
+--- | ---
+URI | `http://purl.org/spar/cito/citesAsDataSource`
 
 ### vocabulary <a name="vocabulary"></a>
 Property | Value
@@ -77,6 +99,7 @@ Description | Indicates the benchmark suite to which a dataset or profile belong
 
 ## Annotation Properties
 [conformsTo](#conformsTo),
+[contributor](#contributor),
 [creator](#creator),
 [description](#description),
 [identifier](#identifier),
@@ -110,6 +133,11 @@ Description | Indicates the benchmark suite to which a dataset or profile belong
 Property | Value
 --- | ---
 URI | `http://purl.org/dc/terms/conformsTo`
+
+### contributor <a name="contributor"></a>
+Property | Value
+--- | ---
+URI | `http://purl.org/dc/terms/contributor`
 
 ### creator <a name="creator"></a>
 Property | Value
@@ -292,6 +320,8 @@ Class(es) | [Documentation group](#DocGroup)
 ## Namespaces
 * **default (rbdoc)**
     * `https://w3id.org/riverbench/schema/documentation#`
+* **cito**
+    * `http://purl.org/spar/cito/`
 * **dc**
     * `http://purl.org/dc/elements/1.1/`
 * **dcat**
@@ -300,6 +330,8 @@ Class(es) | [Documentation group](#DocGroup)
     * `http://purl.org/dc/terms/`
 * **foaf**
     * `http://xmlns.com/foaf/0.1/`
+* **irao**
+    * `http://ontology.ethereal.cz/irao/`
 * **owl**
     * `http://www.w3.org/2002/07/owl#`
 * **rb**
