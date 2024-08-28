@@ -7,3 +7,7 @@
 .rb-top-buttons p {
     margin: 0 !important;
 }
+
+.rb-small-button {
+    padding: 0.1rem 0.7rem !important;
+}
