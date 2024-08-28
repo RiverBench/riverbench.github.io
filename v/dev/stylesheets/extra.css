@@ -1,7 +1,8 @@
 .rb-top-buttons {
     display: flex;
     justify-content: flex-end;
-    gap: 0.9rem;
+    flex-wrap: wrap;
+    gap: 0 0.9rem;
 }
 
 .rb-top-buttons p {
@@ -14,4 +15,10 @@
 
 .rb-wrap-code code {
     white-space: pre-wrap !important;
+}
+
+@media screen and (max-width:45em) {
+    .rb-top-buttons {
+        gap: 0 0.5rem;
+    }
 }
