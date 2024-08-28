@@ -24,10 +24,12 @@ RiverBench is an open, community-driven RDF streaming benchmark suite. It includ
 !!! info
 
     :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev.jelly)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev`](https://w3id.org/riverbench/v/dev)
 
-    :material-database: A complete dump of all metadata in RiverBench (without benchmark results) is available: <br>**[Turtle](https://w3id.org/riverbench/dumps/dev.ttl.gz)**, **[N-Triples](https://w3id.org/riverbench/dumps/dev.nt.gz)**, **[RDF/XML](https://w3id.org/riverbench/dumps/dev.rdf.gz)**, **[Jelly](https://w3id.org/riverbench/dumps/dev.jelly.gz)**
-
-    :material-database-plus: A dump including community-contributed benchmark results (via nanopublications) is also available: <br>**[TriG](https://w3id.org/riverbench/dumps-with-results/dev.trig.gz)**, **[N-Quads](https://w3id.org/riverbench/dumps-with-results/dev.nq.gz)**, **[Jelly](https://w3id.org/riverbench/dumps-with-results/dev.jelly.gz)**
+    :material-database: A complete dump of all metadata in RiverBench (without benchmark results) is available:
+    <br>**[Turtle](https://w3id.org/riverbench/dumps/dev.ttl.gz)**, **[N-Triples](https://w3id.org/riverbench/dumps/dev.nt.gz)**, **[RDF/XML](https://w3id.org/riverbench/dumps/dev.rdf.gz)**, **[Jelly](https://w3id.org/riverbench/dumps/dev.jelly.gz)**
+    <br>:material-database-plus: A dump including community-contributed benchmark results (via nanopublications) is also available:
+    <br>**[TriG](https://w3id.org/riverbench/dumps-with-results/dev.trig.gz)**, **[N-Quads](https://w3id.org/riverbench/dumps-with-results/dev.nq.gz)**, **[Jelly](https://w3id.org/riverbench/dumps-with-results/dev.jelly.gz)**
 
 
 
