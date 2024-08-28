@@ -22,7 +22,7 @@ The benchmarks are reported as small RDF files ([nanopublications](https://nanop
     - In _uses RiverBench task_ paste a valid permanent URL of the [RiverBench task](../categories/index.md) that you have used in your benchmark. The URL must refer to a stable version of the task, not the development version. 
         - [How to obtain the permanent URL?](metadata.md#accessing-metadata)
         - The URL should look like this:<br>`https://w3id.org/riverbench/v/{version}/tasks/{task-ID}`
-    - In _uses RiverBench profile_ paste a valid permanent URL of the [RiverBench profile]((../categories/index.md)) (collection of datasets) that you have used in your benchmark. The URL must refer to a stable version of the profile.
+    - In _uses RiverBench profile_ paste a valid permanent URL of the [RiverBench profile](../categories/index.md) (collection of datasets) that you have used in your benchmark. The URL must refer to a stable version of the profile.
         - The URL should look like this:<br>`https://w3id.org/riverbench/v/{version}/profiles/{profile-ID}`
     - In _uses benchmark metric_, specify in plain text what metrics you have measured in the benchmark. Try to use the exact same wording as in the task definition.
     - In the last two fields, you can specify the systems that you have benchmarked, along with their versions.
