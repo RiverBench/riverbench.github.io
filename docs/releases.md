@@ -6,21 +6,33 @@ This page lists all stable releases of RiverBench. You can switch between releas
 
 See also: [versioning and releases documentation](documentation/versioning.md).
 
-## RiverBench 2.1.0
+## [RiverBench 2.1.0](https://w3id.org/riverbench/v/2.1.0)
 
-**Not released yet**
+**Release date: 2024-08-28**
+
+Minor release focusing on improving the user experience and quality of the documentation. Most notably, it added a system for reporting benchmark results. One new dataset was added.
 
 - Notable changes:
-    - ???
+    - Introduced a system for reporting benchmark results with nanopublications. ([#101](https://github.com/RiverBench/RiverBench/issues/101), [#104](https://github.com/RiverBench/RiverBench/issues/104), [#105](https://github.com/RiverBench/RiverBench/issues/105))
+    - Added a quick start guide. ([#73](https://github.com/RiverBench/RiverBench/issues/73))
+    - Remodeled the main page layout. ([#109](https://github.com/RiverBench/RiverBench/issues/109))
+    - Improved the contributor experience with new documentation and better UX (including the new "Edit this page" buttons). ([#53](https://github.com/RiverBench/RiverBench/issues/53), [#73](https://github.com/RiverBench/RiverBench/issues/73), [#87](https://github.com/RiverBench/RiverBench/issues/87), [#111](https://github.com/RiverBench/RiverBench/issues/111))
+    - Made the permanent URLs of pages easier to find and access. ([#52](https://github.com/RiverBench/RiverBench/issues/52))
+    - Added the release notes page. ([#88](https://github.com/RiverBench/RiverBench/issues/88))
+    - Improved the accessibility of dataset download links. ([#86](https://github.com/RiverBench/RiverBench/issues/86))
+    - Improved the clarity of many labels and descriptions.
+    - Removed `*-nonstandard` profiles, as there were no matching datasets and the profiles were never used. ([#99](https://github.com/RiverBench/RiverBench/issues/99))
 - Datasets:
     - Added a new dataset: `openaire-lod`. ([#95](https://github.com/RiverBench/RiverBench/issues/95))
     - Updated `politiquices` to 1.1.0: resolved an issue with ASCII control characters. ([dataset-politiquices#1](https://github.com/RiverBench/dataset-politiquices/issues/1))
     - Created a new PATCH release for the remaining datasets due to metadata updates.
-- Resolved ??? issues – see the [full list](https://github.com/RiverBench/RiverBench/milestone/4?closed=1).
+- Resolved 27 issues – see the [full list](https://github.com/RiverBench/RiverBench/milestone/4?closed=1).
 
 ## [RiverBench 2.0.1](https://w3id.org/riverbench/v/2.0.1)
 
 **Release date: 2024-06-07**
+
+Patch release with minor improvements to the metadata.
 
 - Notable changes:
     - Added unique subject/predicate/object counts to the dataset statistics. ([#89](https://github.com/RiverBench/RiverBench/issues/89))
@@ -32,6 +44,8 @@ See also: [versioning and releases documentation](documentation/versioning.md).
 ## [RiverBench 2.0.0](https://w3id.org/riverbench/v/2.0.0)
 
 **Release date: 2024-05-30**
+
+Major release which restructured RiverBench, introducing the notions of categories and tasks.
 
 - Notable changes:
     - Introduced benchmark categories (`flat` and `stream`). ([#62](https://github.com/RiverBench/RiverBench/issues/62))
