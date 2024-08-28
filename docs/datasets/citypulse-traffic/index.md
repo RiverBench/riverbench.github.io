@@ -1,11 +1,16 @@
-# citypulse-traffic (development version)
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/datasets/citypulse-traffic/dev "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/dataset-citypulse-traffic/edit/main/metadata.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
+
+# Dataset: citypulse-traffic (development version)
 
 This is a processed subset of real traffic data published by the [CityPulse EU FP7 project](http://iot.ee.surrey.ac.uk:8080/index.html). The used dataset is '[Road Traffic Data](http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic)', dataset-4. The dataset was processed to fix prefixes without a trailing '#' or '/'. The dataset consists of subsequent chronologically ordered substreams of observations from each sensor. See also [the paper](https://www.researchgate.net/publication/300337751_CityBench_A_Configurable_Benchmark_to_Evaluate_RSP_Engines_Using_Smart_City_Datasets) for more details.
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/citypulse-traffic/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/citypulse-traffic/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/citypulse-traffic/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/citypulse-traffic/dev.jelly)**
-    <br>Source repository: **[citypulse-traffic](https://github.com/RiverBench/dataset-citypulse-traffic)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/citypulse-traffic/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/citypulse-traffic/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/citypulse-traffic/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/citypulse-traffic/dev.jelly)**
+    <br>:material-github: Source repository: **[dataset-citypulse-traffic](https://github.com/RiverBench/dataset-citypulse-traffic)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/datasets/citypulse-traffic/dev`](https://w3id.org/riverbench/datasets/citypulse-traffic/dev)
+
+    **[:octicons-arrow-down-24: Go to download links](#distributions)**
 
 ??? example "Stream preview (click to expand)"
 
@@ -61,17 +66,17 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [http://iot.ee.surrey.ac.uk:8080/index.html](http://iot.ee.surrey.ac.uk:8080/index.html)
     - **Piotr Sowiński (2)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**:     
             -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
             - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 - **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: 
     - [http://dx.doi.org/10.1007/978-3-319-25010-6_25](http://dx.doi.org/10.1007/978-3-319-25010-6_25)
     - [http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic](http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-05
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-28
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [citypulse-traffic (dev)](https://w3id.org/riverbench/datasets/citypulse-traffic/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -80,19 +85,19 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> ([stax:graphStream](https://w3id.org/stax/ontology#graphStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of triples. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> ([stax:flatTripleStream](https://w3id.org/stax/ontology#flatTripleStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> ([stax:graphStream](https://w3id.org/stax/ontology#graphStream))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 4,382,599
 - **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
     - **Type**:     
         - <abbr title="The elements correspond to different instants or intervals of time.">Stream elements split by time</abbr> ([rb:TimeStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit))
         - <abbr title="The elements correspond to different topics/subjects in the dataset.">Stream elements split by topic</abbr> ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
-    - **<abbr title="The IRI of the property that is used in the stream to denote time at which the event occured.">Has temporal property</abbr>**: [http://purl.org/NET/c4dm/timeline.owl#at](http://purl.org/NET/c4dm/timeline.owl#at)
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each element corresponds to one measurement made by a traffic sensor. _(<abbr title="English">en</abbr>)_
+    - **<abbr title="The IRI of the property that is used in the stream to denote time at which the event occured.">Has temporal property</abbr>**: [http://purl.org/NET/c4dm/timeline.owl#at](http://purl.org/NET/c4dm/timeline.owl#at)
 - **<abbr title="A vocabulary that is used in the dataset.">Uses vocabulary</abbr>**: 
     - [http://iot.ee.surrey.ac.uk/citypulse/resources/ontologies/sao.ttl](http://iot.ee.surrey.ac.uk/citypulse/resources/ontologies/sao.ttl)
     - [http://purl.oclc.org/NET/ssnx/ssn](http://purl.oclc.org/NET/ssnx/ssn)
@@ -108,6 +113,25 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
 
 ## Distributions
 
+
+### Download links
+
+The dataset is published in a few size variants, each containing a specific number of stream elements.
+For each size, there are three distribution types available: flat (just an N-Triples/N-Quads file),
+streaming (a .tar.gz archive with Turtle/TriG files, one file per stream element),
+and [Jelly](https://w3id.org/jelly) (a native binary format for streaming RDF).
+See the [documentation](../../documentation/dataset-release-format.md) for more details.
+
+Distribution size | Statements | Flat | Streaming | Jelly
+--- | --: | --: | --: | --:
+<abbr title="10,000 stream elements">10K</abbr> | 360,000 | [:octicons-download-24: 3.8 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_10K.nt.gz) | [:octicons-download-24: 1.9 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_10K.tar.gz) | [:octicons-download-24: 3.1 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.jelly.gz)
+<abbr title="100,000 stream elements">100K</abbr> | 3,600,000 | [:octicons-download-24: 37.7 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_100K.nt.gz) | [:octicons-download-24: 18.8 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_100K.tar.gz) | [:octicons-download-24: 31.2 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz)
+<abbr title="1,000,000 stream elements">1M</abbr> | 36,000,000 | [:octicons-download-24: 375.8 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_1M.nt.gz) | [:octicons-download-24: 186.3 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_1M.tar.gz) | [:octicons-download-24: 312.5 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.jelly.gz)
+<abbr title="4,382,599 stream elements">Full</abbr> | 157,773,564 | [:octicons-download-24: 1.6 GB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_full.nt.gz) | [:octicons-download-24: 816.2 MB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_full.tar.gz) | [:octicons-download-24: 1.3 GB](https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.jelly.gz)
+
+
+The full metadata of all distributions can be found below.
+
 ### <a name="stream-full"></a> Full stream distribution
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Full stream distribution
@@ -121,7 +145,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 4,382,599
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 816.20 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 816.2 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -145,17 +169,17 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> ([stax:graphStream](https://w3id.org/stax/ontology#graphStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of triples. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> ([stax:flatTripleStream](https://w3id.org/stax/ontology#flatTripleStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> ([stax:graphStream](https://w3id.org/stax/ontology#graphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 4,382,599
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.35 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.3 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -183,7 +207,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 4,382,599
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.61 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.6 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -211,7 +235,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 186.29 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 186.3 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -245,7 +269,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 312.53 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 312.5 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -273,7 +297,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 375.82 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 375.8 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -301,7 +325,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 18.82 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 18.8 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -335,7 +359,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 31.16 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 31.2 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -363,7 +387,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 37.66 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 37.7 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -391,7 +415,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.86 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.9 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -415,17 +439,17 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> ([stax:graphStream](https://w3id.org/stax/ontology#graphStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of triples. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> ([stax:flatTripleStream](https://w3id.org/stax/ontology#flatTripleStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> ([stax:graphStream](https://w3id.org/stax/ontology#graphStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.09 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.1 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -453,7 +477,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.76 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.8 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -474,7 +498,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for full distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 96,417,178 | 21,914,265 | 22.00 | 0.00 | 22 | 22 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 21,912,995 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
@@ -493,7 +517,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 1M distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 22,000,000 | 5,000,037 | 22.00 | 0.00 | 22 | 22 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 5,000,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
@@ -512,7 +536,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 100K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 2,200,000 | 500,027 | 22.00 | 0.00 | 22 | 22 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 500,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
@@ -531,7 +555,7 @@ This is a processed subset of real traffic data published by the [CityPulse EU F
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 10K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 220,000 | 50,022 | 22.00 | 0.00 | 22 | 22 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 50,000 | _N/A_ | 5.00 | 0.00 | 5 | 5 |
