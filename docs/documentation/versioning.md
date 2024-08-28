@@ -3,6 +3,7 @@
 # Versioning and releases
 
 !!! tip "TL;DR"
+
     Always use a specific versioned release of the RiverBench suite (e.g., `2.0.1`). Results obtained with versions of the suite that differ by more than the PATCH version (last digit) **are usually not comparable**.
 
 ## Dataset versioning
@@ -40,10 +41,13 @@ The RiverBench suite is versioned in sync with benchmark categories, benchmark t
 
 New tagged releases of the suite will automatically use the latest tagged release of each dataset and each schema. The `dev` version of the suite always includes the latest development version of each dataset and schema.
 
+See also the **[list of all RiverBench releases](../releases.md)**.
+
 ### Making a suite release
 
 It is very important to follow this specific procedure, otherwise a mixed release may be created, which would be "bad".
 
+- Update the [release notes page](../releases.md) with the new release and its changes.
 - Go to each category repository (e.g., [category-flat](https://github.com/RiverBench/category-flat)) and carry out the same procedure as for making a release of a dataset. Use the exact same version tag that you want to use for the suite.
 - Wait for the CI jobs in each category repository to finish.
 - Go to the [RiverBench main repository](https://github.com/RiverBench/RiverBench) and carry out the same procedure as for making a release of a dataset, using the same version tag as for the categories.
@@ -51,3 +55,8 @@ It is very important to follow this specific procedure, otherwise a mixed releas
 ## Archive / backup
 
 All releases (of schemas, datasets, profiles, and the suite) are archived in **[Zenodo](https://doi.org/10.5281/zenodo.7909063)**. This is however only a *backup* and it does not include the packaged datasets, only their sources, due to the excessive size of all the datasets.
+
+## See also
+
+- [All RiverBench releases](../releases.md)
+- [Licensing and citation](licensing.md)
