@@ -1,4 +1,6 @@
-# digital-agenda-indicators (development version)
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/dataset-digital-agenda-indicators/edit/main/metadata.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
+
+# Dataset: digital-agenda-indicators (development version)
 
 The dataset of [EU Digital Agenda Key Indicators](https://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators) contains statistical information about the European information society. The dataset is composed of a series of statistical observations with various properties and a very regular structure.
 
@@ -6,8 +8,9 @@ This is a large, typical dataset with statistical information, with a very regul
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev.jelly)**
-    <br>Source repository: **[digital-agenda-indicators](https://github.com/RiverBench/dataset-digital-agenda-indicators)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev.jelly)**
+    <br>:material-github: Source repository: **[dataset-digital-agenda-indicators](https://github.com/RiverBench/dataset-digital-agenda-indicators)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev`](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev)
 
     **[:octicons-arrow-down-24: Go to download links](#distributions)**
 
@@ -74,7 +77,7 @@ This is a large, typical dataset with statistical information, with a very regul
 - **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: According to the European Commission reuse notice, reuse is authorised, provided the source is acknowledged. The reuse policy of the European Commission is implemented by the Decision of 12 December 2011. _(<abbr title="English">en</abbr>)_
 - **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: [http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators](http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-04
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-26
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-28
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [digital-agenda-indicators (dev)](https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -496,7 +499,7 @@ The full metadata of all distributions can be found below.
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for full distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 23,320,388 | 1,441,174 | 16.19 | 0.61 | 2 | 19 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
@@ -515,7 +518,7 @@ The full metadata of all distributions can be found below.
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 1M distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 16,203,498 | 1,000,569 | 16.20 | 0.61 | 2 | 19 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
@@ -534,7 +537,7 @@ The full metadata of all distributions can be found below.
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 100K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 1,618,602 | 100,253 | 16.19 | 0.48 | 2 | 19 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
@@ -553,7 +556,7 @@ The full metadata of all distributions can be found below.
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 10K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 162,375 | 10,172 | 16.24 | 0.60 | 2 | 17 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
