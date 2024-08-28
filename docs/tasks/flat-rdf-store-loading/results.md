@@ -4,6 +4,8 @@
 
 [:octicons-arrow-left-24: Back to task definition](index.md)
 
+<div style="text-align: center" markdown>[:material-help: How to report benchmark results](../../documentation/reporting-results.md){ .md-button }</div>
+
 ### RiverBench results for task flat-rdf-store-loading with profile flat-triples
 
 <span id="RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs"></span>
