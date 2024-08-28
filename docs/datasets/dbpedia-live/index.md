@@ -1,4 +1,6 @@
-# dbpedia-live (development version)
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/datasets/dbpedia-live/dev "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/dataset-dbpedia-live/edit/main/metadata.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
+
+# Dataset: dbpedia-live (development version)
 
 [DBpedia Live](https://www.dbpedia.org/resources/live/) was a real-time service that monitored edits on Wikipedia and published a stream of changes to the DBpedia knowledge graph. This dataset contains only the "added" triples in the stream, so it does not include deletes or other types of changes. Only one month (January 2014) is covered at the moment, but the dataset can be easily expanded in the future (the service stopped functioning in 2021). The stream's elements are irregular in size, depending on the volume of traffic on Wikipedia at a given moment and how the DBpedia Live service was able to cope with it. See also the [paper](http://jens-lehmann.org/files/2012/program_el_dbpedia_live.pdf).
     
@@ -6,8 +8,11 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/dbpedia-live/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/dbpedia-live/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/dbpedia-live/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/dbpedia-live/dev.jelly)**
-    <br>Source repository: **[dbpedia-live](https://github.com/RiverBench/dataset-dbpedia-live)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/dbpedia-live/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/dbpedia-live/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/dbpedia-live/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/dbpedia-live/dev.jelly)**
+    <br>:material-github: Source repository: **[dataset-dbpedia-live](https://github.com/RiverBench/dataset-dbpedia-live)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/datasets/dbpedia-live/dev`](https://w3id.org/riverbench/datasets/dbpedia-live/dev)
+
+    **[:octicons-arrow-down-24: Go to download links](#distributions)**
 
 ??? example "Stream preview (click to expand)"
 
@@ -58,23 +63,23 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - **Wikipedia contributors (1)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Wikipedia contributors
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.wikipedia.org/](https://www.wikipedia.org/)
-    - **DBpedia Association (2)**    
-        - **<abbr title="A name for some thing.">Name</abbr>**: DBpedia Association
-        - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.dbpedia.org/contact/](https://www.dbpedia.org/contact/)
-    - **Piotr Sowiński (3)**    
+    - **Piotr Sowiński (2)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**:     
             -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
             - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset
+    - **DBpedia Association (3)**    
+        - **<abbr title="A name for some thing.">Name</abbr>**: DBpedia Association
+        - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.dbpedia.org/contact/](https://www.dbpedia.org/contact/)
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-SA-3.0](https://spdx.org/licenses/CC-BY-SA-3.0)
+- **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: The dataset contains attributions of the original source of the data (links to Wikipedia). _(<abbr title="English">en</abbr>)_
 - **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: 
     - [https://doi.org/10.1108/00330331211221828](https://doi.org/10.1108/00330331211221828)
     - [https://www.dbpedia.org/resources/live/](https://www.dbpedia.org/resources/live/)
-- **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: The dataset contains attributions of the original source of the data (links to Wikipedia). _(<abbr title="English">en</abbr>)_
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-09
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-06-05
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-28
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [dbpedia-live (dev)](https://w3id.org/riverbench/datasets/dbpedia-live/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -92,8 +97,8 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 166,204
 - **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
     - **Type**: <abbr title="The elements correspond to different instants or intervals of time.">Stream elements split by time</abbr> ([rb:TimeStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit))
-    - **<abbr title="The IRI of the property that is used in the stream to denote time at which the event occured.">Has temporal property</abbr>**: [http://dbpedia.org/ontology/wikiPageExtracted](http://dbpedia.org/ontology/wikiPageExtracted)
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each element corresponds to a batch of recent changes from Wikipedia. The size of the batch may have been influenced by the traffic on Wikipedia, the load on the system, and other factors, so the element sizes are irregular. _(<abbr title="English">en</abbr>)_
+    - **<abbr title="The IRI of the property that is used in the stream to denote time at which the event occured.">Has temporal property</abbr>**: [http://dbpedia.org/ontology/wikiPageExtracted](http://dbpedia.org/ontology/wikiPageExtracted)
 - **<abbr title="A vocabulary that is used in the dataset.">Uses vocabulary</abbr>**: [http://dbpedia.org/ontology/](http://dbpedia.org/ontology/)
 - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: yes
 - **<abbr title="Whether the dataset is RDF-star compliant, i.e., does not use any non-standard features. Note that all standard RDF 1.1 datasets also qualify, as RDF-star is a superset of RDF 1.1.">Conforms to W3C RDF-star draft specification as of December 17, 2021</abbr>**: yes
@@ -102,6 +107,24 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
 - **<abbr title="Whether the dataset uses RDF-star features.">Uses RDF-star</abbr>**: no
 
 ## Distributions
+
+
+### Download links
+
+The dataset is published in a few size variants, each containing a specific number of stream elements.
+For each size, there are three distribution types available: flat (just an N-Triples/N-Quads file),
+streaming (a .tar.gz archive with Turtle/TriG files, one file per stream element),
+and [Jelly](https://w3id.org/jelly) (a native binary format for streaming RDF).
+See the [documentation](../../documentation/dataset-release-format.md) for more details.
+
+Distribution size | Statements | Flat | Streaming | Jelly
+--- | --: | --: | --: | --:
+<abbr title="10,000 stream elements">10K</abbr> | 5,575,053 | [:octicons-download-24: 73.7 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_10K.nt.gz) | [:octicons-download-24: 66.7 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/stream_10K.tar.gz) | [:octicons-download-24: 91.2 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_10K.jelly.gz)
+<abbr title="100,000 stream elements">100K</abbr> | 17,814,033 | [:octicons-download-24: 230.1 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_100K.nt.gz) | [:octicons-download-24: 209.1 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/stream_100K.tar.gz) | [:octicons-download-24: 288.6 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_100K.jelly.gz)
+<abbr title="166,204 stream elements">Full</abbr> | 21,831,109 | [:octicons-download-24: 282.2 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_full.nt.gz) | [:octicons-download-24: 256.4 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/stream_full.tar.gz) | [:octicons-download-24: 351.2 MB](https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_full.jelly.gz)
+
+
+The full metadata of all distributions can be found below.
 
 ### <a name="stream-full"></a> Full stream distribution
 
@@ -116,7 +139,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 166,204
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 256.40 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 256.4 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -150,7 +173,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 166,204
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 351.19 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 351.2 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -178,7 +201,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 166,204
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 282.16 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 282.2 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -206,7 +229,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 209.06 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 209.1 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -240,7 +263,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 288.65 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 288.6 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -268,7 +291,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 230.12 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 230.1 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -296,7 +319,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 66.73 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 66.7 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -330,7 +353,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 91.20 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 91.2 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -358,7 +381,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 73.69 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 73.7 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -379,7 +402,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for full distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 16,654,403 | 11,540,684 | 100.20 | 205.40 | 2 | 3,727 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
@@ -398,7 +421,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 100K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 13,631,942 | 9,703,320 | 136.32 | 224.18 | 2 | 2,681 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
@@ -417,7 +440,7 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 10K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 4,227,641 | 3,163,701 | 422.76 | 279.53 | 2 | 2,031 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
