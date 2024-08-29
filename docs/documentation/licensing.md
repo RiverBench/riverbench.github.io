@@ -5,6 +5,7 @@
 - The metadata, documentation, and ontologies of RiverBench (everything you see on the website) are licensed under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 - The included datasets are licensed under their respective licenses, which are listed in the dataset metadata and documentation.
     - All datasets are under free licenses, but their specific conditions vary. Some datasets are in the public domain, some are under CC0, some are under CC BY, and some are under CC BY-SA, or similar licenses.
+    - All dataset licenses **must** allow for commercial use, redistribution, and modification.
 - The source code of RiverBench is licensed under the [Apache License, Version 2.0](https://spdx.org/licenses/Apache-2.0).
 
 ## Attribution / citation
