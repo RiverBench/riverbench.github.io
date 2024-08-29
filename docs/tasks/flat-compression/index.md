@@ -1,4 +1,8 @@
-# Flat RDF compression
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/2.1.0/tasks/flat-compression "Link to the permanent URL of this resource.")</div><div markdown><abbr title="This page corresponds to a stable release of RiverBench, so it cannot be edited. If you want to edit this page, go to the development version by selecting 'dev' from the version selector in the top navigation bar.">:material-lock-check: Stable: 2.1.0</abbr></div></div>
+
+# Task: Flat RDF compression (2.1.0)
+
+Task identifier: `flat-compression`
 
 A benchmark task measuring the compression efficiency of flat RDF serializations.
 
@@ -23,9 +27,9 @@ In this task, the time taken to serialize and deserialize the data is not consid
 
 ## Results
 
-There are no results with RiverBench available for this task yet.
+**See the results for this task reported by the community: [RESULTS](results.md).**
 
-## Examples and references
+## This task in benchmarks outside of RiverBench
 
 - In a paper about an RDF compression method using MapReduce, a compression benchmark was performed in Section 5.1. The authors have measured the output size of their method (in gigabytes) in comparison to the input data size.
     - Urbani, J., Maassen, J., Drost, N., Seinstra, F., & Bal, H. (2013). Scalable RDF data compression with MapReduce. Concurrency and Computation: Practice and Experience, 25(1), 24-39. [https://doi.org/10.1002/cpe.2840](https://doi.org/10.1002/cpe.2840)
@@ -45,7 +49,9 @@ There are no results with RiverBench available for this task yet.
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.1/tasks/flat-compression.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.1/tasks/flat-compression.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.1/tasks/flat-compression.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.1/tasks/flat-compression.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.1.0/tasks/flat-compression.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.1.0/tasks/flat-compression.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.1.0/tasks/flat-compression.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.1.0/tasks/flat-compression.jelly)**
+    <br>:material-github: Source repository: **[category-flat](https://github.com/RiverBench/category-flat)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/2.1.0/tasks/flat-compression`](https://w3id.org/riverbench/v/2.1.0/tasks/flat-compression)
 
 
 
@@ -54,14 +60,14 @@ There are no results with RiverBench available for this task yet.
 - **<abbr title="A name given to the resource.">Title</abbr>**: Flat RDF compression _(<abbr title="English">en</abbr>)_
 - **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the compression efficiency of flat RDF serializations. _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-compression`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.1
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.1.0
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**: 
     - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
     - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
     - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**:     
         -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
         - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (2.0.1)](https://w3id.org/riverbench/v/2.0.1/categories/flat)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.1)](https://w3id.org/riverbench/v/2.0.1)
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (2.1.0)](https://w3id.org/riverbench/v/2.1.0/categories/flat)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.1.0)](https://w3id.org/riverbench/v/2.1.0)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
