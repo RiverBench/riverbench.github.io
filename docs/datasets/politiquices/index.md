@@ -1,6 +1,6 @@
-<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/datasets/politiquices/1.1.0 "Link to the permanent URL of this resource.")</div><div markdown><abbr title="This page corresponds to a stable release of RiverBench, so it cannot be edited. If you want to edit this page, go to the development version by selecting 'dev' from the version selector in the top navigation bar.">:material-lock-check: Stable: 1.1.0</abbr></div></div>
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/datasets/politiquices/1.0.3 "Link to the permanent URL of this resource.")</div><div markdown><abbr title="This page corresponds to a stable release of RiverBench, so it cannot be edited. If you want to edit this page, go to the development version by selecting 'dev' from the version selector in the top navigation bar.">:material-lock-check: Stable: 1.0.3</abbr></div></div>
 
-# Dataset: politiquices (1.1.0)
+# Dataset: politiquices (1.0.3)
 
 Support and opposition relations extracted from news articles archived in Arquivo.pt. The dataset describes news articles in Portuguese and the presented political stances. [Dataset source](https://data.europa.eu/data/datasets/6130e331078190fd0c6c3819?locale=en), [more information about the project (Portuguese)](https://www.politiquices.pt/about).
     
@@ -8,9 +8,9 @@ Support and opposition relations extracted from news articles archived in Arquiv
 
 !!! info
 
-    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/politiquices/1.1.0.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/politiquices/1.1.0.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/politiquices/1.1.0.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/politiquices/1.1.0.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/politiquices/1.0.3.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/politiquices/1.0.3.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/politiquices/1.0.3.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/politiquices/1.0.3.jelly)**
     <br>:material-github: Source repository: **[dataset-politiquices](https://github.com/RiverBench/dataset-politiquices)**
-    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/datasets/politiquices/1.1.0`](https://w3id.org/riverbench/datasets/politiquices/1.1.0)
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/datasets/politiquices/1.0.3`](https://w3id.org/riverbench/datasets/politiquices/1.0.3)
 
     **[:octicons-arrow-down-24: Go to download links](#distributions)**
 
@@ -55,7 +55,7 @@ Support and opposition relations extracted from news articles archived in Arquiv
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Politiquices _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `politiquices`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 1.1.0
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 1.0.3
 - **<abbr title="A main category of the resource. A resource can have multiple themes.">Theme</abbr>**: 
     - Political communication ([eurovoc:c_9eea2203](http://eurovoc.europa.eu/c_9eea2203))
     - Political press ([eurovoc:2600](http://eurovoc.europa.eu/2600))
@@ -77,8 +77,8 @@ Support and opposition relations extracted from news articles archived in Arquiv
     - [http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819](http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819)
     - [https://www.politiquices.pt/about](https://www.politiquices.pt/about)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-28
-- **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [politiquices (1.1.0)](https://w3id.org/riverbench/datasets/politiquices/1.1.0)
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-29
+- **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [politiquices (1.0.3)](https://w3id.org/riverbench/datasets/politiquices/1.0.3)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
 ## Technical metadata
@@ -121,8 +121,8 @@ See the [documentation](../../documentation/dataset-release-format.md) for more 
 
 Distribution size | Statements | Flat | Streaming | Jelly
 --- | --: | --: | --: | --:
-<abbr title="10,000 stream elements">10K</abbr> | 90,000 | [:octicons-download-24: 1.6 MB](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/flat_10K.nt.gz) | [:octicons-download-24: 1.4 MB](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/stream_10K.tar.gz) | [:octicons-download-24: 1.4 MB](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/jelly_10K.jelly.gz)
-<abbr title="17,773 stream elements">Full</abbr> | 159,957 | [:octicons-download-24: 2.9 MB](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/flat_full.nt.gz) | [:octicons-download-24: 2.5 MB](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/stream_full.tar.gz) | [:octicons-download-24: 2.5 MB](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/jelly_full.jelly.gz)
+<abbr title="10,000 stream elements">10K</abbr> | 90,000 | [:octicons-download-24: 1.6 MB](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/flat_10K.nt.gz) | [:octicons-download-24: 1.4 MB](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/stream_10K.tar.gz) | [:octicons-download-24: 1.4 MB](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/jelly_10K.jelly.gz)
+<abbr title="17,773 stream elements">Full</abbr> | 159,957 | [:octicons-download-24: 2.9 MB](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/flat_full.nt.gz) | [:octicons-download-24: 2.5 MB](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/stream_full.tar.gz) | [:octicons-download-24: 2.5 MB](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/jelly_full.jelly.gz)
 
 
 The full metadata of all distributions can be found below.
@@ -147,13 +147,13 @@ The full metadata of all distributions can be found below.
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `452a1d38773de1422b29a04843908772`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `af699c6d5338fbe4597d66b6056d9b4a`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `6a6fd8247ddfb9cd40a51b17d2813f15f60e48ed`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `ea06f56cf3abe7b254b6a83c70023c8aef0dd43c`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/stream_full.tar.gz](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/stream_full.tar.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/stream_full.tar.gz](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/stream_full.tar.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-full](#statistics-full)
 
 ### <a name="jelly-full"></a> Full Jelly distribution
@@ -180,13 +180,13 @@ The full metadata of all distributions can be found below.
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `92286e583d908a9aa9591e7acf2850a6`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `13067e857bc1154ec6e1e6d81640a27f`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `a27e9500b698cf6d56f49eacecc876733462a671`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `c40c8afea009fa714d84b74232f62357cf744212`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/jelly_full.jelly.gz](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/jelly_full.jelly.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/jelly_full.jelly.gz](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/jelly_full.jelly.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-full](#statistics-full)
 
 ### <a name="flat-full"></a> Full flat distribution
@@ -208,13 +208,13 @@ The full metadata of all distributions can be found below.
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `9abee3850069c8448913a77d9bec6d5d`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `6f076b3774f7e7328d6d2966eb04f2a1`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `775eb477b04672780639df46844d650c5dca77b3`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `460aa27e0b9d25ddd8603a49a9b3cac333e680f9`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/flat_full.nt.gz](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/flat_full.nt.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/flat_full.nt.gz](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/flat_full.nt.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-full](#statistics-full)
 
 ### <a name="stream-10k"></a> 10K elements stream distribution
@@ -237,13 +237,13 @@ The full metadata of all distributions can be found below.
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `2ab3d0ffd5445d3c29d7828f2fa1e54b`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `04d4263e93705158465b308e378fc445`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `bb89a0cee893078df17c10a28a46f5f3f7b18d84`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `92d7c8e673f2eb1d1a04387df7e3f345b253a613`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/stream_10K.tar.gz](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/stream_10K.tar.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/stream_10K.tar.gz](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/stream_10K.tar.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-10k](#statistics-10k)
 
 ### <a name="jelly-10k"></a> 10K elements Jelly distribution
@@ -270,13 +270,13 @@ The full metadata of all distributions can be found below.
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `9119670b7af2b38ea7455433ee481565`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `914f705700ce6d5c7685e53b3cbfaf6b`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `d70e6f6512fe7951100188964859a793efdd0c9e`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `e44d7ec73b5d7c6706d31933c2b0311da2aec27f`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/jelly_10K.jelly.gz](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/jelly_10K.jelly.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/jelly_10K.jelly.gz](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/jelly_10K.jelly.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-10k](#statistics-10k)
 
 ### <a name="flat-10k"></a> 10K elements flat distribution
@@ -298,13 +298,13 @@ The full metadata of all distributions can be found below.
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
     - **Checksum (1)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `463897308a07850a8f140496219b096d`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `1899fbc679b147ebb09b712986b99661`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> ([spdx:checksumAlgorithm_md5](http://spdx.org/rdf/terms#checksumAlgorithm_md5))
     - **Checksum (2)**    
         - **Type**: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> ([spdx:Checksum](http://spdx.org/rdf/terms#Checksum))
-        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `f122b0698928c32bb8f2526846e39c0d6d390c5d`
+        - **<abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr>**: `3a8a2de5b13b0c003bf0a3c0ad9af956c3fe260f`
         - **<abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr>**: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> ([spdx:checksumAlgorithm_sha1](http://spdx.org/rdf/terms#checksumAlgorithm_sha1))
-- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/flat_10K.nt.gz](https://w3id.org/riverbench/datasets/politiquices/1.1.0/files/flat_10K.nt.gz)
+- **<abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType.">Download URL</abbr>**: [https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/flat_10K.nt.gz](https://w3id.org/riverbench/datasets/politiquices/1.0.3/files/flat_10K.nt.gz)
 - **<abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>**: [statistics-10k](#statistics-10k)
 
 ## <abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr>
@@ -317,16 +317,17 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 213,274 | 18,557 | 12.00 | 0.01 | 11 | 12 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 17,773 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 159,955 | 54,727 | 9.00 | 0.01 | 8 | 9 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 17,773 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 159,957 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 106,638 | 36,171 | 6.00 | 0.00 | 6 | 6 |
+| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 106,638 | 36,172 | 6.00 | 0.00 | 6 | 6 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 53,319 | 1,295 | 3.00 | 0.00 | 3 | 3 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 35,546 | 17,310 | 2.00 | 0.00 | 2 | 2 |
-| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 17,773 | 17,593 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 17,773 | 17,594 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 21 | _N/A_ | 0.00 | 0.04 | 0 | 3 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 35,546 | 35,560 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 159,957 | 9 | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 159,955 | 54,727 | 9.00 | 0.01 | 8 | 9 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
@@ -336,14 +337,15 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 119,998 | 10,681 | 12.00 | 0.01 | 11 | 12 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 10,000 | _N/A_ | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 89,998 | 32,880 | 9.00 | 0.01 | 8 | 9 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 10,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 90,000 | _N/A_ | 9.00 | 0.00 | 9 | 9 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 60,000 | 22,263 | 6.00 | 0.00 | 6 | 6 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 30,000 | 1,064 | 3.00 | 0.00 | 3 | 3 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 20,000 | 11,248 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 10,000 | 9,954 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 5 | _N/A_ | 0.00 | 0.03 | 0 | 2 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 20,000 | 19,998 | 2.00 | 0.00 | 2 | 2 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 90,000 | 9 | 9.00 | 0.00 | 9 | 9 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 89,998 | 32,880 | 9.00 | 0.01 | 8 | 9 |
 
