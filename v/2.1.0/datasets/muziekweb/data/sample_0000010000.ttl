@@ -1,0 +1,11 @@
+<https://data.muziekweb.nl/Link/0236038d60cf58c5652e053296cffe229dc0ab59>
+        a                              <https://data.muziekweb.nl/vocab/OrderInformation>;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "order ‘Chicken rhythm ; vol.2’ from SOUND PRODUCTS"@nl;
+        <http://schema.org/offeredBy>  "SOUND PRODUCTS";
+        <https://data.muziekweb.nl/vocab/ean>
+                "31287017016";
+        <https://data.muziekweb.nl/vocab/label>
+                <https://data.muziekweb.nl/Link/L00000006328>;
+        <https://data.muziekweb.nl/vocab/labelNumber>
+                "LP 3055" .

@@ -1,0 +1,24 @@
+<http://lod.openaire.eu/data/result/scholix_____::500e9076171a764cecd908815abd1fdc>
+        a       <http://lod.openaire.eu/vocab/ResultEntity>;
+        <http://lod.openaire.eu/vocab/author>
+                "Fuentes-Prior, P." , "Friedrich, R." , "Verhamme, I." , "Richter, K." , "Anderson, P.J." , "Bock, P.E." , "Huber, R." , "Kawabata, S." , "Panizzi, P." , "Bode, W.";
+        <http://lod.openaire.eu/vocab/bestaccessright>
+                "UNKNOWN";
+        <http://lod.openaire.eu/vocab/collectedfrom>
+                "RCSB";
+        <http://lod.openaire.eu/vocab/dateofacceptance>
+                "2003-10-07";
+        <http://lod.openaire.eu/vocab/dateofcollection>
+                "2017-10-31T10:42:43.436+01:00";
+        <http://lod.openaire.eu/vocab/originalid>
+                "1nu7";
+        <http://lod.openaire.eu/vocab/pid>
+                "1nu7";
+        <http://lod.openaire.eu/vocab/relationship>
+                <http://lod.openaire.eu/data/result/scholix_____::9dcf560f2ef1d98e7afef98eff314993>;
+        <http://lod.openaire.eu/vocab/resourcetype>
+                "UNKNOWN";
+        <http://lod.openaire.eu/vocab/resulttype>
+                "dataset";
+        <http://lod.openaire.eu/vocab/title>
+                "Staphylocoagulase-Thrombin Complex" .

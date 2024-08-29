@@ -1,0 +1,28 @@
+<http://lod.openaire.eu/data/result/doiboost____::a9f5ad97308f4c8a6a7a76968a207b0e>
+        a       <http://lod.openaire.eu/vocab/ResultEntity>;
+        <http://lod.openaire.eu/vocab/affiliation>
+                <http://lod.openaire.eu/data/organization/grid________::fac7d9cacecf503f429d64db4534e837>;
+        <http://lod.openaire.eu/vocab/author>
+                "Jeremy A. Greenwood";
+        <http://lod.openaire.eu/vocab/bestaccessright>
+                "RESTRICTED";
+        <http://lod.openaire.eu/vocab/collectedfrom>
+                "Microsoft Academic Graph";
+        <http://lod.openaire.eu/vocab/dateofacceptance>
+                "2016-01-27T20:54:57Z";
+        <http://lod.openaire.eu/vocab/dateofcollection>
+                "2017-08-09T00:55:12Z";
+        <http://lod.openaire.eu/vocab/originalid>
+                "10.2118/178819-ms";
+        <http://lod.openaire.eu/vocab/pid>
+                "10.2118/178819-ms";
+        <http://lod.openaire.eu/vocab/publisher>
+                "Society of Petroleum Engineers";
+        <http://lod.openaire.eu/vocab/resourcetype>
+                "0004";
+        <http://lod.openaire.eu/vocab/resulttype>
+                "publication";
+        <http://lod.openaire.eu/vocab/subject>
+                "business" , "Vibration" , "business.industry" , "Root cause analysis" , "Forensic engineering" , "Structural engineering" , "Engineering";
+        <http://lod.openaire.eu/vocab/title>
+                "Improvements in the Root Cause Analysis of Drillstring Vibration" .

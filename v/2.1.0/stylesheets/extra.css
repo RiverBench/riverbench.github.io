@@ -1,0 +1,24 @@
+.rb-top-buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0 0.9rem;
+}
+
+.rb-top-buttons p {
+    margin: 0 !important;
+}
+
+.rb-small-button {
+    padding: 0.1rem 0.7rem !important;
+}
+
+.rb-wrap-code code {
+    white-space: pre-wrap !important;
+}
+
+@media screen and (max-width:45em) {
+    .rb-top-buttons {
+        gap: 0 0.5rem;
+    }
+}
