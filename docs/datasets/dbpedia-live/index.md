@@ -63,23 +63,23 @@ The dataset was extensively cleaned to fix or remove bad IRIs, bad Unicode, and 
     - **Wikipedia contributors (1)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Wikipedia contributors
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.wikipedia.org/](https://www.wikipedia.org/)
-    - **DBpedia Association (2)**    
-        - **<abbr title="A name for some thing.">Name</abbr>**: DBpedia Association
-        - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.dbpedia.org/contact/](https://www.dbpedia.org/contact/)
-    - **Piotr Sowiński (3)**    
+    - **Piotr Sowiński (2)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**:     
             -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
             - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
+    - **DBpedia Association (3)**    
+        - **<abbr title="A name for some thing.">Name</abbr>**: DBpedia Association
+        - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://www.dbpedia.org/contact/](https://www.dbpedia.org/contact/)
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-SA-3.0](https://spdx.org/licenses/CC-BY-SA-3.0)
 - **<abbr title="Information about rights held in and over the resource.">Rights</abbr>**: The dataset contains attributions of the original source of the data (links to Wikipedia). _(<abbr title="English">en</abbr>)_
 - **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: 
     - [https://doi.org/10.1108/00330331211221828](https://doi.org/10.1108/00330331211221828)
     - [https://www.dbpedia.org/resources/live/](https://www.dbpedia.org/resources/live/)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-09
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-28
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-29
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [dbpedia-live (1.0.3)](https://w3id.org/riverbench/datasets/dbpedia-live/1.0.3)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -406,16 +406,17 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 16,654,403 | 11,540,684 | 100.20 | 205.40 | 2 | 3,727 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 10,060,633 | 5,923,708 | 60.53 | 194.28 | 1 | 6,658 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 166,204 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 21,831,109 | _N/A_ | 131.35 | 319.79 | 1 | 8,275 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 5,911,441 | 3,597,388 | 35.57 | 120.44 | 0 | 6,077 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 3,958,152 | 2,729,961 | 23.82 | 80.44 | 0 | 3,455 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 1,953,289 | 866,665 | 11.75 | 44.75 | 0 | 2,622 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 11,290,262 | 9,518,636 | 67.93 | 130.41 | 1 | 1,961 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,881,262 | 14,748 | 11.32 | 26.04 | 1 | 436 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 10,060,633 | 5,923,708 | 60.53 | 194.28 | 1 | 6,658 |
 
 ### <a name="statistics-100k"></a> Statistics for 100K distributions
 
@@ -425,16 +426,17 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 13,631,942 | 9,703,320 | 136.32 | 224.18 | 2 | 2,681 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 7,860,478 | 4,615,978 | 78.60 | 206.43 | 1 | 6,658 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 100,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 17,814,033 | _N/A_ | 178.14 | 347.79 | 1 | 8,275 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 4,561,835 | 2,808,084 | 45.62 | 128.93 | 1 | 6,077 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 2,997,501 | 2,056,214 | 29.98 | 85.08 | 0 | 3,455 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 1,564,334 | 751,830 | 15.64 | 49.61 | 0 | 2,622 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 9,361,620 | 8,125,059 | 93.62 | 144.77 | 1 | 1,961 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,471,621 | 13,375 | 14.72 | 28.34 | 1 | 436 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 7,860,478 | 4,615,978 | 78.60 | 206.43 | 1 | 6,658 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
@@ -444,14 +446,15 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 4,227,641 | 3,163,701 | 422.76 | 279.53 | 2 | 2,031 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 2,622,682 | 1,724,028 | 262.27 | 416.36 | 1 | 2,750 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 10,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 5,575,053 | _N/A_ | 557.51 | 529.45 | 1 | 4,905 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 1,566,963 | 1,068,951 | 156.70 | 256.16 | 1 | 2,120 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 1,080,669 | 798,768 | 108.07 | 181.60 | 1 | 1,708 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 486,294 | 270,141 | 48.63 | 79.92 | 0 | 1,333 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 2,928,996 | 2,591,358 | 292.90 | 121.33 | 1 | 1,449 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 430,909 | 9,449 | 43.09 | 49.27 | 1 | 436 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 2,622,682 | 1,724,028 | 262.27 | 416.36 | 1 | 2,750 |
 
