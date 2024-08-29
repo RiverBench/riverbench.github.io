@@ -1,4 +1,6 @@
-# openaire-lod (development version)
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/datasets/openaire-lod/dev "Link to the permanent URL of this resource.")</div><div markdown>**[:material-database-edit: Edit this page](https://github.com/RiverBench/dataset-openaire-lod/edit/main/metadata.ttl "Edit this page's source in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
+
+# Dataset: openaire-lod (development version)
 
 [OpenAIRE LOD](https://web.archive.org/web/20201230151925/http://lod.openaire.eu/documentation) was a service that exported data from the OpenAIRE information space in RDF format, using Linked Open Data principles. The data was exported to Zenodo, with the [last dump dated at March 3, 2021](https://zenodo.org/records/4587369). This dataset consists of the "result" subset of the OpenAIRE LOD graph, including scientific results such as publications.
 
@@ -8,8 +10,11 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/openaire-lod/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/openaire-lod/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/openaire-lod/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/openaire-lod/dev.jelly)**
-    <br>Source repository: **[openaire-lod](https://github.com/RiverBench/dataset-openaire-lod)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/datasets/openaire-lod/dev.ttl)**, **[N-Triples](https://w3id.org/riverbench/datasets/openaire-lod/dev.nt)**, **[RDF/XML](https://w3id.org/riverbench/datasets/openaire-lod/dev.rdf)**, **[Jelly](https://w3id.org/riverbench/datasets/openaire-lod/dev.jelly)**
+    <br>:material-github: Source repository: **[dataset-openaire-lod](https://github.com/RiverBench/dataset-openaire-lod)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/datasets/openaire-lod/dev`](https://w3id.org/riverbench/datasets/openaire-lod/dev)
+
+    **[:octicons-arrow-down-24: Go to download links](#distributions)**
 
 ??? example "Stream preview (click to expand)"
 
@@ -73,17 +78,17 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
         - **<abbr title="A name for some thing.">Name</abbr>**: Christoph Lange
     - **Piotr Sowiński (5)**    
         - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset for RiverBench
         - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**:     
             -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
             - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: Processing the dataset for RiverBench
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC0-1.0](https://spdx.org/licenses/CC0-1.0)
 - **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: 
     - [https://doi.org/10.5281/zenodo.4587369](https://doi.org/10.5281/zenodo.4587369)
     - [https://web.archive.org/web/20201230151925/http://lod.openaire.eu/documentation](https://web.archive.org/web/20201230151925/http://lod.openaire.eu/documentation)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2024-07-12
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-07-12
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-29
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [openaire-lod (dev)](https://w3id.org/riverbench/datasets/openaire-lod/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -103,11 +108,11 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - **Type**:     
         - <abbr title="The elements correspond to different instants or intervals of time.">Stream elements split by time</abbr> ([rb:TimeStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit))
         - <abbr title="The elements correspond to different topics/subjects in the dataset.">Stream elements split by topic</abbr> ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
+    - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each stream element corresponds to exactly one scientific result in OpenAIRE, each with an assigned timestamp (time of collection). _(<abbr title="English">en</abbr>)_
     - **<abbr title="The IRI of the property that is used in the stream to denote time at which the event occured.">Has temporal property</abbr>**: [http://lod.openaire.eu/vocab/dateofcollection](http://lod.openaire.eu/vocab/dateofcollection)
     - **<abbr title="Indicates the subject node in an RDF subject graph stream, using SHACL. The value of this property should be a SHACL sh:NodeShape with a specified target (e.g., sh:targetSubjectsOf). Only the target will be considered, restrictions on the shape will be ignored.  This property is required for RDF subject graph streams. Only sh:targetClass, sh:targetSubjectsOf, and sh:targetObjectsOf are allowed as the target specification.  This property can be specified multiple times. The different target specifications will then be treated as alternatives.">Has subject shape</abbr>**:     
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: Target instances of class ResultEntity. _(<abbr title="English">en</abbr>)_
         - **<abbr title="Links a shape to a class, indicating that all instances of the class must conform to the shape.">Target class</abbr>**: [http://lod.openaire.eu/vocab/ResultEntity](http://lod.openaire.eu/vocab/ResultEntity)
-    - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each stream element corresponds to exactly one scientific result in OpenAIRE, each with an assigned timestamp (time of collection). _(<abbr title="English">en</abbr>)_
 - **<abbr title="A vocabulary that is used in the dataset.">Uses vocabulary</abbr>**: [http://lod.openaire.eu/vocab](http://lod.openaire.eu/vocab)
 - **<abbr title="Whether the dataset is RDF 1.1-compliant, i.e., does not use any non-standard features, like generalized triples.">Conforms to W3C RDF 1.1 specification</abbr>**: yes
 - **<abbr title="Whether the dataset is RDF-star compliant, i.e., does not use any non-standard features. Note that all standard RDF 1.1 datasets also qualify, as RDF-star is a superset of RDF 1.1.">Conforms to W3C RDF-star draft specification as of December 17, 2021</abbr>**: yes
@@ -117,6 +122,25 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
 - **<abbr title="A language of the resource.">Language</abbr>**: `en`
 
 ## Distributions
+
+
+### Download links
+
+The dataset is published in a few size variants, each containing a specific number of stream elements.
+For each size, there are three distribution types available: flat (just an N-Triples/N-Quads file),
+streaming (a .tar.gz archive with Turtle/TriG files, one file per stream element),
+and [Jelly](https://w3id.org/jelly) (a native binary format for streaming RDF).
+See the [documentation](../../documentation/dataset-release-format.md) for more details.
+
+Distribution size | Statements | Flat | Streaming | Jelly
+--- | --: | --: | --: | --:
+<abbr title="10,000 stream elements">10K</abbr> | 193,178 | [:octicons-download-24: 3.4 MB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_10K.nt.gz) | [:octicons-download-24: 3.0 MB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/stream_10K.tar.gz) | [:octicons-download-24: 3.1 MB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_10K.jelly.gz)
+<abbr title="100,000 stream elements">100K</abbr> | 2,267,185 | [:octicons-download-24: 48.8 MB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_100K.nt.gz) | [:octicons-download-24: 43.2 MB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/stream_100K.tar.gz) | [:octicons-download-24: 45.0 MB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_100K.jelly.gz)
+<abbr title="1,000,000 stream elements">1M</abbr> | 42,913,544 | [:octicons-download-24: 1.2 GB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_1M.nt.gz) | [:octicons-download-24: 1.1 GB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/stream_1M.tar.gz) | [:octicons-download-24: 1.2 GB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_1M.jelly.gz)
+<abbr title="2,000,000 stream elements">Full</abbr> | 71,810,467 | [:octicons-download-24: 1.7 GB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_full.nt.gz) | [:octicons-download-24: 1.6 GB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/stream_full.tar.gz) | [:octicons-download-24: 1.7 GB](https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_full.jelly.gz)
+
+
+The full metadata of all distributions can be found below.
 
 ### <a name="stream-full"></a> Full stream distribution
 
@@ -131,7 +155,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 2,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.58 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.6 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -165,7 +189,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 2,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.70 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.7 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -193,7 +217,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> ([rb:fullDistribution](https://w3id.org/riverbench/schema/metadata#fullDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 2,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.74 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.7 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -221,7 +245,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.08 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.1 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -255,7 +279,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.19 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.2 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -283,7 +307,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 1,000,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.16 GB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 1.2 GB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -311,7 +335,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 43.17 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 43.2 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -345,7 +369,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 45.00 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 45.0 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -373,7 +397,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 100,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 48.82 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 48.8 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -401,7 +425,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
     - <abbr title="The dataset is distributed as a stream of RDF datasets or RDF graphs (grouped RDF stream in RDF-STaX).">Stream distribution</abbr> ([rb:streamDistribution](https://w3id.org/riverbench/schema/metadata#streamDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.00 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.0 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: text/turtle
 - **<abbr title="The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.">Packaging format</abbr>**: application/tar
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
@@ -435,7 +459,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.12 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.1 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -463,7 +487,7 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
     - <abbr title="The dataset is distributed as a single flat file.">Flat distribution</abbr> ([rb:flatDistribution](https://w3id.org/riverbench/schema/metadata#flatDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 10,000
-- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.43 MB
+- **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 3.4 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/n-triples
 - **<abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr>**: application/gzip
 - **<abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr>**: 
@@ -484,75 +508,79 @@ See also [the project documentation](https://web.archive.org/web/20201230151925/
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for full distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 44,830,559 | 5,938,140 | 22.42 | 48.04 | 10 | 8,988 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 69,535,884 | 14,154,385 | 34.77 | 141.46 | 7 | 8,985 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 2,000,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 71,810,467 | _N/A_ | 35.91 | 141.51 | 8 | 8,987 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 55,180,959 | 9,633,580 | 27.59 | 132.67 | 5 | 5,121 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 55,180,959 | 9,633,580 | 27.59 | 132.67 | 5 | 5,121 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 5,234 | _N/A_ | 0.00 | 0.94 | 0 | 503 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 2,000,000 | 2,000,131 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 28,476,853 | 24 | 14.24 | 0.95 | 8 | 19 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 69,535,884 | 14,154,385 | 34.77 | 141.46 | 7 | 8,985 |
 
 ### <a name="statistics-1m"></a> Statistics for 1M distributions
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 1M distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 26,480,270 | 4,695,708 | 26.48 | 67.66 | 10 | 8,988 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 41,489,263 | 9,106,902 | 41.49 | 199.70 | 7 | 8,985 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 1,000,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 42,913,544 | _N/A_ | 42.91 | 199.75 | 8 | 8,987 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 29,668,659 | 4,871,239 | 29.67 | 187.48 | 5 | 5,121 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 29,668,659 | 4,871,239 | 29.67 | 187.48 | 5 | 5,121 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 2 | _N/A_ | 0.00 | 0.00 | 0 | 2 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 1,000,000 | 1,000,059 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 13,660,885 | 24 | 13.66 | 0.93 | 8 | 19 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 41,489,263 | 9,106,902 | 41.49 | 199.70 | 7 | 8,985 |
 
 ### <a name="statistics-100k"></a> Statistics for 100K distributions
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 100K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 1,700,241 | 210,791 | 17.00 | 3.85 | 12 | 227 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 2,165,891 | 940,274 | 21.66 | 29.45 | 10 | 3,101 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 100,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 2,267,185 | _N/A_ | 22.67 | 29.35 | 10 | 3,101 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 1,849,721 | 828,050 | 18.50 | 28.73 | 7 | 3,037 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 1,849,721 | 828,050 | 18.50 | 28.73 | 7 | 3,037 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 100,000 | 100,006 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,284,078 | 22 | 12.84 | 1.10 | 10 | 18 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 2,165,891 | 940,274 | 21.66 | 29.45 | 10 | 3,101 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 10K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 170,859 | 29,880 | 17.09 | 6.29 | 13 | 207 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 177,888 | 76,837 | 17.79 | 8.41 | 10 | 239 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 10,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 193,178 | _N/A_ | 19.32 | 8.53 | 10 | 240 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 138,454 | 56,917 | 13.85 | 5.07 | 7 | 202 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 138,454 | 56,917 | 13.85 | 5.07 | 7 | 202 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 10,000 | 9,999 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 121,432 | 22 | 12.14 | 0.71 | 10 | 16 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 177,888 | 76,837 | 17.79 | 8.41 | 10 | 239 |
 
