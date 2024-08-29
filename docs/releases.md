@@ -26,7 +26,7 @@ Minor release focusing on improving the user experience and quality of the docum
 - Datasets:
     - Added a new dataset: `openaire-lod`. ([#95](https://github.com/RiverBench/RiverBench/issues/95))
     - Created a new PATCH release for the remaining datasets due to metadata updates.
-- Resolved 28 issues – see the [full list](https://github.com/RiverBench/RiverBench/milestone/4?closed=1).
+- Resolved 29 issues – see the [full list](https://github.com/RiverBench/RiverBench/milestone/4?closed=1).
 
 ## [RiverBench 2.0.1](https://w3id.org/riverbench/v/2.0.1)
 
