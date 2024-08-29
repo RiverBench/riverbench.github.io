@@ -3927,14 +3927,14 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations or other subjects (e.g., statistical properties). Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations or other subjects (e.g., statistical properties). Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -4041,6 +4041,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">2</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
+<td style="text-align: right;">51,613,790</td>
+<td style="text-align: right;">8,086,013</td>
+<td style="text-align: right;">20.83</td>
+<td style="text-align: right;">7.97</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">86</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
 <td style="text-align: right;">2,477,552</td>
 <td style="text-align: right;">1</td>
@@ -4095,6 +4104,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"><em>N/A</em></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr></strong></td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;"><em>N/A</em></td>
@@ -4120,15 +4138,6 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">7.50</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">49</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
-<td style="text-align: right;">51,613,790</td>
-<td style="text-align: right;">8,086,013</td>
-<td style="text-align: right;">20.83</td>
-<td style="text-align: right;">7.97</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">86</td>
 </tr>
 </tbody>
 </table>
@@ -4166,6 +4175,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.15</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
+<td style="text-align: right;">22,529,402</td>
+<td style="text-align: right;">3,332,121</td>
+<td style="text-align: right;">22.53</td>
+<td style="text-align: right;">9.84</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">52</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
@@ -4222,6 +4240,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"><em>N/A</em></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr></strong></td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;"><em>N/A</em></td>
@@ -4247,15 +4274,6 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">5.05</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">32</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
-<td style="text-align: right;">22,529,402</td>
-<td style="text-align: right;">3,332,121</td>
-<td style="text-align: right;">22.53</td>
-<td style="text-align: right;">9.84</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">52</td>
 </tr>
 </tbody>
 </table>
@@ -4293,6 +4311,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.04</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
+<td style="text-align: right;">1,590,629</td>
+<td style="text-align: right;">397,445</td>
+<td style="text-align: right;">15.91</td>
+<td style="text-align: right;">2.41</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">34</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
@@ -4349,6 +4376,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"><em>N/A</em></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr></strong></td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;"><em>N/A</em></td>
@@ -4374,15 +4410,6 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">2.45</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">23</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
-<td style="text-align: right;">1,590,629</td>
-<td style="text-align: right;">397,445</td>
-<td style="text-align: right;">15.91</td>
-<td style="text-align: right;">2.41</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">34</td>
 </tr>
 </tbody>
 </table>
@@ -4420,6 +4447,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.10</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
+<td style="text-align: right;">155,028</td>
+<td style="text-align: right;">43,286</td>
+<td style="text-align: right;">15.50</td>
+<td style="text-align: right;">5.43</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">23</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
@@ -4476,6 +4512,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"><em>N/A</em></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr></strong></td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;"><em>N/A</em></td>
@@ -4500,15 +4545,6 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">15.78</td>
 <td style="text-align: right;">5.84</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">23</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
-<td style="text-align: right;">155,028</td>
-<td style="text-align: right;">43,286</td>
-<td style="text-align: right;">15.50</td>
-<td style="text-align: right;">5.43</td>
-<td style="text-align: right;">1</td>
 <td style="text-align: right;">23</td>
 </tr>
 </tbody>
