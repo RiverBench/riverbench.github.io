@@ -1,0 +1,24 @@
+<http://lod.openaire.eu/data/result/snsf_p3_pubs::4059d2b097867d754474a46a55588dc1>
+        a       <http://lod.openaire.eu/vocab/ResultEntity>;
+        <http://lod.openaire.eu/vocab/author>
+                "Briki M Monnin JHaffen E Sechter D Favrod J Netillard C Cheraitia E Marin K &amp; al.";
+        <http://lod.openaire.eu/vocab/bestaccessright>
+                "CLOSED";
+        <http://lod.openaire.eu/vocab/collectedfrom>
+                "SNSF P3 Database";
+        <http://lod.openaire.eu/vocab/dateofacceptance>
+                "2014-01-01";
+        <http://lod.openaire.eu/vocab/dateofcollection>
+                "2017-10-27T10:12:22.533Z";
+        <http://lod.openaire.eu/vocab/description>
+                "A psychotherapeutic approach for schizophrenia is now recommended as an adjuvant for psychopharmacology since antipsychotic medications only have a partial impact especially as regards positive symptoms and insight. In addition cognitive distortions and the lack of metacognitive skills might increase positive symptoms leading to poor social functioning. This underlines the need for speci?c approaches which target cognitive processes relevant for insight and abilities in metacognition. Metacognitive training (MCT) is a structured group intervention which enhances a patient's re?ection on cognitive biases and improves problem solving. The aim of our study was to assess MCTs' short term impact on insight symptoms and quality of life. Fiftypatients with schizophrenia or schizoaffective disorders and persistent positive symptoms (delusions or hallucinations) were enrolled in the study. After Baseline assessment participants were randomised either to supportive therapy or MCT. Both groups used the same design (1 h session twice a week during 8 weeks) although the basic knowledge given to  participants was different between interventions. Participants were assessed at eight weeks based on the Scale to Assess Unawareness of Mental Disorder Positive and Negative Syndrome Scale (PANSS) Psychotic Symptom Rating Scales the Calgary Depression Scale for Schizophrenia and the Quality of Life Scale.Between group différences were signi?cant in favour of MCT on the PANSS positive scale. Between group différences in post  and pretest values showed a trend in favour of MCT for insight on hallucinations. Results of our study indicate that the MCT has an effect on reducing positive symptomatology and a trend impact on insight and social functioning.";
+        <http://lod.openaire.eu/vocab/outcome>
+                <http://lod.openaire.eu/data/project/snsf________::1c0c8a8a454b595c6f1ec2e4cddaca20>;
+        <http://lod.openaire.eu/vocab/pid>
+                "10.1016/j.schres.2014.06.005.";
+        <http://lod.openaire.eu/vocab/resourcetype>
+                "UNKNOWN";
+        <http://lod.openaire.eu/vocab/resulttype>
+                "publication";
+        <http://lod.openaire.eu/vocab/title>
+                "Metacognitive training for schizophrenia : a multicentric randomized controlled trial" .
