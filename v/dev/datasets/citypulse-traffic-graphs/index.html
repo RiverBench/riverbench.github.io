@@ -3579,14 +3579,14 @@
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of quads. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> (<a href="https://w3id.org/stax/ontology#flatQuadStream">stax:flatQuadStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair \<n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple \<n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> (<a href="https://w3id.org/stax/ontology#timestampedNamedGraphStream">stax:timestampedNamedGraphStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair \<n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple \<n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> (<a href="https://w3id.org/stax/ontology#timestampedNamedGraphStream">stax:timestampedNamedGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of quads. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> (<a href="https://w3id.org/stax/ontology#flatQuadStream">stax:flatQuadStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -3713,14 +3713,14 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of quads. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> (<a href="https://w3id.org/stax/ontology#flatQuadStream">stax:flatQuadStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair \<n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple \<n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> (<a href="https://w3id.org/stax/ontology#timestampedNamedGraphStream">stax:timestampedNamedGraphStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair \<n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple \<n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> (<a href="https://w3id.org/stax/ontology#timestampedNamedGraphStream">stax:timestampedNamedGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of quads. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> (<a href="https://w3id.org/stax/ontology#flatQuadStream">stax:flatQuadStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -3837,14 +3837,14 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of quads. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> (<a href="https://w3id.org/stax/ontology#flatQuadStream">stax:flatQuadStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair \<n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple \<n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> (<a href="https://w3id.org/stax/ontology#timestampedNamedGraphStream">stax:timestampedNamedGraphStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair \<n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple \<n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> (<a href="https://w3id.org/stax/ontology#timestampedNamedGraphStream">stax:timestampedNamedGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of quads. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> (<a href="https://w3id.org/stax/ontology#flatQuadStream">stax:flatQuadStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -4085,14 +4085,14 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair \<n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple \<n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> (<a href="https://w3id.org/stax/ontology#timestampedNamedGraphStream">stax:timestampedNamedGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of quads. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> (<a href="https://w3id.org/stax/ontology#flatQuadStream">stax:flatQuadStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of quads. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF quad stream is a flat RDF stream whose elements are quads.">Flat RDF quad stream</abbr> (<a href="https://w3id.org/stax/ontology#flatQuadStream">stax:flatQuadStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of RDF datasets, each containing exactly one named graph corresponding to one measurement made by a traffic sensor. The named graphs are annotated with the timestamp property. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A timestamped named graph is an RDF dataset in which: (1) there is exactly one named RDF graph pair \<n, G>, where G is an RDF graph, and n is the graph name; (2) the default graph includes a timestamp triple \<n, p, t>, where p is a timestamp predicate that relates t, called the timestamp, and the graph G.  A timestamped RDF named graph stream is an RDF named graph stream in which every element is a timestamped named graph. The elements that share the same timestamp predicate p are ordered by the partial order associated with p.">Timestamped RDF named graph stream</abbr> (<a href="https://w3id.org/stax/ontology#timestampedNamedGraphStream">stax:timestampedNamedGraphStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -4199,6 +4199,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">5</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
+<td style="text-align: right;">95,911,308</td>
+<td style="text-align: right;">43,839,004</td>
+<td style="text-align: right;">21.88</td>
+<td style="text-align: right;">0.46</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">22</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
 <td style="text-align: right;">8,765,198</td>
 <td style="text-align: right;">4,382,701</td>
@@ -4253,6 +4262,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"><em>N/A</em></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr></strong></td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;"><em>N/A</em></td>
@@ -4278,15 +4296,6 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">9</td>
 <td style="text-align: right;">9</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
-<td style="text-align: right;">95,911,308</td>
-<td style="text-align: right;">43,839,004</td>
-<td style="text-align: right;">21.88</td>
-<td style="text-align: right;">0.46</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">22</td>
 </tr>
 </tbody>
 </table>
@@ -4324,6 +4333,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
+<td style="text-align: right;">21,794,267</td>
+<td style="text-align: right;">10,011,160</td>
+<td style="text-align: right;">21.79</td>
+<td style="text-align: right;">0.60</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">22</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
@@ -4380,6 +4398,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"><em>N/A</em></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr></strong></td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;"><em>N/A</em></td>
@@ -4405,15 +4432,6 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">9</td>
 <td style="text-align: right;">9</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
-<td style="text-align: right;">21,794,267</td>
-<td style="text-align: right;">10,011,160</td>
-<td style="text-align: right;">21.79</td>
-<td style="text-align: right;">0.60</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">22</td>
 </tr>
 </tbody>
 </table>
@@ -4451,6 +4469,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
+<td style="text-align: right;">2,199,366</td>
+<td style="text-align: right;">1,011,154</td>
+<td style="text-align: right;">21.99</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">22</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
@@ -4507,6 +4534,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"><em>N/A</em></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr></strong></td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;"><em>N/A</em></td>
@@ -4532,15 +4568,6 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">9</td>
 <td style="text-align: right;">9</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
-<td style="text-align: right;">2,199,366</td>
-<td style="text-align: right;">1,011,154</td>
-<td style="text-align: right;">21.99</td>
-<td style="text-align: right;">0.08</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">22</td>
 </tr>
 </tbody>
 </table>
@@ -4578,6 +4605,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">5</td>
 <td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
+<td style="text-align: right;">219,981</td>
+<td style="text-align: right;">109,540</td>
+<td style="text-align: right;">22.00</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">22</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
@@ -4634,6 +4670,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"><em>N/A</em></td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr></strong></td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;"><em>N/A</em></td>
@@ -4659,15 +4704,6 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">9</td>
 <td style="text-align: right;">9</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
-<td style="text-align: right;">219,981</td>
-<td style="text-align: right;">109,540</td>
-<td style="text-align: right;">22.00</td>
-<td style="text-align: right;">0.05</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">22</td>
 </tr>
 </tbody>
 </table>
