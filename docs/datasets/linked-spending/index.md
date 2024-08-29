@@ -444,12 +444,12 @@ The full metadata of all distributions can be found below.
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of triples. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> ([stax:flatTripleStream](https://w3id.org/stax/ontology#flatTripleStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs corresponding to statistical observations or other subjects (e.g., statistical properties). Each graph is uniquely identified by its subject IRI. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> ([stax:subjectGraphStream](https://w3id.org/stax/ontology#subjectGraphStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of triples. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> ([stax:flatTripleStream](https://w3id.org/stax/ontology#flatTripleStream))
 - **<abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr>**: 
     - <abbr title="A streaming distribution in the Jelly binary format.">Jelly distribution</abbr> ([rb:jellyDistribution](https://w3id.org/riverbench/schema/metadata#jellyDistribution))
     - <abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> ([rb:partialDistribution](https://w3id.org/riverbench/schema/metadata#partialDistribution))
@@ -507,16 +507,17 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 83,873,394 | 3,239,719 | 33.85 | 12.84 | 3 | 84 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 2,583,713 | _N/A_ | 1.04 | 0.21 | 0 | 2 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 51,613,790 | 8,086,013 | 20.83 | 7.97 | 1 | 86 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 2,477,552 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 55,097,866 | _N/A_ | 22.24 | 9.61 | 2 | 86 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 18,740,789 | 4,846,042 | 7.56 | 3.87 | 0 | 43 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 15,143,397 | 4,838,859 | 6.11 | 3.69 | 0 | 43 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 3,597,392 | 7,200 | 1.45 | 0.55 | 0 | 4 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 2,477,552 | 2,475,838 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 51,106,554 | 708 | 20.63 | 7.50 | 2 | 49 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 51,613,790 | 8,086,013 | 20.83 | 7.97 | 1 | 86 |
 
 ### <a name="statistics-1m"></a> Statistics for 1M distributions
 
@@ -526,16 +527,17 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 35,194,519 | 1,331,576 | 35.19 | 13.13 | 3 | 60 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 1,020,633 | _N/A_ | 1.02 | 0.15 | 0 | 2 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 22,529,402 | 3,332,121 | 22.53 | 9.84 | 1 | 52 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 1,000,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 23,371,403 | _N/A_ | 23.37 | 10.26 | 2 | 52 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 7,242,453 | 2,000,374 | 7.24 | 3.04 | 0 | 26 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 5,666,659 | 1,994,553 | 5.67 | 2.79 | 0 | 26 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 1,575,794 | 5,841 | 1.58 | 0.62 | 0 | 4 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 1,000,000 | 999,268 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 19,928,203 | 383 | 19.93 | 5.05 | 2 | 32 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 22,529,402 | 3,332,121 | 22.53 | 9.84 | 1 | 52 |
 
 ### <a name="statistics-100k"></a> Statistics for 100K distributions
 
@@ -545,16 +547,17 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 2,497,664 | 210,494 | 24.98 | 2.52 | 3 | 30 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 99,849 | _N/A_ | 1.00 | 0.04 | 0 | 1 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 1,590,629 | 397,445 | 15.91 | 2.41 | 1 | 34 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 100,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 1,716,898 | _N/A_ | 17.17 | 2.44 | 2 | 34 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 809,395 | 186,976 | 8.09 | 2.49 | 0 | 17 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 709,140 | 184,438 | 7.09 | 2.49 | 0 | 17 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 100,255 | 2,538 | 1.00 | 0.07 | 0 | 2 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 100,000 | 99,925 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,716,279 | 56 | 17.16 | 2.45 | 2 | 23 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 1,590,629 | 397,445 | 15.91 | 2.41 | 1 | 34 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
@@ -564,14 +567,15 @@ The full metadata of all distributions can be found below.
 | --- | --: | --: | --: | --: | --: | --: |
 | **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 226,552 | 10,809 | 22.66 | 6.07 | 3 | 30 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 9,907 | _N/A_ | 0.99 | 0.10 | 0 | 1 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 155,028 | 43,286 | 15.50 | 5.43 | 1 | 23 |
 | **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 10,000 | 1 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 158,342 | _N/A_ | 15.83 | 5.82 | 2 | 23 |
 | **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 86,396 | 32,505 | 8.64 | 5.27 | 0 | 16 |
 | **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 76,087 | 31,529 | 7.61 | 5.28 | 0 | 15 |
 | **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 10,309 | 976 | 1.03 | 0.22 | 0 | 2 |
 | **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 10,000 | 9,958 | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 157,827 | 48 | 15.78 | 5.84 | 2 | 23 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 155,028 | 43,286 | 15.50 | 5.43 | 1 | 23 |
 
