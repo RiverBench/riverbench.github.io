@@ -1,4 +1,8 @@
-# End-to-end streaming throughput
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/2.1.0/tasks/stream-throughput-end-to-end "Link to the permanent URL of this resource.")</div><div markdown><abbr title="This page corresponds to a stable release of RiverBench, so it cannot be edited. If you want to edit this page, go to the development version by selecting 'dev' from the version selector in the top navigation bar.">:material-lock-check: Stable: 2.1.0</abbr></div></div>
+
+# Task: End-to-end streaming throughput (2.1.0)
+
+Task identifier: `stream-throughput-end-to-end`
 
 A benchmark task measuring the throughput of streaming elements in a grouped RDF stream over the network, including serialization, network communication, and deserialization.
 
@@ -34,9 +38,9 @@ To isolate the performance of the streaming process itself, the following steps 
 
 ## Results
 
-There are no results with RiverBench available for this task yet.
+**See the results for this task reported by the community: [RESULTS](results.md).**
 
-## Examples and references
+## This task in benchmarks outside of RiverBench
 
 - In the paper about the Jelly streaming protocol, such a benchmark is performed in Section IV.D. The authors have measured the end-to-end throughput of several methods (over Kafka and gRPC) in terms of the number of triples transmitted per second. In the experiment, both the producer and the consumer were running on the same physical machine and various network conditions were simulated using the NetEm Linux kernel module.
     - Sowiński, P., Wasielewska-Michniewska, K., Ganzha, M., & Paprzycki, M. (2022, October). Efficient RDF streaming for the edge-cloud continuum. In 2022 IEEE 8th World Forum on Internet of Things (WF-IoT) (pp. 1-8). IEEE. [https://doi.org/10.1109/WF-IoT54382.2022.10152225](https://doi.org/10.1109/WF-IoT54382.2022.10152225)
@@ -54,7 +58,9 @@ There are no results with RiverBench available for this task yet.
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.1/tasks/stream-throughput-end-to-end.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.1/tasks/stream-throughput-end-to-end.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.1/tasks/stream-throughput-end-to-end.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.1/tasks/stream-throughput-end-to-end.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.1.0/tasks/stream-throughput-end-to-end.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.1.0/tasks/stream-throughput-end-to-end.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.1.0/tasks/stream-throughput-end-to-end.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.1.0/tasks/stream-throughput-end-to-end.jelly)**
+    <br>:material-github: Source repository: **[category-stream](https://github.com/RiverBench/category-stream)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/2.1.0/tasks/stream-throughput-end-to-end`](https://w3id.org/riverbench/v/2.1.0/tasks/stream-throughput-end-to-end)
 
 
 
@@ -63,14 +69,14 @@ There are no results with RiverBench available for this task yet.
 - **<abbr title="A name given to the resource.">Title</abbr>**: End-to-end streaming throughput _(<abbr title="English">en</abbr>)_
 - **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the throughput of streaming elements in a grouped RDF stream over the network, including serialization, network communication, and deserialization. _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-throughput-end-to-end`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.1
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.1.0
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**: 
     - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
     - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
     - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**:     
         -  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
         - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [stream (2.0.1)](https://w3id.org/riverbench/v/2.0.1/categories/stream)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.1)](https://w3id.org/riverbench/v/2.0.1)
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [stream (2.1.0)](https://w3id.org/riverbench/v/2.1.0/categories/stream)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.1.0)](https://w3id.org/riverbench/v/2.1.0)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 

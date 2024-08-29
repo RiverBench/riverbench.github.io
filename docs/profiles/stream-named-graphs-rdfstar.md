@@ -1,10 +1,14 @@
-# stream-named-graphs-rdfstar (2.0.1)
+<div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/2.1.0/profiles/stream-named-graphs-rdfstar "Link to the permanent URL of this resource.")</div><div markdown><abbr title="This page corresponds to a stable release of RiverBench, so it cannot be edited. If you want to edit this page, go to the development version by selecting 'dev' from the version selector in the top navigation bar.">:material-lock-check: Stable: 2.1.0</abbr></div></div>
+
+# Profile: stream-named-graphs-rdfstar (2.1.0)
 
 Streaming named graphs (with RDF-star)
 
 !!! info
 
-    Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.0.1/profiles/stream-named-graphs-rdfstar.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.0.1/profiles/stream-named-graphs-rdfstar.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.0.1/profiles/stream-named-graphs-rdfstar.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.0.1/profiles/stream-named-graphs-rdfstar.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/2.1.0/profiles/stream-named-graphs-rdfstar.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/2.1.0/profiles/stream-named-graphs-rdfstar.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/2.1.0/profiles/stream-named-graphs-rdfstar.rdf)**, **[Jelly](https://w3id.org/riverbench/v/2.1.0/profiles/stream-named-graphs-rdfstar.jelly)**
+    <br>:material-github: Source repository: **[category-stream](https://github.com/RiverBench/category-stream)**
+    <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/2.1.0/profiles/stream-named-graphs-rdfstar`](https://w3id.org/riverbench/v/2.1.0/profiles/stream-named-graphs-rdfstar)
 
 
 
@@ -12,22 +16,19 @@ Streaming named graphs (with RDF-star)
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Streaming named graphs (RDF-star) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-named-graphs-rdfstar`
-- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.0.1
-- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [stream (2.0.1)](https://w3id.org/riverbench/v/2.0.1/categories/stream)
+- **<abbr title="Version tag of an artifact">Has version</abbr>**: 2.1.0
+- **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [stream (2.1.0)](https://w3id.org/riverbench/v/2.1.0/categories/stream)
 - **<abbr title="Indicates that this profile contains all datasets of the other profile">Is superset of profile</abbr>**: 
-    - [stream-named-graphs (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-named-graphs)
-    - [stream-ts-named-graphs (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-ts-named-graphs)
-    - [stream-ts-named-graphs-rdfstar (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-ts-named-graphs-rdfstar)
+    - [stream-named-graphs (2.1.0)](https://w3id.org/riverbench/v/2.1.0/profiles/stream-named-graphs)
+    - [stream-ts-named-graphs (2.1.0)](https://w3id.org/riverbench/v/2.1.0/profiles/stream-ts-named-graphs)
+    - [stream-ts-named-graphs-rdfstar (2.1.0)](https://w3id.org/riverbench/v/2.1.0/profiles/stream-ts-named-graphs-rdfstar)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
-    - [stream-datasets-rdfstar (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-datasets-rdfstar)
-    - [stream-datasets-rdfstar-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-datasets-rdfstar-nonstandard)
-    - [stream-mixed-rdfstar (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-mixed-rdfstar)
-    - [stream-mixed-rdfstar-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-mixed-rdfstar-nonstandard)
-    - [stream-named-graphs-rdfstar-nonstandard (2.0.1)](https://w3id.org/riverbench/v/2.0.1/profiles/stream-named-graphs-rdfstar-nonstandard)
+    - [stream-datasets-rdfstar (2.1.0)](https://w3id.org/riverbench/v/2.1.0/profiles/stream-datasets-rdfstar)
+    - [stream-mixed-rdfstar (2.1.0)](https://w3id.org/riverbench/v/2.1.0/profiles/stream-mixed-rdfstar)
 - **<abbr title="Indicates which datasets are included in the profile">Includes dataset</abbr>**: 
-    - [assist-iot-weather-graphs (1.0.2)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2)
-    - [citypulse-traffic-graphs (1.0.2)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2)
-- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.0.1)](https://w3id.org/riverbench/v/2.0.1)
+    - [assist-iot-weather-graphs (1.0.3)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3)
+    - [citypulse-traffic-graphs (1.0.3)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3)
+- **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (2.1.0)](https://w3id.org/riverbench/v/2.1.0)
 
 ## Technical metadata
 
@@ -59,27 +60,28 @@ Streaming named graphs (with RDF-star)
 
 ## Download links
 
-Below you will find links to download the profile's datasets in different lengths.
+Below you will find links to download this profile's datasets in different lengths. The length of the dataset
+is measured in stream elements (individual graphs or datasets) and is indicated in the table.
+To see the size in statements (triples or quads), hover your mouse over the download link.
 
 !!! warning
 
-    Some datasets are shorter than others and a given distribution may not be available for all datasets.
-    In that case, a link to the longest available distribution of the dataset is provided.
+    Some datasets are shorter than others and a given fixed-size distribution may not be available for all datasets.
 
 !!! note
 
-    For stream profiles, there are two available types of distributions: plain streaming, and streaming in the Jelly format. See the [documentation](../documentation/dataset-release-format.md) for details.
+    There are two available types of distributions for this profile: plain streaming packages, and the universal distribution in the Jelly format. See the [documentation](../documentation/dataset-release-format.md) for details.
 
-### Plain streaming distributions
-
-Dataset | 10K | 100K | 1M | Full
---- | --- | --- | --- | ---
-[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2) | [10K (1.34 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/stream_10K.tar.gz) | [100K (13.36 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/stream_100K.tar.gz) | [Full (93.76 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/stream_full.tar.gz) | [Full (93.76 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/stream_full.tar.gz)
-[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2) | [10K (2.04 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_10K.tar.gz) | [100K (20.61 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_100K.tar.gz) | [1M (204.36 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_1M.tar.gz) | [Full (898.99 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/stream_full.tar.gz)
-
-### Jelly streaming distributions
+### Plain streaming distributions (Turtle)
 
 Dataset | 10K | 100K | 1M | Full
 --- | --- | --- | --- | ---
-[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2) | [10K (703.29 KB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/jelly_10K.jelly.gz) | [100K (6.79 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/jelly_100K.jelly.gz) | [Full (47.71 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/jelly_full.jelly.gz) | [Full (47.71 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.2/files/jelly_full.jelly.gz)
-[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2) | [10K (3.27 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_10K.jelly.gz) | [100K (32.91 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_100K.jelly.gz) | [1M (330.27 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_1M.jelly.gz) | [Full (1.42 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.2/files/jelly_full.jelly.gz)
+[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3) | <abbr title="10,000 stream elements; 1,160,000 statements">[10K (1.3 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3/files/stream_10K.tar.gz)</abbr> | <abbr title="100,000 stream elements; 11,600,000 statements">[100K (13.4 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3/files/stream_100K.tar.gz)</abbr> | – | <abbr title="701,278 stream elements; 81,348,248 statements">[Full (93.8 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3/files/stream_full.tar.gz)</abbr>
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3) | <abbr title="10,000 stream elements; 370,000 statements">[10K (2.0 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3/files/stream_10K.tar.gz)</abbr> | <abbr title="100,000 stream elements; 3,700,000 statements">[100K (20.6 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3/files/stream_100K.tar.gz)</abbr> | <abbr title="1,000,000 stream elements; 37,000,000 statements">[1M (204.4 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3/files/stream_1M.tar.gz)</abbr> | <abbr title="4,382,599 stream elements; 162,156,163 statements">[Full (899.0 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3/files/stream_full.tar.gz)</abbr>
+
+### Jelly distributions
+
+Dataset | 10K | 100K | 1M | Full
+--- | --- | --- | --- | ---
+[assist-iot-weather-graphs](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3) | <abbr title="10,000 stream elements; 1,160,000 statements">[10K (703.3 KB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3/files/jelly_10K.jelly.gz)</abbr> | <abbr title="100,000 stream elements; 11,600,000 statements">[100K (6.8 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3/files/jelly_100K.jelly.gz)</abbr> | – | <abbr title="701,278 stream elements; 81,348,248 statements">[Full (47.7 MB)](https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/1.0.3/files/jelly_full.jelly.gz)</abbr>
+[citypulse-traffic-graphs](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3) | <abbr title="10,000 stream elements; 370,000 statements">[10K (3.3 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3/files/jelly_10K.jelly.gz)</abbr> | <abbr title="100,000 stream elements; 3,700,000 statements">[100K (32.9 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3/files/jelly_100K.jelly.gz)</abbr> | <abbr title="1,000,000 stream elements; 37,000,000 statements">[1M (330.3 MB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3/files/jelly_1M.jelly.gz)</abbr> | <abbr title="4,382,599 stream elements; 162,156,163 statements">[Full (1.4 GB)](https://w3id.org/riverbench/datasets/citypulse-traffic-graphs/1.0.3/files/jelly_full.jelly.gz)</abbr>
