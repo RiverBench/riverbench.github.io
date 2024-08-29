@@ -146,6 +146,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://w3id.org/riverbench/latest/documentation/dataset-compat-notes/</loc>
+         <lastmod>2024-08-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://w3id.org/riverbench/latest/documentation/dataset-release-format/</loc>
          <lastmod>2024-08-29</lastmod>
          <changefreq>daily</changefreq>

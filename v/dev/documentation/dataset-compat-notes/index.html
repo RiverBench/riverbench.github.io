@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://w3id.org/riverbench/latest/documentation/using/">
+        <link rel="canonical" href="https://w3id.org/riverbench/latest/documentation/dataset-compat-notes/">
       
       
-        <link rel="prev" href="../reporting-results/">
+        <link rel="prev" href="../creating-new-dataset/">
       
       
-        <link rel="next" href="../versioning/">
+        <link rel="next" href="../dataset-release-format/">
       
       
       <link rel="icon" href="../../assets/riverbench_vector_icon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Using RiverBench – quick start guide - RiverBench</title>
+        <title>Dataset compatibility notes - RiverBench</title>
       
     
     
@@ -64,7 +64,7 @@
         
     
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="RiverBench – Using RiverBench – quick start guide" />
+    <meta property="og:title" content="RiverBench – Dataset compatibility notes" />
     <meta property="og:description" content="RiverBench is an open, community-driven RDF streaming benchmark suite." />
     <meta property="og:image" content="https://riverbench.github.io/assets/riverbench_social.png" />
     <meta property="og:image:type" content="image/png" />
@@ -92,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#using-riverbench-quick-start-guide" class="md-skip">
+        <a href="#dataset-compatibility-notes" class="md-skip">
           Skip to content
         </a>
       
@@ -143,7 +143,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Using RiverBench – quick start guide
+              Dataset compatibility notes
             
           </span>
         </div>
@@ -425,10 +425,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../dataset-compat-notes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Dataset compatibility notes
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -437,6 +457,77 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ascii-control-characters-and-rdfxml" class="md-nav__link">
+    <span class="md-ellipsis">
+      ASCII control characters and RDF/XML
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ASCII control characters and RDF/XML">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rdfxml-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      RDF/XML 1.2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rdf-star" class="md-nav__link">
+    <span class="md-ellipsis">
+      RDF-star
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-non-standard-rdf-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other non-standard RDF features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      See also
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -593,30 +684,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Using RiverBench – quick start guide
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../using/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -625,95 +696,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#to-perform-a-benchmark" class="md-nav__link">
-    <span class="md-ellipsis">
-      To perform a benchmark...
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reporting-your-benchmark-best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      Reporting your benchmark – best practices
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Reporting your benchmark – best practices">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#reporting-riverbench-usage-in-your-paperreport" class="md-nav__link">
-    <span class="md-ellipsis">
-      Reporting RiverBench usage in your paper/report
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sharing-your-benchmark-run-on-the-riverbench-website" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sharing your benchmark run on the RiverBench website
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#model-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Model example
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#i-cant-find-the-taskdataset-i-need" class="md-nav__link">
-    <span class="md-ellipsis">
-      I can't find the task/dataset I need...
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#see-also" class="md-nav__link">
-    <span class="md-ellipsis">
-      See also
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2860,46 +2842,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#to-perform-a-benchmark" class="md-nav__link">
+  <a href="#ascii-control-characters-and-rdfxml" class="md-nav__link">
     <span class="md-ellipsis">
-      To perform a benchmark...
+      ASCII control characters and RDF/XML
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reporting-your-benchmark-best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      Reporting your benchmark – best practices
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Reporting your benchmark – best practices">
+    <nav class="md-nav" aria-label="ASCII control characters and RDF/XML">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#reporting-riverbench-usage-in-your-paperreport" class="md-nav__link">
+  <a href="#rdfxml-12" class="md-nav__link">
     <span class="md-ellipsis">
-      Reporting RiverBench usage in your paper/report
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sharing-your-benchmark-run-on-the-riverbench-website" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sharing your benchmark run on the RiverBench website
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#model-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Model example
+      RDF/XML 1.2
     </span>
   </a>
   
@@ -2911,9 +2866,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#i-cant-find-the-taskdataset-i-need" class="md-nav__link">
+  <a href="#rdf-star" class="md-nav__link">
     <span class="md-ellipsis">
-      I can't find the task/dataset I need...
+      RDF-star
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-non-standard-rdf-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other non-standard RDF features
     </span>
   </a>
   
@@ -2947,92 +2911,44 @@
 
 
 <div class="rb-top-buttons">
-<p><div markdown><a href="https://w3id.org/riverbench/v/dev/documentation/using" title="Link to the permanent URL of this resource."><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41c.41.39.41 1.03 0 1.42-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0 5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.982 2.982 0 0 0 0-4.24 2.982 2.982 0 0 0-4.24 0l-3.53 3.53a2.982 2.982 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0 5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.982 2.982 0 0 0 0 4.24 2.982 2.982 0 0 0 4.24 0l3.53-3.53a2.982 2.982 0 0 0 0-4.24.973.973 0 0 1 0-1.42Z"/></svg></span> Permanent URL</a></p>
+<p><div markdown><a href="https://w3id.org/riverbench/v/dev/documentation/dataset-compat-notes" title="Link to the permanent URL of this resource."><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41c.41.39.41 1.03 0 1.42-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0 5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.982 2.982 0 0 0 0-4.24 2.982 2.982 0 0 0-4.24 0l-3.53 3.53a2.982 2.982 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0 5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.982 2.982 0 0 0 0 4.24 2.982 2.982 0 0 0 4.24 0l3.53-3.53a2.982 2.982 0 0 0 0-4.24.973.973 0 0 1 0-1.42Z"/></svg></span> Permanent URL</a></p>
 </div>
 <div>
-<p><strong><a href="https://github.com/RiverBench/riverbench.github.io/edit/main/docs/documentation/using.md" title="Edit this page's source in Markdown on GitHub."><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-1.9l10-10V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.1 9.5c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-2 1.8L12 20.9V23h2.1l6.1-6.1-2.1-2.1Z"/></svg></span> Edit this page</a></strong></p>
+<p><strong><a href="https://github.com/RiverBench/riverbench.github.io/edit/main/docs/documentation/dataset-compat-notes.md" title="Edit this page's source in Markdown on GitHub."><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-1.9l10-10V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.1 9.5c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-2 1.8L12 20.9V23h2.1l6.1-6.1-2.1-2.1Z"/></svg></span> Edit this page</a></strong></p>
 </div>
 <div>
 <p><a href="../editing-docs/" title="Need help with editing?"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10Z"/></svg></span></a></p>
 </div>
 </div>
-<h1 id="using-riverbench-quick-start-guide">Using RiverBench – quick start guide</h1>
-<p>RiverBench collects three types of resources:</p>
+<h1 id="dataset-compatibility-notes">Dataset compatibility notes</h1>
+<!-- Note: this specific title (Dataset compatibility notes) is used in the RiverBench metadata ontology to point users here. If you rename this page, update the ontology. -->
+
+<p>RiverBench uses the <a href="https://www.w3.org/TR/rdf11-concepts/">RDF 1.1 specification</a> as its compatibility basis. However, life is never that simple. This page explains the various quirks in RDF 1.1 support across different systems, as well as its extensions and non-standard features.</p>
+<h2 id="ascii-control-characters-and-rdfxml">ASCII control characters and RDF/XML</h2>
+<p>RDF 1.1 allows any valid Unicode string to be used as the lexical value of an RDF literal (<a href="https://www.w3.org/TR/rdf11-concepts/#section-Graph-Literal">see the spec</a>). This notably includes all ASCII characters from <code>0x00</code> to <code>0x1F</code>, which are commonly referred to as ASCII control characters.</p>
+<p>A few of these characters are troublesome some RDF systems. The most notable example of this is the <a href="https://www.w3.org/TR/rdf-syntax-grammar/">RDF/XML 1.1 serialization format</a> which uses <a href="https://www.w3.org/TR/xml/">XML 1.0</a> as its basis. XML 1.0 disallows using certain ASCII control characters in XML documents, and at the same time it also disallows using the <code>&amp;#xHH;</code> escape sequences for these characters. This means that XML 1.0 and, in turn, RDF/XML 1.1 cannot represent these characters <em>at all</em>.</p>
+<p>Namely, the following characters cannot be encoded in RDF/XML 1.1:</p>
 <ul>
-<li><strong>Benchmark tasks</strong> – descriptions of benchmark procedures and metrics.</li>
-<li><strong><a href="../../datasets/">Datasets</a></strong> – diverse, real-life datasets that can be used for a variety of tasks.</li>
-<li><strong>Profiles</strong> – collections of datasets that share common technical characteristics. For example: datasets that contain only RDF triples.</li>
+<li><code>0x00</code>-<code>0x08</code></li>
+<li><code>0x0B</code></li>
+<li><code>0x0C</code></li>
+<li><code>0x0E</code>-<code>0x1F</code></li>
 </ul>
-<h2 id="to-perform-a-benchmark">To perform a benchmark...</h2>
-<ol>
-<li><strong>Make sure you are using a stable release of RiverBench</strong> – do <em>not</em> use the "dev" version of RiverBench for benchmarking, as it can change at any moment. You can find the version you are viewing in the top navigation bar. By using a stable release, you ensure that your results are reproducible.<ul>
-<li>Go to the <a href="https://w3id.org/riverbench/v/stable/">latest stable release of RiverBench</a>.</li>
-<li>You can also find the list of all available releases <a href="../../releases/">here</a>.</li>
-</ul>
-</li>
-<li><strong>Find a benchmark task</strong> – see the <a href="../../categories/">list of benchmark categories</a> and browse the available tasks. The task's description will explain how to set up the benchmark and measure the results. You will also find there the list of previously reported results for this task.<ul>
-<li>If someone has already reported the results for this task, they may have published their benchmark code, which may be useful. Check the task's "Results" subpage for more information.</li>
-</ul>
-</li>
-<li><strong>Choose a profile</strong> – within the same category as the task you've picked, you can choose any profile that fits your needs. For example, if you've selected the <a href="../../tasks/flat-rdf-store-loading/"><code>flat-rdf-store-loading</code></a> task, you can use any profile with a name starting with <code>flat-</code>, such as <a href="../../profiles/flat-triples/"><code>flat-triples</code></a>.<ul>
-<li>The profiles vary in the type of data they contain (e.g., triples vs quads) and their usage of RDF features (e.g., if they use RDF-star or not).</li>
-</ul>
-</li>
-<li><strong>Download the datasets</strong> – each profile page has a convenient list of download links for all datasets in that profile.<ul>
-<li>You can also view each <a href="../../datasets/">dataset's documentation</a> to learn more about its origin, use cases, size, and other technical characteristics. You can also preview the dataset's contents.</li>
-<li>The dataset's documentation page also includes useful statistics (e.g., number of subjects/predicates/objects, unique IRIs, etc.) that may be useful for analyzing and discussing your results.</li>
-<li>Read more about the <a href="../dataset-release-format/">available dataset formats</a>.</li>
-</ul>
-</li>
-<li><strong>Run the benchmark</strong>.</li>
-<li><strong>Report your results</strong> – see the dedicated guide below.</li>
-</ol>
-<h2 id="reporting-your-benchmark-best-practices">Reporting your benchmark – best practices</h2>
-<p>Reproducibility is key in benchmarking. Here we've collected a few best practices for reporting your benchmark results, so that others can easily understand and reproduce your work.</p>
-<p>Most importantly, <strong>always refer to a stable release of RiverBench</strong> – if you link to the "dev" version of RiverBench, others will have no way of knowing which version of the task or dataset you really used.</p>
-<h3 id="reporting-riverbench-usage-in-your-paperreport">Reporting RiverBench usage in your paper/report</h3>
-<p>You should at least state the following information: the benchmark task identifier (with version) and the profile identifier (with version).</p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>For example, you can write: </p>
-<blockquote>
-<p>We used the <code>flat-rdf-store-loading</code> task from RiverBench, version 2.1.0, with the <code>flat-triples</code> profile, version 2.1.0.</p>
-</blockquote>
-<p>Feel free to modify the wording to your liking... the only important part are the identifiers and versions.</p>
-</div>
-<p>If you can use links in your text, we recommend you link to the task and profile pages on the RiverBench website. You should only use permanent URLs, which are guaranteed to never change. The permanent URL links can be found in the top-right corner of every page – <a href="../metadata/#accessing-metadata">read more about them</a>.</p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>The permanent URL for the <code>flat-rdf-store-loading</code> task, version 2.1.0 is: <code>https://w3id.org/riverbench/v/2.1.0/tasks/flat-rdf-store-loading</code>
-<br>For the <code>flat-triples</code> profile, version 2.1.0, it is: <code>https://w3id.org/riverbench/v/2.1.0/profiles/flat-triples</code></p>
-<p>You can link to them in LaTeX like this:</p>
-<div class="language-latex rb-wrap-code highlight"><span class="filename">LaTeX</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>We used the <span class="k">\href</span><span class="nb">{</span>https://w3id.org/riverbench/v/2.1.0/tasks/flat-rdf-store-loading<span class="nb">}{</span>flat-rdf-store-loading<span class="nb">}</span> task from RiverBench, version 2.1.0, with the <span class="k">\href</span><span class="nb">{</span>https://w3id.org/riverbench/v/2.1.0/profiles/flat-triples<span class="nb">}{</span>flat-triples<span class="nb">}</span> profile, version 2.1.0.
-</span></code></pre></div>
-<p>Which will look like this:</p>
-<blockquote>
-<p>We used the <a href="https://w3id.org/riverbench/v/2.1.0/tasks/flat-rdf-store-loading">flat-rdf-store-loading</a> task from RiverBench, version 2.1.0, with the <a href="https://w3id.org/riverbench/v/2.1.0/profiles/flat-triples">flat-triples</a> profile, version 2.1.0.</p>
-</blockquote>
-</div>
-<p>You can also optionally link to the individual datasets that you used.</p>
-<p>If you use RiverBench in your research, <strong>we kindly ask you to <a href="../licensing/#attribution-citation">cite it using the canonical citation</a></strong>.</p>
-<h3 id="sharing-your-benchmark-run-on-the-riverbench-website">Sharing your benchmark run on the RiverBench website</h3>
-<p>We highly encourage you to share your benchmark results with the community in a structured manner. This way, your benchmark run <a href="../../results/">will be listed on the RiverBench website</a> (along with appropriate citation), and others will be able to easily find your paper/report, benchmark code, and results.</p>
-<div style="text-align: center">
-<p><a class="md-button" href="../reporting-results/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m5.8 21 1.6-7L2 9.2l7.2-.6L12 2l2.8 6.6 7.2.6-3.2 2.8H18c-3.1 0-5.6 2.3-6 5.3L5.8 21M17 14v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg></span> Report your benchmark results</a></p>
-</div>
-<h3 id="model-example">Model example</h3>
-<p>You can use this paper as a model example of how to report your benchmark results: <a href="https://doi.org/10.48550/arXiv.2406.16412">https://doi.org/10.48550/arXiv.2406.16412</a>. Of course, you don't have to go into as much detail as this paper did – just stating the profile and task really is enough.</p>
-<p>This paper also reported its results in a structured manner, using the mechanism described <strong><a href="../reporting-results/">here</a></strong>. You can find the original nanopublication with the results <a href="https://w3id.org/np/RAyFZlqsYQ_w-j5cah_gI8WBIZxiVSM4ocWHD_tnyjLxs">here</a>, and the results being rendered on the RiverBench website <a href="../../tasks/flat-rdf-store-loading/results/">here</a>.</p>
-<h2 id="i-cant-find-the-taskdataset-i-need">I can't find the task/dataset I need...</h2>
-<p>You are welcome to contribute new tasks or datasets to RiverBench! You can find more information on how to do that in the <strong><a href="../contribute/">contributing guide</a></strong>.</p>
-<p>You can also <a href="../editing-docs/">propose changes</a> to any of the existing tasks, documentation pages, and metadata files.</p>
+<p>It should be stressed here that literals using these characters are completely valid according to RDF 1.1, and there are real-life use cases where these characters may occur. For example, in datasets with web-scraped data, such as <a href="../../datasets/politiquices/"><code>politiquices</code></a>, <a href="../../datasets/nanopubs/"><code>nanopubs</code></a>, or <a href="../../datasets/openaire-lod/"><code>openaire-lod</code></a>, such "ugly" strings are common.</p>
+<p>As the issue concerns only one serialization format (and a "legacy" one at that), RiverBench took the decision to keep these characters as-is in its datasets, to accurately represent the original data. This means that some datasets may not be fully representable in RDF/XML 1.1. Instead, RiverBench computes the number of such characters in the dataset and publishes this information in dataset metadata and documentation.</p>
+<p>In the <a href="../metadata/">metadata</a>, the <code class="language-turtle highlight"><span class="nn">rb</span><span class="p">:</span><span class="nt">AsciiControlCharacterCountStatistics</span></code> class is used to represent the number of ASCII control characters in the dataset. This count includes only the characters problematic for RDF/XML 1.1, as indicated above. These statistics are also displayed on the dataset pages (example from <a href="../../datasets/politiquices/"><code>politiquices</code></a>):</p>
+<p><img alt="ASCII control character statistics" src="../../assets/ascii_control_char_stats.png" /></p>
+<h3 id="rdfxml-12">RDF/XML 1.2</h3>
+<p>Although RiverBench does not support RDF 1.2 (as it is not finalized yet), it is worth mentioning that <a href="https://www.w3.org/TR/rdf12-xml/">RDF/XML 1.2</a> will upgrade to <a href="https://www.w3.org/TR/xml11">XML 1.1</a>, which added support for escaping the aforementioned characters, except for <code>0x00</code>. This means that RDF/XML 1.2 will still technically not be able to represent all RDF literals, but at least the range of incompatible characters will be much smaller.</p>
+<h2 id="rdf-star">RDF-star</h2>
+<p>RiverBench also includes datasets that use <a href="https://www.w3.org/2021/12/rdf-star.html">RDF-star</a>, an unofficial extension of RDF 1.1. To determine conformance, RiverBench uses the <a href="https://www.w3.org/2021/12/rdf-star.html">RDF-star Final Community Group Report 17 December 2021</a> as the reference document. Datasets using RDF-star are marked as such in the metadata and documentation, and are present only in <code>*-rdfstar</code> benchmark profiles.</p>
+<p>It is expected that the functionalities of RDF-star will be integrated into RDF 1.2, and that the current RDF-star-enabled datasets of RiverBench will be fully compatible with the new standard. This, however, depends on the final form of RDF 1.2.</p>
+<h2 id="other-non-standard-rdf-features">Other non-standard RDF features</h2>
+<p>RiverBench welcomes datasets that extend RDF 1.1 in other ways, such as using generalized triples, or introducing something entirely new. In that case, such a dataset will be appropriately marked and placed in a separate <code>nonstandard</code> benchmark profile. When <a href="../creating-new-dataset/">submitting your dataset</a>, you will have the option to point out any non-standard features of your dataset.</p>
 <h2 id="see-also">See also</h2>
 <ul>
-<li><a href="../reporting-results/">Reporting benchmark results</a></li>
-<li><a href="../licensing/">Licensing and citation</a></li>
 <li><a href="../dataset-release-format/">Dataset release format</a></li>
-<li><a href="../metadata/">Metadata of datasets, profiles, and more</a></li>
-<li><a href="../contribute/">Contributing to RiverBench</a></li>
+<li><a href="../using/">Using RiverBench in practice</a></li>
 </ul>
 
 
