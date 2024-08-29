@@ -8,7 +8,7 @@ See also: [versioning and releases documentation](documentation/versioning.md).
 
 ## [RiverBench 2.1.0](https://w3id.org/riverbench/v/2.1.0)
 
-**Release date: 2024-08-28**
+**Release date: 2024-08-29**
 
 Minor release focusing on improving the user experience and quality of the documentation. Most notably, it added a system for reporting benchmark results. One new dataset was added.
 
@@ -20,13 +20,13 @@ Minor release focusing on improving the user experience and quality of the docum
     - Made the permanent URLs of pages easier to find and access. ([#52](https://github.com/RiverBench/RiverBench/issues/52))
     - Added the release notes page. ([#88](https://github.com/RiverBench/RiverBench/issues/88))
     - Improved the accessibility of dataset download links. ([#86](https://github.com/RiverBench/RiverBench/issues/86))
+    - Added statistics on the number of ASCII control characters in datasets. ([#115](https://github.com/RiverBench/RiverBench/issues/115))
     - Improved the clarity of many labels and descriptions.
     - Removed `*-nonstandard` profiles, as there were no matching datasets and the profiles were never used. ([#99](https://github.com/RiverBench/RiverBench/issues/99))
 - Datasets:
     - Added a new dataset: `openaire-lod`. ([#95](https://github.com/RiverBench/RiverBench/issues/95))
-    - Updated `politiquices` to 1.1.0: resolved an issue with ASCII control characters. ([dataset-politiquices#1](https://github.com/RiverBench/dataset-politiquices/issues/1))
     - Created a new PATCH release for the remaining datasets due to metadata updates.
-- Resolved 27 issues – see the [full list](https://github.com/RiverBench/RiverBench/milestone/4?closed=1).
+- Resolved 28 issues – see the [full list](https://github.com/RiverBench/RiverBench/milestone/4?closed=1).
 
 ## [RiverBench 2.0.1](https://w3id.org/riverbench/v/2.0.1)
 
