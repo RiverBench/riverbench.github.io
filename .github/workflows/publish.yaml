@@ -47,6 +47,7 @@ jobs:
             stable/docs/profiles stable/docs/schema stable/docs/index.md \
             main/docs || true
           cp stable/docs/datasets/table.md main/docs/datasets/table.md || true
+          cp stable/docs/results/table.md main/docs/results/table.md || true
 
       # *** the part about adding redirects ***
       - name: "Checkout the repository (gh-pages)"
