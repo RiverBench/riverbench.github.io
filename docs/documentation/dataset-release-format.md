@@ -97,6 +97,7 @@ Reading Jelly files is currently supported in Apache Jena and RDF4J, using the [
 
 ## See also
 
+- [Dataset compatibility notes](dataset-compat-notes.md)
 - [Metadata](metadata.md)
 - [Dataset source format](dataset-source-format.md)
 - [Reporting benchmark results](reporting-results.md)

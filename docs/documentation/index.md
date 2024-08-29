@@ -7,6 +7,7 @@ This documentation explains how to use and contribute to RiverBench.
 - **For users**
     - **[Using RiverBench – quick start guide](using.md)**
     - [Dataset release format](dataset-release-format.md)
+    - [Dataset compatibility notes](dataset-compat-notes.md)
     - [Metadata of datasets, profiles, and more](metadata.md)
     - [Versioning and releases](versioning.md)
     - [Licensing and citation](licensing.md)
