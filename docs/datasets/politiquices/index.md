@@ -3,8 +3,6 @@
 # Dataset: politiquices (development version)
 
 Support and opposition relations extracted from news articles archived in Arquivo.pt. The dataset describes news articles in Portuguese and the presented political stances. [Dataset source](https://data.europa.eu/data/datasets/6130e331078190fd0c6c3819?locale=en), [more information about the project (Portuguese)](https://www.politiquices.pt/about).
-    
-**Changed in 1.1.0**: Previous versions of the dataset contained literals with ASCII control codes (0x07, BEL). Although these are allowed in RDF, they are non-serializable in RDF/XML 1.1. To maintain better compatibility, all 21 instances of this character were replaced with whitespace (0x20, SP). The modified dataset has the exact same byte length in N-Triples/Turtle when uncompressed and the modification should not affect any benchmarks in a significant way. More details in [this GitHub issue](https://github.com/RiverBench/dataset-politiquices/issues/1).
 
 !!! info
 
@@ -77,7 +75,7 @@ Support and opposition relations extracted from news articles archived in Arquiv
     - [http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819](http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819)
     - [https://www.politiquices.pt/about](https://www.politiquices.pt/about)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-29
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-30
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
