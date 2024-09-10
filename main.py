@@ -1,12 +1,15 @@
 # See: https://mkdocs-macros-plugin.readthedocs.io/en/latest
 
-import os
+import os, logging
+
+
+log = logging.getLogger('mkdocs')
 
 
 def define_env(env):
     tag = os.environ.get('RELEASE_TAG', '')
     if not tag:
-        print('Warning: RELEASE_TAG environment variable not set. Defaulting to "dev".')
+        log.warning('RELEASE_TAG environment variable not set. Defaulting to "dev".')
         tag = 'dev'
 
 
