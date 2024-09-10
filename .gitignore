@@ -1,5 +1,6 @@
 /__pycache__
 /venv
 /site
+*.pyc
 # Intermediate file produced by CI
 /mkdocs_2.yml

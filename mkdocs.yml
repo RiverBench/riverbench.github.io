@@ -10,6 +10,9 @@ plugins:
       deploy_prefix: v
       canonical_version: latest
 
+hooks:
+  - hooks/fix_title.py
+
 markdown_extensions:
   - attr_list
   - md_in_html
