@@ -2844,6 +2844,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#datatype-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Datatype count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#datatype-literal-count-statistics" class="md-nav__link">
     <span class="md-ellipsis">
       Datatype literal count statistics
@@ -3752,6 +3761,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#datatype-count-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Datatype count statistics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#datatype-literal-count-statistics" class="md-nav__link">
     <span class="md-ellipsis">
       Datatype literal count statistics
@@ -4573,6 +4591,7 @@
 <li><a href="#CategoryMember">Member of a benchmark category</a></li>
 <li><a href="#CustomShaclTarget">Custom SHACL target</a></li>
 <li><a href="#Dataset">RiverBench dataset</a></li>
+<li><a href="#DatatypeCountStatistics">Datatype count statistics</a></li>
 <li><a href="#DatatypeLiteralCountStatistics">Datatype literal count statistics</a></li>
 <li><a href="#Distribution">RiverBench dataset distribution</a></li>
 <li><a href="#DistributionType">RiverBench distribution type</a></li>
@@ -4667,7 +4686,7 @@
 </tr>
 <tr>
 <td>Restrictions</td>
-<td><a href="#usesProfile">Uses benchmark profile</a> (op) <strong>some</strong> <a href="#Profile">Benchmark profile</a> (c)<br /><a href="#usesMetric">Uses metric</a> (dp) <strong>some</strong> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a> (c)<br /><a href="#usesSystemUnderTest">Uses system under test</a> (op) <strong>some</strong> <a href="#SystemUnderTest">System under test</a> (c)<br /><a href="#usesTask">Uses benchmark task</a> (op) <strong>some</strong> <a href="#Task">Benchmark task</a> (c)<br /></td>
+<td><a href="#usesMetric">Uses metric</a> (dp) <strong>some</strong> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a> (c)<br /><a href="#usesSystemUnderTest">Uses system under test</a> (op) <strong>some</strong> <a href="#SystemUnderTest">System under test</a> (c)<br /><a href="#usesProfile">Uses benchmark profile</a> (op) <strong>some</strong> <a href="#Profile">Benchmark profile</a> (c)<br /><a href="#usesTask">Uses benchmark task</a> (op) <strong>some</strong> <a href="#Task">Benchmark task</a> (c)<br /></td>
 </tr>
 </tbody>
 </table>
@@ -4717,11 +4736,11 @@
 </tr>
 <tr>
 <td>In domain of</td>
-<td><a href="#hasCategoryMember">Has category member</a> (op)<br /><a href="#hasTask">Has benchmark task</a> (op)<br /><a href="#hasProfile">Has benchmark profile</a> (op)<br /></td>
+<td><a href="#hasProfile">Has benchmark profile</a> (op)<br /><a href="#hasCategoryMember">Has category member</a> (op)<br /><a href="#hasTask">Has benchmark task</a> (op)<br /></td>
 </tr>
 <tr>
 <td>In range of</td>
-<td><a href="#hasCategory">Has benchmark category</a> (op)<br /><a href="#inCategory">In benchmark category</a> (fp)<br /></td>
+<td><a href="#inCategory">In benchmark category</a> (fp)<br /><a href="#hasCategory">Has benchmark category</a> (op)<br /></td>
 </tr>
 </tbody>
 </table>
@@ -4818,6 +4837,29 @@
 </tr>
 </tbody>
 </table>
+<h3 id="datatype-count-statistics">Datatype count statistics <a name="DatatypeCountStatistics"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>URI</td>
+<td><code>https://w3id.org/riverbench/schema/metadata#DatatypeCountStatistics</code></td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Statistics about the count of datatypes (NOT datatype literals) in the dataset. This statistic does not include rdf:langString and xsd:string.</td>
+</tr>
+<tr>
+<td>Super-classes</td>
+<td><a href="#Statistics">Statistics</a> (c)<br /></td>
+</tr>
+</tbody>
+</table>
 <h3 id="datatype-literal-count-statistics">Datatype literal count statistics <a name="DatatypeLiteralCountStatistics"></a></h3>
 <table>
 <thead>
@@ -4868,7 +4910,7 @@
 </tr>
 <tr>
 <td>In domain of</td>
-<td><a href="#hasFileName">Has file name</a> (dp)<br /><a href="#hasDistributionType">Has distribution type</a> (op)<br /><a href="#hasStatisticsSet">Has statistics set</a> (op)<br /></td>
+<td><a href="#hasStatisticsSet">Has statistics set</a> (op)<br /><a href="#hasDistributionType">Has distribution type</a> (op)<br /><a href="#hasFileName">Has file name</a> (dp)<br /></td>
 </tr>
 </tbody>
 </table>
@@ -4895,7 +4937,7 @@
 </tr>
 <tr>
 <td>Has members</td>
-<td><a href="#flatDistribution">Flat distribution</a><br /><a href="#jellyDistribution">Jelly distribution</a><br /><a href="#fullDistribution">Full distribution</a><br /><a href="#streamDistribution">Stream distribution</a><br /><a href="#partialDistribution">Partial distribution</a><br /></td>
+<td><a href="#partialDistribution">Partial distribution</a><br /><a href="#fullDistribution">Full distribution</a><br /><a href="#jellyDistribution">Jelly distribution</a><br /><a href="#streamDistribution">Stream distribution</a><br /><a href="#flatDistribution">Flat distribution</a><br /></td>
 </tr>
 </tbody>
 </table>
@@ -5083,15 +5125,15 @@
 </tr>
 <tr>
 <td>Super-classes</td>
-<td><a href="#DatasetSeries">Dataset series</a> (c)<br /><a href="#CategoryMember">Member of a benchmark category</a> (c)<br /></td>
+<td><a href="#CategoryMember">Member of a benchmark category</a> (c)<br /><a href="#DatasetSeries">Dataset series</a> (c)<br /></td>
 </tr>
 <tr>
 <td>In domain of</td>
-<td><a href="#hasDistributionShape">Has distribution shape</a> (op)<br /><a href="#isSupersetOfProfile">Is superset of profile</a> (op)<br /><a href="#hasDatasetShape">Has dataset shape</a> (op)<br /><a href="#isSubsetOfProfile">Is subset of profile</a> (op)<br /></td>
+<td><a href="#isSubsetOfProfile">Is subset of profile</a> (op)<br /><a href="#hasDatasetShape">Has dataset shape</a> (op)<br /><a href="#isSupersetOfProfile">Is superset of profile</a> (op)<br /><a href="#hasDistributionShape">Has distribution shape</a> (op)<br /></td>
 </tr>
 <tr>
 <td>In range of</td>
-<td><a href="#hasProfile">Has benchmark profile</a> (op)<br /><a href="#isSubsetOfProfile">Is subset of profile</a> (op)<br /><a href="#usesProfile">Uses benchmark profile</a> (op)<br /><a href="#isSupersetOfProfile">Is superset of profile</a> (op)<br /></td>
+<td><a href="#usesProfile">Uses benchmark profile</a> (op)<br /><a href="#isSupersetOfProfile">Is superset of profile</a> (op)<br /><a href="#hasProfile">Has benchmark profile</a> (op)<br /><a href="#isSubsetOfProfile">Is subset of profile</a> (op)<br /></td>
 </tr>
 </tbody>
 </table>
@@ -5233,7 +5275,7 @@
 </tr>
 <tr>
 <td>Sub-classes</td>
-<td><a href="#SimpleLiteralCountStatistics">Simple literal count statistics</a> (c)<br /><a href="#ObjectCountStatistics">Object count statistics</a> (c)<br /><a href="#DatatypeLiteralCountStatistics">Datatype literal count statistics</a> (c)<br /><a href="#PredicateCountStatistics">Predicate count statistics</a> (c)<br /><a href="#LanguageLiteralCountStatistics">Language string count statistics</a> (c)<br /><a href="#IriCountStatistics">IRI count statistics</a> (c)<br /><a href="#StatementCountStatistics">Statement count statistics</a> (c)<br /><a href="#LiteralCountStatistics">Literal count statistics</a> (c)<br /><a href="#BlankNodeCountStatistics">Blank node count statistics</a> (c)<br /><a href="#QuotedTripleCountStatistics">Quoted triple count statistics</a> (c)<br /><a href="#SubjectCountStatistics">Subject count statistics</a> (c)<br /><a href="#GraphCountStatistics">Graph count statistics</a> (c)<br /><a href="#AsciiControlCharacterCountStatistics">ASCII control character count statistics</a> (c)<br /></td>
+<td><a href="#LanguageLiteralCountStatistics">Language string count statistics</a> (c)<br /><a href="#SimpleLiteralCountStatistics">Simple literal count statistics</a> (c)<br /><a href="#SubjectCountStatistics">Subject count statistics</a> (c)<br /><a href="#AsciiControlCharacterCountStatistics">ASCII control character count statistics</a> (c)<br /><a href="#ObjectCountStatistics">Object count statistics</a> (c)<br /><a href="#DatatypeCountStatistics">Datatype count statistics</a> (c)<br /><a href="#LiteralCountStatistics">Literal count statistics</a> (c)<br /><a href="#StatementCountStatistics">Statement count statistics</a> (c)<br /><a href="#QuotedTripleCountStatistics">Quoted triple count statistics</a> (c)<br /><a href="#GraphCountStatistics">Graph count statistics</a> (c)<br /><a href="#DatatypeLiteralCountStatistics">Datatype literal count statistics</a> (c)<br /><a href="#PredicateCountStatistics">Predicate count statistics</a> (c)<br /><a href="#IriCountStatistics">IRI count statistics</a> (c)<br /><a href="#BlankNodeCountStatistics">Blank node count statistics</a> (c)<br /></td>
 </tr>
 <tr>
 <td>In domain of</td>
@@ -5291,7 +5333,7 @@
 </tr>
 <tr>
 <td>Sub-classes</td>
-<td><a href="#TimeStreamElementSplit">Stream elements split by time</a> (c)<br /><a href="#StatementCountStreamElementSplit">Stream elements split by statement count</a> (c)<br /><a href="#TopicStreamElementSplit">Stream elements split by topic</a> (c)<br /></td>
+<td><a href="#TopicStreamElementSplit">Stream elements split by topic</a> (c)<br /><a href="#StatementCountStreamElementSplit">Stream elements split by statement count</a> (c)<br /><a href="#TimeStreamElementSplit">Stream elements split by time</a> (c)<br /></td>
 </tr>
 <tr>
 <td>In range of</td>
