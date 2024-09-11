@@ -3386,7 +3386,7 @@
 <li><strong><abbr title="Information about rights held in and over the resource.">Rights</abbr></strong>: According to the European Commission reuse notice, reuse is authorised, provided the source is acknowledged. The reuse policy of the European Commission is implemented by the Decision of 12 December 2011. <em>(<abbr title="English">en</abbr>)</em></li>
 <li><strong><abbr title="A related resource from which the described resource is derived.">Source</abbr></strong>: <a href="http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators">http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators</a></li>
 <li><strong><abbr title="Date of formal issuance of the resource.">Date Issued</abbr></strong>: 2023-05-04</li>
-<li><strong><abbr title="Date on which the resource was changed.">Date Modified</abbr></strong>: 2024-08-29</li>
+<li><strong><abbr title="Date on which the resource was changed.">Date Modified</abbr></strong>: 2024-09-11</li>
 <li><strong><abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev">digital-agenda-indicators (dev)</a></li>
 <li><strong><abbr title="An established standard to which the described resource conforms.">Conforms To</abbr></strong>: Metadata (<a href="https://w3id.org/riverbench/schema/metadata">https://w3id.org/riverbench/schema/metadata</a>)</li>
 </ul>
@@ -3395,14 +3395,14 @@
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -3533,14 +3533,14 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -3657,14 +3657,14 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -3781,14 +3781,14 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -3905,14 +3905,14 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
 <li><strong>RDF stream type usage (1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
 </ul>
 </li>
 <li><strong>RDF stream type usage (2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
-<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
-<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs corresponding to statistical observations. Each graph is uniquely identified by its subject IRI. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF subject graph stream is an RDF graph stream in which every element contains an IRI node (called the subject node) that uniquely identifies the graph in the stream. Every other node in the graph can be reached by traversing triples, starting from the subject node.">RDF subject graph stream</abbr> (<a href="https://w3id.org/stax/ontology#subjectGraphStream">stax:subjectGraphStream</a>)</li>
 </ul>
 </li>
 </ul>
@@ -3992,7 +3992,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <th></th>
 <th style="text-align: right;"><strong><abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr></strong></th>
-<th style="text-align: right;"><strong><abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr></strong></th>
+<th style="text-align: right;"><strong><abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value may be estimated using a HyperLogLog sketch. In that case, rb:uniqueCountLowerBound and rb:uniqueCountLowerBound properties are also set on the subject.">Unique</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Arithmetic mean of a distribution">Mean</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Standard deviation of a distribution">St. dev.</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Minimum value of a distribution">Min.</abbr></strong></th>
@@ -4003,7 +4003,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr></strong></td>
 <td style="text-align: right;">23,320,388</td>
-<td style="text-align: right;">1,441,174</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 1,435,877, upper bound: 1,454,678 (95% confidence).">~ 1,445,216</abbr></td>
 <td style="text-align: right;">16.19</td>
 <td style="text-align: right;">0.61</td>
 <td style="text-align: right;">2</td>
@@ -4019,9 +4019,18 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr></strong></td>
+<td style="text-align: right;">11,668,881</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 10, upper bound: 10 (95% confidence).">~ 10</abbr></td>
+<td style="text-align: right;">8.10</td>
+<td style="text-align: right;">0.38</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
 <td style="text-align: right;">11,669,016</td>
-<td style="text-align: right;">754,909</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 749,908, upper bound: 759,727 (95% confidence).">~ 754,785</abbr></td>
 <td style="text-align: right;">8.10</td>
 <td style="text-align: right;">0.38</td>
 <td style="text-align: right;">1</td>
@@ -4030,7 +4039,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
 <td style="text-align: right;">1,440,415</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 1, upper bound: 1 (95% confidence).">~ 1</abbr></td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">1</td>
@@ -4048,7 +4057,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of literals in the dataset.">Literals</abbr></strong></td>
 <td style="text-align: right;">1,457,924</td>
-<td style="text-align: right;">754,328</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 748,743, upper bound: 758,547 (95% confidence).">~ 753,613</abbr></td>
 <td style="text-align: right;">1.01</td>
 <td style="text-align: right;">0.30</td>
 <td style="text-align: right;">0</td>
@@ -4057,7 +4066,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr></strong></td>
 <td style="text-align: right;">81,176</td>
-<td style="text-align: right;">1,023</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 1,023, upper bound: 1,023 (95% confidence).">~ 1,023</abbr></td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0.23</td>
 <td style="text-align: right;">0</td>
@@ -4066,7 +4075,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr></strong></td>
 <td style="text-align: right;">1,376,748</td>
-<td style="text-align: right;">753,301</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 747,963, upper bound: 757,757 (95% confidence).">~ 752,828</abbr></td>
 <td style="text-align: right;">0.96</td>
 <td style="text-align: right;">0.21</td>
 <td style="text-align: right;">0</td>
@@ -4075,11 +4084,20 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr></strong></td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 0, upper bound: 0 (95% confidence).">~ 0</abbr></td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the count of datatypes (NOT datatype literals) in the dataset. This statistic does not include rdf:langString and xsd:string.">Datatypes</abbr></strong></td>
+<td style="text-align: right;">1,376,667</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.96</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
@@ -4102,20 +4120,11 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr></strong></td>
 <td style="text-align: right;">1,440,415</td>
-<td style="text-align: right;">1,440,353</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 1,435,003, upper bound: 1,453,793 (95% confidence).">~ 1,444,337</abbr></td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr></strong></td>
-<td style="text-align: right;">11,668,881</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">8.10</td>
-<td style="text-align: right;">0.38</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">10</td>
 </tr>
 </tbody>
 </table>
@@ -4128,7 +4137,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <th></th>
 <th style="text-align: right;"><strong><abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr></strong></th>
-<th style="text-align: right;"><strong><abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr></strong></th>
+<th style="text-align: right;"><strong><abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value may be estimated using a HyperLogLog sketch. In that case, rb:uniqueCountLowerBound and rb:uniqueCountLowerBound properties are also set on the subject.">Unique</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Arithmetic mean of a distribution">Mean</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Standard deviation of a distribution">St. dev.</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Minimum value of a distribution">Min.</abbr></strong></th>
@@ -4139,7 +4148,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr></strong></td>
 <td style="text-align: right;">16,203,498</td>
-<td style="text-align: right;">1,000,569</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 992,349, upper bound: 1,005,343 (95% confidence).">~ 998,804</abbr></td>
 <td style="text-align: right;">16.20</td>
 <td style="text-align: right;">0.61</td>
 <td style="text-align: right;">2</td>
@@ -4155,9 +4164,18 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr></strong></td>
+<td style="text-align: right;">8,108,836</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 10, upper bound: 10 (95% confidence).">~ 10</abbr></td>
+<td style="text-align: right;">8.11</td>
+<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
 <td style="text-align: right;">8,108,967</td>
-<td style="text-align: right;">612,613</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 608,843, upper bound: 616,815 (95% confidence).">~ 612,803</abbr></td>
 <td style="text-align: right;">8.11</td>
 <td style="text-align: right;">0.39</td>
 <td style="text-align: right;">1</td>
@@ -4166,7 +4184,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
 <td style="text-align: right;">1,000,000</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 1, upper bound: 1 (95% confidence).">~ 1</abbr></td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">1</td>
@@ -4184,7 +4202,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of literals in the dataset.">Literals</abbr></strong></td>
 <td style="text-align: right;">1,014,305</td>
-<td style="text-align: right;">612,091</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 607,151, upper bound: 615,101 (95% confidence).">~ 611,100</abbr></td>
 <td style="text-align: right;">1.01</td>
 <td style="text-align: right;">0.31</td>
 <td style="text-align: right;">0</td>
@@ -4193,7 +4211,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr></strong></td>
 <td style="text-align: right;">62,275</td>
-<td style="text-align: right;">940</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 940, upper bound: 940 (95% confidence).">~ 940</abbr></td>
 <td style="text-align: right;">0.06</td>
 <td style="text-align: right;">0.24</td>
 <td style="text-align: right;">0</td>
@@ -4202,7 +4220,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr></strong></td>
 <td style="text-align: right;">952,030</td>
-<td style="text-align: right;">611,149</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 606,345, upper bound: 614,284 (95% confidence).">~ 610,289</abbr></td>
 <td style="text-align: right;">0.95</td>
 <td style="text-align: right;">0.21</td>
 <td style="text-align: right;">0</td>
@@ -4211,11 +4229,20 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr></strong></td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 0, upper bound: 0 (95% confidence).">~ 0</abbr></td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the count of datatypes (NOT datatype literals) in the dataset. This statistic does not include rdf:langString and xsd:string.">Datatypes</abbr></strong></td>
+<td style="text-align: right;">951,952</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
@@ -4238,20 +4265,11 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr></strong></td>
 <td style="text-align: right;">1,000,000</td>
-<td style="text-align: right;">999,954</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 991,856, upper bound: 1,004,843 (95% confidence).">~ 998,307</abbr></td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr></strong></td>
-<td style="text-align: right;">8,108,836</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">8.11</td>
-<td style="text-align: right;">0.39</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">10</td>
 </tr>
 </tbody>
 </table>
@@ -4264,7 +4282,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <th></th>
 <th style="text-align: right;"><strong><abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr></strong></th>
-<th style="text-align: right;"><strong><abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr></strong></th>
+<th style="text-align: right;"><strong><abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value may be estimated using a HyperLogLog sketch. In that case, rb:uniqueCountLowerBound and rb:uniqueCountLowerBound properties are also set on the subject.">Unique</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Arithmetic mean of a distribution">Mean</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Standard deviation of a distribution">St. dev.</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Minimum value of a distribution">Min.</abbr></strong></th>
@@ -4275,7 +4293,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr></strong></td>
 <td style="text-align: right;">1,618,602</td>
-<td style="text-align: right;">100,253</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 99,624, upper bound: 100,928 (95% confidence).">~ 100,272</abbr></td>
 <td style="text-align: right;">16.19</td>
 <td style="text-align: right;">0.48</td>
 <td style="text-align: right;">2</td>
@@ -4291,9 +4309,18 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr></strong></td>
+<td style="text-align: right;">811,624</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 10, upper bound: 10 (95% confidence).">~ 10</abbr></td>
+<td style="text-align: right;">8.12</td>
+<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
 <td style="text-align: right;">811,625</td>
-<td style="text-align: right;">81,573</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 81,341, upper bound: 82,406 (95% confidence).">~ 81,870</abbr></td>
 <td style="text-align: right;">8.12</td>
 <td style="text-align: right;">0.35</td>
 <td style="text-align: right;">1</td>
@@ -4302,7 +4329,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
 <td style="text-align: right;">100,000</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 1, upper bound: 1 (95% confidence).">~ 1</abbr></td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">1</td>
@@ -4320,7 +4347,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of literals in the dataset.">Literals</abbr></strong></td>
 <td style="text-align: right;">104,647</td>
-<td style="text-align: right;">81,324</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 80,790, upper bound: 81,847 (95% confidence).">~ 81,315</abbr></td>
 <td style="text-align: right;">1.05</td>
 <td style="text-align: right;">0.41</td>
 <td style="text-align: right;">0</td>
@@ -4329,7 +4356,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr></strong></td>
 <td style="text-align: right;">12,276</td>
-<td style="text-align: right;">376</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 376, upper bound: 376 (95% confidence).">~ 376</abbr></td>
 <td style="text-align: right;">0.12</td>
 <td style="text-align: right;">0.33</td>
 <td style="text-align: right;">0</td>
@@ -4338,7 +4365,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr></strong></td>
 <td style="text-align: right;">92,371</td>
-<td style="text-align: right;">80,949</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 80,436, upper bound: 81,489 (95% confidence).">~ 80,959</abbr></td>
 <td style="text-align: right;">0.92</td>
 <td style="text-align: right;">0.27</td>
 <td style="text-align: right;">0</td>
@@ -4347,11 +4374,20 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr></strong></td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 0, upper bound: 0 (95% confidence).">~ 0</abbr></td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the count of datatypes (NOT datatype literals) in the dataset. This statistic does not include rdf:langString and xsd:string.">Datatypes</abbr></strong></td>
+<td style="text-align: right;">92,370</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.92</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
@@ -4374,20 +4410,11 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr></strong></td>
 <td style="text-align: right;">100,000</td>
-<td style="text-align: right;">99,986</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 99,401, upper bound: 100,703 (95% confidence).">~ 100,048</abbr></td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr></strong></td>
-<td style="text-align: right;">811,624</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">8.12</td>
-<td style="text-align: right;">0.35</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">10</td>
 </tr>
 </tbody>
 </table>
@@ -4400,7 +4427,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <th></th>
 <th style="text-align: right;"><strong><abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr></strong></th>
-<th style="text-align: right;"><strong><abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr></strong></th>
+<th style="text-align: right;"><strong><abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value may be estimated using a HyperLogLog sketch. In that case, rb:uniqueCountLowerBound and rb:uniqueCountLowerBound properties are also set on the subject.">Unique</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Arithmetic mean of a distribution">Mean</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Standard deviation of a distribution">St. dev.</abbr></strong></th>
 <th style="text-align: right;"><strong><abbr title="Minimum value of a distribution">Min.</abbr></strong></th>
@@ -4411,7 +4438,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr></strong></td>
 <td style="text-align: right;">162,375</td>
-<td style="text-align: right;">10,172</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 10,131, upper bound: 10,264 (95% confidence).">~ 10,197</abbr></td>
 <td style="text-align: right;">16.24</td>
 <td style="text-align: right;">0.60</td>
 <td style="text-align: right;">2</td>
@@ -4427,9 +4454,18 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;">0</td>
 </tr>
 <tr>
+<td><strong><abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr></strong></td>
+<td style="text-align: right;">82,424</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 10, upper bound: 10 (95% confidence).">~ 10</abbr></td>
+<td style="text-align: right;">8.24</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr>
 <td><strong><abbr title="Statistics about the number of objects in the dataset.">Objects</abbr></strong></td>
 <td style="text-align: right;">82,424</td>
-<td style="text-align: right;">8,749</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 8,696, upper bound: 8,810 (95% confidence).">~ 8,753</abbr></td>
 <td style="text-align: right;">8.24</td>
 <td style="text-align: right;">0.50</td>
 <td style="text-align: right;">1</td>
@@ -4438,7 +4474,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr></strong></td>
 <td style="text-align: right;">10,000</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 1, upper bound: 1 (95% confidence).">~ 1</abbr></td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">1</td>
@@ -4456,7 +4492,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of literals in the dataset.">Literals</abbr></strong></td>
 <td style="text-align: right;">12,473</td>
-<td style="text-align: right;">8,586</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 8,532, upper bound: 8,644 (95% confidence).">~ 8,587</abbr></td>
 <td style="text-align: right;">1.25</td>
 <td style="text-align: right;">0.47</td>
 <td style="text-align: right;">0</td>
@@ -4465,7 +4501,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr></strong></td>
 <td style="text-align: right;">2,975</td>
-<td style="text-align: right;">6</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 6, upper bound: 6 (95% confidence).">~ 6</abbr></td>
 <td style="text-align: right;">0.30</td>
 <td style="text-align: right;">0.46</td>
 <td style="text-align: right;">0</td>
@@ -4474,7 +4510,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr></strong></td>
 <td style="text-align: right;">9,498</td>
-<td style="text-align: right;">8,580</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 8,525, upper bound: 8,637 (95% confidence).">~ 8,581</abbr></td>
 <td style="text-align: right;">0.95</td>
 <td style="text-align: right;">0.22</td>
 <td style="text-align: right;">0</td>
@@ -4483,11 +4519,20 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr></strong></td>
 <td style="text-align: right;">0</td>
-<td style="text-align: right;">0</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 0, upper bound: 0 (95% confidence).">~ 0</abbr></td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td><strong><abbr title="Statistics about the count of datatypes (NOT datatype literals) in the dataset. This statistic does not include rdf:langString and xsd:string.">Datatypes</abbr></strong></td>
+<td style="text-align: right;">9,498</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
 </tr>
 <tr>
 <td><strong><abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr></strong></td>
@@ -4510,20 +4555,11 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <tr>
 <td><strong><abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr></strong></td>
 <td style="text-align: right;">10,000</td>
-<td style="text-align: right;">10,000</td>
+<td style="text-align: right;"><abbr title="Estimated value. Lower bound: 9,968, upper bound: 10,098 (95% confidence).">~ 10,033</abbr></td>
 <td style="text-align: right;">1.00</td>
 <td style="text-align: right;">0.00</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td><strong><abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr></strong></td>
-<td style="text-align: right;">82,424</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">8.24</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">9</td>
 </tr>
 </tbody>
 </table>
