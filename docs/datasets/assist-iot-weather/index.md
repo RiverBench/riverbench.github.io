@@ -74,7 +74,7 @@ The dataset is a real application of RDF streaming (originally streamed over MQT
         - **<abbr title="This axiom needed so that Protege loads DCAT2 without errors.">Homepage</abbr>**: [https://assist-iot.eu/](https://assist-iot.eu/)
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-04
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-08-29
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-09-11
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [assist-iot-weather (dev)](https://w3id.org/riverbench/datasets/assist-iot-weather/dev)
 - **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
@@ -403,59 +403,62 @@ The full metadata of all distributions can be found below.
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for full distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value may be estimated using a HyperLogLog sketch. In that case, rb:uniqueCountLowerBound and rb:uniqueCountLowerBound properties are also set on the subject.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
-| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 45,583,070 | 12,624,089 | 65.00 | 0.00 | 65 | 65 |
+| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 45,583,070 | <abbr title="Estimated value. Lower bound: 12,571,171, upper bound: 12,735,776 (95% confidence).">~ 12,652,939</abbr> | 65.00 | 0.00 | 65 | 65 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 39,372,282 | 7,015,898 | 56.14 | 0.69 | 54 | 57 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 701,278 | 1 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 8,415,336 | <abbr title="Estimated value. Lower bound: 12, upper bound: 12 (95% confidence).">~ 12</abbr> | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 39,372,282 | <abbr title="Estimated value. Lower bound: 6,970,377, upper bound: 7,061,646 (95% confidence).">~ 7,015,715</abbr> | 56.14 | 0.69 | 54 | 57 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 701,278 | <abbr title="Estimated value. Lower bound: 1, upper bound: 1 (95% confidence).">~ 1</abbr> | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 80,646,970 | _N/A_ | 115.00 | 0.00 | 115 | 115 |
-| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 8,516,050 | 704,202 | 12.14 | 0.69 | 10 | 13 |
-| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 1,402,556 | 2 | 2.00 | 0.00 | 2 | 2 |
-| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 7,113,494 | 704,200 | 10.14 | 0.69 | 8 | 11 |
-| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 8,516,050 | <abbr title="Estimated value. Lower bound: 697,453, upper bound: 706,585 (95% confidence).">~ 701,989</abbr> | 12.14 | 0.69 | 10 | 13 |
+| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 1,402,556 | <abbr title="Estimated value. Lower bound: 2, upper bound: 2 (95% confidence).">~ 2</abbr> | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 7,113,494 | <abbr title="Estimated value. Lower bound: 697,453, upper bound: 706,585 (95% confidence).">~ 701,989</abbr> | 10.14 | 0.69 | 8 | 11 |
+| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | <abbr title="Estimated value. Lower bound: 0, upper bound: 0 (95% confidence).">~ 0</abbr> | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the count of datatypes (NOT datatype literals) in the dataset. This statistic does not include rdf:langString and xsd:string.">Datatypes</abbr>** | 2,103,834 | 3 | 3.00 | 0.00 | 3 | 3 |
 | **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 21,038,340 | 12,622,946 | 30.00 | 0.00 | 30 | 30 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 8,415,336 | 12 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 21,038,340 | <abbr title="Estimated value. Lower bound: 12,571,188, upper bound: 12,735,793 (95% confidence).">~ 12,652,956</abbr> | 30.00 | 0.00 | 30 | 30 |
 
 ### <a name="statistics-100k"></a> Statistics for 100K distributions
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 100K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value may be estimated using a HyperLogLog sketch. In that case, rb:uniqueCountLowerBound and rb:uniqueCountLowerBound properties are also set on the subject.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
-| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 6,500,000 | 1,800,107 | 65.00 | 0.00 | 65 | 65 |
+| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 6,500,000 | <abbr title="Estimated value. Lower bound: 1,782,085, upper bound: 1,805,420 (95% confidence).">~ 1,793,677</abbr> | 65.00 | 0.00 | 65 | 65 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 5,605,786 | 1,002,069 | 56.06 | 0.61 | 54 | 57 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 100,000 | 1 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,200,000 | <abbr title="Estimated value. Lower bound: 12, upper bound: 12 (95% confidence).">~ 12</abbr> | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 5,605,786 | <abbr title="Estimated value. Lower bound: 992,233, upper bound: 1,005,225 (95% confidence).">~ 998,687</abbr> | 56.06 | 0.61 | 54 | 57 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 100,000 | <abbr title="Estimated value. Lower bound: 1, upper bound: 1 (95% confidence).">~ 1</abbr> | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 11,500,000 | _N/A_ | 115.00 | 0.00 | 115 | 115 |
-| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 1,205,786 | 102,024 | 12.06 | 0.61 | 10 | 13 |
-| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 200,000 | 2 | 2.00 | 0.00 | 2 | 2 |
-| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 1,005,786 | 102,022 | 10.06 | 0.61 | 8 | 11 |
-| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 1,205,786 | <abbr title="Estimated value. Lower bound: 101,258, upper bound: 102,584 (95% confidence).">~ 101,917</abbr> | 12.06 | 0.61 | 10 | 13 |
+| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 200,000 | <abbr title="Estimated value. Lower bound: 2, upper bound: 2 (95% confidence).">~ 2</abbr> | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 1,005,786 | <abbr title="Estimated value. Lower bound: 101,255, upper bound: 102,581 (95% confidence).">~ 101,914</abbr> | 10.06 | 0.61 | 8 | 11 |
+| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | <abbr title="Estimated value. Lower bound: 0, upper bound: 0 (95% confidence).">~ 0</abbr> | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the count of datatypes (NOT datatype literals) in the dataset. This statistic does not include rdf:langString and xsd:string.">Datatypes</abbr>** | 300,000 | 3 | 3.00 | 0.00 | 3 | 3 |
 | **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 3,000,000 | 1,799,560 | 30.00 | 0.00 | 30 | 30 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 1,200,000 | 12 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 3,000,000 | <abbr title="Estimated value. Lower bound: 1,782,064, upper bound: 1,805,398 (95% confidence).">~ 1,793,655</abbr> | 30.00 | 0.00 | 30 | 30 |
 
 ### <a name="statistics-10k"></a> Statistics for 10K distributions
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Statistics for 10K distributions
 
-| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.">Unique (approx.)</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
+| | **<abbr title="Sum of all values in the distribution. In statistics about counts, this corresponds to the total number of given elements in the dataset.">Sum</abbr>** | **<abbr title="Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value may be estimated using a HyperLogLog sketch. In that case, rb:uniqueCountLowerBound and rb:uniqueCountLowerBound properties are also set on the subject.">Unique</abbr>** | **<abbr title="Arithmetic mean of a distribution">Mean</abbr>** | **<abbr title="Standard deviation of a distribution">St. dev.</abbr>** | **<abbr title="Minimum value of a distribution">Min.</abbr>** | **<abbr title="Maximum value of a distribution">Max.</abbr>** |
 | --- | --: | --: | --: | --: | --: | --: |
-| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 650,000 | 180,046 | 65.00 | 0.00 | 65 | 65 |
+| **<abbr title="Statistics about the number of IRIs in the dataset.">IRIs</abbr>** | 650,000 | <abbr title="Estimated value. Lower bound: 179,259, upper bound: 181,606 (95% confidence).">~ 180,424</abbr> | 65.00 | 0.00 | 65 | 65 |
 | **<abbr title="Statistics about the number of blank nodes in the dataset.">Blank nodes</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 560,737 | 100,845 | 56.07 | 0.60 | 54 | 57 |
-| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 10,000 | 1 | 1.00 | 0.00 | 1 | 1 |
+| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 120,000 | <abbr title="Estimated value. Lower bound: 12, upper bound: 12 (95% confidence).">~ 12</abbr> | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of objects in the dataset.">Objects</abbr>** | 560,737 | <abbr title="Estimated value. Lower bound: 100,201, upper bound: 101,513 (95% confidence).">~ 100,853</abbr> | 56.07 | 0.60 | 54 | 57 |
+| **<abbr title="Statistics about the number of RDF graphs in the dataset, including the default graph.">Graphs</abbr>** | 10,000 | <abbr title="Estimated value. Lower bound: 1, upper bound: 1 (95% confidence).">~ 1</abbr> | 1.00 | 0.00 | 1 | 1 |
 | **<abbr title="Statistics about the number of RDF statements in the dataset.">Statements</abbr>** | 1,150,000 | _N/A_ | 115.00 | 0.00 | 115 | 115 |
-| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 120,737 | 10,801 | 12.07 | 0.60 | 10 | 13 |
-| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 20,000 | 2 | 2.00 | 0.00 | 2 | 2 |
-| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 100,737 | 10,799 | 10.07 | 0.60 | 8 | 11 |
-| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | 0 | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the number of literals in the dataset.">Literals</abbr>** | 120,737 | <abbr title="Estimated value. Lower bound: 10,744, upper bound: 10,885 (95% confidence).">~ 10,814</abbr> | 12.07 | 0.60 | 10 | 13 |
+| **<abbr title="Statistics about the number of simple literals (of type xsd:string) in the dataset.">Simple literals</abbr>** | 20,000 | <abbr title="Estimated value. Lower bound: 2, upper bound: 2 (95% confidence).">~ 2</abbr> | 2.00 | 0.00 | 2 | 2 |
+| **<abbr title="Statistics about the number of datatype literals (NOT of type rdf:langString) in the dataset.">Datatype literals</abbr>** | 100,737 | <abbr title="Estimated value. Lower bound: 10,742, upper bound: 10,883 (95% confidence).">~ 10,812</abbr> | 10.07 | 0.60 | 8 | 11 |
+| **<abbr title="Statistics about the number of language literals in the dataset.">Language literals</abbr>** | 0 | <abbr title="Estimated value. Lower bound: 0, upper bound: 0 (95% confidence).">~ 0</abbr> | 0.00 | 0.00 | 0 | 0 |
+| **<abbr title="Statistics about the count of datatypes (NOT datatype literals) in the dataset. This statistic does not include rdf:langString and xsd:string.">Datatypes</abbr>** | 30,000 | 3 | 3.00 | 0.00 | 3 | 3 |
 | **<abbr title="Statistics about the number of ASCII control characters except HT, LF, and CR (0x00-0x08, 0x0B, 0x0C, 0x0E-0x1F) in literals. These characters are allowed in RDF literals, but some serializations (e.g., RDF/XML) may not be able to encode them. See the documentation page 'Dataset compatibility notes' for more details.">ASCII control chars</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
 | **<abbr title="Statistics about the number of quoted triples in the dataset.">Quoted triples</abbr>** | 0 | _N/A_ | 0.00 | 0.00 | 0 | 0 |
-| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 300,000 | 179,997 | 30.00 | 0.00 | 30 | 30 |
-| **<abbr title="Statistics about the number of predicates in the dataset.">Predicates</abbr>** | 120,000 | 12 | 12.00 | 0.00 | 12 | 12 |
+| **<abbr title="Statistics about the number of subjects in the dataset.">Subjects</abbr>** | 300,000 | <abbr title="Estimated value. Lower bound: 179,216, upper bound: 181,563 (95% confidence).">~ 180,382</abbr> | 30.00 | 0.00 | 30 | 30 |
 
