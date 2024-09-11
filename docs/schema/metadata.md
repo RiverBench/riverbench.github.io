@@ -116,7 +116,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Category`
 Description | Class for benchmark categories in RiverBench. A category groups tasks and profiles that are compatible with each other. Each task and profile in a category has a name prefixed with the name of the category (e.g., all tasks in the "stream" category start with "stream-").
 Super-classes |[dcat:Resource](http://www.w3.org/ns/dcat#Resource) (c)<br />
-In domain of |[Has benchmark profile](#hasProfile) (op)<br />[Has category member](#hasCategoryMember) (op)<br />[Has benchmark task](#hasTask) (op)<br />
+In domain of |[Has category member](#hasCategoryMember) (op)<br />[Has benchmark task](#hasTask) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />
 In range of |[In benchmark category](#inCategory) (fp)<br />[Has benchmark category](#hasCategory) (op)<br />
 
 ### Member of a benchmark category <a name="CategoryMember"></a>
@@ -175,7 +175,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#DistributionType`
 Description | Type of dataset distribution, indicating the corresponding streaming task formulation.
 In range of |[Has distribution type](#hasDistributionType) (op)<br />
-Has members |[Partial distribution](#partialDistribution)<br />[Full distribution](#fullDistribution)<br />[Jelly distribution](#jellyDistribution)<br />[Stream distribution](#streamDistribution)<br />[Flat distribution](#flatDistribution)<br />
+Has members |[Jelly distribution](#jellyDistribution)<br />[Full distribution](#fullDistribution)<br />[Partial distribution](#partialDistribution)<br />[Stream distribution](#streamDistribution)<br />[Flat distribution](#flatDistribution)<br />
 
 ### Graph count statistics <a name="GraphCountStatistics"></a>
 Property | Value
@@ -233,8 +233,8 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/metadata#Profile`
 Description | Benchmark profile grouping several datasets in RiverBench. Each profile belongs to one benchmark category (rb:Category).
 Super-classes |[Member of a benchmark category](#CategoryMember) (c)<br />[Dataset series](#DatasetSeries) (c)<br />
-In domain of |[Is subset of profile](#isSubsetOfProfile) (op)<br />[Has dataset shape](#hasDatasetShape) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has distribution shape](#hasDistributionShape) (op)<br />
-In range of |[Uses benchmark profile](#usesProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has benchmark profile](#hasProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
+In domain of |[Has distribution shape](#hasDistributionShape) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Has dataset shape](#hasDatasetShape) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
+In range of |[Has benchmark profile](#hasProfile) (op)<br />[Uses benchmark profile](#usesProfile) (op)<br />[Is superset of profile](#isSupersetOfProfile) (op)<br />[Is subset of profile](#isSubsetOfProfile) (op)<br />
 
 ### Quoted triple count statistics <a name="QuotedTripleCountStatistics"></a>
 Property | Value
@@ -277,7 +277,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Statistics`
 Description | Class for statistics objects about distributions
-Sub-classes |[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[ASCII control character count statistics](#AsciiControlCharacterCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[Datatype count statistics](#DatatypeCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />[Graph count statistics](#GraphCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />
+Sub-classes |[Graph count statistics](#GraphCountStatistics) (c)<br />[Subject count statistics](#SubjectCountStatistics) (c)<br />[Object count statistics](#ObjectCountStatistics) (c)<br />[ASCII control character count statistics](#AsciiControlCharacterCountStatistics) (c)<br />[Language string count statistics](#LanguageLiteralCountStatistics) (c)<br />[Predicate count statistics](#PredicateCountStatistics) (c)<br />[Simple literal count statistics](#SimpleLiteralCountStatistics) (c)<br />[Statement count statistics](#StatementCountStatistics) (c)<br />[Blank node count statistics](#BlankNodeCountStatistics) (c)<br />[Datatype literal count statistics](#DatatypeLiteralCountStatistics) (c)<br />[IRI count statistics](#IriCountStatistics) (c)<br />[Datatype count statistics](#DatatypeCountStatistics) (c)<br />[Literal count statistics](#LiteralCountStatistics) (c)<br />[Quoted triple count statistics](#QuotedTripleCountStatistics) (c)<br />
 In domain of |[Statistical property](#statisticalProperty) (dp)<br />
 In range of |[Has statistics](#hasStatistics) (op)<br />
 
@@ -294,7 +294,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#StreamElementSplit`
 Description | Describes how was the stream split into individual elements.
-Sub-classes |[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by time](#TimeStreamElementSplit) (c)<br />
+Sub-classes |[Stream elements split by time](#TimeStreamElementSplit) (c)<br />[Stream elements split by statement count](#StatementCountStreamElementSplit) (c)<br />[Stream elements split by topic](#TopicStreamElementSplit) (c)<br />
 In range of |[Has stream element split](#hasStreamElementSplit) (op)<br />
 
 ### Subject count statistics <a name="SubjectCountStatistics"></a>
@@ -317,8 +317,8 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#Task`
 Description | Class for specific benchmark tasks (e.g., end-to-end streaming latency). Each task belongs to one benchmark category (rb:Category).
-Super-classes |[irao:Methodology](http://ontology.ethereal.cz/irao/Methodology) (c)<br />[Member of a benchmark category](#CategoryMember) (c)<br />
-In range of |[Has benchmark task](#hasTask) (op)<br />[Uses benchmark task](#usesTask) (op)<br />
+Super-classes |[Member of a benchmark category](#CategoryMember) (c)<br />[irao:Methodology](http://ontology.ethereal.cz/irao/Methodology) (c)<br />
+In range of |[Uses benchmark task](#usesTask) (op)<br />[Has benchmark task](#hasTask) (op)<br />
 
 ### Stream elements split by time <a name="TimeStreamElementSplit"></a>
 Property | Value
@@ -555,7 +555,7 @@ Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#usesTask`
 Description | Indicates that the subject is using a specific RiverBench benchmark task.
-Super-properties |[Uses resource](#usesResource) (op)<br />[irao:hasMethodology](http://ontology.ethereal.cz/irao/hasMethodology)<br />
+Super-properties |[irao:hasMethodology](http://ontology.ethereal.cz/irao/hasMethodology)<br />[Uses resource](#usesResource) (op)<br />
 Range(s) |[Benchmark task](#Task) (c)<br />
 
 
@@ -585,7 +585,9 @@ Range(s) |[Benchmark category](#Category) (c)<br />
 [Standard deviation](#standardDeviation),
 [Statistical property](#statisticalProperty),
 [Sum](#sum),
-[Unique count (estimated)](#uniqueCount),
+[Unique count](#uniqueCount),
+[Unique count lower bound estimate](#uniqueCountLowerBound),
+[Unique count upper bound estimate](#uniqueCountUpperBound),
 [Uses generalized RDF datasets](#usesGeneralizedRdfDatasets),
 [Uses generalized triples](#usesGeneralizedTriples),
 [Uses metric](#usesMetric),
@@ -684,11 +686,27 @@ Description | Sum of all values in the distribution. In statistics about counts,
 Super-properties |[Statistical property](#statisticalProperty) (dp)<br />
 Range(s) |[xsd:decimal](http://www.w3.org/2001/XMLSchema#decimal) (c)<br />
 
-### Unique count (estimated) <a name="uniqueCount"></a>
+### Unique count <a name="uniqueCount"></a>
 Property | Value
 --- | ---
 URI | `https://w3id.org/riverbench/schema/metadata#uniqueCount`
-Description | Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value is estimated with a Bloom filter and is accurate to ~1%.
+Description | Only used for count statistics. Indicates how many unique elements are in the entire dataset. The value may be estimated using a HyperLogLog sketch. In that case, rb:uniqueCountLowerBound and rb:uniqueCountLowerBound properties are also set on the subject.
+Super-properties |[Statistical property](#statisticalProperty) (dp)<br />
+Range(s) |[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) (c)<br />
+
+### Unique count lower bound estimate <a name="uniqueCountLowerBound"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#uniqueCountLowerBound`
+Description | Lower bound estimate of how many unique elements are in the entire dataset. The estimate is given for a 95% confidence interval.
+Super-properties |[Statistical property](#statisticalProperty) (dp)<br />
+Range(s) |[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) (c)<br />
+
+### Unique count upper bound estimate <a name="uniqueCountUpperBound"></a>
+Property | Value
+--- | ---
+URI | `https://w3id.org/riverbench/schema/metadata#uniqueCountUpperBound`
+Description | Upper bound estimate of how many unique elements are in the entire dataset. The estimate is given for a 95% confidence interval.
 Super-properties |[Statistical property](#statisticalProperty) (dp)<br />
 Range(s) |[xsd:integer](http://www.w3.org/2001/XMLSchema#integer) (c)<br />
 

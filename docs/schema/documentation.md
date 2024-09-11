@@ -53,7 +53,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[General information](#groupGeneralInfo)<br />[Technical metadata](#groupTechnicalMetadata)<br />[Content](#groupContent)<br />[Distributions](#groupDistributions)<br />
+Has members |[Distributions](#groupDistributions)<br />[General information](#groupGeneralInfo)<br />[Technical metadata](#groupTechnicalMetadata)<br />[Content](#groupContent)<br />
 
 
 ## Object Properties
