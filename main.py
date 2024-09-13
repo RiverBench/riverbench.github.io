@@ -16,7 +16,7 @@ def define_env(env):
     @env.macro
     def nanopub_template_url():
         # URL to the latest version of the nanopublication template
-        return 'https://w3id.org/np/RARL9HnpZmlPQECZiDGWI3pABNi42TIhXvftX8KN9ytV4'
+        return 'https://w3id.org/np/RAZfKbuG8v4IvT2hJPFHyma8MbgN6Z_Hwn5FRKYCMFyis'
     
 
     @env.macro
