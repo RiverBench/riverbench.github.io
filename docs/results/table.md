@@ -7,6 +7,8 @@ Task | Profile | Date reported | Details | Source
 
 ## Benchmark results for category [`stream`](https://w3id.org/riverbench/v/dev/categories/stream)
 
-_No benchmark results were reported yet for this category._
+Task | Profile | Date reported | Details | Source
+--- | --- | --- | --- | ---
+[stream-compression](https://w3id.org/riverbench/v/dev/tasks/stream-compression) (2.1.0) | [stream-mixed-rdfstar](https://w3id.org/riverbench/v/dev/profiles/stream-mixed-rdfstar) (2.1.0) | 2024-09-13 | [:octicons-arrow-right-24: Details](https://w3id.org/riverbench/v/dev/tasks/stream-compression/results#RAGrE5KKZf4FeAAu7MoaIWBQmgave7TLS_9LNu9vZi-_M) | [:fontawesome-solid-diagram-project: Source](https://w3id.org/np/RAGrE5KKZf4FeAAu7MoaIWBQmgave7TLS_9LNu9vZi-_M)
 
 
