@@ -24,8 +24,8 @@ The task consists of serializing RDF data stored in memory in a grouped form (th
 
 ### Metrics
 
-- Throughput of the serialization process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements serialized divided by the total time taken to serialize them.
-- Additionally, the throughput may be measured in terms of stream elements (RDF graphs or RDF datasets) per second.
+- **Serialization throughput (in statements)** – throughput of the serialization process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements serialized divided by the total time taken to serialize them.
+- **Serialization throughput (in elements)** – additionally, the throughput may be measured in terms of stream elements (RDF graphs or RDF datasets) per second.
 
 ## Results
 

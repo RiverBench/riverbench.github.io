@@ -43,7 +43,7 @@ To isolate the performance of the streaming process itself, the following steps 
 
 ### Metrics
 
-- Latency of streaming a stream element, measured typically in milliseconds. The measurement starts when the producer begins serializing the element and ends when the consumer finishes deserializing it.
+- **Stream element latency** – latency of streaming a stream element, measured typically in milliseconds. The measurement starts when the producer begins serializing the element and ends when the consumer finishes deserializing it.
 
 ## Results
 

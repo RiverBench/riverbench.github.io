@@ -23,8 +23,8 @@ The task consists of deserializing RDF data stored in a byte stream to memory in
 
 ### Metrics
 
-- Throughput of the deserialization process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements deserialized divided by the total time taken to deserialize them.
-- Additionally, the throughput may be measured in terms of stream elements (RDF graphs or RDF datasets) per second.
+- **Deserialization throughput (in statements)** – throughput of the deserialization process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements deserialized divided by the total time taken to deserialize them.
+- **Deserialization throughput (in elements)** – additionally, the throughput may be measured in terms of stream elements (RDF graphs or RDF datasets) per second.
 
 ## Results
 

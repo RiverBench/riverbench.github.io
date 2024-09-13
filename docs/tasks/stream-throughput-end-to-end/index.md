@@ -33,8 +33,8 @@ To isolate the performance of the streaming process itself, the following steps 
 
 ### Metrics
 
-- Throughput of the streaming process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements streamed divided by the total time taken to serialize, transmit, and deserialized them.
-- Additionally, the throughput may be measured in terms of stream elements (RDF graphs or RDF datasets) per second.
+- **Streaming throughput (in statements)** – throughput of the streaming process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements streamed divided by the total time taken to serialize, transmit, and deserialized them.
+- **Streaming throughput (in elements)** – additionally, the throughput may be measured in terms of stream elements (RDF graphs or RDF datasets) per second.
 
 ## Results
 
