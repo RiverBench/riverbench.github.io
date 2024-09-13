@@ -1,6 +1,6 @@
 site_name: RiverBench
 site_description: RiverBench is an open, community-driven RDF streaming benchmark suite.
-site_url: https://w3id.org/riverbench/
+site_url: https://riverbench.github.io/
 
 plugins:
   - search
