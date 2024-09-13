@@ -91,7 +91,7 @@ The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}
 
 [Jelly](https://w3id.org/jelly) is a high-performance binary serialization format for RDF. RiverBench's Jelly distributions simply use delimited `RdfStreamFrame`s to denote the individual elements in the stream. The streams are either of `TRIPLES` physical type (for [RDF graph streams](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream)) or `QUADS` for [RDF dataset streams](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream). The resulting file is gzip-compressed.
 
-Parsing Jelly files should be [**about 5 times faster**](https://arxiv.org/pdf/2207.04439.pdf) than the other distribution types, depending on the dataset and your hardware. Dataset sizes should be more-or-less the same when compressed, but **when uncompressed, Jelly will be 3–4 times smaller**.
+Parsing Jelly files can be [**6 to 14 times faster than N-Triples/N-Quads**](https://w3id.org/jelly/1.0.x/performance) and **10 to over 100 times faster than Turtle/TriG**, depending on the dataset and your hardware. This can massively speed up your benchmark execution. Dataset sizes should be more-or-less the same when compressed, but **when uncompressed, Jelly will be 3–4 times smaller**.
 
 Reading Jelly files is currently supported in Apache Jena and RDF4J, using the [`jelly-jvm`](https://w3id.org/jelly/jelly-jvm) library. Please refer to [Jelly's website](https://w3id.org/jelly) for usage examples and documentation.
 
