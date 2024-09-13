@@ -2891,8 +2891,8 @@
 <p>In this task, the time taken to serialize and deserialize the data is not considered – see the <a href="../stream-serialization-throughput/"><code>stream-serialization-throughput</code></a> and <a href="../stream-deserialization-throughput/"><code>stream-deserialization-throughput</code></a> tasks for that aspect.</p>
 <h3 id="metrics">Metrics</h3>
 <ul>
-<li>The primary metric is the serialized representation size of the RDF data, in bytes.</li>
-<li>Additionally, the compression ratio can be calculated as the ratio of the reference size to the compressed size. The reference size is the size of the same data serialized using a baseline method, e.g., the N-Triples serialization format.<ul>
+<li><strong>Serialized representation size</strong> – the primary metric, size of the serialized RDF data, in bytes.</li>
+<li><strong>Compression ratio</strong> – additionally, the compression ratio can be calculated as the ratio of the reference size to the compressed size. The reference size is the size of the same data serialized using a baseline method, e.g., the N-Triples serialization format.<ul>
 <li>In the RDF literature, the "compression ratio" is often defined as the inverse of the above definition and expressed as a percentage. For example, a compression ratio of (50%) means that the compressed data is half the size of the reference data.</li>
 </ul>
 </li>
