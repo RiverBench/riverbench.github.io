@@ -23,7 +23,7 @@ The task consists of deserializing serialized RDF data stored in memory to a fla
 
 ### Metrics
 
-The primary metric is the throughput of the deserialization process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements deserialized divided by the total time taken to deserialize them.
+- **Deserialization throughput** – the primary metric, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements deserialized divided by the total time taken to deserialize them.
 
 
 ## Results

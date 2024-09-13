@@ -21,8 +21,8 @@ In this task, the time taken to serialize and deserialize the data is not consid
 
 ### Metrics
 
-- The primary metric is the serialized representation size of the RDF data, in bytes.
-- Additionally, the compression ratio can be calculated as the ratio of the reference size to the compressed size. The reference size is the size of the same data serialized using a baseline method, e.g., the N-Triples serialization format.
+- **Serialized representation size** – the primary metric, size of the serialized RDF data, in bytes.
+- **Compression ratio** – additionally, the compression ratio can be calculated as the ratio of the reference size to the compressed size. The reference size is the size of the same data serialized using a baseline method, e.g., the N-Triples serialization format.
     - In the RDF literature, the "compression ratio" is often defined as the inverse of the above definition and expressed as a percentage. For example, a compression ratio of (50%) means that the compressed data is half the size of the reference data.
 
 ## Results

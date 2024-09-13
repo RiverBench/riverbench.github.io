@@ -24,7 +24,7 @@ The task consists of serializing RDF data stored in memory (as an array of RDF s
 
 ### Metrics
 
-The primary metric is the throughput of the serialization process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements serialized divided by the total time taken to serialize them.
+- **Serialization throughput** – the primary metric, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements serialized divided by the total time taken to serialize them.
 
 ## Results
 
