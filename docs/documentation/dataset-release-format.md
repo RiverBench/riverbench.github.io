@@ -18,15 +18,17 @@ There always a few size variants of each distribution to choose from, starting f
 
 !!! tip
 
-    [Jelly distributions](#jelly-distributions) are the much faster to load and can support all benchmark tasks. They can be used instead of both flat and stream distributions.
+    [Jelly distributions](#jelly-distributions) are much faster to load and can support all benchmark tasks. They can be used instead of both flat and stream distributions.
 
-## Flat distributions
+## Distribution types
+
+### Flat distributions
 
 Flat distributions are serialized in the [N-Triples](https://www.w3.org/TR/n-triples/) or [N-Quads](https://www.w3.org/TR/n-quads/) format, depending on stream type. In case RDF-star is used in the dataset, the used formats are [N-Triples-star](https://www.w3.org/2021/12/rdf-star.html#n-triples-star) or [N-Quads-star](https://www.w3.org/2021/12/rdf-star.html#n-quads-star). The files are compressed with [gzip](https://en.wikipedia.org/wiki/Gzip). This format is streamable, as you can decompress gzip-compressed files on-the-fly and read the statements line-by-line.
 
 The flat distribution files are named `flat_{size}.nt.gz` or `flat_{size}.nq.gz`, where `{size}` is the number of stream elements in the file. For example, `flat_10K.nt.gz` is a flat distribution file of a triple stream with 10,000 stream elements. The full distribution is denoted by `flat_full.nt.gz` or `flat_full.nq.gz`.
 
-## Stream distributions
+### Stream distributions
 
 In streaming distributions each stream element is represented by a separate file. The files are compressed in a `.tar.gz` archive. The files are sequentially named starting from `0000000000.Y` up to `X.Y`, where `X + 1` is the number of stream elements in the dataset, and Y is the file extension. All numbers are zero-padded to exactly ten digits. The files are in nested directories with at most 1000 files per directory, to avoid issues with some file systems and file browsers. The number of levels of directories depends on the size of the distribution, with 10K–1M distributions having one level of directories and larger distributions having two.
 
@@ -36,7 +38,7 @@ Each element is serialized in either the [Turtle](https://www.w3.org/TR/turtle/)
 
 The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}` is the number of stream elements in the file. For example, `stream_10K.tar.gz` is a streaming distribution file with 10,000 stream elements. The full distribution is denoted by `stream_full.tar.gz`.
 
-### Example – [RDF graph stream](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream), `stream_10K.tar.gz`
+#### Example – [RDF graph stream](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream), `stream_10K.tar.gz`
 
 ```
 - 000/
@@ -52,7 +54,7 @@ The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}
     - 0000009999.ttl
 ```
 
-### Example – [RDF dataset stream](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream), `stream_10M.tar.gz`
+#### Example – [RDF dataset stream](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream), `stream_10M.tar.gz`
 
 ```
 - 000/
@@ -87,13 +89,31 @@ The streaming distribution files are named `stream_{size}.tar.gz`, where `{size}
         - 0009999999.trig
 ```
 
-## Jelly distributions
+### Jelly distributions
 
 [Jelly](https://w3id.org/jelly) is a high-performance binary serialization format for RDF. RiverBench's Jelly distributions simply use delimited `RdfStreamFrame`s to denote the individual elements in the stream. The streams are either of `TRIPLES` physical type (for [RDF graph streams](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream)) or `QUADS` for [RDF dataset streams](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream). The resulting file is gzip-compressed.
 
 Parsing Jelly files can be [**6 to 14 times faster than N-Triples/N-Quads**](https://w3id.org/jelly/1.0.x/performance) and **10 to over 100 times faster than Turtle/TriG**, depending on the dataset and your hardware. This can massively speed up your benchmark execution. Dataset sizes should be more-or-less the same when compressed, but **when uncompressed, Jelly will be 3–4 times smaller**.
 
 Reading Jelly files is currently supported in Apache Jena and RDF4J, using the [`jelly-jvm`](https://w3id.org/jelly/jelly-jvm) library. Please refer to [Jelly's website](https://w3id.org/jelly) for usage examples and documentation.
+
+## Package stability guarantees
+
+RiverBench takes a best-effort approach to keep the dataset distributions as stable as possible to help with reproducibility of certain benchmark tasks across dataset versions.
+
+The following guarantees are provided:
+
+- Statement order:
+    - Since RiverBench version 2.2.0, the order of statements (triples or quads) in flat and Jelly distributions is guaranteed to be the same across different dataset versions with identical content. The statements are ordered by stream element, and then within a stream element using alphabetic sorting (by: graph, subject, predicate, object).
+    - Before RiverBench version 2.2.0, the statement order could vary within the scope of a single stream element (RDF graph or RDF dataset).
+    - In stream distributions (Turtle/TriG), the statement order across different dataset versions MAY be preserved, but it's not guaranteed.
+- Blank node identifiers:
+    - Since RiverBench version 2.0.0, blank node identifiers are guaranteed to be stable across different dataset versions with identical content.
+- Syntax:
+    - RiverBench tries to preserve the syntax of the RDF files across different dataset versions, but it's not guaranteed.
+    - Notably, in RiverBench version 2.2.0, the stream distributions were changed to use the `PREFIX` directive for namespaces, instead of the `@prefix` directive. This change was done due to a [change in the default behavior in Apache Jena](https://github.com/apache/jena/issues/2037), and `PREFIX` being apparently the future default in RDF 1.2.
+- File checksums:
+    - RiverBench tries to keep the checksums of the dataset files the same across different dataset versions, but it's not guaranteed, as there are no strict guarantees on syntax stability.
 
 ## See also
 

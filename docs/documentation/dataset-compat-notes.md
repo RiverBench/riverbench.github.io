@@ -40,6 +40,10 @@ It is expected that the functionalities of RDF-star will be integrated into RDF 
 
 RiverBench welcomes datasets that extend RDF 1.1 in other ways, such as using generalized triples, or introducing something entirely new. In that case, such a dataset will be appropriately marked and placed in a separate `nonstandard` benchmark profile. When [submitting your dataset](creating-new-dataset.md), you will have the option to point out any non-standard features of your dataset.
 
+## Package stability guarantees
+
+See the page on the [dataset release formats](dataset-release-format.md#package-stability-guarantees) for information on what kind of guarantees RiverBench provides for the stability of the dataset packages.
+
 ## See also
 
 - [Dataset release format](dataset-release-format.md)
