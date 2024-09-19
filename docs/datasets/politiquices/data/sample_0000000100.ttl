@@ -1,6 +1,6 @@
-@prefix ns1: <http://www.politiquices.pt/> .
-@prefix ns2: <http://purl.org/dc/elements/1.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX ns1: <http://www.politiquices.pt/>
+PREFIX ns2: <http://purl.org/dc/elements/1.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 [ ns1:ent1      <http://www.wikidata.org/entity/Q76>;
   ns1:ent1_str  "Obama";
