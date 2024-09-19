@@ -1,6 +1,6 @@
-@prefix ns1: <http://purl.org/dc/elements/1.1/> .
-@prefix ns2: <http://www.politiquices.pt/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX ns1: <http://purl.org/dc/elements/1.1/>
+PREFIX ns2: <http://www.politiquices.pt/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 [ ns2:ent1      <http://www.wikidata.org/entity/Q456034>;
   ns2:ent1_str  "Isabel dos Santos";
