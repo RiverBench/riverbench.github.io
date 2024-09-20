@@ -8,8 +8,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE) 2.13
 * **URI**
     * `https://w3id.org/riverbench/schema/documentation`
 * **Creators(s)**
-    * [Piotr Sowiński](https://orcid.org/0000-0002-2543-9461)
-    [[0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461)]
+    * [Piotr Sowiński](https://github.com/Ostrzyciel)
 * **Created**
     * 2023-04-30T00:00:00
 * **Issued**
@@ -53,7 +52,7 @@ Property | Value
 URI | `https://w3id.org/riverbench/schema/documentation#DocGroup`
 Description | Documentation group, corresponding to a heading in the generated document.
 In range of |[Has documentation group](#hasDocGroup) (ap)<br />
-Has members |[Technical metadata](#groupTechnicalMetadata)<br />[General information](#groupGeneralInfo)<br />[Content](#groupContent)<br />[Distributions](#groupDistributions)<br />
+Has members |[Technical metadata](#groupTechnicalMetadata)<br />[Distributions](#groupDistributions)<br />[Content](#groupContent)<br />[General information](#groupGeneralInfo)<br />
 
 
 ## Object Properties
@@ -63,6 +62,7 @@ Has members |[Technical metadata](#groupTechnicalMetadata)<br />[General informa
 [vocabulary](#vocabulary),
 [dataset](#dataset),
 [In suite](#inCatalog),
+[previousVersion](#previousVersion),
 
 ### hasMeasuringSystem <a name="hasMeasuringSystem"></a>
 Property | Value
@@ -95,6 +95,11 @@ Property | Value
 --- | ---
 URI | `http://www.w3.org/ns/dcat#inCatalog`
 Description | Indicates the benchmark suite to which a dataset or profile belongs
+
+### previousVersion <a name="previousVersion"></a>
+Property | Value
+--- | ---
+URI | `http://www.w3.org/ns/dcat#previousVersion`
 
 
 ## Annotation Properties
