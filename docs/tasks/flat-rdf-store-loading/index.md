@@ -65,7 +65,7 @@ Benchmarks may choose to measure only some of the following metrics:
 - **<abbr title="A name given to the resource.">Title</abbr>**: Loading data into an RDF store _(<abbr title="English">en</abbr>)_
 - **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the time taken and resources used by RDF stores when loading flat RDF data (triples or quads). _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `flat-rdf-store-loading`
-- **<abbr title="The version indicator (name or identifier) of a resource.">Has version</abbr>**: `dev`
+- **<abbr title="The version indicator (name or identifier) of a resource.">Version</abbr>**: `dev`
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**: 
     - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
     - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
@@ -78,5 +78,4 @@ Benchmarks may choose to measure only some of the following metrics:
     - **<abbr title="This axiom needed so that Protege loads DCAT 3 without errors.">Homepage</abbr>**: [http://id.myopenlink.net/dataspace/person/tthibodeau](http://id.myopenlink.net/dataspace/person/tthibodeau)
 - **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [flat (dev)](https://w3id.org/riverbench/v/dev/categories/flat)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
-- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
