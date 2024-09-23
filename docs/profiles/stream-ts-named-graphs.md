@@ -16,7 +16,7 @@ Streaming timestamped named graphs (RDF 1.1 standard only)
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Streaming timestamped named graphs (standard) _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-ts-named-graphs`
-- **<abbr title="The version indicator (name or identifier) of a resource.">Has version</abbr>**: `dev`
+- **<abbr title="The version indicator (name or identifier) of a resource.">Version</abbr>**: `dev`
 - **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [stream (dev)](https://w3id.org/riverbench/v/dev/categories/stream)
 - **<abbr title="Indicates that this profile's datasets are all in the other profile">Is subset of profile</abbr>**: 
     - [stream-datasets (dev)](https://w3id.org/riverbench/v/dev/profiles/stream-datasets)

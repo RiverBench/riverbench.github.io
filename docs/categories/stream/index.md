@@ -45,9 +45,8 @@ See the **[quick start guide](../../documentation/using.md)** for more informati
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Grouped RDF streaming _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream`
-- **<abbr title="The version indicator (name or identifier) of a resource.">Has version</abbr>**: `dev`
+- **<abbr title="The version indicator (name or identifier) of a resource.">Version</abbr>**: `dev`
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
-- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
 ### Content
 

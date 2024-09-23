@@ -60,7 +60,7 @@ The task consists of serializing RDF data stored in memory in a grouped form (th
 - **<abbr title="A name given to the resource.">Title</abbr>**: Grouped RDF stream serialization throughput _(<abbr title="English">en</abbr>)_
 - **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the throughput of serializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets). _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-serialization-throughput`
-- **<abbr title="The version indicator (name or identifier) of a resource.">Has version</abbr>**: `dev`
+- **<abbr title="The version indicator (name or identifier) of a resource.">Version</abbr>**: `dev`
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**: 
     - **<abbr title="A name for some thing.">Name</abbr>**: Piotr Sowiński
     - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: Ostrzyciel
@@ -69,5 +69,4 @@ The task consists of serializing RDF data stored in memory in a grouped form (th
         - Ostrzyciel ([https://github.com/Ostrzyciel](https://github.com/Ostrzyciel))
 - **<abbr title="Indicates that the subject (either a task or a profile) is in benchmark category. This property is functional (each task/profile must be in exactly one benchmark category).">In benchmark category</abbr>**: [stream (dev)](https://w3id.org/riverbench/v/dev/categories/stream)
 - **<abbr title="Indicates the benchmark suite to which a dataset or profile belongs">In suite</abbr>**: [RiverBench (dev)](https://w3id.org/riverbench/)
-- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
