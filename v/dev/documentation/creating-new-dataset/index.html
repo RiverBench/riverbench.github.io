@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../assets/riverbench_vector_icon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.36">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.37">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.06209087.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -2947,7 +2947,17 @@
 <h1 id="creating-a-new-dataset">Creating a new dataset</h1>
 <p>This guide explains step-by-step how to propose a new dataset for inclusion in RiverBench. You only need to prepare the dataset and its metadata – the rest of the process will be carried out by a RiverBench admin and automated scripts.</p>
 <h2 id="step-0-check-the-requirements">Step 0: Check the requirements</h2>
-<p>Before you start, have a look at the <a href="../contribute/#contributing-datasets">requirements for new datasets</a>. If your dataset does not meet these requirements, it will not be accepted.</p>
+<p>Before you start, have a look at the requirements for new datasets listed below. If your dataset does not meet these requirements, it will not be accepted.</p>
+<ul>
+<li><strong>Freely licensed</strong> – the dataset must be licensed under a free license, such as <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a>, or <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>. The license must allow commercial use and derivative works.</li>
+<li><strong>Somewhat streaming in nature</strong> – streaming comes in many shapes and sizes. Have a look at the existing datasets – we have <a href="../../datasets/assist-iot-weather/">streams of timestamped weather data</a>, but also <a href="../../datasets/yago-annotated-facts/">a stream of fact annotations in Wikidata</a>. The important thing is that the dataset must be explicitly split into discrete elements.<ul>
+<li><strong>Do you have a non-streaming dataset?</strong> We have an open <a href="https://github.com/RiverBench/RiverBench/issues/129">task</a> to allow non-streaming datasets in RiverBench. If you are interested in this, please <a href="https://github.com/RiverBench/RiverBench/issues/129">comment on the issue</a> to let us know.</li>
+</ul>
+</li>
+<li><strong>Interesting technically</strong> – we are especially interested in expanding the coverage of the rarer types of streams, such as those using RDF-star, generalized triples, or quads. Other interesting types of datasets include those that use RDF in atypical ways, like with large GeoSPARQL literals or dense vector embeddings. Anything exotic is welcome!</li>
+<li><strong>Interesting thematically and relevant</strong> – does your dataset bring an interesting new use case? Perfect! Even better if the use case has seen real-world usage.</li>
+<li><strong>Large</strong> – the stream must be at least 10 thousand elements long, preferably more. The larger the better.</li>
+</ul>
 <h2 id="step-1-create-a-dataset-proposal">Step 1: Create a dataset proposal</h2>
 <p>Open a new dataset proposal in the RiverBench repository: <a href="https://github.com/RiverBench/RiverBench/issues/new?assignees=Ostrzyciel&labels=new+dataset&projects=&template=dataset-proposal.yml&title=Dataset+proposal%3A+%5BIDENTIFIER+HERE%5D" target="_blank" class="md-button md-button--primary rb-small-button" markdown><strong><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 14h2v3h3v2h-3v3h-2v-3h-3v-2h3zM12 3c4.42 0 8 1.79 8 4s-3.58 4-8 4-8-1.79-8-4 3.58-4 8-4M4 9c0 2.21 3.58 4 8 4s8-1.79 8-4v3.08L19 12c-2.59 0-4.8 1.64-5.64 3.94L12 16c-4.42 0-8-1.79-8-4zm0 5c0 2.21 3.58 4 8 4h1c0 1.05.27 2.04.75 2.9L12 21c-4.42 0-8-1.79-8-4z"/></svg></span> New dataset proposal</strong></a></p>
 <p>Fill in the fields with the required information, using the instructions embedded in the form.</p>
@@ -3083,7 +3093,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": ["latest", "stable"], "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d6f25eb3.min.js"></script>
       
     
   </body>
