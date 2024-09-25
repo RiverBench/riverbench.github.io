@@ -20,6 +20,10 @@ Fill in the fields with the required information, using the instructions embedde
 
     If you have trouble filling in any of the fields, you can leave them blank and ask the maintainer for help.
 
+!!! question "Does your task require more than just RDF data? SPARQL, anyone?"
+
+    Attaching SPARQL queries, RML mappings, or other additional files to datasets is not supported yet. However, there are plans to implement this feature in the future. If you need this functionality, please **[leave a comment on this issue](https://github.com/RiverBench/RiverBench/issues/128)** to let us know.
+
 ## Step 2: Wait for approval
 
 An administrator will be notified your request and will review the form and the task description. The administrator may ask for additional information or clarifications.
