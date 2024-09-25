@@ -6,7 +6,14 @@ This guide explains step-by-step how to propose a new dataset for inclusion in R
 
 ## Step 0: Check the requirements
 
-Before you start, have a look at the [requirements for new datasets](contribute.md#contributing-datasets). If your dataset does not meet these requirements, it will not be accepted.
+Before you start, have a look at the requirements for new datasets listed below. If your dataset does not meet these requirements, it will not be accepted.
+
+- **Freely licensed** – the dataset must be licensed under a free license, such as [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [CC BY](https://creativecommons.org/licenses/by/4.0/), or [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). The license must allow commercial use and derivative works.
+- **Somewhat streaming in nature** – streaming comes in many shapes and sizes. Have a look at the existing datasets – we have [streams of timestamped weather data](../datasets/assist-iot-weather/index.md), but also [a stream of fact annotations in Wikidata](../datasets/yago-annotated-facts/index.md). The important thing is that the dataset must be explicitly split into discrete elements.
+    - **Do you have a non-streaming dataset?** We have an open [task](https://github.com/RiverBench/RiverBench/issues/129) to allow non-streaming datasets in RiverBench. If you are interested in this, please [comment on the issue](https://github.com/RiverBench/RiverBench/issues/129) to let us know.
+- **Interesting technically** – we are especially interested in expanding the coverage of the rarer types of streams, such as those using RDF-star, generalized triples, or quads. Other interesting types of datasets include those that use RDF in atypical ways, like with large GeoSPARQL literals or dense vector embeddings. Anything exotic is welcome!
+- **Interesting thematically and relevant** – does your dataset bring an interesting new use case? Perfect! Even better if the use case has seen real-world usage.
+- **Large** – the stream must be at least 10 thousand elements long, preferably more. The larger the better.
 
 ## Step 1: Create a dataset proposal
 
