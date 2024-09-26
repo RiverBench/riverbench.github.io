@@ -22,3 +22,8 @@
         gap: 0 0.5rem;
     }
 }
+
+.rb-bibtex > svg {
+    width: 55px !important;
+    margin-left: 0.2rem;
+}
