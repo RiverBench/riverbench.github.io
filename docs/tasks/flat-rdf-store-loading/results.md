@@ -18,8 +18,8 @@
 
 
 
-<div class="annotate" markdown>
 
+<div class="annotate" markdown>
 
 - **<abbr title="A description of the subject resource.">Comment</abbr>**: Comparison of RDF loading time across several resource-contrained hardware platforms (Raspberry Pi 3B, 4B, and 5).
 - **<abbr title="An entity responsible for making the resource.">Creator</abbr>**:  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
@@ -47,11 +47,10 @@
 - **<abbr title="This property specifies the dataset which us produced by a benchmark">Has produced dataset</abbr>**: Sowiński, P. (2024). <i>Benchmark results for RDF load time evaluation (RiverBench)</i> [Data set]. Zenodo. [https://doi.org/10.5281/ZENODO.12087112](https://doi.org/10.5281/ZENODO.12087112) :custom-bibtex:{ .rb-bibtex } (2)
 - **<abbr title="This property specifies a system that measures a benchmark">Has measuring system</abbr>**: Sowiński, P. (2024). <i>Benchmark code for RDF load time evaluation (RiverBench &amp; RDF4Led)</i> (Version v1.0.0) [Computer software]. Zenodo. [https://doi.org/10.5281/ZENODO.12089254](https://doi.org/10.5281/ZENODO.12089254) :custom-bibtex:{ .rb-bibtex } (1)
 
-
 </div>
 
 1. BibTeX citation:
-    ```bibtex
+    ``` { .bibtex .rb-wrap-code }
     @misc{https://doi.org/10.5281/zenodo.12089254,
       doi = {10.5281/ZENODO.12089254},
       url = {https://zenodo.org/doi/10.5281/zenodo.12089254},
@@ -63,7 +62,7 @@
     }
     ```
 2. BibTeX citation:
-    ```bibtex
+    ``` { .bibtex .rb-wrap-code }
     @misc{https://doi.org/10.5281/zenodo.12087112,
       doi = {10.5281/ZENODO.12087112},
       url = {https://zenodo.org/doi/10.5281/zenodo.12087112},
@@ -75,7 +74,7 @@
     }
     ```
 3. BibTeX citation:
-    ```bibtex
+    ``` { .bibtex .rb-wrap-code }
     @misc{https://doi.org/10.48550/arxiv.2406.16412,
       doi = {10.48550/ARXIV.2406.16412},
       url = {https://arxiv.org/abs/2406.16412},
@@ -87,3 +86,4 @@
       copyright = {Creative Commons Attribution 4.0 International}
     }
     ```
+
