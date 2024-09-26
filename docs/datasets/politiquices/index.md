@@ -53,7 +53,7 @@ Support and opposition relations extracted from news articles archived in Arquiv
 
 - **<abbr title="A name given to the resource.">Title</abbr>**: Politiquices _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `politiquices`
-- **<abbr title="The version indicator (name or identifier) of a resource.">Has version</abbr>**: `dev`
+- **<abbr title="The version indicator (name or identifier) of a resource.">Version</abbr>**: `dev`
 - **<abbr title="A main category of the resource. A resource can have multiple themes.">Theme</abbr>**: 
     - Political communication ([eurovoc:c_9eea2203](http://eurovoc.europa.eu/c_9eea2203))
     - Political press ([eurovoc:2600](http://eurovoc.europa.eu/2600))
@@ -75,9 +75,8 @@ Support and opposition relations extracted from news articles archived in Arquiv
     - [http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819](http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819)
     - [https://www.politiquices.pt/about](https://www.politiquices.pt/about)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-09-19
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-09-26
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
-- **<abbr title="An established standard to which the described resource conforms.">Conforms To</abbr>**: Metadata ([https://w3id.org/riverbench/schema/metadata](https://w3id.org/riverbench/schema/metadata))
 
 ## Technical metadata
 
