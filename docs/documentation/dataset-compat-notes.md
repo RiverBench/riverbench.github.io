@@ -9,9 +9,9 @@ RiverBench uses the [RDF 1.1 specification](https://www.w3.org/TR/rdf11-concepts
 
 RDF 1.1 allows any valid Unicode string to be used as the lexical value of an RDF literal ([see the spec](https://www.w3.org/TR/rdf11-concepts/#section-Graph-Literal)). This notably includes all ASCII characters from `0x00` to `0x1F`, which are commonly referred to as ASCII control characters.
 
-A few of these characters are troublesome some RDF systems. The most notable example of this is the [RDF/XML 1.1 serialization format](https://www.w3.org/TR/rdf-syntax-grammar/) which uses [XML 1.0](https://www.w3.org/TR/xml/) as its basis. XML 1.0 disallows using certain ASCII control characters in XML documents, and at the same time it also disallows using the `&#xHH;` escape sequences for these characters. This means that XML 1.0 and, in turn, RDF/XML 1.1 cannot represent these characters *at all*.
+A few of these characters are troublesome for some RDF systems. The most notable example of this is the [RDF/XML 1.1 serialization format](https://www.w3.org/TR/rdf-syntax-grammar/) which uses [XML 1.0](https://www.w3.org/TR/xml/) as its basis. XML 1.0 disallows using certain ASCII control characters in XML documents, and at the same time it also disallows using the `&#xHH;` escape sequences for these characters. This means that XML 1.0 and, in turn, RDF/XML 1.1 cannot represent these characters *at all*.
 
-Namely, the following characters cannot be encoded in RDF/XML 1.1:
+So, the following characters cannot be encoded in RDF/XML 1.1:
 
 - `0x00`-`0x08`
 - `0x0B`
