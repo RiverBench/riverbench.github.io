@@ -4,7 +4,7 @@
 
 !!! tip "TL;DR"
 
-    Always use a specific versioned release of the RiverBench suite (e.g., `2.0.1`). Results obtained with versions of the suite that differ by more than the PATCH version (last digit) **are usually not comparable**.
+    Always use a specific versioned release of the RiverBench suite (e.g., `2.0.1`). Results obtained with versions of the suite that differ by more than the PATCH version (last digit) **may not be comparable**.
 
 ## Dataset versioning
 
