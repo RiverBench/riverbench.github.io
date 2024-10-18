@@ -75,7 +75,7 @@ Support and opposition relations extracted from news articles archived in Arquiv
     - [http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819](http://data.europa.eu/88u/dataset/6130e331078190fd0c6c3819)
     - [https://www.politiquices.pt/about](https://www.politiquices.pt/about)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2023-05-01
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-09-26
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2024-10-18
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
 
 ## Technical metadata
