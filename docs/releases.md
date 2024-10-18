@@ -15,6 +15,7 @@ See also: [versioning and releases documentation](documentation/versioning.md).
 - Notable changes:
     - Updated the CI worker to Apache Jena 5, which came with minor changes to the dataset distribution format. ([#120](https://github.com/RiverBench/RiverBench/issues/120))
     - Introduced dataset distribution stability guarantees. ([#120](https://github.com/RiverBench/RiverBench/issues/120))
+    - Changed the datatypes of some statistical properties in the metadata from `xsd:integer` and `xsd:decimal` to `xsd:long` and `xsd:double`. ([#134](https://github.com/RiverBench/RiverBench/issues/134))
 
 
 ## [RiverBench 2.1.0](https://w3id.org/riverbench/v/2.1.0)
