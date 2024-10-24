@@ -37,9 +37,9 @@ If you use the individual datasets, if possible you should at least cite the lin
 
 Remember to specify the stable version of RiverBench that you used. Using the "dev" version is not recommended, as it can change at any time. See also: [Versioning and releases](versioning.md).
 
-## RiverBench maintainer
+## RiverBench maintainers
 
-RiverBench was created and is maintained by [Piotr Sowiński (Ostrzyciel)](https://ostrzyciel.eu) – [GitHub](https://github.com/Ostrzyciel).
+See: **[RiverBench maintainers](maintainers.md)**.
 
 ## All papers about RiverBench
 
@@ -79,3 +79,4 @@ In reverse chronological order:
 ## See also
 
 - [How to contribute?](contribute.md)
+- [Riverbench maintainers and curators](maintainers.md)

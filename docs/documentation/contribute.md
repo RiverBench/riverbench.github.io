@@ -4,7 +4,7 @@
 
 **Hi there!** :wave: :blush:
 
-RiverBench is an open, community-driven project, so you are more than welcome to contribute. This page explains how to do it.
+RiverBench is an open, [community-driven](maintainers.md) project, so you are more than welcome to contribute. This page explains how to do it.
 
 ## Reporting benchmark results
 
@@ -16,7 +16,7 @@ If you have run a benchmark using RiverBench's datasets or tasks, **we highly en
 
 Do you have an interesting RDF dataset that would make a good addition to RiverBench? Great!
 
-Have a look at the **[dedicated guide on creating new datasets](creating-new-dataset.md)** which also explains the requirements for new datasets. If you still have questions, don't hesitate to contact RiverBench's maintainer by [opening an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose).
+Have a look at the **[dedicated guide on creating new datasets](creating-new-dataset.md)** which also explains the requirements for new datasets. If you still have questions, don't hesitate to contact RiverBench's maintainers by [opening an issue on GitHub](https://github.com/RiverBench/RiverBench/issues/new/choose).
 
 <div style="text-align: center" markdown>[:material-database-plus: Propose a new dataset](creating-new-dataset.md){ .md-button }</div>
 
@@ -49,8 +49,9 @@ You are welcome to submit any pull requests to these repositories. If you are un
 
 ## Deeper changes
 
-Do you see a glaring issue with the way RiverBench is organized? Or maybe you have a great idea for a new feature? Please contact the maintainer directly: [Piotr Sowiński (Ostrzyciel)](https://github.com/Ostrzyciel) by following the contact info on his profile page. **We are open to any collaboration.**
+Do you see a glaring issue with the way RiverBench is organized? Or maybe you have a great idea for a new feature? You can either [open an issue](https://github.com/RiverBench/RiverBench/issues/new/choose) or contact the maintainers directly: [RiverBench maintainers](maintainers.md).
 
 ## See also
 
 - [Using RiverBench – quick start guide](using.md)
+- [RiverBench maintainers](maintainers.md)

@@ -23,11 +23,11 @@ Fill in the fields with the required information, using the instructions embedde
 
 !!! note
 
-    If you have trouble filling in any of the fields, you can leave them blank and ask the maintainer for help.
+    If you have trouble filling in any of the fields, you can leave them blank and ask [a maintainer](maintainers.md) for help.
 
 ## Step 2: Wait for approval
 
-An administrator will be notified your request and will review the form and the dataset. The administrator may ask for additional information or clarifications. Once reviewed, the admin will create a new repository for you and give you access to it.
+[RiverBench curators](maintainers.md) will be notified your request and will review the form and the dataset. The maintainers may ask for additional information or clarifications. Once reviewed, a technical administrator will create a new repository for you and give you access to it.
 
 ## Step 3: Upload the dataset sources
 
@@ -51,13 +51,20 @@ An administrator will be notified your request and will review the form and the 
     - For `dcat:theme` use concepts from the [EuroVoc thesaurus](https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://eurovoc.europa.eu/100141). Use only elements of type "Concept" (without a number in their name), not "Concept scheme" or "Domain concept".
 3. Open the `LICENSE` file and replace the placeholder text with the license of the dataset. You can find commonly used templates [here](https://github.com/licenses/license-templates/tree/master/templates).
 4. Save your changes and commit to the main branch.
-5. Inform the administrator in your issue that you have completed the metadata for your dataset. The admin will then finalize adding the dataset to the suite and provide any necessary assistance.
+5. Post a comment in your issue saying that you have completed the metadata for your dataset. The technical administrator will then finalize adding the dataset to the suite and provide any necessary assistance.
 
 ----
 
-## Instructions for admins
+## Instructions for maintainers
 
-- Review the issue template – make sure all required information is provided.
+### Reviewing the proposal
+
+- Review the issue template – make sure all required information is provided and that it's clear.
+- Check if the dataset meets the [requirements](#step-0-check-the-requirements).
+    - Deciding whether or not the dataset should be in RiverBench is up to you. Is there a need for it? Will it make the benchmarks more diverse and representative? Does it cover a new use case?
+
+### Technical: setting up the dataset
+
 - [Create a new repository](https://github.com/organizations/RiverBench/repositories/new) for the dataset with name `dataset-[IDENTIFIER]`. In the repository settings:
   - Use the `RiverBench/dataset-template` repository as the template.
   - Mark the repo as public.
