@@ -21,7 +21,7 @@ In alphabetical order:
 
 ## Technical administrators
 
-**Technical administrator** are responsible for the day-to-day operation of the RiverBench project. They manage the repositories, CI/CD pipelines, and documentation. The current technical administrator is [Piotr Sowiński (Ostrzyciel)](https://ostrzyciel.eu) – [GitHub](https://github.com/Ostrzyciel).
+**Technical administrators** are responsible for the day-to-day operation of the RiverBench project. They manage the repositories, CI/CD pipelines, and documentation. The current technical administrator is [Piotr Sowiński (Ostrzyciel)](https://ostrzyciel.eu) – [GitHub](https://github.com/Ostrzyciel).
 
 ## See also
 
