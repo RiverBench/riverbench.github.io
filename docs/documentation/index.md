@@ -11,6 +11,7 @@ This documentation explains how to use and contribute to RiverBench.
     - [Metadata of datasets, profiles, and more](metadata.md)
     - [Versioning and releases](versioning.md)
     - [Licensing and citation](licensing.md)
+    - [RiverBench maintainers](maintainers.md)
 - **For contributors**
     - **[How to contribute?](contribute.md)**
     - [Reporting benchmark results](reporting-results.md)

@@ -21,7 +21,7 @@ The `dev` version of each dataset is its latest development version, correspondi
 
 To make a release:
 
-1. Read the above versioning rules and decide which version number to use. If you are unsure, [ask the suite's maintainer for help](https://github.com/RiverBench/RiverBench/issues/new/choose).
+1. Read the above versioning rules and decide which version number to use. If you are unsure, [ask the suite's technical administrator for help](maintainers.md).
 2. Go to your dataset's repository and check out the `main` branch on your local machine.
 3. Update the main branch by running `git pull`. Make sure the pull was successful.
 4. Create a new tag with the version number you decided on: `git tag vX.Y.Z`.

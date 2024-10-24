@@ -18,7 +18,7 @@ Fill in the fields with the required information, using the instructions embedde
 
 !!! note
 
-    If you have trouble filling in any of the fields, you can leave them blank and ask the maintainer for help.
+    If you have trouble filling in any of the fields, you can leave them blank and ask [a maintainer](maintainers.md) for help.
 
 !!! question "Does your task require more than just RDF data? SPARQL, anyone?"
 
@@ -26,7 +26,7 @@ Fill in the fields with the required information, using the instructions embedde
 
 ## Step 2: Wait for approval
 
-An administrator will be notified your request and will review the form and the task description. The administrator may ask for additional information or clarifications.
+[RiverBench curators](maintainers.md) will be notified your request and will review the form and the task description. The curators may ask for additional information or clarifications.
 
 ## Step 3: Create a pull request
 
