@@ -29,7 +29,7 @@ The following metadata formats are supported:
 - [N-Triples](https://www.w3.org/TR/n-triples/) (`.nt`, content type `application/n-triples`)
 - [Turtle](https://www.w3.org/TR/turtle/) (`.ttl`, content type `text/turtle`)
 - [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/) (`.rdf`, content type `application/rdf+xml`)
-- [Jelly](https://github.com/Jelly-RDF) (`.jelly`, content type `application/x-jelly-rdf`)
+- [Jelly](https://w3id.org/jelly) (`.jelly`, content type `application/x-jelly-rdf`)
 
 *If you are curious, you can find the rules that make this work [here](https://github.com/perma-id/w3id.org/tree/master/riverbench).*
 
