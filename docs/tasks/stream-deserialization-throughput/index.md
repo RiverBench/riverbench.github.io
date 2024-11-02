@@ -1,6 +1,6 @@
 <div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/tasks/stream-deserialization-throughput "Link to the permanent URL of this resource.")</div><div markdown>**[:material-file-edit: Edit this page](https://github.com/RiverBench/category-stream/edit/main/tasks/stream-deserialization-throughput/index.md "Edit this page's source in Markdown on GitHub.")**</div><div markdown>**[:material-database-edit: Edit metadata](https://github.com/RiverBench/category-stream/edit/main/tasks/stream-deserialization-throughput/metadata.ttl "Edit this page's metadata in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
 
-# Task: Grouped streaming deserialization throughput (development version)
+# Task: Grouped RDF stream deserialization throughput (development version)
 
 Task identifier: `stream-deserialization-throughput`
 
@@ -56,7 +56,7 @@ The task consists of deserializing RDF data stored in a byte stream to memory in
 
 ### General information
 
-- **<abbr title="A name given to the resource.">Title</abbr>**: Grouped streaming deserialization throughput _(<abbr title="English">en</abbr>)_
+- **<abbr title="A name given to the resource.">Title</abbr>**: Grouped RDF stream deserialization throughput _(<abbr title="English">en</abbr>)_
 - **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the throughput of deserializing a grouped RDF stream (that is, a stream in which the elements are either RDF graphs or RDF datasets) from a byte stream to memory. _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-deserialization-throughput`
 - **<abbr title="The version indicator (name or identifier) of a resource.">Version</abbr>**: `dev`

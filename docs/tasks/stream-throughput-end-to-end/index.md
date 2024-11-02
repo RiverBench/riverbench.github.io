@@ -1,6 +1,6 @@
 <div markdown class="rb-top-buttons"><div markdown>[:material-link-variant: Permanent URL](https://w3id.org/riverbench/v/dev/tasks/stream-throughput-end-to-end "Link to the permanent URL of this resource.")</div><div markdown>**[:material-file-edit: Edit this page](https://github.com/RiverBench/category-stream/edit/main/tasks/stream-throughput-end-to-end/index.md "Edit this page's source in Markdown on GitHub.")**</div><div markdown>**[:material-database-edit: Edit metadata](https://github.com/RiverBench/category-stream/edit/main/tasks/stream-throughput-end-to-end/metadata.ttl "Edit this page's metadata in RDF/Turtle on GitHub.")**</div><div markdown>[:material-help-circle:](../../documentation/editing-docs.md "Need help with editing?")</div></div>
 
-# Task: End-to-end streaming throughput (development version)
+# Task: End-to-end RDF streaming throughput (development version)
 
 Task identifier: `stream-throughput-end-to-end`
 
@@ -66,7 +66,7 @@ To isolate the performance of the streaming process itself, the following steps 
 
 ### General information
 
-- **<abbr title="A name given to the resource.">Title</abbr>**: End-to-end streaming throughput _(<abbr title="English">en</abbr>)_
+- **<abbr title="A name given to the resource.">Title</abbr>**: End-to-end RDF streaming throughput _(<abbr title="English">en</abbr>)_
 - **<abbr title="An account of the resource.">Description</abbr>**: A benchmark task measuring the throughput of streaming elements in a grouped RDF stream over the network, including serialization, network communication, and deserialization. _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `stream-throughput-end-to-end`
 - **<abbr title="The version indicator (name or identifier) of a resource.">Version</abbr>**: `dev`
