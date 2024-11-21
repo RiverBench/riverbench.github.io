@@ -4,6 +4,8 @@
 
 This guide explains how to propose a new benchmark task to be included in RiverBench.
 
+![Visual guide through the process of creating a new task](../assets/process_propose_task.png)
+
 ## Step 0: What is a benchmark task?
 
 A benchmark task is a description of a concrete benchmarking procedure, for example: measuring deserialization throughput. Each task can be associated with several metrics, for example average throughput, 95th percentile throughput, and memory usage.

@@ -6,6 +6,8 @@ If you have used RiverBench's datasets or tasks to run a benchmark, we **highly 
 
 <div style="text-align: center" markdown><a href="{{ report_results_url() }}" target="_blank" class="md-button md-button--primary"  markdown>:material-star-plus: New benchmark results report</a></div>
 
+![Visual guide through the process of reporting benchmark results](../assets/process_report_results.png)
+
 ## Why report results?
 
 Your benchmark run will be listed on the [RiverBench website](../results/index.md) in a machine- and human-readable format. The results are also presented in detail for each benchmark task (see [example here](../tasks/flat-rdf-store-loading/results.md)). This way, others will be able to easily find your paper, benchmark code, and results.

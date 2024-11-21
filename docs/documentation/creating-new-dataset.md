@@ -4,6 +4,8 @@
 
 This guide explains step-by-step how to propose a new dataset for inclusion in RiverBench. You only need to prepare the dataset and its metadata – the rest of the process will be carried out by a RiverBench admin and automated scripts.
 
+![Visual guide through the process of creating a new dataset](../assets/process_propose_dataset.png)
+
 ## Step 0: Check the requirements
 
 Before you start, have a look at the requirements for new datasets listed below. If your dataset does not meet these requirements, it will not be accepted.
