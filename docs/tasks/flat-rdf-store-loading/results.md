@@ -87,34 +87,3 @@
     }
     ```
 
-
-
-### RiverBench results for task flat-rdf-store-loading with profile flat-triples
-
-<span id="RAlIUpyL3GkZ2Y8szMqnje4Did04Q3Ap7dk1BPh7_QfEw"></span>
-
-!!! info
-
-    :fontawesome-solid-diagram-project: This benchmark result was reported in a Nanopublication: [https://w3id.org/np/RAlIUpyL3GkZ2Y8szMqnje4Did04Q3Ap7dk1BPh7_QfEw](https://w3id.org/np/RAlIUpyL3GkZ2Y8szMqnje4Did04Q3Ap7dk1BPh7_QfEw).
-
-    The documentation here was generated automatically.
-
-
-
-
-- **<abbr title="A description of the subject resource.">Comment</abbr>**: We loaded RDF data into GraphDB.
-- **<abbr title="An entity responsible for making the resource.">Creator</abbr>**:  ([https://orcid.org/0000-0002-2543-9461](https://orcid.org/0000-0002-2543-9461))
-- **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
-- **<abbr title="Date of creation of the resource.">Date Created</abbr>**: `2024-11-28T12:02:11.351Z`
-- **<abbr title="This property specifies the protocol that a benchmark follows">Has followed protocol</abbr>**: 
-    - **Type**:     
-        - <abbr title="The parameters of a performed benchmark (rb:PerformedBenchmark). Instances of this class specify the RiverBench profile, task, systems, and metrics that were used in the benchmark.">Benchmark protocol</abbr> ([rb:BenchmarkProtocol](https://w3id.org/riverbench/schema/metadata#BenchmarkProtocol))
-        - <abbr title="A protocol is used to provide guidelines to execute certain tasks">Protocol</abbr> ([irao:Protocol](http://ontology.ethereal.cz/irao/Protocol))
-    - **<abbr title="Indicates that the subject is using a specific RiverBench benchmark task.">Uses benchmark task</abbr>**: [flat-rdf-store-loading (2.1.0)](https://w3id.org/riverbench/v/2.1.0/tasks/flat-rdf-store-loading)
-    - **<abbr title="Indicates that the subject is using a specific RiverBench benchmark profile.">Uses benchmark profile</abbr>**: [flat-triples (2.1.0)](https://w3id.org/riverbench/v/2.1.0/profiles/flat-triples)
-    - **<abbr title="Indicates a benchmark metric that is used in a benchmark. Values of this property should be specified as the name of the metric, in the exact spelling as in the corresponding task definition. For example: 'Loading throughput'.">Uses metric</abbr>**:     
-        - Load time
-        - Memory usage
-    - **<abbr title="Indicates that the subject is using a specific system (e.g., an RDF store).">Uses system under test</abbr>**: GraphDB (1.0.0)
-- **<abbr title="This property specifies a system that measures a benchmark">Has measuring system</abbr>**: [https://github.com/RiverBench/RiverBench](https://github.com/RiverBench/RiverBench)
-
