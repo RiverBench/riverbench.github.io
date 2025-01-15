@@ -70,7 +70,7 @@ Fill in the fields with the required information, using the instructions embedde
 - [Create a new repository](https://github.com/organizations/RiverBench/repositories/new) for the dataset with name `dataset-[IDENTIFIER]`. In the repository settings:
   - Use the `RiverBench/dataset-template` repository as the template.
   - Mark the repo as public.
-- Add the dataset maintainer as a collaborator to the repository in repo settings.
+- Add the dataset maintainer as a collaborator with "Maintain" role in the repo settings.
 - Reply in the issue to the maintainer with the link to the repository and a link to step 3 of this guide.
 - After the maintainer completes steps 3 and 4, check if the CI passes correctly up to the dataset and documentation update steps (these should fail). If not, try to fix the issue.
 - Go to the [organization secret settings](https://github.com/organizations/RiverBench/settings/secrets/actions). For secrets `PAT_DOC_REPO_HOOKS`, `PAT_MAIN_REPO_HOOKS`, and `PAT_DATASET_CAT_REPO_HOOKS` add repository access for the new dataset repository.
