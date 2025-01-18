@@ -1,0 +1,31 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX ns1: <https://www.openstreetmap.org/meta/>
+PREFIX ns2: <http://www.opengis.net/rdf#>
+PREFIX ns3: <https://osm2rdf.cs.uni-freiburg.de/rdf/geom#>
+PREFIX ns4: <https://osm2rdf.cs.uni-freiburg.de/rdf#>
+PREFIX ns5: <https://www.openstreetmap.org/wiki/Key:surveillance:>
+PREFIX ns6: <https://www.openstreetmap.org/wiki/Key:camera:>
+PREFIX ns7: <https://www.openstreetmap.org/wiki/Key:>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+ns3:osm_node_centroid_10781451260
+        geo:asWKT  "POINT(10.2148633 56.1538978)"^^geo:wktLiteral .
+
+ns3:osm_node_10781451260
+        geo:asWKT  "POINT(10.2148633 56.1538978)"^^geo:wktLiteral .
+
+<https://www.openstreetmap.org/node/10781451260>
+        a                 <https://www.openstreetmap.org/node>;
+        geo:hasCentroid   ns3:osm_node_centroid_10781451260;
+        geo:hasGeometry   ns3:osm_node_10781451260;
+        ns2:sfIntersects  <https://www.openstreetmap.org/relation/11734020> , <https://www.openstreetmap.org/relation/1319935> , <https://www.openstreetmap.org/relation/16463783> , <https://www.openstreetmap.org/relation/16464296> , <https://www.openstreetmap.org/relation/1784663> , <https://www.openstreetmap.org/relation/50046> , <https://www.openstreetmap.org/relation/8312746> , <https://www.openstreetmap.org/way/228359196> , <https://www.openstreetmap.org/way/522107914> , <https://www.openstreetmap.org/way/522107958> , <https://www.openstreetmap.org/way/522108009>;
+        ns4:facts         5;
+        ns3:convex_hull   "POLYGON((10.2148633 56.1538978))"^^geo:wktLiteral;
+        ns3:envelope      "POLYGON((10.2148633 56.1538978,10.2148633 56.1538978,10.2148633 56.1538978,10.2148633 56.1538978,10.2148633 56.1538978))"^^geo:wktLiteral;
+        ns3:obb           "POLYGON((10.2148633 56.1538978))"^^geo:wktLiteral;
+        ns1:timestamp     "2023-04-03T09:58:29"^^xsd:dateTime;
+        ns6:mount         "ceiling";
+        ns6:type          "dome";
+        ns7:man_made      "surveillance";
+        ns7:surveillance  "outdoor";
+        ns5:type          "camera" .
