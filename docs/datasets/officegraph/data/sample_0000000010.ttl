@@ -1,0 +1,11 @@
+PREFIX ic:    <https://interconnectproject.eu/example/>
+PREFIX om:    <http://www.wurvoc.org/vocabularies/om-1.8/>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+
+ic:measurement_R5_157__humidity__0
+        a                        saref:Measurement;
+        saref:hasTimestamp       "2022-03-01T00:00:00"^^xsd:dateTime;
+        saref:hasValue           "23"^^xsd:float;
+        saref:isMeasuredIn       om:percent;
+        saref:relatesToProperty  ic:property_R5_157__humidity_ .
