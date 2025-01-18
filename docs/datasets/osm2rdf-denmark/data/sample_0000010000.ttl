@@ -1,0 +1,34 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX ns1: <http://www.opengis.net/rdf#>
+PREFIX ns2: <https://www.openstreetmap.org/wiki/Key:addr:>
+PREFIX ns3: <https://www.openstreetmap.org/wiki/Key:>
+PREFIX ns4: <https://www.openstreetmap.org/wiki/Key:osak:>
+PREFIX ns5: <https://osm2rdf.cs.uni-freiburg.de/rdf#>
+PREFIX ns6: <https://osm2rdf.cs.uni-freiburg.de/rdf/geom#>
+PREFIX ns7: <https://www.openstreetmap.org/meta/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+ns6:osm_node_centroid_340504816
+        geo:asWKT  "POINT(12.488387 55.660318)"^^geo:wktLiteral .
+
+ns6:osm_node_340504816
+        geo:asWKT  "POINT(12.488387 55.660318)"^^geo:wktLiteral .
+
+<https://www.openstreetmap.org/node/340504816>
+        a                 <https://www.openstreetmap.org/node>;
+        geo:hasCentroid   ns6:osm_node_centroid_340504816;
+        geo:hasGeometry   ns6:osm_node_340504816;
+        ns1:sfIntersects  <https://www.openstreetmap.org/relation/10003540> , <https://www.openstreetmap.org/relation/1320608> , <https://www.openstreetmap.org/relation/16463783> , <https://www.openstreetmap.org/relation/16464296> , <https://www.openstreetmap.org/relation/2192363> , <https://www.openstreetmap.org/relation/50046> , <https://www.openstreetmap.org/relation/5175856> , <https://www.openstreetmap.org/way/154474864> , <https://www.openstreetmap.org/way/87365256>;
+        ns5:facts         8;
+        ns6:convex_hull   "POLYGON((12.488387 55.660318))"^^geo:wktLiteral;
+        ns6:envelope      "POLYGON((12.488387 55.660318,12.488387 55.660318,12.488387 55.660318,12.488387 55.660318,12.488387 55.660318))"^^geo:wktLiteral;
+        ns6:obb           "POLYGON((12.488387 55.660318))"^^geo:wktLiteral;
+        ns7:timestamp     "2022-04-19T00:22:47"^^xsd:dateTime;
+        ns2:city          "Valby";
+        ns2:country       "DK";
+        ns2:housenumber   "4";
+        ns2:municipality  "København";
+        ns2:postcode      "2500";
+        ns2:street        "Flidsagervej";
+        ns4:identifier    "0a3f507a-6ca3-32b8-e044-0003ba298018";
+        ns3:source        "Danmarks Adresseregister" .

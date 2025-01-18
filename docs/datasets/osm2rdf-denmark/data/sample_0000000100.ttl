@@ -1,0 +1,32 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX ns1: <https://www.openstreetmap.org/wiki/Key:depth:>
+PREFIX ns2: <https://osm2rdf.cs.uni-freiburg.de/rdf/geom#>
+PREFIX ns3: <https://www.openstreetmap.org/meta/>
+PREFIX ns4: <http://www.opengis.net/rdf#>
+PREFIX ns5: <https://osm2rdf.cs.uni-freiburg.de/rdf#>
+PREFIX ns6: <https://www.openstreetmap.org/wiki/Key:>
+PREFIX ns7: <https://www.openstreetmap.org/wiki/Key:seamark:>
+PREFIX ns8: <https://www.openstreetmap.org/wiki/Key:seamark:rock:>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+ns2:osm_node_centroid_11826178777
+        geo:asWKT  "POINT(10.177385 54.688974)"^^geo:wktLiteral .
+
+ns2:osm_node_11826178777
+        geo:asWKT  "POINT(10.177385 54.688974)"^^geo:wktLiteral .
+
+<https://www.openstreetmap.org/node/11826178777>
+        a                             <https://www.openstreetmap.org/node>;
+        geo:hasCentroid               ns2:osm_node_centroid_11826178777;
+        geo:hasGeometry               ns2:osm_node_11826178777;
+        ns4:sfIntersects              <https://www.openstreetmap.org/way/650527840> , <https://www.openstreetmap.org/way/1074818066>;
+        ns5:facts                     5;
+        ns2:convex_hull               "POLYGON((10.177385 54.688974))"^^geo:wktLiteral;
+        ns2:envelope                  "POLYGON((10.177385 54.688974,10.177385 54.688974,10.177385 54.688974,10.177385 54.688974,10.177385 54.688974))"^^geo:wktLiteral;
+        ns2:obb                       "POLYGON((10.177385 54.688974))"^^geo:wktLiteral;
+        ns3:timestamp                 "2024-04-17T19:17:31"^^xsd:dateTime;
+        ns6:depth                     "18.4";
+        ns6:depth:exposition          "within_range";
+        ns6:seamark:lnam              "00B442E94141DA01";
+        ns6:seamark:rock:water_level  "submerged";
+        ns6:seamark:type              "rock" .

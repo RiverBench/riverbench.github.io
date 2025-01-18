@@ -1,0 +1,34 @@
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX ns1: <http://www.opengis.net/rdf#>
+PREFIX ns2: <https://www.openstreetmap.org/wiki/Key:addr:>
+PREFIX ns3: <https://www.openstreetmap.org/wiki/Key:>
+PREFIX ns4: <https://osm2rdf.cs.uni-freiburg.de/rdf/geom#>
+PREFIX ns5: <https://osm2rdf.cs.uni-freiburg.de/rdf#>
+PREFIX ns6: <https://www.openstreetmap.org/wiki/Key:osak:>
+PREFIX ns7: <https://www.openstreetmap.org/meta/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+ns4:osm_node_centroid_340514755
+        geo:asWKT  "POINT(12.517909 55.711388)"^^geo:wktLiteral .
+
+ns4:osm_node_340514755
+        geo:asWKT  "POINT(12.517909 55.711388)"^^geo:wktLiteral .
+
+<https://www.openstreetmap.org/node/340514755>
+        a                 <https://www.openstreetmap.org/node>;
+        geo:hasCentroid   ns4:osm_node_centroid_340514755;
+        geo:hasGeometry   ns4:osm_node_340514755;
+        ns1:sfIntersects  <https://www.openstreetmap.org/relation/10003540> , <https://www.openstreetmap.org/relation/1320608> , <https://www.openstreetmap.org/relation/16463783> , <https://www.openstreetmap.org/relation/16464296> , <https://www.openstreetmap.org/relation/2192363> , <https://www.openstreetmap.org/relation/50046> , <https://www.openstreetmap.org/relation/5175856> , <https://www.openstreetmap.org/way/554202667> , <https://www.openstreetmap.org/way/654265285>;
+        ns5:facts         8;
+        ns4:convex_hull   "POLYGON((12.517909 55.711388))"^^geo:wktLiteral;
+        ns4:envelope      "POLYGON((12.517909 55.711388,12.517909 55.711388,12.517909 55.711388,12.517909 55.711388,12.517909 55.711388))"^^geo:wktLiteral;
+        ns4:obb           "POLYGON((12.517909 55.711388))"^^geo:wktLiteral;
+        ns7:timestamp     "2022-04-18T22:36:00"^^xsd:dateTime;
+        ns2:city          "København NV";
+        ns2:country       "DK";
+        ns2:housenumber   "14";
+        ns2:municipality  "København";
+        ns2:postcode      "2400";
+        ns2:street        "Hjortholms Allé";
+        ns6:identifier    "0a3f507a-8dd1-32b8-e044-0003ba298018";
+        ns3:source        "Danmarks Adresseregister" .
