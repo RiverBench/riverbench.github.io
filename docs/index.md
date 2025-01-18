@@ -105,6 +105,7 @@ Not sure where to start? Check out the **[quick start guide](documentation/using
     - [lod-katrina (dev)](https://w3id.org/riverbench/datasets/lod-katrina/dev)
     - [muziekweb (dev)](https://w3id.org/riverbench/datasets/muziekweb/dev)
     - [nanopubs (dev)](https://w3id.org/riverbench/datasets/nanopubs/dev)
+    - [officegraph (dev)](https://w3id.org/riverbench/datasets/officegraph/dev)
     - [openaire-lod (dev)](https://w3id.org/riverbench/datasets/openaire-lod/dev)
     - [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
     - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
