@@ -2,7 +2,7 @@
 
 # Dataset: officegraph (development version)
 
-[OfficeGraph](https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main) is a real-world data of measurements from 444 IoT devices  taken over 11 months. The devices are made up of 17 different sensor models which measure different properties. Data was taken in Dutch 7-story office building and consists of about 90 Million RDF triplets. See also the [paper](https://2024.eswc-conferences.org/wp-content/uploads/2024/04/146640427.pdf).
+[OfficeGraph](https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main) is a real-world data of measurements from 444 IoT devices taken over 11 months. The devices are made up of 17 different sensor models which measure different properties. Data was taken in Dutch 7-story office building and consists of about 90 million RDF triples. See also the [paper](https://doi.org/10.1007/978-3-031-60635-9_6) for more details.
 
 !!! info
 
@@ -51,6 +51,8 @@
 
 ## General information
 
+<div class="annotate" markdown>
+
 - **<abbr title="A name given to the resource.">Title</abbr>**: officegraph _(<abbr title="English">en</abbr>)_
 - **<abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr>**: `officegraph`
 - **<abbr title="The version indicator (name or identifier) of a resource.">Version</abbr>**: `dev`
@@ -62,10 +64,19 @@
     - **<abbr title="A name for some thing.">Name</abbr>**: Adam Skaskiewicz
     - **<abbr title="A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).">Nickname</abbr>**: `adamskas`
 - **<abbr title="A legal document giving official permission to do something with the resource.">License</abbr>**: [https://spdx.org/licenses/CC-BY-4.0](https://spdx.org/licenses/CC-BY-4.0)
-- **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: [https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main](https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main)
+- **<abbr title="A related resource from which the described resource is derived.">Source</abbr>**: 
+    - van der Weerdt, R., de Boer, V., Siebes, R., Groenewold, R., & van Harmelen, F. (2024). OfficeGraph: A Knowledge Graph of Office Building IoT Measurements. The Semantic Web, 94–109. [https://doi.org/10.1007/978-3-031-60635-9_6](https://doi.org/10.1007/978-3-031-60635-9_6) :custom-bibtex:{ .rb-bibtex } (1)
+    - [https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main](https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2025-01-18
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2025-01-18
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2025-01-19
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [officegraph (dev)](https://w3id.org/riverbench/datasets/officegraph/dev)
+
+</div>
+
+1. BibTeX citation:
+    ``` { .bibtex .rb-wrap-code }
+    @inbook{van_der_Weerdt_2024, title={OfficeGraph: A Knowledge Graph of Office Building IoT Measurements}, ISBN={9783031606359}, ISSN={1611-3349}, url={http://dx.doi.org/10.1007/978-3-031-60635-9_6}, DOI={10.1007/978-3-031-60635-9_6}, booktitle={The Semantic Web}, publisher={Springer Nature Switzerland}, author={van der Weerdt, Roderick and de Boer, Victor and Siebes, Ronald and Groenewold, Ronnie and van Harmelen, Frank}, year={2024}, pages={94–109} }
+    ```
 
 ## Technical metadata
 
@@ -80,12 +91,15 @@
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> ([stax:flatTripleStream](https://w3id.org/stax/ontology#flatTripleStream))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 14,930,478
 - **<abbr title="Indicates how the stream was split into elements.">Has stream element split</abbr>**: 
-    - **Type**: <abbr title="The elements correspond to different instants or intervals of time.">Stream elements split by time</abbr> ([rb:TimeStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit))
+    - **Type**:     
+        - <abbr title="The elements correspond to different instants or intervals of time.">Stream elements split by time</abbr> ([rb:TimeStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit))
+        - <abbr title="The elements correspond to different topics/subjects in the dataset.">Stream elements split by topic</abbr> ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each stream element corresponds to one set of measurements from the weather station. Data was collected every 10 seconds. _(<abbr title="English">en</abbr>)_
     - **<abbr title="The IRI of the property that is used in the stream to denote time at which the event occured.">Has temporal property</abbr>**: [http://www.w3.org/ns/sosa/resultTime](http://www.w3.org/ns/sosa/resultTime)
+    - **<abbr title="Indicates the subject node in an RDF subject graph stream, using SHACL. The value of this property should be a SHACL sh:NodeShape with a specified target (e.g., sh:targetSubjectsOf). Only the target will be considered, restrictions on the shape will be ignored.  This property is required for RDF subject graph streams. Only sh:targetClass, sh:targetSubjectsOf, and sh:targetObjectsOf are allowed as the target specification.  This property can be specified multiple times. The different target specifications will then be treated as alternatives.">Has subject shape</abbr>**:     
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: Target instances of any class. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="Links a shape to a property, indicating that all subjects of triples that have the given property as their predicate must conform to the shape.">Target subjects of</abbr>**: Type ([rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type))
 - **<abbr title="A vocabulary that is used in the dataset.">Uses vocabulary</abbr>**: 
-    - [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#)
-    - [http://www.wikidata.org/entity/](http://www.wikidata.org/entity/)
     - [http://www.wurvoc.org/vocabularies/om-1.8/](http://www.wurvoc.org/vocabularies/om-1.8/)
     - [https://interconnectproject.eu/example/](https://interconnectproject.eu/example/)
     - [https://saref.etsi.org/core/](https://saref.etsi.org/core/)
@@ -373,12 +387,12 @@ The full metadata of all distributions can be found below.
 - **<abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr>**: 
     - **RDF stream type usage (1)**    
         - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
-        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs. Each graph corresponds to one set of observations from the weather station's sensors. _(<abbr title="English">en</abbr>)_
-        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> ([stax:graphStream](https://w3id.org/stax/ontology#graphStream))
-    - **RDF stream type usage (2)**    
-        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
         - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a flattened stream of triples. _(<abbr title="English">en</abbr>)_
         - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> ([stax:flatTripleStream](https://w3id.org/stax/ontology#flatTripleStream))
+    - **RDF stream type usage (2)**    
+        - **Type**: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> ([stax:RdfStreamTypeUsage](https://w3id.org/stax/ontology#RdfStreamTypeUsage))
+        - **<abbr title="A description of the subject resource.">Comment</abbr>**: The dataset can be viewed as a stream of graphs. Each graph corresponds to one set of observations from the weather station's sensors. _(<abbr title="English">en</abbr>)_
+        - **<abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr>**: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> ([stax:graphStream](https://w3id.org/stax/ontology#graphStream))
 - **<abbr title="Number of elements in the stream">Has stream element count</abbr>**: 14,930,478
 - **<abbr title="The size of a distribution in bytes.">Byte size</abbr>**: 285.0 MB
 - **<abbr title="The media type of the distribution as defined by IANA">Media type</abbr>**: application/x-jelly-rdf
