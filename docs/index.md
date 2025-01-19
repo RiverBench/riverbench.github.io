@@ -107,6 +107,7 @@ Not sure where to start? Check out the **[quick start guide](documentation/using
     - [nanopubs (dev)](https://w3id.org/riverbench/datasets/nanopubs/dev)
     - [officegraph (dev)](https://w3id.org/riverbench/datasets/officegraph/dev)
     - [openaire-lod (dev)](https://w3id.org/riverbench/datasets/openaire-lod/dev)
+    - [osm2rdf-denmark (dev)](https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev)
     - [politiquices (dev)](https://w3id.org/riverbench/datasets/politiquices/dev)
     - [yago-annotated-facts (dev)](https://w3id.org/riverbench/datasets/yago-annotated-facts/dev)
 
