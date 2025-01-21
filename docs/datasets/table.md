@@ -12,6 +12,6 @@ Dataset | <abbr title="Stream type">El. type</abbr> | <abbr title="Stream elemen
 [`nanopubs`](nanopubs/index.md) | [dataset](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream) | 5,000,000 | :material-close: | :material-close: | :material-close:
 [`officegraph`](officegraph/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 14,930,478 | :material-close: | :material-close: | :material-close:
 [`openaire-lod`](openaire-lod/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 2,000,000 | :material-close: | :material-close: | :material-close:
-[`osm2rdf-denmark`](osm2rdf-denmark/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 2,030,923 | :material-close: | :material-close: | :material-close:
+[`osm2rdf-denmark`](osm2rdf-denmark/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 2,030,923 | :material-close: | :material-close: | :material-close:
 [`politiquices`](politiquices/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 17,773 | :material-close: | :material-close: | :material-close:
 [`yago-annotated-facts`](yago-annotated-facts/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 617,768 | :material-check: | :material-close: | :material-close:
