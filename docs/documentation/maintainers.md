@@ -19,7 +19,7 @@ In alphabetical order:
 - [Jean-Paul Calbimonte](https://jeanpi.org/), University of Applied Sciences and Arts Western Switzerland (HES-SO), Switzerland. [:octicons-mark-github-16:&nbsp;jpcik](https://github.com/jpcik)
 - [Danh Le-Phuoc](https://danhlephuoc.info/), Technische Universität Berlin, Germany. [:octicons-mark-github-16:&nbsp;danhlephuoc](https://github.com/danhlephuoc)
 - [Anh Le-Tuan](https://orcid.org/0000-0003-2458-607X), Technische Universität Berlin, Germany. [:octicons-mark-github-16:&nbsp;anhlt18vn](https://github.com/anhlt18vn)
-- [Piotr Sowiński](https://ostrzyciel.eu), Warsaw University of Technology, Poland. [:octicons-mark-github-16:&nbsp;Ostrzyciel](https://github.com/Ostrzyciel)
+- [Piotr Sowiński](https://ostrzyciel.eu), [NeverBlink](https://neverblink.eu), Poland. [:octicons-mark-github-16:&nbsp;Ostrzyciel](https://github.com/Ostrzyciel)
 
 ## Technical administrators
 
