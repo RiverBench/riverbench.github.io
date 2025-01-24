@@ -3,6 +3,9 @@ PREFIX om:    <http://www.wurvoc.org/vocabularies/om-1.8/>
 PREFIX saref: <https://saref.etsi.org/core/>
 PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 
+ic:property_R5_73__co2_
+        a       ic:CO2Level .
+
 ic:measurement_R5_73__co2__1
         a                        saref:Measurement;
         saref:hasTimestamp       "2022-03-01T00:31:00"^^xsd:dateTime;
