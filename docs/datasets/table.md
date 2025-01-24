@@ -10,7 +10,7 @@ Dataset | <abbr title="Stream type">El. type</abbr> | <abbr title="Stream elemen
 [`lod-katrina`](lod-katrina/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 5,893,763 | :material-close: | :material-close: | :material-close:
 [`muziekweb`](muziekweb/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 2,450,357 | :material-close: | :material-close: | :material-close:
 [`nanopubs`](nanopubs/index.md) | [dataset](https://w3id.org/stax/dev/taxonomy#rdf-dataset-stream) | 5,000,000 | :material-close: | :material-close: | :material-close:
-[`officegraph`](officegraph/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 14,930,478 | :material-close: | :material-close: | :material-close:
+[`officegraph`](officegraph/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 14,930,478 | :material-close: | :material-close: | :material-close:
 [`openaire-lod`](openaire-lod/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 2,000,000 | :material-close: | :material-close: | :material-close:
 [`osm2rdf-denmark`](osm2rdf-denmark/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 2,030,923 | :material-close: | :material-close: | :material-close:
 [`politiquices`](politiquices/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 17,773 | :material-close: | :material-close: | :material-close:
