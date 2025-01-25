@@ -6,7 +6,7 @@
 
 The elements in the dataset are ordered from oldest to newest by the measurement time (saref:hasTimestamp predicate).
 
-Additional data such as data about devices taking measurements and rooms in the building as well as copy of this dataset can be found [here](https://zenodo.org/records/14690082).
+Additional data such as data about devices taking measurements and rooms in the building as well as copy of this dataset can be found [here](https://doi.org/10.5281/zenodo.14690081).
 
 !!! info
 
@@ -89,7 +89,7 @@ Additional data such as data about devices taking measurements and rooms in the 
     - van der Weerdt, R., de Boer, V., Siebes, R., Groenewold, R., & van Harmelen, F. (2024). OfficeGraph: A Knowledge Graph of Office Building IoT Measurements. The Semantic Web, 94–109. [https://doi.org/10.1007/978-3-031-60635-9_6](https://doi.org/10.1007/978-3-031-60635-9_6) :custom-bibtex:{ .rb-bibtex } (1)
     - [https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main](https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main)
 - **<abbr title="Date of formal issuance of the resource.">Date Issued</abbr>**: 2025-01-18
-- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2025-01-24
+- **<abbr title="Date on which the resource was changed.">Date Modified</abbr>**: 2025-01-25
 - **<abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr>**: [officegraph (dev)](https://w3id.org/riverbench/datasets/officegraph/dev)
 
 </div>
