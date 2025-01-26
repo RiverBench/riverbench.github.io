@@ -12,6 +12,7 @@ plugins:
 
 hooks:
   - hooks/fix_title.py
+  - hooks/embed_jsonld.py
 
 markdown_extensions:
   - attr_list
