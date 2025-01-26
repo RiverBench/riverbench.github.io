@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/v/dev/tasks/flat-serialization-throughput",
+    "@type": "https://w3id.org/riverbench/schema/metadata#Task",
+    "alternateName": {
+        "@language": "en",
+        "@value": "Flat RDF serialization throughput"
+    },
+    "creator": {
+        "@id": "_:b0",
+        "@type": "Person",
+        "alternateName": "Ostrzyciel",
+        "name": "Piotr Sowiński",
+        "sameAs": [
+            "https://orcid.org/0000-0002-2543-9461",
+            "https://github.com/Ostrzyciel"
+        ]
+    },
+    "description": {
+        "@language": "en",
+        "@value": "A benchmark task measuring the throughput (in statements per second) of serializing a flat sequence of RDF triples or RDF quads."
+    },
+    "identifier": "flat-serialization-throughput",
+    "includedInDataCatalog": {
+        "@id": "https://w3id.org/riverbench/"
+    },
+    "name": "RiverBench task: Some(flat-serialization-throughput)",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "version": "dev"
+}
