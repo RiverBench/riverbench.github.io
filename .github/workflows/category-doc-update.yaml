@@ -40,8 +40,9 @@ jobs:
 
           # Profiles
           mkdir -p "../../profiles" || true
-          rm -f ../../profiles/${CATEGORY_ID}-*.md || true
+          rm -f ../../profiles/${CATEGORY_ID}-* || true
           mv ./profiles/*.md "../../profiles" || true
+          mv ./profiles/*.jsonld "../../profiles" || true
           rm -r ./profiles
 
           # Tasks
