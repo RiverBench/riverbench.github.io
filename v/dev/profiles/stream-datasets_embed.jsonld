@@ -30,7 +30,7 @@
     "includedInDataCatalog": {
         "@id": "https://w3id.org/riverbench/"
     },
-    "name": "RiverBench profile: Some(stream-datasets)",
+    "name": "RiverBench profile: stream-datasets",
     "publisher": {
         "@id": "https://w3id.org/riverbench",
         "@type": "Organization",

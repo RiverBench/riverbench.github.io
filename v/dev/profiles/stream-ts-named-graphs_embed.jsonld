@@ -27,7 +27,7 @@
     "includedInDataCatalog": {
         "@id": "https://w3id.org/riverbench/"
     },
-    "name": "RiverBench profile: Some(stream-ts-named-graphs)",
+    "name": "RiverBench profile: stream-ts-named-graphs",
     "publisher": {
         "@id": "https://w3id.org/riverbench",
         "@type": "Organization",

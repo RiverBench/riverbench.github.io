@@ -54,7 +54,7 @@
     "includedInDataCatalog": {
         "@id": "https://w3id.org/riverbench/"
     },
-    "name": "RiverBench profile: Some(flat-triples)",
+    "name": "RiverBench profile: flat-triples",
     "publisher": {
         "@id": "https://w3id.org/riverbench",
         "@type": "Organization",
