@@ -26,13 +26,6 @@
         {
             "@id": "_:b6",
             "@type": "Person",
-            "description": "Dataset creator",
-            "name": "David Soares Batista",
-            "sameAs": "https://www.politiquices.pt/about"
-        },
-        {
-            "@id": "_:b17",
-            "@type": "Person",
             "alternateName": "Ostrzyciel",
             "description": "Processing the dataset",
             "name": "Piotr Sowiński",
@@ -40,6 +33,13 @@
                 "https://orcid.org/0000-0002-2543-9461",
                 "https://github.com/Ostrzyciel"
             ]
+        },
+        {
+            "@id": "_:b17",
+            "@type": "Person",
+            "description": "Dataset creator",
+            "name": "David Soares Batista",
+            "sameAs": "https://www.politiquices.pt/about"
         }
     ],
     "dateModified": {
@@ -152,7 +152,7 @@
         "@type": "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "license": "https://spdx.org/licenses/CC-BY-4.0",
-    "name": "RiverBench dataset: Some(politiquices)",
+    "name": "RiverBench dataset: politiquices",
     "publisher": {
         "@id": "https://w3id.org/riverbench",
         "@type": "Organization",
