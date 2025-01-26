@@ -30,7 +30,7 @@
     "includedInDataCatalog": {
         "@id": "https://w3id.org/riverbench/"
     },
-    "name": "RiverBench profile: Some(flat-quads)",
+    "name": "RiverBench profile: flat-quads",
     "publisher": {
         "@id": "https://w3id.org/riverbench",
         "@type": "Organization",
