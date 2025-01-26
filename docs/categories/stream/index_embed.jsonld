@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/v/dev/categories/stream",
+    "@type": "https://w3id.org/riverbench/schema/metadata#Category",
+    "alternateName": {
+        "@language": "en",
+        "@value": "Grouped RDF streaming"
+    },
+    "description": {
+        "@language": "en",
+        "@value": "Benchmark category of generic tasks involving grouped RDF streams (elements are either RDF graphs or RDF datasets). This includes streaming throughput and latency benchmarks."
+    },
+    "identifier": "stream",
+    "includedInDataCatalog": {
+        "@id": "https://w3id.org/riverbench/"
+    },
+    "name": "RiverBench category: Some(stream)",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "version": "dev"
+}
