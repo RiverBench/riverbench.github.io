@@ -26,7 +26,7 @@
     "includedInDataCatalog": {
         "@id": "https://w3id.org/riverbench/"
     },
-    "name": "RiverBench task: Some(stream-throughput-end-to-end)",
+    "name": "RiverBench task: stream-throughput-end-to-end",
     "publisher": {
         "@id": "https://w3id.org/riverbench",
         "@type": "Organization",
