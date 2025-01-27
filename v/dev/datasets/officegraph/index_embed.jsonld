@@ -1,0 +1,338 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/datasets/officegraph/dev",
+    "@type": [
+        "Dataset",
+        "https://w3id.org/riverbench/schema/metadata#Dataset"
+    ],
+    "about": [
+        {
+            "@id": "http://eurovoc.europa.eu/6030"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/c_4b5a18f8"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/c_b12a760a"
+        }
+    ],
+    "alternateName": {
+        "@language": "en",
+        "@value": "OfficeGraph"
+    },
+    "creator": [
+        {
+            "@id": "_:b17",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Ronnie Groenewold"
+        },
+        {
+            "@id": "_:b16",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Frank van Harmelen"
+        },
+        {
+            "@id": "_:b10",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Roderick van der Weerdt"
+        },
+        {
+            "@id": "_:b65",
+            "@type": "Person",
+            "alternateName": "adamskas",
+            "description": {
+                "@language": "en",
+                "@value": "Author of benchmark dataset"
+            },
+            "name": "Adam Skaskiewicz"
+        },
+        {
+            "@id": "_:b1",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Victor de Boer"
+        },
+        {
+            "@id": "_:b4",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Ronald Siebes"
+        }
+    ],
+    "dateModified": {
+        "@value": "2025-01-27",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "datePublished": {
+        "@value": "2025-01-18",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description": {
+        "@language": "en",
+        "@value": "[OfficeGraph](https://github.com/RoderickvanderWeerdt/OfficeGraph/tree/main) is a real-world data of measurements from 444 IoT devices taken over 11 months. The devices are made up of 17 different sensor models which measure different properties. Data was taken in Dutch 7-story office building and consists of about 90 million RDF triples. See also the [paper](https://doi.org/10.1007/978-3-031-60635-9_6) for more details.\n\nThe elements in the dataset are ordered from oldest to newest by the measurement time (saref:hasTimestamp predicate).\n\nAdditional data such as data about devices taking measurements and rooms in the building as well as copy of this dataset can be found [here](https://doi.org/10.5281/zenodo.14690081)."
+    },
+    "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#stream-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements stream distribution",
+            "contentSize": {
+                "@value": "2628592",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/stream_100K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#flat-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements flat distribution",
+            "contentSize": {
+                "@value": "323470",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_10K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#jelly-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "1855130",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#jelly-10m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10M elements Jelly distribution",
+            "contentSize": {
+                "@value": "233153553",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/jelly_10M.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-10m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#flat-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements flat distribution",
+            "contentSize": {
+                "@value": "2937669",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_100K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#flat-10m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10M elements flat distribution",
+            "contentSize": {
+                "@value": "352048823",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_10M.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-10m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#flat-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements flat distribution",
+            "contentSize": {
+                "@value": "32930566",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_1M.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#stream-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements stream distribution",
+            "contentSize": {
+                "@value": "296628",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/stream_10K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#stream-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements stream distribution",
+            "contentSize": {
+                "@value": "29117543",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/stream_1M.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#flat-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full flat distribution",
+            "contentSize": {
+                "@value": "530829777",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_full.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#jelly-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly distribution",
+            "contentSize": {
+                "@value": "184965",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/jelly_10K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#jelly-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full Jelly distribution",
+            "contentSize": {
+                "@value": "354683096",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/jelly_full.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#jelly-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements Jelly distribution",
+            "contentSize": {
+                "@value": "21549000",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/jelly_1M.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#stream-10m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10M elements stream distribution",
+            "contentSize": {
+                "@value": "307248424",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/stream_10M.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-10m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#stream-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full stream distribution",
+            "contentSize": {
+                "@value": "462592440",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/stream_full.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-full"
+        }
+    ],
+    "identifier": "officegraph",
+    "isAccessibleForFree": {
+        "@value": "true",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "license": "https://spdx.org/licenses/CC-BY-4.0",
+    "name": "RiverBench dataset: officegraph",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "url": "https://w3id.org/riverbench/datasets/officegraph/dev",
+    "version": "dev"
+}
