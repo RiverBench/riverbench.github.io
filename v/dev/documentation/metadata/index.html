@@ -611,6 +611,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#embedded-json-ld-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Embedded JSON-LD metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#metadata-dumps" class="md-nav__link">
     <span class="md-ellipsis">
       Metadata dumps
@@ -2915,6 +2924,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#embedded-json-ld-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Embedded JSON-LD metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#metadata-dumps" class="md-nav__link">
     <span class="md-ellipsis">
       Metadata dumps
@@ -3000,6 +3018,9 @@
 <li><a href="https://w3id.org/jelly">Jelly</a> (<code>.jelly</code>, content type <code>application/x-jelly-rdf</code>)</li>
 </ul>
 <p><em>If you are curious, you can find the rules that make this work <a href="https://github.com/perma-id/w3id.org/tree/master/riverbench">here</a>.</em></p>
+<h2 id="embedded-json-ld-metadata">Embedded JSON-LD metadata</h2>
+<p>The HTML pages of RiverBench resources include embedded JSON-LD metadata in the <code>&lt;script type="application/ld+json"&gt;</code> tag. This metadata is used by search engines and other tools to understand the content of the page.</p>
+<p>This metadata does not include all the information, and it also uses <a href="https://schema.org/">schema.org</a> terms instead of DCAT / DCMI terms. The translation from DCAT is done automatically, roughly using <a href="https://www.w3.org/wiki/WebSchemas/Datasets#Mappings">this mapping</a>.</p>
 <h2 id="metadata-dumps">Metadata dumps</h2>
 <p>Starting from RiverBench version 2.0.0, the entire metadata of RiverBench is published in easily accessible dumps. The dump for a given RiverBench release can be downladed from the <strong><a href="https://w3id.org/riverbench/">main page of RiverBench</a></strong>. The links to download the dump are in the "Info" box near the top of the page.</p>
 <p>The dumps can also be downloaded directly using the following URLs, where <code>{version}</code> is the version tag of the suite release (e.g., <code>dev</code> or <code>2.0.0</code>):</p>
