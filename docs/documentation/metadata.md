@@ -33,6 +33,12 @@ The following metadata formats are supported:
 
 *If you are curious, you can find the rules that make this work [here](https://github.com/perma-id/w3id.org/tree/master/riverbench).*
 
+## Embedded JSON-LD metadata
+
+The HTML pages of RiverBench resources include embedded JSON-LD metadata in the `<script type="application/ld+json">` tag. This metadata is used by search engines and other tools to understand the content of the page.
+
+This metadata does not include all the information, and it also uses [schema.org](https://schema.org/) terms instead of DCAT / DCMI terms. The translation from DCAT is done automatically, roughly using [this mapping](https://www.w3.org/wiki/WebSchemas/Datasets#Mappings).
+
 ## Metadata dumps
 
 Starting from RiverBench version 2.0.0, the entire metadata of RiverBench is published in easily accessible dumps. The dump for a given RiverBench release can be downladed from the **[main page of RiverBench](https://w3id.org/riverbench/)**. The links to download the dump are in the "Info" box near the top of the page.
