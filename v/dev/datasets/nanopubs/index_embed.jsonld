@@ -1,0 +1,269 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev",
+    "@type": [
+        "https://w3id.org/riverbench/schema/metadata#Dataset",
+        "Dataset"
+    ],
+    "about": [
+        {
+            "@id": "http://eurovoc.europa.eu/c_99a79cea"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/c_5ea6e5c4"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/c_40f54e0c"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/6306"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/2924"
+        }
+    ],
+    "alternateName": {
+        "@language": "en",
+        "@value": "Nanopublications"
+    },
+    "creator": [
+        {
+            "@id": "_:b32",
+            "@type": "Person",
+            "name": "Authors of the included nanopublications (cited within the dataset)"
+        },
+        {
+            "@id": "_:b41",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Author of the [nanopublications dump](https://zenodo.org/record/1213293)"
+            },
+            "name": "Tobias Kuhn",
+            "sameAs": "https://orcid.org/0000-0002-1267-0234"
+        },
+        {
+            "@id": "_:b42",
+            "@type": "Person",
+            "alternateName": "Ostrzyciel",
+            "name": "Piotr Sowiński",
+            "sameAs": [
+                "https://orcid.org/0000-0002-2543-9461",
+                "https://github.com/Ostrzyciel"
+            ]
+        }
+    ],
+    "dateModified": {
+        "@value": "2026-06-20",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "datePublished": {
+        "@value": "2023-04-30",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description": {
+        "@language": "en",
+        "@value": "Nanopublications are small units of publishable information, used for scientific results and more. This dataset is based on a subset of [a dump of all available nanopublications](https://zenodo.org/record/1213293) as of April 5, 2018. Only the first 5M of freely-licensed nanopubs were included. Each nanopub consists of several RDF graphs and thus is an RDF dataset. The included data is primarily from the biomedical domain. More information: [paper](https://arxiv.org/abs/1809.06532), [website](https://nanopub.net/)."
+    },
+    "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#stream-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements stream distribution",
+            "contentSize": {
+                "@value": "25787803",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_100K.tar.gz",
+            "encodingFormat": "application/trig",
+            "identifier": "stream-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#stream-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full stream distribution",
+            "contentSize": {
+                "@value": "1028667631",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_full.tar.gz",
+            "encodingFormat": "application/trig",
+            "identifier": "stream-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#stream-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements stream distribution",
+            "contentSize": {
+                "@value": "280095190",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_1M.tar.gz",
+            "encodingFormat": "application/trig",
+            "identifier": "stream-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly distribution",
+            "contentSize": {
+                "@value": "1446209923",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_full.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "27374627",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#flat-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full flat distribution",
+            "contentSize": {
+                "@value": "1762319898",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_full.nq.gz",
+            "encodingFormat": "application/n-quads",
+            "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#flat-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements flat distribution",
+            "contentSize": {
+                "@value": "36336125",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_100K.nq.gz",
+            "encodingFormat": "application/n-quads",
+            "identifier": "flat-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements Jelly distribution",
+            "contentSize": {
+                "@value": "313609860",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_1M.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#stream-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements stream distribution",
+            "contentSize": {
+                "@value": "2566942",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/stream_10K.tar.gz",
+            "encodingFormat": "application/trig",
+            "identifier": "stream-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#flat-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements flat distribution",
+            "contentSize": {
+                "@value": "3501149",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_10K.nq.gz",
+            "encodingFormat": "application/n-quads",
+            "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#flat-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements flat distribution",
+            "contentSize": {
+                "@value": "393442156",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_1M.nq.gz",
+            "encodingFormat": "application/n-quads",
+            "identifier": "flat-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly distribution",
+            "contentSize": {
+                "@value": "2618147",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_10K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-10k"
+        }
+    ],
+    "identifier": "nanopubs",
+    "isAccessibleForFree": {
+        "@value": "true",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "license": "https://spdx.org/licenses/CC-BY-SA-3.0",
+    "name": "RiverBench dataset: nanopubs",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "url": "https://w3id.org/riverbench/datasets/nanopubs/dev",
+    "version": "dev"
+}
