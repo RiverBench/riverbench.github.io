@@ -1,0 +1,213 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev",
+    "@type": [
+        "Dataset",
+        "https://w3id.org/riverbench/schema/metadata#Dataset"
+    ],
+    "about": [
+        {
+            "@id": "http://eurovoc.europa.eu/c_7a168de0"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/6030"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/1892"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/c_b12a760a"
+        }
+    ],
+    "alternateName": {
+        "@language": "en",
+        "@value": "ASSIST-IoT weather (graphs variant)"
+    },
+    "creator": [
+        {
+            "@id": "_:b26",
+            "@type": "Person",
+            "alternateName": "Ostrzyciel",
+            "name": "Piotr Sowiński",
+            "sameAs": [
+                "https://orcid.org/0000-0002-2543-9461",
+                "https://github.com/Ostrzyciel"
+            ]
+        },
+        {
+            "@id": "_:b43",
+            "@type": "Person",
+            "description": "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957258.",
+            "name": "ASSIST-IoT Horizon 2020 project",
+            "sameAs": "https://assist-iot.eu/"
+        }
+    ],
+    "dateModified": {
+        "@value": "2026-06-20",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "datePublished": {
+        "@value": "2023-05-04",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description": {
+        "@language": "en",
+        "@value": "This is a timestamped stream of weather data collected with a Davis Vantage Pro 2 weather station installed on the building of the [Systems Research Institute, Polish Academy of Sciences](https://www.ibspan.waw.pl/en/home/). The data was collected during the [ASSIST-IoT Horizon 2020 project](https://assist-iot.eu/). The station measured several different weather parameters and transmitted them in real time at regular intervals. The measurements have rich annotations with the [SOSA/SSN](https://www.w3.org/TR/vocab-ssn/) and [OM 2.0](http://www.ontology-of-units-of-measure.org/page/om-2) ontologies. The stream is very regular and the elements only differ by numeric values and timestamps. This is the graph variant, which is a timestamped graph stream compatible with the RSP Data Model.\n    \nThe dataset is a real application of RDF streaming (originally streamed over MQTT), with much richer annotations than [citypulse-traffic](https://w3id.org/riverbench/datasets/citypulse-traffic). On the other hand, it is perfectly regular, with no differences in structure between stream elements."
+    },
+    "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#flat-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements flat distribution",
+            "contentSize": {
+                "@value": "50232227",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_100K.nq.gz",
+            "encodingFormat": "application/n-quads",
+            "identifier": "flat-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#flat-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements flat distribution",
+            "contentSize": {
+                "@value": "5027616",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_10K.nq.gz",
+            "encodingFormat": "application/n-quads",
+            "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#stream-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements stream distribution",
+            "contentSize": {
+                "@value": "13864494",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_100K.tar.gz",
+            "encodingFormat": "application/trig",
+            "identifier": "stream-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#jelly-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly distribution",
+            "contentSize": {
+                "@value": "703884",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_10K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#stream-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements stream distribution",
+            "contentSize": {
+                "@value": "1397218",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_10K.tar.gz",
+            "encodingFormat": "application/trig",
+            "identifier": "stream-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#flat-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full flat distribution",
+            "contentSize": {
+                "@value": "352295991",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/flat_full.nq.gz",
+            "encodingFormat": "application/n-quads",
+            "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#jelly-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly distribution",
+            "contentSize": {
+                "@value": "48833267",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_full.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#jelly-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "6954655",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev#stream-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full stream distribution",
+            "contentSize": {
+                "@value": "97278256",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev/files/stream_full.tar.gz",
+            "encodingFormat": "application/trig",
+            "identifier": "stream-full"
+        }
+    ],
+    "identifier": "assist-iot-weather-graphs",
+    "isAccessibleForFree": {
+        "@value": "true",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "license": "https://spdx.org/licenses/CC-BY-4.0",
+    "name": "RiverBench dataset: assist-iot-weather-graphs",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "url": "https://w3id.org/riverbench/datasets/assist-iot-weather-graphs/dev",
+    "version": "dev"
+}
