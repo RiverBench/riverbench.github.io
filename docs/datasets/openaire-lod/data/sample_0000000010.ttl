@@ -3,7 +3,7 @@
         <http://lod.openaire.eu/vocab/affiliation>
                 <http://lod.openaire.eu/data/organization/grid________::14fc4b9a5bf19a1d373537a2a3c16e44>;
         <http://lod.openaire.eu/vocab/author>
-                "Padma Adriana" , "Zaki Baridwan" , "Rosidi Rosidi";
+                "Rosidi Rosidi" , "Padma Adriana" , "Zaki Baridwan";
         <http://lod.openaire.eu/vocab/bestaccessright>
                 "OPEN";
         <http://lod.openaire.eu/vocab/collectedfrom>
@@ -27,6 +27,6 @@
         <http://lod.openaire.eu/vocab/similarity>
                 <http://lod.openaire.eu/data/result/doiboost____::c2c2ee8a8be966c01a566cb71364c5c2>;
         <http://lod.openaire.eu/vocab/subject>
-                "Ethical decision" , "Social psychology" , "education" , "education.field_of_study" , "Psychology" , "Population" , "Client relationship";
+                "Ethical decision" , "Client relationship" , "Population" , "education.field_of_study" , "education" , "Social psychology" , "Psychology";
         <http://lod.openaire.eu/vocab/title>
                 "FAKTOR INDIVIDU DAN FAKTOR SITUASIONAL : DETERMINAN PEMBUATAN KEPUTUSAN ETIS KONSULTAN PAJAK" .

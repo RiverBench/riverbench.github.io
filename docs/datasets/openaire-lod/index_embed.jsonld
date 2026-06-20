@@ -1,0 +1,280 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev",
+    "@type": [
+        "https://w3id.org/riverbench/schema/metadata#Dataset",
+        "Dataset"
+    ],
+    "about": [
+        {
+            "@id": "http://eurovoc.europa.eu/c_99a79cea"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/6306"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/2924"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/4864"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/2896"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/c_5ea6e5c4"
+        }
+    ],
+    "alternateName": {
+        "@language": "en",
+        "@value": "OpenAIRE LOD graph"
+    },
+    "creator": [
+        {
+            "@id": "_:b42",
+            "@type": "Person",
+            "name": "George Papastefanatos",
+            "sameAs": "https://orcid.org/0000-0002-9273-9843"
+        },
+        {
+            "@id": "_:b68",
+            "@type": "Person",
+            "name": "Christoph Lange"
+        },
+        {
+            "@id": "_:b37",
+            "@type": "Person",
+            "name": "Giorgos Alexiou",
+            "sameAs": "https://orcid.org/0000-0003-2244-4916"
+        },
+        {
+            "@id": "_:b67",
+            "@type": "Person",
+            "alternateName": "Ostrzyciel",
+            "description": "Processing the dataset for RiverBench",
+            "name": "Piotr Sowiński",
+            "sameAs": [
+                "https://orcid.org/0000-0002-2543-9461",
+                "https://github.com/Ostrzyciel"
+            ]
+        },
+        {
+            "@id": "_:b26",
+            "@type": "Person",
+            "name": "Sahar Vahdati"
+        }
+    ],
+    "dateModified": {
+        "@value": "2026-06-20",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "datePublished": {
+        "@value": "2024-07-12",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description": {
+        "@language": "en",
+        "@value": "[OpenAIRE LOD](https://web.archive.org/web/20201230151925/http://lod.openaire.eu/documentation) was a service that exported data from the OpenAIRE information space in RDF format, using Linked Open Data principles. The data was exported to Zenodo, with the [last dump dated at March 3, 2021](https://zenodo.org/records/4587369). This dataset consists of the \"result\" subset of the OpenAIRE LOD graph, including scientific results such as publications.\n\nOnly records that were valid RDF and had the \"dateofcollection\" property were included here. They were then sorted by the date of collection in ascending order. The first 2 (out of 28) million records that were obtained in this way are a part of this dataset.\n\nSee also [the project documentation](https://web.archive.org/web/20201230151925/http://lod.openaire.eu/documentation) and [the used ontology](https://web.archive.org/web/20201230151925/http://lod.openaire.eu/vocab).\n"
+    },
+    "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#flat-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements flat distribution",
+            "contentSize": {
+                "@value": "3530081",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_10K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#jelly-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly distribution",
+            "contentSize": {
+                "@value": "3042839",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_10K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#jelly-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "44688943",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#flat-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements flat distribution",
+            "contentSize": {
+                "@value": "50434541",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_100K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#flat-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements flat distribution",
+            "contentSize": {
+                "@value": "1221441333",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_1M.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#stream-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full stream distribution",
+            "contentSize": {
+                "@value": "1685701117",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/stream_full.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#stream-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements stream distribution",
+            "contentSize": {
+                "@value": "3121811",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/stream_10K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#stream-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements stream distribution",
+            "contentSize": {
+                "@value": "44910063",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/stream_100K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#flat-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full flat distribution",
+            "contentSize": {
+                "@value": "1839812868",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/flat_full.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#jelly-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements Jelly distribution",
+            "contentSize": {
+                "@value": "1240875450",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_1M.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#stream-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements stream distribution",
+            "contentSize": {
+                "@value": "1150751190",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/stream_1M.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/openaire-lod/dev#jelly-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly distribution",
+            "contentSize": {
+                "@value": "1747949455",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/openaire-lod/dev/files/jelly_full.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-full"
+        }
+    ],
+    "identifier": "openaire-lod",
+    "isAccessibleForFree": {
+        "@value": "true",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "license": "https://spdx.org/licenses/CC0-1.0",
+    "name": "RiverBench dataset: openaire-lod",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "url": "https://w3id.org/riverbench/datasets/openaire-lod/dev",
+    "version": "dev"
+}

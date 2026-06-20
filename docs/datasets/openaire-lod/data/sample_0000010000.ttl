@@ -1,7 +1,7 @@
 <http://lod.openaire.eu/data/result/scholix_____::500e9076171a764cecd908815abd1fdc>
         a       <http://lod.openaire.eu/vocab/ResultEntity>;
         <http://lod.openaire.eu/vocab/author>
-                "Fuentes-Prior, P." , "Friedrich, R." , "Verhamme, I." , "Richter, K." , "Anderson, P.J." , "Bock, P.E." , "Huber, R." , "Kawabata, S." , "Panizzi, P." , "Bode, W.";
+                "Friedrich, R." , "Panizzi, P." , "Fuentes-Prior, P." , "Richter, K." , "Verhamme, I." , "Anderson, P.J." , "Kawabata, S." , "Huber, R." , "Bode, W." , "Bock, P.E.";
         <http://lod.openaire.eu/vocab/bestaccessright>
                 "UNKNOWN";
         <http://lod.openaire.eu/vocab/collectedfrom>
