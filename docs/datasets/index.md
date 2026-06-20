@@ -4,6 +4,8 @@
 
 A dataset in RiverBench is a well-described, validated, and neatly packaged collection of data that can be easily reused. Each dataset has several distributions of different lengths, with both streaming and flat variants. See the documentation pages linked below for more details.
 
+If you are looking for files in the [RDF Message Log format](https://w3c-cg.github.io/rsp/spec/messages#rdf-message-logs-serialization), use the "flat" dataset distributions.
+
 You can find the list of all datasets in the menu on the left.
 
 !!! tip
