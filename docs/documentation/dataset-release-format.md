@@ -6,7 +6,7 @@
 
 Each dataset has three types of distributions: 
 
-- **Flat** – flat distributions are simply compressed files with a sequence of RDF statements (this is a flat RDF stream, according to [RDF-STaX](https://w3id.org/stax/dev/taxonomy)).
+- **Flat** – flat distributions are compressed [RDF Message Log](https://w3c-cg.github.io/rsp/spec/messages#rdf-message-logs-serialization) files – a simple extension of the [N-Triples](https://www.w3.org/TR/n-triples/) or [N-Quads](https://www.w3.org/TR/n-quads/) formats.
 - **Stream** – grouped streaming distributions are compressed archives with a sequence of files. Each file corresponds to one stream element – an RDF graph or an RDF dataset (this is a grouped RDF stream, according to [RDF-STaX](https://w3id.org/stax/dev/taxonomy)).
 - **Jelly** – Jelly streaming distributions use the high-performance [Jelly serialization format](https://github.com/Jelly-RDF) that natively supports RDF streams. The Jelly files can be used for both the grouped and flat streaming formulations.
 
@@ -24,7 +24,9 @@ There always a few size variants of each distribution to choose from, starting f
 
 ### Flat distributions
 
-Flat distributions are serialized in the [N-Triples](https://www.w3.org/TR/n-triples/) or [N-Quads](https://www.w3.org/TR/n-quads/) format, depending on stream type. In case RDF-star is used in the dataset, the used formats are [N-Triples-star](https://www.w3.org/2021/12/rdf-star.html#n-triples-star) or [N-Quads-star](https://www.w3.org/2021/12/rdf-star.html#n-quads-star). The files are compressed with [gzip](https://en.wikipedia.org/wiki/Gzip). This format is streamable, as you can decompress gzip-compressed files on-the-fly and read the statements line-by-line.
+Flat distributions are serialized in the [N-Triples](https://www.w3.org/TR/n-triples/) or [N-Quads](https://www.w3.org/TR/n-quads/) format, extended with the [RDF Message Log](https://w3c-cg.github.io/rsp/spec/messages#rdf-message-logs-serialization) version announcement (`VERSION "1.1"`) and message delimiters (`MESSAGE`). In case RDF-star is used in the dataset, the used formats are [N-Triples-star](https://www.w3.org/2021/12/rdf-star.html#n-triples-star) or [N-Quads-star](https://www.w3.org/2021/12/rdf-star.html#n-quads-star). 
+
+The files are compressed with [gzip](https://en.wikipedia.org/wiki/Gzip). This format is streamable, as you can decompress gzip-compressed files on-the-fly and read the statements line-by-line.
 
 The flat distribution files are named `flat_{size}.nt.gz` or `flat_{size}.nq.gz`, where `{size}` is the number of stream elements in the file. For example, `flat_10K.nt.gz` is a flat distribution file of a triple stream with 10,000 stream elements. The full distribution is denoted by `flat_full.nt.gz` or `flat_full.nq.gz`.
 
