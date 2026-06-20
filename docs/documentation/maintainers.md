@@ -2,7 +2,9 @@
 
 # RiverBench maintainers
 
-**RiverBench is a community-owned project**, maintained and curated by volunteers.
+**RiverBench is a community-owned project**. It is currently maintained by the [RDF Stream Processing W3C Community Group](https://www.w3.org/community/rsp/) (RSP CG) and is an official resource of the group.
+
+RSP CG is proposing the [RDF Messages spec](https://w3c-cg.github.io/rsp/spec/messages) which introduces standardized concepts for RDF streams and their serialization. RiverBench distributes datasets in the [RDF Message Log format](https://w3c-cg.github.io/rsp/spec/messages#rdf-message-logs-serialization) (the "flat" distribution).
 
 ## Curators
 
