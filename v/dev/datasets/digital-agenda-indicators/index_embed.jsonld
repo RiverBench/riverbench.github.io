@@ -1,0 +1,261 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev",
+    "@type": [
+        "Dataset",
+        "https://w3id.org/riverbench/schema/metadata#Dataset"
+    ],
+    "about": [
+        {
+            "@id": "http://eurovoc.europa.eu/4038"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/4267"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/4060"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/7219"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/6140"
+        }
+    ],
+    "alternateName": {
+        "@language": "en",
+        "@value": "EU Digital Agenda Key Indicators"
+    },
+    "creator": [
+        {
+            "@id": "_:b11",
+            "@type": "Person",
+            "name": "European Commission, Directorate-General for Communications Networks, Content and Technology",
+            "sameAs": "https://commission.europa.eu/index_en"
+        },
+        {
+            "@id": "_:b39",
+            "@type": "Person",
+            "alternateName": "Ostrzyciel",
+            "description": "Processing the dataset",
+            "name": "Piotr Sowiński",
+            "sameAs": [
+                "https://orcid.org/0000-0002-2543-9461",
+                "https://github.com/Ostrzyciel"
+            ]
+        }
+    ],
+    "dateModified": {
+        "@value": "2026-06-20",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "datePublished": {
+        "@value": "2023-05-04",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description": {
+        "@language": "en",
+        "@value": "The dataset of [EU Digital Agenda Key Indicators](https://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators) contains statistical information about the European information society. The dataset is composed of a series of statistical observations with various properties and a very regular structure.\n\nThis is a large, typical dataset with statistical information, with a very regular structure. In contrast to [linked-spending](https://w3id.org/riverbench/datasets/linked-spending/dev), this dataset does not include textual information and is more homogenous, making it an interesting comparison point for aggressive compression algorithms."
+    },
+    "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full Jelly distribution",
+            "contentSize": {
+                "@value": "25058823",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_full.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#stream-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements stream distribution",
+            "contentSize": {
+                "@value": "34020326",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/stream_1M.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#flat-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full flat distribution",
+            "contentSize": {
+                "@value": "60199339",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_full.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#flat-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements flat distribution",
+            "contentSize": {
+                "@value": "438278",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_10K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "1846764",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements Jelly distribution",
+            "contentSize": {
+                "@value": "17542799",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_1M.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#flat-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements flat distribution",
+            "contentSize": {
+                "@value": "4645375",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_100K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#stream-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements stream distribution",
+            "contentSize": {
+                "@value": "319432",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/stream_10K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly distribution",
+            "contentSize": {
+                "@value": "199387",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_10K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#stream-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full stream distribution",
+            "contentSize": {
+                "@value": "48492423",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/stream_full.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#flat-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements flat distribution",
+            "contentSize": {
+                "@value": "42224449",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_1M.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#stream-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements stream distribution",
+            "contentSize": {
+                "@value": "3769352",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/stream_100K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-100k"
+        }
+    ],
+    "identifier": "digital-agenda-indicators",
+    "isAccessibleForFree": {
+        "@value": "true",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "license": "https://spdx.org/licenses/CC-BY-4.0",
+    "name": "RiverBench dataset: digital-agenda-indicators",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "url": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev",
+    "version": "dev"
+}
