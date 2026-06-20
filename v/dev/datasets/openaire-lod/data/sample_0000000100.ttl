@@ -23,6 +23,6 @@
         <http://lod.openaire.eu/vocab/resulttype>
                 "publication";
         <http://lod.openaire.eu/vocab/subject>
-                "business" , "Vibration" , "business.industry" , "Root cause analysis" , "Forensic engineering" , "Structural engineering" , "Engineering";
+                "Root cause analysis" , "Forensic engineering" , "Structural engineering" , "business.industry" , "business" , "Vibration" , "Engineering";
         <http://lod.openaire.eu/vocab/title>
                 "Improvements in the Root Cause Analysis of Drillstring Vibration" .
