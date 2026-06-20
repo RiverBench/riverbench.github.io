@@ -1,0 +1,215 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev",
+    "@type": [
+        "Dataset",
+        "https://w3id.org/riverbench/schema/metadata#Dataset"
+    ],
+    "about": [
+        {
+            "@id": "http://eurovoc.europa.eu/c_40f54e0c"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/4137"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/c_5ea6e5c4"
+        }
+    ],
+    "alternateName": {
+        "@language": "en",
+        "@value": "YAGO annotated facts"
+    },
+    "creator": [
+        {
+            "@id": "_:b2",
+            "@type": "Person",
+            "name": "The YAGO team of Télécom Paris and the Max Planck Institute for Informatics",
+            "sameAs": "https://yago-knowledge.org/contributors"
+        },
+        {
+            "@id": "_:b1",
+            "@type": "Person",
+            "alternateName": "Ostrzyciel",
+            "name": "Piotr Sowiński",
+            "sameAs": [
+                "https://orcid.org/0000-0002-2543-9461",
+                "https://github.com/Ostrzyciel"
+            ]
+        },
+        {
+            "@id": "_:b55",
+            "@type": "Person",
+            "name": "The creators and contributors of Wikidata",
+            "sameAs": "https://www.wikidata.org/"
+        }
+    ],
+    "dateModified": {
+        "@value": "2026-06-20",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "datePublished": {
+        "@value": "2023-04-30",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description": {
+        "@language": "en",
+        "@value": "This is a subset of the [YAGO 4 knowledge base](https://yago-knowledge.org/downloads/yago-4) ([paper](https://suchanek.name/work/publications/eswc-2020-yago.pdf)), based on Wikidata, [version from February 24, 2020](https://yago-knowledge.org/data/yago4/full/2020-02-24/). This dataset includes only the fact annotations in RDF-star, that is facts about facts. Each stream element corresponds to one item in Wikidata."
+    },
+    "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#jelly-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "2814648",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#flat-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements flat distribution",
+            "contentSize": {
+                "@value": "274238",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_10K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#stream-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements stream distribution",
+            "contentSize": {
+                "@value": "3739081",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/stream_100K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#jelly-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly distribution",
+            "contentSize": {
+                "@value": "30277860",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_full.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#flat-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full flat distribution",
+            "contentSize": {
+                "@value": "30824331",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_full.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#stream-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements stream distribution",
+            "contentSize": {
+                "@value": "385343",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/stream_10K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#jelly-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly distribution",
+            "contentSize": {
+                "@value": "263292",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_10K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#stream-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full stream distribution",
+            "contentSize": {
+                "@value": "37918859",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/stream_full.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#flat-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements flat distribution",
+            "contentSize": {
+                "@value": "2587464",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_100K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-100k"
+        }
+    ],
+    "identifier": "yago-annotated-facts",
+    "isAccessibleForFree": {
+        "@value": "true",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "license": "https://spdx.org/licenses/CC-BY-SA-3.0",
+    "name": "RiverBench dataset: yago-annotated-facts",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "url": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev",
+    "version": "dev"
+}
