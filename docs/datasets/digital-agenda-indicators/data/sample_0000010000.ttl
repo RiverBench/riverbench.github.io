@@ -1,12 +1,12 @@
-@prefix ns1:  <http://purl.org/linked-data/cube#> .
-@prefix ns10: <http://eurostat.linked-statistics.org/dic/geo#> .
-@prefix ns11: <http://semantic.digital-agenda-data.eu/codelist/unit-measure/> .
-@prefix ns4:  <http://semantic.digital-agenda-data.eu/dataset/> .
-@prefix ns5:  <http://purl.org/linked-data/sdmx/2009/measure#> .
-@prefix ns6:  <http://semantic.digital-agenda-data.eu/def/property/> .
-@prefix ns7:  <http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
-@prefix ns9:  <http://semantic.digital-agenda-data.eu/codelist/indicator/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+PREFIX ns1:  <http://purl.org/linked-data/cube#>
+PREFIX ns10: <http://eurostat.linked-statistics.org/dic/geo#>
+PREFIX ns11: <http://semantic.digital-agenda-data.eu/codelist/unit-measure/>
+PREFIX ns4:  <http://semantic.digital-agenda-data.eu/dataset/>
+PREFIX ns5:  <http://purl.org/linked-data/sdmx/2009/measure#>
+PREFIX ns6:  <http://semantic.digital-agenda-data.eu/def/property/>
+PREFIX ns7:  <http://semantic.digital-agenda-data.eu/codelist/breakdown/>
+PREFIX ns9:  <http://semantic.digital-agenda-data.eu/codelist/indicator/>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 <http://semantic.digital-agenda-data.eu/data/digital-agenda-scoreboard-key-indicators/bb_penet/total_fbb/subs_per_100_pop/CZ/2021-06>
         rdf:type          ns1:Observation;
