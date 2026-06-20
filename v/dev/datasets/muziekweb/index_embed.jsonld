@@ -32,17 +32,6 @@
         {
             "@id": "_:b27",
             "@type": "Person",
-            "alternateName": "Ostrzyciel",
-            "description": "Processing the dataset",
-            "name": "Piotr Sowiński",
-            "sameAs": [
-                "https://orcid.org/0000-0002-2543-9461",
-                "https://github.com/Ostrzyciel"
-            ]
-        },
-        {
-            "@id": "_:b28",
-            "@type": "Person",
             "name": [
                 {
                     "@language": "en",
@@ -54,10 +43,21 @@
                 }
             ],
             "sameAs": "https://www.beeldengeluid.nl/"
+        },
+        {
+            "@id": "_:b28",
+            "@type": "Person",
+            "alternateName": "Ostrzyciel",
+            "description": "Processing the dataset",
+            "name": "Piotr Sowiński",
+            "sameAs": [
+                "https://orcid.org/0000-0002-2543-9461",
+                "https://github.com/Ostrzyciel"
+            ]
         }
     ],
     "dateModified": {
-        "@value": "2025-02-12",
+        "@value": "2026-06-20",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -92,7 +92,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "308881092",
+                "@value": "310839792",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_full.nt.gz",
@@ -122,7 +122,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "886452",
+                "@value": "894946",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_10K.nt.gz",
@@ -227,7 +227,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "8860985",
+                "@value": "8946885",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_100K.nt.gz",
@@ -242,7 +242,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "96186337",
+                "@value": "96991688",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_1M.nt.gz",
