@@ -1,0 +1,268 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/"
+    },
+    "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev",
+    "@type": [
+        "https://w3id.org/riverbench/schema/metadata#Dataset",
+        "Dataset"
+    ],
+    "about": [
+        {
+            "@id": "http://eurovoc.europa.eu/1018"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/4263"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/4267"
+        },
+        {
+            "@id": "http://eurovoc.europa.eu/403"
+        }
+    ],
+    "alternateName": {
+        "@language": "en",
+        "@value": "LinkedSpending"
+    },
+    "creator": [
+        {
+            "@id": "_:b4",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Creator and maintainer of the LinkedSpending dataset."
+            },
+            "name": "Konrad Höffner",
+            "sameAs": "https://www.imise.uni-leipzig.de/Mitarbeiter/Konrad_Hoeffner"
+        },
+        {
+            "@id": "_:b16",
+            "@type": "Person",
+            "name": "AKSW team",
+            "sameAs": "http://aksw.org/Team"
+        },
+        {
+            "@id": "_:b29",
+            "@type": "Person",
+            "alternateName": "Ostrzyciel",
+            "description": "Processing the dataset",
+            "name": "Piotr Sowiński",
+            "sameAs": [
+                "https://orcid.org/0000-0002-2543-9461",
+                "https://github.com/Ostrzyciel"
+            ]
+        }
+    ],
+    "dateModified": {
+        "@value": "2026-06-20",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "datePublished": {
+        "@value": "2023-05-01",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "description": {
+        "@language": "en",
+        "@value": "This is a subset of the LinkedSpending dataset (LS package 2013-9), which contains government spending information from around the world. The dataset uses the [RDF Data Cube vocabulary](https://www.w3.org/TR/vocab-data-cube/). Only the spending observations were kept in this subset, extra contextual information was discarded. See the [website](http://linkedspending.aksw.org/) and the [paper](https://www.semantic-web-journal.net/system/files/swj923.pdf) for more details."
+    },
+    "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#stream-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements stream distribution",
+            "contentSize": {
+                "@value": "146665015",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/stream_1M.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#stream-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements stream distribution",
+            "contentSize": {
+                "@value": "10526170",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/stream_100K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#flat-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements flat distribution",
+            "contentSize": {
+                "@value": "17849897",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_100K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#flat-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements flat distribution",
+            "contentSize": {
+                "@value": "2058036",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_10K.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#jelly-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly distribution",
+            "contentSize": {
+                "@value": "1281544",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/jelly_10K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#flat-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements flat distribution",
+            "contentSize": {
+                "@value": "237201729",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_1M.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#flat-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full flat distribution",
+            "contentSize": {
+                "@value": "588291626",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/flat_full.nt.gz",
+            "encodingFormat": "application/n-triples",
+            "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#jelly-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "11905963",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#stream-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full stream distribution",
+            "contentSize": {
+                "@value": "362801264",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/stream_full.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#stream-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements stream distribution",
+            "contentSize": {
+                "@value": "1323641",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/stream_10K.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#jelly-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly distribution",
+            "contentSize": {
+                "@value": "342487172",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/jelly_full.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/linked-spending/dev#jelly-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements Jelly distribution",
+            "contentSize": {
+                "@value": "138329188",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/linked-spending/dev/files/jelly_1M.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-1m"
+        }
+    ],
+    "identifier": "linked-spending",
+    "isAccessibleForFree": {
+        "@value": "true",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "license": "https://spdx.org/licenses/PDDL-1.0",
+    "name": "RiverBench dataset: linked-spending",
+    "publisher": {
+        "@id": "https://w3id.org/riverbench",
+        "@type": "Organization",
+        "description": "RiverBench is an open, community-driven RDF streaming benchmark suite. It includes a varied collection of datasets and tasks, representing many real-life use cases.",
+        "logo": "https://w3id.org/riverbench/assets/riverbench_vector_logo.png",
+        "name": "RiverBench",
+        "url": "https://w3id.org/riverbench"
+    },
+    "url": "https://w3id.org/riverbench/datasets/linked-spending/dev",
+    "version": "dev"
+}
