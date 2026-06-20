@@ -43,7 +43,7 @@
         }
     ],
     "dateModified": {
-        "@value": "2025-01-26",
+        "@value": "2026-06-20",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -78,7 +78,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "1729236",
+                "@value": "1733346",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_10K.nt.gz",
@@ -108,7 +108,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "3074365",
+                "@value": "3081968",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz",
