@@ -26,42 +26,6 @@
         {
             "@id": "_:b17",
             "@type": "Person",
-            "description": {
-                "@language": "en",
-                "@value": "Co-author of original dataset"
-            },
-            "name": "Roderick van der Weerdt"
-        },
-        {
-            "@id": "_:b16",
-            "@type": "Person",
-            "description": {
-                "@language": "en",
-                "@value": "Co-author of original dataset"
-            },
-            "name": "Ronnie Groenewold"
-        },
-        {
-            "@id": "_:b10",
-            "@type": "Person",
-            "description": {
-                "@language": "en",
-                "@value": "Co-author of original dataset"
-            },
-            "name": "Victor de Boer"
-        },
-        {
-            "@id": "_:b65",
-            "@type": "Person",
-            "description": {
-                "@language": "en",
-                "@value": "Co-author of original dataset"
-            },
-            "name": "Ronald Siebes"
-        },
-        {
-            "@id": "_:b1",
-            "@type": "Person",
             "alternateName": "adamskas",
             "description": {
                 "@language": "en",
@@ -70,17 +34,53 @@
             "name": "Adam Skaskiewicz"
         },
         {
-            "@id": "_:b4",
+            "@id": "_:b16",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Roderick van der Weerdt"
+        },
+        {
+            "@id": "_:b10",
             "@type": "Person",
             "description": {
                 "@language": "en",
                 "@value": "Co-author of original dataset"
             },
             "name": "Frank van Harmelen"
+        },
+        {
+            "@id": "_:b65",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Victor de Boer"
+        },
+        {
+            "@id": "_:b1",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Ronald Siebes"
+        },
+        {
+            "@id": "_:b4",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of original dataset"
+            },
+            "name": "Ronnie Groenewold"
         }
     ],
     "dateModified": {
-        "@value": "2025-04-06",
+        "@value": "2026-06-20",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -108,6 +108,21 @@
             "identifier": "stream-100k"
         },
         {
+            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#stream-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full stream distribution",
+            "contentSize": {
+                "@value": "462592440",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/stream_full.tar.gz",
+            "encodingFormat": "text/turtle",
+            "identifier": "stream-full"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#flat-10k",
             "@type": [
                 "DataDownload",
@@ -115,7 +130,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "323470",
+                "@value": "324952",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_10K.nt.gz",
@@ -160,7 +175,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "2937669",
+                "@value": "2932827",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_100K.nt.gz",
@@ -175,7 +190,7 @@
             ],
             "alternateName": "10M elements flat distribution",
             "contentSize": {
-                "@value": "352048823",
+                "@value": "351686965",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_10M.nt.gz",
@@ -190,7 +205,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "32930566",
+                "@value": "32881166",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_1M.nt.gz",
@@ -235,7 +250,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "530829777",
+                "@value": "530743597",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/flat_full.nt.gz",
@@ -301,21 +316,6 @@
             "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/stream_10M.tar.gz",
             "encodingFormat": "text/turtle",
             "identifier": "stream-10m"
-        },
-        {
-            "@id": "https://w3id.org/riverbench/datasets/officegraph/dev#stream-full",
-            "@type": [
-                "https://w3id.org/riverbench/schema/metadata#Distribution",
-                "DataDownload"
-            ],
-            "alternateName": "Full stream distribution",
-            "contentSize": {
-                "@value": "462592440",
-                "@type": "http://www.w3.org/2001/XMLSchema#long"
-            },
-            "contentUrl": "https://w3id.org/riverbench/datasets/officegraph/dev/files/stream_full.tar.gz",
-            "encodingFormat": "text/turtle",
-            "identifier": "stream-full"
         }
     ],
     "identifier": "officegraph",
