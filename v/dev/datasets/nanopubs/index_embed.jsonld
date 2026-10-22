@@ -30,22 +30,12 @@
     },
     "creator": [
         {
-            "@id": "_:b32",
+            "@id": "_:b44",
             "@type": "Person",
             "name": "Authors of the included nanopublications (cited within the dataset)"
         },
         {
-            "@id": "_:b41",
-            "@type": "Person",
-            "description": {
-                "@language": "en",
-                "@value": "Author of the [nanopublications dump](https://zenodo.org/record/1213293)"
-            },
-            "name": "Tobias Kuhn",
-            "sameAs": "https://orcid.org/0000-0002-1267-0234"
-        },
-        {
-            "@id": "_:b42",
+            "@id": "_:b16",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "name": "Piotr Sowiński",
@@ -53,10 +43,20 @@
                 "https://orcid.org/0000-0002-2543-9461",
                 "https://github.com/Ostrzyciel"
             ]
+        },
+        {
+            "@id": "_:b45",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Author of the [nanopublications dump](https://zenodo.org/record/1213293)"
+            },
+            "name": "Tobias Kuhn",
+            "sameAs": "https://orcid.org/0000-0002-1267-0234"
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -99,6 +99,21 @@
             "identifier": "stream-full"
         },
         {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly distribution",
+            "contentSize": {
+                "@value": "1178031716",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_full.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-full"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#stream-1m",
             "@type": [
                 "DataDownload",
@@ -114,19 +129,34 @@
             "identifier": "stream-1m"
         },
         {
-            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly-full",
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly12-100k",
             "@type": [
-                "https://w3id.org/riverbench/schema/metadata#Distribution",
-                "DataDownload"
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
             ],
-            "alternateName": "Full Jelly distribution",
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
             "contentSize": {
-                "@value": "1446209923",
+                "@value": "20360635",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
-            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_full.jelly.gz",
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_100K.2.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
-            "identifier": "jelly-full"
+            "identifier": "jelly12-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly12-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "1027514816",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly-100k",
@@ -136,7 +166,7 @@
             ],
             "alternateName": "100K elements Jelly distribution",
             "contentSize": {
-                "@value": "27374627",
+                "@value": "23649636",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_100K.jelly.gz",
@@ -151,7 +181,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "1762319898",
+                "@value": "1762320149",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_full.nq.gz",
@@ -166,7 +196,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "36336125",
+                "@value": "36336486",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_100K.nq.gz",
@@ -181,12 +211,27 @@
             ],
             "alternateName": "1M elements Jelly distribution",
             "contentSize": {
-                "@value": "313609860",
+                "@value": "268537068",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_1M.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly12-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "1972975",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#stream-10k",
@@ -211,12 +256,27 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "3501149",
+                "@value": "3501518",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_10K.nq.gz",
             "encodingFormat": "application/n-quads",
             "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#jelly12-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "232844930",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_1M.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-1m"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/nanopubs/dev#flat-1m",
@@ -226,7 +286,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "393442156",
+                "@value": "393442449",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/flat_1M.nq.gz",
@@ -241,7 +301,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "2618147",
+                "@value": "2314951",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/nanopubs/dev/files/jelly_10K.jelly.gz",
