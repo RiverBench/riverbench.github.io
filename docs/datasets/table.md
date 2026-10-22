@@ -4,7 +4,7 @@ Dataset | <abbr title="Stream type">El. type</abbr> | <abbr title="Stream elemen
 [`assist-iot-weather-graphs`](assist-iot-weather-graphs/index.md) | [timestamped named graph](https://w3id.org/stax/dev/taxonomy#timestamped-rdf-named-graph-stream) | 701,278 | 81,348,248 | :material-close:
 [`citypulse-traffic`](citypulse-traffic/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 4,382,599 | 157,773,564 | :material-close:
 [`citypulse-traffic-graphs`](citypulse-traffic-graphs/index.md) | [timestamped named graph](https://w3id.org/stax/dev/taxonomy#timestamped-rdf-named-graph-stream) | 4,382,599 | 162,156,163 | :material-close:
-[`dbpedia-live`](dbpedia-live/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 166,204 | 21,831,109 | :material-close:
+[`dbpedia-live`](dbpedia-live/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 166,204 | 21,831,107 | :material-close:
 [`digital-agenda-indicators`](digital-agenda-indicators/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 1,440,415 | 11,669,016 | :material-close:
 [`linked-spending`](linked-spending/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 2,477,552 | 55,097,866 | :material-close:
 [`lod-katrina`](lod-katrina/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 5,893,763 | 179,128,407 | :material-close:
