@@ -14,4 +14,4 @@ Dataset | <abbr title="Stream type">El. type</abbr> | <abbr title="Stream elemen
 [`openaire-lod`](openaire-lod/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 2,000,000 | 71,810,467 | :material-close:
 [`osm2rdf-denmark`](osm2rdf-denmark/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 2,030,923 | 60,608,642 | :material-close:
 [`politiquices`](politiquices/index.md) | [graph](https://w3id.org/stax/dev/taxonomy#rdf-graph-stream) | 17,773 | 159,957 | :material-close:
-[`yago-annotated-facts`](yago-annotated-facts/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 617,768 | 2,484,547 | :material-check:
+[`yago-annotated-facts`](yago-annotated-facts/index.md) | [subject graph](https://w3id.org/stax/dev/taxonomy#rdf-subject-graph-stream) | 617,768 | 4,983,398 | :material-check:
