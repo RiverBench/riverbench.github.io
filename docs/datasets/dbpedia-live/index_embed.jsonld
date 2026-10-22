@@ -9,10 +9,10 @@
     ],
     "about": [
         {
-            "@id": "http://eurovoc.europa.eu/4137"
+            "@id": "http://eurovoc.europa.eu/c_5ea6e5c4"
         },
         {
-            "@id": "http://eurovoc.europa.eu/c_5ea6e5c4"
+            "@id": "http://eurovoc.europa.eu/4137"
         }
     ],
     "alternateName": {
@@ -21,7 +21,13 @@
     },
     "creator": [
         {
-            "@id": "_:b26",
+            "@id": "_:b33",
+            "@type": "Person",
+            "name": "DBpedia Association",
+            "sameAs": "https://www.dbpedia.org/contact/"
+        },
+        {
+            "@id": "_:b55",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "description": "Processing the dataset",
@@ -32,20 +38,14 @@
             ]
         },
         {
-            "@id": "_:b11",
-            "@type": "Person",
-            "name": "DBpedia Association",
-            "sameAs": "https://www.dbpedia.org/contact/"
-        },
-        {
-            "@id": "_:b41",
+            "@id": "_:b25",
             "@type": "Person",
             "name": "Wikipedia contributors",
             "sameAs": "https://www.wikipedia.org/"
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -58,6 +58,21 @@
     },
     "distribution": [
         {
+            "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#jelly12-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "62646316",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#jelly-full",
             "@type": [
                 "https://w3id.org/riverbench/schema/metadata#Distribution",
@@ -65,7 +80,7 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "350206048",
+                "@value": "268664514",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_full.jelly.gz",
@@ -80,7 +95,7 @@
             ],
             "alternateName": "100K elements stream distribution",
             "contentSize": {
-                "@value": "218333748",
+                "@value": "218333728",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/stream_100K.tar.gz",
@@ -95,7 +110,7 @@
             ],
             "alternateName": "10K elements stream distribution",
             "contentSize": {
-                "@value": "69573898",
+                "@value": "69573895",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/stream_10K.tar.gz",
@@ -103,19 +118,19 @@
             "identifier": "stream-10k"
         },
         {
-            "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#jelly-100k",
+            "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#jelly12-100k",
             "@type": [
                 "https://w3id.org/riverbench/schema/metadata#Distribution",
                 "DataDownload"
             ],
-            "alternateName": "100K elements Jelly distribution",
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
             "contentSize": {
-                "@value": "288318797",
+                "@value": "197643113",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
-            "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_100K.jelly.gz",
+            "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_100K.2.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
-            "identifier": "jelly-100k"
+            "identifier": "jelly12-100k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#jelly-10k",
@@ -125,12 +140,27 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "91046341",
+                "@value": "69934902",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_10K.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#jelly-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "220409812",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#stream-full",
@@ -140,12 +170,27 @@
             ],
             "alternateName": "Full stream distribution",
             "contentSize": {
-                "@value": "267471414",
+                "@value": "267471394",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/stream_full.tar.gz",
             "encodingFormat": "text/turtle",
             "identifier": "stream-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#jelly12-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "241285882",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/dbpedia-live/dev#flat-100k",
@@ -155,7 +200,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "232192402",
+                "@value": "232192478",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_100K.nt.gz",
@@ -170,7 +215,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "74355692",
+                "@value": "74364481",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_10K.nt.gz",
@@ -185,7 +230,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "284386957",
+                "@value": "284386949",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/dbpedia-live/dev/files/flat_full.nt.gz",
