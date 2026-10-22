@@ -26,12 +26,11 @@
         {
             "@id": "_:b29",
             "@type": "Person",
-            "alternateName": "adamskas",
             "description": {
                 "@language": "en",
-                "@value": "Author of benchmark dataset"
+                "@value": "Co-author of original dataset"
             },
-            "name": "Adam Skaskiewicz"
+            "name": "Roderick van der Weerdt"
         },
         {
             "@id": "_:b73",
@@ -49,7 +48,7 @@
                 "@language": "en",
                 "@value": "Co-author of original dataset"
             },
-            "name": "Ronald Siebes"
+            "name": "Ronnie Groenewold"
         },
         {
             "@id": "_:b52",
@@ -58,16 +57,17 @@
                 "@language": "en",
                 "@value": "Co-author of original dataset"
             },
-            "name": "Ronnie Groenewold"
+            "name": "Ronald Siebes"
         },
         {
             "@id": "_:b68",
             "@type": "Person",
+            "alternateName": "adamskas",
             "description": {
                 "@language": "en",
-                "@value": "Co-author of original dataset"
+                "@value": "Author of benchmark dataset"
             },
-            "name": "Roderick van der Weerdt"
+            "name": "Adam Skaskiewicz"
         },
         {
             "@id": "_:b41",
@@ -80,7 +80,7 @@
         }
     ],
     "dateModified": {
-        "@value": "2026-10-13",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
