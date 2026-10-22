@@ -24,25 +24,7 @@
     },
     "creator": [
         {
-            "@id": "_:b55",
-            "@type": "Person",
-            "description": {
-                "@language": "en",
-                "@value": "Co-author of the osm2rdf tool - OpenStreetMap RDF converter"
-            },
-            "name": "Axel Lehmann"
-        },
-        {
-            "@id": "_:b26",
-            "@type": "Person",
-            "description": {
-                "@language": "en",
-                "@value": "Co-author of the osm2rdf tool - OpenStreetMap RDF converter"
-            },
-            "name": "Johannes Kalmbach"
-        },
-        {
-            "@id": "_:b49",
+            "@id": "_:b71",
             "@type": "Person",
             "description": {
                 "@language": "en",
@@ -51,16 +33,7 @@
             "name": "Hannah Bast"
         },
         {
-            "@id": "_:b51",
-            "@type": "Person",
-            "description": {
-                "@language": "en",
-                "@value": "Co-author of the osm2rdf tool - OpenStreetMap RDF converter"
-            },
-            "name": "Patrick Brosi"
-        },
-        {
-            "@id": "_:b37",
+            "@id": "_:b2",
             "@type": "Person",
             "name": "OpenStreetMap & contributors",
             "sameAs": [
@@ -69,7 +42,34 @@
             ]
         },
         {
-            "@id": "_:b10",
+            "@id": "_:b54",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of the osm2rdf tool - OpenStreetMap RDF converter"
+            },
+            "name": "Johannes Kalmbach"
+        },
+        {
+            "@id": "_:b19",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of the osm2rdf tool - OpenStreetMap RDF converter"
+            },
+            "name": "Axel Lehmann"
+        },
+        {
+            "@id": "_:b59",
+            "@type": "Person",
+            "description": {
+                "@language": "en",
+                "@value": "Co-author of the osm2rdf tool - OpenStreetMap RDF converter"
+            },
+            "name": "Patrick Brosi"
+        },
+        {
+            "@id": "_:b11",
             "@type": "Person",
             "alternateName": "karol-nowinski",
             "name": "Karol Nowiński",
@@ -77,7 +77,7 @@
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -97,7 +97,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "31818273",
+                "@value": "31818666",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/flat_100K.nt.gz",
@@ -112,7 +112,7 @@
             ],
             "alternateName": "1M elements Jelly distribution",
             "contentSize": {
-                "@value": "294133493",
+                "@value": "250513223",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/jelly_1M.jelly.gz",
@@ -127,12 +127,42 @@
             ],
             "alternateName": "100K elements Jelly distribution",
             "contentSize": {
-                "@value": "29128645",
+                "@value": "24897672",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/jelly_100K.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev#jelly12-1m",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "1M elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "240372842",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/jelly_1M.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev#jelly12-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "489187398",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev#flat-10k",
@@ -142,12 +172,42 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "3170773",
+                "@value": "3170957",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/flat_10K.nt.gz",
             "encodingFormat": "application/n-triples",
             "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev#jelly12-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "2363177",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev#jelly12-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "23852336",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/jelly_100K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-100k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev#stream-100k",
@@ -187,7 +247,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "650540627",
+                "@value": "650541013",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/flat_full.nt.gz",
@@ -202,7 +262,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "2837240",
+                "@value": "2459572",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/jelly_10K.jelly.gz",
@@ -217,7 +277,7 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "598862652",
+                "@value": "509939528",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/jelly_full.jelly.gz",
@@ -247,7 +307,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "319713332",
+                "@value": "319713757",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/osm2rdf-denmark/dev/files/flat_1M.nt.gz",
