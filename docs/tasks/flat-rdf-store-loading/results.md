@@ -44,7 +44,7 @@
         - RDF4J Native Store (4.3.11)
         - RDF4Led (N/A)
         - Virtuoso Open Source (7.2.12)
-- **<abbr title="This property specifies the dataset which us produced by a benchmark">Has produced dataset</abbr>**: Sowiński, P. (2024). <i>Benchmark results for RDF load time evaluation (RiverBench)</i> [Data set]. Zenodo. [https://doi.org/10.5281/ZENODO.12087112](https://doi.org/10.5281/ZENODO.12087112) :custom-bibtex:{ .rb-bibtex } (2)
+- **<abbr title="This property specifies the dataset which us produced by a benchmark">Has produced dataset</abbr>**: Sowiński, P. (2024). <i>Benchmark results for RDF load time evaluation (RiverBench)</i> [Dataset]. Zenodo. [https://doi.org/10.5281/ZENODO.12087112](https://doi.org/10.5281/ZENODO.12087112) :custom-bibtex:{ .rb-bibtex } (2)
 - **<abbr title="This property specifies a system that measures a benchmark">Has measuring system</abbr>**: Sowiński, P. (2024). <i>Benchmark code for RDF load time evaluation (RiverBench &amp; RDF4Led)</i> (Version v1.0.0) [Computer software]. Zenodo. [https://doi.org/10.5281/ZENODO.12089254](https://doi.org/10.5281/ZENODO.12089254) :custom-bibtex:{ .rb-bibtex } (1)
 
 </div>
