@@ -30,7 +30,13 @@
     },
     "creator": [
         {
-            "@id": "_:b18",
+            "@id": "_:b21",
+            "@type": "Person",
+            "name": "CityPulse EU FP7 project",
+            "sameAs": "http://iot.ee.surrey.ac.uk:8080/index.html"
+        },
+        {
+            "@id": "_:b19",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "description": "Processing the dataset",
@@ -39,16 +45,10 @@
                 "https://orcid.org/0000-0002-2543-9461",
                 "https://github.com/Ostrzyciel"
             ]
-        },
-        {
-            "@id": "_:b19",
-            "@type": "Person",
-            "name": "CityPulse EU FP7 project",
-            "sameAs": "http://iot.ee.surrey.ac.uk:8080/index.html"
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -60,6 +60,21 @@
         "@value": "This is a processed subset of real traffic data published by the [CityPulse EU FP7 project](http://iot.ee.surrey.ac.uk:8080/index.html). The used dataset is '[Road Traffic Data](http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic)', dataset-4. The dataset was processed to fix prefixes without a trailing '#' or '/'. The dataset consists of subsequent chronologically ordered substreams of observations from each sensor. See also [the paper](https://www.researchgate.net/publication/300337751_CityBench_A_Configurable_Benchmark_to_Evaluate_RSP_Engines_Using_Smart_City_Datasets) for more details."
     },
     "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "28632852",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
         {
             "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#stream-full",
             "@type": [
@@ -83,7 +98,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "38748910",
+                "@value": "38749301",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_100K.nt.gz",
@@ -113,7 +128,7 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "1288951195",
+                "@value": "1250068741",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.jelly.gz",
@@ -128,7 +143,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "3869449",
+                "@value": "3869833",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_10K.nt.gz",
@@ -166,6 +181,36 @@
             "identifier": "stream-100k"
         },
         {
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly12-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "1158742808",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly12-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "265213125",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-1m"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#flat-full",
             "@type": [
                 "DataDownload",
@@ -173,7 +218,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "1692354591",
+                "@value": "1692354977",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_full.nt.gz",
@@ -188,12 +233,27 @@
             ],
             "alternateName": "1M elements Jelly distribution",
             "contentSize": {
-                "@value": "288406095",
+                "@value": "285524137",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly12-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "2652798",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly-10k",
@@ -203,7 +263,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "2863137",
+                "@value": "2862338",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.jelly.gz",
@@ -218,7 +278,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "387010516",
+                "@value": "387010899",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_1M.nt.gz",
@@ -226,19 +286,19 @@
             "identifier": "flat-1m"
         },
         {
-            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly-100k",
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly12-100k",
             "@type": [
                 "DataDownload",
                 "https://w3id.org/riverbench/schema/metadata#Distribution"
             ],
-            "alternateName": "100K elements Jelly distribution",
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
             "contentSize": {
-                "@value": "28674711",
+                "@value": "26595396",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
-            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz",
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.2.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
-            "identifier": "jelly-100k"
+            "identifier": "jelly12-100k"
         }
     ],
     "identifier": "citypulse-traffic",

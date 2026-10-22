@@ -107,7 +107,13 @@
     },
     "creator": [
         {
-            "@id": "_:b18",
+            "@id": "_:b21",
+            "@type": "Person",
+            "name": "CityPulse EU FP7 project",
+            "sameAs": "http://iot.ee.surrey.ac.uk:8080/index.html"
+        },
+        {
+            "@id": "_:b19",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "description": "Processing the dataset",
@@ -116,16 +122,10 @@
                 "https://orcid.org/0000-0002-2543-9461",
                 "https://github.com/Ostrzyciel"
             ]
-        },
-        {
-            "@id": "_:b19",
-            "@type": "Person",
-            "name": "CityPulse EU FP7 project",
-            "sameAs": "http://iot.ee.surrey.ac.uk:8080/index.html"
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -137,6 +137,21 @@
         "@value": "This is a processed subset of real traffic data published by the [CityPulse EU FP7 project](http://iot.ee.surrey.ac.uk:8080/index.html). The used dataset is '[Road Traffic Data](http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic)', dataset-4. The dataset was processed to fix prefixes without a trailing '#' or '/'. The dataset consists of subsequent chronologically ordered substreams of observations from each sensor. See also [the paper](https://www.researchgate.net/publication/300337751_CityBench_A_Configurable_Benchmark_to_Evaluate_RSP_Engines_Using_Smart_City_Datasets) for more details."
     },
     "distribution": [
+        {
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements Jelly distribution",
+            "contentSize": {
+                "@value": "28632852",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly-100k"
+        },
         {
             "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#stream-full",
             "@type": [
@@ -160,7 +175,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "38748910",
+                "@value": "38749301",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_100K.nt.gz",
@@ -190,7 +205,7 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "1288951195",
+                "@value": "1250068741",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.jelly.gz",
@@ -205,7 +220,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "3869449",
+                "@value": "3869833",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_10K.nt.gz",
@@ -243,6 +258,36 @@
             "identifier": "stream-100k"
         },
         {
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly12-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "1158742808",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly12-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "265213125",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-1m"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#flat-full",
             "@type": [
                 "DataDownload",
@@ -250,7 +295,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "1692354591",
+                "@value": "1692354977",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_full.nt.gz",
@@ -265,12 +310,27 @@
             ],
             "alternateName": "1M elements Jelly distribution",
             "contentSize": {
-                "@value": "288406095",
+                "@value": "285524137",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-1m"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly12-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "2652798",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly-10k",
@@ -280,7 +340,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "2863137",
+                "@value": "2862338",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.jelly.gz",
@@ -295,7 +355,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "387010516",
+                "@value": "387010899",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_1M.nt.gz",
@@ -303,19 +363,19 @@
             "identifier": "flat-1m"
         },
         {
-            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly-100k",
+            "@id": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev#jelly12-100k",
             "@type": [
                 "DataDownload",
                 "https://w3id.org/riverbench/schema/metadata#Distribution"
             ],
-            "alternateName": "100K elements Jelly distribution",
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
             "contentSize": {
-                "@value": "28674711",
+                "@value": "26595396",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
-            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz",
+            "contentUrl": "https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.2.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
-            "identifier": "jelly-100k"
+            "identifier": "jelly12-100k"
         }
     ],
     "identifier": "citypulse-traffic",
@@ -3263,6 +3323,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#full-jelly-rdf-12-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Full Jelly-RDF 1.2 distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#1m-elements-flat-distribution" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3289,6 +3360,17 @@
     <span class="md-ellipsis">
       
         1M elements Jelly distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1m-elements-jelly-rdf-12-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1M elements Jelly-RDF 1.2 distribution
       
     </span>
   </a>
@@ -3329,6 +3411,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#100k-elements-jelly-rdf-12-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        100K elements Jelly-RDF 1.2 distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#10k-elements-flat-distribution" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3355,6 +3448,17 @@
     <span class="md-ellipsis">
       
         10K elements Jelly distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10k-elements-jelly-rdf-12-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10K elements Jelly-RDF 1.2 distribution
       
     </span>
   </a>
@@ -4067,6 +4171,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#full-jelly-rdf-12-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Full Jelly-RDF 1.2 distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#1m-elements-flat-distribution" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4093,6 +4208,17 @@
     <span class="md-ellipsis">
       
         1M elements Jelly distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1m-elements-jelly-rdf-12-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1M elements Jelly-RDF 1.2 distribution
       
     </span>
   </a>
@@ -4133,6 +4259,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#100k-elements-jelly-rdf-12-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        100K elements Jelly-RDF 1.2 distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#10k-elements-flat-distribution" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4159,6 +4296,17 @@
     <span class="md-ellipsis">
       
         10K elements Jelly distribution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10k-elements-jelly-rdf-12-distribution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10K elements Jelly-RDF 1.2 distribution
       
     </span>
   </a>
@@ -4266,7 +4414,7 @@
 <p>This is a processed subset of real traffic data published by the <a href="http://iot.ee.surrey.ac.uk:8080/index.html">CityPulse EU FP7 project</a>. The used dataset is '<a href="http://iot.ee.surrey.ac.uk:8080/datasets.html#traffic">Road Traffic Data</a>', dataset-4. The dataset was processed to fix prefixes without a trailing '#' or '/'. The dataset consists of subsequent chronologically ordered substreams of observations from each sensor. See also <a href="https://www.researchgate.net/publication/300337751_CityBench_A_Configurable_Benchmark_to_Evaluate_RSP_Engines_Using_Smart_City_Datasets">the paper</a> for more details.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M0 80c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v16h128V80c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48h-96c-26.5 0-48-21.5-48-48v-16H192v16c0 7.3-1.7 14.3-4.6 20.5L256 288h80c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48h-96c-26.5 0-48-21.5-48-48v-96c0-7.3 1.7-14.3 4.6-20.5L128 224H48c-26.5 0-48-21.5-48-48z"/></svg></span> Download this metadata in RDF: <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.ttl">Turtle</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.nt">N-Triples</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.rdf">RDF/XML</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.jelly">Jelly</a></strong>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M0 80c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v16h128V80c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48h-96c-26.5 0-48-21.5-48-48v-16H192v16c0 7.3-1.7 14.3-4.6 20.5L256 288h80c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48h-96c-26.5 0-48-21.5-48-48v-96c0-7.3 1.7-14.3 4.6-20.5L128 224H48c-26.5 0-48-21.5-48-48z"/></svg></span> Download this metadata in RDF: <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.ttl">Turtle</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.nt">N-Triples</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.rdf">RDF/XML</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.jelly">Jelly</a></strong>, <strong><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev.2.jelly">Jelly 1.2</a></strong>
 <br><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg></span> Source repository: <strong><a href="https://github.com/RiverBench/dataset-citypulse-traffic">dataset-citypulse-traffic</a></strong>
 <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench."><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41c.41.39.41 1.03 0 1.42-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0 5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.98 2.98 0 0 0 0-4.24 2.98 2.98 0 0 0-4.24 0l-3.53 3.53a2.98 2.98 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0 5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.98 2.98 0 0 0 0 4.24 2.98 2.98 0 0 0 4.24 0l3.53-3.53a2.98 2.98 0 0 0 0-4.24.973.973 0 0 1 0-1.42"/></svg></span> Permanent URL:</abbr> <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev"><code>https://w3id.org/riverbench/datasets/citypulse-traffic/dev</code></a></p>
 <p><strong><a href="#distributions"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.97 13.22a.75.75 0 0 1 1.06 0L11 18.19V3.75a.75.75 0 0 1 1.5 0v14.44l4.97-4.97a.749.749 0 0 1 1.275.326.75.75 0 0 1-.215.734l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> Go to download links</a></strong></p>
@@ -4609,7 +4757,7 @@
 </ul>
 </li>
 <li><strong><abbr title="Date of formal issuance of the resource.">Date Issued</abbr></strong>: 2023-05-01</li>
-<li><strong><abbr title="Date on which the resource was changed.">Date Modified</abbr></strong>: 2026-06-20</li>
+<li><strong><abbr title="Date on which the resource was changed.">Date Modified</abbr></strong>: 2026-10-22</li>
 <li><strong><abbr title="A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.">Landing page</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev">citypulse-traffic (dev)</a></li>
 </ul>
 </div>
@@ -4664,10 +4812,11 @@
 <h2 id="distributions">Distributions</h2>
 <h3 id="download-links">Download links</h3>
 <p>The dataset is published in a few size variants, each containing a specific number of stream elements.
-For each size, there are three distribution types available: flat
+For each size, there are four distribution types available: flat
 (an N-Triples/N-Quads file in the <a href="https://w3c-cg.github.io/rsp/spec/messages">RDF Message Log format</a>),
 streaming (a .tar.gz archive with Turtle/TriG files, one file per stream element),
-and <a href="https://w3id.org/jelly">Jelly</a> (a native binary format for streaming RDF).
+and <a href="https://w3id.org/jelly">Jelly</a> (a native binary format for streaming RDF),
+in two versions: Jelly-RDF 1.1 and Jelly-RDF 1.2.
 See the <a href="../../documentation/dataset-release-format/">documentation</a> for more details.</p>
 <table>
 <thead>
@@ -4677,6 +4826,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <th style="text-align: right;">Flat</th>
 <th style="text-align: right;">Streaming</th>
 <th style="text-align: right;">Jelly</th>
+<th style="text-align: right;">Jelly 1.2</th>
 </tr>
 </thead>
 <tbody>
@@ -4686,6 +4836,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_10K.nt.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 3.7 MB</a></td>
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_10K.tar.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 1.9 MB</a></td>
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 2.7 MB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.2.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 2.5 MB</a></td>
 </tr>
 <tr>
 <td><abbr title="100,000 stream elements">100K</abbr></td>
@@ -4693,13 +4844,15 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_100K.nt.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 37.0 MB</a></td>
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_100K.tar.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 19.0 MB</a></td>
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 27.3 MB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.2.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 25.4 MB</a></td>
 </tr>
 <tr>
 <td><abbr title="1,000,000 stream elements">1M</abbr></td>
 <td style="text-align: right;">36,000,000</td>
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_1M.nt.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 369.1 MB</a></td>
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_1M.tar.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 188.4 MB</a></td>
-<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 275.0 MB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 272.3 MB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.2.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 252.9 MB</a></td>
 </tr>
 <tr>
 <td><abbr title="4,382,599 stream elements">Full</abbr></td>
@@ -4707,6 +4860,7 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/flat_full.nt.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 1.6 GB</a></td>
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/stream_full.tar.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 826.6 MB</a></td>
 <td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 1.2 GB</a></td>
+<td style="text-align: right;"><a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.2.jelly.gz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.75 17.25a.75.75 0 0 1 .75.75v2.25c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V18a.75.75 0 0 1 1.5 0v2.25A1.75 1.75 0 0 1 18.25 22H5.75A1.75 1.75 0 0 1 4 20.25V18a.75.75 0 0 1 .75-.75"/><path d="M5.22 9.97a.75.75 0 0 1 1.06 0l4.97 4.969V2.75a.75.75 0 0 1 1.5 0v12.189l4.97-4.969a.749.749 0 1 1 1.06 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06"/></svg></span> 1.1 GB</a></td>
 </tr>
 </tbody>
 </table>
@@ -4734,13 +4888,13 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
 <li><strong>Checksum (​1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>09aa20bbcb4939663c4247ca9aeaaff5</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>2faafd5b08c80a5eae89b3944c06d3c9</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
 </ul>
 </li>
 <li><strong>Checksum (​2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>e99b202a84c03a16176f5b2514c712c78e86cbc6</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>745aca36b3457991e64ca4150fd77aec1946c782</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
 </ul>
 </li>
@@ -4820,13 +4974,13 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
 <li><strong>Checksum (​1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>5b1e92997af38ec9e379492acdf3c6fe</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>dbcd0b81409347513100dd98a235f28f</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
 </ul>
 </li>
 <li><strong>Checksum (​2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>dcbbbe7c542d70b83ccddcdcc96b445fd2993bda</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>2eea9cf402d0d35f2bdf30df0f4bb25daf678414</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
 </ul>
 </li>
@@ -4834,6 +4988,53 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 </li>
 <li><strong><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></strong>: <a href="#statistics-full">statistics-full</a></li>
 <li><strong><abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType.">Download URL</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.jelly.gz">https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.jelly.gz</a></li>
+</ul>
+<h3 id="full-jelly-rdf-12-distribution"><a name="jelly12-full"></a> Full Jelly-RDF 1.2 distribution</h3>
+<ul>
+<li><strong><abbr title="A name given to the resource.">Title</abbr></strong>: Full Jelly-RDF 1.2 distribution</li>
+<li><strong><abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr></strong>: <code>jelly12-full</code></li>
+<li><strong><abbr title="Canonical file name of this distribution">Has file name</abbr></strong>: <code>jelly_full.2.jelly.gz</code></li>
+<li><strong><abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr></strong>: <ul>
+<li><abbr title="A full distribution, including all data in the dataset.">Full distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#fullDistribution">rb:fullDistribution</a>)</li>
+<li><a href="https://w3id.org/riverbench/schema/metadata#jelly12Distribution">metadata (dev)</a></li>
+</ul>
+</li>
+<li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
+<li><strong>RDF stream type usage (​1)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+</ul>
+</li>
+<li><strong>RDF stream type usage (​2)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> (<a href="https://w3id.org/stax/ontology#graphStream">stax:graphStream</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 4,382,599</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 1.1 GB</li>
+<li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/x-jelly-rdf</li>
+<li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
+<li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
+<li><strong>Checksum (​1)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>305bac06c9eefe111d2aa61dd2fd5320</code></li>
+<li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
+</ul>
+</li>
+<li><strong>Checksum (​2)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>682ad7d788b415b441576cd8794b81aabdaf7d3a</code></li>
+<li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></strong>: <a href="#statistics-full">statistics-full</a></li>
+<li><strong><abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType.">Download URL</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.2.jelly.gz">https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_full.2.jelly.gz</a></li>
 </ul>
 <h3 id="1m-elements-flat-distribution"><a name="flat-1m"></a> 1M elements flat distribution</h3>
 <ul>
@@ -4858,13 +5059,13 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
 <li><strong>Checksum (​1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>524c7d0011b9c1f14fab1b9db8b704b6</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>18b227e25283eef6c3840e88829cfff8</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
 </ul>
 </li>
 <li><strong>Checksum (​2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>93bb662634fd7f15e016dc399081d55c3a09fdc1</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>88486bcf3f87b3cfe8c61000e69ffb46957c73df</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
 </ul>
 </li>
@@ -4938,19 +5139,19 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 </ul>
 </li>
 <li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 1,000,000</li>
-<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 275.0 MB</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 272.3 MB</li>
 <li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/x-jelly-rdf</li>
 <li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
 <li><strong>Checksum (​1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>a57fc1b08a71f76db88852b26b9cd63a</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>4547c8205faba5550281111c1282fa92</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
 </ul>
 </li>
 <li><strong>Checksum (​2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>1eff61307ba530ccb2477c688ce2640055a67abd</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>78ab86841a5c35b53152dfee3827957c7e678e89</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
 </ul>
 </li>
@@ -4958,6 +5159,53 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 </li>
 <li><strong><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></strong>: <a href="#statistics-1m">statistics-1m</a></li>
 <li><strong><abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType.">Download URL</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.jelly.gz">https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.jelly.gz</a></li>
+</ul>
+<h3 id="1m-elements-jelly-rdf-12-distribution"><a name="jelly12-1m"></a> 1M elements Jelly-RDF 1.2 distribution</h3>
+<ul>
+<li><strong><abbr title="A name given to the resource.">Title</abbr></strong>: 1M elements Jelly-RDF 1.2 distribution</li>
+<li><strong><abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr></strong>: <code>jelly12-1m</code></li>
+<li><strong><abbr title="Canonical file name of this distribution">Has file name</abbr></strong>: <code>jelly_1M.2.jelly.gz</code></li>
+<li><strong><abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr></strong>: <ul>
+<li><abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#partialDistribution">rb:partialDistribution</a>)</li>
+<li><a href="https://w3id.org/riverbench/schema/metadata#jelly12Distribution">metadata (dev)</a></li>
+</ul>
+</li>
+<li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
+<li><strong>RDF stream type usage (​1)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> (<a href="https://w3id.org/stax/ontology#graphStream">stax:graphStream</a>)</li>
+</ul>
+</li>
+<li><strong>RDF stream type usage (​2)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 1,000,000</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 252.9 MB</li>
+<li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/x-jelly-rdf</li>
+<li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
+<li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
+<li><strong>Checksum (​1)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>c2ec20004e797167146a7b634f15e8f7</code></li>
+<li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
+</ul>
+</li>
+<li><strong>Checksum (​2)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>b9d344812c12baca60ad4817aec3034dece73145</code></li>
+<li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></strong>: <a href="#statistics-1m">statistics-1m</a></li>
+<li><strong><abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType.">Download URL</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.2.jelly.gz">https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_1M.2.jelly.gz</a></li>
 </ul>
 <h3 id="100k-elements-flat-distribution"><a name="flat-100k"></a> 100K elements flat distribution</h3>
 <ul>
@@ -4982,13 +5230,13 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
 <li><strong>Checksum (​1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>4fa419693dbfcd60bb441411965e1f8c</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>03db433da63771d99de07346e5da4616</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
 </ul>
 </li>
 <li><strong>Checksum (​2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>876bd332a3e4b783fe127437100856414af29a01</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>4f1e0deab6eabf3d2821b16fa69d575c33d8fbf9</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
 </ul>
 </li>
@@ -5068,13 +5316,13 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
 <li><strong>Checksum (​1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>8d97e494710f5777ce7013fe747dc53e</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>e84f9bd0d93230e01879a98a5d0899e8</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
 </ul>
 </li>
 <li><strong>Checksum (​2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>c149a7f823d2e2ed42bf9944504c223891b54990</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>d54ba6c1c0d275c7052002d64998fdcc81a65751</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
 </ul>
 </li>
@@ -5082,6 +5330,53 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 </li>
 <li><strong><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></strong>: <a href="#statistics-100k">statistics-100k</a></li>
 <li><strong><abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType.">Download URL</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz">https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.jelly.gz</a></li>
+</ul>
+<h3 id="100k-elements-jelly-rdf-12-distribution"><a name="jelly12-100k"></a> 100K elements Jelly-RDF 1.2 distribution</h3>
+<ul>
+<li><strong><abbr title="A name given to the resource.">Title</abbr></strong>: 100K elements Jelly-RDF 1.2 distribution</li>
+<li><strong><abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr></strong>: <code>jelly12-100k</code></li>
+<li><strong><abbr title="Canonical file name of this distribution">Has file name</abbr></strong>: <code>jelly_100K.2.jelly.gz</code></li>
+<li><strong><abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr></strong>: <ul>
+<li><abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#partialDistribution">rb:partialDistribution</a>)</li>
+<li><a href="https://w3id.org/riverbench/schema/metadata#jelly12Distribution">metadata (dev)</a></li>
+</ul>
+</li>
+<li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
+<li><strong>RDF stream type usage (​1)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+</ul>
+</li>
+<li><strong>RDF stream type usage (​2)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> (<a href="https://w3id.org/stax/ontology#graphStream">stax:graphStream</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 100,000</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 25.4 MB</li>
+<li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/x-jelly-rdf</li>
+<li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
+<li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
+<li><strong>Checksum (​1)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>f15c9d1b612e7de33576d2d1df6f1b74</code></li>
+<li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
+</ul>
+</li>
+<li><strong>Checksum (​2)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>1e05691d8ccac4c97be3c17baade0d15267092b8</code></li>
+<li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></strong>: <a href="#statistics-100k">statistics-100k</a></li>
+<li><strong><abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType.">Download URL</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.2.jelly.gz">https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_100K.2.jelly.gz</a></li>
 </ul>
 <h3 id="10k-elements-flat-distribution"><a name="flat-10k"></a> 10K elements flat distribution</h3>
 <ul>
@@ -5106,13 +5401,13 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
 <li><strong>Checksum (​1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>85727036f9e229c2db8be97d348fdfa9</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>7213ab46f45d4942175f780f9e13bcdd</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
 </ul>
 </li>
 <li><strong>Checksum (​2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>9297a5fb88603bec10757944c27ac8abedf297fc</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>34ab3720a64db44b7c27c1abe3a66a032ea767a4</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
 </ul>
 </li>
@@ -5192,13 +5487,13 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
 <li><strong>Checksum (​1)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>6ceaa2ac5d2caf42f55d77fefd183bf0</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>0fac524be91bed7306761378dccce998</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
 </ul>
 </li>
 <li><strong>Checksum (​2)</strong>    <ul>
 <li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
-<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>ffe76beae61fabfc4ba161771ba0c95aae8024f2</code></li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>3f29140eed089b57fa85b73228214aed112da409</code></li>
 <li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
 </ul>
 </li>
@@ -5206,6 +5501,53 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 </li>
 <li><strong><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></strong>: <a href="#statistics-10k">statistics-10k</a></li>
 <li><strong><abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType.">Download URL</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.jelly.gz">https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.jelly.gz</a></li>
+</ul>
+<h3 id="10k-elements-jelly-rdf-12-distribution"><a name="jelly12-10k"></a> 10K elements Jelly-RDF 1.2 distribution</h3>
+<ul>
+<li><strong><abbr title="A name given to the resource.">Title</abbr></strong>: 10K elements Jelly-RDF 1.2 distribution</li>
+<li><strong><abbr title="An unambiguous reference to the resource within a given context.">Identifier</abbr></strong>: <code>jelly12-10k</code></li>
+<li><strong><abbr title="Canonical file name of this distribution">Has file name</abbr></strong>: <code>jelly_10K.2.jelly.gz</code></li>
+<li><strong><abbr title="Indicates the type of RiverBench dataset distribution">Has distribution type</abbr></strong>: <ul>
+<li><abbr title="A partial distribution, including only a subset of the data in the dataset. The rb:hasStreamElementCount property indicates the length of this distribution.">Partial distribution</abbr> (<a href="https://w3id.org/riverbench/schema/metadata#partialDistribution">rb:partialDistribution</a>)</li>
+<li><a href="https://w3id.org/riverbench/schema/metadata#jelly12Distribution">metadata (dev)</a></li>
+</ul>
+</li>
+<li><strong><abbr title="Inverse of stax:isUsageOf – indicates that the subject is related to a usage of an RDF stream type.  The subject for this property can be for example a published stream on the Web (e.g., vocals:RDFStream) or a scientific publication that discusses a usage of an RDF stream type.">Has stream type usage</abbr></strong>: <ul>
+<li><strong>RDF stream type usage (​1)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a flattened stream of triples. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="A flat RDF triple stream is a flat RDF stream whose elements are triples.">Flat RDF triple stream</abbr> (<a href="https://w3id.org/stax/ontology#flatTripleStream">stax:flatTripleStream</a>)</li>
+</ul>
+</li>
+<li><strong>RDF stream type usage (​2)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="Class for instances of using an RDF stream type, in a program, an academic paper, or elsewhere. This class is suitable for annotating both theoretical uses and practical ones, i.e., real streams or datasets.  Instances of this class should have the stax:hasStreamType property pointing to a concrete stream type. The stax:usedIn property is recommended to indicate where the stream is used – alternatively you can use its inverse (stax:hasStreamTypeUsage). The use of other properties (e.g., rdfs:label, rdfs:comment) is encouraged to give more context about the usage.  Note that 'stream type usage' is a subjective assertion and instances of this class may be annotated with additional provenance properties to explain who made the assertion. There can be multiple views on what type of stream is in use, depending on the involved actor, processing step, etc.">RDF stream type usage</abbr> (<a href="https://w3id.org/stax/ontology#RdfStreamTypeUsage">stax:RdfStreamTypeUsage</a>)</li>
+<li><strong><abbr title="A description of the subject resource.">Comment</abbr></strong>: The dataset can be viewed as a stream of graphs. Each graph corresponds to one measurement made by a traffic sensor. <em>(<abbr title="English">en</abbr>)</em></li>
+<li><strong><abbr title="For an RDF stream type usage, this property indicates which stream type is used.">Has stream type</abbr></strong>: <abbr title="An RDF graph stream is a grouped RDF stream whose elements are unnamed (default) RDF graphs.">RDF graph stream</abbr> (<a href="https://w3id.org/stax/ontology#graphStream">stax:graphStream</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><abbr title="Number of elements in the stream">Has stream element count</abbr></strong>: 10,000</li>
+<li><strong><abbr title="The size of a distribution in bytes.">Byte size</abbr></strong>: 2.5 MB</li>
+<li><strong><abbr title="The media type of the distribution as defined by IANA">Media type</abbr></strong>: application/x-jelly-rdf</li>
+<li><strong><abbr title="The compression format of the distribution in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.">Compression format</abbr></strong>: application/gzip</li>
+<li><strong><abbr title="The checksum property provides a mechanism that can be used to verify that the contents of a File or Package have not changed.">Checksum</abbr></strong>: <ul>
+<li><strong>Checksum (​1)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>675bbaff9c6808123ba48bf03c057b9c</code></li>
+<li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was MD5">ChecksumAlgorithm_md5</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_md5">spdx:checksumAlgorithm_md5</a>)</li>
+</ul>
+</li>
+<li><strong>Checksum (​2)</strong>    <ul>
+<li><strong>Type</strong>: <abbr title="A Checksum is value that allows the contents of a file to be authenticated. Even small changes to the content of the file will change its checksum. This class allows the results of a variety of checksum and cryptographic message digest algorithms to be represented.">Checksum</abbr> (<a href="http://spdx.org/rdf/terms#Checksum">spdx:Checksum</a>)</li>
+<li><strong><abbr title="The checksumValue property provides a lower case hexidecimal encoded digest value produced using a specific algorithm.">ChecksumValue</abbr></strong>: <code>b8a460e328900d97d054eaa3df0fe65b1622f761</code></li>
+<li><strong><abbr title="Identifies the algorithm used to produce the subject Checksum. Currently, SHA-1 is the only supported algorithm. It is anticipated that other algorithms will be supported at a later time.">Algorithm</abbr></strong>: <abbr title="Indicates the algorithm used was SHA-1">ChecksumAlgorithm_sha1</abbr> (<a href="http://spdx.org/rdf/terms#checksumAlgorithm_sha1">spdx:checksumAlgorithm_sha1</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></strong>: <a href="#statistics-10k">statistics-10k</a></li>
+<li><strong><abbr title="The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dcterms:format and/or dcat:mediaType.">Download URL</abbr></strong>: <a href="https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.2.jelly.gz">https://w3id.org/riverbench/datasets/citypulse-traffic/dev/files/jelly_10K.2.jelly.gz</a></li>
 </ul>
 <h2 id="statistics"><abbr title="Indicates the grouping (set) of statistics for a given distribution. Multiple distributions can share one set of statistics, but a distribution must have exactly one statistics set.">Statistics</abbr></h2>
 <h3 id="statistics-for-full-distributions"><a name="statistics-full"></a> Statistics for full distributions</h3>
@@ -5356,8 +5698,8 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;"><em>N/A</em></td>
 <td style="text-align: right;"><em>N/A</em></td>
 <td style="text-align: right;">232.43</td>
-<td style="text-align: right;">0.13</td>
-<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">231.61</td>
 <td style="text-align: right;">232.56</td>
 </tr>
 </tbody>
@@ -5510,8 +5852,8 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;"><em>N/A</em></td>
 <td style="text-align: right;"><em>N/A</em></td>
 <td style="text-align: right;">232.42</td>
-<td style="text-align: right;">0.24</td>
-<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">0.08</td>
+<td style="text-align: right;">231.61</td>
 <td style="text-align: right;">232.56</td>
 </tr>
 </tbody>
@@ -5664,8 +6006,8 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td style="text-align: right;"><em>N/A</em></td>
 <td style="text-align: right;"><em>N/A</em></td>
 <td style="text-align: right;">232.45</td>
-<td style="text-align: right;">0.74</td>
-<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">231.64</td>
 <td style="text-align: right;">232.56</td>
 </tr>
 </tbody>
@@ -5817,9 +6159,9 @@ See the <a href="../../documentation/dataset-release-format/">documentation</a> 
 <td><strong><abbr title="Statistics about the number of bytes needed to encode a single statement in the N-Triples/N-Quads formats. One newline character is included for each statement.  This statistic can be used as a proxy to estimate how much 'information' is in an average statement in the dataset when it is uncompressed.">Bytes per statement</abbr></strong></td>
 <td style="text-align: right;"><em>N/A</em></td>
 <td style="text-align: right;"><em>N/A</em></td>
-<td style="text-align: right;">232.40</td>
-<td style="text-align: right;">2.32</td>
-<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">232.42</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">231.94</td>
 <td style="text-align: right;">232.53</td>
 </tr>
 </tbody>
