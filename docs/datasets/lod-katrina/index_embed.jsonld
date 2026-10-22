@@ -24,7 +24,18 @@
     },
     "creator": [
         {
-            "@id": "_:b27",
+            "@id": "_:b46",
+            "@type": "Person",
+            "name": "Harshal Patni",
+            "sameAs": "https://scholar.google.com/citations?user=SepRItoAAAAJ"
+        },
+        {
+            "@id": "_:b67",
+            "@type": "Person",
+            "name": "MesoWest, a project within the Department of Meterology at the University of Utah"
+        },
+        {
+            "@id": "_:b68",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "name": "Piotr Sowiński",
@@ -32,21 +43,10 @@
                 "https://orcid.org/0000-0002-2543-9461",
                 "https://github.com/Ostrzyciel"
             ]
-        },
-        {
-            "@id": "_:b56",
-            "@type": "Person",
-            "name": "Harshal Patni",
-            "sameAs": "https://scholar.google.com/citations?user=SepRItoAAAAJ"
-        },
-        {
-            "@id": "_:b59",
-            "@type": "Person",
-            "name": "MesoWest, a project within the Department of Meterology at the University of Utah"
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -74,6 +74,21 @@
             "identifier": "stream-100k"
         },
         {
+            "@id": "https://w3id.org/riverbench/datasets/lod-katrina/dev#jelly12-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "409175",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/lod-katrina/dev#stream-full",
             "@type": [
                 "DataDownload",
@@ -89,6 +104,21 @@
             "identifier": "stream-full"
         },
         {
+            "@id": "https://w3id.org/riverbench/datasets/lod-katrina/dev#jelly12-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "59158320",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_1M.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-1m"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/lod-katrina/dev#flat-1m",
             "@type": [
                 "DataDownload",
@@ -96,7 +126,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "152842311",
+                "@value": "152842322",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_1M.nt.gz",
@@ -111,7 +141,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "992320",
+                "@value": "992517",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_10K.nt.gz",
@@ -126,7 +156,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "889320784",
+                "@value": "889320793",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_full.nt.gz",
@@ -156,12 +186,27 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "601037",
+                "@value": "522457",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_10K.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/lod-katrina/dev#jelly12-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "5473968",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_100K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-100k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/lod-katrina/dev#jelly-100k",
@@ -171,7 +216,7 @@
             ],
             "alternateName": "100K elements Jelly distribution",
             "contentSize": {
-                "@value": "10883640",
+                "@value": "7279139",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_100K.jelly.gz",
@@ -186,12 +231,27 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "712291768",
+                "@value": "455027467",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_full.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/lod-katrina/dev#jelly12-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "347538949",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/lod-katrina/dev#flat-100k",
@@ -201,7 +261,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "14361828",
+                "@value": "14361840",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/flat_100K.nt.gz",
@@ -231,7 +291,7 @@
             ],
             "alternateName": "1M elements Jelly distribution",
             "contentSize": {
-                "@value": "122342901",
+                "@value": "78660738",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/lod-katrina/dev/files/jelly_1M.jelly.gz",
