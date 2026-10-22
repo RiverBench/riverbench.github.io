@@ -24,7 +24,14 @@
     },
     "creator": [
         {
-            "@id": "_:b6",
+            "@id": "_:b21",
+            "@type": "Person",
+            "description": "Dataset creator",
+            "name": "David Soares Batista",
+            "sameAs": "https://www.politiquices.pt/about"
+        },
+        {
+            "@id": "_:b32",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "description": "Processing the dataset",
@@ -33,17 +40,10 @@
                 "https://orcid.org/0000-0002-2543-9461",
                 "https://github.com/Ostrzyciel"
             ]
-        },
-        {
-            "@id": "_:b17",
-            "@type": "Person",
-            "description": "Dataset creator",
-            "name": "David Soares Batista",
-            "sameAs": "https://www.politiquices.pt/about"
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -63,7 +63,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "1444931",
+                "@value": "1435566",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/politiquices/dev/files/jelly_10K.jelly.gz",
@@ -78,12 +78,27 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "1733346",
+                "@value": "1733571",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_10K.nt.gz",
             "encodingFormat": "application/n-triples",
             "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/politiquices/dev#jelly12-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "2527214",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/politiquices/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/politiquices/dev#stream-10k",
@@ -108,12 +123,27 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "3081968",
+                "@value": "3082133",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/politiquices/dev/files/flat_full.nt.gz",
             "encodingFormat": "application/n-triples",
             "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/politiquices/dev#jelly12-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "1422046",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/politiquices/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/politiquices/dev#stream-full",
@@ -138,7 +168,7 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "2580458",
+                "@value": "2552255",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/politiquices/dev/files/jelly_full.jelly.gz",
