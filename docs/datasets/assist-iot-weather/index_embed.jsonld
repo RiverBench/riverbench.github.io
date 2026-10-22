@@ -27,7 +27,7 @@
     },
     "creator": [
         {
-            "@id": "_:b43",
+            "@id": "_:b57",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "name": "Piotr Sowiński",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "@id": "_:b26",
+            "@id": "_:b2",
             "@type": "Person",
             "description": "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957258.",
             "name": "ASSIST-IoT Horizon 2020 project",
@@ -45,7 +45,7 @@
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -65,7 +65,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "1275470",
+                "@value": "1274856",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_10K.jelly.gz",
@@ -80,7 +80,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "4390809",
+                "@value": "4391246",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_10K.nt.gz",
@@ -125,12 +125,42 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "307498723",
+                "@value": "307499154",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_full.nt.gz",
             "encodingFormat": "application/n-triples",
             "identifier": "flat-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev#jelly12-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "39473518",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev#jelly12-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "5609749",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_100K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-100k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev#jelly-full",
@@ -140,12 +170,27 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "88921758",
+                "@value": "88851195",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_full.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev#jelly12-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "570197",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev#stream-100k",
@@ -170,7 +215,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "43840632",
+                "@value": "43841070",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/flat_100K.nt.gz",
@@ -185,7 +230,7 @@
             ],
             "alternateName": "100K elements Jelly distribution",
             "contentSize": {
-                "@value": "12674027",
+                "@value": "12663943",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/assist-iot-weather/dev/files/jelly_100K.jelly.gz",
