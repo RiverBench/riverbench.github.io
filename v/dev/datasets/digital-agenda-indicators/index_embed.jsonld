@@ -30,13 +30,7 @@
     },
     "creator": [
         {
-            "@id": "_:b11",
-            "@type": "Person",
-            "name": "European Commission, Directorate-General for Communications Networks, Content and Technology",
-            "sameAs": "https://commission.europa.eu/index_en"
-        },
-        {
-            "@id": "_:b39",
+            "@id": "_:b37",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "description": "Processing the dataset",
@@ -45,10 +39,16 @@
                 "https://orcid.org/0000-0002-2543-9461",
                 "https://github.com/Ostrzyciel"
             ]
+        },
+        {
+            "@id": "_:b54",
+            "@type": "Person",
+            "name": "European Commission, Directorate-General for Communications Networks, Content and Technology",
+            "sameAs": "https://commission.europa.eu/index_en"
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -68,12 +68,27 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "25058823",
+                "@value": "24313255",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_full.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-full"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly12-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "1685278",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_100K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-100k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#stream-1m",
@@ -98,7 +113,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "60199339",
+                "@value": "60199385",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_full.nt.gz",
@@ -113,7 +128,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "438278",
+                "@value": "438323",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_10K.nt.gz",
@@ -128,12 +143,27 @@
             ],
             "alternateName": "100K elements Jelly distribution",
             "contentSize": {
-                "@value": "1846764",
+                "@value": "1832905",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_100K.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly12-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "15825394",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_1M.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-1m"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly-1m",
@@ -143,7 +173,7 @@
             ],
             "alternateName": "1M elements Jelly distribution",
             "contentSize": {
-                "@value": "17542799",
+                "@value": "17024350",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_1M.jelly.gz",
@@ -158,12 +188,42 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "4645375",
+                "@value": "4645416",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_100K.nt.gz",
             "encodingFormat": "application/n-triples",
             "identifier": "flat-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly12-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "194685",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#jelly12-full",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "22608573",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev#stream-10k",
@@ -188,7 +248,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "199387",
+                "@value": "199007",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/jelly_10K.jelly.gz",
@@ -218,7 +278,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "42224449",
+                "@value": "42224492",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/digital-agenda-indicators/dev/files/flat_1M.nt.gz",
