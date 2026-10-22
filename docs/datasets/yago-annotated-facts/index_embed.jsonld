@@ -24,13 +24,13 @@
     },
     "creator": [
         {
-            "@id": "_:b2",
+            "@id": "_:b49",
             "@type": "Person",
-            "name": "The YAGO team of Télécom Paris and the Max Planck Institute for Informatics",
-            "sameAs": "https://yago-knowledge.org/contributors"
+            "name": "The creators and contributors of Wikidata",
+            "sameAs": "https://www.wikidata.org/"
         },
         {
-            "@id": "_:b1",
+            "@id": "_:b69",
             "@type": "Person",
             "alternateName": "Ostrzyciel",
             "name": "Piotr Sowiński",
@@ -40,14 +40,14 @@
             ]
         },
         {
-            "@id": "_:b55",
+            "@id": "_:b23",
             "@type": "Person",
-            "name": "The creators and contributors of Wikidata",
-            "sameAs": "https://www.wikidata.org/"
+            "name": "The YAGO team of Télécom Paris and the Max Planck Institute for Informatics",
+            "sameAs": "https://yago-knowledge.org/contributors"
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -60,6 +60,21 @@
     },
     "distribution": [
         {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#jelly12-100k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "8143578",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_100K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-100k"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#jelly-100k",
             "@type": [
                 "DataDownload",
@@ -67,12 +82,27 @@
             ],
             "alternateName": "100K elements Jelly distribution",
             "contentSize": {
-                "@value": "2814648",
+                "@value": "8150147",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_100K.jelly.gz",
             "encodingFormat": "application/x-jelly-rdf",
             "identifier": "jelly-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#jelly12-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "89038777",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#flat-10k",
@@ -82,12 +112,27 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "274238",
+                "@value": "868218",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_10K.nt.gz",
             "encodingFormat": "application/n-triples",
             "identifier": "flat-10k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#jelly12-10k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "831294",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
         },
         {
             "@id": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev#stream-100k",
@@ -97,7 +142,7 @@
             ],
             "alternateName": "100K elements stream distribution",
             "contentSize": {
-                "@value": "3739081",
+                "@value": "4136904",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/stream_100K.tar.gz",
@@ -112,7 +157,7 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "30277860",
+                "@value": "88090139",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_full.jelly.gz",
@@ -127,7 +172,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "30824331",
+                "@value": "95432462",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_full.nt.gz",
@@ -142,7 +187,7 @@
             ],
             "alternateName": "10K elements stream distribution",
             "contentSize": {
-                "@value": "385343",
+                "@value": "428884",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/stream_10K.tar.gz",
@@ -157,7 +202,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "263292",
+                "@value": "831052",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/jelly_10K.jelly.gz",
@@ -172,7 +217,7 @@
             ],
             "alternateName": "Full stream distribution",
             "contentSize": {
-                "@value": "37918859",
+                "@value": "42798156",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/stream_full.tar.gz",
@@ -187,7 +232,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "2587464",
+                "@value": "8485693",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/yago-annotated-facts/dev/files/flat_100K.nt.gz",

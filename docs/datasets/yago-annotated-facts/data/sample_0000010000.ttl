@@ -1,3 +1,9 @@
-<< <http://yago-knowledge.org/resource/Mihrengiz_Kadın> <http://schema.org/nationality> <http://yago-knowledge.org/resource/Ottoman_Empire> >>
-        <http://schema.org/endDate>    "1923"^^<http://www.w3.org/2001/XMLSchema#gYear>;
-        <http://schema.org/startDate>  "1869"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+[ <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies>
+          <<( <http://yago-knowledge.org/resource/Mihrengiz_Kadın> <http://schema.org/nationality> <http://yago-knowledge.org/resource/Ottoman_Empire> )>>;
+  <http://schema.org/endDate>  "1923"^^<http://www.w3.org/2001/XMLSchema#gYear>
+] .
+
+[ <http://www.w3.org/1999/02/22-rdf-syntax-ns#reifies>
+          <<( <http://yago-knowledge.org/resource/Mihrengiz_Kadın> <http://schema.org/nationality> <http://yago-knowledge.org/resource/Ottoman_Empire> )>>;
+  <http://schema.org/startDate>  "1869"^^<http://www.w3.org/2001/XMLSchema#gYear>
+] .
