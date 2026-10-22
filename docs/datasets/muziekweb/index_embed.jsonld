@@ -15,10 +15,10 @@
             "@id": "http://eurovoc.europa.eu/326"
         },
         {
-            "@id": "http://eurovoc.europa.eu/1366"
+            "@id": "http://eurovoc.europa.eu/c_5ea6e5c4"
         },
         {
-            "@id": "http://eurovoc.europa.eu/c_5ea6e5c4"
+            "@id": "http://eurovoc.europa.eu/1366"
         },
         {
             "@id": "http://eurovoc.europa.eu/2023"
@@ -30,7 +30,18 @@
     },
     "creator": [
         {
-            "@id": "_:b27",
+            "@id": "_:b10",
+            "@type": "Person",
+            "alternateName": "Ostrzyciel",
+            "description": "Processing the dataset",
+            "name": "Piotr Sowiński",
+            "sameAs": [
+                "https://orcid.org/0000-0002-2543-9461",
+                "https://github.com/Ostrzyciel"
+            ]
+        },
+        {
+            "@id": "_:b28",
             "@type": "Person",
             "name": [
                 {
@@ -43,21 +54,10 @@
                 }
             ],
             "sameAs": "https://www.beeldengeluid.nl/"
-        },
-        {
-            "@id": "_:b28",
-            "@type": "Person",
-            "alternateName": "Ostrzyciel",
-            "description": "Processing the dataset",
-            "name": "Piotr Sowiński",
-            "sameAs": [
-                "https://orcid.org/0000-0002-2543-9461",
-                "https://github.com/Ostrzyciel"
-            ]
         }
     ],
     "dateModified": {
-        "@value": "2026-06-20",
+        "@value": "2026-10-22",
         "@type": "http://www.w3.org/2001/XMLSchema#date"
     },
     "datePublished": {
@@ -70,6 +70,21 @@
     },
     "distribution": [
         {
+            "@id": "https://w3id.org/riverbench/datasets/muziekweb/dev#jelly12-1m",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "1M elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "81107729",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_1M.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-1m"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/muziekweb/dev#jelly-1m",
             "@type": [
                 "https://w3id.org/riverbench/schema/metadata#Distribution",
@@ -77,7 +92,7 @@
             ],
             "alternateName": "1M elements Jelly distribution",
             "contentSize": {
-                "@value": "86946692",
+                "@value": "80595411",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_1M.jelly.gz",
@@ -92,7 +107,7 @@
             ],
             "alternateName": "Full flat distribution",
             "contentSize": {
-                "@value": "310839792",
+                "@value": "310839969",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_full.nt.gz",
@@ -115,6 +130,36 @@
             "identifier": "stream-10k"
         },
         {
+            "@id": "https://w3id.org/riverbench/datasets/muziekweb/dev#jelly12-100k",
+            "@type": [
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
+            ],
+            "alternateName": "100K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "7837717",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_100K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-100k"
+        },
+        {
+            "@id": "https://w3id.org/riverbench/datasets/muziekweb/dev#jelly12-full",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "Full Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "236601757",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_full.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-full"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/muziekweb/dev#flat-10k",
             "@type": [
                 "DataDownload",
@@ -122,7 +167,7 @@
             ],
             "alternateName": "10K elements flat distribution",
             "contentSize": {
-                "@value": "894946",
+                "@value": "895028",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_10K.nt.gz",
@@ -137,7 +182,7 @@
             ],
             "alternateName": "Full Jelly distribution",
             "contentSize": {
-                "@value": "274069812",
+                "@value": "232097390",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_full.jelly.gz",
@@ -152,7 +197,7 @@
             ],
             "alternateName": "100K elements Jelly distribution",
             "contentSize": {
-                "@value": "8216391",
+                "@value": "7803064",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_100K.jelly.gz",
@@ -167,7 +212,7 @@
             ],
             "alternateName": "10K elements Jelly distribution",
             "contentSize": {
-                "@value": "788539",
+                "@value": "780952",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_10K.jelly.gz",
@@ -177,8 +222,8 @@
         {
             "@id": "https://w3id.org/riverbench/datasets/muziekweb/dev#stream-100k",
             "@type": [
-                "https://w3id.org/riverbench/schema/metadata#Distribution",
-                "DataDownload"
+                "DataDownload",
+                "https://w3id.org/riverbench/schema/metadata#Distribution"
             ],
             "alternateName": "100K elements stream distribution",
             "contentSize": {
@@ -220,6 +265,21 @@
             "identifier": "stream-full"
         },
         {
+            "@id": "https://w3id.org/riverbench/datasets/muziekweb/dev#jelly12-10k",
+            "@type": [
+                "https://w3id.org/riverbench/schema/metadata#Distribution",
+                "DataDownload"
+            ],
+            "alternateName": "10K elements Jelly-RDF 1.2 distribution",
+            "contentSize": {
+                "@value": "784886",
+                "@type": "http://www.w3.org/2001/XMLSchema#long"
+            },
+            "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/jelly_10K.2.jelly.gz",
+            "encodingFormat": "application/x-jelly-rdf",
+            "identifier": "jelly12-10k"
+        },
+        {
             "@id": "https://w3id.org/riverbench/datasets/muziekweb/dev#flat-100k",
             "@type": [
                 "DataDownload",
@@ -227,7 +287,7 @@
             ],
             "alternateName": "100K elements flat distribution",
             "contentSize": {
-                "@value": "8946885",
+                "@value": "8946978",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_100K.nt.gz",
@@ -242,7 +302,7 @@
             ],
             "alternateName": "1M elements flat distribution",
             "contentSize": {
-                "@value": "96991688",
+                "@value": "96991876",
                 "@type": "http://www.w3.org/2001/XMLSchema#long"
             },
             "contentUrl": "https://w3id.org/riverbench/datasets/muziekweb/dev/files/flat_1M.nt.gz",
