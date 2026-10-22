@@ -44,7 +44,7 @@ In this task, the time taken to serialize and deserialize the data is not consid
 
 !!! info
 
-    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/tasks/stream-compression.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/tasks/stream-compression.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/tasks/stream-compression.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/tasks/stream-compression.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/tasks/stream-compression.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/tasks/stream-compression.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/tasks/stream-compression.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/tasks/stream-compression.jelly)**, **[Jelly 1.2](https://w3id.org/riverbench/v/dev/tasks/stream-compression.2.jelly)**
     <br>:material-github: Source repository: **[category-stream](https://github.com/RiverBench/category-stream)**
     <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/tasks/stream-compression`](https://w3id.org/riverbench/v/dev/tasks/stream-compression)
 

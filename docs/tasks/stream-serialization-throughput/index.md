@@ -49,7 +49,7 @@ The task consists of serializing RDF data stored in memory in a grouped form (th
 
 !!! info
 
-    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.jelly)**
+    :fontawesome-solid-diagram-project: Download this metadata in RDF: **[Turtle](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.ttl)**, **[N-Triples](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.nt)**, **[RDF/XML](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.rdf)**, **[Jelly](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.jelly)**, **[Jelly 1.2](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput.2.jelly)**
     <br>:material-github: Source repository: **[category-stream](https://github.com/RiverBench/category-stream)**
     <br><abbr title="The permanent URL is guaranteed to never change and also allows for retrieving machine-readable metadata in RDF. You should always use permanent URLs to refer to tasks, profiles, or datasets in RiverBench.">:material-link-variant: Permanent URL:</abbr> [`https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput`](https://w3id.org/riverbench/v/dev/tasks/stream-serialization-throughput)
 
